@@ -6,6 +6,6 @@ This folder contains all data, scripts, graphs and notes on the plankton times s
 - Rapport/ is pretty self-explanatory for now
 
 There are miscellaneous files in the folder:
--corres.csv are only files with codes and groups together
--db_taxonomy_REPHY and its corresponding file taxonomy_pencen.RData contain all matches between REPHY and WORMS
+- corres.csv are only files with codes and groups together
+- db_taxonomy_REPHY and its corresponding file taxonomy_pencen.RData contain all matches between REPHY and WORMS
 
