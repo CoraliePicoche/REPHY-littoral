@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<ExtractFilter 
+	id="60068300"
+	name="REPHY global"
+	isInSitu="0" 
+	isJan="0" 
+	isFeb="0"
+	isMar="0" 
+	isApr="0" 
+	isMay="0" 
+	isJun="0" 
+	isJul="0" 
+	isAug="0"
+	isSep="0" 
+	isOct="0" 
+	isNov="0" 
+	isDec="0"
+	isQualif="0"
+	minX="-1" 
+	minY="-1" 
+	maxX="-1" 
+	maxY="-1">
+	<Filter name="REPHY global" originExtract="1" filterTypeId="fr.ifremer.quadrige.extractTypeId.measure.main" minX="-1" minY="-1" maxX="-1" maxY="-1">
+		<block>
+			<criteria operatorId="opEgalText.Equal" criteriaTypeId="extract.measure.main.Prog.Id">
+					<criteriaValue value="REPHY"/>
+			</criteria>
+			<criteria operatorId="opEgalText.Equal" criteriaTypeId="extract.measure.main.MonLoc.Id">
+					<criteriaValue value="1001022"/>
+					<criteriaValue value="2003002"/>
+					<criteriaValue value="3006001"/>
+					<criteriaValue value="38094108"/>
+					<criteriaValue value="32071002"/>
+					<criteriaValue value="3006022"/>
+					<criteriaValue value="19039017"/>
+					<criteriaValue value="30065002"/>
+					<criteriaValue value="31068003"/>
+					<criteriaValue value="27059001"/>
+					<criteriaValue value="12025037"/>
+					<criteriaValue value="12025001"/>
+					<criteriaValue value="19039001"/>
+					<criteriaValue value="38094002"/>
+					<criteriaValue value="14029001"/>
+					<criteriaValue value="14029050"/>
+					<criteriaValue value="16033058"/>
+					<criteriaValue value="16033001"/>
+					<criteriaValue value="18038025"/>
+					<criteriaValue value="18038012"/>
+					<criteriaValue value="21041003"/>
+					<criteriaValue value="21043016"/>
+					<criteriaValue value="25049001"/>
+					<criteriaValue value="27057005"/>
+					<criteriaValue value="28061004"/>
+					<criteriaValue value="28061064"/>
+					<criteriaValue value="32070002"/>
+					<criteriaValue value="36081002"/>
+					<criteriaValue value="36083002"/>
+					<criteriaValue value="37087001"/>
+					<criteriaValue value="40100001"/>
+					<criteriaValue value="41109006"/>
+			</criteria>
+		</block>
+	</Filter>
+	<Filter name="REPHY global" originExtract="1" filterTypeId="fr.ifremer.quadrige.extractTypeId.measure.survey" minX="-1" minY="-1" maxX="-1" maxY="-1">
+		<block>
+			<criteria operatorId="opCheckboxSurveyStatus.NoOperator" criteriaTypeId="extract.measure.Survey.Status">
+					<criteriaValue value="1;1;1;1;0;0"/>
+			</criteria>
+			<criteria operatorId="opCheckboxSurveyGeometry.NoOperator" criteriaTypeId="extract.measure.Survey.ValidGeometry">
+					<criteriaValue value="1;1"/>
+			</criteria>
+		</block>
+	</Filter>
+	<Filter name="REPHY global" originExtract="1" filterTypeId="fr.ifremer.quadrige.extractTypeId.measure.samplingOp" minX="-1" minY="-1" maxX="-1" maxY="-1">
+		<block>
+			<criteria operatorId="opCheckBoxSamplingOperStatus.NoOperator" criteriaTypeId="extract.measure.SampOp.Status">
+					<criteriaValue value="1;1;1;1;0;0"/>
+			</criteria>
+			<criteria operatorId="opCheckBoxSamplingOperGeometry.NoOperator" criteriaTypeId="extract.measure.SampOp.ValidGeometry">
+					<criteriaValue value="1;1"/>
+			</criteria>
+		</block>
+	</Filter>
+	<Filter name="REPHY global" originExtract="1" filterTypeId="fr.ifremer.quadrige.extractTypeId.measure.sample" minX="-1" minY="-1" maxX="-1" maxY="-1">
+		<block>
+			<criteria operatorId="opCheckBoxExtractStatus.NoOperator" criteriaTypeId="extract.measure.Sample.Status">
+					<criteriaValue value="1;1;1;1;0;0"/>
+			</criteria>
+		</block>
+	</Filter>
+	<Filter name="REPHY global" originExtract="1" filterTypeId="fr.ifremer.quadrige.extractTypeId.measure.result" minX="-1" minY="-1" maxX="-1" maxY="-1">
+		<block>
+			<criteria operatorId="opCheckboxResultType.NoOperator" criteriaTypeId="extract.measure.Measure.ResultType">
+					<criteriaValue value="1;1;1"/>
+			</criteria>
+			<criteria operatorId="opCheckBoxResultInSitu.NoOperator" criteriaTypeId="extract.measure.Measure.InSituLevel">
+					<criteriaValue value="1;1;1"/>
+			</criteria>
+			<criteria operatorId="opCheckBoxExtractStatus.NoOperator" criteriaTypeId="extract.measure.Measure.Status">
+					<criteriaValue value="1;1;1;1;1;1"/>
+			</criteria>
+		</block>
+	</Filter>
+	<Filter name="REPHY global" originExtract="1" filterTypeId="fr.ifremer.quadrige.extractTypeId.measure.photo" minX="-1" minY="-1" maxX="-1" maxY="-1">
+		<block>
+			<criteria operatorId="opCheckBoxPhotoResolution.NoOperator" criteriaTypeId="extract.measure.Photo.ResolutionType">
+					<criteriaValue value="1;1;1"/>
+			</criteria>
+			<criteria operatorId="opCheckBoxResultInSitu.NoOperator" criteriaTypeId="extract.measure.Photo.inSituLevel">
+					<criteriaValue value="1;1;1"/>
+			</criteria>
+			<criteria operatorId="opCheckBoxPhotoExtractStatus.NoOperator" criteriaTypeId="extract.measure.Photo.Status">
+					<criteriaValue value="1;1;1;1;1"/>
+			</criteria>
+		</block>
+	</Filter>
+	<ExtractFileType code="0"/>
+	<ExtractGroupTypePmfm code="0"/>
+	<ExtractTableType code="0"/>
+	<ExtractAgregationLevel code=""/>
+	<ExtractSurveyPeriod 
+		start="01/01/1984"
+		end="01/01/2017"/>
+	<ExtractField
+		id="60498817"
+		name="MEAS.SU_DT"
+		rank="3"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498818"
+		name="MEAS_FILE.SU_DT"
+		rank="3"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498819"
+		name="PHOTO.SU_DT"
+		rank="3"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498820"
+		name="MEAS.SU_ML_ID"
+		rank="0"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498821"
+		name="MEAS_FILE.SU_ML_ID"
+		rank="0"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498822"
+		name="PHOTO.SU_ML_ID"
+		rank="0"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498823"
+		name="MEAS.SU_ML_LB"
+		rank="2"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498824"
+		name="MEAS_FILE.SU_ML_LB"
+		rank="2"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498825"
+		name="PHOTO.SU_ML_LB"
+		rank="2"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498826"
+		name="MEAS_FILE.MSF_ID"
+		rank="11"
+        objectTypeCd="MEAS_FILE" 
+       sortType="" />
+	<ExtractField
+		id="60498827"
+		name="MEAS_FILE.MSF_PAR_CD"
+		rank="12"
+        objectTypeCd="MEAS_FILE" 
+       sortType="" />
+	<ExtractField
+		id="60498828"
+		name="MEAS_FILE.MSF_QF"
+		rank="14"
+        objectTypeCd="MEAS_FILE" 
+       sortType="" />
+	<ExtractField
+		id="60498829"
+		name="MEAS_FILE.MSF_PRCD"
+		rank="13"
+        objectTypeCd="MEAS_FILE" 
+       sortType="" />
+	<ExtractField
+		id="60498830"
+		name="PHOTO.PH_ID"
+		rank="11"
+        objectTypeCd="PHOTO" 
+       sortType="" />
+	<ExtractField
+		id="60498831"
+		name="PHOTO.PH_LEGEND"
+		rank="12"
+        objectTypeCd="PHOTO" 
+       sortType="" />
+	<ExtractField
+		id="60498832"
+		name="PHOTO.PH_QF"
+		rank="14"
+        objectTypeCd="PHOTO" 
+       sortType="" />
+	<ExtractField
+		id="60498833"
+		name="PHOTO.PH_PROGCD"
+		rank="13"
+        objectTypeCd="PHOTO" 
+       sortType="" />
+	<ExtractField
+		id="60498834"
+		name="MEAS.MEAS_PARCD"
+		rank="11"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498835"
+		name="MEAS.MEAS_NUM"
+		rank="18"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498836"
+		name="MEAS.MEAS_QUAL_VALUE"
+		rank="20"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498837"
+		name="MEAS.MEAS_QUAL"
+		rank="21"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498838"
+		name="MEAS.MEAS_PROG_CD"
+		rank="17"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498839"
+		name="MEAS.MEAS_UNIT_NM"
+		rank="14"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498840"
+		name="MEAS.MEAS_UNIT_SYMB"
+		rank="13"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498841"
+		name="MEAS.SU_ML_NM"
+		rank="1"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498842"
+		name="MEAS_FILE.SU_ML_NM"
+		rank="1"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498843"
+		name="PHOTO.SU_ML_NM"
+		rank="1"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498844"
+		name="MEAS.SU_CM"
+		rank="4"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498845"
+		name="MEAS_FILE.SU_CM"
+		rank="4"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498846"
+		name="PHOTO.SU_CM"
+		rank="4"
+        objectTypeCd="PASS" 
+       sortType="" />
+	<ExtractField
+		id="60498847"
+		name="MEAS.SO_LEVEL_NM"
+		rank="5"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498848"
+		name="MEAS_FILE.SO_LEVEL_NM"
+		rank="5"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498849"
+		name="PHOTO.SO_LEVEL_NM"
+		rank="5"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498850"
+		name="MEAS.SO_DEPTH"
+		rank="6"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498851"
+		name="MEAS_FILE.SO_DEPTH"
+		rank="6"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498852"
+		name="PHOTO.SO_DEPTH"
+		rank="6"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498853"
+		name="MEAS.SO_DEPTH_MIN"
+		rank="7"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498854"
+		name="MEAS_FILE.SO_DEPTH_MIN"
+		rank="7"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498855"
+		name="PHOTO.SO_DEPTH_MIN"
+		rank="7"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498856"
+		name="MEAS.SO_DEPTH_MAX"
+		rank="8"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498857"
+		name="MEAS_FILE.SO_DEPTH_MAX"
+		rank="8"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498858"
+		name="PHOTO.SO_DEPTH_MAX"
+		rank="8"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498859"
+		name="MEAS.SO_DEPTH_UNIT_SYMBOL"
+		rank="9"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498860"
+		name="MEAS_FILE.SO_DEPTH_UNIT_SYMBOL"
+		rank="9"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498861"
+		name="PHOTO.SO_DEPTH_UNIT_SYMBOL"
+		rank="9"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498862"
+		name="MEAS.SO_CM"
+		rank="10"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498863"
+		name="MEAS_FILE.SO_CM"
+		rank="10"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498864"
+		name="PHOTO.SO_CM"
+		rank="10"
+        objectTypeCd="PREL" 
+       sortType="" />
+	<ExtractField
+		id="60498865"
+		name="MEAS.MEAS_PARNM"
+		rank="12"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498866"
+		name="MEAS.MEAS_TAX"
+		rank="15"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498867"
+		name="MEAS.MEAS_TAX_GP"
+		rank="16"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ExtractField
+		id="60498868"
+		name="MEAS.MEAS_CM"
+		rank="19"
+        objectTypeCd="MEAS" 
+       sortType="" />
+	<ProjectionSystem code="4326"/>
+</ExtractFilter>

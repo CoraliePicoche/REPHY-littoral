@@ -1,0 +1,34 @@
+Les données cumulées ici appartiennent toutes au réseau REPHY (et non pas à REPHY-Etudes, trop localisés dans le temps, et REPHYTOX, centrés sur les toxines. On se centrera de toute façon sur les flores totales). Dans tous les cas, la période temporelle choisie couvre 1984-2016 (inclus).
+
+Q2_*_site_Tania ne comporte que les sites relevés à la page 61 de la thèse de Tania, c'est à dire des sites issues du littoral de la France métropolitaine, et choisis pour la longueur (et la rigueur ?) de leurs séries temporelles. Parmi elles, les sites L'Eperon (pour Aiguillon), Boyard, Auger et le Cornard (pour Marennes Oléron) correspondent à la publication de Guarini 2004. On peut aussi noter qu'en plus des fichiers du REPHY, on a un certain nombre de fichiers issus de sonde permettant de caractériser toute la colonne d'eau (ignorés pour l'instant) 
+
+Pour trouver les autres sites d'intérêt parmi les 1077 concernés par ce réseau d'observations, je me suis focalisée sur les points hors France métropolitaine. En passant par le programme MARTINIQUE-EAU-ETUDES, j'ai pu repérer les sites concernés par le paramètre FLORTOT ; en passant par le site en ligne SURVAL, j'ai pu trouver quatre sites concernés par FLORTOT à la Réunion, ainsi que le site de Passi-Keli (à situer plus correctement plus tard). Il n'y a rien à Mayotte, en Guyane ou en Guadeloupe. Les seules études concentrées sur la Nouvelle-Calédonie me semblent être celles autour des usines KNS et Vale. Je me suis permise d'ajouter le site de Thau-Crique de l'Angle, car je sais que Thau est un endroit particulièrement suivi. 
+
+J'ai aussi fait le tour des autres programmes d'étude susceptibles de nous concerner :
+- INRH est une surveillance phyto de la côte marocaine (66 sites), mais les données ne sont pas disponibles
+- MARTINIQUE-EAUX-ETUDES et REPHY se recoupent
+- OBSERVATOIR-EPOC compte un seul site de prélèvement (Comprians) et les données ne sont pas disponibles
+- DYMPAHY semble être le programme de suivi par Ferry-Box mais en l'absence de lieux de surveillance (puisque l'on est en ferry), impossible d'extraire les données. Même en utilisant les 184 ports d'attache disponibles, l'extraction de données est vide
+- RINBIO, centrée sur les variables biologiques, ne montrent pas de FLORTOT
+- AAMP-surveillance phytoplanctonique mène aussi à une extraction vide
+
+On en retire :
+-Q2*_other qui contient les sites hors métropole
+-Q2_*Chnord qui regroupe les sites issus du réseau SRN et non du REPHY
+
+Les fichiers .xml permettent de refaire exactement la même importation sur la base de données mise à jour (attention : je n'ai pas testé avec la nouvelle version de Quadrige).
+
+Le fichier Q2*Points.csv contient tous les points de suivi du REPHY. Il n'a que peu d'intérêt pour connaître par avance la longueur de la série temporelle car tous les points ont été créés ou renommés en 2008. En revanche, on peut en retirer la latitude et la longitude.
+
+J'ai aussi extrait les fichiers directement du site de SURVAL (dossier non inclus car trop gros), mais il semble qu'il n'y a pas toutes les espèces, contrairement à ce que l'on obtient via Quadrige. Voir dossier SURVAL (et notamment le fichier champs_dispo_SURVAL.txt). 
+
+#####Modification sur les fichiers issus de Quadrige
+
+#iconv -f iso-8859-1 -t UTF-8 resultats_par_parametre_Resultats_par_parametre_Res_DONNEES_20170418161007.csv -o donnees_par_parametres_20170418_utf8.csv
+Ligne pour convertir les données de bases de surval qui sont en iso bizarre
+#sed "s/'//g" plou.txt > ploubis.txt
+Ligne pour enlever les apostrophes qui semblent perturber le traitement de fichier
+#sed -e '/Faux\|Douteux/d' plou.csv > ploubis.csv
+Ligne pour enlever les résultats Faux ou Douteux (ce qui aurait déjà dû être fait dans les filtres)
+
+=> On ne garde que les fichiers se terminant en *_UTF8_only_good.csv

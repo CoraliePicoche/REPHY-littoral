@@ -1,0 +1,1057 @@
+Lieu_id;Lieu_libel;Lieu_mnemonique;Lieu_bathy;Lieu_com;Lien_lieu;Date_creat;Date_maj;Port;Taxon;Groupe_taxon;Longitude;Latitude
+26054001;Le Perick;061-P-001;;Correction de coordonnées le 27/04/2016 suite à la demande du LER MPL/TM (anciennes coordonnées : 47.5919963656,-2.8873442736);;13/06/2008;27/04/2016;;;;-2.88243;47.59322
+16033059;Estuaire (aval Pennelée) - MX12;034-P-012;;;;13/06/2008;;;;;-3.8589824092;48.6109186606
+18038053;Gisement Rascasse;039-P-110;20;;;13/06/2008;;;;;-4.4122239105;48.298662423
+16033002;Port de Morlaix;034-P-002;;;;13/06/2008;;;;;-3.8382214883;48.5911767414
+32071002;Auger;082-P-001;-0.8;Coordonnées corrigées le 30/12/2015 à la demande du LER (anciennes coordonnées Long=-1.2056036468 et Lat=45.8076397344). Pour le suivi RAZLEC, ce lieu représente la station "Auger Est".;;13/06/2008;30/12/2015;;;;-1.20527;45.799805
+21042007;Ile Tudy;045-P-006;-1;;;13/06/2008;27/02/2014;;;;-4.1708741903;47.8483208059
+4007014;Jetée Dieppe;008-P-011;5;;;13/06/2008;;;;;1.0848382579;49.9249367848
+60002984;Golfe de Saint Florent;122-P-113;0;;;21/01/2010;21/01/2010;;;;9.3084902434118;42.7081804465902
+37089002;Canal du Rhône;105-P-002;;;;13/06/2008;;;;;3.8487066396;43.4886410807
+60001840;Grandcamp gisement;014-P-059;;;;11/08/2009;11/08/2009;;;;-1.02455;49.41446667
+12025022;Arguenon pt g1;022-P-014;;;;13/06/2008;;;;;-2.2023581694;48.6098633932
+60004870;Etang du Grazel Ouest;101-P-013;;Lieu ajouté à la demande du REMI.;;19/12/2011;29/10/2015;;;;3.106733;43.106517
+25049001;Men er Roue;055-P-001;10;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.0946799292-47.5346591927). Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-3.093748;47.534765
+28060011;Bonne Source;069-P-010;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.2504944223 / -2.3364921796);;13/06/2008;05/12/2016;;;;-2.332777;47.249444
+60006820;Mzouazia (Baie centre) 31;145-P-015;40;Station 31 - étude Def RCS;;21/03/2014;21/03/2014;;;;45.0809002212835;-12.9435003017501
+37087019;Montpenèdre (b);104-P-018;;Coordonnées modifiées sur la demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.572952;43.382963
+16033020;Tromeal;033-P-009;-1.6;;;13/06/2008;;;;;-3.9743936145;48.6991778521
+18038017;Le Prioldy;039-P-076;;;;13/06/2008;;;;;-4.2270537104;48.291164471
+16033037;Goaz ar Rous;035-P-014;;;;13/06/2008;;;;;-3.9425572402;48.6098426247
+5011007;Bouée Carosse;010-P-052;10;;;13/06/2008;;;;;0.0253285446;49.4842458575
+12025001;St Cast;022-P-002;1;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.2431931057 - 48.64069704).;;13/06/2008;26/11/2013;;;;-2.24367214;48.64318061
+11024002;Pointe du Puits;021-P-003;7;Petit ajustement (point trop central). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.58691412 / -1.98457529);;13/06/2008;24/10/2016;;;;-1.9847436;48.586589
+60002980;Littoral Bastiais;115-P-020;0;;;21/01/2010;21/01/2010;;;;9.46304968819152;42.6758298129149
+17035034;Aval Moulin de lEnfer - AW11;037-P-031;;;;13/06/2008;;;;;-4.5265590871;48.5950668386
+32072027;Cotard;083-P-015;-5;;;13/06/2008;;;;;-1.1112678391;45.7751400337
+34077071;Comprian (e);088-P-058;-3;Correction des coordonnées le 24/07/2012 à la demande du LER. Anciennes coordonnées (-1.0692426788 - 44.6666156244).;;13/06/2008;24/07/2012;;;;-1.099283;44.680217
+37089371;PRE - Prévost Est;105-P-182;0.8;Rinbio 11E. Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.9168738827;43.5291426247
+25048005;Taillefer;054-P-005;22;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.1331889487-47.4034538691). Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-3.133189;47.403454
+7015031;La Hougue;015-P-030;2;;;13/06/2008;;;;;-1.2805001139;49.57666809
+60002387;Pointe Borgnesse;125-P-042;10;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.4433926775 et Long -60.8993854355).;;24/11/2009;15/11/2016;;;;-60.90618367;14.44823372
+13027001;Jospinet;025-P-010;;;;13/06/2008;;;;;-2.6040308349;48.550690457
+6013013;Meuvaines ouest;012-P-009;2;;;13/06/2008;;;;;-0.5671796796;49.3492353422
+60007519;MEC- Kourou Côte;146-P-033;0;Kourou Côte;;30/10/2014;30/10/2014;;;;-52.6300010058338;5.17165962582982
+60006824;Passi Keli (Pointe) H19;145-P-019;31;Station 19/H19/B21 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.1252997384832;-13.0030999798833
+60006843;Moya (large) 32;145-P-038;90;Station 32 - études Def RCS;;21/03/2014;21/03/2014;;;;45.3031995574331;-12.7887004626836
+60008770;Le Castel 2;028-P-031;;Point créé à la demande du LERBN pour les données REMI palourdes le 19/10/2016;;19/10/2016;19/10/2016;;;;-3.209636111;48.8560693
+60007515;MET- KOUROU (Passoura);146-P-029;0;Passoura;;30/10/2014;30/10/2014;;;;-52.6999989941662;5.1505602494468
+60002539;TRIEUX - 22152E04;027-P-044;;;;02/12/2009;02/12/2009;;;;-3.13263126131562;48.7248823174412
+17035030;Ouessant - cale de Porz Arlan;037-P-028;5;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -5.0505729148-48.4551019204).;;13/06/2008;15/04/2013;;;;-5.049083;48.456178
+60002468;ETEL - 56ET 23;053-P-029;;;;02/12/2009;02/12/2009;;;;-3.20998390665861;47.6472983303158
+60002475;CRACH - 56G 210;057-P-016;;;;02/12/2009;02/12/2009;;;;-3.04907563870449;47.6261315630658
+1001007;Epi ouest;001-P-005;;;;13/06/2008;;;;;2.3863343364;51.0551503748
+8017003;Le Tunard;016-P-009;8;;;13/06/2008;;;;;-1.8265477309;49.7028966793
+29064003;Anse du Piquet;074-P-025;0;;;13/06/2008;;;;;-1.6496263509;46.4341493694
+19039001;Kervel;040-P-001;-0.6;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -4.2847166952-48.1161594039).;;13/06/2008;27/02/2014;;;;-4.285148;48.115657
+19036001;Ile de Sein;038-P-002;-0.8;;;13/06/2008;09/07/2010;;;;-4.8638917087;48.0431506003
+14029020;Pommelin;027-P-011;;;;13/06/2008;;;;;-3.0927144099;48.8356919741
+36083002;Parc Leucate 2;097-P-002;;;;13/06/2008;10/08/2009;;;;3.0143685963;42.8727865115
+14029051;Roche Jagu aval confluent Leff - 22152E06;027-P-029;;Modification des coordonnées à la demande de la DREAL Bretagne le 26/08/2016. La CQEL a vérifié les coordonnées. Anciennes coordonnées : 48.7338354832 / -3.1369791101;;13/06/2008;26/08/2016;;;;-3.14572;48.73359
+36085333;BGN - Bages Nord;100-P-044;2;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0020303544;43.126958354
+10023010;Vieux plan Est;020-P-012;;Correction des coordonnées à la demande du LER le 19/10/2012 : anciennes coordonnées (-1.7630171182 - 48.6347025342).;;13/06/2008;19/10/2012;;;;-1.76339144;48.63826047
+60002512;TRIEUX - 22152E01;027-P-038;;;;02/12/2009;02/12/2009;;;;-3.16383625025145;48.6888111044055
+18038062;Aval Guily Glaz - 29AL33;039-P-118;;;;13/06/2008;;;;;-4.1071376223;48.2074904859
+60000680;Gironde - PK 52 DCE;085-P-087;;;;30/03/2009;30/03/2009;;;;-0.726251;45.2456
+34077063;Jetée de Piquey;088-P-052;-2;;;13/06/2008;;;;;-1.210746238;44.7134484398
+50135003;Pointe de la Table;126-P-003;;;;13/06/2008;;;;;55.8133327506;-21.3323334567
+21041002;Moutons;043-P-002;;;;13/06/2008;09/07/2010;;;;-4.0287032344;47.7821542102
+7015029;St Vaast Sud;015-P-028;-5;;;13/06/2008;;;;;-1.2880331139;49.5593992028
+60003030;CRE-Scamandre-Crey-Charnier;107-P-026;0;;;15/02/2010;15/02/2010;;;;4.32006035003016;43.6310480788574
+23045003;Etang de Ter;050-P-001;;;;13/06/2008;;;;;-3.4011906406;47.7336604715
+22044028;Cost er Lann - 29LA05;048-P-024;;;;13/06/2008;;;;;-3.5293783528;47.8123558955
+60002516;ARGUENON - 22006E05;022-P-036;;;;02/12/2009;02/12/2009;;;;-2.21387547777107;48.5736803460069
+26053025;Port-Blanc;060-P-019;;;;13/06/2008;;;;;-2.9571797072;47.6239963341
+16033001;Pen al Lann;034-P-001;-3;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.8938912007-48.6650112857).;;13/06/2008;27/02/2014;;;;-3.8944;48.665109
+60002393;Rocher du Diamant;125-P-048;15;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.443977067 et Long -61.0406085295).;;24/11/2009;15/11/2016;;;;-61.04006074;14.44400875
+30065035;Pertuis Breton gisement 01;076-P-030;3;Libellé modifié à la demande du LER-PC le 15/03/2011 (ancien libellé : PB coquilles st jacques).;;13/06/2008;15/03/2011;;;;-1.3214481278;46.1996475482
+60006829;Bambo (Anse sud) H20;145-P-024;31;Station 20/H20/B26 - études Def RCS + RHLM actif;;21/03/2014;15/06/2015;;;;45.1885003017501;-12.9345001005834
+27057004;Le Marescle;063-P-001;5;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14). Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.4628310812 / -2.4971671438);;13/06/2008;05/12/2016;;;;-2.49768;47.46109
+24046010;Etel - Pierres noires;052-P-010;28;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.2420173182-47.5881587719). Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-3.241081;47.588262
+18037002;Pen an Trein (a);039-P-002;-2;;;13/06/2008;27/02/2014;;;;-4.3208920977;48.4148331128
+10023002;Hermelles 1;020-P-004;;Le point nétait pas / plus dans la bonne zone (35.15 au lieu de 35.14). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.6690379838 / -1.6583493582);;13/06/2008;24/10/2016;;;;-1.6617513;48.6664193
+60002531;JAUDY - 22171E08;028-P-019;;;;02/12/2009;02/12/2009;;;;-3.22512472339571;48.7935847917924
+60003360;VCS-Vaccarès;108-P-067;;Ajouté suite à la demande de Nathalie Malet et Valérie Dérolez en avril 2010;;29/04/2010;29/04/2010;;;;4.60269965801649;43.53570006035
+22044030;Amont port Kerdruc Rosbras - 29AV02;048-P-026;;;;13/06/2008;;;;;-3.7449174588;47.8201501942
+25055213;Nord Artimon;062-P-010;;;;13/06/2008;;;;;-2.8013372361;47.3773254463
+60002460;BLAVET - 56B 500;050-P-060;;;;02/12/2009;02/12/2009;;;;-3.33283846308589;47.7383645141823
+50137007;Saint Paul (Large);126-P-020;;Les coordonnées ont été modifiées afin de rapprocher les lieux de surveillance hydrologique des lieux de surveillance du benthos et ainsi optimiser la stratégie de surveillance DCE. Les nouvelles coordonnées sont valables pour les acquisitions effectuées à partir de 2012.;;13/06/2008;11/06/2012;;;;55.256967;-20.997833
+36085002;Milieu bages;100-P-003;;;;13/06/2008;;;;;3.0020313402;43.0736239034
+40103006;Ile du soleil;113-P-010;;;;13/06/2008;;;;;6.4196678298;43.0148322181
+60007471;MET- COMTE (Mahury);146-P-005;0;Mahury;;30/10/2014;30/10/2014;;;;-52.3327750955542;4.74444578555622
+60002487;VANNES - 56G 760;061-P-084;;;;02/12/2009;02/12/2009;;;;-2.78331522832428;47.6310269563468
+18037016;Anse de Kerhuon - EL15;039-P-016;;;;13/06/2008;;;;;-4.3772110518;48.4004154016
+30065008;Rivedoux (a);076-P-008;-2.8;;;13/06/2008;;;;;-1.2707796809;46.1633139317
+32070006;Dagnas (a);080-P-012;;;;13/06/2008;;;;;-1.1766045508;45.8708081809
+18038059;Gisement Lanvéoc;039-P-115;20;;;13/06/2008;27/02/2014;;;;-4.4517245964;48.2978285911
+12025006;Fresnaie f4;023-P-005;;;;13/06/2008;;;;;-2.2923607722;48.6431965238
+60007488;MET- MANA (Ilet Mana);146-P-022;0;Ilet Mana;;30/10/2014;30/10/2014;;;;-53.7982267149467;5.70897002615168
+60004701;Tête à lAnglais;124-P-025;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.76451;16.3836
+34077057;Banc des chiens;087-P-006;;;;13/06/2008;;;;;-1.2512441614;44.5822784719
+38094021;Grand Rhône;109-P-019;;;;13/06/2008;;;;;4.8026672593;43.3858331785
+22044024;Moulin mer - 29BE08;048-P-020;;;;13/06/2008;;;;;-3.6394307796;47.8288583301
+26053002;Kerouarch;060-P-002;;;;13/06/2008;;;;;-2.9510120084;47.5881621916
+38093005;Stes Maries 5;106-P-013;1.5;;;13/06/2008;;;;;4.4432190083;43.4493127255
+18038029;Les Fillettes;039-P-087;2;;;13/06/2008;;;;;-4.6043946173;48.3206606473
+36081002;Barcares;095-P-002;;Correction des coordonnées du lieu à la demande du LER/LR (anciennes coordonnées Latitude 42.7971185388 et Longitude 3.0405371394).;;13/06/2008;24/06/2014;;;;3.057233;42.874567
+16033012;Pont de la Corde;035-P-002;;Correction des coordonnées le 29/05/2012 à la demande du LER. Anciennes coordonnées (48.6450100627-3.9528917289).;;13/06/2008;27/02/2014;;;;-3.9535444444;48.6455027778
+25050007;Pointe Colomban;055-P-022;;;;13/06/2008;;;;;-3.0996806139;47.5578263685
+60000167;Etang de Vic - Puech Long;105-P-145;;;;11/12/2008;10/02/2012;;;;3.8435;43.505683
+27056016;Penvins;062-P-013;;;;13/06/2008;;;;;-2.6680041174;47.4823295696
+60002439;AULNE - 29AL34;039-P-191;;;;02/12/2009;02/12/2009;;;;-4.09001106417219;48.2568125125729
+38095003;Varage;110-P-004;;;;13/06/2008;;;;;5.0225634318;43.4694854461
+7014017;St Germain de Varreville;014-P-017;-1;Coordonnées modifiées le 25/08/2009 (anciennes coordonnées : lat = 49.451730567, long = -1.2096952416);;13/06/2008;25/08/2009;;;;-1.208333333;49.45266667
+6012011;Franceville parking;010-P-111;-2;;;13/06/2008;;;;;-0.2006707974;49.2922380683
+37087026;P. Saumes(mer);102-P-002;;;;13/06/2008;;;;;3.5582041426;43.3193012586
+9020001;Agon (a);018-P-018;-2.5;;;13/06/2008;;;;;-1.6290258097;49.0527150237
+38093001;Contesse;106-P-010;;;;13/06/2008;;;;;4.5775552474;43.4351470604
+9021013;Pointe Agon nord;018-P-056;-2;;;13/06/2008;;;;;-1.6055243239;49.0148809711
+28060048;Indre - 44 L015 (148000);070-P-022;;Référence point DDTM : PMR044044074ER00000015. Type de suivi : Loire.;;13/06/2008;17/07/2014;;;;-1.6745985245;47.1952990276
+32071013;Ronce;082-P-009;3.1;Le recadrage terrain nest pas possible car le point Q2 est dans la vase. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (45.7924728073 /-1.197603155);;13/06/2008;17/10/2016;;;;-1.194683;45.79487
+17035002;Poulloc;037-P-002;-5.4;;;13/06/2008;;;;;-4.5890686353;48.5983344941
+10023024;Cancale nord (b);020-P-026;3.3;;;13/06/2008;;;;;-1.8447347942;48.6762126503
+40100002;Anse Méjean;112-P-002;;;;13/06/2008;;;;;5.9726672172;43.1073333493
+10023019;Dragey;020-P-021;-2;;;13/06/2008;;;;;-1.5213477557;48.7078739293
+21043007;Pendruc;047-P-007;;;;13/06/2008;;;;;-3.8913687437;47.8319904089
+16033030;Goueles;033-P-012;8;;;13/06/2008;;;;;-3.88805861;48.6958454772
+25051012;Kerisper;057-P-011;12;Bathymétrie indiquée par le LER/MPL/TM (R. Gabellec, 27/02/2014).;;13/06/2008;27/02/2014;;;;-3.0125132233;47.591661556
+26054009;Iluric;061-P-009;;;;13/06/2008;21/04/2009;;;;-2.7903418458;47.566663545
+60004694;Caye à dupont;124-P-018;13;Lieu créé le 11/10/2011 demande de C. Belin.;;11/10/2011;15/04/2014;;;;-61.5451669684168;16.1607171595252
+18038005;St Fiacre;039-P-065;-1.5;;;13/06/2008;;;;;-4.5338924765;48.2883273588
+43114001;Diana centre;118-P-001;9;Coordonnées modifiées le 20/04/2010 suite à la demande du LER-PAC Corse (Marc Bouchoucha).;;13/06/2008;07/10/2013;;;;9.52861;42.12775
+60007479;MEC- Iles du Connétable;146-P-013;0;Iles du Connétable;;30/10/2014;30/10/2014;;;;-51.9333373566687;4.825
+60002495;GOLFE - 56G 780;061-P-090;;;;02/12/2009;02/12/2009;;;;-2.79257091128545;47.6105009052505
+28061003;Gresseloup;071-P-003;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (46.9458227192 / -2.1336475796);;13/06/2008;05/12/2016;;;;-2.1336475796;46.9458227192
+43112001;BIN - Biguglia nord;116-P-001;1.5;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;9.4523333281;42.6351664007
+60007430;Trou bleu;125-P-070;;Lieu créé le 23/09/2014 dans le cadre de la surveillance DCE 2014, demande de J. GARNIER CARRONNIER (ODE972). Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.76872548 et Long -61.20030448).;;23/09/2014;15/11/2016;;;;-61.19896724;14.76644664
+9018007;Dielette;017-P-006;;;;13/06/2008;;;;;-1.9195002266;49.5499997947
+6013008;Port en Bessin;013-P-001;0.5;Fusion des lieux 013-P-001/Port en Bessin (a)/6013008 et 013-P-012/Port en Bessin/6013111 le 14/09/2012.;;13/06/2008;17/09/2012;;;;-0.7531834463;49.3515665687
+60002464;BLAVET - 56B 710;049-P-025;;;;02/12/2009;02/12/2009;;;;-3.37648058740697;47.677776101388
+8017019;Rade de Cherbourg;016-P-024;;;;13/06/2008;;;;;-1.6080422933;49.6620648454
+37088011;La Grande Motte;102-P-014;;;;13/06/2008;;;;;4.0940435776;43.5526448748
+60002433;ABER WRACH - 29AW07;037-P-073;;;;02/12/2009;02/12/2009;;;;-4.55949909474955;48.6000341983504
+60002479;Pont César - 56G470;060-P-035;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé AURAY - 56G 470).;;02/12/2009;16/04/2013;;;;-2.97030074431703;47.6392979279823
+60002483;Aval Port Anna - 56G775;061-P-080;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé VANNES - 56G 775).;;02/12/2009;16/04/2013;;;;-2.78003118084894;47.6195171997586
+43114102;Etang dUrbino - Centre;119-P-004;;;;13/06/2008;10/02/2010;;;;9.47751;42.04613
+21042031;Aval port Corniguel - 29OD08;046-P-006;;;;13/06/2008;;;;;-4.0989160743;47.9681429602
+4009017;Fécamp 1 mille;009-P-023;;;;13/06/2008;;;;;0.3425004242;49.7730007236
+60002535;TRIEUX - 22152E12;027-P-040;;;;02/12/2009;02/12/2009;;;;-3.06523737678535;48.8299919533293
+60002503;GOLFE - 56G 915;061-P-091;;;;02/12/2009;02/12/2009;;;;-2.75579561456448;47.592985314826
+26053019;Anse de Baden;060-P-017;;;;13/06/2008;;;;;-2.9298450012;47.5899958182
+28060002;Port Lin;069-P-002;;;;13/06/2008;;;;;-2.5088295232;47.2839932414
+60004690;Sec Pointe à Lézard;124-P-014;12;Lieu créé le 11/10/2011 demande de C. Belin. Correction libellé le 05/01/2012 (ancien libellé "Sec Pointe à Lézard - Deshaies"). Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.78078;16.14025
+5011003;Villers sur mer;010-P-048;1;;;13/06/2008;;;;;3.321517E-4;49.3327414801
+9021026;Coudeville1 mille;018-P-068;1;;;13/06/2008;;;;;-1.595167397;48.8896678072
+60007525;MET- KOUROU (Pont RN1);146-P-039;0;Pont RN1 (Kourou);;30/10/2014;30/10/2014;;;;-52.6718044659022;5.15027258096963
+14030004;Le Castel;028-P-003;4;Petit ajustement (prélèvement effectué à partir dune poche précise). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (48.85423036 / -3.20816698);;13/06/2008;24/10/2016;;;;-3.2078817;48.8543096
+30066005;Pelle mer;077-P-005;-3.3;;;13/06/2008;;;;;-1.1627793826;46.2366501933
+4009004;Yport;009-P-014;-1;;;13/06/2008;;;;;0.306327275;49.7394227191
+28060023;Joalland (a);070-P-004;;;;13/06/2008;;;;;-2.2214877992;47.1596602093
+60002555;LAÏTA - 29LA01;048-P-045;;;;02/12/2009;07/12/2009;;;;-3.53074331120499;47.7708730637699
+60004705;Chicot;143-P-001;13;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-62.983;18.10853
+14029013;Mellus;027-P-006;2.5;Ajustement / évolution des concessions, le prélèvement se fait sur le fait sur les tables qui borde les tables à huitres. Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.8166916567 / -3.0782136168);;13/06/2008;24/10/2016;;;;-3.0792913;48.8160472
+23045013;Ban-Gavres;051-P-023;5;Correction des coordonnées le 08/11/2011 (anciennes coordonnées 47.7026602849-3.352355615 / ancien mnémonique 049-P-002), demande faite par LER/FBN/La Trinité. Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-3.35;47.701
+32070028;Brouage;080-P-026;0.8;;;13/06/2008;;;;;-1.1251043345;45.9029761645
+60002526;LEGUER - 22225E03;032-P-045;;;;02/12/2009;02/12/2009;;;;-3.47000301750151;48.7362301347817
+60001822;Aval Port Anna;061-P-077;;;;04/08/2009;04/08/2009;;;;-2.780367;47.620167
+7015024;Gatteville phare;015-P-023;-2;;;13/06/2008;;;;;-1.2620363993;49.6950698379
+60006910;Etang des Salines - Centre;125-P-062;;Lieu créé le 14/04/2014 (demande du 28/01/2014 par aubert-moulin@creocean.fr).;;14/04/2014;14/04/2014;;;;-60.8703309193321;14.4038070810702
+26054004;Gravellic;061-P-004;;;;13/06/2008;;;;;-2.8365106437;47.6168309059
+37088023;Agde;102-P-026;20;;;13/06/2008;;;;;3.5209328718;43.2589662754
+38095008;Berre sud;110-P-009;;;;13/06/2008;;;;;5.1063326897;43.4185001478
+29062006;Pointe du But;072-P-006;;;;13/06/2008;;;;;-2.4001471204;46.7266477503
+37090356;ORE - Or Est;105-P-127;1.2;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;4.0415420194;43.5811449754
+60004430;Anse Bertrand;124-P-013;12;Libellé et coordonnées corrigés le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 05/01/2012 (anciennes 16.4938-61.5143). Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;21/03/2011;15/04/2014;;;;-61.51938;16.47405
+60002452;RANCE - 35EER6;021-P-078;;;;02/12/2009;02/12/2009;;;;-1.96955441561053;48.5338845302756
+60002471;Pont de Kernivilit - 56G240;057-P-014;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé CRACH - 56G 240).;;02/12/2009;15/04/2013;;;;-3.02281633474149;47.5927197746932
+6012015;Home Varaville;010-P-114;-1;;;13/06/2008;;;;;-0.1551698342;49.2904052122
+33075006;Suzac;085-P-003;;;;13/06/2008;;;;;-0.9927612009;45.5773034765
+60002549;ABER BENOIT - 29AB07;037-P-070;;;;02/12/2009;02/12/2009;;;;-4.59473043653188;48.5700694025347
+27056004;Port Groix;064-P-004;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5304981752 / -2.6031708143);;13/06/2008;05/12/2016;;;;-2.60447;47.5307
+34077003;Graouères;088-P-003;;;;13/06/2008;;;;;-1.1794124177;44.7171155285
+60002550;ABER BENOIT - 29AB08;037-P-071;;;;02/12/2009;02/12/2009;;;;-4.61710722188695;48.5834550392275
+9021012;Granville;018-P-055;-3;;;13/06/2008;;;;;-1.5983527691;48.8393764547
+38091002;Comète;107-P-003;;;;13/06/2008;;;;;4.2397147006;43.466144435
+50135007;Large de Ste Rose;126-P-007;;;;13/06/2008;25/11/2009;;;;55.8644669883;-21.1366335653
+28060049;Ste Luce - 44L014 (137000);070-P-023;;Référence point DDTM : PMR044044172ER00000014. Type de suivi : Loire. Faut-il corriger les coordonnées? Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé Ste Luce - 44 LO14 (137000)).;;13/06/2008;17/07/2014;;;;-1.4675724193;47.2402191603
+60002428;PENZE - 29PZ14;035-P-024;;;;02/12/2009;02/12/2009;;;;-3.93569000201165;48.6673828203581
+4007001;Pourville;008-P-001;-3;;;13/06/2008;;;;;1.0233371729;49.9177692151
+34077051;Grand Piquey;088-P-046;;;;13/06/2008;;;;;-1.2099129469;44.7161151739
+20040008;Baie Audierne gisement;042-P-008;5;;;13/06/2008;;;;;-4.7450519216;47.8806480346
+60006828;Passe MTsamboro (Aval Large Sud est) 29;145-P-023;66;Station 29 - études Def RCS;;21/03/2014;21/03/2014;;;;45.1650995775498;-12.6235003017502
+60007484;MET- IRACOUBO (Dégrad Fiéviée);146-P-018;0;Degrad Fiévée;;30/10/2014;30/10/2014;;;;-53.227929993965;5.46251156708912
+39097007;Cap Canaille;111-P-128;;Rinbio 21F. Changement de libellé le 03/11/2011, demande faite par MCFabri, ancien libellé "Cassis".;;13/06/2008;08/11/2011;;;;5.5528323998;43.187332763
+60006730;CHA-Scamandre-Crey-Charnier;107-P-030;;Lieu créé le 30/01/2014 à la demande du LER.;;30/01/2014;30/01/2014;;;;4.301231;43.62
+29064013;Les Sables;074-P-035;;;;13/06/2008;;;;;-1.7932969712;46.489315713
+37089376;INN - Ingril Nord;105-P-183;0.9;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.7858728044;43.4498062936
+7015026;Moulard;015-P-025;-2;;;13/06/2008;;;;;-1.2382014527;49.6544023534
+60002456;Vieux pont de bois -  56B520;050-P-056;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé SCORFF - 56B 520).;;02/12/2009;15/04/2013;;;;-3.37366224099779;47.7814644940656
+6013017;Extérieur gisement baie de Seine;003-P-020;30;;;13/06/2008;;;;;-0.668023749;49.665742703
+60007521;MEC- Pointe Béhague;146-P-035;0;Pointe Béhague;;30/10/2014;30/10/2014;;;;-51.8983373566687;4.68999597666466
+30066003;Sèvre rive droite (bouée 8);077-P-004;-4;;;13/06/2008;;;;;-1.1457804634;46.2966517954
+9021007;Bricqueville sud;018-P-050;-3;;;13/06/2008;;;;;-1.586021496;48.9245454949
+50137003;Large Ermitage;126-P-016;;Libellé modifié le 12/02/10. Libellé modifié le 17/02/2012 pour correspondre à la terminologie officielle administrative.;;13/06/2008;17/02/2012;;;;55.2059995084;-21.0909995274
+60002960;Cortiou;111-P-330;;;;19/01/2010;18/12/2014;;;;5.380869;43.1964081673707
+60006818;MTsahara (Baie centre) 8;145-P-013;50;Station 8/B11 - études Def RCS;;21/03/2014;21/03/2014;;;;45.0738996177832;-12.6740997787166
+22044002;LIle;048-P-002;-3;;;13/06/2008;27/02/2014;;;;-3.7006982393;47.8168256381
+4007015;Dieppe 1 mille;008-P-012;15;;;13/06/2008;;;;;1.052837178;49.9399368336
+24047002;Port Etel;053-P-002;5;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-3.2071851116;47.6564941943
+24046002;Porz Stang;052-P-002;;;;13/06/2008;;;;;-3.1516802294;47.5058244841
+18038026;Camaret (a);039-P-084;;;;13/06/2008;;;;;-4.5853931117;48.2778264725
+3006001;At so;006-P-001;5.4;;;13/06/2008;;;;;1.4745046439;50.2312831163
+29063001;Dunes de Brétignolles;074-P-001;0;Correction des coordonnées le 21/05/2012 à la demande du LER. Anciennes coordonnées (46.5901508583-1.8441336441).;;13/06/2008;21/05/2012;;;;-1.842746;46.590478
+27057008;Ile Dumet (a);063-P-004;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.590334473,47.4211623093).;;13/06/2008;16/04/2013;;;;-2.590322;47.42117
+60004207;Le Bassin pirogue - Etang salé (Platier);126-P-034;0;Lieu de surveillance des coraux et poissons (Réserve Marine La Réunion). Lieu correspondant au point central des transects suivis. T1/T2 Sud et T3 Nord. Apport deau douce : Résurgences importantes dans le « lagon » (nappes phréatiques). Infrastructure : Proche Abri côtier de lEtang Salé (année dutilisation années 60), ponton et cale mise à leau construits dans les années 1990-2000. Lutilisation en temps quabri côtier date des années 60. Il y a eu aussi plusieurs travaux pour agrandir la passe pour faciliter laccès aux barques. Par contre il y a beaucoup de maisons proches du bord du « lagon ». Activités subaquatiques : Site fréquenté snorkelling. Pêche : Site de pêche traditionnelle dans la RNMR de puis la RNMR mais aussi avant.;;03/12/2010;20/01/2012;;;;55.3329199356266;-21.2695101589217
+60002437;GOYEN - 29GY03;042-P-041;;;;02/12/2009;02/12/2009;;;;-4.52384530275597;48.0369915509958
+49130203;Banc Gamelle;125-P-005;21;Modification des coordonnées suite à la demande de CBelin le 18/04/2011. Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.5806003055 et Long -61.0415028128).;;13/06/2008;15/11/2016;;;;-61.04121345;14.57971731
+60002525;LEGUER - 22225E04;032-P-044;;;;02/12/2009;02/12/2009;;;;-3.47746328706498;48.739090726212
+42117002;Pianotolli;122-P-002;;;;13/06/2008;;;;;9.0606784149;41.4656468575
+60002507;PONT LABBE - 29PA22;045-P-019;;;;02/12/2009;02/12/2009;;;;-4.1713538523436;47.8345433514384
+10023051;Saint Michel;020-P-052;1;;;13/06/2008;;;;;-1.551333848;48.6646674562
+36083010;Salses-Leucate;097-P-010;;;;13/06/2008;;;;;3.0152030459;42.8124519387
+60002444;ELORN - 29EL17;039-P-196;;;;02/12/2009;02/12/2009;;;;-4.40034801850734;48.3874361295514
+27058002;La Turballe;062-P-019;;;;13/06/2008;;;;;-2.515831229;47.3468280253
+36084313;LAP - La Palme;098-P-014;0.5;;;13/06/2008;;;;;3.0067000625;42.9667883871
+60004695;Main Jaune;124-P-019;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.24408;16.24093
+20040004;La Torche;042-P-004;-2;;;13/06/2008;;;;;-4.3492104385;47.8381517522
+13027032;Saint-Brieuc coques;025-P-037;2;Déplacement du gisement naturel. Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (48.54404593 / -2.68376825);;13/06/2008;24/10/2016;;;;-2.6827252;48.5425552
+60002490;NOYALO - 56G 885;061-P-087;;;;02/12/2009;02/12/2009;;;;-2.69452524642929;47.6187849527258
+60006831;Prévoyante (ESt nord est) H6;145-P-026;23;Station 6/H6/B07 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.1949004224502;-12.6828002414001
+60002521;ARGUENON - 22006E03;022-P-041;;;;02/12/2009;02/12/2009;;;;-2.22756990545162;48.5289569503118
+10023006;Cherrueix 1;020-P-008;;Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.642014 / -1.691811);;13/06/2008;24/10/2016;;;;-1.6918859;48.6415579
+60004757;Bande Littorale Aude - Leucate 1;095-P-117;;Lieu créé le 08/11/2011 demandé par le LER/LR;;08/11/2011;20/12/2011;;;;3.05269965801651;42.889017300342
+60003508;Etang de lAyrolle - Grau;099-P-027;1;Ce point est facilement accessible à partir de la route des Salins de la commune de Port - la - Nouvelle. Ancienne coordonnées (43.0603359485 - 3.0759404546) corrigées le 18/10/2011, demande faite par LER/LR.;;11/05/2010;18/10/2011;;;;3.07594;43.060336
+38094001;Carteau 14;109-P-001;;;;13/06/2008;;;;;4.8792288294;43.38281552
+4007005;Mesnival;008-P-003;-2;;;13/06/2008;;;;;1.3185064624;50.0467761751
+60006916;Large Désirade;124-P-032;2000;Lieu créé le 15/04/2014 à la demande du REPHY.;;15/04/2014;15/04/2014;;;;-61.0071666667;16.433333
+25049007;Houat;054-P-013;;Prélèvement réalisé par un professionnel. Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.4006576162 / -2.9496738701);;13/06/2008;05/12/2016;;;;-2.9605555556;47.4008333
+10023048;Hacqueville 1 mille;020-P-049;8;;;13/06/2008;;;;;-1.5996856034;48.8198759298
+23045052;Pont du Bonhomme - 56B480;050-P-018;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé Pont du Bonhomme - B480).;;13/06/2008;15/04/2013;;;;-3.3041429866;47.7636190247
+31068004;Chatelaillon (a);079-P-027;-2;;;13/06/2008;;;;;-1.0951072617;46.0549800301
+18038055;Gisement Rozegat;039-P-112;5;;;13/06/2008;;;;;-4.3913907194;48.3176631511
+60001801;Côte Sauvage;084-P-033;;;;03/08/2009;04/08/2009;;;;-1.280463889;45.72652222
+25048004;Sud Belle Ile;054-P-004;;;;13/06/2008;;;;;-3.2180078174;47.2323170575
+60007996;Banc du Diamant;125-P-015;;Lieu créé le 16/10/2015 à la demande de P. Loricourt/ODE972 (05/2015) avec précision de coordonnées de C. Desrosiers/ImpactMer (10/2015).;;16/10/2015;16/10/2015;;;;-61.0262824381412;14.4385254475961
+18038063;Aval confluence Douffine - 29AL36;039-P-119;;;;13/06/2008;;;;;-4.1218055622;48.2449179131
+60006914;Carenantilles marin;125-P-066;;Lieu créé le 14/04/2014 (demande du 28/01/2014 par aubert-moulin@creocean.fr).;;14/04/2014;14/04/2014;;;;-60.8757483403742;14.4709404546369
+11024038;Le Vallion;021-P-036;7.5;;;13/06/2008;;;;;-1.9826868727;48.5930322119
+36086002;Etang de Gruissan - Ouest;101-P-002;;;;13/06/2008;06/09/2012;;;;3.0831989066;43.1087921117
+21043003;Le Scoré;047-P-003;-7;;;13/06/2008;27/02/2014;;;;-3.9542043536;47.8754907328
+50136003;Lagon Saint Gilles-les-Bains;126-P-010;;Correction des coordonnées le 15/04/2013 à la demande du LER (anciennes coordonnées : 55.2214998322-21.0814996038).;;13/06/2008;15/04/2013;;;;55.221408;-21.081969
+60007510;MET- MARONI (Balaté);146-P-024;0;Balate;;30/10/2014;30/10/2014;;;;-54.0424974854154;5.47360692013679
+60002392;Corps de Garde;125-P-047;12;;;24/11/2009;24/11/2009;;;;-60.9437668477168;14.4573395695031
+60000400;Saumonards Filières;079-P-061;0;;;19/01/2009;19/01/2009;;;;-1.25314223;45.99919364
+25049003;Beaumer (b);055-P-003;;;;13/06/2008;;;;;-3.0336795589;47.5636606199
+60007475;MET- CAYENNE (Montsinéry);146-P-009;0;Montsinery;;30/10/2014;30/10/2014;;;;-52.4883454033394;4.89474954737477
+60006835;MBouzi (sud ilot) H24;145-P-030;34;Station 24/H24/B29 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.2343995171998;-12.8257996378998
+31067008;Pertuis Antioche gisement 01;079-P-009;32;Libellé modifié à la demande du LER-PC le 15/03/2011 (ancien libellé : PA coquilles st jacques).;;13/06/2008;15/03/2011;;;;-1.442781923;46.1231443995
+60002384;Caye Pariadis;125-P-039;12;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.539709314 et Long -60.8095171998).;;24/11/2009;15/11/2016;;;;-60.80898407;14.53831306
+60002421;Chateau de Commore - 29LA08;048-P-047;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé LAÏTA - 29LA08).;;02/12/2009;15/04/2013;;;;-3.53878797022733;47.8368899617783
+21041006;Le corven de Trévignon;043-P-006;;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.8825334535-47.763488827).;;13/06/2008;15/04/2013;;;;-3.881567;47.763602
+16033009;Locquenolé;034-P-005;;;;13/06/2008;;;;;-3.8557225258;48.6173438637
+60008355;Ouest Lingreville;018-P-113;11;Lieu créé le 06/04/2016 à la demande du LERN;;06/04/2016;06/04/2016;Granville;;;-1.61084992959164;48.9514001207001
+37087022;Petit-étang;104-P-021;;;;13/06/2008;;;;;3.6827046283;43.4231380376
+6013004;Bernières (a);012-P-004;-0.5;Correction des coordonnées le 28/06/2012 à la demande du LER. Anciennes coordonnées (-0.4375103597-49.3469034551).;;13/06/2008;28/06/2012;;;;-0.4175;49.3443333333
+60000779;La Mortanne;080-P-064;;;;21/04/2009;28/06/2010;;;;-1.17892074029371;45.8741249245625
+18038001;Tinduff;039-P-061;-1.2;;;13/06/2008;;;;;-4.3657240763;48.3354972422
+39096013;Endoume;111-P-020;;;;13/06/2008;;;;;5.2916662264;43.2416664416
+60002519;ARGUENON - 22006E02;022-P-039;;;;02/12/2009;02/12/2009;;;;-2.22903138201568;48.5252182659425
+38091327;MED - Médard;107-P-022;0.7;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;4.1477114261;43.5456452504
+12025016;Arguenon pt g5;022-P-008;2;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.2118583363 - 48.6093632682).;;13/06/2008;26/11/2013;;;;-2.21149761;48.60645312
+32069001;Bouée des palles;080-P-001;3.2;;;13/06/2008;;;;;-1.1597736854;45.992311184
+60002498;PENERF - 56V 460;064-P-019;;;;02/12/2009;02/12/2009;;;;-2.58418024542345;47.5368094950714
+29064004;Le Veillon;074-P-026;;Correction des coordonnées le 21/05/2012 à la demande du LER. Anciennes coordonnées (46.438816216-1.6434596809).;;13/06/2008;21/05/2012;;;;-1.646089;46.4401714
+60007514;MET- OYAPOCK (Tampack);146-P-028;0;Tampack;;30/10/2014;30/10/2014;;;;-51.7821404144035;3.94931703882519
+60002544;TRIEUX - 22154-00;027-P-046;;;;02/12/2009;02/12/2009;;;;-3.09945584389459;48.8307292295313
+60000808;Marseillan est;104-P-428;;;;21/04/2009;29/01/2015;;;;3.57108026554013;43.3791299537316
+25051001;Le Lac;057-P-002;;;;13/06/2008;;;;;-3.026680688;47.6126619059
+15032006;Baie de Vierge;032-P-006;;;;13/06/2008;;;;;-3.5405531741;48.7305172217
+28060028;Penchateau;069-P-021;;;;13/06/2008;;;;;-2.4159940607;47.2671605744
+36082317;CNS - Canet Sud;096-P-017;0.8;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0238726972;42.6569488261
+16034003;Goulven;036-P-004;;;;13/06/2008;;;;;-4.3013978285;48.6363389552
+15032017;St Michel 7;032-P-017;;;;13/06/2008;;;;;-3.609219647;48.6773483661
+36086335;AYR - Ayrolle;099-P-023;0.8;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0623658613;43.0716244597
+11024032;Saint-Malo large;021-P-030;;;;13/06/2008;;;;;-2.0863612409;48.805869837
+60002440;AULNE - 29AL37;039-P-192;;;;02/12/2009;02/12/2009;;;;-4.23205894186282;48.2532377791189
+18038022;Kersanton;039-P-080;;Correction des coordonnées le 29/05/2012 à la demande du LER. Anciennes coordonnées (48.3446649187-4.301223165).;;13/06/2008;27/02/2014;;;;-4.3001388889;48.3445638889
+16033028;Piguet;035-P-009;;;;13/06/2008;;;;;-3.9360586706;48.6661774728
+42118008;Cargèse;122-P-084;;;;13/06/2008;;;;;8.5943335774;42.1263330829
+16033023;Penzornou;035-P-007;;;;13/06/2008;27/02/2014;;;;-3.9428919682;48.660343908
+60006812;Passe Boueni (Amont Récif) 30;145-P-007;48;Station 30 - études Def RCS - Nord Ouest de FRMC02;;21/03/2014;21/03/2014;;;;45.0116998591833;-12.9187004626836
+25055014;Port St Jacques;062-P-007;0;;;13/06/2008;;;;;-2.7913398211;47.4864948987
+60002540;JAUDY - 22171E09;028-P-023;;;;02/12/2009;02/12/2009;;;;-3.2150080466707;48.8035375176021
+27057017;Le Bechet;063-P-008;;;;13/06/2008;;;;;-2.4914999007;47.4441640226
+17035015;Argenton;037-P-015;3.5;;;13/06/2008;;;;;-4.7708463746;48.519273615
+11024004;Ville Ger;021-P-005;9;Correction des coordonnées à la demande du LER le 19/10/2012 : anciennes coordonnées (-1.9695181467 - 48.5251972852).;;13/06/2008;19/10/2012;;;;-1.96722792;48.52840721
+37087015;Bouzigues (c);104-P-014;;;;13/06/2008;;;;;3.6497037463;43.4361379903
+34077016;Lahillon;088-P-014;;;;13/06/2008;;;;;-1.1409114149;44.7027823014
+60006821;Boueni (sortie Baie2) 15;145-P-016;55;Station 15/B18 - étude Def RCS;;21/03/2014;21/03/2014;;;;45.0835998793;-12.8761003822169
+60002517;ARGUENON - 22006-08;022-P-037;;;;02/12/2009;02/12/2009;;;;-2.21560551196941;48.5408368537518
+5011004;Cap de la Hève (a);010-P-049;-2;;;13/06/2008;;;;;0.0643285848;49.5117470534
+16033021;Pempoul;033-P-010;-6;;;13/06/2008;;;;;-3.9697264717;48.68501088
+43113001;Diana mer;117-P-001;10;;;13/06/2008;;;;;9.5723451755;42.1489987333
+17035009;Paluden;037-P-009;-4;;;13/06/2008;27/02/2014;;;;-4.5217338234;48.5886684019
+60003240;Coupelasse large;071-P-095;;;;02/03/2010;02/03/2010;;;;-2.0608516;47.04212
+18038031;Baie de Lanveur;039-P-089;;;;13/06/2008;11/01/2010;;;;-4.297646;48.352765
+27057026;Piriac - Norven;063-P-013;;;;13/06/2008;;;;;-2.5503328708;47.3868286015
+50135006;Sainte-Marie;126-P-006;;;;13/06/2008;;;;;55.5638336479;-20.8819995292
+14029044;Le Ledano;027-P-025;3.5;Correction du libellé le 24/10/2016 (Ancien libellé Le Ledano - 152E07S). Mauvaise position (point trop central). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (48.7748568863 / -3.10804636);;13/06/2008;24/10/2016;;;;-3.1071776;48.7754529
+34078001;Hossegor amont;090-P-001;0.1;;;13/06/2008;;;;;-1.4300618057;43.6774239958
+37089003;Ingril sud;105-P-152;-0.5;;;13/06/2008;24/09/2009;;;;3.7738728247;43.4361392155
+60004871;Le Grand Travers Ouest;102-P-121;0.5;Lieu créé à la demande du REMI.;;19/12/2011;19/12/2011;;;;4.0358757038;43.5563110491
+60008030;Basse Michaud;069-P-075;22;Lieu créé le 06/11/2015 à la demande du LER/MPL. Mnémonique corrigé le 29/12/2015 (ancien 062-P-040).;;06/11/2015;29/12/2015;;;;-2.5833333333;47.2291666667
+10023011;Vieux plan Ouest;020-P-013;3;;;13/06/2008;;;;;-1.7765173637;48.6342023629
+18038024;Traon;039-P-082;;;;13/06/2008;;;;;-4.2660548648;48.3078310852
+11024001;Rance;021-P-002;9;;;13/06/2008;;;;;-2.0345214345;48.6020318346
+14029007;Pors Even;026-P-006;5;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-3.0040450643 - 48.7985254082).;;13/06/2008;26/11/2013;;;;-3.00358027;48.79892768
+10023032;Baie St Michel est 6;020-P-034;;;;13/06/2008;;;;;-1.6210160633;48.6973724898
+25052003;Karrec-Rouz;059-P-003;5;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14). Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5723281134 / -2.9813454911);;13/06/2008;05/12/2016;;;;-2.98233;47.57343
+28060006;La Baule 3;069-P-006;;;;13/06/2008;;;;;-2.3976604522;47.2696608476
+60002463;BLAVET - 56B 690;049-P-024;;;;02/12/2009;02/12/2009;;;;-3.35487628243814;47.702020720177
+43114002;Urbino centre;119-P-001;6;;;13/06/2008;;;;;9.4760112688;42.0564959575
+7014007;Bdv Grandcamp ouest;014-P-007;-1.5;;;13/06/2008;;;;;-1.1001912848;49.386730113
+16033003;Port Diben;033-P-001;;;;13/06/2008;;;;;-3.8282245203;48.7081798487
+35079009;Txingudi;091-P-007;;;;13/06/2008;;;;;-1.7810948709;43.360713725
+30065030;Le Lay (réservoirs-moules);076-P-025;;;;13/06/2008;;;;;-1.2692827128;46.2948170346
+16033038;Vorlen;034-P-010;-1;;;13/06/2008;27/02/2014;;;;-3.8630566386;48.6408443745
+60007950;Lagon Saint-Leu - Gendarmerie;126-P-128;1.6;Lieu créé le 05/10/2015 à la demande de la délégation Ifremer OI.;;05/10/2015;05/10/2015;;;;55.28623;-21.18092
+6013005;St Aubin les Essarts;012-P-005;1;;;13/06/2008;;;;;-0.3890098612;49.3642378176
+30065011;Fier dArs;076-P-011;-1.8;;;13/06/2008;21/04/2009;;;;-1.4754515642;46.2251464171
+60002981;Golfe de Porto Vecchio;121-P-016;0;;;21/01/2010;21/01/2010;;;;9.31058941862804;41.6096952323476
+43115002;Palu;120-P-002;;;;13/06/2008;;;;;9.4098332636;41.9463330832
+8017008;Gruchy;016-P-014;20;;;13/06/2008;;;;;-1.7833799785;49.6943969646
+60002467;ETEL - 56ET 05;053-P-028;;;;02/12/2009;02/12/2009;;;;-3.17358177429088;47.73226010863
+60004830;Saint-Joseph;126-P-072;;Lieu créé pour lintégration des données RHLR (Hydrologie La Réunion). Les coordonnées ont été modifiées afin de rapprocher les lieux de surveillance hydrologique des lieux de surveillance du benthos et ainsi optimiser la stratégie de surveillance DCE. Les nouvelles coordonnées sont valables pour les acquisitions effectuées à partir de 2012.;;08/12/2011;11/06/2012;;;;55.632833;-21.387133
+20040001;Tronoen;042-P-001;-1;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -4.3500441661-47.852485428).;;13/06/2008;15/04/2013;;;;-4.349061;47.8526
+13026007;Erquy La Houssaie;025-P-005;3.6;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.4755305452 - 48.6298606804).;;13/06/2008;26/11/2013;;;;-2.4756895;48.62972812
+23045002;Ile Kerner;051-P-001;;;;13/06/2008;;;;;-3.3161882905;47.702660712
+38094009;Ermite;109-P-007;;;;13/06/2008;;;;;4.854395077;43.3788151938
+6012006;Ouistreham canal;010-P-107;11;;;13/06/2008;;;;;-0.2756709313;49.2415691756
+14029052;Ledano-amont - 22152E07;027-P-030;;Modification des coordonnées à la demande de la DREAL Bretagne le 26/08/2016. La CQEL a vérifié les coordonnées. Anciennes coordonnées : 48.7587513269 / -3.120094477;;13/06/2008;26/08/2016;;;;-3.12114;48.76417
+36086001;Etang du Grazel;101-P-001;;;;13/06/2008;20/12/2011;;;;3.1168662074;43.1092924558
+17035033;Aval anse de Keradraon - 29AW09;037-P-030;;;;13/06/2008;;;;;-4.4947698183;48.581928559
+5011008;Deauville;010-P-053;0;;;13/06/2008;;;;;0.0586658739;49.3619096055
+18038010;Filières Camaret;039-P-070;;;;13/06/2008;27/02/2014;;;;-4.5783931181;48.2826600115
+17035005;Baie de Lampaul;037-P-005;;;;13/06/2008;;;;;-5.1032403504;48.4491577943
+34077030;Le Tes;088-P-028;;;;13/06/2008;03/12/2009;;;;-1.1387439206;44.6659481865
+22044027;Pont St Maurice - 29LA03;048-P-023;;;;13/06/2008;;;;;-3.5229145148;47.7975306059
+10023001;Mont St Michel;020-P-003;0.5;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -1.7645176276-48.6527029827).;;13/06/2008;15/04/2013;;;;-1.764511;48.652704
+60004697;Pointe des colibris;124-P-021;12;Lieu créé le 11/10/2011 demande de C. Belin. Correction du libellé le 05/01/2012 (ancien libellé "Pointe des colibris - La Désirade").;;11/10/2011;15/04/2014;;;;-61.1057332528666;16.2975497887749
+16033058;St Pol large;033-P-029;10;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.9548332659-48.6994997635).;;13/06/2008;15/04/2013;;;;-3.953362;48.700559
+28061044;Fromentine;071-P-043;;;;13/06/2008;;;;;-2.1409797443;46.89248802
+60007518;MEC- Les Hattes;146-P-032;0;Les Hattes;;30/10/2014;30/10/2014;;;;-53.9644850130758;5.73213136189901
+60006750;Amont pont du Guily - 29BE07;048-P-074;;Remplace pour le suivi DCE-hydrologie le point Moulin mer à partir de novembre 2013. Lieu créé le 10/02/2014 à la demande de la SPEL29.;;11/02/2014;11/02/2014;;;;-3.6498471132569;47.8227680547174
+60002494;GOLFE - 56G 550;060-P-039;;;;02/12/2009;02/12/2009;;;;-2.9264232548783;47.5687819352243
+34077062;Jetée dEyrac;088-P-051;-3;;;13/06/2008;;;;;-1.1637443434;44.6646145518
+60002530;JAUDY - 22171E10;028-P-018;;;;02/12/2009;02/12/2009;;;;-3.20173506336752;48.8216545966606
+19039006;Aber plage;040-P-006;-1;;;13/06/2008;;;;;-4.4472227663;48.2333270321
+24047006;Beg er Vil;053-P-006;;Erreur de localisation depuis la création dans Quadrige. Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY, ROCCH, RESCO Anciennes coordonnées (47.6839949775 / -3.1981856578);;13/06/2008;05/12/2016;;;;-3.19903;47.68276
+23045028;Galèze;050-P-007;;;;13/06/2008;;;;;-3.3158561447;47.7486618503
+27057005;Ouest Loscolo;063-P-002;10;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.5391677833,47.4574971283). Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-2.538268;47.457596
+12025007;Fresnaie f5;023-P-006;3.2;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.2908606945 -48.6413631609).;;13/06/2008;26/11/2013;;;;-2.29208672;48.64050996
+18037003;Pont Albert Louppe;039-P-003;5;;;13/06/2008;;;;;-4.4013928237;48.3883314716
+15032021;Pors Nevez;032-P-020;0;;;13/06/2008;;;;;-3.5222195387;48.7318508098
+5011010;Grande Rade;010-P-054;15;;;13/06/2008;;;;;-0.011339874;49.5212464351
+50137008;Saint-Louis;126-P-021;;;;13/06/2008;;;;;55.3412992539;-21.2901659051
+60006842;Grande barrière Nord Est (ilot Ndroume) H3;145-P-037;10;Station 3/H3/B03 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.2787004626836;-12.7526000804667
+36080001;Port Vendres;094-P-001;;;;13/06/2008;;;;;3.1407108476;42.5121136826
+60002551;Amont Pont Treglonou - 29AB09;037-P-072;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé ABER BENOIT - 29AB09).;;02/12/2009;15/04/2013;;;;-4.53338261919131;48.5539448803058
+36081003;Filières de Fleury dAude;095-P-003;;;;13/06/2008;11/12/2009;;;;3.2480343484;43.1654616021
+6013009;Courseulles;012-P-007;5;;;13/06/2008;;;;;-0.4618443566;49.3534033467
+27057059;Pointe Castelli;063-P-019;;;;13/06/2008;;;;;-2.5598328271;47.3781616126
+60002380;Fond Boucher;125-P-035;10;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.6538342386 et Long -61.1533936834).;;24/11/2009;15/11/2016;;;;-61.15716376;14.65697271
+18038025;Lanvéoc;039-P-083;2;;;13/06/2008;27/02/2014;;;;-4.4588912557;48.2928283791
+8017020;Digue de Querqueville;016-P-025;10;Correction des coordonnées le 04/04/2016 à la demande du LERN. Anciennes coordonnées (49.6715010994,-1.6641669946);;13/06/2008;29/04/2016;;;;-1.662568;49.672021
+27057062;Le Petit Sécé - 56V120;065-P-013;;;;13/06/2008;30/04/2010;;;;-2.4918531482;47.5063672122
+34076002;Ecocéan;073-P-005;;;;13/06/2008;;;;;-1.5590839978;44.6281094387
+16033033;Ile Blanche;033-P-013;-2.7;;;13/06/2008;21/04/2009;;;;-3.8690576927;48.6751785119
+60004700;Ilet à Fajou;124-P-024;12;Lieu créé le 11/10/2011 demande de C. Belin. Correction du libellé le 05/01/2012.;;11/10/2011;15/04/2014;;;;-61.6012170589419;16.3619503118085
+19039002;Morgat 1;040-P-002;1;;;13/06/2008;;;;;-4.500556445;48.2108258258
+16033017;Lannuguy;034-P-006;-6.4;;;13/06/2008;;;;;-3.8553889029;48.6070102711
+60004518;Baie du Lamentin;125-P-054;;Création du lieu le 05/05/2011 suite à la demande de CBelin. Renseigner le positionnement.;;05/05/2011;05/12/2011;;;;-61.0219;14.6037
+60002488;Le Passage - 56G900;061-P-085;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé NOYALO - 56G 900).;;02/12/2009;16/04/2013;;;;-2.71949305974653;47.5888493260913
+30065003;Les Eperons;076-P-003;;;;13/06/2008;;;;;-1.2341149315;46.274983629
+7014016;Grandcamp prise eau base;014-P-016;-2;;;13/06/2008;;;;;-1.0916910251;49.3833967903
+24047029;Bignac;053-P-019;;;;13/06/2008;;;;;-3.1898516129;47.6623278754
+29062005;Ile dYeu est;072-P-005;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.2936447885,46.7106485914).;;13/06/2008;16/04/2013;;;;-2.293629;46.710655
+34077009;Jacquets aval;088-P-007;1;Modifications des coordonnées le : 17/01/2017 à la demande des coordinations REMI, REPHY Anciennes coordonnées (44.7212821991 / -1.1874126516);;13/06/2008;17/01/2017;;;;-1.1872936;44.72173696
+17035001;Le Vill;037-P-001;-0.6;;;13/06/2008;27/02/2014;;;;-4.6055682864;48.5750003691
+37090362;MEW - Méjean Ouest;105-P-133;0.8;Rinbio 12I. Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.9228737176;43.5443096777
+35079005;Large Capbreton;089-P-005;;;;13/06/2008;;;;;-1.481228678;43.6432560718
+60000170;Etang du Ponant - VVF;107-P-025;;;;11/12/2008;25/06/2013;;;;4.101667;43.559067
+60002438;GOYEN - 29GY07;042-P-042;;;;02/12/2009;02/12/2009;;;;-4.54037618185475;48.0092285254476
+26054007;Baie du Vran;061-P-007;;;;13/06/2008;28/04/2009;;;;-2.8465099397;47.5821632688
+37087012;Mourre-Blanc large;104-P-011;;Coordonnées modifiées sur la demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.597966;43.403581
+60003363;Aigues-Mortes;102-P-115;;Ajouté suite à la demande de Nathalie Malet et Valérie Dérolez en avril 2010. Renommé le 08/04/2014 (ancien libellé AIG-Aigues-Morte).;;29/04/2010;08/04/2014;;;;4.07380004023335;43.5404998994166
+22044023;Face anse Kergourlet - 29AV04;048-P-019;;;;13/06/2008;;;;;-3.7476530702;47.8415656904
+29062011;Yeu large;072-P-011;;;;13/06/2008;;;;;-2.3574691522;46.7737210278
+24046011;Ste Barbe;052-P-011;;;;13/06/2008;;;;;-3.1560160397;47.5993267247
+15032029;Les 7 Îles;031-P-006;20;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.4954995131-48.8696663459).;;13/06/2008;15/04/2013;;;;-3.494027;48.870718
+26054021;Locmiquel;061-P-021;;;;13/06/2008;;;;;-2.9171779573;47.5843291607
+21042032;Phare du Coq - 29OD16;046-P-007;;;;13/06/2008;;;;;-4.1168855863;47.8746621012
+13027028;Morieux Z1;025-P-033;;Evolution des concessions. Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.544273 / -2.674716);;13/06/2008;24/10/2016;;;;-2.6758675;48.5446656
+14030007;Roche Jaune;028-P-006;;;;13/06/2008;15/04/2013;;;;-3.2033828266;48.8241903504
+60002484;VANNES - 56G 700;061-P-081;;;;02/12/2009;02/12/2009;;;;-2.75536210018106;47.6551498692416
+30065007;La Passe des Esnandais (terre);076-P-007;1;Coordonnées imprécises à la création du point. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (46.3068168046 / -1.314950506);;13/06/2008;17/10/2016;;;;-1.31541;46.3035
+60004892;Ermitage;126-P-073;;Lieu créé à la demande du RHLR (La Réunion). Libellé modifié le 17/02/2012 pour correspondre à la terminologie officielle administrative.;;06/01/2012;17/02/2012;;;;55.21441;-21.088167
+60004691;Rocroy - Val de lorge;124-P-015;13;Lieu créé le 11/10/2011 demande de C. Belin. Correction du libellé le 05/01/2012.;;11/10/2011;15/04/2014;;;;-61.7616163749748;16.0403671293502
+28061002;Coupelasse-Fiol;071-P-002;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.0208256656 / -2.0344809216);;13/06/2008;05/12/2016;;;;-2.030089;47.020355
+36086009;Etang dAyguades - Ciné;095-P-089;;;;13/06/2008;;;;;3.1376861731;43.1327114871
+34077004;Jetée Thiers;088-P-004;8.1;Ancien libellé : "Teychan". Renommé à la demande de la coordination REPHY le 25/11/2015, avec accord de la coordination REMI, et suite au tranfert des passages pour analyse deau sur le lieu "Teychan bis - 088-P-050".;;13/06/2008;25/11/2015;;;;-1.168911114;44.6651145064
+36083376;LES - Leucate Sud;097-P-093;3.2;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;2.9900358255;42.8166184429
+37088010;Salins;107-P-001;;;;13/06/2008;;;;;4.155211913;43.5273115942
+60002502;VILAINE - 56V 090;065-P-020;;;;02/12/2009;02/12/2009;;;;-2.40023938845303;47.5013538523436
+27057001;Kervoyal;065-P-001;5;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14). Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5199987504 / -2.531669229);;13/06/2008;05/12/2016;;;;-2.531669229;47.5199987504
+60002388;Baie du Marin;125-P-043;10;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.4568829209 et Long -60.8821042044).;;24/11/2009;15/11/2016;;;;-60.89295441;14.45086277
+19036006;Gisement Sein;038-P-007;50;;;13/06/2008;;;;;-4.854391954;48.0584844276
+6012003;Ouistreham 3 milles;010-P-104;11;;;13/06/2008;;;;;-0.2445063974;49.3434056013
+28060047;Cordemais - 44 L028 (148500);070-P-021;;Référence point DDTM : PMR044044045ES00000027. Type de suivi : Loire. Faut-il renommer le lieu avec le code 27?;;13/06/2008;17/07/2014;;;;-1.899666365;47.2751483955
+43112002;BIS - Biguglia sud;116-P-002;1.4;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;9.4858333015;42.5765004279
+9021025;Les Minquiers;018-P-067;10;;;13/06/2008;06/05/2015;;;;-1.8346949904;48.9990445213
+14030003;Roche Jaune - Roche Gorec;028-P-002;;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-3.2045494875 - 48.8231903105).;;13/06/2008;26/11/2013;;;;-3.20291564;48.82256049
+32070003;St Froult;080-P-009;1.4;;;13/06/2008;;;;;-1.1222713408;45.9201432603
+3006022;Bif;007-P-008;0;;;13/06/2008;;;;;1.5986744158;50.214117386
+60002432;PONT LABBE - 29PA23;045-P-018;;;;02/12/2009;02/12/2009;;;;-4.16945483806074;47.8367521625428
+38093002;Rousty;106-P-011;1.5;;;13/06/2008;;;;;4.4967199454;43.4556467167
+60002480;AURAY - 56G 440;060-P-036;;;;02/12/2009;02/12/2009;;;;-2.97061255280627;47.6677338563669
+26054008;Brehuidic;061-P-008;;;;13/06/2008;;;;;-2.8325088225;47.5484959385
+60002506;TRIEUX - 22152E03;027-P-047;;;;02/12/2009;02/12/2009;;;;-3.14014282840475;48.71101991551
+10023050;Cancale Est;020-P-051;10;;;13/06/2008;;;;;-1.795166188;48.7015005548
+29062009;St Jean de Mont;072-P-009;;;;13/06/2008;;;;;-2.0861428037;46.7856527558
+7015025;Barfleur gisement;015-P-024;4;;;13/06/2008;;;;;-1.2518698687;49.7070702829
+9021008;Coudeville;018-P-051;-3;;;13/06/2008;;;;;-1.5776870375;48.8888779918
+60004550;Marseillan plage-est;102-P-118;;Création du lieu pour létude de zone n°34.09, demandée par M. Rousselet du LER/Sète le 23/05/2011.;;24/05/2011;20/12/2011;;;;3.5619;43.3218
+7014023;Géfosse;014-P-023;0;;;13/06/2008;;;;;-1.1073581894;49.3902301225
+60002548;ABER BENOIT - 29AB05;037-P-069;;;;02/12/2009;02/12/2009;;;;-4.55718165359082;48.5611044055522
+60007483;MET- COUNAMAMA (Counamama);146-P-017;0;Counamama;;30/10/2014;30/10/2014;;;;-53.1365439549386;5.44629048481191
+21042009;Le Letty;044-P-001;-2;;;13/06/2008;;;;;-4.0763729685;47.8661557093
+9021016;Pointe du Roc;020-P-001;5;;;13/06/2008;;;;;-1.6195196786;48.8332093785
+18038002;Landevennec (a);039-P-062;-2;;;13/06/2008;;;;;-4.269221227;48.2944973792
+60006826;Boueni (fond de baie) H17;145-P-021;17;Station 17/H17/B20 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.1319995976665;-12.9162995373164
+27059001;Le Croisic (a);068-P-001;;;;13/06/2008;;;;;-2.5141633556;47.2999935692
+17035507;Aber Wrach 1;037-P-035;;;;13/06/2008;;;;;-4.5597347929;48.5990015347
+60001762;Rivière de Daoulas;039-P-188;;;;24/06/2009;24/06/2009;;;;-4.294444;48.343056
+60006819;Tsingoni (Baie large) H12;145-P-014;49;Station 12/H12/B14 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.0754003218668;-12.7990002011668
+37087029;Balaruc bains;104-P-026;;;;13/06/2008;;;;;3.6955378112;43.444638625
+28060024;Pornichet;069-P-020;;;;13/06/2008;;;;;-2.3451592223;47.2591611997
+40100003;Oursinières;112-P-003;;;;13/06/2008;;;;;5.9999995613;43.1000001158
+60007527;MET- MANA (Mana ville);146-P-041;0;Mana ville;;30/10/2014;30/10/2014;;;;-53.7751327700664;5.66562764031382
+14029035;Sillon noir;027-P-020;;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-3.0697149058 - 48.8693597874).;;13/06/2008;26/11/2013;;;;-3.07292602;48.86888914
+27057016;Cofreneau;063-P-007;;;;13/06/2008;;;;;-2.503667943;47.4896649976
+37087001;Bouzigues (a);104-P-001;;Coordonnées modifiées sur la demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.664119;43.434851
+22044003;Trévignon;048-P-003;-1;;;13/06/2008;;;;;-3.8322000749;47.7963235679
+26053015;Kerivaud;060-P-015;;;;13/06/2008;;;;;-2.9458449782;47.5776619941
+30066022;Pont du Brault - S86;077-P-020;;;;13/06/2008;30/04/2010;;;;-1.0824814263;46.3169696498
+7015006;Morsalines;015-P-005;-2;;;13/06/2008;;;;;-1.2900333487;49.5663993676
+60002458;SCORFF - 56B 550;050-P-058;;;;02/12/2009;02/12/2009;;;;-3.35246630456649;47.7432589016294
+31067005;Filière Oléron;079-P-006;11;;;13/06/2008;;;;;-1.2571090298;46.0016436486
+1002001;Strouanne;001-P-166;;;;13/06/2008;;;;;1.6769898852;50.9059712744
+36080002;Banyuls-Sola;094-P-002;24;;;13/06/2008;;;;;3.1449996874;42.488333241
+60002961;29E - Antibes sud;114-P-158;0;;;19/01/2010;19/01/2010;;;;7.14415007040836;43.5606165761416
+10022002;Chausey - Satmar;019-P-002;5;;;13/06/2008;;;;;-1.8259851927;48.890001768
+38094012;Courbe;109-P-010;1.5;;;13/06/2008;;;;;4.7137261781;43.3486465167
+60002391;Baie du Trésor;125-P-046;13;Coordonnées mises à jour selon les relevés GPS effectués par Creocean Martinique (04/08/2011). Correction des coordonnées le 05/01/2012 (anciennes 14.7576666667-62.8863333333). Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.757992 et Long -60.885941).;;24/11/2009;15/11/2016;;;;-60.88505736;14.75716185
+9019006;St Germain sud;018-P-006;-4;;;13/06/2008;;;;;-1.6431971056;49.2117190572
+28060012;Tharon;070-P-002;;;;13/06/2008;;;;;-2.1714869669;47.1633275415
+21042033;Cale de Rosquemo - 29PA17;045-P-011;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé Cale de Rosquemo - PA17).;;13/06/2008;15/04/2013;;;;-4.1952131964;47.8573024024
+60002436;GOYEN - 29GY02;042-P-040;;;;02/12/2009;02/12/2009;;;;-4.49473043653188;48.0397716757192
+32070027;Gors;080-P-025;;;;13/06/2008;;;;;-1.152270617;45.8641416309
+60006827;Banc de la Surprise (Sud Est) 7;145-P-022;30;Station 7 - études Def RCS;;21/03/2014;21/03/2014;;;;45.1385998792999;-12.6524994970831
+60002524;Forn ar Ra - 22225E05;032-P-043;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé LEGUER - 22225E05).;;02/12/2009;15/04/2013;;;;-3.51420438543553;48.7343995171998
+60002513;TRIEUX - 22152A26;027-P-039;;;;02/12/2009;02/12/2009;;;;-3.08710118688393;48.7170257493462
+7015012;Tocquaise;015-P-011;-2;;;13/06/2008;;;;;-1.2640335103;49.5905669923
+10023026;Biez est réserve;020-P-028;;Petit déplacement du à un mauvais positionnement du point par rapport aux dépôts quil représente (point trop central par rapport au gisement naturel). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.6235356899 / -1.7535166381);;13/06/2008;24/10/2016;;;;-1.7544045;48.6227315
+23045516;Lorient 16;049-P-020;25;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.4296893938-47.6656584608). Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-3.428251;47.666741
+60001823;Le Passage - Noyalo;061-P-078;;;;04/08/2009;04/08/2009;;;;-2.722733;47.588833
+60002455;RANCE - 35EER10;021-P-081;;;;02/12/2009;02/12/2009;;;;-1.9369312009656;48.5175849929592
+60002429;PENZE - 29PZ19;033-P-044;;;;02/12/2009;02/12/2009;;;;-3.94035606517804;48.6902202776101
+17035024;Ile de la Croix;037-P-022;3.4;;;13/06/2008;27/02/2014;;;;-4.5964025111;48.6131681141
+60002476;Le Moustoir - 56G540;060-P-032;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé AURAY - 56G 540).;;02/12/2009;16/04/2013;;;;-2.94780124723397;47.597684570509
+30066002;Nord Passe Esnandes;077-P-003;-1.5;;;13/06/2008;;;;;-1.1826135375;46.2561504297
+40100011;22B - Toulon gde rade;112-P-010;;;;13/06/2008;;;;;5.9546673528;43.0789992381
+60004704;Gros cap;124-P-028;12;Lieu créé le 11/10/2011 demande de C. Belin. Corrections du libellé le 05/01/2012 (ancien libellé "Gros cap - Les Saintes").;;11/10/2011;15/04/2014;;;;-61.6516163749749;15.8486169784751
+60007487;MEC- Les Roches;146-P-021;0;Les Roches;;30/10/2014;30/10/2014;;;;-52.6235314825991;5.16010963588815
+60003033;SCA-Scamandre-Crey-Charnier;107-P-027;0;;;15/02/2010;15/02/2010;;;;4.36004626835646;43.6225085495876
+4007004;Dieppe;008-P-002;13;;;13/06/2008;;;;;1.0528367467;49.9556039343
+60007472;MET- COMTE (Orapu);146-P-006;0;Orapu;;30/10/2014;30/10/2014;;;;-52.3238895594448;4.61666666666666
+38091326;PON - Ponant;106-P-009;2.9;Coordonnées mises à jour selon fichier GPS RSL (15/10/2014). Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;4.11942;43.56405
+39096008;18A - Carry;111-P-015;;;;13/06/2008;;;;;5.1591671497;43.3220002361
+16033014;Le Varquez;035-P-004;;;;13/06/2008;;;;;-3.9290584784;48.6638441645
+60006830;kangani (cotier) H4;145-P-025;36;Station 4/H4/B04 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.1923999195333;-12.7171997585999
+60002520;ARGUENON - 22006E01;022-P-040;;;;02/12/2009;02/12/2009;;;;-2.23302253067794;48.5218758801046
+36086334;CAM - Campignol;099-P-022;0.6;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0461982955;43.1036249697
+60001800;Vert Bois 2;075-P-006;;;;03/08/2009;03/08/2009;;;;-1.290219444;45.84061389
+7015030;Reville 1 mille;015-P-029;10;;;13/06/2008;;;;;-1.2170332054;49.6129014828
+34077054;Arguin;087-P-005;;;;13/06/2008;;;;;-1.2414108325;44.5907787638
+21041003;Men Du;043-P-003;18;;;13/06/2008;;;;;-3.8400329464;47.7733229083
+60004910;Ouessant - Youch korz;037-P-086;;Lieu crée le 17/01/2012 demande du LER/FBN/CC.;;17/01/2012;17/01/2012;;;;-5.115;48.45
+37087025;Canal (Affaires Maritimes);104-P-023;;;;13/06/2008;;;;;3.7010385558;43.4103046104
+37087379;TE - Thau Est;104-P-117;8.9;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.6383705557;43.4166374608
+6013024;Luc 1 mille;010-P-187;10;;;13/06/2008;;;;;-0.3291742868;49.3259041495
+37088001;Filières des Aresquiers;102-P-005;;;;13/06/2008;11/12/2009;;;;3.8567077421;43.4376400636
+28060035;Impairs;069-P-022;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.2686606901 / -2.409160639);;13/06/2008;05/12/2016;;;;-2.409083;47.275722
+23045053;Rade de Lorient - 56B560;050-P-019;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé Rade de Lorient - B560).;;13/06/2008;15/04/2013;;;;-3.3520948008;47.7356927687
+3006010;Pointe du Hourdel;007-P-003;5;;;13/06/2008;;;;;1.5798406095;50.2167839126
+29062002;Ile dYeu;072-P-002;;;;13/06/2008;;;;;-2.3391459023;46.7223150139
+34078004;Capbreton est;090-P-004;;;;13/06/2008;;;;;-1.4433949053;43.6544233761
+15032010;Locquemeau;032-P-010;2;Modification des coordonnées le 20/01/2014 demandée par le LER (anciennes lat=48.7266832865 et long=-3.5823871742).;;13/06/2008;20/01/2014;;;;-3.58176105;48.72629715
+60004698;Ilet à Christophe;124-P-022;3;Lieu créé le 11/10/2011 demande de C. Belin. Correction du libellé le 05/01/2012. Coordonnées corrigées le 04/06/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.56893;16.29243
+31068003;Le Cornard;079-P-026;1;Pour le suivi RAZLEC, ce lieu représente la station "Le Cornard". Correction des coordonnées le 27/02/2014 à la demande du LER/PC (anciennes coordonnées -1.207083,46.056243). Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -1.1306079228,46.0551463049).;;13/06/2008;13/11/2015;;;;-1.130607923;46.0551463
+21043004;Kerist;047-P-004;1.5;;;13/06/2008;;;;;-3.9787053971;47.8983243376
+18037006;Moulin Blanc (a);039-P-006;;;;13/06/2008;;;;;-4.4295602242;48.3966646734
+60008350;Roche Colas;061-P-073;9;Lieu créé le 29/03/2016 à la demande de la coordination REPHY et du LER/MPL.;;29/03/2016;29/03/2016;;;;-2.82072;47.5829
+60006915;STEP Desmarinière;125-P-067;;Lieu créé le 14/04/2014 (demande du 28/01/2014 par aubert-moulin@creocean.fr).;;14/04/2014;14/04/2014;;;;-60.9304244618789;14.7271021927178
+10023009;Cherrueix 4;020-P-011;;;;13/06/2008;;;;;-1.7440167716;48.6353694408
+29063013;Ecluse Gachère;074-P-012;0;;;13/06/2008;;;;;-1.8464669128;46.5856507249
+60006834;Bandrele (Pointe Mounyendre) 23;145-P-029;32;Station 23 - études Def RCS;;21/03/2014;21/03/2014;;;;45.2126000804667;-12.9224994970831
+6013016;Intérieur gisement baie de Seine;013-P-003;20;;;13/06/2008;;;;;-0.6680168429;49.415735952
+18037012;Le Caro;039-P-012;;;;13/06/2008;01/03/2010;;;;-4.4447257132;48.3434964873
+43116007;Pointe SantAmanza;121-P-006;;Rinbio 40C. Changement de libellé le 03/11/2011, demande faite par MCFabri, ancien libellé "SantAmanza 2".;;13/06/2008;08/11/2011;;;;9.2658331823;41.4291662087
+13027016;Morieux point c1;025-P-025;4.4;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.6101978057 - 48.5576905635).;;13/06/2008;26/11/2013;;;;-2.609646;48.55687
+32069002;La Mouclière (a);081-P-001;;;;13/06/2008;;;;;-1.1024388034;45.9709779936
+60002545;ODET - 29OD06;046-P-025;;;;02/12/2009;02/12/2009;;;;-4.11166867833433;47.9903228726614
+18038021;Sillon des Anglais;039-P-079;;;;13/06/2008;27/02/2014;;;;-4.2717213217;48.2963307283
+60002497;LEpinay - 56V480;064-P-018;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé PENERF - 56V 480).;;02/12/2009;16/04/2013;;;;-2.61428585797626;47.5285425467713
+29064001;Remblai;074-P-023;;;;13/06/2008;;;;;-1.7842968531;46.4913158623
+60002441;AULNE - 29AL39;039-P-193;;;;02/12/2009;02/12/2009;;;;-4.25488835244417;48.2859474954737
+60006911;Carrières;125-P-063;;Lieu créé le 14/04/2014 (demande du 28/01/2014 par aubert-moulin@creocean.fr).;;14/04/2014;14/04/2014;;;;-61.1946338764836;14.7637738885536
+39096014;Bain des Dames;111-P-021;;;;13/06/2008;;;;;5.3621676597;43.2400004127
+60002451;Mordreux - 35EER4;021-P-077;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé RANCE - 35EER4).;;02/12/2009;15/04/2013;;;;-1.97739489036411;48.5150975658821
+29063017;Large pointe grosse terre;074-P-016;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.0414716269,46.6328162913).;;13/06/2008;16/04/2013;;;;-2.040599;46.632903
+60002445;R de DAOULAS - 29RD03;039-P-197;;;;02/12/2009;02/12/2009;;;;-4.28217763025549;48.3534379400523
+6013001;Asnelles;012-P-001;0.3;;;13/06/2008;;;;;-0.5891801229;49.3494017571
+16033062;Aval Bourg - PZ01;035-P-025;;;;13/06/2008;09/07/2010;;;;-3.9349301386;48.5990691091
+36083013;Coudalère;097-P-011;;;;13/06/2008;;;;;3.030870092;42.8079520004
+11024037;Tour Solidor;021-P-035;6.5;;;13/06/2008;;;;;-2.0266888084;48.634032753
+25049014;Buisson Méaban;058-P-001;;;;13/06/2008;;;;;-2.9746775514;47.5273270874
+41109006;Villefranche;114-P-058;2;;;13/06/2008;;;;;7.3156061302;43.6840118704
+60002541;TRIEUX - 22152-23;027-P-045;;;;02/12/2009;02/12/2009;;;;-3.12929692214846;48.7734107825387
+17035012;Gisement Le Stiff;037-P-012;50;;;13/06/2008;;;;;-5.041906515;48.4703257419
+11024035;Port Saint Hubert;021-P-033;3;Modification des coordonnées demandée par le LER (anciennes lat=48.5365308848 et long=-1.9716851563) le 20/01/2014.;;13/06/2008;20/01/2014;;;;-1.97261637;48.53543816
+14029041;Roche Jagu;027-P-022;0;;;13/06/2008;;;;;-3.1485459837;48.7335220033
+29064005;La Guittière;074-P-027;;Coordonnées imprécises à la création du point. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (46.4326494659 / -1.6379594337);;13/06/2008;17/10/2016;;;;-1.63742;46.4318
+37087016;Port de Loupian (b);104-P-015;;Mise à jour des coordonnées suite à une demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.637777;43.432702
+13028010;Ouest baie de St Brieuc;024-P-019;20;;;13/06/2008;;;;;-2.7662037516;48.6693582475
+31067009;Nord Saumonards;079-P-010;7;;;13/06/2008;;;;;-1.2778828451;46.00594685
+60002385;Ilets à rats;125-P-040;12;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.6834982901et Long -60.9008237779).;;24/11/2009;15/11/2016;;;;-60.89697328;14.68429501
+21042020;Skividen;044-P-006;;;;13/06/2008;27/02/2014;;;;-4.2413738667;47.7883184866
+60002527;LEGUER - 22225E02;032-P-046;;;;02/12/2009;02/12/2009;;;;-3.46068698451015;48.7305300744317
+60002472;CRACH - 56G 260;055-P-028;;;;02/12/2009;02/12/2009;;;;-3.01158117079058;47.5671836652585
+24047005;Pen Mane Braz;053-P-005;0;;;13/06/2008;;;;;-3.1853520645;47.6829951041
+33075007;Bouée de St Georges;085-P-004;8.5;;;13/06/2008;;;;;-1.0184284369;45.5816366253
+42118007;Calvi;122-P-083;;;;13/06/2008;;;;;8.7255006828;42.5805005138
+25055001;Grand-Rohu;058-P-005;;;;13/06/2008;;;;;-2.8601752266;47.5183282076
+60007480;MET- APPROUAGUE (Mataroni);146-P-014;0;Mataroni;;30/10/2014;30/10/2014;;;;-52.1819070609535;4.23039428686381
+37089375;VIC - Vic;105-P-060;1.6;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.8258728087;43.4914742499
+60007513;MET- OYAPOCK (Ilet Biche);146-P-027;0;Ilet Biche;;30/10/2014;30/10/2014;;;;-51.6415228324281;4.11599879299939
+22044007;Trénogoat;048-P-007;-2;;;13/06/2008;09/07/2010;;;;-3.6446964283;47.786325551
+37087382;BAN - Bagnas;103-P-005;0.5;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.521536619;43.3273010667
+16033027;Roch Glas;034-P-009;;;;13/06/2008;;;;;-3.893890921;48.6548443595
+60007476;MET- CAYENNE (Larivot);146-P-010;0;Port du Larivot;;30/10/2014;30/10/2014;;;;-52.3637396902032;4.90600382216857
+21043016;Concarneau large;047-P-016;;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.9513698318-47.8323230348).;;13/06/2008;15/04/2013;;;;-3.949922;47.833406
+60006813;Grande Passe Ouest (Amont Recif) H13;145-P-008;51;Station 13/H13/B15 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.0226996580165;-12.8283997183665
+9018001;Anse Moulinet;017-P-002;-5;;;13/06/2008;;;;;-1.900548039;49.6627280479
+25049211;Golfe - la Teignouse;058-P-003;;;;13/06/2008;;;;;-2.9696766516;47.4956597035
+60002481;AURAY - 56G 420;060-P-037;;;;02/12/2009;02/12/2009;;;;-2.98898410782539;47.6971736069201
+34077059;Arcachon - Bouée 7;087-P-008;-10;;;13/06/2008;31/03/2009;;;;-1.2637435339;44.5422774676
+8017001;Salmona cage;016-P-007;;;;13/06/2008;;;;;-1.6238762573;49.6733982962
+28060005;La Baule 2;069-P-005;;;;13/06/2008;;;;;-2.3933273141;47.2806611658
+60006822;Boueni (Baie face Hagnoudrou) 16;145-P-017;35;Station 16/B19 - étude Def RCS;;21/03/2014;21/03/2014;;;;45.1125005029169;-12.9004003218668
+6013015;Bouée des Essarts 3 milles;012-P-010;15;;;13/06/2008;;;;;-0.358009608;49.3777385407
+36085004;Bages-Mahon;100-P-005;-0.5;;;13/06/2008;;;;;3.0038645916;43.0799573874
+37088013;Espiguette;102-P-016;;;;13/06/2008;;;;;4.1170450078;43.4998106261
+60007517;MET- SINNAMARY (Roche Brigandin);146-P-031;0;Roche Brigandin;;30/10/2014;30/10/2014;;;;-52.9960078455039;5.43789478978073
+23045103;Le Blavet;050-P-020;;;;13/06/2008;;;;;-3.3213562102;47.747328419
+17035004;Prat ar Coum;037-P-004;;;;13/06/2008;27/02/2014;;;;-4.5897343878;48.5648336379
+30065012;Les Palliers;076-P-012;;;;13/06/2008;;;;;-1.217614342;46.2628168611
+60002982;Golfe de SantAmanza 1;121-P-017;0;;;21/01/2010;21/01/2010;;;;9.23259203379601;41.4202504526252
+6012005;Ouistreham 6 milles;010-P-106;18;;;13/06/2008;;;;;-0.2471744861;49.3937402578
+60002462;BLAVET - 56B 470;050-P-062;;;;02/12/2009;02/12/2009;;;;-3.29317642325489;47.7884862200764
+9018005;Carteret;029-P-001;50;;;13/06/2008;;;;;-2.1999993164;49.3833336699
+18037008;Le Guern;039-P-008;;;;13/06/2008;;;;;-4.3400588595;48.4056659834
+38095005;Vitrolles;110-P-006;;;;13/06/2008;;;;;5.2277342598;43.4653206647
+50136006;Lagon Saint Pierre Ravine Blanche;126-P-013;;Coordonnées (longitude) mises à jour sur la demande de Julie Garric-Perrales et Catherine Belin le 17/03/2010.;;13/06/2008;17/03/2010;;;;55.4611;-21.3425003103
+38094108;Anse de Carteau 2;109-P-027;4;;;13/06/2008;;;;;4.8747289248;43.3726485904
+5011005;Blonville;010-P-050;-1;;;13/06/2008;;;;;0.0199990439;49.339075211
+25055015;Suscinio;062-P-008;0;;;13/06/2008;;;;;-2.7188385541;47.4889958066
+60002466;ETEL - 56ET 09;053-P-027;;;;02/12/2009;02/12/2009;;;;-3.15240092536712;47.7322701669684
+6013006;Luc sur mer;012-P-006;-1;;;13/06/2008;;;;;-0.3466745332;49.3220705102
+28061115;Maison Blanche;071-P-075;;;;13/06/2008;;;;;-2.2038168132;46.9978231653
+16033016;Ile Callot;033-P-006;-3;;;13/06/2008;;;;;-3.9345593828;48.6930115095
+60002537;TRIEUX - 22152E10;027-P-042;;;;02/12/2009;02/12/2009;;;;-3.09549386441361;48.7956749145041
+6012009;Estuaire de lOrne;010-P-110;;;;13/06/2008;;;;;-0.2280326686;49.2795007433
+6012016;Bouée de Lion 3 milles;010-P-115;11;;;13/06/2008;;;;;-0.2655069276;49.3474054654
+27057025;Poudrantais;063-P-012;0;;;13/06/2008;;;;;-2.5013340223;47.4681644969
+60004517;Jardin Tropical;125-P-053;;Création du lieu le 05/05/2011 suite à la demande de CBelin. Renseigner le positionnement. Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.4601 et Long -60.9186).;;05/05/2011;15/11/2016;;;;-60.92471118;14.45520212
+30065002;LEperon (terre);076-P-002;0.8;Coordonnées imprécises à la création du point. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (46.2731502544 / -1.233948219);;13/06/2008;17/10/2016;;;;-1.23785;46.2703
+32071021;Le Chapus (a);080-P-056;4.1;Pour le suivi RAZLEC, ce lieu représente la station "Le Chapus".;;13/06/2008;13/11/2015;;;;-1.1789375321;45.8534744213
+8017009;Cherbourg Port;016-P-015;20;;;13/06/2008;;;;;-1.6133763097;49.682565335
+50137001;Grande Anse;126-P-014;;Les coordonnées ont été modifiées afin de rapprocher les lieux de surveillance hydrologique des lieux de surveillance du benthos et ainsi optimiser la stratégie de surveillance DCE. Les nouvelles coordonnées sont valables pour les acquisitions effectuées à partir de 2012.;;13/06/2008;11/06/2012;;;;55.536467;-21.374733
+24046012;Penthièvre;052-P-012;;;;13/06/2008;;;;;-3.1411813916;47.5586592346
+18037014;Pointe St Yves - 29EL14;039-P-014;;;;13/06/2008;;;;;-4.3461222878;48.4051442302
+34078002;Hossegor Huitrière du lac;090-P-002;;;;13/06/2008;;;;;-1.4267281586;43.6649237726
+60002420;LAÏTA - 29LA07;048-P-046;;;;02/12/2009;07/12/2009;;;;-3.53949104807884;47.8223798028566
+27057029;Trehiguier;065-P-010;;;;13/06/2008;;;;;-2.439000196;47.4941658605
+60004696;Le Moule;124-P-020;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.34167;16.33972
+16033057;Gisement Morlaix Large;033-P-028;50;;;13/06/2008;28/06/2012;;;;-3.8915605755;48.7646805304
+23045001;Groix nord;049-P-001;;;;13/06/2008;;;;;-3.4545226725;47.6461576883
+22044019;Port de Bélon;048-P-015;;;;13/06/2008;;;;;-3.705031568;47.8136588417
+27057058;Merquel;066-P-002;;;;13/06/2008;;;;;-2.4669988849;47.4218304267
+19036003;Dinan Kerloch;038-P-004;-0.8;;;13/06/2008;11/02/2016;;;;-4.5567253442;48.2561596115
+60007995;Caye dOlbian;125-P-014;;Lieu créé le 16/10/2015 à la demande de P. Loricourt/ODE972 (05/2015) avec précision de coordonnées de C. Desrosiers/ImpactMer (10/2015). Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.4646962382 et Long -61.028323275).;;16/10/2015;15/11/2016;;;;-61.01894927;14.4645086
+60006838;Dzaoudzi (large Fare) 25;145-P-033;24;Station 25 - études Def RCS;;21/03/2014;21/03/2014;;;;45.2538000402334;-12.7980999798833
+26054003;Creizic;061-P-003;10;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.8648435411-47.5794963218). Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-2.863921;47.579597
+60004756;Bande littorale Pyrénées-Orientales 1;095-P-116;;Lieu créé le 08/11/2011 demandé par le LER/LR;;08/11/2011;20/12/2011;;;;3.03486722993361;42.6602997384832
+60002493;GOLFE - 56G 930;058-P-021;;;;02/12/2009;02/12/2009;;;;-2.92554013277007;47.5509997988332
+19039007;St Nicolas;040-P-007;25;;;13/06/2008;;;;;-4.5063885448;48.1613245218
+60002477;AURAY - 56G 530;060-P-033;;;;02/12/2009;02/12/2009;;;;-2.96037014685174;47.6317551800443
+27056006;Béguéro;064-P-006;0;Lieu anciennement nommé "Pencadenic". Renommé le 26/05/2015 à la demande du LER-MPL-TM, pour "libérer" le libellé "Pencadenic" nécessaire à la création dun nouveau lieu de surveillance.;;13/06/2008;26/05/2015;;;;-2.6213377351;47.5273312188
+34077067;Jacquets;088-P-054;-4;;;13/06/2008;;;;;-1.1837458758;44.7192821954
+60002518;ARGUENON - 22006E04;022-P-038;;;;02/12/2009;02/12/2009;;;;-2.22628243814123;48.5381110440555
+60002424;MORLAIX - 29MX11;034-P-022;;;;02/12/2009;02/12/2009;;;;-3.84081472540737;48.5931583182458
+43111005;Cap Corse;115-P-007;;;;13/06/2008;;;;;9.4778331303;42.9908326994
+17035032;Le Diouris - 29AW03;037-P-029;;;;13/06/2008;;;;;-4.4531854259;48.5707021132
+5011201;Seine 1;011-P-010;;;;13/06/2008;;;;;0.0536625924;49.4790793787
+50135005;Saint Benoit;126-P-005;;;;13/06/2008;15/06/2012;;;;55.7136669702;-21.0076665633
+34078010;Ouest Mimizan;089-P-004;;;;13/06/2008;;;;;-1.4424058742;44.1861012102
+60002552;AVEN - 29AV01;048-P-042;;;;02/12/2009;02/12/2009;;;;-3.73693723596861;47.8040867028767
+27057021;Basse Kervoyal;063-P-010;0;;;13/06/2008;;;;;-2.5461690947;47.504164859
+60007530;MEC- Les Hattes (Large);146-P-044;0;Les Hattes (large);;30/10/2014;30/10/2014;;;;-53.7903309193321;5.82103399718366
+60004692;Capesterre;124-P-016;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.53857;16.05424
+27057064;Nord Dumet;062-P-018;10;;;13/06/2008;;;;;-2.6565833428;47.4600674904
+20040002;Penhors;042-P-002;;;;13/06/2008;;;;;-4.4270479375;47.9428200622
+27057061;Aval Tréhiguier - 56V100;065-P-012;;;;13/06/2008;;;;;-2.445048691;47.4961341719
+34076001;Large Porge océan;086-P-001;;;;13/06/2008;;;;;-1.2910847142;44.8846179866
+32071019;Galon dor;082-P-012;-0.5;;;13/06/2008;;;;;-1.2059366909;45.7946394313
+60006837;Hajangoua (Recif cote Lagon) H26;145-P-032;26;Station 26/H26/B27 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.2514001207001;-12.8685003017501
+28061001;Beauvoir - le Gois;071-P-001;;;;13/06/2008;;;;;-2.113646771;46.9278225157
+60004703;Ti pâté;124-P-027;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.62682;15.87155
+60000169;Etang de Vic - Passe;105-P-147;;;;11/12/2008;12/01/2015;;;;3.820833;43.468133
+11024023;Grand Bé;021-P-022;3.5;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.0356893284 - 48.6470329831).;;13/06/2008;26/11/2013;;;;-2.03246325;48.64971026
+22044026;Estuaire face porte neuve - 29BE28;048-P-022;;;;13/06/2008;;;;;-3.682618056;47.8223043216
+19039003;Morgat 2;040-P-003;-1.5;;;13/06/2008;27/02/2014;;;;-4.4942233006;48.2219928477
+38094008;Carteau 64;109-P-006;;;;13/06/2008;;;;;4.9012293407;43.3786489758
+18038003;Pors Beach;039-P-063;-1.5;;;13/06/2008;;;;;-4.3135565799;48.3394979732
+27057009;Pointe du Bile;063-P-005;;;;13/06/2008;;;;;-2.4801661436;47.435663946
+15032020;Illaouec;032-P-019;3;Mauvaise position (point trop central). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.7918514845 / -3.5942225218);;13/06/2008;24/10/2016;;;;-3.5913982;48.7920416
+30065006;Le Pas des Tranchais (terre);076-P-006;;;;13/06/2008;;;;;-1.3252843816;46.3218170417
+6013011;Asnelles large;012-P-008;3;;;13/06/2008;;;;;-0.5963472875;49.3624020224
+20040014;Pont dAudierne - 29GY05;042-P-014;;;;13/06/2008;;;;;-4.5348537097;48.0246274522
+18038011;Rostellec;039-P-071;;;;13/06/2008;27/02/2014;;;;-4.5273925142;48.293994246
+36085335;BGS - Bages Sud;100-P-046;1.3;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0158653554;43.0509568999
+27058004;Piriac sémaphore;062-P-021;;;;13/06/2008;;;;;-2.5579993257;47.3728281703
+24047030;Aval Pont Lorois - 56ET16;053-P-020;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé Aval Pont Lorois - ET16).;;13/06/2008;15/04/2013;;;;-3.1986870799;47.6741747297
+60006841;Passe en S (branche Nord - bord est) H27;145-P-036;23;Station 27/B32/H27 - études Def RCS;;21/03/2014;21/03/2014;;;;45.2749004224502;-12.8402997384832
+10023017;Hock nord;020-P-019;4;Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (48.672079 / -1.849047);;13/06/2008;24/10/2016;;;;-1.8492092;48.6716184
+60002381;Cap Salomon;125-P-036;14;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.5079189298 et Long -61.1017330517).;;24/11/2009;15/11/2016;;;;-61.10141759;14.50796179
+43116001;Manza;121-P-001;;;;13/06/2008;;;;;9.2196824676;41.413647166
+18038028;Pointe Ste Barbe;039-P-086;-3;;;13/06/2008;27/02/2014;;;;-4.5713929794;48.2821600838
+37088006;Le Grau du Roi;102-P-010;;;;13/06/2008;;;;;4.0933773495;43.5283110091
+60002501;VILAINE - 56V 240;065-P-019;;;;02/12/2009;02/12/2009;;;;-2.52938442969221;47.5014172198753
+60002395;Trou Manuel;125-P-050;1;;;24/11/2009;27/02/2013;;;;-60.8769945684973;14.4675900221283
+60002389;Loup Garou;125-P-044;11;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.6818396701 et Long -60.847929994).;;24/11/2009;15/11/2016;;;;-60.84879952;14.68116079
+28060004;Plage Benoît 4;069-P-004;;;;13/06/2008;;;;;-2.4038274742;47.2793276783
+60006814;Recif MTsanga (Nord-est) 14;145-P-009;14;Station 14/B16 - études Def RCS - large Sada + sortie baie Boueni;;21/03/2014;21/03/2014;;;;45.0492003621002;-12.8488996177831
+5011001;Le Havre digue nord;011-P-001;-1;;;13/06/2008;;;;;0.0916630946;49.4889134175
+28060050;Saint Géréon - 44 L013 (136600);070-P-024;;Référence point DDTM : PMR044044160ER00000013. Type de suivi : Loire. Faut-il corriger les coordonnées?;;13/06/2008;17/07/2014;;;;-1.2050420021;47.3564550133
+4009003;Veulettes (a);009-P-013;-1;;;13/06/2008;;;;;0.5909966675;49.8527624504
+14030006;Pen Palluc;028-P-005;3.5;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-3.2005497432 - 48.8351906685).;;13/06/2008;26/11/2013;;;;-3.1994928;48.83658466
+38095001;Jai;110-P-002;;;;13/06/2008;;;;;5.1634005918;43.4129855772
+60002431;Sud-est Ile Queffen - 29PA19;045-P-017;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé PONT LABBE - 29PA19).;;02/12/2009;15/04/2013;;;;-4.18136592234964;47.849956749145
+27057002;Le Halguen;065-P-002;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.4951680437,47.499832013). Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (47.501564 / -2.492189);;13/06/2008;05/12/2016;;;;-2.49359;47.50146
+60002510;SCORFF - 56S 130;050-P-055;;;;02/12/2009;02/12/2009;;;;-3.39213437940052;47.8393411788373
+30065036;Pertuis Breton gisement 02;076-P-031;3;Libellé modifié à la demande du LER-PC le 15/03/2011 (ancien libellé : PB pétoncles).;;13/06/2008;15/03/2011;;;;-1.2649474663;46.2161485681
+60003362;VAÏ- Vaïne;110-P-116;;Ajouté suite à la demande de Nathalie Malet et Valérie Dérolez en avril 2010;;29/04/2010;29/04/2010;;;;5.20690002011668;43.4711003822169
+15032028;Trébeurden;032-P-027;7;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.5831661545-48.7496672003).;;13/06/2008;15/04/2013;;;;-3.581689;48.750719
+29064016;La Rochepie;074-P-038;;;;13/06/2008;;;;;-1.7751299821;46.4898159308
+26053007;Toulvern;060-P-007;;;;13/06/2008;;;;;-2.9286783857;47.5928292349
+6012002;Ouistreham 2 milles;010-P-103;8;;;13/06/2008;;;;;-0.2436726086;49.32723851
+35079008;Saint Jean de Luz;091-P-006;;;;13/06/2008;;;;;-1.6744606734;43.4101158753
+6012013;Ouistreham enrochement ouest;010-P-112;3;;;13/06/2008;;;;;-0.2475051381;49.2947375931
+13027014;Morieux point b5;025-P-023;;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.6195312517 - 48.5553570597).;;13/06/2008;26/11/2013;;;;-2.61843782;48.5533724
+28060025;Pointe St Gildas (a);070-P-005;;;;13/06/2008;;;;;-2.2461544253;47.1396594397
+60002435;BELON - 29BE01;048-P-050;;;;02/12/2009;02/12/2009;;;;-3.7262623214645;47.8021897002615
+40100006;Bregaillon;112-P-006;;;;13/06/2008;;;;;5.8854205051;43.1051524801
+7014002;Ste Marie du Mont nord;014-P-002;-2;;;13/06/2008;;;;;-1.1568596675;49.4083966939
+28060046;Saint-Nazaire - 44 L029 (149200);070-P-020;;Référence point DDTM : PMR044044184ES00000029. Type de suivi : Loire.;;13/06/2008;17/07/2014;;;;-2.1699917515;47.2898606396
+60006825;Mbouini (ilot centre lagon) H18;145-P-020;28;Station 18/H18/B23 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.1290997787166;-13.0383001408167
+30066001;La Carrelère;077-P-002;-0.9;;;13/06/2008;;;;;-1.2001132535;46.2299829522
+60006810;Grande Passe Ouest (Aval Large) H28;145-P-005;400;Station 28/H28 - études Def RCS + RHLM actif - hors lagon;;21/03/2014;21/03/2014;;;;44.9711999597666;-12.7821001810501
+21042030;Face moulin marée - 29PA16;045-P-010;;;;13/06/2008;;;;;-4.2119837554;47.8671007763
+28060043;Large Croisic;062-P-031;30;Ce lieu actif de 2005 à 2011 pour le REPHYTOX représentait des zones POLYGONES (062-S-047 Large Croisic Nord et 069-S-049 La Banche) qui ont été définies à partir du 09/12/2011.;;13/06/2008;06/01/2012;;;;-2.6364976513;47.2488242376
+17035013;Lanildut;037-P-013;;;;13/06/2008;;;;;-4.7599014685;48.4693291568
+28060001;Pointe de Chemoulin (a);069-P-001;;;;13/06/2008;;;;;-2.3016577218;47.2311610212
+60002509;PENZE - 29PZ36;035-P-022;;;;02/12/2009;02/12/2009;;;;-3.92356769261718;48.5857654395494
+13027030;Dahouët;025-P-035;5;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.571697669 - 48.5795249135).;;13/06/2008;26/11/2013;;;;-2.57168732;48.5803898
+60002450;RANCE - 35EER3;021-P-076;;;;02/12/2009;02/12/2009;;;;-1.98833132166567;48.4977801247234
+34077005;Cap Ferret (a);087-P-001;;Modifications des coordonnées le : 17/01/2017 à la demande des coordinations REMI, REPHY Anciennes coordonnées (44.6466133434 / -1.238578641);;13/06/2008;17/01/2017;;;;-1.23903029;44.64725205
+60002394;Etang des Salines;125-P-049;0.5;;;24/11/2009;24/11/2009;;;;-60.875442566888;14.4064011265339
+4008001;St Aubin Seine Maritime;009-P-001;3;;;13/06/2008;;;;;0.8653344009;49.899100219
+28060013;Port Giraud;070-P-003;;;;13/06/2008;;;;;-2.1949872894;47.1588271613
+2003030;Bassin Napoléon;002-P-027;;;;13/06/2008;;;;;1.5958266897;50.7239651237
+60008192;Nord Ouest Levi;016-P-006;21.5;Lieu créé le 09/02/2016 à la demande du LER/N.;;09/02/2016;09/02/2016;Cherbourg;;;-1.48708308187489;49.7091329712331
+18038057;Gisement Basse Renard;039-P-113;30;;;13/06/2008;;;;;-4.4920595641;48.3313289424
+60002534;JAUDY - 22171E01;028-P-022;;;;02/12/2009;02/12/2009;;;;-3.26727720780528;48.7496570106618
+1001104;Oye plage;001-P-022;-1;;;13/06/2008;;;;;1.9986607303;51.0024777513
+33075010;Bonne Anse - Centre;084-P-012;0;;;13/06/2008;;;;;-1.2099992634;45.6841668494
+60002505;Pont Canada - 22171E05;028-P-025;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé JAUDY - 22171E05).;;02/12/2009;15/04/2013;;;;-3.22140716153692;48.7842164554416
+5010002;Antifer ponton pêche;010-P-002;5;;;13/06/2008;;;;;0.1501598671;49.6504184817
+60006912;Panache Lézarde;125-P-064;;Lieu créé le 14/04/2014 (demande du 28/01/2014 par aubert-moulin@creocean.fr).;;14/04/2014;14/04/2014;;;;-61.0272007644337;14.5954858177429
+60006816;MTsamboro (Baie centre) H9;145-P-011;59;Station 9/H9 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.0566998591833;-12.6892003621002
+25055006;Méaban;058-P-007;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.9501770907-47.5268273622).;;13/06/2008;16/04/2013;;;;-2.934365;47.513917
+37087028;Mèze lagunage;104-P-025;;;;13/06/2008;;;;;3.5935363812;43.4151369857
+26053004;Rohello;060-P-004;;;;13/06/2008;;;;;-2.9503462102;47.6224963774
+18037011;Kéraliou;039-P-011;;;;13/06/2008;27/10/2014;;;;-4.4137260786;48.3773310457
+4009002;Fécamp;009-P-012;-2;;;13/06/2008;;;;;0.3648276057;49.7709242581
+60002390;Loup Ministre;125-P-045;15;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.7817069 et Long -60.939352243).;;24/11/2009;15/11/2016;;;;-60.94586685;14.77832235
+25049010;Souris;055-P-009;;;;13/06/2008;;;;;-3.0196784628;47.5308266455
+28060022;Plage Benoît 11;069-P-019;;;;13/06/2008;;;;;-2.4096607274;47.2718274281
+7014024;Utah;014-P-024;2;;;13/06/2008;;;;;-1.1728336826;49.4216668616
+18038065;Pont de Terenez - 29AL38;039-P-120;;;;13/06/2008;;;;;-4.2623570695;48.2686284803
+60002449;RANCE - 35EER1;021-P-075;;;;02/12/2009;02/12/2009;;;;-1.99964192315429;48.4863538523436
+60002523;LEGUER - 22225E06;032-P-042;;;;02/12/2009;02/12/2009;;;;-3.53719472943069;48.7346690806679
+60004120;Bonen du Four;062-P-046;;Lieu ajouté à la demande du REPHY;;15/11/2010;09/02/2011;;;;-2.65462;47.308548
+28061064;Bois de la Chaise large;071-P-061;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.2008322542,47.0180003528).;;13/06/2008;16/04/2013;;;;-2.199438;47.019077
+60002553;AVEN - 29AV03;048-P-043;;;;02/12/2009;02/12/2009;;;;-3.75332327499498;47.8317169583585
+60002496;PENERF - 56V 500;064-P-017;;;;02/12/2009;02/12/2009;;;;-2.64940856970429;47.5057664453832
+35079010;Adour 2;091-P-008;;;;13/06/2008;;;;;-1.5150436017;43.5282200039
+18037015;Aval la grande Palud - 29EL12;039-P-015;;;;13/06/2008;;;;;-4.2864837221;48.4360140629
+15032023;Beg Hent;032-P-022;0;;;13/06/2008;;;;;-3.538386582;48.7346840214
+36083374;LEN - Leucate Nord;097-P-091;2.6;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0165351123;42.8832867504
+60002382;Loup Caravelle;125-P-037;18;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.8039831021et Long -60.9344980889).;;24/11/2009;15/11/2016;;;;-60.93405957;14.80421422
+17035017;Treglonou;037-P-016;;;;13/06/2008;;;;;-4.5353997696;48.5536673496
+6013020;Pointe de la Percée;013-P-004;0;Correction des coordonnées le 28/06/2012, à la demande du LER. Anciennes coordonnées (-0.9188544978-49.3915657029).;;13/06/2008;28/06/2012;;;;-0.9196666667;49.3906666667
+18037007;Le Passage (b);039-P-007;;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -4.3847259345-48.3911650779).;;13/06/2008;27/02/2014;;;;-4.384965;48.391067
+33073001;La Cotinière;075-P-001;;;;13/06/2008;;;;;-1.3251082364;45.9124741564
+50137005;La Possession (Large);126-P-018;;Les coordonnées ont été modifiées afin de rapprocher les lieux de surveillance hydrologique des lieux de surveillance du benthos et ainsi optimiser la stratégie de surveillance DCE. Les nouvelles coordonnées sont valables pour les acquisitions effectuées à partir de 2012, et correspondent aux coordonnées de la station B133 de la campagne CARTOMAR 2009.;;13/06/2008;12/06/2012;;;;55.328017;-20.915417
+27059002;Le Grand traict;068-P-002;;;;13/06/2008;29/03/2012;;;;-2.498996222;47.2924935625
+60002485;VANNES - 56G 710;061-P-082;;;;02/12/2009;02/12/2009;;;;-2.76060752363711;47.6417159525246
+60002459;BLAVET - 56B 450;050-P-059;;;;02/12/2009;02/12/2009;;;;-3.27599074632872;47.822082076041
+28061011;Claire Durand;071-P-011;;;;13/06/2008;;;;;-1.9953144514;47.058327022
+60002514;VILAINE - 56V 080;065-P-018;;;;02/12/2009;02/12/2009;;;;-2.37796922148462;47.4976312613156
+32070038;Lamouroux;080-P-030;;;;13/06/2008;;;;;-1.1486052212;45.9228096957
+31068002;Ile dAix;079-P-025;-0.4;Pour le suivi RAZLEC, ce lieu représente la station "Aix". Coordonnées imprécises à la création du point. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (46.0101449468 / -1.1584407367);;13/06/2008;17/10/2016;;;;-1.15275;46.016405
+4007101;Varengeville;008-P-013;-2;;;13/06/2008;;;;;0.9820028963;49.9207688241
+60002454;RANCE - 35EER8;021-P-080;;;;02/12/2009;02/12/2009;;;;-1.99430999798832;48.5866123516395
+21042034;Pouldon SE Ile Chevalier - PA20;045-P-012;;;;13/06/2008;;;;;-4.1742759501;47.8495407952
+9020004;Pirou Bergerie Sud;018-P-021;-5;;;13/06/2008;;;;;-1.6010278531;49.1473845185
+27057006;Port au Loup;063-P-003;;;;13/06/2008;;;;;-2.5353325654;47.3856620807
+39096015;Morgiret - Frioul;111-P-022;;;;13/06/2008;04/03/2013;;;;5.3048324181;43.2828324539
+37087024;Entrée port;102-P-001;;;;13/06/2008;;;;;3.7007054325;43.3986376908
+60007473;MET- COMTE (Dégrad des Cannes);146-P-007;0;Degrad des Cannes;;30/10/2014;30/10/2014;;;;-52.2778223697445;4.84807181653591
+16033013;Pors Doun;035-P-003;;;;13/06/2008;;;;;-3.9525586693;48.6551769927
+21043001;Penfoulic;047-P-001;-1.4;;;13/06/2008;27/02/2014;;;;-3.9808719971;47.8943242129
+38094003;Carteau 1;109-P-003;;;;13/06/2008;;;;;4.8745619704;43.3883155936
+25049009;NE Dupuch;055-P-008;;;;13/06/2008;;;;;-3.0560125105;47.5328262683
+6013023;Asnelles-Meuvaines;012-P-013;5;;;13/06/2008;;;;;-0.5715131312;49.3504019897
+37088002;Filières de Sète-Marseillan;102-P-006;;;;13/06/2008;11/12/2009;;;;3.5802049781;43.2971343374
+37087378;TW - Thau Ouest;104-P-116;0.9;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.5870369862;43.3758027476
+60002473;CRACH - 56G 280;059-P-006;;;;02/12/2009;02/12/2009;;;;-2.98265540132769;47.5602021726011
+60007486;MET - KOUROU (Singe Rouge);146-P-020;0;Singe rouge;;30/10/2014;30/10/2014;;;;-52.7024964795816;5.00222691611346
+15032008;Beg Douar;032-P-008;;;;13/06/2008;;;;;-3.6155532845;48.6841817981
+60001820;Le Moustoir;060-P-031;;;;04/08/2009;04/08/2009;;;;-2.955517;47.60175
+60003032;PLS-La Palissade;108-P-011;0;;;15/02/2010;15/02/2010;;;;4.8105964594649;43.3515550191108
+30065019;Filière w;076-P-016;7;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -1.3769509833,46.2781487673).;;13/06/2008;16/04/2013;;;;-1.376951;46.278149
+16033061;Pont de la Corde - PZ05;035-P-017;;;;13/06/2008;;;;;-3.9506083373;48.6444084083
+2003002;Point 1 Boulogne;002-P-007;10;Lieu renommé le 27/02/2015 à la demande du REPHY. Ancien libellé (Point 1 SRN Boulogne).;;13/06/2008;27/02/2015;;;;1.5486581799;50.7531320816
+32072039;Mus de loup (a);083-P-025;-8;;;13/06/2008;;;;;-1.1402688874;45.7978069004
+60006839;Dzaoudzi (ilot MTsanga) H2;145-P-034;19;Station 2/H2/B01 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.2597998390666;-12.7661003822169
+19039017;Kervel large;040-P-017;10.5;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -4.2996667667-48.108832375).;;13/06/2008;15/04/2013;;;;-4.298194;48.10991
+60006833;Bambo (ilot sud est) H21;145-P-028;24;Station 21/H21/B24 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.2093995171998;-12.9399004224502
+60002425;MORLAIX - 29MX15;034-P-023;;;;02/12/2009;02/12/2009;;;;-3.87858177429089;48.6497455240394
+32070015;Agoût;080-P-021;0;;;13/06/2008;;;;;-1.2097783164;45.9359226516
+38091325;MARS - Marette Sud;107-P-021;0.8;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;4.1718783751;43.5559790444
+60002448;R de DAOULAS - 29RD16;039-P-200;;;;02/12/2009;02/12/2009;;;;-4.3507634278817;48.3333705491853
+21043009;Carrec Bouzen;047-P-009;20;;;13/06/2008;;;;;-3.9430365242;47.8389899653
+16033056;Gisement Morlaix Intérieur;033-P-027;20;;;13/06/2008;;;;;-3.8787254734;48.7091792643
+60002446;Pointe Kerzanton - 29RD05;039-P-198;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé R de DAOULAS - 29RD05).;;02/12/2009;15/04/2013;;;;-4.29539227519615;48.3456739086703
+31067001;Le Martray;079-P-002;-2.5;Déplacement de la ressource à partir du 01/10/2015. Modifications des coordonnées le : 18/10/2016 à la demande des coordinations REMI,REPHY,RNOMV Anciennes coordonnées (46.1984789838 / -1.4881178425);;13/06/2008;18/10/2016;;;;-1.48608;46.19817
+50136005;Lagon Saint Leu Corne;126-P-012;;;;13/06/2008;;;;;55.2848329309;-21.1656671049
+17035021;Trevors;037-P-019;2.3;;;13/06/2008;27/02/2014;;;;-4.6360690738;48.5836668838
+16033007;Le Dourduff;034-P-003;;;;13/06/2008;27/02/2014;;;;-3.8488894288;48.6305109485
+11024036;La Roche du Port;021-P-034;4.8;;;13/06/2008;;;;;-1.9976870786;48.5900319582
+60002528;LEGUER - 22225E01;032-P-047;;;;02/12/2009;02/12/2009;;;;-3.4431301548984;48.7217612150473
+25048001;Kerdonis;054-P-001;;;;13/06/2008;;;;;-3.0556734407;47.3074874435
+60007481;MET- APPROUAGUE (Régina);146-P-015;0;Regina;;30/10/2014;30/10/2014;;;;-52.117764031382;4.33194830014082
+60002542;JAUDY - 22172-00;028-P-024;;;;02/12/2009;02/12/2009;;;;-3.21901931200966;48.8338312210823
+1001022;Point 1 Dunkerque;001-P-015;-3.1;Lieu renommé le 27/02/2015 à la demande du REPHY. Ancien libellé (Point 1 SRN Dunkerque).;;13/06/2008;27/02/2015;;;;2.3334994588;51.0686501641
+60002489;NOYALO - 56G 890;061-P-086;;;;02/12/2009;02/12/2009;;;;-2.69453731643532;47.6094920539127
+4009006;St Valéry en Caux;009-P-016;-1;;;13/06/2008;;;;;0.7084985018;49.8742643966
+37087017;Mèze zone a;104-P-016;;Mise à jour des coordonnées suite à une demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.625113;43.426547
+60002442;AULNE - 29AL49;039-P-194;;;;02/12/2009;02/12/2009;;;;-4.17078857372763;48.2468145242406
+24047004;Le Pradic;053-P-004;;Correction de coordonnées le 27/04/2016 suite à la demande du LER MPL/TM (anciennes coordonnées : 47.6539941819,-3.2030183045);;13/06/2008;28/04/2016;;;;-3.2067222222;47.65225
+21042002;Ile Chevalier;045-P-001;-1;Correction des coordonnées le 15/11/2011 à la demande du LER/FBN/Concarneau (anciennes coordonnées -4.1763744517-47.8544875586).;;13/06/2008;15/11/2011;;;;-4.176366;47.855182
+12025024;Fresnaie f5;023-P-011;;Correction des coordonnées à la demande du LER le 26/11/2013 : anciennes coordonnées (-2.2933606925 - 48.6395297508).;;13/06/2008;26/11/2013;;;;-2.29404995;48.63898511
+22044004;Poulguin;048-P-004;-2;;;13/06/2008;27/02/2014;;;;-3.7508657555;47.8146583213
+6013002;St Aubin;012-P-002;-1;;;13/06/2008;;;;;-0.387675866;49.3409038731
+14030002;Pont Canada;028-P-001;;;;13/06/2008;;;;;-3.2230486688;48.7808556632
+27056002;Penerf;064-P-002;;;;13/06/2008;;;;;-2.616504012;47.5154976511
+60007477;MEC- Cayenne Côte;146-P-011;0;Cayenne côte;;30/10/2014;30/10/2014;;;;-52.2400080466707;4.88332528666264
+7015001;Ravenoville (a);014-P-053;-1;Coordonnées modifiées le 25/08/2009 (anciennes coordonnées : lat = 49.451730567, long = -1.2096952416);;13/06/2008;09/09/2014;;;;-1.176316667;49.46853333
+25049015;Plijadur;055-P-013;;;;13/06/2008;;;;;-3.0450137274;47.5881610884
+29062003;Frandière;072-P-003;;;;13/06/2008;;;;;-2.1744809427;46.9163215412
+60002546;ODET - 29OD12;046-P-026;;;;02/12/2009;02/12/2009;;;;-4.11538221685777;47.932125326896
+60007512;MET- OYAPOCK (Aval Saut Maripa);146-P-026;0;Maripa AV;;30/10/2014;30/10/2014;;;;-51.8713910681955;3.80917119291892
+29062008;La Sablaire;072-P-008;;;;13/06/2008;;;;;-2.3239791244;46.7291486838
+15032004;Toëno;032-P-004;;;;13/06/2008;;;;;-3.5858889931;48.7903515463
+16033026;Le Frout;034-P-008;;;;13/06/2008;;;;;-3.8860572106;48.6463442372
+22044008;Merrien port;048-P-008;-2;;;13/06/2008;;;;;-3.6473630429;47.7824920915
+8016001;Cap Lévi;016-P-001;20;;;13/06/2008;;;;;-1.4562071654;49.704401124
+6012004;Ouistreham 4 milles;010-P-105;12;;;13/06/2008;;;;;-0.2455068793;49.3604060468
+25051013;Treho;055-P-023;;;;13/06/2008;;;;;-3.0135124342;47.5601607707
+38095004;Chamas;110-P-005;;;;13/06/2008;;;;;5.0733967631;43.5251538132
+60002482;AURAY - 56G 500;060-P-038;;;;02/12/2009;02/12/2009;;;;-2.91864011265338;47.6691500704084
+3006018;Le Hourdel;006-P-005;;;;13/06/2008;;;;;1.5025052779;50.2297833943
+6013007;Lion sur mer;010-P-184;-1;;;13/06/2008;;;;;-0.3185069541;49.3092371592
+9018006;Nord ouest Guernesey;092-P-001;50;;;13/06/2008;;;;;-3.3333340634;49.7833340084
+60002983;Goulet de Bonifacio;122-P-112;0;Rinbio 41B.;;21/01/2010;08/11/2011;;;;9.1533101991551;41.3900301750151
+25052005;Breneguy;059-P-004;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5528279239 / -2.9566778742);;13/06/2008;05/12/2016;;;;-2.96026;47.55404
+37087010;Marseillan large;104-P-009;;Coordonnées modifiées sur la demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.555615;43.356912
+42117010;Pianottoli - Bruzzi;122-P-010;;;;13/06/2008;;;;;9.0233161374;41.4553996619
+60003361;BER-Berre;110-P-115;;Rinbio 17D. Ajouté suite à la demande de Nathalie Malet et Valérie Dérolez en avril 2010;;29/04/2010;08/11/2011;;;;5.11269965801651;43.4325005029169
+60006823;Handrema (Ilot sud est) 5;145-P-018;45;Station 5 - étude Def RCS;;21/03/2014;21/03/2014;;;;45.1235998792999;-12.6816002816335
+14029026;Pont de Lézardrieux - 152E08;027-P-014;3;Modification des coordonnées à la demande de la coordination REPHY le 06/09/2016. Anciennes coordonnées : 48.7801903852 -3.1057131293;;13/06/2008;06/09/2016;;;;-3.1063801;48.7785039
+5011006;Banc Seine;010-P-051;20;;;13/06/2008;;;;;-0.1783418766;49.4710764755
+24047012;Roquenec;053-P-010;;Erreur de localisation depuis la création dans Quadrige. Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.6663277402 / -3.2096854111);;13/06/2008;05/12/2016;;;;-3.20876;47.66636
+14029042;Roch Du;027-P-023;0;;;13/06/2008;;;;;-3.0937136549;48.8075245676
+6012008;Cabourg;010-P-109;4;;;13/06/2008;;;;;-0.1170026166;49.2984058683
+60002492;NOYALO - 56G 875;061-P-089;;;;02/12/2009;02/12/2009;;;;-2.71114262723799;47.648157312412
+30065001;Fosse Loix;076-P-001;-2.1;;;13/06/2008;;;;;-1.4079503774;46.2276472339
+13026016;Est baie de St Brieuc;024-P-009;15;;;13/06/2008;;;;;-2.5627011412;48.714361826
+29064002;Armandeche;074-P-024;;;;13/06/2008;;;;;-1.8126306204;46.4876487877
+6012020;Pointe du Siège 2;010-P-118;-3;;;13/06/2008;;;;;-0.2313377007;49.2782373378
+3006102;Pointe de St Quentin;006-P-009;-1;;;13/06/2008;26/10/2012;;;;1.5236711602;50.2741182147
+60004699;Pointe des Mangles;124-P-023;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.5429;16.43118
+36083003;Grau Leucate;097-P-003;;;;13/06/2008;;;;;3.0348687607;42.8851203029
+4007011;Tréport;008-P-008;-2;;;13/06/2008;05/05/2015;;;;1.3615069388;50.0622770984
+60002469;ETEL - 56ET 14;053-P-030;;;;02/12/2009;02/12/2009;;;;-3.16571011868839;47.7015268557634
+16033019;Bloscon;033-P-008;-1;;;13/06/2008;;;;;-3.9705608649;48.7228451702
+38091324;MARN - Marette Nord;107-P-020;0.6;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;4.1725449126;43.5636458835
+60001841;Dieppe large;003-P-031;;Coordonnées mises à jour (longitude positivie et pas négative) sur la demande de Catherine Belin (17/03/2010) - Changement de mnémonique (anciennement 092-P-003) suite au changement de coordonnées.;;11/08/2009;03/03/2011;;;;0.85;50.2
+9021001;Breville (a);018-P-044;-2;;;13/06/2008;;;;;-1.5811864443;48.8643773096
+25048002;Citadelle;054-P-002;;;;13/06/2008;;;;;-3.1526762482;47.3488206451
+25052001;Les Boureseaux;059-P-001;;Modification de coordonnées le 27/04/2016 suite à demande LER MPL. Anciennes coordonnées (47.5528281583,-2.9366775082);;13/06/2008;28/04/2016;;;;-2.9457848;47.5555529
+27057003;Le Scal;065-P-003;;;;13/06/2008;;;;;-2.4470003565;47.4946657798
+7015032;Gougins;015-P-031;2;;;13/06/2008;;;;;-1.2430001592;49.4851677386
+19036004;Basse Jaune;038-P-005;4;;;13/06/2008;09/07/2010;;;;-4.726723741;48.0849866291
+43111006;Sud Bastia;115-P-008;;;;13/06/2008;;;;;9.4911673822;42.6411668685
+13026009;Erquy;025-P-006;0.5;;;13/06/2008;;;;;-2.4863643751;48.6406941644
+60007516;MET- SINNAMARY (Pointe Combi);146-P-030;0;Pointe Combi;;30/10/2014;30/10/2014;;;;-52.946848722591;5.35044457855562
+21041001;Les Glénan;043-P-001;6.8;;;13/06/2008;;;;;-3.9867012004;47.7333201782
+14029050;Loguivy;027-P-028;3;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -3.0433332657-48.8276673579).;;13/06/2008;15/04/2013;;;;-3.041866;48.828709
+60002423;LAÏTA - 29LA12;048-P-049;;;;02/12/2009;07/12/2009;;;;-3.5418949909475;47.8608398712533
+18038012;Lanvéoc large;039-P-072;12;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -4.4499998509-48.3083322084).;;13/06/2008;15/04/2013;;;;-4.44852;48.309405
+29062001;La Guérinière;072-P-001;;;;13/06/2008;;;;;-2.2299831673;46.9654887524
+17035035;Trémazan en Landunvez;037-P-032;;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -4.7171864848-48.5579985798).;;13/06/2008;15/04/2013;;;;-4.717099;48.558068
+60003509;Etang de Gruissan - Sud;101-P-011;1;Ancienne coordonnées (43.1059334138 - 3.082450211) corrigées le 18/10/2011, demande faite par LER/LR.;;11/05/2010;18/10/2011;;;;3.0826;43.10645
+60002465;ETEL - 56ET 02;053-P-026;;;;02/12/2009;02/12/2009;;;;-3.18397103198552;47.7499889358278
+25050002;Kerivor;056-P-001;3;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14). Erreur de localisation depuis la création dans Quadrige. Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5726599541 / -3.1091811675);;13/06/2008;05/12/2016;;;;-3.10679;47.57345
+28060008;Estuaire (b);070-P-001;;;;13/06/2008;;;;;-2.227656024;47.2178282183
+60004755;Bande littorale Aude - Nord de Port La Nouvelle 1;095-P-115;;Lieu créé le 08/11/2011 demandé par le LER/LR;;08/11/2011;20/12/2011;;;;3.13221685777509;43.1169674109837
+60002474;Le Lac - 56G230;057-P-015;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé CRACH - 56G 230).;;02/12/2009;15/04/2013;;;;-3.02580869040435;47.6117843492255
+26054014;Truscat;061-P-014;;;;13/06/2008;;;;;-2.7550073488;47.5464967957
+6013022;Port en Bessin 1 mille;013-P-006;15;;;13/06/2008;;;;;-0.768517285;49.3588999194
+14029001;Bréhat;027-P-001;4;Modifications des coordonnées demandées par le LER Dinard le 20/04/2011 (lat=48.823726 et long=-3.012413), puis le 20/01/2014.;;13/06/2008;20/01/2014;;;;-3.01242965;48.82254709
+60002515;ABER BENOIT - 29AB01;037-P-068;;;;02/12/2009;02/12/2009;;;;-4.50422852544759;48.5449627841481
+60002511;JAUDY - 22171A19;028-P-016;;;;02/12/2009;02/12/2009;;;;-3.25704284852142;48.7822550794609
+19039008;Baie de Douarnenez;040-P-008;1;;;13/06/2008;11/02/2016;;;;-4.3920532209;48.1633259518
+43114004;Urbino Radeau;119-P-002;5;;;13/06/2008;;;;;9.4726779591;42.0504958029
+22044029;Queblen - 29LA11;048-P-025;;;;13/06/2008;;;;;-3.5423164081;47.8564351655
+6012019;Franceville Oiseaux;010-P-117;;;;13/06/2008;;;;;-0.2308379071;49.2862375582
+32070024;Les Doux;080-P-023;;;;13/06/2008;;;;;-1.1882722617;45.9071422247
+18038061;Gisement Le Fret;039-P-117;20;;;13/06/2008;;;;;-4.4680582542;48.2989950893
+37089001;Etang du Prévost (a);105-P-151;;Modifications des coordonnées le : 05/01/2017 à la demande des coordinations REMI, REPHY Anciennes coordonnées (43.520838 / 3.909521);;13/06/2008;05/01/2017;;;;3.909704;43.521401
+26053001;Le Guilvin;060-P-001;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (47.5701619583 / -2.9331778876);;13/06/2008;05/12/2016;;;;-2.9338;47.56765
+14030009;Tréguier pont;028-P-008;2;;;13/06/2008;;;;;-3.2197154061;48.7856891611
+30065005;Les Ecluseaux (terre);076-P-005;1.6;Coordonnées imprécises à la création du point. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (46.336649949 / -1.3942860064);;13/06/2008;17/10/2016;;;;-1.3933;46.3326
+37087508;Thau - Crique de lAngle;104-P-220;;;;13/06/2008;;;;;3.6705372762;43.447305102
+28060045;Pointe St Gildas large;069-P-024;;Correction des coordonnées le 16/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.2691663677,47.1336673624).;;13/06/2008;16/04/2013;;;;-2.26777;47.134749
+60002962;Fos;109-P-135;0;;;19/01/2010;19/01/2010;;;;4.95058036612352;43.3506497686582
+60006836;Mamoudzou (Approche barge) 33;145-P-031;11;Station 33 - études Def RCS;;21/03/2014;21/03/2014;;;;45.2359997988332;-12.7783001408167
+60005890;Listel;104-P-443;6.6;;;29/03/2013;29/03/2013;Sète;;;3.61106341;43.38875155
+34077060;Banc Arguin sud;087-P-009;;;;13/06/2008;21/04/2009;;;;-1.2387438867;44.5799452241
+23045050;Aval Le Scav - 56B510;050-P-016;;;;13/06/2008;30/04/2010;;;;-3.3878872358;47.8042290379
+60004693;Ilet Gosier;124-P-017;12;Lieu créé le 11/10/2011 demande de C. Belin. Coordonnées corrigées le 27/05/13 suite à la mission de mars 2013 et à lenvoi dun mail de Pareto.;;11/10/2011;15/04/2014;;;;-61.49147;16.19227
+36081005;Etang des Capellans;095-P-005;;;;13/06/2008;22/07/2013;;;;3.0385405105;42.6087813182
+60002532;JAUDY - 22171E04;028-P-020;;;;02/12/2009;02/12/2009;;;;-3.22166566083283;48.7772218869443
+22044025;Estuaire amont Isle - 29BE26;048-P-021;;;;13/06/2008;;;;;-3.6996916205;47.8193457123
+40100001;Lazaret (a);112-P-001;4;;;13/06/2008;28/03/2014;;;;5.9064212393;43.0873189621
+6012014;Houlgate;010-P-113;-1;;;13/06/2008;;;;;-0.0816688112;49.3072398473
+36080003;Argelès plage;094-P-003;;;;13/06/2008;;;;;3.0547086789;42.5422801203
+8017018;Nord Cotentin;016-P-023;5;;;13/06/2008;;;;;-1.5450409518;49.6583988279
+60002486;Bras de Sene - 56G720;061-P-083;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé VANNES - 56G 720).;;02/12/2009;16/04/2013;;;;-2.75010963588815;47.6191651579159
+32070005;Vieille Goule;080-P-011;0.9;Modifications des coordonnées le : 18/10/2016 à la demande des coordinations REMI, REPHY, pour les passages et prélèvements à partir du 01/10/2015 Anciennes coordonnées (45.9638097847 / -1.2259409199);;13/06/2008;18/10/2016;;;;-1.22706;45.96537
+37087027;P. Saumes(etang);104-P-024;;;;13/06/2008;;;;;3.5450370515;43.3284679903
+60002457;SCORFF - 56B 540;050-P-057;;;;02/12/2009;02/12/2009;;;;-3.34969925568296;47.7479833031583
+36081001;Filières de Gruissan;095-P-001;1;;;13/06/2008;11/12/2009;;;;3.1345334178;43.0981257299
+16033011;Eaux profondes;033-P-005;1;;;13/06/2008;;;;;-3.8935581274;48.6746782032
+2003019;Parc 10 n;002-P-024;10;;;13/06/2008;;;;;1.5986589559;50.7634662855
+60007524;MET- IRACOUBO (Pont RN1);146-P-038;0;Pont RN1 (Iracoubo);;30/10/2014;30/10/2014;;;;-53.2015550191108;5.48010058338363
+24046017;Sud Birvideaux;052-P-017;;;;13/06/2008;;;;;-3.2513472539;47.448988592
+12025037;les Hébihens;022-P-018;5.8;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.2086674852-48.6420008144).;;13/06/2008;15/04/2013;;;;-2.207224;48.643034
+27057020;Ligogne;063-P-009;;;;13/06/2008;;;;;-2.5338325714;47.3869954641
+25050006;St Colomban;056-P-003;;Erreur de localisation depuis la création dans Quadrige. Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5754933687 / -3.108181222);;13/06/2008;05/12/2016;;;;-3.10708;47.57938
+60004702;Ilet Kahouane;124-P-026;12;Lieu créé le 11/10/2011 demande de C. Belin.;;11/10/2011;15/04/2014;;;;-61.7774170187085;16.3707171595252
+60002386;Pinsonnelle;125-P-041;0;Changement de coordonnées demandé par CBelin le 18/04/2011. Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.6027 et Long -60.8375).;;24/11/2009;15/11/2016;;;;-60.83260828;14.59833232
+6013014;Bouée de Luc 2 milles;010-P-186;1;;;13/06/2008;;;;;-0.3080077529;49.3464049456
+6012001;Ouistreham 1 mille;010-P-102;1;;;13/06/2008;;;;;-0.2428388157;49.3109047477
+60000681;Gironde - PK 86;085-P-088;;;;30/03/2009;30/03/2009;;;;-0.951261;45.5156
+4008002;Veules les roses;009-P-002;4;;;13/06/2008;21/04/2009;;;;0.7884500384;49.8785671018
+29064012;Fort St Nicolas;074-P-034;;;;13/06/2008;;;;;-1.7894635673;46.4893157564
+34077037;Grand Banc;088-P-035;;Modifications des coordonnées le : 17/01/2017 à la demande des coordinations REMI, REPHY,REMORA/REMOCOL Anciennes coordonnées (44.6691141232 / -1.212078645);;13/06/2008;17/01/2017;;;;-1.21079388;44.6692931
+18037017;Le Passage (d);039-P-017;;;;13/06/2008;11/12/2008;;;;-4.3810658983;48.3922501495
+60002430;PONT LABBE - 29PA18;045-P-016;;;;02/12/2009;02/12/2009;;;;-4.17759505129752;47.8689378394689
+60002478;AURAY - 56G 520;060-P-034;;;;02/12/2009;02/12/2009;;;;-2.95804868235768;47.6381532890767
+60006815;Mliha (Baie ouest) 34;145-P-010;7;Station 34 - études Def RCS - Nord FRMC04;;21/03/2014;21/03/2014;;;;45.0555501911084;-12.7546700865017
+18038008;Pointe du Château;039-P-068;;;;13/06/2008;27/02/2014;;;;-4.3193898959;48.3349977897
+17035031;Roscoff;092-P-002;50;;;13/06/2008;;;;;-4.6666953191;49.7166925135
+60003029;BOL-Bolmon;110-P-058;0;;;15/02/2010;15/02/2010;;;;5.18015489841079;43.4134298933816
+18038027;Quai Thephany;039-P-085;-2;;;13/06/2008;;;;;-4.5903931602;48.2763263744
+32071012;Perquis;082-P-008;3.1;;;13/06/2008;;;;;-1.1767695443;45.797139813
+60007528;MET- OYAPOCK (Ilet Mathieu);146-P-042;0;Ilet Mathieu;;30/10/2014;30/10/2014;;;;-51.7495081472541;4.0010098571716
+39099003;21E - ile embiez;111-P-234;;;;13/06/2008;;;;;5.7378330309;43.0778338339
+28061004;Bois de la Chaise (a);071-P-004;;;;13/06/2008;;;;;-2.2121504309;47.0031565314
+19039004;Rosmeur;040-P-004;;;;13/06/2008;;;;;-4.3188833929;48.094491787
+37087031;Roquerols;104-P-028;-2;;;13/06/2008;;;;;3.6702042649;43.4296380535
+60002500;PENERF - 56V 430;064-P-021;;;;02/12/2009;02/12/2009;;;;-2.58261717964191;47.5652192717763
+18037001;Le Passage (a);039-P-001;-1.4;;;13/06/2008;;;;;-4.3838927272;48.3963318846
+26053010;Le Parun;060-P-010;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.612662845 / -2.946679224);;13/06/2008;05/12/2016;;;;-2.94885;47.61415
+16033015;Passe aux Moutons;035-P-005;;;;13/06/2008;;;;;-3.9312254831;48.6746777482
+40100007;Mourillon (a);112-P-007;;;;13/06/2008;;;;;5.9325879538;43.1144864587
+7014001;Roches de Grandcamp;014-P-001;2;;;13/06/2008;;;;;-1.0485238088;49.3943975916
+28061046;Embarcadère;071-P-045;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (46.8976547361 / -2.14747999);;13/06/2008;05/12/2016;;;;-2.147246;46.89834
+30065009;La Flotte;076-P-009;-2;;;13/06/2008;;;;;-1.3379484211;46.1991473515
+60002434;ABER WRACH - 29AW12;037-P-074;;;;02/12/2009;02/12/2009;;;;-4.57213035606517;48.6020126735063
+18038004;Roscanvel (a);039-P-064;-1.5;;;13/06/2008;;;;;-4.5440600551;48.3151612408
+9021011;Donville;018-P-054;13;;;13/06/2008;;;;;-1.6291867339;48.840709461
+21043006;Beg Meil;047-P-006;;;;13/06/2008;;;;;-3.9877043626;47.8529897774
+35079007;Capbreton;089-P-006;25;;;13/06/2008;;;;;-1.4666953562;43.6563898331
+17035003;Aber Wrach (a);037-P-003;;;;13/06/2008;;;;;-4.5632348559;48.5990014921
+60002536;TRIEUX - 22152E11;027-P-041;;;;02/12/2009;02/12/2009;;;;-3.08622007644337;48.8122249044458
+60002461;BLAVET - 56B 590;050-P-061;;;;02/12/2009;02/12/2009;;;;-3.36933514383423;47.7262452222893
+3006005;Bouchots Quend;006-P-002;;;;13/06/2008;;;;;1.5310041245;50.2929521615
+37090359;ORW - Or Ouest;105-P-130;1.3;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;4.0008746963;43.5736444129
+28060003;Estuaire (a);069-P-003;;;;13/06/2008;;;;;-2.2851564719;47.193160288
+5011002;Villerville (a);011-P-002;1;;;13/06/2008;;;;;0.1201658815;49.4075782138
+60007482;MET- APPROUAGUE (Ilet Mantouni);146-P-016;0;Ilet Mantouni;;30/10/2014;30/10/2014;;;;-51.9386944276806;4.49970730235366
+27057060;Vieille Roche;065-P-011;;;;13/06/2008;;;;;-2.3896661571;47.5023333015
+60002470;ETEL - 56ET 13;053-P-031;;;;02/12/2009;02/12/2009;;;;-3.1485435526051;47.7182518607926
+5010001;Antifer ponton pétrolier;010-P-001;30;;;13/06/2008;;;;;0.1316590692;49.6657520189
+26054043;Bailleron;061-P-042;;;;13/06/2008;;;;;-2.7471747009;47.5789976866
+23045051;Saint Christophe - 56B530;050-P-017;;;;13/06/2008;30/04/2010;;;;-3.3633123302;47.7610332614
+24047022;Moulin Sach;053-P-014;;;;13/06/2008;;;;;-3.1876848723;47.6609945348
+24047001;Mané Hellec;053-P-001;;;;13/06/2008;28/05/2010;;;;-3.1741855991;47.6986622885
+17035018;Keramoal;037-P-017;;;;13/06/2008;27/02/2014;;;;-4.5717339631;48.5611670975
+60002504;ETEL - 56ET 08;053-P-032;;;;02/12/2009;02/12/2009;;;;-3.13533594850131;47.748175417421
+29062007;Port Joinville;072-P-007;0;;;13/06/2008;;;;;-2.3481462364;46.7293150772
+27057007;Pointe Pen Bé;067-P-001;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.4211638367 / -2.4589987205);;13/06/2008;05/12/2016;;;;-2.457944;47.422674
+60007529;MET- SINNAMARY (Pont RN1);146-P-043;0;Pont RN1 (Sinnamary);;30/10/2014;30/10/2014;;;;-52.9659545363106;5.37285153892577
+22044020;Rosbraz;048-P-016;;;;13/06/2008;;;;;-3.7441991302;47.8208252194
+4009001;Fécamp digue;009-P-011;2;;;13/06/2008;;;;;0.3634993899;49.765667432
+27057014;Le Branzais;065-P-006;;;;13/06/2008;;;;;-2.4615006329;47.4949989526
+4007002;Au large dAult;006-P-019;;;;13/06/2008;;;;;1.4418408049;50.1042791879
+60006840;Dzaoudzi (Vasiere Badamier 1) H1;145-P-035;2;Station 1/H1/B33 - études Def RCS + RHLM actif;;21/03/2014;21/03/2014;;;;45.2685998792999;-12.7811003822169
+60006811;MTsamboro (Ilot Sud-Ouest) H10;145-P-006;49;Station 10/H10 - études Def RCS + RHLM actif - M Tsamboro;;21/03/2014;21/03/2014;;;;44.9995001005834;-12.6761003822169
+32070030;Mérignac;080-P-028;;Déplacement de la ressource à partir du 01/10/2015. Modifications des coordonnées le : 18/10/2016 à la demande des coordinations REMI, REPHY,VELYGER Anciennes coordonnées (45.888809068 / -1.1342708472);;13/06/2008;18/10/2016;;;;-1.13348;45.88764
+36086332;VDR - Vendres;095-P-101;1;Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.2296989071;43.260296756
+18038007;Le Fret;039-P-067;-1.5;;;13/06/2008;;;;;-4.5067253055;48.2876610043
+7015027;Reville (a);015-P-026;1;;;13/06/2008;;;;;-1.2113663241;49.6092347841
+60007431;Le Lorrain;125-P-071;;Lieu créé le 23/09/2014 dans le cadre de la surveillance DCE 2014, demande de J. GARNIER CARRONNIER (ODE972).;;23/09/2014;23/09/2014;;;;-61.06692527;14.84649416
+60002508;ODET - 29OD29;046-P-024;;;;02/12/2009;02/12/2009;;;;-4.12346107423053;48.0143401730034
+1002003;Bouchots Tardinghen;002-P-002;-2;;;13/06/2008;;;;;1.6119893497;50.8759696639
+4009005;Vaucottes (a);009-P-015;-1;;;13/06/2008;;;;;0.2869935598;49.7389224818
+2003034;Passerelle RO-RO;002-P-031;0;;;13/06/2008;;;;;1.5674926782;50.7264648694
+60002533;JAUDY - 22171E03;028-P-021;;;;02/12/2009;02/12/2009;;;;-3.24100784550393;48.7580496881915
+60002453;Mont Garo - 35EER7;021-P-079;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé RANCE - 35EER7).;;02/12/2009;15/04/2013;;;;-1.9835707101187;48.5549718366526
+17035022;Blancs Sablons;037-P-020;3;;;13/06/2008;;;;;-4.7642321968;48.3716599843
+60002427;Amont balise cheminees - 29PZ11;035-P-023;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé PENZE - 29PZ11).;;02/12/2009;15/04/2013;;;;-3.94564775699055;48.6593250854959
+18038058;Gisement Camaret;039-P-114;30;;;13/06/2008;;;;;-4.6138947553;48.3194938362
+60002554;AVEN - 29AV18;048-P-044;;;;02/12/2009;02/12/2009;;;;-3.7470810702072;47.8512572922953
+60007474;MET- CAYENNE (Tonnégrande);146-P-008;0;Tonnegrande;;30/10/2014;30/10/2014;;;;-52.4427972238986;4.82843995171997
+18038060;Gisement LAuberlach;039-P-116;30;;;13/06/2008;;;;;-4.4347247762;48.3156625769
+10023052;Mont St Michel 2007;020-P-053;;;;13/06/2008;;;;;-1.5078322152;48.6348321906
+15032001;Le Douron;032-P-001;;;;13/06/2008;27/02/2014;;;;-3.6420536352;48.6791813511
+60002522;ARGUENON - 22006-01;022-P-042;;;;02/12/2009;02/12/2009;;;;-2.23978475155903;48.5745171997586
+15032022;Ile Grande;032-P-021;0;Modification des coordonnées le 20/01/2014, à la demande du LER (anciennes lat=48.7940181346 et long=-3.6002226924).;;13/06/2008;20/01/2014;;;;-3.58595861;48.7948455
+13027027;Baie dYffiniac - Le Valais;025-P-032;7.2;;;13/06/2008;;;;;-2.7050321258;48.5281886831
+42117202;Capitello  2;122-P-016;;;;13/06/2008;;;;;8.757332202;41.8973197457
+9021014;Pointe Agon sud;018-P-057;-4;;;13/06/2008;;;;;-1.6070239316;48.9993805459
+20040003;Treguennec Nord;042-P-003;-1;;;13/06/2008;;;;;-4.3672120003;47.884986022
+60007489;MET- MARONI (Aval St-Laurent);146-P-023;0;AV St Laurent;;30/10/2014;30/10/2014;;;;-54.0154767652384;5.59589318044659
+38091001;Ponant embouchure;107-P-002;;;;13/06/2008;;;;;4.1007102945;43.5569783674
+28061033;Les Charniers;071-P-032;;;;13/06/2008;;;;;-2.2499851124;47.0296567351
+10022001;Chausey;019-P-001;4;;;13/06/2008;;;;;-1.7693570983;48.8775421091
+39096016;Endoume plage;111-P-023;;;;13/06/2008;;;;;5.3497733627;43.2800761576
+22044001;Le Henant;048-P-001;-3;;;13/06/2008;;;;;-3.7563664102;47.835825445
+42117003;Campomoro;122-P-003;;;;13/06/2008;;;;;8.8158374939;41.6334814959
+38094002;Antoine;109-P-002;;;;13/06/2008;;;;;4.8457282509;43.378148429
+60004758;Bande Littorale Aude - Sud de Port La Nouvelle 1;095-P-118;;Lieu créé le 08/11/2011 demandé par le LER/LR;;08/11/2011;20/12/2011;;;;3.04854958760814;42.9760168980085
+60001821;Aval Le Diben - 56V500;064-P-016;;Correction du libellé le 16/04/2013 à la demande de latlas DCE/LB (ancien libellé Aval Le Diben).;;04/08/2009;16/04/2013;;;;-2.636617;47.508967
+29063011;Rochers verts;074-P-011;0;;;13/06/2008;;;;;-1.8471334363;46.5791505631
+13027031;Le Légué - Pointe de Cesson;025-P-036;5.7;;;13/06/2008;;;;;-2.7246991835;48.5290218045
+25055011;Chimère;062-P-005;;;;13/06/2008;;;;;-2.8988416626;47.4814935193
+37088003;Sète mer;102-P-007;10;;;13/06/2008;;;;;3.6988721811;43.392304204
+22044009;Porsmoric (a);048-P-009;;;;13/06/2008;;;;;-3.5320276078;47.7819934477
+10023049;Champeaux;020-P-050;1;;;13/06/2008;;;;;-1.5958335548;48.7463323912
+24046001;Port Bara;052-P-001;0;;;13/06/2008;;;;;-3.1513470989;47.5139913545
+32069004;Fouras sud;080-P-002;-2.3;;;13/06/2008;;;;;-1.1214398193;45.999978456
+18037004;Le Gué Fleuri;039-P-004;4;;;13/06/2008;;;;;-4.3702258692;48.3983321004
+34077061;Teychan bis;088-P-050;-7;;;13/06/2008;;;;;-1.158577776;44.6736148046
+32070041;Petite Chette;080-P-032;2.5;;;13/06/2008;;;;;-1.2254409106;45.9638097902
+32070014;Pertuis Antioche gisement 02;080-P-020;0;Libellé modifié à la demande du LER-PC le 15/03/2011 (ancien libellé : PA pétoncles).;;13/06/2008;15/03/2011;;;;-1.1499385449;45.9213096461
+60003720;Tombelaine;020-P-109;5;Créé à la demande du LER-N pour le réseau REPHY;;11/08/2010;11/08/2010;;;;-1.51529973848321;48.6512995373164
+6013010;Hermanville (a);010-P-185;-3;;;13/06/2008;;;;;-0.3028397431;49.3007371129
+41107001;27B - Frejus est;114-P-001;;;;13/06/2008;;;;;6.9048322696;43.4221672533
+60002443;ELORN - 29EL10;039-P-195;;;;02/12/2009;02/12/2009;;;;-4.27078957956147;48.4446358881513
+60002383;Cap Saint Martin;125-P-038;11;Correction des coordonnées le 15/11/2016 à la demande de IFREMER délégation des Antilles Françaises. Anciennes coordonnées (Lat 14.8616727017 et Long -61.208038624).;;24/11/2009;15/11/2016;;;;-61.20645055;14.86270001
+7015002;St Vaast la Hougue;015-P-001;-3;;;13/06/2008;;;;;-1.2860333721;49.5700661802
+36086336;GRU - Gruissan;101-P-006;0.8;Rinbio 06G. Bathymétrie fournie par la coordination RSL (18/12/2014);;13/06/2008;18/12/2014;;;;3.0825322118;43.1096254559
+21043002;Moulin Mer;047-P-002;;;;13/06/2008;;;;;-3.8863693247;47.8574910978
+60007520;MEC- Iles du Salut;146-P-034;0;Kourou large ou ile du salut;;30/10/2014;30/10/2014;;;;-52.5500030175015;5.26666968416818
+60002397;Baie des Requins;125-P-052;5;;;24/11/2009;24/11/2009;;;;-60.9125417421042;14.6910138805069
+31068001;Baie dYves (a);079-P-024;-0.8;Coordonnées imprécises à la création du point. Modifications des coordonnées le : 17/10/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (46.0244792712 / -1.0994399745);;13/06/2008;17/10/2016;;;;-1.11274;46.01737
+60002447;R de DAOULAS - 29RD07;039-P-199;;;;02/12/2009;02/12/2009;;;;-4.31496278414807;48.3381090323878
+36086003;Etang de lAyrolle;099-P-001;;;;13/06/2008;;;;;3.0686993616;43.0691244702
+14029016;Le Passage;027-P-008;;;;13/06/2008;;;;;-3.1238795642;48.7593562972
+40105005;Bouye;113-P-035;;;;13/06/2008;;;;;6.6671000967;43.2688300173
+60002426;MORLAIX - 29MX19;033-P-043;;;;02/12/2009;02/12/2009;;;;-3.88602695634683;48.6744216455442
+12025015;Arguenon pt g4;022-P-007;;;;13/06/2008;;;;;-2.2156917156;48.6083631972
+32070002;Boyard;080-P-008;13.5;Pour le suivi RAZLEC, ce lieu représente la station "Boyard".;;13/06/2008;13/11/2015;;;;-1.2084407079;45.9686434253
+60002491;NOYALO - 56G 880;061-P-088;;;;02/12/2009;02/12/2009;;;;-2.7072611144639;47.6403047676524
+16033060;Chenal aval Locquenolé Dourduff - MX13;034-P-013;;;;13/06/2008;;;;;-3.8504644643;48.6307509356
+60006913;STEP Anse Marette;125-P-065;;Lieu créé le 14/04/2014 (demande du 28/01/2014 par aubert-moulin@creocean.fr).;;14/04/2014;14/04/2014;;;;-61.069127942064;14.5495312814323
+18037056;Gisement St Pierre;039-P-018;30;;;13/06/2008;;;;;-4.5013938871;48.3614962529
+9019008;Denneville;018-P-008;1;;;13/06/2008;;;;;-1.6905001384;49.2883321977
+60006832;Bandrele (Anse sud) 22;145-P-027;24;Station 22 - études Def RCS;;21/03/2014;21/03/2014;;;;45.2085998793;-12.9097002615168
+60002422;LAÏTA - 29LA10;048-P-048;;;;02/12/2009;07/12/2009;;;;-3.52338764836048;47.8500844900422
+34076004;Large Cap Ferret;086-P-002;;;;13/06/2008;;;;;-1.3209131494;44.6322787997
+60007485;MET- IRACOUBO (Aval confluence);146-P-019;0;Aval conluence;;30/10/2014;30/10/2014;;;;-53.2541691812513;5.52425266545967
+37087023;Pointe-courte;104-P-022;;;;13/06/2008;;;;;3.688704912;43.4141379042
+60007478;MEC- Ilet La Mère;146-P-012;0;Ilet La mère;;30/10/2014;30/10/2014;;;;-52.1866676725005;4.9066676725005
+16033008;Ker Armel;034-P-004;;;;13/06/2008;27/02/2014;;;;-3.8575567303;48.6478446195
+60002543;LEGUER - 22226-00;032-P-048;;;;02/12/2009;02/12/2009;;;;-3.53548078857372;48.7273536511768
+37087018;Mèze zone b;104-P-017;;Mise à jour des coordonnées suite à une demande de Catherine Belin (17/03/2010);;13/06/2008;17/03/2010;;;;3.585535;43.398398
+37087003;Marseillan (a);104-P-002;;;;13/06/2008;07/12/2009;;;;3.55394;43.36461
+24047003;Kergouarec;053-P-003;;;;13/06/2008;;;;;-3.1315187868;47.7231633958
+23045049;Citadelle - 56B600;050-P-015;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé Citadelle - B600).;;13/06/2008;15/04/2013;;;;-3.3671627909;47.7119153379
+27056001;Pointe er Fosse;064-P-001;8;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14).;;13/06/2008;27/02/2014;;;;-2.6463377252;47.5088304727
+6013003;Graye sur mer;012-P-003;0.5;;;13/06/2008;;;;;-0.4858447;49.3484029333
+25051004;Les Presses;057-P-005;;Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.5858279756 / -3.0213465684);;13/06/2008;05/12/2016;;;;-3.01993;47.58566
+60001802;La Palmyre;084-P-034;;;;03/08/2009;04/08/2009;;;;-1.176;45.65331667
+60006817;MTsamboro (Centre du Plateau) 11;145-P-012;43;Station 11/B13 - études Def RCS;;21/03/2014;21/03/2014;;;;45.0693995171998;-12.6259997988332
+34077052;Le Pont;088-P-047;;;;13/06/2008;;;;;-1.0610765344;44.6979497318
+60007511;MET- MARONI (Sept Ilets);146-P-025;0;Sept ilets;;30/10/2014;30/10/2014;;;;-54.156031985516;5.35466103399719
+7014014;Brévands ouest;014-P-014;-5;;;13/06/2008;;;;;-1.1483583413;49.3663956697
+14029012;Roch Hir;027-P-005;;;;13/06/2008;;;;;-3.0665468967;48.8226919514
+18038054;Gisement Roscanvel;039-P-111;20;;;13/06/2008;;;;;-4.5180596033;48.3156615682
+27057018;Pont-Mahé;066-P-001;5;Bathymétrie inidiquée par LER/MPL/TM (R. Gabellec, 27/02/14). Coordonnées modifiées le 19/10/2015 à la demande de Michaël Retho. Les passages et prélèvements associés ont été mis à jour (confirmation de mandée à Michaël et Raoul Gabellec). Modifications des coordonnées le : 05/12/2016 à la demande des coordinations REMI, REPHY Anciennes coordonnées (47.43228 / -2.47915);;13/06/2008;05/12/2016;;;;-2.47107;47.43316
+38094006;Couronne;111-P-001;;;;13/06/2008;;;;;5.0530666765;43.3238159226
+60002499;PENERF - 56V 450;064-P-020;;;;02/12/2009;02/12/2009;;;;-2.57590424461878;47.5480647756991
+34078006;Hossegor;090-P-005;2;;;13/06/2008;;;;;-1.4297115629;43.6658237592
+60002547;Pors Keraign Perennou - 29OD13;046-P-027;;Correction du libellé le 15/04/2013 à la demande de latlas DCE/LB (ancien libellé ODET - 29OD13).;;02/12/2009;15/04/2013;;;;-4.14591430295715;47.9078827197747
+11024005;Souhaitier;021-P-006;7;Position un peu décentrée par rapport au gisement naturel. Modifications des coordonnées le : 24/10/2016 à la demande de la coordination REMI Anciennes coordonnées (48.5455310246 / -1.9795188786);;13/06/2008;24/10/2016;;;;-1.977339;48.5451984
+13028012;Saint-Quay;025-P-104;4.5;Correction des coordonnées le 15/04/2013 à la demande de latlas DCE/LB (anciennes coordonnées -2.7921666185-48.6341670335).;;13/06/2008;15/04/2013;;;;-2.790715;48.635213
+60002529;JAUDY - 22171E11;028-P-017;;;;02/12/2009;02/12/2009;;;;-3.19323073828204;48.8473144236572
+15032005;Petit Taureau;032-P-005;4;Mauvaise position (point trop central). Modifications des coordonnées le : 24/10/2016 à la demande des coordinations REMI, REPHY, ROCCH Anciennes coordonnées (48.73164197 / -3.54240692);;13/06/2008;24/10/2016;;;;-3.5405737;48.7327733
+16033004;Le Diben;033-P-002;;;;13/06/2008;;;;;-3.8287246535;48.7126799578
+32069010;Les Fontenelles;081-P-005;2;Pour le suivi RAZLEC, ce lieu représente la station "Les Fontenelles".;;13/06/2008;29/03/2016;;;;-1.1111240789;45.9759963468
