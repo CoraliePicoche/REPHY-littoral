@@ -64,7 +64,9 @@ for (filename in filename_tot){
 				id_d=which(tab_flore$Date==date_site[d])
 				if(length(unique(tab_flore$Imm[id_d]))>1){ #On prend en compte plusieurs immersions, c'est à dire surface et fond
 					plop=which(tab_flore$Date==date_site[d]&tab_flore$Imm>min(tab_flore$Imm[id_d],na.rm=TRUE))
+					if(length(plop)>0){
 					tab_flore=tab_flore[-plop,]
+					}
 				}
 				id_d=which(tab_flore$Date==date_site[d])
 				taxon=tab_flore$Taxon[id_d]
@@ -82,7 +84,7 @@ for (filename in filename_tot){
 			}
 			tab_new[,'Date']=as.character(date_site)
 		}
-	write.table(tab_new,file=paste(file_corres,'_',sites[l],'.txt',sep=''),sep=";",na="NA",col.names=TRUE,row.names=FALSE)
+	write.table(tab_new,file=paste('data/',file_corres,'_',sites[l],'.txt',sep=''),sep=";",na="NA",col.names=TRUE,row.names=FALSE)
 	}
 }
 }
