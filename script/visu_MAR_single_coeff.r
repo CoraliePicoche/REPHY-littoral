@@ -1,0 +1,180 @@
+graphics.off()
+rm(list=ls())
+library(stringr)
+
+#Graphical parameters
+pm=0.1
+ab=0.1
+fact=1.5
+acex=2.5
+
+fac_main=3.0
+fac_axis=1.34
+fac_lg=1.5
+fac_lab=1.25
+alwd=2.5
+apc=2
+
+
+option_model=c("null","unconstrained","pencen")
+option_NEI=c("cov","sp")
+option_lieu=c("LEperon","Cornard","Auger")
+option_sp="common"
+
+for(ne in 1:length(option_NEI)){
+        for (m in 1:length(option_model)){
+		if(option_sp=="common"){
+			pdf(paste("Rapport/graphe/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular.pdf",sep=""),height=15,width=14)
+			par(mar=c(5,6,3,1))
+			color=c("black","red","blue")
+		}
+		for (ll in 1:length(option_lieu)){
+			if(!(option_sp=="common")){
+				pdf(paste("Rapport/graphe/",option_lieu[ll],"_analyse_MAR_",option_model[m],"_",option_NEI[ne],"_single_regular.pdf",sep=""),height=15,width=14)
+				par(mar=c(5,6,3,1))
+			}
+			f1=paste("data/analyse_MAR/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_essai.RData",sep="")
+			load(f1)
+
+			cis=fit_log
+			sp=dimnames(cis$model$data)[[1]] #Studied species
+			var=dimnames(cis$call$model$c)[[1]] #Studied covariates
+			nom=dimnames(cis$par$B)[[1]] #Names of the interactions
+
+			#Draw the graph frame
+			nb_pos_inter=0
+			nb_neg_inter=0
+			nb_pos_cov=0
+			nb_neg_cov=0
+			nb_par_tot_inter=0
+			nb_par_tot_cov=0
+			if((ll==1)||(ll>1&&option_sp!="common")){
+			consensus_inter=matrix(FALSE,nrow=length(nom)-length(sp),ncol=length(option_lieu))
+
+			plot(0,0,t='n',xlim=c(0.75,(length(var)+length(sp))),ylim=c(0.75,length(sp)),yaxt="n",xaxt="n",xlab="",ylab="",main=paste(option_model[m],"_",option_NEI[ne],sep=""),cex.main=2)
+			axis(2,at=1:length(sp),lab=rev(sp),cex.axis=fac_axis)
+			axis(1,at=1:(length(sp)+length(var)),lab=c(sp,var),cex.axis=fac_axis)
+			for (i in 1:length(sp)){
+        			abline(h=i,lty=2)
+			}
+			abline(v=length(sp)+0.75,lty=2)
+			}
+
+			#get the value from the MARSS object, according to the names of the coefficients
+			for (n in 1:length(nom)){
+			        if(grepl("^\\(",nom[n])){ #default when using unconstrained or diagonal, names are of the form (1,2) for (i,j)
+			                i=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][2])
+			                j=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][3])
+                if(is.na(i)){ #i and j might not be numeric
+                        i=which(unlist(lapply(sp,function(x) grepl(x,strsplit(nom[n],split="[\\(,\\)]")[[1]][2]))))
+                        j=which(unlist(lapply(sp,function(x) grepl(x,strsplit(nom[n],split="[\\(,\\)]")[[1]][3]))))
+                }
+        }else{
+                a=str_split(nom[n],sp) #The coefficient is XY where X eats Y, X and Y being in the species list
+                for (abis in 1:length(a)){
+                        if(length(a[[abis]])==2){
+                                if((a[[abis]][1]=="")&&(a[[abis]][2]!="")){
+                                        j=abis
+                                }
+                                if((a[[abis]][2]=="")&&(a[[abis]][1]!="")){
+                                        i=abis
+                                }
+                        }else if(length(a[[abis]])==3){
+                                if((a[[abis]][2]=="")&&(a[[abis]][1]=="")&&(a[[abis]][3]=="")){
+                                        j=abis
+                                        i=abis
+                                }
+                        }
+                }
+        }
+
+        baseline=length(sp)-i+1 #Compute the position of the species on the y-axis
+        if(i==j){ #For intragroup interactions, withdraw 1 to the value, to make them comparable to intergroup interactions
+                mini=min(0,(cis$par$B[n]-1)*fact)
+                maxi=max(0,(cis$par$B[n]-1)*fact)
+		if(option_sp=="common"){
+			colo=color[ll]
+			xshift=ll*pm+0.05
+		}else{
+		xshift=0
+		if(mini==0){
+			colo="blue"
+		}else{
+			colo="red"
+		}
+		}
+                rect(j-pm+xshift,baseline+mini,j+pm+xshift,baseline+maxi,col=colo) #Draw the bar corresponding to the coefficient value
+        }else{
+                mini=min(0,(cis$par$B[n])*fact)
+                maxi=max(0,(cis$par$B[n])*fact)
+
+
+		nb_pos_inter=nb_pos_inter+as.numeric(cis$par$B[n]>0)
+                nb_neg_inter=nb_neg_inter+as.numeric(cis$par$B[n]<0)
+                nb_par_tot_inter=nb_par_tot_inter+as.numeric(cis$par$B[n]!=0)
+
+		consensus_inter[nb_par_tot_inter,ll]=cis$par$B[n]>0
+
+		if(option_sp=="common"){
+			colo=color[ll]
+			xshift=ll*pm+0.05
+		}else{
+			xshift=0
+			if(mini==0){
+				colo="blue"
+			}else{
+				colo="red"
+			}
+		}
+                rect(j-pm+xshift,baseline+mini,j+pm+xshift,baseline+maxi,col=colo)
+        }
+#        if(!is.na(cis$par.se$B[n])){
+#                if(cis$par.upCI$B[n]*cis$par.lowCI$B[n]>0){ #If upper and lower values of the confidence intervals have the same sign, the coefficient is deemed significant
+#                        points(j,baseline+maxi+ab,pch='*',cex=acex)
+#                }
+#        }
+	 }
+
+#Covariate effects
+l=0
+for (j in 1:length(var)){
+        for (i in 1:length(sp)){
+                l=l+1
+                ibis=(i-1)*2+1 #Position on the x-axis
+                baseline=length(sp)-i+1 #Position on the y-axis
+                mini=min(0,(cis$par$U[l])*fact)
+                maxi=max(0,(cis$par$U[l])*fact)
+		
+		if(option_sp=="common"){
+			colo=color[ll]
+			xshift=ll*pm
+		}else{
+			xshift=0
+		if(mini==0){
+			colo="blue"
+		}else{
+			colo="red"
+		}
+		}
+                rect(length(sp)+j-pm+xshift,baseline+mini,length(sp)+j+pm+xshift,baseline+maxi,col=colo) #Draw a line
+#                if(!is.na(cis$par.se$U[l])){
+#                        if(cis$par.upCI$U[l]*cis$par.lowCI$U[l]>0){
+#                                points(j+length(sp),baseline+maxi+ab,pch='*',col="black",cex=acex)
+#                        }
+#                }
+        }
+}
+	if(!(option_sp=="common")){
+	mtext(paste(format(nb_pos_inter/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'interaction >0 /',format(nb_neg_inter/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'interaction <0',sep=" "),side=1,line=-2,outer=TRUE,cex=2)
+	dev.off()
+	}
+}
+	if((option_sp=="common")){
+	a=rowSums(consensus_inter)
+	val_pos=sum(a==3)
+	val_neg=sum(a==0)
+	mtext(paste(format(val_pos/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'com. inter. >0 /',format(val_neg/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'com. inter. <0',sep=" "),side=1,line=-2,outer=TRUE,cex=2)
+	dev.off()
+	}
+}
+}

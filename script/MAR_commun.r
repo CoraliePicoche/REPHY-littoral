@@ -1,3 +1,7 @@
+###########################
+##30/08 : MAR using only species that are present in the three Marennes Oleron sites
+###########################
+
 graphics.off()
 rm(list=ls())
 
@@ -10,10 +14,12 @@ set.seed(42)
 timestep=14
 consecutif=2
 
-
 tab_sp=read.table('data/lieu_sp_post_reconstruct_pour_MAR.csv',header=TRUE,na.strings="",sep=";")
 lieu=colnames(tab_sp)
 lieu=gsub('.',' ',lieu,fixed=TRUE) #useful for Men er Roue
+
+a=table(as.matrix(tab_sp))
+liste_sp=dimnames(a[a==dim(tab_sp)[2]])[[1]]
 
 cov3_tot=c("TEMP","SALI")
 
@@ -26,7 +32,6 @@ for (l in 1:length(lieu)){
 
 	dates_bis=seq(dates[1],dates[length(dates)],timestep) #Regular time grid
 
-	liste_sp=as.character(tab_sp[!is.na(tab_sp[,l]),l])
 	tab_plankton=na.approx(tab[,liste_sp],maxgap=consecutif,x=dates,xout=dates_bis,na.rm=FALSE) #Interpolation over regular time grid
 	#Replace missing values
 	for (s in liste_sp){
@@ -44,11 +49,18 @@ for (l in 1:length(lieu)){
 
 	#Log transfo for species abundance and scaling for all time series
 	tab_plankton=log(tab_plankton)
-	tab_plankton=t(scale(tab_plankton[2:(length(dates_bis)),]))
-	tab_cov=t(scale(tab_cov_bis[2:(length(dates_bis)),]))
+	tab_plankton=t(scale(tab_plankton[2:(length(dates_bis)-1),]))
+	tab_cov=t(scale(tab_cov_bis[2:(length(dates_bis)-1),]))
 	rownames(tab_plankton)=liste_sp
 	rownames(tab_cov)=cov3_tot
 
+	#Null model
+	B0="diagonal and unequal"
+	analyse_MARSS(tab_plankton,tab_cov,B0,paste(lieu[l],"_physics_null_essai_only_common_elements.RData",sep=""),boot=FALSE)
+
+	#Unconstrained model
+	B1="unconstrained"
+	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu[l],"_physics_unconstrained_essai_only_common_elements.RData",sep=""),boot=FALSE)
 
 	#Setting pencen model
 	B2=matrix(list(0),nrow=length(liste_sp),ncol=length(liste_sp),dimnames=list(liste_sp,liste_sp))
@@ -78,6 +90,6 @@ for (l in 1:length(lieu)){
         	}
 		}}
 	}
-	analyse_MARSS(tab_plankton,tab_cov,B2,paste(lieu[l],"_physics_pencen_essai.RData",sep=""))
+	analyse_MARSS(tab_plankton,tab_cov,B2,paste(lieu[l],"_physics_pencen_essai_only_common_elements.RData",sep=""),boot=FALSE)
 	
 }
