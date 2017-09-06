@@ -4,7 +4,7 @@ rm(list=ls())
 library('lubridate')
 library('zoo')
 library('MARSS')
-source("/home/cpicoche/Documents/Plankton/script/MARSS_clean.r")
+source("./script/MARSS_clean.r")
 
 set.seed(42)
 timestep=14
