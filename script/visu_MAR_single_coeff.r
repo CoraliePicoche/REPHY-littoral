@@ -17,23 +17,28 @@ apc=2
 
 
 option_model=c("null","unconstrained","pencen")
-option_NEI=c("cov","sp")
+option_NEI=c("null")
 option_lieu=c("LEperon","Cornard","Auger")
+#option_lieu=c("Men er Roue","Loscolo","Croisic")
+#option_lieu=c("Antoine","Lazaret")
+#option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
 option_sp="common"
 
 for(ne in 1:length(option_NEI)){
         for (m in 1:length(option_model)){
 		if(option_sp=="common"){
-			pdf(paste("Rapport/graphe/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular.pdf",sep=""),height=15,width=14)
+			pdf(paste("Rapport/graphe/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular_BZ.pdf",sep=""),height=13,width=13)
 			par(mar=c(5,6,3,1))
-			color=c("black","red","blue")
+			layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
+			color=c("black","red","blue","green","violet","cyan","orange","white")
 		}
 		for (ll in 1:length(option_lieu)){
 			if(!(option_sp=="common")){
 				pdf(paste("Rapport/graphe/",option_lieu[ll],"_analyse_MAR_",option_model[m],"_",option_NEI[ne],"_single_regular.pdf",sep=""),height=15,width=14)
+				layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
 				par(mar=c(5,6,3,1))
 			}
-			f1=paste("data/analyse_MAR/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_essai.RData",sep="")
+			f1=paste("data/analyse_MAR/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_BZ.RData",sep="")
 			load(f1)
 
 			cis=fit_log
@@ -51,7 +56,7 @@ for(ne in 1:length(option_NEI)){
 			if((ll==1)||(ll>1&&option_sp!="common")){
 			consensus_inter=matrix(FALSE,nrow=length(nom)-length(sp),ncol=length(option_lieu))
 
-			plot(0,0,t='n',xlim=c(0.75,(length(var)+length(sp))),ylim=c(0.75,length(sp)),yaxt="n",xaxt="n",xlab="",ylab="",main=paste(option_model[m],"_",option_NEI[ne],sep=""),cex.main=2)
+			plot(0,0,t='n',xlim=c(0.75,(length(var)+length(sp)+0.5)),ylim=c(0.5,length(sp)+0.25),yaxt="n",xaxt="n",xlab="",ylab="",main=paste(option_model[m],"_",option_NEI[ne],sep=""),cex.main=2)
 			axis(2,at=1:length(sp),lab=rev(sp),cex.axis=fac_axis)
 			axis(1,at=1:(length(sp)+length(var)),lab=c(sp,var),cex.axis=fac_axis)
 			for (i in 1:length(sp)){
@@ -166,14 +171,18 @@ for (j in 1:length(var)){
 }
 	if(!(option_sp=="common")){
 	mtext(paste(format(nb_pos_inter/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'interaction >0 /',format(nb_neg_inter/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'interaction <0',sep=" "),side=1,line=-2,outer=TRUE,cex=2)
+	plot(0,0,t="n",bty="n",xaxt="n",yaxt="n",ylab="",xlab="")
+	legend("topleft",c("negative","positive"),fill=c("red","blue"),cex=3,bty="n")
 	dev.off()
 	}
 }
 	if((option_sp=="common")){
 	a=rowSums(consensus_inter)
-	val_pos=sum(a==3)
+	val_pos=sum(a==length(option_lieu))
 	val_neg=sum(a==0)
 	mtext(paste(format(val_pos/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'com. inter. >0 /',format(val_neg/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'com. inter. <0',sep=" "),side=1,line=-2,outer=TRUE,cex=2)
+	plot(0,0,t="n",bty="n",xaxt="n",yaxt="n",ylab="",xlab="")
+	legend("topleft",option_lieu,fill=color,bty="n",cex=3)
 	dev.off()
 	}
 }

@@ -2,6 +2,7 @@ graphics.off()
 rm(list=ls())
 
 sites=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
+sites="Antoine"
 
 filename_tot=c("data/raw/Q2_170418_site_Tania_UTF8_only_good.csv")#,"Q2_170511_SRN_Chnord_UTF8_only_good.csv")
 
@@ -19,6 +20,14 @@ for (filename in filename_tot){
 		liste_hydro=as.character(liste_hydro[-which(grepl('FLOR',liste_hydro))])
                 if (dim(tab_cov)[1]!=0){
                         tab_cov$Date=as.Date(tab_cov$Date,"%d/%m/%Y")
+                        if(sites[l]=="Antoine"){
+                                tab_cov_bis=subset(tab,((grepl("Carteau",Lieu_libel))),select=c("Lieu_id","Lieu_libel","Date","Imm","Res_code","Val"))
+                                d1=max(tab_cov$Date,na.rm=TRUE)
+                                tab_cov_bis$Date=as.Date(tab_cov_bis$Date, "%d/%m/%Y")
+                                tab_cov_bis=subset(tab_cov_bis,Date>d1)
+                                tab_cov=rbind(tab_cov,tab_cov_bis)
+                        }
+
                         date_site=sort(unique(tab_cov$Date))
                         tab_new=matrix(0,nrow=length(date_site),ncol=1+length(liste_hydro))
                         colnames(tab_new)=c("Date",liste_hydro)

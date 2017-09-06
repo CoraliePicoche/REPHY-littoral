@@ -17,8 +17,8 @@ tab_sp=read.table('data/lieu_sp.csv',header=TRUE,na.strings="",sep=";")
 lieu=colnames(tab_sp)
 lieu=gsub('.',' ',lieu,fixed=TRUE)
 
-for (l in 1:length(lieu)){
-#for (l in 1:1){
+#for (l in 1:length(lieu)){
+for (l in 8:8){
 	pdf(paste('Rapport/graphe/comparaison_SSA_random_',lieu[l],'.pdf',sep=""),width=15)
 	liste_sp=tab_sp[!is.na(tab_sp[,l]),l]
 	tab=read.table(paste("data/corres_hernandez_",lieu[l],'.txt',sep=''),sep=";",na="NA",header=TRUE)
