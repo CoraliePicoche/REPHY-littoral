@@ -6,7 +6,7 @@ library(stringr)
 pm=0.1
 ab=0.1
 fact=1.5
-acex=2.5
+acex=3.5
 
 fac_main=3.0
 fac_axis=1.34
@@ -16,18 +16,24 @@ alwd=2.5
 apc=2
 
 
-option_model=c("null","unconstrained","pencen")
+option_model=c("null","unconstrained","pencen","diatdin","inter")
 option_NEI=c("null")
-option_lieu=c("LEperon","Cornard","Auger")
-#option_lieu=c("Men er Roue","Loscolo","Croisic")
-#option_lieu=c("Antoine","Lazaret")
-#option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
+groupe=c("BZ","MO","SU") #and, later, "AR"
 option_sp="common"
+#option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
+for (g in groupe){
+	if(g=="BZ"){
+		option_lieu=c("Men er Roue","Loscolo","Croisic")
+	}else if(g=="MO"){
+		option_lieu=c("LEperon","Cornard","Auger")
+	}else if(g=="SU"){
+		option_lieu=c("Antoine","Lazaret")
+	}
 
 for(ne in 1:length(option_NEI)){
         for (m in 1:length(option_model)){
 		if(option_sp=="common"){
-			pdf(paste("Rapport/graphe/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular_BZ.pdf",sep=""),height=13,width=13)
+			pdf(paste("Rapport/graphe/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular_",g,"_with_bootstrap_and_signif.pdf",sep=""),height=13,width=13)
 			par(mar=c(5,6,3,1))
 			layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
 			color=c("black","red","blue","green","violet","cyan","orange","white")
@@ -38,10 +44,11 @@ for(ne in 1:length(option_NEI)){
 				layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
 				par(mar=c(5,6,3,1))
 			}
-			f1=paste("data/analyse_MAR/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_BZ.RData",sep="")
+			f1=paste("data/analyse_MAR/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_",g,".RData",sep="")
+			#f1=paste(option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_",g,".RData",sep="")
 			load(f1)
 
-			cis=fit_log
+			#cis=fit_log
 			sp=dimnames(cis$model$data)[[1]] #Studied species
 			var=dimnames(cis$call$model$c)[[1]] #Studied covariates
 			nom=dimnames(cis$par$B)[[1]] #Names of the interactions
@@ -133,11 +140,11 @@ for(ne in 1:length(option_NEI)){
 		}
                 rect(j-pm+xshift,baseline+mini,j+pm+xshift,baseline+maxi,col=colo)
         }
-#        if(!is.na(cis$par.se$B[n])){
-#                if(cis$par.upCI$B[n]*cis$par.lowCI$B[n]>0){ #If upper and lower values of the confidence intervals have the same sign, the coefficient is deemed significant
-#                        points(j,baseline+maxi+ab,pch='*',cex=acex)
-#                }
-#        }
+        if(!is.na(cis$par.se$B[n])){
+                if(cis$par.upCI$B[n]*cis$par.lowCI$B[n]>0){ #If upper and lower values of the confidence intervals have the same sign, the coefficient is deemed significant
+                        points(j+xshift,baseline+maxi+ab,pch='*',cex=acex,col=colo)
+                }
+        }
 	 }
 
 #Covariate effects
@@ -162,11 +169,11 @@ for (j in 1:length(var)){
 		}
 		}
                 rect(length(sp)+j-pm+xshift,baseline+mini,length(sp)+j+pm+xshift,baseline+maxi,col=colo) #Draw a line
-#                if(!is.na(cis$par.se$U[l])){
-#                        if(cis$par.upCI$U[l]*cis$par.lowCI$U[l]>0){
-#                                points(j+length(sp),baseline+maxi+ab,pch='*',col="black",cex=acex)
-#                        }
-#                }
+                if(!is.na(cis$par.se$U[l])){
+                        if(cis$par.upCI$U[l]*cis$par.lowCI$U[l]>0){
+                                points(j+length(sp)+xshift,baseline+maxi+ab,pch='*',col=colo,cex=acex)
+                        }
+                }
         }
 }
 	if(!(option_sp=="common")){
@@ -185,5 +192,6 @@ for (j in 1:length(var)){
 	legend("topleft",option_lieu,fill=color,bty="n",cex=3)
 	dev.off()
 	}
+}
 }
 }
