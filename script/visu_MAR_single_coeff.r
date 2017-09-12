@@ -15,6 +15,7 @@ fac_lab=1.25
 alwd=2.5
 apc=2
 
+corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
 option_model=c("null","unconstrained","pencen","diatdin","inter")
 option_NEI=c("null")
@@ -53,6 +54,17 @@ for(ne in 1:length(option_NEI)){
 			var=dimnames(cis$call$model$c)[[1]] #Studied covariates
 			nom=dimnames(cis$par$B)[[1]] #Names of the interactions
 
+        #ON range les espèces en les regroupant
+        delim=c()
+        t1=as.character(corres$Type[corres$Code==sp[1]])
+	for (s in 2:length(sp)){
+                t2=as.character(corres$Type[corres$Code==sp[s]])
+                if(t1!=t2){
+			delim=c(delim,s-0.5)
+                }
+		t1=t2
+        }
+
 			#Draw the graph frame
 			nb_pos_inter=0
 			nb_neg_inter=0
@@ -70,6 +82,8 @@ for(ne in 1:length(option_NEI)){
         			abline(h=i,lty=2)
 			}
 			abline(v=length(sp)+0.75,lty=2)
+			abline(v=delim+0.05,lty=4,col="grey",lwd=4)
+			abline(h=length(sp)-delim+1,lty=4,col="grey",lwd=4)
 			}
 
 			#get the value from the MARSS object, according to the names of the coefficients
