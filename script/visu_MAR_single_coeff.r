@@ -19,7 +19,8 @@ corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TR
 
 option_model=c("null","unconstrained","pencen","diatdin","inter")
 option_NEI=c("null")
-groupe=c("BZ","MO","SU") #and, later, "AR"
+groupe=c("BZ","MO","SU","AR")
+groupe=c("AR")
 option_sp="common"
 #option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
 for (g in groupe){
@@ -29,6 +30,8 @@ for (g in groupe){
 		option_lieu=c("LEperon","Cornard","Auger")
 	}else if(g=="SU"){
 		option_lieu=c("Antoine","Lazaret")
+	}else if(g=="AR"){
+		option_lieu=c("Teychan","B7")
 	}
 
 for(ne in 1:length(option_NEI)){

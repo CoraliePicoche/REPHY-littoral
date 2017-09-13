@@ -8,11 +8,12 @@ which_NEI0="null" #NEI can be either a population or a covariate
 
 option_model=c("null","unconstrained","pencen","diatdin","inter")
 option_NEI=c("null")
-groupe=c("BZ","MO","SU") #and, later, "AR"
+groupe=c("BZ","MO","SU","AR")
+groupe=c("AR")
 option_sp="common"
-criterium="BIC"
-yli1=-00
-yli2=800
+criterium="AICc"
+yli1=-60
+yli2=60
 #option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
 for (g in groupe){
         if(g=="BZ"){
@@ -21,7 +22,9 @@ for (g in groupe){
                 option_lieu=c("LEperon","Cornard","Auger")
         }else if(g=="SU"){
                 option_lieu=c("Antoine","Lazaret")
-        }
+	}else if(g=="AR"){
+		option_lieu=c("Teychan","B7")
+	}
 
 
 colo=rainbow(length(option_model)*length(option_NEI)-1)
