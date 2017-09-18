@@ -8,17 +8,19 @@ source("./script/MARSS_clean.r")
 
 which_NEI="null" #NEI can be either a population or a covariate, or not used
 which_timestep="regular" #for now, only regular is implemented, but I do think we should do monthly average in order to prepare an inter-site comparison
-which_sp="common" #can be single (species depend on each site) or "common" (species are the ones in all sites)
+which_sp="reduced" #can be single (species depend on each site) or "common" (species are the ones in all sites)
 set.seed(42)
-model_option=c("unconstrained","null","pencen","diatdin","inter") #for now, can be "null", "unconstrained" and "pencen"
+#model_option=c("unconstrained","null","pencen","diatdin")
+model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
 corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
-sp=c("AST","NIT","PSE","SKE","CHA","GUI","LEP","RHI","GYM","PRP","CRY","EUG")
+#sp=c("AST","NIT","PSE","SKE","CHA","GUI","LEP","RHI","GYM","PRP","CRY","EUG")
+sp=c("CHA","PSE","SKE","PRP")
 cov3_tot=c("TEMP","SAL")
 
 
-#lieu="Teychan"
-lieu="B7"
+lieu="Teychan"
+#lieu="B7"
 tabbis=read.csv(paste("./data/",lieu,"_base.csv",sep=""),na.strings="NA",header=TRUE,sep=";",dec=".")
 dates=as.Date(tabbis$Date)
 tab=tabbis[year(dates)>1996,]#Using data from 1997, because cryptophytes were not counted (or badly, for the first year, before
@@ -166,5 +168,5 @@ for (c in cov3_tot){
                 B1=B2
 
 	}
-	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu,which_model,which_NEI,which_timestep,which_sp,"AR.RData",sep="_"),boot=TRUE)
+	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu,which_model,which_NEI,which_timestep,which_sp,"ALL.RData",sep="_"),boot=TRUE)
 	}

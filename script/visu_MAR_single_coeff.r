@@ -20,7 +20,7 @@ corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TR
 option_model=c("null","unconstrained","pencen","diatdin","inter")
 option_NEI=c("null")
 groupe=c("BZ","MO","SU","AR")
-groupe=c("AR")
+#groupe=c("AR")
 option_sp="common"
 #option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret")
 for (g in groupe){
@@ -37,18 +37,18 @@ for (g in groupe){
 for(ne in 1:length(option_NEI)){
         for (m in 1:length(option_model)){
 		if(option_sp=="common"){
-			pdf(paste("Rapport/graphe/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular_",g,"_with_bootstrap_and_signif.pdf",sep=""),height=13,width=13)
+			pdf(paste("Rapport/graphe/MAR_estimates/COMMON/with_AR/analyse_MAR_",option_model[m],"_",option_NEI[ne],"_common_regular_",g,"_with_bootstrap_and_signif.pdf",sep=""),height=13,width=13)
 			par(mar=c(5,6,3,1))
 			layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
 			color=c("black","red","blue","green","violet","cyan","orange","white")
 		}
 		for (ll in 1:length(option_lieu)){
-			if(!(option_sp=="common")){
-				pdf(paste("Rapport/graphe/",option_lieu[ll],"_analyse_MAR_",option_model[m],"_",option_NEI[ne],"_single_regular.pdf",sep=""),height=15,width=14)
-				layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
-				par(mar=c(5,6,3,1))
-			}
-			f1=paste("data/analyse_MAR/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_",g,".RData",sep="")
+#			if(!(option_sp=="common")){
+#				pdf(paste("Rapport/graphe/",option_lieu[ll],"_analyse_MAR_",option_model[m],"_",option_NEI[ne],"_single_regular.pdf",sep=""),height=15,width=14)
+#				layout(matrix(c(1,1,1,2),1,4,byrow=TRUE))
+#				par(mar=c(5,6,3,1))
+#			}
+			f1=paste("data/analyse_MAR/",g,"/common/",option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_reduced_ALL.RData",sep="")
 			#f1=paste(option_lieu[ll],"_",option_model[m],"_",option_NEI[ne],"_regular_",option_sp,"_",g,".RData",sep="")
 			load(f1)
 

@@ -9,11 +9,12 @@ source("./script/MARSS_clean.r")
 set.seed(42)
 timestep=14
 consecutif=2
-model_option=c("unconstrained","null","pencen","diatdin","inter") #for now, can be "null", "unconstrained" and "pencen"
+#model_option=c("unconstrained","null","pencen","diatdin","inter") #for now, can be "null", "unconstrained" and "pencen"
 model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
 which_NEI="null" #NEI can be either a population or a covariate, or not used
 which_timestep="regular" #for now, only regular is implemented, but I do think we should do monthly average in order to prepare an inter-site comparison
 which_sp="common" #can be single (species depend on each site) or "common" (species are the ones in all sites)
+which_sp="reduced" ##reduced correspond to species that are present in ALL 10 sites
 
 corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
@@ -28,7 +29,7 @@ groupe1=c("LEperon","Auger","Cornard")
 cov3_tot=c("TEMP","SALI")
 
 for (l in 1:length(lieu)){
-	if(lieu[l] %in% c("LEperon")){
+	if(lieu[l] %in% c('Auger')){
 	#Biotic variables
 	tab=read.table(paste("data/corres_hernandez_",lieu[l],'.txt',sep=''),sep=";",na="NA",header=TRUE)
         dates=as.Date(tab$Date)
@@ -39,13 +40,17 @@ for (l in 1:length(lieu)){
 
 	if(which_sp=="single"){
 		liste_sp=as.character(tab_sp[!is.na(tab_sp[,l]),l])
-	}else{
+	}else if (which_sp=="common"){
 		a=table(as.matrix(tab_sp[,lieu %in% groupe1]))
 		liste_sp=dimnames(a[a==length(groupe1)])[[1]]
+	}else if(which_sp=="reduced"){
+		liste_sp=c("CHA","SKE","PSE","PRP")
 	}
 	
 	if(which_NEI!="sp"){
+			if("NEI"%in%liste_sp){
 			liste_sp=liste_sp[-which(liste_sp=="NEI")]
+			}
 	}
 	#ON range les espèces en les regroupant
 	pen=c()
@@ -188,7 +193,7 @@ for (l in 1:length(lieu)){
                 B1=B2
 
 	}
-	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu[l],which_model,which_NEI,which_timestep,which_sp,"MO.RData",sep="_"),boot=TRUE)
+	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu[l],which_model,which_NEI,which_timestep,which_sp,"ALL.RData",sep="_"),boot=TRUE)
 	}
 }	
 }
