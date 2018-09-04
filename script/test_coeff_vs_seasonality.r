@@ -6,9 +6,9 @@ library('lubridate')
 
 season=c()
 groupe=c("BZ","MO","SU","AR")
-pdf("Rapport/graphe/competition_vs_seasonality_no_intra.pdf")
-#plot(0,0,t="n",xlim=c(-.8,-.3),ylim=c(-0.1,0.17),xlab="Seasonality",ylab="Pairwise competition") #Taking into account both inter and intragroup competition
-plot(0,0,t="n",xlim=c(-.8,-.3),ylim=c(-0.005,0.005),xlab="Seasonality",ylab="Pairwise competition") #Taking into account only intergroup competition
+pdf("Rapport/graphe/competition_vs_seasonality.pdf")
+plot(0,0,t="n",xlim=c(-.8,-.3),ylim=c(-0.1,0.17),xlab="Seasonality",ylab="Pairwise competition") #Taking into account both inter and intragroup competition
+#plot(0,0,t="n",xlim=c(-.8,-.3),ylim=c(-0.005,0.005),xlab="Seasonality",ylab="Pairwise competition") #Taking into account only intergroup competition
 id_lieu=0
 colog=c("blue","brown","red","green")
 id_g=0
@@ -62,12 +62,13 @@ for (ll in 1:length(option_lieu)){
 	}
 	coeff=c()
 	for(i in 1:(dim(B)[1]-1)){
-		for(j in (i+1):dim(B)[2]){
+#		for(j in (i+1):dim(B)[2]){
+		for(j in i:dim(B)[2]){
 			coeff=c(coeff,B[i,j]*B[j,i])
 		}
 	}
-	points(season[id_lieu],mean(coeff),t="p",pch=16,col=colog[id_g])
-	segments(season[id_lieu],mean(coeff)-sd(coeff) ,season[id_lieu],mean(coeff)+sd(coeff),col=colog[id_g])
+	points(season[id_lieu],median(coeff),t="p",pch=16,col=colog[id_g])
+	segments(season[id_lieu],median(coeff)-sd(coeff) ,season[id_lieu],median(coeff)+sd(coeff),col=colog[id_g])
 	print(mean(coeff))
 	abline(h=0,lty=2,col="grey")
 }

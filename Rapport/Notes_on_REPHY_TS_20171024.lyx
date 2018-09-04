@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage{ae,aecompl}
@@ -15,16 +17,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics pdftex
 \default_output_format default
 \output_sync 0
@@ -55,6 +59,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -67,7 +72,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -102,6 +110,7 @@ We queried the Quadrige database on the 18th of April 2017.
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hernandez_farinas_analyse_nodate"
+literal "true"
 
 \end_inset
 
@@ -140,7 +149,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/comparaison_REPHY_SRN.pdf
+	filename graphe/exploration_raw/comparaison_REPHY_SRN.pdf
+	lyxscale 50
 	width 15cm
 
 \end_inset
@@ -182,6 +192,7 @@ In addition to the sites presented in
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hernandez_farinas_analyse_nodate"
+literal "true"
 
 \end_inset
 
@@ -266,7 +277,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/Gantt_REPHY.pdf
+	filename graphe/exploration_raw/Gantt_REPHY.pdf
 	width 17cm
 	special page=1
 
@@ -333,7 +344,7 @@ vspace{5pt}
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/Gantt_REPHY.pdf
+	filename graphe/exploration_raw/Gantt_REPHY.pdf
 	width 17cm
 	special page=2
 
@@ -369,7 +380,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/Gantt_REPHY.pdf
+	filename graphe/exploration_raw/Gantt_REPHY.pdf
 	width 17cm
 	special page=1
 
@@ -450,7 +461,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/Gantt_REPHY.pdf
+	filename graphe/exploration_raw/Gantt_REPHY.pdf
 	width 16cm
 	special page=2
 
@@ -485,7 +496,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/Gantt_REPHY.pdf
+	filename graphe/exploration_raw/Gantt_REPHY.pdf
 	width 16cm
 	special page=3
 
@@ -520,7 +531,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/Gantt_REPHY.pdf
+	filename graphe/exploration_raw/Gantt_REPHY.pdf
 	width 16cm
 	special page=4
 
@@ -612,7 +623,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/boxplot_gap_all.pdf
+	filename graphe/exploration_raw/boxplot_gap_all.pdf
 	width 16cm
 	special page=1
 
@@ -648,7 +659,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/boxplot_gap_all.pdf
+	filename graphe/exploration_raw/boxplot_gap_all.pdf
 	width 16cm
 	special page=2
 
@@ -684,7 +695,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/boxplot_gap_all.pdf
+	filename graphe/exploration_raw/boxplot_gap_all.pdf
 	width 16cm
 	special page=3
 
@@ -824,7 +835,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/localisation_regional_REPHY_BZ.pdf
+	filename graphe/localisation/localisation_regional_REPHY_BZ.pdf
 	width 34page%
 
 \end_inset
@@ -859,7 +870,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/localisation_regional_REPHY_MO.pdf
+	filename graphe/localisation/localisation_regional_REPHY_MO.pdf
 	width 34page%
 
 \end_inset
@@ -894,7 +905,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/localisation_regional_REPHY_SU.pdf
+	filename graphe/localisation/localisation_regional_REPHY_SU.pdf
 	width 34page%
 
 \end_inset
@@ -1099,7 +1110,7 @@ status open
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1510,7 +1521,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/repartition_taxonomy_abondance_precise.pdf
+	filename graphe/exploration_raw/repartition_taxonomy_abondance_precise.pdf
 	width 95text%
 
 \end_inset
@@ -1556,7 +1567,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/repartition_taxonomy_precise.pdf
+	filename graphe/exploration_raw/repartition_taxonomy_precise.pdf
 	width 95text%
 
 \end_inset
@@ -1681,7 +1692,7 @@ status open
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -2306,6 +2317,7 @@ Hernandez
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hernandez_farinas_assessing_2015"
+literal "true"
 
 \end_inset
 
@@ -2341,7 +2353,7 @@ status open
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="36" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -3982,7 +3994,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/nb_groups.pdf
+	filename graphe/exploration_raw/nb_groups.pdf
 	width 95text%
 
 \end_inset
@@ -4057,6 +4069,7 @@ reference "fig:Percentage-of-the"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "torok_functional_2016"
+literal "true"
 
 \end_inset
 
@@ -4091,6 +4104,10 @@ Abiotic variables
 There are less environmental variables in Marennes Oléron than in Arcachon.
  We chose to focus on temperature and salinity, which were monitored at
  all sites and sampling dates.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4110,7 +4127,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/compare_hydrology.pdf
+	filename graphe/time_series/hydro/compare_hydrology.pdf
+	lyxscale 50
 	width 99text%
 	special page=1
 
@@ -4146,7 +4164,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/compare_hydrology.pdf
+	filename graphe/time_series/hydro/compare_hydrology.pdf
+	lyxscale 50
 	width 99text%
 	special page=2
 
@@ -4182,7 +4201,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/compare_hydrology.pdf
+	filename graphe/time_series/hydro/compare_hydrology.pdf
+	lyxscale 50
 	width 99text%
 	special page=3
 
@@ -4331,6 +4351,7 @@ Based on the time series which were chosen by Fred
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hampton_empirical_2006"
+literal "true"
 
 \end_inset
 
@@ -4343,6 +4364,7 @@ on of the signal to fill gaps in the data while keeping its temporal structure
 \begin_inset CommandInset citation
 LatexCommand citet
 key "kondrashov_spatio-temporal_2006"
+literal "true"
 
 \end_inset
 
@@ -4350,6 +4372,7 @@ key "kondrashov_spatio-temporal_2006"
 \begin_inset CommandInset citation
 LatexCommand citet
 key "jalon-rojas_evaluation_2016"
+literal "true"
 
 \end_inset
 
@@ -4393,7 +4416,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/comparaison_SSA_random_Auger.pdf
+	filename graphe/time_series/plankton/comparaison_SSA_random_Auger.pdf
+	lyxscale 50
 	width 99text%
 	special page=1
 
@@ -4429,7 +4453,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/comparaison_SSA_random_Auger.pdf
+	filename graphe/time_series/plankton/comparaison_SSA_random_Auger.pdf
+	lyxscale 50
 	width 99text%
 	special page=2
 
@@ -4465,6 +4490,7 @@ Different methods were used for the reconstruction: the so-called 'Random'
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hampton_empirical_2006"
+literal "true"
 
 \end_inset
 
@@ -4517,7 +4543,7 @@ status open
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="22" columns="10">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -7973,6 +7999,25 @@ Model criteria
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+From this point in 2017, there were many changes: the comp_AICc/BIC* files
+ were changed because they showed reslts using NEI as a covariate while
+ we decided against using it; the next matrices were improved by adding
+ result significance, si the original files whose path is shown below do
+ not exist anymore.
+ I'm deciding (on 2018/09/04) to begin a new draft instead of trying to
+ get these results (which won't be used) back.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -8299,6 +8344,7 @@ We could focus on toxic species only, which might be monitored more carefully
 \begin_inset CommandInset citation
 LatexCommand citep
 key "diaz_climate_2013,gobler_ocean_2017"
+literal "true"
 
 \end_inset
 
@@ -8400,7 +8446,7 @@ status open
 \shape slanted
 \begin_inset Tabular
 <lyxtabular version="3" rows="21" columns="4">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
