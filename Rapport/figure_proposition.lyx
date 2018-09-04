@@ -1,0 +1,437 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{ae,aecompl}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+MAR estimates
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+We should note that NEE does not like barplot...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/COMMON/with_AR/comp_BIC_per_site.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comparison of BIC with different interaction matrices, compared to the null
+ model (diagonal interaction matrix), for four different sites separated
+ by dashed lines (Brittany, Marennes-Oléron, Arcachon Mediterranean Sea)
+ and 10 different subsites.
+ As model structures (length of the times series taken into account) are
+ different between sites and subsites, groups of bars should not be compared.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/BZ/site_specific/analyse_MAR_pencen_null_common_regular_BZ_with_bootstrap_and_signif.pdf
+	lyxscale 45
+	width 47.5text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename graphe/MAR_estimates/MO/site_specific/analyse_MAR_pencen_null_common_regular_MO_with_bootstrap_and_signif.pdf
+	lyxscale 45
+	width 47.5text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/AR/site_specific/analyse_MAR_pencen_null_common_regular_AR_with_bootstrap_and_signif.pdf
+	lyxscale 45
+	width 47.5text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename graphe/MAR_estimates/SU/site_specific/analyse_MAR_pencen_null_common_regular_SU_with_bootstrap_and_signif.pdf
+	lyxscale 45
+	width 47.5text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coefficients of the pennate vs.
+ centric MAR model for species which are present at the 10 sampling subsites,
+ using temperature and salinity as covariates.
+ The ratio of positive and negative interactions which have the same signs
+ for all subsites in one site (not considering diagonal values, that is
+ intragroup interactions) is shown below each graph.
+ [We will change he design (removing title and text under the x-axis+increasing
+ font) if we keep this figure but I'm letting that here for now.
+ Should we keep this 
+\begin_inset Quotes eld
+\end_inset
+
+type
+\begin_inset Quotes erd
+\end_inset
+
+ of graph? Can't think of a more clever way to show evtg right now.
+ ] 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Matrix 'meta-analysis'
+\end_layout
+
+\begin_layout Standard
+We can use several metrics to describe the different matrices whose parameters
+ we have estimated.
+ In addition to choosing the metric(s), we should wonder which matrix we
+ should use (all graphs shown here were computed on unconstrained matrix
+ at first but I think it should be the pencen one because of the results
+ in BIC).
+\end_layout
+
+\begin_layout Itemize
+eigen values is the simplest (and should be linked with % of positive/negatives
+ values)
+\end_layout
+
+\begin_layout Itemize
+connectance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/connectance_littoral.pdf
+	width 55text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Connectance of the unconstrained interaction matrices estimated in 10 different
+ subsites, differentiating positive and negative interactions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(for the next metrics, we need to consider absolute values and/or only negative
+ and/or only positive interaction values)
+\end_layout
+
+\begin_layout Itemize
+weighted connectance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/weighted_connectance_littoral.pdf
+	width 55text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Weighted connectance of the unconstrained interaction matrices estimated
+ in 10 different subsites, differentiating positive and negative interactions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+weighted linkage density (average of vulnerability and generality)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/linkage_density_littoral.pdf
+	width 55text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Weighted linkage density of the unconstrained interaction matrices estimated
+ in 10 different subsites, differentiating positive and negative interactions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We also wondered about a possible covariance between intra and inter-competition
+: should we compute the ratio of average coefficients or, for each species/subsi
+te, the ratio between 
+\begin_inset Formula $b_{ii}$
+\end_inset
+
+ and 
+\begin_inset Formula $\bar{b_{.i}}$
+\end_inset
+
+or 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\bar{b_{i.}}$
+\end_inset
+
+(depends if we want to see if a strongly self-regulated species also strongly
+ regulated the others, or, on the contrary, tends to be regulated BY the
+ others as well)? Bar subscript corresponds to the average value, which
+ can be computed on absolute values, raw values, only positive and only
+ negative values.
+ 
+\end_layout
+
+\begin_layout Standard
+Finally, we also wanted to consider the variance between growth rate and
+ intragroup competition (
+\begin_inset Formula $b_{ii}$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $\bar{c_{i.}}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In addition to averaging, we can consider the standard deviation of intergroup
+ coefficients and environmental effects.
+\end_layout
+
+\begin_layout Standard
+We may want to see for each species the variation of 
+\begin_inset Formula $b_{ii}$
+\end_inset
+
+ (and others) per site.
+\end_layout
+
+\end_body
+\end_document

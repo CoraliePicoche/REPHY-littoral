@@ -6,12 +6,14 @@ library('lubridate')
 library('bipartite')
 
 groupe=c("BZ","MO","SU","AR")
-metric='linkage density'
+#metric='linkage density'
 #metric='connectance'
-png("/home/cpicoche/Documents/Presentation_GI/linkage_density_littoral.png")
+metric='weighted connectance'
+pdf("./Rapport/graphe/weighted_connectance_littoral.pdf")
 par(mar=c(8,5,0.5,0.5))
-plot(0,0,t="n",xlim=c(1,11),ylim=c(0,9),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
+#plot(0,0,t="n",xlim=c(1,11),ylim=c(0,9),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
 #plot(0,0,t="n",xlim=c(1,11),ylim=c(0.35,0.7),xlab='',ylab=metric,xaxt="n") #Taking into account both inter and intragroup competition
+plot(0,0,t="n",xlim=c(1,11),ylim=c(0,0.4),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
 axis(1,at=seq(1,10),lab=c("Men er.","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret","Teychan","B7"),las=2,cex.axis=2,cex.lab=2)
 id_lieu=0
 id_g=0
@@ -85,6 +87,6 @@ for (ll in 1:length(option_lieu)){
 }
 
 }
-#legend("bottomleft",c("All inter","Positive inter","Negative inter"),col=c("black","blue","red"),pch=16,bty="n")
-legend("bottomleft",c("Positive inter","Negative inter"),col=c("blue","red"),pch=16,bty="n",cex=2)
+legend("bottomleft",c("All inter","Positive inter","Negative inter"),col=c("black","blue","red"),pch=16,bty="n")
+#legend("bottomleft",c("Positive inter","Negative inter"),col=c("blue","red"),pch=16,bty="n",cex=2)
 dev.off()	
