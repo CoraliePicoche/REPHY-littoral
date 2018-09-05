@@ -17,8 +17,9 @@ yli1=0
 yli2=800
 option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Teychan","B7","Antoine","Lazaret")
 
-colo=rainbow(length(option_model)*length(option_NEI)-1)
-colo=palette()
+#colo=rainbow(length(option_model)*length(option_NEI)-1)
+#colo=palette()
+colo=c("#000000", "#009E73", "#e79f00", "#9ad0f3")
 pdf(paste("Rapport/graphe/MAR_estimates/COMMON/with_AR/comp_",criterium,"_per_site.pdf",sep=""),width=17,family="Helvetica")
 par(mar=c(3,6,1,1))
 plot(0,0,xlim=c(0,length(option_lieu)*10-5),ylim=c(yli1,yli2),t="n",xlab="",ylab=bquote(paste(Delta,.(criterium),"=",.(criterium),"-",.(criterium)[0],sep="")),xaxt="n",lwd=2.5,cex.lab=2.25,cex.axis=2.25,cex=2.5)
@@ -54,7 +55,8 @@ for (l in 1:length(option_lieu)){
                 for (m in 1:length(option_model)){
                         if(!(option_model[m]==which_model0&&option_NEI[n]==which_NEI0)){
                                 mn=mn+1
-                                leg=c(leg,paste(option_model[m],option_NEI[n],sep="_"))
+#                                leg=c(leg,paste(option_model[m],option_NEI[n],sep="_"))
+                                leg=c(leg,option_model[m])
 
                                 f1=paste("data/analyse_MAR/",g,"/site_specific/",option_lieu[l],"_",option_model[m],"_",option_NEI[n],"_regular_common_",g,".RData",sep="")
                                 load(f1)

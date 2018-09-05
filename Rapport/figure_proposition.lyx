@@ -148,37 +148,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/MAR_estimates/BZ/site_specific/analyse_MAR_pencen_null_common_regular_BZ_with_bootstrap_and_signif.pdf
-	lyxscale 45
-	width 47.5text%
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename graphe/MAR_estimates/MO/site_specific/analyse_MAR_pencen_null_common_regular_MO_with_bootstrap_and_signif.pdf
-	lyxscale 45
-	width 47.5text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphe/MAR_estimates/AR/site_specific/analyse_MAR_pencen_null_common_regular_AR_with_bootstrap_and_signif.pdf
-	lyxscale 45
-	width 47.5text%
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename graphe/MAR_estimates/SU/site_specific/analyse_MAR_pencen_null_common_regular_SU_with_bootstrap_and_signif.pdf
-	lyxscale 45
-	width 47.5text%
+	filename graphe/MAR_estimates/figure2.pdf
+	lyxscale 50
+	width 102text%
 
 \end_inset
 
@@ -1014,12 +986,10 @@ In the following,
 \end_inset
 
 , and 
-
 \begin_inset Formula $\bar{x_{.j}}$
 \end_inset
 
-is
- average value over all rows, with 
+is average value over all rows, with 
 \begin_inset Formula $j$
 \end_inset
 
