@@ -166,19 +166,7 @@ Coefficients of the pennate vs.
  using temperature and salinity as covariates.
  The ratio of positive and negative interactions which have the same signs
  for all subsites in one site (not considering diagonal values, that is
- intragroup interactions) is shown below each graph.
- [We will change he design (removing title and text under the x-axis+increasing
- font) if we keep this figure but I'm letting that here for now.
- Should we keep this 
-\begin_inset Quotes eld
-\end_inset
-
-type
-\begin_inset Quotes erd
-\end_inset
-
- of graph? Can't think of a more clever way to show evtg right now.
- ] 
+ intragroup interactions) is shown below each legend.
 \end_layout
 
 \end_inset
@@ -200,6 +188,10 @@ type
 
 \begin_layout Subsection*
 Matrix 'meta-analysis'
+\end_layout
+
+\begin_layout Subsubsection*
+Usual network metrics
 \end_layout
 
 \begin_layout Standard
@@ -953,83 +945,160 @@ Weighted linkage density of the unconstrained interaction matrices estimated
 
 \end_layout
 
+\begin_layout Subsubsection*
+Covariance between self-regulation and competition with other groups
+\end_layout
+
 \begin_layout Standard
-We also wondered about a possible covariance between intra and inter-competition
-: should we compute the ratio of average coefficients (
-\begin_inset Formula $\frac{\bar{b_{ii}}}{\bar{b_{ij}}})$
+To examine a possible covariation of intra and inter-genus competition,
+ we computed several indicators of inter-group competition.
+ For each genus i, an index of vulnerability (computed on 
+\begin_inset Formula $b_{i.}$
 \end_inset
 
+) and generality (computed on 
+\begin_inset Formula $b_{.i}$
+\end_inset
 
-\begin_inset Foot
+) can be computed.
+ For these two indices, we computed the sum and average of raw and absolute
+ values of the interaction coefficients.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/pencenmetrics.pdf
+	lyxscale 50
+	width 95text%
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-In the following, 
-\begin_inset Formula $\bar{x_{ij}}$
 \end_inset
 
- is the average value over all indices (species) where 
-\begin_inset Formula $i\neq j$
-\end_inset
 
-, and 
-\begin_inset Formula $\bar{x_{.j}}$
-\end_inset
+\end_layout
 
-is average value over all rows, with 
-\begin_inset Formula $j$
-\end_inset
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
- fixed.
- The average can be computed on absolute values, raw values, only positive
- and only negative values (we need to decide).
- 
+\begin_layout Plain Layout
+Mean (top) and summed (bottom) vulnerability for each species in 10 subsites,
+ as a function of their self-regulation strength, taking into account facilitati
+on and competition (raw values, left) or only the strength of the effect
+ (absolute values, right), for a pennate/centric interaction matrix
 \end_layout
 
 \end_inset
 
- or, for each species/subsite, the ratio between 
-\begin_inset Formula $b_{ii}$
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
- and 
-\begin_inset Formula $\bar{b_{.i}}$
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/pencenmetrics.pdf
+	lyxscale 50
+	width 95text%
+	special page=2
+
 \end_inset
 
-or 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 
-\begin_inset Formula $\bar{b_{i.}}$
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mean (top) and summed (bottom) generality for each species in 10 subsites,
+ as a function of their self-regulation strength, taking into account facilitati
+on and competition (raw values, left) or only the strength of the effect
+ (absolute values, right), for a pennate/centric interaction matrix
+\end_layout
+
 \end_inset
 
-(depends if we want to see if a strongly self-regulated species also strongly
- regulated the others, or, on the contrary, tends to be regulated BY the
- others as well).
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The more self-regulated a species is, the stronger the interactions of this
+ species are, but the more it tends to engage in negative interactions.
  
+\end_layout
+
+\begin_layout Standard
+For a given species, self-regulation is highly variable depending on the
+ site.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/pencen_intra_for_each_species.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Intra-genus competition for each species in different sites for a pennate/centri
+c interaction matrix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Discussed, not done (yet)
 \end_layout
 
 \begin_layout Standard
@@ -1052,11 +1121,6 @@ In addition to averaging, we can consider the standard deviation of intergroup
 \end_layout
 
 \begin_layout Standard
-We may want to see for each species the variation of 
-\begin_inset Formula $b_{ii}$
-\end_inset
-
- (and others) per site.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
