@@ -7,9 +7,11 @@ library(MARSS)
 library(stringr)
 
 option_model=c("unconstrained","pencen")
-option_NEI=c("null")
+#option_model="pencen"
+option_NEI=c("null") #We don't take the "Not Elsewhere Identified" species into account
 groupe=c("BZ","MO","AR","SU")
-option_sp="common"
+option_sp="common" #Species are the same 
+take_0=TRUE #Do we consider the forced 0 in the interaction matrix when computing the mean values of inter-group competition?
 
 methods=c("intra","mean_raw","mean_abs","summed_abs","summed_raw")
 
@@ -76,18 +78,27 @@ for (g in groupe){
 				}
 				B[i,j]=B[i,j]+cis$par$B[n]
 			}
+			B_nodiag=B
+			diag(B_nodiag)=NA
 			for (i in 1:length(sp)){
              			tab_vulnerability[id_lieu,option_model[m],sp[i],"intra"]=B[i,i]
-             			tab_vulnerability[id_lieu,option_model[m],sp[i],"mean_raw"]=mean(B[i,])
-             			tab_vulnerability[id_lieu,option_model[m],sp[i],"mean_abs"]=mean(abs(B[i,]))
-             			tab_vulnerability[id_lieu,option_model[m],sp[i],"summed_abs"]=sum(abs(B[i,]))
-             			tab_vulnerability[id_lieu,option_model[m],sp[i],"summed_raw"]=sum(B[i,])
+				if(take_0){
+             				tab_vulnerability[id_lieu,option_model[m],sp[i],"mean_raw"]=mean(B_nodiag[i,],na.rm=T)
+	             			tab_vulnerability[id_lieu,option_model[m],sp[i],"mean_abs"]=mean(abs(B_nodiag[i,]),na.rm=T)
+        	                        tab_generality[id_lieu,option_model[m],sp[i],"mean_raw"]=mean(B_nodiag[,i],na.rm=T)
+                	                tab_generality[id_lieu,option_model[m],sp[i],"mean_abs"]=mean(abs(B_nodiag[,i]),na.rm=T)
+				}else{
+             				tab_vulnerability[id_lieu,option_model[m],sp[i],"mean_raw"]=mean(B_nodiag[i,B_nodiag[i,]!=0],na.rm=T)
+	             			tab_vulnerability[id_lieu,option_model[m],sp[i],"mean_abs"]=mean(abs(B_nodiag[i,B_nodiag[i,]!=0]),na.rm=T)
+        	                        tab_generality[id_lieu,option_model[m],sp[i],"mean_raw"]=mean(B_nodiag[B_nodiag[,i]!=0,i],na.rm=T)
+                	                tab_generality[id_lieu,option_model[m],sp[i],"mean_abs"]=mean(abs(B_nodiag[B_nodiag[,i]!=0,i]),na.rm=T)
+				}
+             			tab_vulnerability[id_lieu,option_model[m],sp[i],"summed_abs"]=sum(abs(B_nodiag[i,]),na.rm=T)
+             			tab_vulnerability[id_lieu,option_model[m],sp[i],"summed_raw"]=sum(B_nodiag[i,],na.rm=T)
 
                                 tab_generality[id_lieu,option_model[m],sp[i],"intra"]=B[i,i]
-                                tab_generality[id_lieu,option_model[m],sp[i],"mean_raw"]=mean(B[,i])
-                                tab_generality[id_lieu,option_model[m],sp[i],"mean_abs"]=mean(abs(B[,i]))
-                                tab_generality[id_lieu,option_model[m],sp[i],"summed_abs"]=sum(abs(B[,i]))
-                                tab_generality[id_lieu,option_model[m],sp[i],"summed_raw"]=sum(B[,i])
+                                tab_generality[id_lieu,option_model[m],sp[i],"summed_abs"]=sum(abs(B_nodiag[,i]),na.rm=T)
+                                tab_generality[id_lieu,option_model[m],sp[i],"summed_raw"]=sum(B_nodiag[,i],na.rm=T)
 			}
 		}
 	}
@@ -116,6 +127,12 @@ for(m in 1:length(option_model)){
 	for(l in 1:dim(tab_tmp)[1]){
 		points(tab_tmp[l,option_model[m],,"intra"],tab_tmp[l,option_model[m],,"mean_raw"],xlab="",ylab="",pch=16,col=colo[l])
 	}	
+	x1=c(tab_tmp[,option_model[m],,"intra"])
+	y1=c(tab_tmp[,option_model[m],,"mean_raw"])
+	lm1=lm(y1~x1)
+	sumlm1=summary(lm1)
+#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
 
         ylimi=c(min(c(tab_tmp[,option_model[m],,"mean_abs"]),na.rm=T),max(c(tab_tmp[,option_model[m],,"mean_abs"]),na.rm=T))
         plot(0,0,t="n",xlab="",ylab="",xlim=xlimi,ylim=ylimi)
@@ -124,6 +141,12 @@ for(m in 1:length(option_model)){
 	for(l in 1:dim(tab_tmp)[1]){
 		points(tab_tmp[l,option_model[m],,"intra"],tab_tmp[l,option_model[m],,"mean_abs"],xlab="",ylab="",pch=16,col=colo[l])
 	}
+	x1=c(tab_tmp[,option_model[m],,"intra"])
+	y1=c(tab_tmp[,option_model[m],,"mean_abs"])
+	lm1=lm(y1~x1)
+	sumlm1=summary(lm1)
+#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
 	
         ylimi=c(min(c(tab_tmp[,option_model[m],,"summed_raw"]),na.rm=T),max(c(tab_tmp[,option_model[m],,"summed_raw"]),na.rm=T))
         plot(0,0,t="n",xlab="",ylab="",xlim=xlimi,ylim=ylimi)
@@ -132,6 +155,12 @@ for(m in 1:length(option_model)){
 	for(l in 1:dim(tab_tmp)[1]){
 		points(tab_tmp[l,option_model[m],,"intra"],tab_tmp[l,option_model[m],,"summed_raw"],xlab="",ylab="",pch=16,col=colo[l])
 	}	
+	x1=c(tab_tmp[,option_model[m],,"intra"])
+	y1=c(tab_tmp[,option_model[m],,"summed_raw"])
+	lm1=lm(y1~x1)
+	sumlm1=summary(lm1)
+#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
 
         ylimi=c(min(c(tab_tmp[,option_model[m],,"summed_abs"]),na.rm=T),max(c(tab_tmp[,option_model[m],,"summed_abs"]),na.rm=T))
         plot(0,0,t="n",xlab="",ylab="",xlim=xlimi,ylim=ylimi)
@@ -140,6 +169,12 @@ for(m in 1:length(option_model)){
 	for(l in 1:dim(tab_tmp)[1]){
 		points(tab_tmp[l,option_model[m],,"intra"],tab_tmp[l,option_model[m],,"summed_abs"],xlab="",ylab="",pch=16,col=colo[l])
 	}
+	x1=c(tab_tmp[,option_model[m],,"intra"])
+	y1=c(tab_tmp[,option_model[m],,"summed_abs"])
+	lm1=lm(y1~x1)
+	sumlm1=summary(lm1)
+#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
 	}
 	dev.off()
 }

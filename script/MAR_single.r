@@ -1,3 +1,6 @@
+#2017, resumed on 2018/09/06 CP
+#This script estimates MARSS coefficients for different interaction matrices
+#Recent dvpt: I tried to add a polynomial for covariates, but I'm having pb using R3.4 with MARSS. Might have to downgrade R
 graphics.off()
 rm(list=ls())
 
@@ -10,26 +13,30 @@ set.seed(42)
 timestep=14
 consecutif=2
 #model_option=c("unconstrained","null","pencen","diatdin","inter") #for now, can be "null", "unconstrained" and "pencen"
-model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
+model_option=c("unconstrained","null","pencen") #for now, can be "null", "unconstrained" and "pencen"
+#model_option="null"
+#model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
 which_NEI="null" #NEI can be either a population or a covariate, or not used
 which_timestep="regular" #for now, only regular is implemented, but I do think we should do monthly average in order to prepare an inter-site comparison
 which_sp="common" #can be single (species depend on each site) or "common" (species are the ones in all sites)
-which_sp="reduced" ##reduced correspond to species that are present in ALL 10 sites
+cov_squared=TRUE #take into account T+T^2 and SALI+SALI^2 to have an idea of the niche
 
 corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
 tab_sp=read.table('data/lieu_sp_post_reconstruct_pour_MAR.csv',header=TRUE,na.strings="",sep=";")
 lieu=colnames(tab_sp)
 lieu=gsub('.',' ',lieu,fixed=TRUE) #useful for Men er Roue
-groupe1=c("LEperon","Auger","Cornard")
+#groupe1=c("LEperon","Auger","Cornard")
+#lieu=groupe1
 #groupe1=c("Men er Roue","Loscolo","Croisic")
-#groupe1=c("Antoine","Lazaret")
+groupe1=c("Antoine","Lazaret")
 #groupe1=lieu
 
 cov3_tot=c("TEMP","SALI")
 
 for (l in 1:length(lieu)){
-	if(lieu[l] %in% c('Auger')){
+#for (l in 1:1){
+	if(lieu[l] %in% groupe1){
 	#Biotic variables
 	tab=read.table(paste("data/corres_hernandez_",lieu[l],'.txt',sep=''),sep=";",na="NA",header=TRUE)
         dates=as.Date(tab$Date)
@@ -80,16 +87,25 @@ for (l in 1:length(lieu)){
 	#Hydro variables
 	tab_cov=read.table(paste("data/",lieu[l],'hydro.txt',sep=''),sep=";",na="NA",header=TRUE)
         dates_cov=as.Date(tab_cov$Date)
-	tab_cov_bis=matrix(NA,length(dates_bis),length(cov3_tot))
-	colnames(tab_cov_bis)=cov3_tot
+	if(cov_squared){
+		tab_cov_bis=matrix(NA,length(dates_bis),length(cov3_tot)*2)
+		colnames(tab_cov_bis)=c(cov3_tot,paste(cov3_tot,"2",sep=""))
+	}else{
+		tab_cov_bis=matrix(NA,length(dates_bis),length(cov3_tot))
+		colnames(tab_cov_bis)=cov3_tot
+	}
 	for (c in cov3_tot){
         	tab_cov_bis[,c]=approx(tab_cov[,c],x=dates_cov,xout=dates_bis)$y
+		if(cov_squared){
+        		tab_cov_bis[,paste(c,"2",sep="")]=tab_cov_bis[,c]^2
+		}
 	}
 	if(which_NEI=="cov"){
-		cov3_tot_bis=c(cov3_tot,"NEI")
+		cov3_tot_bis=c(colnames(tab_cov_bis),"NEI")
 		tab_cov_bis=cbind(tab_cov_bis,approx(tab[,"NEI"],x=dates,xout=dates_bis)$y)
 	}else{
-		cov3_tot_bis=cov3_tot
+#		cov3_tot_bis=cov3_tot
+		cov3_tot_bis=colnames(tab_cov_bis)
 	}
 
 	#Log transfo for species abundance and scaling for all time series
@@ -193,7 +209,7 @@ for (l in 1:length(lieu)){
                 B1=B2
 
 	}
-	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu[l],which_model,which_NEI,which_timestep,which_sp,"ALL.RData",sep="_"),boot=TRUE)
+	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu[l],which_model,which_NEI,which_timestep,which_sp,"ALL_squared.RData",sep="_"),boot=TRUE)
 	}
 }	
 }
