@@ -127,6 +127,13 @@ Comparison of BIC with different interaction matrices, compared to the null
  As model structures (length of the times series taken into account) are
  different between sites and subsites, groups of bars should not be compared.
  
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Comparison-of-BIC"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -167,6 +174,13 @@ Coefficients of the pennate vs.
  The ratio of positive and negative interactions which have the same signs
  for all subsites in one site (not considering diagonal values, that is
  intragroup interactions) is shown below each legend.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Coefficients_pencen"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -187,25 +201,72 @@ Coefficients of the pennate vs.
 \end_layout
 
 \begin_layout Subsection*
-Matrix 'meta-analysis'
+Matrix analysis
+\end_layout
+
+\begin_layout Standard
+Hereafter, we consider the 10 interaction matrices (
+\series bold
+B
+\series default
+-
+\series bold
+I
+\series default
+) estimated in the different subsites as 10 repetitions of possible community
+ matrices.
+ Both the unconstrained (full) and the pennate/centric matrices are analyzed,
+ with a focus on the latter, which yields the lower BIC (analyses for the
+ unconstrained matrix can be found in the graph folder).
+ In both cases, all coefficients are taken into account (as opposed to the
+ significant ones only).
+ For unconstrained matrices,there are between 21% and 39% of significant
+ coefficients, while for pencen matrices, they represent between 35% and
+ 59% of estimated interactions (13% to 21% of all interactions).
+ We characterize the interaction matrices with usual quantitative metrics
+ and search for patterns in the strength of the coefficients.
+ 
 \end_layout
 
 \begin_layout Subsubsection*
 Usual network metrics
 \end_layout
 
-\begin_layout Standard
-We can use several metrics to describe the different matrices whose parameters
- we have estimated.
- In addition to choosing the metric(s), we should wonder which matrix we
- should use (all graphs shown here were computed on unconstrained matrix
- at first but I think it should be the pencen one because of the results
- in BIC).
+\begin_layout Subparagraph*
+Local stability
 \end_layout
 
-\begin_layout Itemize
-eigenvalues is the simplest (and should be linked with % of positive/negatives
- values)
+\begin_layout Standard
+A first proxy of the local stability of the community can be found in the
+ eigenvalues of the interaction matrix.
+ We present the maximum modulus of the eigenvalues of each matrix in Table
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:EigenValue_RatioPositive"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and compare them to the proportion of strictly positive interactions in
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Stab_vs_Positive"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ No clear relation can be found in the unconstrained matrices but there
+ seems to be a decreasing trend in stability with the increase in the proportion
+ of positive interactions.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -752,10 +813,18 @@ Lazaret
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Maximum eigenvalue and proportion of strictly positive interactions (compared
- to non-0 values) in the interaction matrices estimated in different sites,
- with a full matrix or a matrix only allowing interactions among pennate
- and centric diatoms, not between
+Maximum modulus of the interaction matrix eigenvalues and proportion of
+ strictly positive interactions in the interaction matrices estimated in
+ different sites, with a full matrix or a matrix only allowing interactions
+ within pennate and centric diatom groups, not between them.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:EigenValue_RatioPositive"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -793,7 +862,18 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-No obvious link between stability and proportion of positive interactions
+Maximum modulus of the interaction matrix eigenvalues as a function of their
+ proportion of strictly positive interactions.
+ Unconstrained (full) and pennate/centric matrices are shown in black and
+ red, respectively.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stab_vs_Positive"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -810,104 +890,55 @@ No obvious link between stability and proportion of positive interactions
 
 \end_layout
 
-\begin_layout Itemize
-connectance
+\begin_layout Subparagraph*
+Link properties
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphe/connectance_littoral.pdf
-	width 55text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Connectance of the unconstrained interaction matrices estimated in 10 different
- subsites, differentiating positive and negative interactions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-(for the next metrics, we need to consider absolute values and/or only negative
- and/or only positive interaction values)
-\end_layout
-
-\begin_layout Itemize
-weighted connectance
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphe/weighted_connectance_littoral.pdf
-	width 55text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Weighted connectance of the unconstrained interaction matrices estimated
- in 10 different subsites, differentiating positive and negative interactions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-weighted linkage density (average of vulnerability and generality, see eq.
- 14 in 
+The usual definition of connectance does not fit our case as we take the
+ same number of links into account in the unconstrained (C=1) and the pencen
+ matrix (0.29<C<0.41, depending on the site but stable among subsites).
+ However, weighted connectance 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
+key "van_altena_food_2016"
+literal "false"
+
+\end_inset
+
+ and weighted linkage density 
+\begin_inset CommandInset citation
+LatexCommand citep
 key "bersier_quantitative_2002"
 literal "false"
 
 \end_inset
 
-)
+ use the information about the strength of the interactions in the matrices.
+ 
+\end_layout
+
+\begin_layout Standard
+These quantitative metrics were developped for competitive or trophic only
+ matrices, in which interactions all bear the same sign and represent the
+ same phenomenon (competition or feeding rate, for example).
+ They only apply to positive values of coefficients.
+ Our matrices include apparent mutualism (+/+, between 19% and 35% of estimated
+ interactions in the pencen matrix, with the notable exception of Lazaret
+ where no such interaction can be found), facilitation-commensalism (+/-,
+ 12-57%) and antagonism (-/-, 22-65%) according to 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "stachowicz_mutualism_2001"
+literal "false"
+
+\end_inset
+
+'s classification.
+ We thus decided to compute the same metrics on either the absolue values
+ of all interactions, only the positive and only the negative values of
+ each matrix.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -919,8 +950,15 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/linkage_density_littoral.pdf
-	width 55text%
+	filename graphe/weighted_connectance_littoral_pencen.pdf
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename graphe/linkage_density_littoral_pencen.pdf
+	width 45text%
 
 \end_inset
 
@@ -931,12 +969,73 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Weighted linkage density of the unconstrained interaction matrices estimated
- in 10 different subsites, differentiating positive and negative interactions
+Weighted connectance and linkage density of the pennate/centric interaction
+ matrices estimated in 10 different subsites, differentiating positive and
+ negative interactions.
+ Dot sizes increase with the proportion of coefficients that are deemed
+ significant at the 5% threshold.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Connectance_LD_per_site"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/metrics_vs_stability_pencen_with0.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Stability as a function of weighted connectance and linkage density in pennate/c
+entric matrices in 10 different subsites.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stability-metrics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -975,8 +1074,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/MAR_estimates/pencenmetrics.pdf
-	lyxscale 50
+	filename graphe/MAR_estimates/pencenintra_vs_mean_inter_no0.pdf
 	width 95text%
 
 \end_inset
@@ -988,53 +1086,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Mean (top) and summed (bottom) vulnerability for each species in 10 subsites,
- as a function of their self-regulation strength, taking into account facilitati
-on and competition (raw values, left) or only the strength of the effect
- (absolute values, right), for a pennate/centric interaction matrix
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphe/MAR_estimates/pencenmetrics.pdf
-	lyxscale 50
-	width 95text%
-	special page=2
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Mean (top) and summed (bottom) generality for each species in 10 subsites,
- as a function of their self-regulation strength, taking into account facilitati
-on and competition (raw values, left) or only the strength of the effect
- (absolute values, right), for a pennate/centric interaction matrix
+Mean raw (left, a,c) and absolute (right, b, d) vulnerability (top, a-b)
+ and generality (bottom, c-d) as a function of self-regulation strength,
+ for a pennate-centric interaction matrix excluding the values of the interactio
+ns forced to 0.
+ 
 \end_layout
 
 \end_inset

@@ -131,8 +131,9 @@ for(m in 1:length(option_model)){
 	y1=c(tab_tmp[,option_model[m],,"mean_raw"])
 	lm1=lm(y1~x1)
 	sumlm1=summary(lm1)
-#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
-#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+	#legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	legend("topleft",paste("cor=",format(cor(x1,y1,use="complete.obs"),digit=2),sep=""),bty="n")
 
         ylimi=c(min(c(tab_tmp[,option_model[m],,"mean_abs"]),na.rm=T),max(c(tab_tmp[,option_model[m],,"mean_abs"]),na.rm=T))
         plot(0,0,t="n",xlab="",ylab="",xlim=xlimi,ylim=ylimi)
@@ -145,8 +146,9 @@ for(m in 1:length(option_model)){
 	y1=c(tab_tmp[,option_model[m],,"mean_abs"])
 	lm1=lm(y1~x1)
 	sumlm1=summary(lm1)
-#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
-#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+	#legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	legend("topleft",paste("cor=",format(cor(x1,y1,use="complete.obs"),digit=2),sep=""),bty="n")
 	
         ylimi=c(min(c(tab_tmp[,option_model[m],,"summed_raw"]),na.rm=T),max(c(tab_tmp[,option_model[m],,"summed_raw"]),na.rm=T))
         plot(0,0,t="n",xlab="",ylab="",xlim=xlimi,ylim=ylimi)
@@ -159,8 +161,9 @@ for(m in 1:length(option_model)){
 	y1=c(tab_tmp[,option_model[m],,"summed_raw"])
 	lm1=lm(y1~x1)
 	sumlm1=summary(lm1)
-#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
-#	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+	#legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	legend("topleft",paste("cor=",format(cor(x1,y1,use="complete.obs"),digit=2),sep=""),bty="n")
 
         ylimi=c(min(c(tab_tmp[,option_model[m],,"summed_abs"]),na.rm=T),max(c(tab_tmp[,option_model[m],,"summed_abs"]),na.rm=T))
         plot(0,0,t="n",xlab="",ylab="",xlim=xlimi,ylim=ylimi)
@@ -173,8 +176,9 @@ for(m in 1:length(option_model)){
 	y1=c(tab_tmp[,option_model[m],,"summed_abs"])
 	lm1=lm(y1~x1)
 	sumlm1=summary(lm1)
-#	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+	abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
 #	legend("topleft",paste("R2=",format(sumlm1$r.squared,digit=2),sep=""),bty="n")
+	legend("topleft",paste("cor=",format(cor(x1,y1,use="complete.obs"),digit=2),sep=""),bty="n")
 	}
 	dev.off()
 }

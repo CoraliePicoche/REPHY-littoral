@@ -2,18 +2,21 @@
 
 rm(list=ls())
 graphics.off()
-library('lubridate')
 library('bipartite')
+source("script/matrix_MAR_clean.r")
 
 groupe=c("BZ","MO","SU","AR")
+option_model="unconstrained"
 #metric='linkage density'
 #metric='connectance'
 metric='weighted connectance'
-pdf("./Rapport/graphe/weighted_connectance_littoral.pdf")
+pdf(paste("./Rapport/graphe/weighted_connectance_littoral_",option_model,".pdf",sep=""))
+#pdf(paste("./Rapport/graphe/linkage_density_littoral_",option_model,".pdf",sep=""))
 par(mar=c(8,5,0.5,0.5))
-#plot(0,0,t="n",xlim=c(1,11),ylim=c(0,9),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
+
+#plot(0,0,t="n",xlim=c(1,11),ylim=c(2.0,8.0),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
 #plot(0,0,t="n",xlim=c(1,11),ylim=c(0.35,0.7),xlab='',ylab=metric,xaxt="n") #Taking into account both inter and intragroup competition
-plot(0,0,t="n",xlim=c(1,11),ylim=c(0,0.4),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
+plot(0,0,t="n",xlim=c(1,11),ylim=c(0,0.3),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
 axis(1,at=seq(1,10),lab=c("Men er.","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret","Teychan","B7"),las=2,cex.axis=2,cex.lab=2)
 id_lieu=0
 id_g=0
@@ -39,24 +42,34 @@ for (ll in 1:length(option_lieu)){
 #	tab_cov=read.table(paste("data/",option_lieu[ll],'hydro.txt',sep=''),sep=";",na="NA",header=TRUE)
 #	}
 
-        f1=paste("data/analyse_MAR/",g,"/site_specific/",option_lieu[ll],"_unconstrained_null_regular_common_",g,".RData",sep="")
+        f1=paste("data/analyse_MAR/",g,"/site_specific/",option_lieu[ll],"_",option_model,"_null_regular_common_",g,".RData",sep="")
         load(f1)
-        nom=dimnames(fit_log$par$B)[[1]] #Names of the interactions
-	B=diag(-1,sqrt(length(nom)),sqrt(length(nom))) #I am heavily using the fact that we are using an unconstrained matrix
-	for (n in 1:length(nom)){
-        	if(grepl("^\\(",nom[n])){ #default when using unconstrained or diagonal, names are of the form (1,2) for (i,j)
-                	i=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][2])
-                        j=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][3])
-			B[i,j]=B[i,j]+cis$par$B[n]
-		}else{
-			print(nom[n])
-		}
-	}
+#        nom=dimnames(fit_log$par$B)[[1]] #Names of the interactions
+#	B=diag(-1,sqrt(length(nom)),sqrt(length(nom))) #I am heavily using the fact that we are using an unconstrained matrix
+#	for (n in 1:length(nom)){
+#        	if(grepl("^\\(",nom[n])){ #default when using unconstrained or diagonal, names are of the form (1,2) for (i,j)
+#                	i=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][2])
+#                        j=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][3])
+#			B[i,j]=B[i,j]+cis$par$B[n]
+#		}else{
+#			print(nom[n])
+#		}
+#	}
 
-	prop_signif=sum(sign(cis$par.lowCI$B*cis$par.upCI$B)>0)/length(B) #Varies between 0.2 and 0.4
-	size_point=(prop_signif-0.2)/(0.4-0.2)
+	B=clean_matrix(cis)
+	prop_signif=sum(sign(cis$par.lowCI$B*cis$par.upCI$B)>0)/sum(B!=0) #Varies between 0.2 and 0.4 for unconstrained ; 0.13 and 0.21 for 
+	if (option_model=="unconstrained"){
+		mini=0.21
+		maxi=0.39
+	}else if(option_model=="pencen"){
+		mini=0.35
+		maxi=0.59
+	}
+	size_point=1.5*(prop_signif-mini)/(maxi-mini)
+
 
 	ll_abs=networklevel(web=abs(B),index=c("connectance","linkage density","weighted connectance")) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
+	print(ll_abs["connectance"])
 	B_pos=matrix(0,nrow=dim(B)[1],ncol=dim(B)[2])
 	B_pos[B>0]=B[B>0]
 	ll_pos=networklevel(web=B_pos,index=c("connectance","linkage density","weighted connectance")) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
