@@ -28,14 +28,14 @@ lieu=colnames(tab_sp)
 lieu=gsub('.',' ',lieu,fixed=TRUE) #useful for Men er Roue
 #groupe1=c("LEperon","Auger","Cornard")
 #lieu=groupe1
-#groupe1=c("Men er Roue","Loscolo","Croisic")
-groupe1=c("Antoine","Lazaret")
+groupe1=c("Men er Roue","Loscolo","Croisic")
+#groupe1=c("Antoine","Lazaret")
 #groupe1=lieu
 
 cov3_tot=c("TEMP","SALI")
 
-for (l in 1:length(lieu)){
-#for (l in 1:1){
+#for (l in 1:length(lieu)){
+for (l in 3:3){
 	if(lieu[l] %in% groupe1){
 	#Biotic variables
 	tab=read.table(paste("data/corres_hernandez_",lieu[l],'.txt',sep=''),sep=";",na="NA",header=TRUE)

@@ -6,7 +6,9 @@ library('bipartite')
 source("script/matrix_MAR_clean.r")
 
 groupe=c("BZ","MO","SU","AR")
+#groupe=c("SU")
 option_model="unconstrained"
+#option_model="pencen"
 #metric='linkage density'
 #metric='connectance'
 metric='weighted connectance'
@@ -14,7 +16,7 @@ pdf(paste("./Rapport/graphe/weighted_connectance_littoral_",option_model,".pdf",
 #pdf(paste("./Rapport/graphe/linkage_density_littoral_",option_model,".pdf",sep=""))
 par(mar=c(8,5,0.5,0.5))
 
-#plot(0,0,t="n",xlim=c(1,11),ylim=c(2.0,8.0),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
+#plot(0,0,t="n",xlim=c(1,11),ylim=c(2,8.0),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
 #plot(0,0,t="n",xlim=c(1,11),ylim=c(0.35,0.7),xlab='',ylab=metric,xaxt="n") #Taking into account both inter and intragroup competition
 plot(0,0,t="n",xlim=c(1,11),ylim=c(0,0.3),xlab='',ylab=metric,xaxt="n",cex.lab=2,cex.axis=2) #Taking into account both inter and intragroup competition
 axis(1,at=seq(1,10),lab=c("Men er.","Loscolo","Croisic","LEperon","Cornard","Auger","Antoine","Lazaret","Teychan","B7"),las=2,cex.axis=2,cex.lab=2)
@@ -68,14 +70,14 @@ for (ll in 1:length(option_lieu)){
 	size_point=1.5*(prop_signif-mini)/(maxi-mini)
 
 
-	ll_abs=networklevel(web=abs(B),index=c("connectance","linkage density","weighted connectance")) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
+	ll_abs=networklevel(web=abs(B),index=c("connectance","linkage density","weighted connectance"),empty.web=F) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
 	print(ll_abs["connectance"])
 	B_pos=matrix(0,nrow=dim(B)[1],ncol=dim(B)[2])
 	B_pos[B>0]=B[B>0]
-	ll_pos=networklevel(web=B_pos,index=c("connectance","linkage density","weighted connectance")) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
+	ll_pos=networklevel(web=B_pos,index=c("connectance","linkage density","weighted connectance"),empty.web=F) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
 	B_neg=matrix(0,nrow=dim(B)[1],ncol=dim(B)[2])
 	B_neg[B<0]=B[B<0]
-	ll_neg=networklevel(web=abs(B_neg),index=c("connectance","linkage density","weighted connectance")) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
+	ll_neg=networklevel(web=abs(B_neg),index=c("connectance","linkage density","weighted connectance"),empty.web=F) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
 
 	points(id_lieu,ll_abs[metric],pch=16,col="black",cex=1+exp(size_point))
 	points(id_lieu+0.1,ll_pos[metric],pch=16,col="blue",cex=1+exp(size_point))

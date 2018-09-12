@@ -105,6 +105,7 @@ for (g in groupe){
 }
 
 #Plotting now
+if(1==0){
 for(m in 1:length(option_model)){
 	pdf(paste("Rapport/graphe/MAR_estimates/",option_model[m],"metrics.pdf",sep=""))
 
@@ -182,15 +183,17 @@ for(m in 1:length(option_model)){
 	}
 	dev.off()
 }
+}
 
 #Second plot
 for(m in 1:length(option_model)){
 	pdf(paste("Rapport/graphe/MAR_estimates/",option_model[m],"_intra_for_each_species.pdf",sep=""))
-	plot(0,0,xlim=c(0,dim(tab_vulnerability)[3]),ylim=c(-0.65,-0.15),t="n",xlab="",ylab="Intra",xaxt="n")
-	axis(1,labels=dimnames(tab_vulnerability)[[3]],at=1:(dim(tab_vulnerability)[3]),las=2)
+	par(mar=c(4.5,4.5,0.5,0.5))
+	plot(0,0,xlim=c(0,dim(tab_vulnerability)[3]),ylim=c(-0.65,-0.15),t="n",xlab="",ylab="Intra",xaxt="n",cex.axis=2,cex.lab=1.8)
+	axis(1,labels=dimnames(tab_vulnerability)[[3]],at=1:(dim(tab_vulnerability)[3]),las=2,cex.axis=1.8)
 	for(s in 1:dim(tab_vulnerability)[3]){
 		for(l in 1:dim(tab_vulnerability)[1]){
-			points(s,tab_vulnerability[l,option_model[m],s,"intra"],pch=16,col=colo[l])
+			points(s,tab_vulnerability[l,option_model[m],s,"intra"],pch=16,col=colo[l],cex=2)
 		}
 	}
 	dev.off()

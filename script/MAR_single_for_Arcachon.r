@@ -9,13 +9,14 @@ source("./script/MARSS_clean.r")
 which_NEI="null" #NEI can be either a population or a covariate, or not used
 which_timestep="regular" #for now, only regular is implemented, but I do think we should do monthly average in order to prepare an inter-site comparison
 which_sp="reduced" #can be single (species depend on each site) or "common" (species are the ones in all sites)
+cov_squared=TRUE #take into account T+T^2 and SALI+SALI^2 to have an idea of the niche
 set.seed(42)
-#model_option=c("unconstrained","null","pencen","diatdin")
-model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
+model_option=c("unconstrained","null","pencen")
+#model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
 corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
-#sp=c("AST","NIT","PSE","SKE","CHA","GUI","LEP","RHI","GYM","PRP","CRY","EUG")
-sp=c("CHA","PSE","SKE","PRP")
+sp=c("AST","NIT","PSE","SKE","CHA","GUI","LEP","RHI","GYM","PRP","CRY","EUG")
+#sp=c("CHA","PSE","SKE","PRP")
 cov3_tot=c("TEMP","SAL")
 
 
@@ -36,11 +37,19 @@ tab_sp=na.approx(tab_sp,maxgap=consecutif,x=dates,xout=dates_bis,na.rm=FALSE) #I
 for (s in sp){
         tab_sp[is.na(tab_sp[,s]),s]=runif(sum(is.na(tab_sp[,s])),0,min(tab_sp[,s],na.rm=TRUE))
 }
-tab_cov_bis=matrix(NA,length(dates_bis),length(cov3_tot))
-colnames(tab_cov_bis)=cov3_tot
-for (c in cov3_tot){
-        tab_cov_bis[,c]=approx(tab[,c],x=dates,xout=dates_bis)$y
-}
+        if(cov_squared){
+                tab_cov_bis=matrix(NA,length(dates_bis),length(cov3_tot)*2)
+                colnames(tab_cov_bis)=c(cov3_tot,paste(cov3_tot,"2",sep=""))
+        }else{
+		tab_cov_bis=matrix(NA,length(dates_bis),length(cov3_tot))
+		colnames(tab_cov_bis)=cov3_tot
+	}
+	for (c in cov3_tot){
+	        tab_cov_bis[,c]=approx(tab[,c],x=dates,xout=dates_bis)$y
+        	if(cov_squared){
+                	tab_cov_bis[,paste(c,"2",sep="")]=tab_cov_bis[,c]^2
+		}
+	}
 
 	#ON range les espèces en les regroupant
 	pen=c()
@@ -72,7 +81,7 @@ for (c in cov3_tot){
 	tab_plankton=t(scale(tab_plankton[2:(length(dates_bis)-1),]))
 	tab_cov=t(scale(tab_cov_bis[2:(length(dates_bis)-1),]))
 	rownames(tab_plankton)=liste_sp
-	rownames(tab_cov)=cov3_tot
+        rownames(tab_cov)=c(cov3_tot,paste(cov3_tot,"2",sep=""))
 
 
 	#Setting interaction matrix
@@ -168,5 +177,5 @@ for (c in cov3_tot){
                 B1=B2
 
 	}
-	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu,which_model,which_NEI,which_timestep,which_sp,"ALL.RData",sep="_"),boot=TRUE)
+	analyse_MARSS(tab_plankton,tab_cov,B1,paste(lieu,which_model,which_NEI,which_timestep,which_sp,"ALL_squared.RData",sep="_"),boot=TRUE)
 	}

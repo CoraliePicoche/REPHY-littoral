@@ -264,8 +264,8 @@ noprefix "false"
 
 .
  No clear relation can be found in the unconstrained matrices but there
- seems to be a decreasing trend in stability with the increase in the proportion
- of positive interactions.
+ seems to be a decreasing trend with the increase in the proportion of positive
+ interactions.
  
 \end_layout
 
@@ -898,18 +898,10 @@ Link properties
 The usual definition of connectance does not fit our case as we take the
  same number of links into account in the unconstrained (C=1) and the pencen
  matrix (0.29<C<0.41, depending on the site but stable among subsites).
- However, weighted connectance 
+ However, weighted connectance and weighted linkage density 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "van_altena_food_2016"
-literal "false"
-
-\end_inset
-
- and weighted linkage density 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "bersier_quantitative_2002"
+key "bersier_quantitative_2002,van_altena_food_2016"
 literal "false"
 
 \end_inset
@@ -919,7 +911,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-These quantitative metrics were developped for competitive or trophic only
+These quantitative metrics were developped for bipartite or trophic only
  matrices, in which interactions all bear the same sign and represent the
  same phenomenon (competition or feeding rate, for example).
  They only apply to positive values of coefficients.
@@ -970,8 +962,9 @@ status open
 
 \begin_layout Plain Layout
 Weighted connectance and linkage density of the pennate/centric interaction
- matrices estimated in 10 different subsites, differentiating positive and
- negative interactions.
+ matrices estimated in 10 different subsites, differentiating between absolute
+ values of all interactions (black), positive (red) and negative (blue)
+ interactions.
  Dot sizes increase with the proportion of coefficients that are deemed
  significant at the 5% threshold.
  
@@ -999,6 +992,29 @@ name "fig:Connectance_LD_per_site"
 \end_layout
 
 \begin_layout Standard
+If we consider only the strength of the interactions (absolute values of
+ the coefficients), weighted connectance does not vary much from one site
+ to another (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Connectance_LD_per_site"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Positive interactions tend to dominate in all matrices, except for the
+ Mediterranean ones in which both negative and positive interactions seem
+ to play equivalent roles.
+ We should keep in mind that they also correspond to the smallest commnities
+ (7 species monitored consistently, as opposed to 14 in the Brittany sites).
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1019,8 +1035,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Stability as a function of weighted connectance and linkage density in pennate/c
-entric matrices in 10 different subsites.
+Maximum modulus of the interaction matrix eigenvalues as a function of weighted
+ connectance and linkage density in pennate/centric matrices in 10 different
+ subsites.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Stability-metrics"
@@ -1035,13 +1052,34 @@ name "fig:Stability-metrics"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+In Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Stability-metrics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, stability seems to decrease with weighted connectance and linkage density,
+ as opposed to previous work using the same metrics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "van_altena_food_2016"
+literal "false"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1049,19 +1087,214 @@ Covariance between self-regulation and competition with other groups
 \end_layout
 
 \begin_layout Standard
+The differences between self-regulation and inter-genus competition appears
+ in the 
+\series bold
+B
+\series default
+-
+\series bold
+I
+\series default
+ matrices, informing both the ecology of the groups of species we consider
+ (variation in self-regulation can be seen in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Self-regulation-per_species"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) and the functioning the whole communities.
+ For the latter, we sought patterns in the variation of intra- and inter-group
+ interaction coefficients.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/pencen_intra_for_each_species.pdf
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Self-regulation (values of the diagonal coefficients of the 
+\series bold
+B
+\series default
+-
+\series bold
+I
+\series default
+ matrices) for each genus in 10 sites for a pennate/centric interaction
+ matrix.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Self-regulation-per_species"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Intra and inter-group coefficients have different means and variances (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variance-vs-mean-inter-intra"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and we could not find the U-shaped curve that was found by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "jansen_complexity_2003"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/moy_vs_var_for_all_interactions_pencen_no0.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/MAR_estimates/moy_vs_var_pencen_no0.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Variance of intra (left-hand side of each plot) and intergroup (right-hand
+ side of each plot) coefficients of the 
+\series bold
+B
+\series default
+-
+\series bold
+I
+\series default
+ matrices, as a function of their mean, ignoring the forced 0 coefficients.
+ A zoom-in is performed in the bottom line of the figure, with mean (and
+ variance) written on the plot.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Variance-vs-mean-inter-intra"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 To examine a possible covariation of intra and inter-genus competition,
  we computed several indicators of inter-group competition.
- For each genus i, an index of vulnerability (computed on 
+ For each genus 
+\begin_inset Formula $i$
+\end_inset
+
+, an index of vulnerability (using all 
 \begin_inset Formula $b_{i.}$
 \end_inset
 
-) and generality (computed on 
+ coefficients, that is the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ row, excluding diagonal coefficients) and generality (using all 
 \begin_inset Formula $b_{.i}$
 \end_inset
 
-) can be computed.
- For these two indices, we computed the sum and average of raw and absolute
- values of the interaction coefficients.
+ coefficients, that is the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ column, excluding diagonal coefficients) can be computed.
+ For these two indices, we computed the average of raw and absolute values
+ of the interaction coefficients and the Pearson correlation with the value
+ of intragroup coefficients.
+ No obvious relation can be found (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Vul_Gen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
  
 \end_layout
 
@@ -1086,11 +1319,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Mean raw (left, a,c) and absolute (right, b, d) vulnerability (top, a-b)
- and generality (bottom, c-d) as a function of self-regulation strength,
- for a pennate-centric interaction matrix excluding the values of the interactio
-ns forced to 0.
+Average vulnerability (a-b) and generality (c-d), computed on raw values
+ (a-c) or absolute values (b-d), as a function of self-regulation, for a
+ pennate-centric interaction matrix, ignoring the forced 0 coefficients.
  
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Vul_Gen"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1104,14 +1343,27 @@ ns forced to 0.
 \end_layout
 
 \begin_layout Standard
-The more self-regulated a species is, the stronger the interactions of this
- species are, but the more it tends to engage in negative interactions.
- 
-\end_layout
+Contrary to what could be found in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "kokkoris_variability_2002"
+literal "false"
 
-\begin_layout Standard
-For a given species, self-regulation is highly variable depending on the
- site.
+\end_inset
+
+, we could not detect a decreasing trend in stability due to the increase
+ in variance in the interaction coefficients (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Stab-vs-var"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
  
 \end_layout
 
@@ -1124,7 +1376,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/MAR_estimates/pencen_intra_for_each_species.pdf
+	filename graphe/MAR_estimates/stability_vs_var_pencen_no0.pdf
+	width 95text%
 
 \end_inset
 
@@ -1135,8 +1388,23 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Intra-genus competition for each species in different sites for a pennate/centri
-c interaction matrix
+Maximum modulus of the eigenvlues of 
+\series bold
+B
+\series default
+-
+\series bold
+I
+\series default
+ matrices, as a function of the variance of their coefficients, for pennate/cent
+ric interaction matries, ignoring the forced 0 coefficients 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stab-vs-var"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1154,7 +1422,7 @@ c interaction matrix
 \end_layout
 
 \begin_layout Subsubsection*
-Discussed, not done (yet)
+Discussed, to do ?
 \end_layout
 
 \begin_layout Standard
