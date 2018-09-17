@@ -1,7 +1,7 @@
 #2018/09/07 CP 
 #I need a function that turns the fit_log$B format to a readily usable interaction matrix
 
-clean_matrix=function(cis){
+clean_matrix=function(cis, signif=FALSE){
 	require('stringr')
                         sp=dimnames(cis$model$data)[[1]] #Studied species
                         var=dimnames(cis$call$model$c)[[1]] #Studied covariates
@@ -34,7 +34,13 @@ clean_matrix=function(cis){
                                                 }
                                         }
                                 }
-                                B[i,j]=B[i,j]+cis$par$B[n]
+				if(signif){
+					if(cis$par.upCI$B[n]*cis$par.lowCI$B[n]>0){
+	                                	B[i,j]=B[i,j]+cis$par$B[n]
+					}
+				}else{
+	                                B[i,j]=B[i,j]+cis$par$B[n]
+				}
                         }
 	return(B)
 }

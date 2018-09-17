@@ -24,14 +24,14 @@ yli2=150
 yli1=-300
 yli2=100
 }
-plot(0,0,xlim=c(0,length(option_model)*15),ylim=c(yli1,yli2),t="n",xlab="",ylab=paste(expression(Delta),criterium[c],"=",criterium[c],"(V²)-",criterium[c],sep=""),xaxt="n",lwd=2.5,cex.lab=1.5,cex.axis=1.5)
+plot(0,0,xlim=c(0,length(option_model)*13),ylim=c(yli1,yli2),t="n",xlab="",ylab=paste(expression(Delta),criterium[c],"=",criterium[c],"(V²)-",criterium[c],sep=""),xaxt="n",lwd=2.5,cex.lab=1.5,cex.axis=1.5)
 abline(h=0,lty=1,lwd=2.5)
 id_lieu=0
 id=-1
 opp=c()
 for (g in groupe){
         if(g=="BZ"){
-                option_lieu=c("Men er Roue","Loscolo")#,"Croisic") Croisic not available yet
+                option_lieu=c("Men er Roue","Loscolo","Croisic") 
         }else if(g=="MO"){
                 option_lieu=c("LEperon","Cornard","Auger")
         }else if(g=="SU"){
