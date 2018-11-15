@@ -53,10 +53,12 @@ for (g in groupe){
                 f1=paste("data/analyse_MAR/",g,"/site_specific/",option_lieu[ll],"_",option_model[m],"_",option_NEI,"_regular_common_",g,".RData",sep="")
                 load(f1)
 		aic_1=fit_log$AICc
+		print(aic_1)
 		bic_1=-2*fit_log$logLik+log(fit_log$samp.size/dim(fit_log$states)[1])*fit_log$num.params
                 f2=paste("data/analyse_MAR/",g,"/site_specific/",option_lieu[ll],"_",option_model[m],"_",option_NEI,"_regular_common_ALL_squared.RData",sep="")
                 load(f2)
 		aic_2=fit_log$AICc
+		print(aic_2)
 		bic_2=-2*fit_log$logLik+log(fit_log$samp.size/dim(fit_log$states)[1])*fit_log$num.params
 		if(criterium[c]=="BIC"){
 	        	rect(id,0,id+1,bic_2-bic_1,col=colo[m])

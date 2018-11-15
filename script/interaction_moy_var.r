@@ -7,7 +7,7 @@ library(MARSS)
 library(bipartite)
 source("script/matrix_MAR_clean.r")
 
-option_model="unconstrained"
+option_model="pencen"
 option_NEI="null" #We don't take the "Not Elsewhere Identified" species into account
 groupe=c("BZ","MO","AR","SU")
 option_sp="common" #Species are the same 
@@ -144,6 +144,7 @@ plot(0,0,t="n",xlab="",xaxt="n",ylab="Var(Intra)/Var(inter raw)",xlim=c(1,10),yl
 axis(1,at=1:10,labels=rownames(tab_value))
 for(i in 1:dim(tab_value)[1]){
         points(i,tab_value[i,"intra_var"]/tab_value[i,"inter_var_raw"],pch=16,col=colo[i])
+	print(tab_value[i,"intra_var"]/tab_value[i,"inter_var_raw"])
 }
 ylim1=min(tab_value[,"intra_var"]/tab_value[,"inter_var_abs"])
 ylim2=max(tab_value[,"intra_var"]/tab_value[,"inter_var_abs"])
@@ -151,6 +152,7 @@ plot(0,0,t="n",xlab="",xaxt="n",ylab="Var(Intra)/Var(inter abs)",xlim=c(1,10),yl
 axis(1,at=1:10,labels=rownames(tab_value))
 for(i in 1:dim(tab_value)[1]){
         points(i,tab_value[i,"intra_var"]/tab_value[i,"inter_var_abs"],pch=16,col=colo[i])
+	print(tab_value[i,"intra_var"]/tab_value[i,"inter_var_abs"])
 }
 
 dev.off()
