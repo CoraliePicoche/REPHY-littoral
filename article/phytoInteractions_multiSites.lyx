@@ -208,6 +208,40 @@ Using MAR(1) autoregressive models, we have produced interaction matrices
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Interaction matrices for our multiple study regions and sites 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We have to decide how to call Arcachon, Britanny, ...
+ perhaps regions are good? 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We then asked whether the stability (resilience) of those matrices was affected
  by the percentage of mutualistic interactions or their connectivity properties
  (Fig.
@@ -221,8 +255,206 @@ We then asked whether the stability (resilience) of those matrices was affected
 \end_layout
 
 \begin_layout Standard
-Then ...
+More information than sign and the magnitude of interspecific / intergroup
+ interactions can be gathered from interaction matrices.
+ We investigated whether the matrix has some particular structure that could
+ help theoretical ecology to make better null models of joint community
+ dynamics and interactions [REF? There's this Am Nat paper by Alex Best
+ I think on what's currently amiss with random matrix theory...].
+ We defined two scores, vulnerability (summed effect of others on the focal
+ species growth rate) and generality (summed effect of the focal species
+ onto other species growth rates).
+ Species that were more self-regulating also had also a higher vulnerability
+ score, and those two influences are likely to trade-off: a high degree
+ of self-regulation somehow buffers outside influences.
+ Species that were less self-regulating were also more likely to have a
+ broad range of effects onto other species [to interpret this we may also
+ need to check that they were more abundant, if so I would say that species
+ varying broadly have a higher likelihood to generate effects in other species].
+ It is important to note, however, that these patterns are weak and there
+ is therefore a considerable amount of randomness dominating the interaction
+ matrix: many scenarios of self-regulation vs limitation by others are therefore
+ possible.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Perhaps we have to dig a little more in the identity of those species there.
+ Can we relate some of the species that have widespread effects on many
+ species to traits? Are these always the same in the various regions? In
+ the various sites?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aside from these trade-offs, some of which promote some stability (sensu
+ invariability), we found no remarkable patterns of covariation between
+ matrix elements (other than a mean-variance scaling of interaction coefficients
+, see SI XXX Fig.
+ XXX).
+ The big finding of our study seems really to be the presence of very large
+ niche differences between the species, translating into a much higher intragrou
+p competition, together with a high degree of facilitative net interactions.
+ In our previous publication [REF], we have argued that those could arise
+ from predation effects that could well create apparent mutualism between
+ prey species and strong intragroup density-dependence [REFs].
+ This is still very much likely here given our new study regions (Oléron,
+ Britanny, Mediterranean) could have similar predators, though there are
+ other possibilities.
+ 
+\end_layout
+
+\begin_layout Standard
+Finally, we have sought to put these results in a broader context by compiling
+ the intra vs.
+ inter group estimates of previous MAR(1) studies (detailed in Appendix
+ XXX).
+ We have found that the order of magnitude of intra/inter interaction strengths
+ considered here (
+\begin_inset Formula $\approx$
+\end_inset
+
+ 10) not particularly below those found for most planktonic systems.
+ We include in Fig.
+ 4 not only plankton studies but also a couple of vertebrate or insect studies
+ on smaller (less diverse) communities were interactions are stronger.
+ The conclusion from this comparison seems to be that any diverse system
+ of competitors and facilitators seem to have evolved large niche differences
+ making intragroup competition much higher than intergroup interactions.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Intra/intergroup interaction strengths for MAR(1) studies.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This dominance of niche differentation is similar to what has been found
+ in plant community studies [REFs Alder 2018, perhaps Volkov Nature 2007?],
+ and might be due to the ghost of the competition past, i.e., selection and
+ evolution leading to progressive niche separation.
+ Species have evolved niches that allow them not to compete or to interact
+ only weakly (very strong facilitative effects might be likewise destabilizing
+ [je crois qu'il y a des refs sur les effets non-monotone des interactions
+ +, je rechercherai]).
+ The predator effects that we highlighted above can be comprised within
+ such niche differentation sensu largo: specialized predators can make strong
+ conspecific density-dependence emerge [REFs], while switching generalists
+ can also promote diversity [REFs, same from Oikos].
+ Both predators and resources have often symmetrical effects and can contribute
+ to niche differentation [REF to Chesson 2018 J Ecol]
+\end_layout
+
+\begin_layout Standard
+An intriguing new possibility, dubbed the 
+\begin_inset Quotes eld
+\end_inset
+
+ghost of competition
+\begin_inset Quotes erd
+\end_inset
+
+ present [REF Tuck 2018], suggests that spatial patterns in relation to
+ abiotic factors might have a large impact on the patterns inferred from
+ interaction models.
+ Recent combinations of model fitting and removal experiments have shown
+ that the model fitting usually underestimate the effect of competitors
+ that are uncovered by removal experiments [Tuck 2018, Adler et al.
+ 2018b].
+ This could occur for instance if species are spatially segregated (at a
+ small scale) because each species only exists within a domain where it
+ is relatively competitive, while a focal species could spread out if competitor
+s were removed.
+ This means that a species can be limited by competitors, but act so as
+ to minimize competition (a little like avoidance behaviour in animals)
+ so that competition is i effect hard to detect when all species are present.
+ This would require some fine-scale segregation between phytoplankton species
+ at the scale of interactions, i.e., at the microscale.
+ At the moment, it is known that turbulence generates inhomogeneities at
+ the microscale [REF Barton, new PNAS paper] but it is quite unclear how
+ this affects multiple interacting species and which multivariate spatial
+ patterns (sensu [REF Murrell & Law 2002]) could be expected.
+ Also, even if turbulence generates spatial structure with segregation between
+ species, it is not quite clear that the 
+\begin_inset Quotes eld
+\end_inset
+
+ghost of competition present
+\begin_inset Quotes erd
+\end_inset
+
+ mechanism could work for plancton, where the turbulence may somehow dictates
+ where the plankton patches can or cannot appear.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+[Not sure about what I am writing below, some ideas about the resistant
+ / benthic life stage – if there were strong competition in a well-mixed
+ media but a stage structure, we would still expect to see some degree of
+ competition in the pelagic surveys I think – my guess would be that competition
+ between the pelagic stage is always weak because of hidden spatial structure,
+ and resistant life-stage only adds to this the possibility for 
+\emph on
+more
+\emph default
+ coexistence because recolonization from zero without outside flow becomes
+ possible.] 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+A final possibility relates to stage structure.
+ We have so far referred to the pelagic component of the phytoplankton community
+, which is what is sampled and analysed here.
+ However, many of the organisms followed here have resistance form.
+ These resistance forms, that can sink to the sea bottom, can easily be
+ remobilized in the water column after storms, which combined to a rise
+ in irradiance, can generate blooms.
+ This may greatly help coexistence by frequent recolonization in the coastal
+ and therefore shallow marine habitats that are considered here, and may
+ dampen or even hide the possible effects of competition.
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
