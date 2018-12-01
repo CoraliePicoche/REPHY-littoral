@@ -1,0 +1,260 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #718c00
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Strong self-regulation and widespread facilitative interactions between
+ groups of phytoplankton
+\end_layout
+
+\begin_layout Abstract
+XXX
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The bibliographic style should be numerical (even if I write something else
+ between the brackets when I don't have the time to search for the references).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We haven't discussed this, but perhaps differences in composition between
+ sites can say things about competition that long term time series cannot
+ – cf.
+ Tuck 2018 Ecology Letters for an appreciation of the ghost of competition
+ past vs.
+ present.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+How species or related genera can coexist together in spite of likely competitio
+n is still one of the main puzzles of community ecology, especially for
+ primary producers that seemingly share the same basic resources [REFS].
+ Many theoretical studies of competition models have shown that competitive
+ exclusion is likely in those circumstances [REFs], unless some special
+ mechanisms involving spatial or temporal variation are at play [REFs incl.
+ Huisman & Weissing, Chesson 1997, Li & Chesson etc.].
+ Neutral theory, that in its most basic formulation assumes equal competitive
+ abilities [REFs] and non-equilibrium coexistence sustained by immigration
+ from a larger pool (but see [REF Volkov papers]) has been proposed as a
+ solution to explain highly diverse communities [REFs Hubbell].
+ However, the evidence gathered from plant communities starts to suggest
+ that, in fact, niche rather than neutral processes may be paramount, with
+ intraspecific competition dwarfing [check ENG] interspecific competition
+ in most cases [REFs Adler 2010, 2018 paper].
+ Whether these conclusions apply to other systems is currently unknown.
+ 
+\end_layout
+
+\begin_layout Standard
+Moreover, the meta-analysis by Adler et al.
+ [REF Adler 2018] reported a large number of facilitative interactions (30%)
+ [I think, check] and reviews [Cooper review with R.
+ Michalet and Biogeco team, some other review] have highlighted that in
+ fact that facilitation may be much more widespread than ecologists usually
+ tend to think.
+ Although some theoretical studies suggest that facilitative interactions
+ can be destabilizing (sensu resilience) and therefore undermine coexistence
+ [REF Coyte 2015], many modelling studies [K.
+ Gross Ecol Lett, more stuff] have suggested that facilitative interactions
+ can to a large degree benefit coexistence.
+ 
+\end_layout
+
+\begin_layout Standard
+Here, we analyse a large dataset of several long-term time series of phytoplankt
+on dynamics along the French coastline 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+it would be fantastic if we could make the coastline appear in the Fig.
+ 1
+\end_layout
+
+\end_inset
+
+, using statistical time series models allowing for interactions between
+ groups.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We can mention in the cover letter that we werent sure, after analyzing
+ the first dataset, that the finding would replicate at several study sites
+ and yet they did, which we is remarkable...
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section*
+Results and discussion
+\end_layout
+
+\begin_layout Standard
+Using MAR(1) autoregressive models, we have produced interaction matrices
+ – Jacobian community matrices on the logarithmic scale [REF Ives 2003]
+ – that have two main features.
+ First, we observe a strong self-regulation for all sites (Fig.
+ 1, diagonal elements of all matrices), a feat that we have highlighted
+ on a previous, more detailed analysis on one of the considered study sites
+ only [Ref Barraquand Oikos].
+ Second, although the percentage of facilitative interactions seem to vary
+ among sites [insert percentages here], we have found that it is substantial
+ for all sites: contrary to our initial expectations, commensalism (the
+ interactions are rarely two-way mutualism [check]) seems to be the rule
+ rather than the exception.
+ 
+\end_layout
+
+\begin_layout Standard
+We then asked whether the stability (resilience) of those matrices was affected
+ by the percentage of mutualistic interactions or their connectivity properties
+ (Fig.
+ 2).
+ Neither the percentage of mutualistic interactions nor the complexity metrics
+ did strongly affect the stability properties, although there was perhaps
+ a slight decline with the percentage of mutualistic interactions (but it
+ may be simply due to an unbalance in this percentage, usually high, in
+ the datasets).
+ 
+\end_layout
+
+\begin_layout Standard
+Then ...
+ 
+\end_layout
+
+\begin_layout Section*
+Methods
+\end_layout
+
+\begin_layout Standard
+[Insert here a detailed description of the MAR(1) approach, a little bit
+ as we did in the Oikos paper, but perhaps a little more self-contained].
+ In general, MAR(1) models tend to be fairly robust to small deviations
+ of the underlying data-generating model, provided that one asks mainly
+ order of magnitude of coefficients values (rather than very precise estimates)
+ and sign of interaction coefficients [REF Certain]
+\end_layout
+
+\begin_layout Standard
+We have previously published a very detailed analysis of one of the dataset
+ (Arcachon) for which more covariables were available [REF Oikos].
+ The analysis of real data was complemented by that of simulated data for
+ a plankton time series set-up and confirmed the ability of the technique
+ to infer biotic interactions and abiotic forcing [REF Oikos].
+ This analysis revealed that the MAR(1) approach was satisfactory (no need
+ for extra non-linearities to model the storage effect, which was found
+ to be weak as in previous analyses of plant data for which strong-self
+ regulation was observed [Adler et al.
+ 2010, Ellner et al.
+ 2016].
+ We are therefore confident that the MAR(1) models presented here are appropriat
+e models; for ease of interpretation we also present the connexion between
+ MAR(1) model coefficients and a Beverton-Holt model in SI XX [see also
+ Certain et al.]
+\end_layout
+
+\end_body
+\end_document
