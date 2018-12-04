@@ -5,6 +5,11 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{ae,aecompl}
+
+\usepackage{lineno} 
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -28,10 +33,12 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
+\spacing double
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -42,9 +49,11 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
-\biblio_style plain
+\cite_engine biblatex-natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\biblatex_bibstyle numeric
+\biblatex_citestyle numeric
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -56,6 +65,10 @@
 \shortcut idx
 \color #718c00
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -67,11 +80,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -2100369821 "cpicoche"
 \end_header
 
 \begin_body
@@ -129,32 +143,146 @@ n is still one of the main puzzles of community ecology, especially for
  primary producers that seemingly share the same basic resources [REFS].
  Many theoretical studies of competition models have shown that competitive
  exclusion is likely in those circumstances [REFs], unless some special
- mechanisms involving spatial or temporal variation are at play [REFs incl.
- Huisman & Weissing, Chesson 1997, Li & Chesson etc.].
+ mechanisms involving spatial or temporal variation are at play
+\change_inserted -2100369821 1543938970
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "chesson_roles_1997,huisman_biological_2001,li_effects_2016"
+literal "false"
+
+\end_inset
+
+ [More refs?]
+\change_deleted -2100369821 1543938975
+ [REFs incl.
+ Huisman & Weissing, Chesson 1997, Li & Chesson etc.]
+\change_unchanged
+.
  Neutral theory, that in its most basic formulation assumes equal competitive
  abilities [REFs] and non-equilibrium coexistence sustained by immigration
- from a larger pool (but see [REF Volkov papers]) has been proposed as a
- solution to explain highly diverse communities [REFs Hubbell].
+ from a larger pool (but see 
+\change_inserted -2100369821 1543939464
+ref.
+ 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "volkov_neutral_2003,volkov_patterns_2007"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543939454
+[REF Volkov papers]
+\change_unchanged
+) has been proposed as a solution to explain highly diverse communities
+\change_inserted -2100369821 1543939867
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hubbell_unified_2001"
+literal "false"
+
+\end_inset
+
+ [More refs?]
+\change_deleted -2100369821 1543939869
+ [REFs Hubbell]
+\change_unchanged
+.
  However, the evidence gathered from plant communities starts to suggest
  that, in fact, niche rather than neutral processes may be paramount, with
- intraspecific competition dwarfing [check ENG] interspecific competition
- in most cases [REFs Adler 2010, 2018 paper].
+ intraspecific competition dwarfing 
+\change_deleted -2100369821 1543939917
+[check ENG] 
+\change_unchanged
+interspecific competition in most cases
+\change_inserted -2100369821 1543939933
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_coexistence_2010,adler_competition_2018"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543939938
+ [REFs Adler 2010, 2018 paper]
+\change_unchanged
+.
  Whether these conclusions apply to other systems is currently unknown.
  
 \end_layout
 
 \begin_layout Standard
 Moreover, the meta-analysis by Adler et al.
- [REF Adler 2018] reported a large number of facilitative interactions (30%)
- [I think, check] and reviews [Cooper review with R.
- Michalet and Biogeco team, some other review] have highlighted that in
- fact that facilitation may be much more widespread than ecologists usually
- tend to think.
+\change_inserted -2100369821 1543939947
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_competition_2018"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543939950
+ [REF Adler 2018]
+\change_unchanged
+ reported a large number of facilitative interactions (30%) [I think, check]
+ and reviews
+\change_inserted -2100369821 1543939975
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "brooker_facilitation_2008"
+literal "false"
+
+\end_inset
+
+ [More refs]
+\change_unchanged
+ 
+\change_deleted -2100369821 1543939980
+[Cooper review with R.
+ Michalet and Biogeco team, some other review] 
+\change_unchanged
+have highlighted that in fact that facilitation may be much more widespread
+ than ecologists usually tend to think.
  Although some theoretical studies suggest that facilitative interactions
  can be destabilizing (sensu resilience) and therefore undermine coexistence
- [REF Coyte 2015], many modelling studies [K.
- Gross Ecol Lett, more stuff] have suggested that facilitative interactions
- can to a large degree benefit coexistence.
+\change_inserted -2100369821 1543939990
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "coyte_ecology_2015"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543939993
+ [REF Coyte 2015]
+\change_unchanged
+, many modelling studies
+\change_inserted -2100369821 1543940014
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "gross_positive_2008"
+literal "false"
+
+\end_inset
+
+ [More refs]
+\change_deleted -2100369821 1543940016
+ [K.
+ Gross Ecol Lett, more stuff]
+\change_unchanged
+ have suggested that facilitative interactions can to a large degree benefit
+ coexistence.
  
 \end_layout
 
@@ -193,12 +321,39 @@ Results and discussion
 
 \begin_layout Standard
 Using MAR(1) autoregressive models, we have produced interaction matrices
- – Jacobian community matrices on the logarithmic scale [REF Ives 2003]
+ – Jacobian community matrices on the logarithmic scale
+\change_inserted -2100369821 1543940030
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ives_estimating_2003"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543940033
+ [REF Ives 2003]
+\change_unchanged
  – that have two main features.
  First, we observe a strong self-regulation for all sites (Fig.
  1, diagonal elements of all matrices), a feat that we have highlighted
  on a previous, more detailed analysis on one of the considered study sites
- only [Ref Barraquand Oikos].
+ only
+\change_inserted -2100369821 1543940041
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543940043
+ [Ref Barraquand Oikos]
+\change_unchanged
+.
  Second, although the percentage of facilitative interactions seem to vary
  among sites [insert percentages here], we have found that it is substantial
  for all sites: contrary to our initial expectations, commensalism (the
@@ -224,6 +379,10 @@ status open
 \begin_layout Plain Layout
 We have to decide how to call Arcachon, Britanny, ...
  perhaps regions are good? 
+\change_inserted -2100369821 1543940081
+Ok for me
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -260,7 +419,11 @@ More information than sign and the magnitude of interspecific / intergroup
  We investigated whether the matrix has some particular structure that could
  help theoretical ecology to make better null models of joint community
  dynamics and interactions [REF? There's this Am Nat paper by Alex Best
- I think on what's currently amiss with random matrix theory...].
+ I think on what's currently amiss with random matrix theory...]
+\change_inserted -2100369821 1543940096
+ [Not found]
+\change_unchanged
+.
  We defined two scores, vulnerability (summed effect of others on the focal
  species growth rate) and generality (summed effect of the focal species
  onto other species growth rates).
@@ -280,7 +443,7 @@ More information than sign and the magnitude of interspecific / intergroup
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Perhaps we have to dig a little more in the identity of those species there.
@@ -358,8 +521,21 @@ Intra/intergroup interaction strengths for MAR(1) studies.
 
 \begin_layout Standard
 This dominance of niche differentation is similar to what has been found
- in plant community studies [REFs Alder 2018, perhaps Volkov Nature 2007?],
- and might be due to the ghost of the competition past, i.e., selection and
+ in plant community studies
+\change_inserted -2100369821 1543940146
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "volkov_patterns_2007,adler_competition_2018"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543940150
+ [REFs Alder 2018, perhaps Volkov Nature 2007?]
+\change_unchanged
+, and might be due to the ghost of the competition past, i.e., selection and
  evolution leading to progressive niche separation.
  Species have evolved niches that allow them not to compete or to interact
  only weakly (very strong facilitative effects might be likewise destabilizing
@@ -370,7 +546,21 @@ This dominance of niche differentation is similar to what has been found
  conspecific density-dependence emerge [REFs], while switching generalists
  can also promote diversity [REFs, same from Oikos].
  Both predators and resources have often symmetrical effects and can contribute
- to niche differentation [REF to Chesson 2018 J Ecol]
+ to niche differentation
+\change_deleted -2100369821 1543940178
+ [REF to Chesson 2018 J Ecol]
+\change_inserted -2100369821 1543940178
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "chesson_updates_2018"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -382,13 +572,40 @@ ghost of competition
 \begin_inset Quotes erd
 \end_inset
 
- present [REF Tuck 2018], suggests that spatial patterns in relation to
- abiotic factors might have a large impact on the patterns inferred from
- interaction models.
+ present
+\change_deleted -2100369821 1543940188
+ [REF Tuck 2018]
+\change_inserted -2100369821 1543940188
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "tuck_strong_2018"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+, suggests that spatial patterns in relation to abiotic factors might have
+ a large impact on the patterns inferred from interaction models.
  Recent combinations of model fitting and removal experiments have shown
  that the model fitting usually underestimate the effect of competitors
- that are uncovered by removal experiments [Tuck 2018, Adler et al.
- 2018b].
+ that are uncovered by removal experiments
+\change_inserted -2100369821 1543940200
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_competition_2018,tuck_strong_2018"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543940204
+ [Tuck 2018, Adler et al.
+ 2018b]
+\change_unchanged
+.
  This could occur for instance if species are spatially segregated (at a
  small scale) because each species only exists within a domain where it
  is relatively competitive, while a focal species could spread out if competitor
@@ -399,9 +616,37 @@ s were removed.
  This would require some fine-scale segregation between phytoplankton species
  at the scale of interactions, i.e., at the microscale.
  At the moment, it is known that turbulence generates inhomogeneities at
- the microscale [REF Barton, new PNAS paper] but it is quite unclear how
- this affects multiple interacting species and which multivariate spatial
- patterns (sensu [REF Murrell & Law 2002]) could be expected.
+ the microscale
+\change_inserted -2100369821 1543940272
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barton_impact_2014,breier_emergence_2018"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543940275
+ [REF Barton, new PNAS paper]
+\change_unchanged
+ but it is quite unclear how this affects multiple interacting species and
+ which multivariate spatial patterns (
+\change_inserted -2100369821 1543940298
+as in ref.
+ 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "murrell_heteromyopia_2003"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1543940308
+sensu [REF Murrell & Law 2002]
+\change_unchanged
+) could be expected.
  Also, even if turbulence generates spatial structure with segregation between
  species, it is not quite clear that the 
 \begin_inset Quotes eld
@@ -479,13 +724,56 @@ We have previously published a very detailed analysis of one of the dataset
  This analysis revealed that the MAR(1) approach was satisfactory (no need
  for extra non-linearities to model the storage effect, which was found
  to be weak as in previous analyses of plant data for which strong-self
- regulation was observed [Adler et al.
+ regulation was observed
+\change_deleted -2100369821 1543940346
+ [Adler et al.
  2010, Ellner et al.
- 2016].
+ 2016]
+\change_inserted -2100369821 1543940343
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_coexistence_2010,ellner_how_2016"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+.
  We are therefore confident that the MAR(1) models presented here are appropriat
 e models; for ease of interpretation we also present the connexion between
  MAR(1) model coefficients and a Beverton-Holt model in SI XX [see also
- Certain et al.]
+ 
+\change_inserted -2100369821 1543940324
+ref.
+ 
+\change_deleted -2100369821 1543940331
+Certain et al.
+\change_inserted -2100369821 1543940331
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "certain_how_2018"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+]
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "phytoInteractions_ref"
+options "plainnat"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
