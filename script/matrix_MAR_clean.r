@@ -1,14 +1,18 @@
 #2018/09/07 CP 
 #I need a function that turns the fit_log$B format to a readily usable interaction matrix
 
-clean_matrix=function(cis, signif=FALSE){
+clean_matrix=function(cis, diag_bool=TRUE,signif=FALSE){
 	require('stringr')
                         sp=dimnames(cis$model$data)[[1]] #Studied species
                         var=dimnames(cis$call$model$c)[[1]] #Studied covariates
                         nom=dimnames(cis$par$B)[[1]] #Names of the interactions
                         #get the value from the MARSS object, according to the names of the coefficients
-                        B=diag(-1,length(sp),length(sp)) #I am heavily using the fact that we are using an unconstrained matrix
-                        for (n in 1:length(nom)){
+			if(diag_bool){
+                        	B=diag(-1,length(sp),length(sp))
+			}else{
+                        	B=matrix(0,nrow=length(sp),ncol=length(sp))
+			}
+			for (n in 1:length(nom)){
                                 if(grepl("^\\(",nom[n])){ #default when using unconstrained or diagonal, names are of the form (1,2) for (i,j)
                                         i=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][2])
                                         j=as.numeric(strsplit(nom[n],split="[\\(,\\)]")[[1]][3])

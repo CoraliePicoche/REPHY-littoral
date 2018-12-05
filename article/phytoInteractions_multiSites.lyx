@@ -52,8 +52,8 @@
 \cite_engine biblatex-natbib
 \cite_engine_type numerical
 \biblio_style plainnat
-\biblatex_bibstyle numeric
-\biblatex_citestyle numeric
+\biblatex_bibstyle trad-unsrt
+\biblatex_citestyle trad-unsrt
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -369,10 +369,57 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+
+\change_inserted -2100369821 1544006109
+\begin_inset Graphics
+	filename graphe/biotic_interaction_matrices_MainFig.pdf
+	lyxscale 50
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Interaction matrices for our multiple study regions and sites 
+Interaction matrices 
+\change_inserted -2100369821 1544028513
+in the 10 study sites, in 4 regions.
+\change_deleted -2100369821 1544025742
+for our multiple study regions and sites 
+\change_inserted -2100369821 1544025845
+ Only interactions between clades (pennate and centric diatoms, dinoflagellates,
+ other planktonic taxa) are allowed.
+ The figure should be read as taxon 
+\begin_inset Formula $i$
+\end_inset
+
+ having effect 
+\begin_inset Formula $e_{ji}$
+\end_inset
+
+ on taxon 
+\begin_inset Formula $j$
+\end_inset
+
+ .
+ 95% significance of coefficients was determined by bootstrapping and is
+ marked by asterisks (*).
+ The percentage of interactions keeping the same sign in each site for a
+ given region is indicated in the legend.
+ The identity matrix was subtracted to the interaction matrix 
+\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\end_inset
+
+ in order to make effects on growth rates comparable.
+ Composition of planktonic groups is given in the Supplementary Information.
+ 
+\change_unchanged
+
 \begin_inset Note Note
 status open
 
@@ -405,12 +452,129 @@ We then asked whether the stability (resilience) of those matrices was affected
  by the percentage of mutualistic interactions or their connectivity properties
  (Fig.
  2).
- Neither the percentage of mutualistic interactions nor the complexity metrics
+ 
+\change_deleted -2100369821 1544027657
+Neither the percentage of mutualistic interactions nor the complexity metrics
  did strongly affect the stability properties, although there was perhaps
  a slight decline with the percentage of mutualistic interactions (but it
  may be simply due to an unbalance in this percentage, usually high, in
  the datasets).
+\change_inserted -2100369821 1544027669
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544027705
+On the contrary, if we're looking at B, not B-I, the number of positive
+ interactions increase the stability of the matrix ; while stability decreases
+ with connectance.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
  
+\change_inserted -2100369821 1544023008
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544023015
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\change_inserted -2100369821 1544023052
+\begin_inset Graphics
+	filename graphe/complexity_stability_MainFig_pencenjustB.pdf
+	width 99text%
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544023015
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544028560
+Stability (maximum eigen value of the community matrix 
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544028098
+WARNING: This is B.
+ The figure for B-I is also available in the same folder, but I think this
+ was a mistake, Ives does compute stability on B
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ as a function of network metrics in the 10 study sites.
+ Each color corresponds to a given region.
+ Metrics formula are given in the Methods.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544027742
+Do not forget to say that we're taking the absolute values of the coefficients
+ for the last two metrics
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_deleted -2100369821 1544023070
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544023069
+
 \end_layout
 
 \begin_layout Standard
@@ -439,6 +603,59 @@ More information than sign and the magnitude of interspecific / intergroup
  matrix: many scenarios of self-regulation vs limitation by others are therefore
  possible.
  
+\change_inserted -2100369821 1544023075
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544023076
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\change_inserted -2100369821 1544023076
+\begin_inset Graphics
+	filename graphe/pencen_generality_vs_vulnerability_MainFig.pdf
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544023076
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544028544
+Average vulnerability (a-b) and generality (c-d), computed on raw values
+ (a-c) or absolute values (b-d) of the community matrix coefficients for
+ 10 different sites, as a function of self-regulation, for a pennate-centric
+ interaction matrix, ignoring the coefficients which were forced to 0 in
+ the estimation process.
+ Each color corresponds to a given region.
+ The p-value of the Pearson correlation between vulnerability (respectively
+ generality) and self-regulation is given in the top left of each panel.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -717,10 +934,38 @@ Methods
 
 \begin_layout Standard
 We have previously published a very detailed analysis of one of the dataset
- (Arcachon) for which more covariables were available [REF Oikos].
+ (Arcachon) for which more covariables were available
+\change_deleted -2100369821 1543940359
+ [REF Oikos]
+\change_inserted -2100369821 1543940359
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+.
  The analysis of real data was complemented by that of simulated data for
  a plankton time series set-up and confirmed the ability of the technique
- to infer biotic interactions and abiotic forcing [REF Oikos].
+ to infer biotic interactions and abiotic forcing
+\change_deleted -2100369821 1543940371
+ [REF Oikos]
+\change_inserted -2100369821 1543940371
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+.
  This analysis revealed that the MAR(1) approach was satisfactory (no need
  for extra non-linearities to model the storage effect, which was found
  to be weak as in previous analyses of plant data for which strong-self
