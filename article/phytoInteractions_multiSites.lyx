@@ -371,9 +371,9 @@ status open
 \begin_layout Plain Layout
 \align center
 
-\change_inserted -2100369821 1544006109
+\change_inserted -2100369821 1544114120
 \begin_inset Graphics
-	filename graphe/biotic_interaction_matrices_MainFig.pdf
+	filename graphe/biotic_interaction_matrices_MainFig_allin1.pdf
 	lyxscale 50
 	width 99text%
 
@@ -391,8 +391,8 @@ Interaction matrices
 in the 10 study sites, in 4 regions.
 \change_deleted -2100369821 1544025742
 for our multiple study regions and sites 
-\change_inserted -2100369821 1544025845
- Only interactions between clades (pennate and centric diatoms, dinoflagellates,
+\change_inserted -2100369821 1544114388
+ Only interactions within clades (pennate and centric diatoms, dinoflagellates,
  other planktonic taxa) are allowed.
  The figure should be read as taxon 
 \begin_inset Formula $i$
@@ -406,7 +406,9 @@ for our multiple study regions and sites
 \begin_inset Formula $j$
 \end_inset
 
- .
+.
+ The scale for the coefficient values is given at the bottom left of panel
+ a).
  95% significance of coefficients was determined by bootstrapping and is
  marked by asterisks (*).
  The percentage of interactions keeping the same sign in each site for a
@@ -448,6 +450,94 @@ Ok for me
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -2100369821 1544114050
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\change_inserted -2100369821 1544114050
+\begin_inset Graphics
+	filename graphe/biotic_interaction_matrices_MainFig_allin1_v2.pdf
+	lyxscale 50
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544114050
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544114563
+Interaction matrices estimated in Brittany (a) and in Marennes-Oléron (b).
+ Only interactions between clades (pennate and centric diatoms, dinoflagellates,
+ other planktonic taxa) are allowed.
+ The figure should be read as taxon 
+\begin_inset Formula $i$
+\end_inset
+
+ having effect 
+\begin_inset Formula $e_{ji}$
+\end_inset
+
+ on taxon 
+\begin_inset Formula $j$
+\end_inset
+
+.
+ The scale for the coefficient values is given at the bottom left of panel
+ a).
+ 95% significance of coefficients was determined by bootstrapping and is
+ marked by asterisks (*).
+ Other estimates for the 4 sites in Arcachon and the Mediterranean Sea can
+ be found in the Supplementary Information.
+ The identity matrix was subtracted to the interaction matrix 
+\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\end_inset
+
+ in order to make effects on growth rates comparable.
+ Composition of planktonic groups is given in the Supplementary Information.
+ The ratio of positive interaction in each matrix is given by points in
+ c) while the dashed (respectively, dotted) line represents to ratio of
+ interactions remaining positive (respectively, negative) in all sites of
+ a given region.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544114050
+We have to decide how to call Arcachon, Britanny, ...
+ perhaps regions are good? Ok for me
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We then asked whether the stability (resilience) of those matrices was affected
  by the percentage of mutualistic interactions or their connectivity properties
  (Fig.
@@ -459,23 +549,6 @@ Neither the percentage of mutualistic interactions nor the complexity metrics
  a slight decline with the percentage of mutualistic interactions (but it
  may be simply due to an unbalance in this percentage, usually high, in
  the datasets).
-\change_inserted -2100369821 1544027669
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1544027705
-On the contrary, if we're looking at B, not B-I, the number of positive
- interactions increase the stability of the matrix ; while stability decreases
- with connectance.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
 
 \change_unchanged
  
@@ -514,27 +587,11 @@ status open
 \begin_layout Plain Layout
 
 \change_inserted -2100369821 1544028560
-Stability (maximum eigen value of the community matrix 
+Stability (maximum eigenvalue of the community matrix 
 \begin_inset Formula $\mathbf{B}$
 \end_inset
 
-)
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1544028098
-WARNING: This is B.
- The figure for B-I is also available in the same folder, but I think this
- was a mistake, Ives does compute stability on B
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
- as a function of network metrics in the 10 study sites.
+) as a function of network metrics in the 10 study sites.
  Each color corresponds to a given region.
  Metrics formula are given in the Methods.
  
@@ -582,10 +639,20 @@ More information than sign and the magnitude of interspecific / intergroup
  interactions can be gathered from interaction matrices.
  We investigated whether the matrix has some particular structure that could
  help theoretical ecology to make better null models of joint community
- dynamics and interactions [REF? There's this Am Nat paper by Alex Best
- I think on what's currently amiss with random matrix theory...]
-\change_inserted -2100369821 1543940096
- [Not found]
+ dynamics and interactions
+\change_inserted -2100369821 1544092027
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "james_constructing_2015"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1544092038
+ [REF? There's this Am Nat paper by Alex Best I think on what's currently
+ amiss with random matrix theory...]
 \change_unchanged
 .
  We defined two scores, vulnerability (summed effect of others on the focal
@@ -812,7 +879,7 @@ literal "false"
 
 \begin_inset CommandInset citation
 LatexCommand supercite
-key "adler_competition_2018,tuck_strong_2018"
+key "tuck_strong_2018,adler_weak_2018"
 literal "false"
 
 \end_inset

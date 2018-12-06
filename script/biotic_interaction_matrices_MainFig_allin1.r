@@ -26,9 +26,9 @@ let=c("a)","b)","c)","d)")
 option_sp="common"
 common_scale=TRUE
 
-pdf("article/graphe/biotic_interaction_matrices_MainFig.pdf",height=26,width=29)
-par(mar=c(6.0,6.25,5,0.25),oma=c(2.5,2.5,2.5,0.5))
-layout(matrix(c(1,1,1,2,3,3,3,4,5,5,5,6,7,7,7,8),2,8,byrow=TRUE))
+pdf("article/graphe/biotic_interaction_matrices_MainFig_allin1.pdf",height=30,width=29)
+par(mar=c(7.0,6.,7,3),oma=c(2.5,2.5,1.,0.5),mfrow=c(2,2))
+#layout(matrix(c(1,1,1,2,3,3,3,4,5,5,5,6,7,7,7,8),2,8,byrow=TRUE))
 color=c("black","blue","red")
 for (gg in 1:length(groupe)){
 	g=groupe[gg]
@@ -75,11 +75,11 @@ for (gg in 1:length(groupe)){
 			grad_sp=seq(1,14,length.out=length(sp))
                         abline(h=14-grad_sp[delim]+1.5,lty=4,col="grey",lwd=4)
 			if(gg==1){
-			rect(13.,12,13.+2*pm,12+fact,col="blue")
-			text(13.+5*pm,12+fact,"1",cex=2.75)
-			text(13.+5*pm,12,"0",cex=2.75)
-			text(13.+7*pm,12+fact*.5,"0.5",cex=2.75)
-			text(13.+13*pm,12+fact*.45,expression("b"["ij"]),cex=3.05)#,srt=90)
+			rect(1,1,1.+2*pm,1+fact,col="blue")
+			text(1+5*pm,1+fact,"1",cex=3.0)
+			text(1+5*pm,1,"0",cex=3.0)
+			text(1.+7*pm,1+fact*.5,"0.5",cex=3.0)
+			text(1.+13*pm,1+fact*.45,expression("b"["ij"]),cex=3.5)#,srt=90)
 			}
 			}else{
                         plot(0,0,t='n',xlim=c(0.75,(length(sp)+0.25)),ylim=c(0.5,length(sp)+0.10),yaxt="n",xaxt="n",xlab="",ylab="",main=groupe_nice[gg],cex.main=4.5)
@@ -91,7 +91,7 @@ for (gg in 1:length(groupe)){
                         text(length(sp)-1+5*pm,length(sp)-2+fact*.5,"0.5",cex=1.8)
                         text(length(sp)-1+10*pm,length(sp)-2+fact*.45,expression("b"["ij"]),cex=2.25)#,srt=90)
                		}
-			mtext(let[gg],side=3,cex=3.0,xpd=NA,font=2,line=1,adj=0)
+			mtext(let[gg],side=3,cex=3.0,xpd=NA,font=2,line=2.0,adj=0)
 	                axis(2,at=grad_sp,lab=rev(sp),cex.axis=fac_axis+1,las=2)
                         axis(1,at=grad_sp,lab=c(sp),cex.axis=fac_axis+1,las=2)
                         for (i in 1:length(sp)){
@@ -173,7 +173,7 @@ for (gg in 1:length(groupe)){
         }
         if(!is.na(cis$par.se$B[n])){
                 if(cis$par.upCI$B[n]*cis$par.lowCI$B[n]>0){ #If upper and lower values of the confidence intervals have the same sign, the coefficient is deemed significant
-                        points(grad_sp[j]+xshift,baseline+maxi+ab,pch='*',cex=acex,col=colo)
+                        points(grad_sp[j]+xshift,baseline+maxi+ab,pch='*',cex=acex+1,col=colo)
                 }
         }
          }
@@ -183,8 +183,8 @@ for (gg in 1:length(groupe)){
         val_pos=sum(a==length(option_lieu))
         val_neg=sum(a==0)
 #        mtext(paste(format(val_pos/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'com. inter. >0 /',format(val_neg/nb_par_tot_inter,digits=2,nsmall=2,trim=TRUE),'com. inter. <0',sep=" "),side=1,line=-2,outer=TRUE,cex=2)
-        plot(0,0,t="n",bty="n",xaxt="n",yaxt="n",ylab="",xlab="")
-        legend(-2.05,.5,c(option_lieu,paste(format(val_pos/nb_par_tot_inter*100,digits=2,nsmall=0,trim=TRUE),'%>0',sep=""),paste(format(val_neg/nb_par_tot_inter*100,digits=2,nsmall=0,trim=TRUE),'%<0',sep="")),fill=c(color[1:ll],NA,NA),bty="n",cex=4.25,border=NA,xpd=NA)
+#        plot(0,0,t="n",bty="n",xaxt="n",yaxt="n",ylab="",xlab="")
+        legend("topright",c(option_lieu,paste(format(val_pos/nb_par_tot_inter*100,digits=2,nsmall=0,trim=TRUE),'%>0',sep=""),paste(format(val_neg/nb_par_tot_inter*100,digits=2,nsmall=0,trim=TRUE),'%<0',sep="")),fill=c(color[1:ll],NA,NA),bg="white",cex=3.5,border=NA,xpd=NA,bty="n")
 
 }
 dev.off()

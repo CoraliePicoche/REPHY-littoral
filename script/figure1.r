@@ -20,7 +20,7 @@ option_lieu=c("Men er Roue","Loscolo","Croisic","LEperon","Cornard","Auger","Tey
 #colo=rainbow(length(option_model)*length(option_NEI)-1)
 #colo=palette()
 colo=c("#000000", "#009E73", "#e79f00", "#9ad0f3")
-pdf(paste("Rapport/graphe/MAR_estimates/COMMON/with_AR/comp_",criterium,"_per_site.pdf",sep=""),width=17,family="Helvetica")
+pdf(paste("article/graphe/comp_",criterium,"_per_site.pdf",sep=""),width=17)
 par(mar=c(3,6,1,1))
 plot(0,0,xlim=c(0,length(option_lieu)*10-5),ylim=c(yli1,yli2),t="n",xlab="",ylab=bquote(paste(Delta,.(criterium),"=",.(criterium),"-",.(criterium)[0],sep="")),xaxt="n",lwd=2.5,cex.lab=2.25,cex.axis=2.25,cex=2.5)
 axis(1,at=seq(2,length(option_lieu)*10,10),lab=option_lieu,cex=2.25,cex.axis=1.65)
