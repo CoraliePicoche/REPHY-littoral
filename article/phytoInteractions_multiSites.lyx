@@ -988,15 +988,160 @@ A final possibility relates to stage structure.
 
 \begin_layout Section*
 Methods
+\change_inserted -2100369821 1544366967
+
+\end_layout
+
+\begin_layout Subsection*
+
+\change_inserted -2100369821 1544367150
+Data collection
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -2100369821 1544370386
+All data were collected as part of the National Phytoplankton and Phycotoxin
+ Monitoring Network (REPHY
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "REPHY_db"
+literal "false"
+
+\end_inset
+
+).
+ In this network, sites along the French coastline are sampled every 2 weeks
+ within 2 hours of high tide since 1987 to determine both biotic (phytoplankton
+ counts) and abiotic (water temperature, salinity) parameters.
+ Phytoplankton cells above 20 
+\begin_inset Formula $\mu$
+\end_inset
+
+m are identified and counted with the Utermöhl method
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "utermohl_zur_1958"
+literal "false"
+
+\end_inset
+
+ using an optical microscope.
+ We chose 10 sites in 4 regions (Brittany, Marennes-Oléron, Arcachon and
+ the Mediterranean Sea, a map is shown in the Supplementary Information)
+ based on the length and completeness of the time series and restrained
+ our analyses to the years after 1995 based on the identification accuracy
+ and homogeneity.
+ Throughout the years, more than 600 taxa were identified at different taxonomic
+ levels, which we aggregated at the genus level
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hernandez_farinas_assessing_2015"
+literal "false"
+
+\end_inset
+
+.
+ For each region, we focused on the most abundant and most frequently observed
+ species to avoid most of the gaps in the time series and the remaining
+ missing values were interpolated
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hampton_coalescence_2006"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\change_inserted -2100369821 1544370403
+MAR(1) model
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544371655
+Multivariate autoregressive (MAR) models are often used to determine the
+ interspecific interactions and abiotic parameters shaping a community.
+ They are based on a stochastic, discrete-time Gompertz model.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544370829
+\begin_inset Formula 
+\[
+\mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544372341
+where 
+\begin_inset Formula $\mathbf{n}_{\ensuremath{t}}$
+\end_inset
+
+is the 1xS log abundance vector of abundance of S groups of species, 
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+ is the SxS community (interaction matrix), 
+\begin_inset Formula $\mathbf{C}$
+\end_inset
+
+ is the SxV environment matrix describing the effects of V variables 
+\begin_inset Formula $\mathbf{u}_{t+1}$
+\end_inset
+
+ on species growth, and 
+\begin_inset Formula $\mathbf{e}_{t}$
+\end_inset
+
+ is a noise vector which covers both process and observation error, following
+ a multivariate normal distribution with a variance-covariance matrix 
+\begin_inset Formula $\mathbf{Q}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -2100369821 1544372355
 [Insert here a detailed description of the MAR(1) approach, a little bit
  as we did in the Oikos paper, but perhaps a little more self-contained].
- In general, MAR(1) models tend to be fairly robust to small deviations
- of the underlying data-generating model, provided that one asks mainly
- order of magnitude of coefficients values (rather than very precise estimates)
- and sign of interaction coefficients [REF Certain]
+ 
+\change_unchanged
+In general, MAR(1) models tend to be fairly robust to small deviations of
+ the underlying data-generating model, provided that one asks mainly order
+ of magnitude of coefficients values (rather than very precise estimates)
+ and sign of interaction coefficients
+\change_deleted -2100369821 1544372365
+ [REF Certain]
+\change_inserted -2100369821 1544372367
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "certain_how_2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\change_deleted -2100369821 1544372376
+
 \end_layout
 
 \begin_layout Standard
@@ -1055,8 +1200,25 @@ literal "false"
 .
  We are therefore confident that the MAR(1) models presented here are appropriat
 e models; for ease of interpretation we also present the connexion between
- MAR(1) model coefficients and a Beverton-Holt model in SI XX [see also
- 
+ MAR(1) model coefficients and a Beverton-Holt model in SI XX
+\change_inserted -2100369821 1544372412
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544372418
+Will we really?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ [see also 
 \change_inserted -2100369821 1543940324
 ref.
  
@@ -1074,6 +1236,14 @@ literal "false"
 
 \change_unchanged
 ]
+\change_inserted -2100369821 1544367119
+
+\end_layout
+
+\begin_layout Subsection*
+
+\change_inserted -2100369821 1544367119
+Interaction matrix analysis
 \end_layout
 
 \begin_layout Standard

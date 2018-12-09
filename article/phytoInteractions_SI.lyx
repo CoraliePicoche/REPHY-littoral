@@ -929,6 +929,64 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
+	filename graphe/abiotic_second_try.pdf
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Effect of abiotic variables (temperature, TEMP or salinity, SAL) on phytoplankto
+n group in Brittany (a, b), Oléron (c, d), Arcachon (e, f) and in the Mediterran
+ean Sea (g, h).
+ Each color corresponds to a different site.
+ Error bar corresponds to the 95% confidence interval around the estimated
+ coefficient.
+ All variables were normalized before estimation.
+  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Should we keep the same ylimit, or have different limits for TEMP and SAL?
+ As they are normalized, comparing them does make sense, but maybe that's
+ less clear on the figure.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
 	filename graphe/moy_vs_var_for_all_interactions_pencen_SI.pdf
 	width 99text%
 
