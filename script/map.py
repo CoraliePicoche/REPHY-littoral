@@ -38,13 +38,14 @@ fig=plt.figure(figsize=(10,5))
 #ax1=fig.add_subplot(221)
 ax1 = plt.subplot2grid((2,2), (0,0), colspan=1,rowspan=1) #Map
 plt.annotate("A",xy=(.025,.875), xycoords='axes fraction',weight="bold")
-m_BZ.drawcoastlines(color ='k', linewidth =0.5)
-#m_BZ.drawparallels(np.arange(floor(min_lat),ceil(max_lat),.25))
-#m_BZ.drawmeridians(np.arange(floor(min_lon),ceil(max_lon),.25))
+m_BZ.drawcoastlines(color ='k', linewidth =0.2)
+m_BZ.fillcontinents(color='lightgrey')
+m_BZ.drawparallels(np.arange(floor(min_lat),ceil(max_lat),.5),labels=[1,0,0,0])
+m_BZ.drawmeridians(np.arange(floor(min_lon),ceil(max_lon),.5),labels=[0,0,1,0])
 for i in range(0,len(name_site)):
         xtmp,ytmp=m_BZ(lon_site[i],lat_site[i])
         m_BZ.plot(xtmp,ytmp,'ko')
-        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='bottom')
+        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='top')
 
 #MO
 min_lat=45.7
@@ -56,11 +57,14 @@ m_MO=Basemap(llcrnrlon=min_lon,llcrnrlat=min_lat,urcrnrlon=max_lon,urcrnrlat=max
 #ax2=fig.add_subplot(222)
 ax2 = plt.subplot2grid((2,2), (0,1), colspan=1,rowspan=1) #Map
 plt.annotate("B",xy=(.025,.875), xycoords='axes fraction',weight="bold")
-m_MO.drawcoastlines(color ='k', linewidth =0.5)
+m_MO.drawcoastlines(color ='k', linewidth =0.2)
+m_MO.fillcontinents(color='lightgrey')
+m_MO.drawparallels(np.arange(floor(min_lat),ceil(max_lat),.5),labels=[0,1,0,0])
+m_MO.drawmeridians(np.arange(floor(min_lon),ceil(max_lon),.5),labels=[0,0,1,0])
 for i in range(0,len(name_site)):
         xtmp,ytmp=m_MO(lon_site[i],lat_site[i])
         m_MO.plot(xtmp,ytmp,'ko')
-        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='bottom')
+        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='top')
 
 #AR
 min_lat=44.25
@@ -72,11 +76,14 @@ m_AR=Basemap(llcrnrlon=min_lon,llcrnrlat=min_lat,urcrnrlon=max_lon,urcrnrlat=max
 #ax3=fig.add_subplot(223)
 ax3 = plt.subplot2grid((2,2), (1,0), colspan=1,rowspan=1) #Map
 plt.annotate("C",xy=(.025,.875), xycoords='axes fraction',weight="bold")
-m_AR.drawcoastlines(color ='k', linewidth =0.5)
+m_AR.drawcoastlines(color ='k', linewidth =0.2)
+m_AR.fillcontinents(color='lightgrey')
+m_AR.drawparallels(np.arange(floor(min_lat),ceil(max_lat),.5),labels=[1,0,0,0])
+m_AR.drawmeridians(np.arange(floor(min_lon),ceil(max_lon),.5),labels=[0,0,0,1])
 for i in range(0,len(name_site)):
         xtmp,ytmp=m_AR(lon_site[i],lat_site[i])
         m_AR.plot(xtmp,ytmp,'ko')
-        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='bottom')
+        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='top')
 
 
 #SU
@@ -90,22 +97,24 @@ m_SU=Basemap(llcrnrlon=min_lon,llcrnrlat=min_lat,urcrnrlon=max_lon,urcrnrlat=max
 #ax4=fig.add_subplot(2,2,4)
 ax4 = plt.subplot2grid((2,2), (1,1), colspan=1,rowspan=1) #Map
 plt.annotate("D",xy=(.025,.875), xycoords='axes fraction',weight="bold")
-m_SU.drawcoastlines(color ='k', linewidth =0.5)
+m_SU.drawcoastlines(color ='k', linewidth =0.2)
+m_SU.fillcontinents(color='lightgrey')
+m_SU.drawparallels(np.arange(floor(min_lat),ceil(max_lat),.5),labels=[0,1,0,0])
+m_SU.drawmeridians(np.arange(floor(min_lon),ceil(max_lon),.5),labels=[0,0,0,1])
 for i in range(0,len(name_site)):
       	xtmp,ytmp=m_SU(lon_site[i],lat_site[i])
         m_SU.plot(xtmp,ytmp,'ko')
-        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='bottom')
+        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',horizontalalignment='center',verticalalignment='top')
 #m_SU.llcrnrlon = min_lon
 #m_SU.urcrnrlon = max_lon
 #m_SU.llcrnrlat = min_lat
 #m_SU.urcrnrlat = max_lat
 m_SU.ax = ax4
-#For Now, this is BS
-plt.annotate("BS 1 km",xy=(min_lon+0.05,min_lat+0.05),xytext=(min_lon+0.05+0.1,min_lat+0.05),arrowprops=dict(arrowstyle="-"))
+#This code is not so nice, this is only a proxy
+plt.annotate("10 km",xy=(min_lon+0.05,min_lat+0.05),xytext=(4.873935,42.985),arrowprops=dict(arrowstyle="-"))
 
-
-plt.subplots_adjust(wspace=0, hspace=0.1)
-fig.tight_layout()
+plt.subplots_adjust(left=0.05,bottom=0.08,right=0.95,top=0.92,wspace=0, hspace=0.1)
+#fig.tight_layout()
 
 axin = inset_axes(m_SU.ax, width="50%", height="50%", loc=1)
         # Global inset map.
@@ -141,4 +150,4 @@ for i in range(0,len(name_site)):
         xtmp,ytmp=inmap(lon_site[i],lat_site[i])
         inmap.plot(xtmp,ytmp,'ko',markersize=1.5)
 
-plt.savefig('contour_map.pdf')
+plt.savefig('article/graphe/placing_points.pdf')#,bbox_inches="tight")
