@@ -437,6 +437,17 @@ Ok for me
 \end_inset
 
 
+\change_inserted -2100369821 1544451478
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Interaction-matrices"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -478,7 +489,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544114563
+\change_inserted -2100369821 1544451488
 Interaction matrices estimated in Brittany (a) and in Marennes-Oléron (b).
  Only interactions between clades (pennate and centric diatoms, dinoflagellates,
  other planktonic taxa) are allowed.
@@ -521,6 +532,13 @@ status open
 We have to decide how to call Arcachon, Britanny, ...
  perhaps regions are good? Ok for me
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Interaction-matrices-v2"
 
 \end_inset
 
@@ -586,7 +604,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544028560
+\change_inserted -2100369821 1544451506
 Stability (maximum eigenvalue of the community matrix 
 \begin_inset Formula $\mathbf{B}$
 \end_inset
@@ -594,22 +612,27 @@ Stability (maximum eigenvalue of the community matrix
 ) as a function of network metrics in the 10 study sites.
  Each color corresponds to a given region.
  Metrics formula are given in the Methods.
- 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544027742
-Do not forget to say that we're taking the absolute values of the coefficients
- for the last two metrics
+\change_inserted -2100369821 1544448994
+Or are they? 'Cause they are pretty big, and already well described
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
- 
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stability-community"
+
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
@@ -680,7 +703,7 @@ literal "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -790,6 +813,16 @@ status open
 
 \begin_layout Plain Layout
 Intra/intergroup interaction strengths for MAR(1) studies.
+\change_inserted -2100369821 1544451519
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:meta_ratio"
+
+\end_inset
+
+
+\change_unchanged
  
 \end_layout
 
@@ -988,8 +1021,40 @@ A final possibility relates to stage structure.
 
 \begin_layout Section*
 Methods
-\change_inserted -2100369821 1544366967
+\change_inserted -2100369821 1544451405
 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1544451467
+Only 1000 words for this awkward, badly written, draft: we can still triple
+ the length
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544434433
+The methods used in this study have previously been applied at a smaller
+ (regional) scale and have been described extensively in ref.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+ and Appendices.
+ Here, we give a summary of these methods and refer readers to the previous
+ study for further details and justification.
 \end_layout
 
 \begin_layout Subsection*
@@ -1000,7 +1065,7 @@ Data collection
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1544370386
+\change_inserted -2100369821 1544434649
 All data were collected as part of the National Phytoplankton and Phycotoxin
  Monitoring Network (REPHY
 \begin_inset CommandInset citation
@@ -1010,15 +1075,12 @@ literal "false"
 
 \end_inset
 
-).
- In this network, sites along the French coastline are sampled every 2 weeks
- within 2 hours of high tide since 1987 to determine both biotic (phytoplankton
- counts) and abiotic (water temperature, salinity) parameters.
- Phytoplankton cells above 20 
-\begin_inset Formula $\mu$
-\end_inset
-
-m are identified and counted with the Utermöhl method
+).This monitoring program requires sites along the French coastline to be
+ sampled every 2 weeks within 2 hours of high tide since 1987 to determine
+ both biotic (phytoplankton counts) and abiotic (water temperature, salinity)
+ parameters.
+ Phytoplankton cells above 20 μm were identified as precisely as possible
+ and counted with the Utermöhl method
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "utermohl_zur_1958"
@@ -1027,13 +1089,10 @@ literal "false"
 \end_inset
 
  using an optical microscope.
- We chose 10 sites in 4 regions (Brittany, Marennes-Oléron, Arcachon and
- the Mediterranean Sea, a map is shown in the Supplementary Information)
- based on the length and completeness of the time series and restrained
- our analyses to the years after 1995 based on the identification accuracy
- and homogeneity.
  Throughout the years, more than 600 taxa were identified at different taxonomic
- levels, which we aggregated at the genus level
+ levels.
+ We aggregated them at the genus, or group of genera, level based on previous
+ work
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hernandez_farinas_assessing_2015"
@@ -1041,10 +1100,27 @@ literal "false"
 
 \end_inset
 
-.
+, except for cryptophytes and euglenophytes in Arcachon, which could not
+ be identified below the family level.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544434884
+The completeness of the time series depended on the accessibility of each
+ study site.We selected 10 sites in 4 regions (Brittany, Marennes-Oléron,
+ Arcachon and the Mediterranean Sea, a map is shown in the Supplementary
+ Information) based on their compliance with the sampling design.
+ For each species, the frequency of observations depended on local commonness
+ and identification difficulty.
  For each region, we focused on the most abundant and most frequently observed
- species to avoid most of the gaps in the time series and the remaining
- missing values were interpolated
+ species and we chose to restrain our analyses to the years after 1995,
+ in which an important taxonomy training took place.
+ When gaps did not exceed a month, missing values were lineraly interpolated
+ and remaining missing values were replaced by a random number between 0
+ and half of the lowest observed abundance 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hampton_coalescence_2006"
@@ -1064,10 +1140,32 @@ MAR(1) model
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1544371655
+\change_inserted -2100369821 1544435454
 Multivariate autoregressive (MAR) models are often used to determine the
- interspecific interactions and abiotic parameters shaping a community.
- They are based on a stochastic, discrete-time Gompertz model.
+ interspecific interactions and abiotic parameters shaping a community
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ives_estimating_2003"
+literal "false"
+
+\end_inset
+
+.
+ They are based on a stochastic, discrete-time Gompertz model which relates
+ log-abundance of S species at time t+1 to interactions with the rest of
+ the community at time t, and effects of V abiotic variables at time t+1,
+ following eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:MAR"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1075,9 +1173,9 @@ Multivariate autoregressive (MAR) models are often used to determine the
 
 \change_inserted -2100369821 1544370829
 \begin_inset Formula 
-\[
-\mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})
-\]
+\begin{equation}
+\mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})\label{eq:MAR}
+\end{equation}
 
 \end_inset
 
@@ -1086,16 +1184,16 @@ Multivariate autoregressive (MAR) models are often used to determine the
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1544372341
+\change_inserted -2100369821 1544447725
 where 
 \begin_inset Formula $\mathbf{n}_{\ensuremath{t}}$
 \end_inset
 
-is the 1xS log abundance vector of abundance of S groups of species, 
+ is the 1xS log abundance vector of abundance of phytoplankton groups, 
 \begin_inset Formula $\mathbf{B}$
 \end_inset
 
- is the SxS community (interaction matrix), 
+ is the SxS community (interaction) matrix, 
 \begin_inset Formula $\mathbf{C}$
 \end_inset
 
@@ -1107,50 +1205,19 @@ is the 1xS log abundance vector of abundance of S groups of species,
 \begin_inset Formula $\mathbf{e}_{t}$
 \end_inset
 
- is a noise vector which covers both process and observation error, following
- a multivariate normal distribution with a variance-covariance matrix 
+ is a 1xS noise vector which covers both process and observation error,
+ following a multivariate normal distribution with a variance-covariance
+ matrix 
 \begin_inset Formula $\mathbf{Q}$
 \end_inset
 
 .
  
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -2100369821 1544372355
-[Insert here a detailed description of the MAR(1) approach, a little bit
- as we did in the Oikos paper, but perhaps a little more self-contained].
- 
-\change_unchanged
-In general, MAR(1) models tend to be fairly robust to small deviations of
- the underlying data-generating model, provided that one asks mainly order
- of magnitude of coefficients values (rather than very precise estimates)
- and sign of interaction coefficients
-\change_deleted -2100369821 1544372365
- [REF Certain]
-\change_inserted -2100369821 1544372367
-
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "certain_how_2018"
-literal "false"
-
+\begin_inset Formula $\mathbf{Q}$
 \end_inset
 
-.
- 
-\change_deleted -2100369821 1544372376
-
-\end_layout
-
-\begin_layout Standard
-We have previously published a very detailed analysis of one of the dataset
- (Arcachon) for which more covariables were available
-\change_deleted -2100369821 1543940359
- [REF Oikos]
-\change_inserted -2100369821 1543940359
-
+ is diagonal and we have previously showed that this parsimonious choice
+ did not affect qualitative results
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -1158,7 +1225,57 @@ literal "false"
 
 \end_inset
 
+.
+ 
+\end_layout
 
+\begin_layout Standard
+
+\change_inserted -2100369821 1544448560
+We used the MARSS package
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "holmes_analysis_2014"
+literal "false"
+
+\end_inset
+
+, in R, to estimate parameters with a previously described maximum likelihood
+ procedure
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -2100369821 1544372376
+[Insert here a detailed description of the MAR(1) approach, a little bit
+ as we did in the Oikos paper, but perhaps a little more self-contained].
+ 
+\change_inserted -2100369821 1544431941
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -2100369821 1544435901
+In general, MAR(1) models tend to be fairly robust to small deviations of
+ the underlying data-generating model, provided that one asks mainly order
+ of magnitude of coefficients values (rather than very precise estimates)
+ and sign of interaction coefficients [REF Certain]
+\end_layout
+
+\begin_layout Standard
+We have previously published a very detailed analysis of one of the dataset
+ (Arcachon)
+\change_deleted -2100369821 1544435972
+ for which more covariables were available [REF Oikos]
 \change_unchanged
 .
  The analysis of real data was complemented by that of simulated data for
@@ -1178,15 +1295,18 @@ literal "false"
 
 \change_unchanged
 .
- This analysis revealed that the MAR(1) approach was satisfactory (no need
- for extra non-linearities to model the storage effect, which was found
- to be weak as in previous analyses of plant data for which strong-self
+ This analysis revealed that the MAR(1) approach was satisfactory (
+\change_inserted -2100369821 1544435996
+i.e., 
+\change_unchanged
+no need for extra non-linearities to model the storage effect, which was
+ found to be weak as in previous analyses of plant data for which strong-self
  regulation was observed
 \change_deleted -2100369821 1543940346
  [Adler et al.
  2010, Ellner et al.
  2016]
-\change_inserted -2100369821 1543940343
+\change_inserted -2100369821 1544435993
 
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1195,20 +1315,43 @@ literal "false"
 
 \end_inset
 
-
+)
 \change_unchanged
 .
  We are therefore confident that the MAR(1) models presented here are appropriat
-e models; for ease of interpretation we also present the connexion between
- MAR(1) model coefficients and a Beverton-Holt model in SI XX
-\change_inserted -2100369821 1544372412
+e models
+\change_inserted -2100369821 1544435913
+.
+ In general, MAR(1) models tend to be fairly robust to small deviations
+ of the underlying data-generating model, provided that one asks mainly
+ order of magnitude of coefficients values (rather than very precise estimates)
+ and sign of interaction coefficients
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "certain_how_2018"
+literal "false"
 
-\begin_inset Note Comment
+\end_inset
+
+.
+ 
+\change_deleted -2100369821 1544435911
+;
+\change_inserted -2100369821 1544435915
+[
+\change_deleted -2100369821 1544435916
+ 
+\change_unchanged
+for ease of interpretation we also present the connexion between MAR(1)
+ model coefficients and a Beverton-Holt model in SI XX
+\change_inserted -2100369821 1544440006
+
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544372418
+\change_inserted -2100369821 1544440007
 Will we really?
 \change_unchanged
 
@@ -1219,12 +1362,12 @@ Will we really?
 
 \change_unchanged
  [see also 
-\change_inserted -2100369821 1543940324
+\change_inserted -2100369821 1544435912
 ref.
  
 \change_deleted -2100369821 1543940331
 Certain et al.
-\change_inserted -2100369821 1543940331
+\change_inserted -2100369821 1544435912
 
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1236,14 +1379,115 @@ literal "false"
 
 \change_unchanged
 ]
-\change_inserted -2100369821 1544367119
+\change_inserted -2100369821 1544436014
+]
+\end_layout
 
+\begin_layout Standard
+
+\change_inserted -2100369821 1544439832
+In this study, the number of phytoplankton groups, S, varies between region
+ but we keep the same 2 covariates, i.e.
+ water temperature and salinity.
+ Therefore, the dimension of the equation system only depends on the number
+ of groups we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany
+).
+ The smallest system still requires 70 parameters to be estimated if we
+ consider all possible interactions between species.
+ Before analyzing these parameters, we wondered if such over-parameterization
+ was necessary and compared different 'interaction scenarios' based on BIC.
+ Our null model assumed no interaction between groups of species (diagonal
+ interaction matrix) and was compared to four other models.
+ The first model assumed that interactions could only occur between phylogenetic
+ally close organisms, i.e., within a class (namely, diatoms, dinoflagellates,
+ and other phytoplanktonic organisms) while the second model further differentia
+ted pennate and centric diatoms, The third model considered the inverse
+ hypothesis that only unrelated organisms could interact (i.e., a diatom could
+ only interact with a dinoflagellate or a cryptophyte, but not with another
+ diatom), and the last model did not constrain the interactions at all (full
+ interaction matrix).
+ Based on convergent results in all sites (see Supplementary Information),
+ we further investigated the second model, hereafter called the pennate-centric
+ model.
 \end_layout
 
 \begin_layout Subsection*
 
-\change_inserted -2100369821 1544367119
+\change_inserted -2100369821 1544447707
 Interaction matrix analysis
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544450652
+The community matrix obtained from MAR(1) analyses can be used to determine
+ the stability of a system
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ives_estimating_2003"
+literal "false"
+
+\end_inset
+
+.
+ We compared the maximum modulus of the eigenvalues of the pennate/centric
+ matrices in each site, as a proxy of stability, to complexity-related metrics
+ such as weighted connectance and linkage density
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "breier_emergence_2018"
+literal "false"
+
+\end_inset
+
+.
+ Weighted connectance is a measure of the proportion of realized links,
+ taking into account the shape of the flux distribution,while link density
+ measures the average proportion and strength of interactions for a given
+ species.
+ These metrics are adapted to weighted interaction matrix but cannot accomodate
+ for both positive and negative coefficients: we therefore chose to focus
+ on the absolute values of these coefficients, which can be linked to their
+ strength even though we do not necessarily know the kind of interaction
+ it describes.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544451049
+In addition to these network-level metrics, we also computed the average
+ vulnerability (average effect of other taxa on a focal taxon) and generality
+ (average effect of a focal taxon on other taxa) and compared these to the
+ regulation a focal species exerted on itself.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1544451531
+Finally, we compared our results on self regulation v.
+ interspecific interactions to results found in the literature with the
+ same analyses.
+ A list of the references is given in the Supplementary Information.
+ Most of the time, authors only report significant coefficients and ignore
+ weak effects.
+ We therefore computed the mean interspecific interactions a either the
+ mean value of significant coefficients only (see Supplementary Information),
+ or the mean value of all coefficients outside of the matrix diagonal, replacing
+ missing values by 0 (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:meta_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
 \end_layout
 
 \begin_layout Standard
