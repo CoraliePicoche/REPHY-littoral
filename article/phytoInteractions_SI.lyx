@@ -816,9 +816,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="7">
+<lyxtabular version="3" rows="11" columns="6">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -858,6 +857,16 @@ Region
 
 \begin_layout Plain Layout
 Number of points?
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+From 1996, without linear interpolation
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -871,7 +880,7 @@ Mean rainfall
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -880,22 +889,13 @@ Mean temperature
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Species we chose to keep
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Men Er Roue
 \end_layout
 
 \end_inset
@@ -904,7 +904,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+47°32'5'' N / 3°5'37'' W
 \end_layout
 
 \end_inset
@@ -913,7 +913,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Brittany
 \end_layout
 
 \end_inset
@@ -922,16 +922,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+503
 \end_layout
 
 \end_inset
@@ -960,7 +951,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Loscolo
 \end_layout
 
 \end_inset
@@ -969,7 +960,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+47°27'27'' N / 2°32'18'' W
 \end_layout
 
 \end_inset
@@ -978,7 +969,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Brittany
 \end_layout
 
 \end_inset
@@ -987,81 +978,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+463
 \end_layout
 
 \end_inset
@@ -1090,7 +1007,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Croisic
 \end_layout
 
 \end_inset
@@ -1099,7 +1016,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+47°18'0'' N / 2°30'51'' W
 \end_layout
 
 \end_inset
@@ -1108,7 +1025,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Brittany
 \end_layout
 
 \end_inset
@@ -1117,81 +1034,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+500
 \end_layout
 
 \end_inset
@@ -1220,7 +1063,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+L'Eperon
 \end_layout
 
 \end_inset
@@ -1229,7 +1072,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+46°16'13'' N / 1°14'16'' W
 \end_layout
 
 \end_inset
@@ -1238,7 +1081,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Oléron
 \end_layout
 
 \end_inset
@@ -1247,81 +1090,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+460
 \end_layout
 
 \end_inset
@@ -1350,7 +1119,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Cornard
 \end_layout
 
 \end_inset
@@ -1359,7 +1128,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+46°3'19'' N / 1°7'50'' W
 \end_layout
 
 \end_inset
@@ -1368,7 +1137,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Oléron
 \end_layout
 
 \end_inset
@@ -1377,16 +1146,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+491
 \end_layout
 
 \end_inset
@@ -1415,7 +1175,38 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
+Auger
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45°47'59'' N / 1°12
+\begin_inset Quotes erd
+\end_inset
+
+19'' W
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oléron
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+524
 \end_layout
 
 \end_inset
@@ -1429,11 +1220,49 @@ Species we chose to keep
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Buoy7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44°32'32'' N / 1°15'49'' W
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arcachon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+311
 \end_layout
 
 \end_inset
@@ -1447,11 +1276,105 @@ Species we chose to keep
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Teychan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44°40'25'' N / 1°9'31'' W
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arcachon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+494
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Antoine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43°22'41'' N / 4°50'45'' E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mediterranean Sea
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+539
 \end_layout
 
 \end_inset
@@ -1480,7 +1403,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Lazaret
 \end_layout
 
 \end_inset
@@ -1489,7 +1412,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+43°5'14'' N / 5°54'23'' E
 \end_layout
 
 \end_inset
@@ -1498,7 +1421,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Mediterranean Sea
 \end_layout
 
 \end_inset
@@ -1507,16 +1430,7 @@ Species we chose to keep
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+512
 \end_layout
 
 \end_inset
@@ -1551,8 +1465,8 @@ Species we chose to keep
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Attempt of summary for our locations (for now, only the main titles, we'll
- see if we have to complete)
+Attempt of summary for our locations ; should we add the species for each
+ region ?
 \end_layout
 
 \end_inset
@@ -2766,7 +2680,7 @@ Fish
 \begin_layout Plain Layout
 
 \size footnotesize
-Atlantic Ocean
+Baltic Sea
 \end_layout
 
 \end_inset
