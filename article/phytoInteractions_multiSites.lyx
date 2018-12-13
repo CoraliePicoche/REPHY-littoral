@@ -809,10 +809,46 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+
+\change_inserted -2100369821 1544704703
+\begin_inset Graphics
+	filename graphe/comparaison_ratio_code_log_cleaner_allwith0.pdf
+	lyxscale 75
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Intra/intergroup interaction strengths for MAR(1) studies.
+
+\change_inserted -2100369821 1544705066
+Ratio, on the log scale, of i
+\change_deleted -2100369821 1544704968
+I
+\change_unchanged
+ntra
+\change_deleted -2100369821 1544704808
+/
+\change_inserted -2100369821 1544704809
+ to 
+\change_unchanged
+intergroup interaction strengths for MAR(1) studies
+\change_inserted -2100369821 1544705001
+ (corresponding articles are given in SI).
+ The colour of each point corresponds to the number of species in the interactio
+n matrix and its shape corresponds to the proportion of significant interactions.
+ Intergroup interactions were set to 0 when they were not given in the studies
+ (most of the time, because they were not deemed significant at the 95%
+ threshold).
+ Last column corresponds to the present study
+\change_unchanged
+.
 \change_inserted -2100369821 1544451519
 
 \begin_inset CommandInset label
@@ -881,6 +917,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
+\align center
 An intriguing new possibility, dubbed the 
 \begin_inset Quotes eld
 \end_inset

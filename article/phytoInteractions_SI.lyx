@@ -875,7 +875,7 @@ From 1996, without linear interpolation
 \begin_inset Text
 
 \begin_layout Plain Layout
-Mean rainfall
+Temperature
 \end_layout
 
 \end_inset
@@ -884,7 +884,7 @@ Mean rainfall
 \begin_inset Text
 
 \begin_layout Plain Layout
-Mean temperature
+Salinity
 \end_layout
 
 \end_inset
@@ -931,7 +931,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.8-22.2 (14.4 +/- 3.7)
 \end_layout
 
 \end_inset
@@ -940,7 +940,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20.1-38 (33.5 +/- 1.9)
 \end_layout
 
 \end_inset
@@ -987,7 +987,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5.7-22.4 (14.9 +/- 4.0)
 \end_layout
 
 \end_inset
@@ -996,7 +996,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14.0-36.8 (32.0 +/- 3.0)
 \end_layout
 
 \end_inset
@@ -1043,7 +1043,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.8-28.9 (14.7 +/- 3.9)
 \end_layout
 
 \end_inset
@@ -1052,7 +1052,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14.7-37.6 (31.8 +/- 3.1)
 \end_layout
 
 \end_inset
@@ -1099,7 +1099,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.0-26.0 (15.3 +/- 4.8)
 \end_layout
 
 \end_inset
@@ -1108,7 +1108,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+13.0-36.6 (32.1 +/- 3.2)
 \end_layout
 
 \end_inset
@@ -1155,7 +1155,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.1-29.2 (15.6 +/- 4.8)
 \end_layout
 
 \end_inset
@@ -1164,7 +1164,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+19.0-38.1 (32.7 +/- 2.4)
 \end_layout
 
 \end_inset
@@ -1215,7 +1215,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.0-24.5 (15.4 +/- 4.4)
 \end_layout
 
 \end_inset
@@ -1224,7 +1224,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+23.9-36.0 (32.7 +/- 1.8)
 \end_layout
 
 \end_inset
@@ -1271,7 +1271,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+7.2-23.9 (15.2 +/- 3.8)
 \end_layout
 
 \end_inset
@@ -1280,7 +1280,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+31.8-36.1 (34.7 +/- 0.7)
 \end_layout
 
 \end_inset
@@ -1327,7 +1327,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5.5-25.2 (15.5 +/- 4.6)
 \end_layout
 
 \end_inset
@@ -1336,7 +1336,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20.6-35.8 (32.5 +/- 1.9)
 \end_layout
 
 \end_inset
@@ -1383,7 +1383,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.6-30.0 (16.8 +/- 5.1)
 \end_layout
 
 \end_inset
@@ -1392,7 +1392,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+26.8-38.9 (32.3 +/- 3.9)
 \end_layout
 
 \end_inset
@@ -1439,7 +1439,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8.7-29.2 (17.4 +/- 4.2)
 \end_layout
 
 \end_inset
@@ -1448,7 +1448,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+21.6-39.6 (35.9 +/- 2.4)
 \end_layout
 
 \end_inset
@@ -1716,6 +1716,46 @@ References for the meta-analysis
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/comparaison_ratio_code_nolog_cleaner.pdf
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ratio of intra-to-intergroup interaction strength, when taking into account
+ only the significant values.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -1726,7 +1766,7 @@ status open
 
 \size footnotesize
 \begin_inset Tabular
-<lyxtabular version="3" rows="17" columns="5">
+<lyxtabular version="3" rows="23" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1740,7 +1780,7 @@ status open
 \begin_layout Plain Layout
 
 \size footnotesize
-Code
+Code on the plot
 \end_layout
 
 \end_inset
@@ -1797,7 +1837,135 @@ System
 \begin_layout Plain Layout
 
 \size footnotesize
-Griffiths2015_Phyto1
+1a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Phytoplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Outside a bay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Phytoplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Inside a bay
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2a
 \end_layout
 
 \end_inset
@@ -1861,7 +2029,7 @@ Coastal site
 \begin_layout Plain Layout
 
 \size footnotesize
-Griffiths2015_Phyto2
+2b
 \end_layout
 
 \end_inset
@@ -1925,7 +2093,7 @@ Offshore site
 \begin_layout Plain Layout
 
 \size footnotesize
-Huber2006_Phyto
+3a
 \end_layout
 
 \end_inset
@@ -1938,7 +2106,7 @@ Huber2006_Phyto
 \size footnotesize
 \begin_inset CommandInset citation
 LatexCommand citep
-key "huber_role_2006"
+key "hampton_empirical_2006"
 literal "false"
 
 \end_inset
@@ -1954,7 +2122,7 @@ literal "false"
 \begin_layout Plain Layout
 
 \size footnotesize
-10
+14
 \end_layout
 
 \end_inset
@@ -1965,7 +2133,7 @@ literal "false"
 \begin_layout Plain Layout
 
 \size footnotesize
-Phytoplankton
+Plankton
 \end_layout
 
 \end_inset
@@ -1989,7 +2157,199 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Huber2006_Ciliate
+3b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hampton_empirical_2006"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Plankton, growing season
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Lake
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hampton_coalescence_2006"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Lake
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hampton_coalescence_2006"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Simpler web, plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Lake
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5a
 \end_layout
 
 \end_inset
@@ -2053,7 +2413,71 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Ives1999_Zoo1
+5b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "huber_role_2006"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Phytoplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Lake
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6a
 \end_layout
 
 \end_inset
@@ -2117,7 +2541,7 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Ives1999_Zoo2
+6b
 \end_layout
 
 \end_inset
@@ -2181,7 +2605,7 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Ives2003_Plank1
+7a
 \end_layout
 
 \end_inset
@@ -2245,7 +2669,7 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Ives2003_Plank2
+7b
 \end_layout
 
 \end_inset
@@ -2309,7 +2733,7 @@ Lake with high planktivory
 \begin_layout Plain Layout
 
 \size footnotesize
-Ives2003_Plank3
+7c
 \end_layout
 
 \end_inset
@@ -2373,7 +2797,7 @@ Lake with low planktivory
 \begin_layout Plain Layout
 
 \size footnotesize
-Klug2000_Phyto
+8a
 \end_layout
 
 \end_inset
@@ -2437,7 +2861,7 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Klug2000_Zoo
+8b
 \end_layout
 
 \end_inset
@@ -2501,71 +2925,7 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Klug2001_TaxoAlgae
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-\begin_inset CommandInset citation
-LatexCommand citep
-key "klug_interactions_2001"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Taxonomic groups of plankton
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Lake
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Klug2001_MorphoAlgae
+9a
 \end_layout
 
 \end_inset
@@ -2629,7 +2989,71 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-Lindegren2009_Fish
+9b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset CommandInset citation
+LatexCommand citep
+key "klug_interactions_2001"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Taxonomic groups of plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Lake
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+10a
 \end_layout
 
 \end_inset
@@ -2693,7 +3117,7 @@ Baltic Sea
 \begin_layout Plain Layout
 
 \size footnotesize
-Vik2008_LynxHare
+11a
 \end_layout
 
 \end_inset
@@ -2757,7 +3181,7 @@ Terrestrial
 \begin_layout Plain Layout
 
 \size footnotesize
-Yamamura2006_Insects
+12a
 \end_layout
 
 \end_inset
