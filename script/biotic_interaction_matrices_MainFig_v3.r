@@ -108,10 +108,23 @@ for (gg in 1:length(groupe)){
 	                axis(2,at=grad_sp,lab=rev(sp),cex.axis=fac_axis+1,las=2)
                         axis(1,at=grad_sp,lab=c(sp),cex.axis=fac_axis+1,las=2)
                         for (i in 1:length(sp)){
+				if(grad_sp[i]<3){
+					if(gg==1){
+						lines(c(3,15),rep(grad_sp[i],2),lty=2)
+					}else{
+                              			abline(h=grad_sp[i],lty=2)
+					}
+				}else{
+				if(grad_sp[i]<11){
                                 abline(h=grad_sp[i],lty=2)
+				}else{
+				lines(c(0,8.25),rep(grad_sp[i],2),lty=2)
+				}
+				}
                         }
                         #abline(v=grad_sp[delim]+0.05-0.5,lty=4,col="grey",lwd=4)
         		legend(x=8.5,y=15-0.75,option_lieu,fill=color[1:3],cex=3.5,border=NA,xpd=NA,bty="n")
+        		#legend("topright",option_lieu,fill=color[1:3],cex=3.5,border=NA,bg="white")#xpd=NA)#bty="n")
                         }
 			
 

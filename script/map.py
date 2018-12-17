@@ -6,7 +6,7 @@ from matplotlib.patches import Polygon
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from math import floor,ceil
 
-a_res='f' #low resolution for now, will switch to fine resolution once we get the right fig
+a_res='l' #low resolution for now, will switch to fine resolution once we get the right fig
 fixed_lat=0.7
 fixed_lon=1.4
 
@@ -116,9 +116,17 @@ plt.annotate("10 km",xy=(min_lon+0.05,min_lat+0.05),xytext=(4.873935,42.985),arr
 plt.subplots_adjust(left=0.05,bottom=0.08,right=0.95,top=0.92,wspace=0, hspace=0.1)
 #fig.tight_layout()
 
-axin = inset_axes(m_SU.ax, width="50%", height="50%", loc=1)
+axin = inset_axes(m_SU.ax, width="40%", height="40%", loc=1)
+#axin.set_aspect("auto", adjustable="datalim")
         # Global inset map.
-inmap = Basemap(projection='cyl', llcrnrlon=min_lon_fr,llcrnrlat=min_lat_fr,urcrnrlon=max_lon_fr,urcrnrlat=max_lat_fr,ax=axin)
+#inmap = Basemap(projection='cyl', llcrnrlon=min_lon_fr,llcrnrlat=min_lat_fr,urcrnrlon=max_lon_fr,urcrnrlat=max_lat_fr,ax=axin)
+x1 = -5.0
+x2 = 12.
+y1 = 40.
+y2 = 54.
+inmap = Basemap(resolution='i',projection='gnom',lon_0=1.,lat_0=47.,height=1.1e6,width=1.25e6,ax=axin)
+#inmap.drawmapscale(1.0,47.,1.0,47,,barstyle='simple',units='km',fontsize=9,labelstyle='simple',fontcolor='k')
+#inmap.drawmapscale(lon=0.5, lat=45, lon0=1., lat0=47., length=1000)
 inmap.drawcountries(color='white')
 inmap.fillcontinents(color='gray')
 
@@ -126,25 +134,25 @@ bx, by = inmap(m_SU.boundarylons, m_SU.boundarylats)
 xy = list(zip(bx, by))
 mapboundary = Polygon(xy, edgecolor='k', linewidth=1, fill=False)
 inmap.ax.add_patch(mapboundary)
-plt.annotate("D",xy=(max(bx),max(by)))
+plt.annotate("D",xy=(max(bx),max(by)),size=smaller)
 
 bx, by = inmap(m_BZ.boundarylons, m_BZ.boundarylats)
 xy = list(zip(bx, by))
 mapboundary = Polygon(xy, edgecolor='k', linewidth=1, fill=False)
 inmap.ax.add_patch(mapboundary)
-plt.annotate("A",xy=(max(bx),max(by)))
+plt.annotate("A",xy=(max(bx),max(by)),size="smaller")
 
 bx, by = inmap(m_MO.boundarylons, m_MO.boundarylats)
 xy = list(zip(bx, by))
 mapboundary = Polygon(xy, edgecolor='k', linewidth=1, fill=False)
 inmap.ax.add_patch(mapboundary)
-plt.annotate("B",xy=(max(bx),max(by)))
+plt.annotate("B",xy=(max(bx),max(by)),size="smaller")
 
 bx, by = inmap(m_AR.boundarylons, m_AR.boundarylats)
 xy = list(zip(bx, by))
 mapboundary = Polygon(xy, edgecolor='k', linewidth=.75, fill=False)
 inmap.ax.add_patch(mapboundary)
-plt.annotate("C",xy=(max(bx),max(by)))
+plt.annotate("C",xy=(max(bx),max(by)),size="smaller")
 
 for i in range(0,len(name_site)):
         xtmp,ytmp=inmap(lon_site[i],lat_site[i])
