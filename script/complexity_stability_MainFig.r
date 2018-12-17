@@ -78,18 +78,18 @@ yli2=max(c(results[,"stability",option_model[m]]))
 
 xli1=min(c(results[,"positive",option_model[m]]))*100
 xli2=max(c(results[,"positive",option_model[m]]))*100
-plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab="stability",cex.axis=2,cex.lab=2)
+plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab="stability",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
-legend('bottomleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=16,col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
+legend('topleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=16,col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
 
 xli1=min(c(results[,"weighted connectance",option_model[m]]))
 xli2=max(c(results[,"weighted connectance",option_model[m]]))
-plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="weighted connectance",ylab="",yaxt="n",cex.axis=2,cex.lab=2)
+plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="weighted connectance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 xli1=min(c(results[,"linkage density",option_model[m]]))
 xli2=max(c(results[,"linkage density",option_model[m]]))
-plot(results[,"linkage density",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="linkage density",ylab="",yaxt="n",cex.axis=2,cex.lab=2)
+plot(results[,"linkage density",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="linkage density",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 dev.off()
