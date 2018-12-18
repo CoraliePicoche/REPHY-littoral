@@ -58,7 +58,7 @@ for (g in groupe){
 	}
 }
 
-pdf("article/graphe/abiotic_first_try.pdf",width=15)
+pdf("article/graphe/abiotic_first_try.pdf",width=15,height=10)
 for(var in 1:length(covariate)){
 mini=min(c(tab_value_min[,,var]),na.rm=T)
 maxi=max(c(tab_value_max[,,var]),na.rm=T)
@@ -75,8 +75,8 @@ abline(v=seq(0.5,18.5,by=1),lty=2)
 }
 dev.off()
 
-pdf("article/graphe/abiotic_second_try.pdf",width=13)
-par(mfcol=c(4,2),mar=c(2,4,2,1))
+pdf("article/graphe/abiotic_second_try.pdf",width=13,height=16)
+par(mfcol=c(4,2),mar=c(6,5,4,2))
 colo=c("blue","black","red")
 pos="bottomright"
 let=c('a)','c)','e)','g)','b)','d)','f)','h)')
@@ -88,14 +88,14 @@ site=1
 for(j in 1:10){
 	if(name_places[j] %in% c("Antoine","Teychan","LEperon","Men er Roue")){
 		if(j>1&var==1){
-			legend(pos,name_places[(j-site):(j-1)],col=colo,pch=16,bty="n",cex=1.5)
+			legend(pos,name_places[(j-site):(j-1)],col=colo,pch=16,bty="n",cex=2)
 		}
 		let_id=let_id+1
 		sp=which(!is.na(tab_value[j,,1]))
 		site=1
-		plot(0,0,t="n",ylim=c(mini,maxi),xlim=c(1.,length(sp)+0.5),xaxt="n",xlab="",ylab=covariate[var])
-		mtext(let[let_id],side=3,cex=1,xpd=NA,font=2,line=.5,adj=0)
-		axis(1,at=1:length(sp),lab=name_species[sp])
+		plot(0,0,t="n",ylim=c(mini,maxi),xlim=c(1.,length(sp)+0.5),xaxt="n",xlab="",ylab=covariate[var],cex.axis=2,cex.lab=2)
+		mtext(let[let_id],side=3,cex=2,xpd=NA,font=2,line=.75,adj=0)
+		axis(1,at=1:length(sp),lab=name_species[sp],cex.axis=2,las=2)
 	}else{
 		site=site+1
 	}
@@ -106,7 +106,7 @@ for(j in 1:10){
 abline(h=0,lty=2)
 }
 if(var==1){
-legend(pos,name_places[(j-site+1):(j)],col=colo,pch=16,bty="n",cex=1.5)
+legend(pos,name_places[(j-site+1):(j)],col=colo,pch=16,bty="n",cex=2)
 }
 }
 dev.off()

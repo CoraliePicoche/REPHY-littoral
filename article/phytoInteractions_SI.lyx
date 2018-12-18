@@ -123,15 +123,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Map of the studied sites
+
+\series bold
+Location of each study site in their region
+\series default
+: Brittany (A), Oléron (B), Arcachon (C) and the Mediterranean Sea (D).
+ The common scale of the panels in given in the left corner of D.
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -760,8 +761,11 @@ Thalassiosira+Porosira
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Name and composition of the phytoplanktonic groups used in the paper, based
- on 
+
+\series bold
+Name and composition of the phytoplanktonic groups used in the paper
+\series default
+, based on 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hernandez_farinas_assessing_2015"
@@ -786,20 +790,6 @@ name "tab:Group_definition"
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-Here, I'm wondering the level of details that we give on each site.
- Below is an attempt (but maybe we can leave that alltogether)
 \end_layout
 
 \end_inset
@@ -856,7 +846,7 @@ Region
 \begin_inset Text
 
 \begin_layout Plain Layout
-Number of points?
+Number of samples
 \begin_inset Foot
 status open
 
@@ -875,7 +865,7 @@ From 1996, without linear interpolation
 \begin_inset Text
 
 \begin_layout Plain Layout
-Temperature
+Temperature (°C)
 \end_layout
 
 \end_inset
@@ -884,7 +874,7 @@ Temperature
 \begin_inset Text
 
 \begin_layout Plain Layout
-Salinity
+Salinity (g/L)
 \end_layout
 
 \end_inset
@@ -904,7 +894,7 @@ Men Er Roue
 \begin_inset Text
 
 \begin_layout Plain Layout
-47°32'5'' N / 3°5'37'' W
+47°32' N / 3°5' W
 \end_layout
 
 \end_inset
@@ -931,7 +921,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.8-22.2 (14.4 +/- 3.7)
+14.4 +/- 3.7
 \end_layout
 
 \end_inset
@@ -940,7 +930,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-20.1-38 (33.5 +/- 1.9)
+33.5 +/- 1.9
 \end_layout
 
 \end_inset
@@ -960,7 +950,7 @@ Loscolo
 \begin_inset Text
 
 \begin_layout Plain Layout
-47°27'27'' N / 2°32'18'' W
+47°27' N / 2°32' W
 \end_layout
 
 \end_inset
@@ -987,7 +977,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.7-22.4 (14.9 +/- 4.0)
+14.9 +/- 4.0
 \end_layout
 
 \end_inset
@@ -996,7 +986,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-14.0-36.8 (32.0 +/- 3.0)
+32.0 +/- 3.0
 \end_layout
 
 \end_inset
@@ -1016,7 +1006,7 @@ Croisic
 \begin_inset Text
 
 \begin_layout Plain Layout
-47°18'0'' N / 2°30'51'' W
+47°18' N / 2°30' W
 \end_layout
 
 \end_inset
@@ -1043,7 +1033,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.8-28.9 (14.7 +/- 3.9)
+14.7 +/- 3.9
 \end_layout
 
 \end_inset
@@ -1052,7 +1042,7 @@ Brittany
 \begin_inset Text
 
 \begin_layout Plain Layout
-14.7-37.6 (31.8 +/- 3.1)
+31.8 +/- 3.1
 \end_layout
 
 \end_inset
@@ -1072,7 +1062,7 @@ L'Eperon
 \begin_inset Text
 
 \begin_layout Plain Layout
-46°16'13'' N / 1°14'16'' W
+46°16' N / 1°14' W
 \end_layout
 
 \end_inset
@@ -1099,7 +1089,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.0-26.0 (15.3 +/- 4.8)
+15.3 +/- 4.8
 \end_layout
 
 \end_inset
@@ -1108,7 +1098,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-13.0-36.6 (32.1 +/- 3.2)
+32.1 +/- 3.2
 \end_layout
 
 \end_inset
@@ -1128,7 +1118,7 @@ Cornard
 \begin_inset Text
 
 \begin_layout Plain Layout
-46°3'19'' N / 1°7'50'' W
+46°3' N / 1°7' W
 \end_layout
 
 \end_inset
@@ -1155,7 +1145,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.1-29.2 (15.6 +/- 4.8)
+15.6 +/- 4.8
 \end_layout
 
 \end_inset
@@ -1164,7 +1154,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-19.0-38.1 (32.7 +/- 2.4)
+32.7 +/- 2.4
 \end_layout
 
 \end_inset
@@ -1184,11 +1174,7 @@ Auger
 \begin_inset Text
 
 \begin_layout Plain Layout
-45°47'59'' N / 1°12
-\begin_inset Quotes erd
-\end_inset
-
-19'' W
+45°47' N / 1°12' W
 \end_layout
 
 \end_inset
@@ -1215,7 +1201,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.0-24.5 (15.4 +/- 4.4)
+15.4 +/- 4.4
 \end_layout
 
 \end_inset
@@ -1224,7 +1210,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-23.9-36.0 (32.7 +/- 1.8)
+32.7 +/- 1.8
 \end_layout
 
 \end_inset
@@ -1235,7 +1221,7 @@ Oléron
 \begin_inset Text
 
 \begin_layout Plain Layout
-Buoy7
+Buoy 7
 \end_layout
 
 \end_inset
@@ -1244,7 +1230,7 @@ Buoy7
 \begin_inset Text
 
 \begin_layout Plain Layout
-44°32'32'' N / 1°15'49'' W
+44°32' N / 1°15' W
 \end_layout
 
 \end_inset
@@ -1271,7 +1257,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.2-23.9 (15.2 +/- 3.8)
+15.2 +/- 3.8
 \end_layout
 
 \end_inset
@@ -1280,7 +1266,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-31.8-36.1 (34.7 +/- 0.7)
+34.7 +/- 0.7
 \end_layout
 
 \end_inset
@@ -1300,7 +1286,7 @@ Teychan
 \begin_inset Text
 
 \begin_layout Plain Layout
-44°40'25'' N / 1°9'31'' W
+44°40' N / 1°9' W
 \end_layout
 
 \end_inset
@@ -1327,7 +1313,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.5-25.2 (15.5 +/- 4.6)
+15.5 +/- 4.6
 \end_layout
 
 \end_inset
@@ -1336,7 +1322,7 @@ Arcachon
 \begin_inset Text
 
 \begin_layout Plain Layout
-20.6-35.8 (32.5 +/- 1.9)
+32.5 +/- 1.9
 \end_layout
 
 \end_inset
@@ -1356,7 +1342,7 @@ Antoine
 \begin_inset Text
 
 \begin_layout Plain Layout
-43°22'41'' N / 4°50'45'' E
+43°22' N / 4°50' E
 \end_layout
 
 \end_inset
@@ -1383,7 +1369,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.6-30.0 (16.8 +/- 5.1)
+16.8 +/- 5.1
 \end_layout
 
 \end_inset
@@ -1392,7 +1378,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-26.8-38.9 (32.3 +/- 3.9)
+32.3 +/- 3.9
 \end_layout
 
 \end_inset
@@ -1412,7 +1398,7 @@ Lazaret
 \begin_inset Text
 
 \begin_layout Plain Layout
-43°5'14'' N / 5°54'23'' E
+43°5' N / 5°54' E
 \end_layout
 
 \end_inset
@@ -1439,7 +1425,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-8.7-29.2 (17.4 +/- 4.2)
+17.4 +/- 4.2
 \end_layout
 
 \end_inset
@@ -1448,7 +1434,7 @@ Mediterranean Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-21.6-39.6 (35.9 +/- 2.4)
+35.9 +/- 2.4
 \end_layout
 
 \end_inset
@@ -1465,16 +1451,24 @@ Mediterranean Sea
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Attempt of summary for our locations ; should we add the species for each
- region ?
+
+\series bold
+Summary of the study site characteristics
+\series default
+, including hhe mean and standard deviation of the two main environmental
+ parameters (temperature and salinity).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Site_description"
+
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1504,17 +1498,20 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Comparison of BIC with different interaction matrices, compared to the null
- model (diagonal interaction matrix, allowing only intragroup interactions),
- for four different sites separated by dashed lines (Brittany, Oléron, Arcachon
- and Mediterranean Sea) and 10 different subsites.
- Different interaction matrices may allow all interactions between taxa
+
+\series bold
+Comparison of the BIC of different interaction models
+\series default
+, compared to the null model (diagonal interaction matrix, allowing only
+ intragroup interactions), for 10 sites in 4 different regions, separated
+ by dashed lines (Brittany, Oléron, Arcachon and the Mediterranean Sea).
+ Different interaction matrices may allow interactions between all taxa
  (unconstrained), only interactions within pennate diatoms, centric diatoms,
  dinoflagellates, or other phytoplanktonic taxa (pencen), only interactions
  within diatoms, dinoflagellates or other taxa (diatdin), or only interactions
  between taxa belonging to these different groups.
  As model structures (length of the times series taken into account) are
- different between sites and subsites, groups of bars should not be compared.
+ different between sites and regions, groups of bars should not be compared.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Comparison-of-BIC"
@@ -1522,82 +1519,6 @@ name "fig:Comparison-of-BIC"
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphe/biotic_interaction_matrices_MainFig_allin1_v2_SI.pdf
-	lyxscale 50
-	width 99text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Interaction matrices estimated in Arcachon (a) and in the Mediterranean
- Sea (b).
- Only interactions between clades (pennate and centric diatoms, dinoflagellates,
- other planktonic taxa) are allowed.
- The figure should be read as taxon 
-\begin_inset Formula $i$
-\end_inset
-
- having effect 
-\begin_inset Formula $e_{ji}$
-\end_inset
-
- on taxon 
-\begin_inset Formula $j$
-\end_inset
-
-.
- The scale for the coefficient values is given at the bottom left of panel
- a).
- 95% significance of coefficients was determined by bootstrapping and is
- marked by asterisks (*).
- The identity matrix was subtracted to the interaction matrix 
-\begin_inset Formula $(\mathbf{B}–\textbf{I})$
-\end_inset
-
- in order to make effects on growth rates comparable.
- Composition of planktonic groups is given in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Group_definition"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- 
 \end_layout
 
 \end_inset
@@ -1631,23 +1552,21 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Effect of abiotic variables (temperature, TEMP or salinity, SAL) on phytoplankto
-n group in Brittany (a, b), Oléron (c, d), Arcachon (e, f) and in the Mediterran
-ean Sea (g, h).
+
+\series bold
+Effect of environmental variables (temperature, TEMP or salinity, SAL) on
+ phytoplankton group
+\series default
+ in Brittany (a, b), Oléron (c, d), Arcachon (e, f) and in the Mediterranean
+ Sea (g, h).
  Each color corresponds to a different site.
- Error bar corresponds to the 95% confidence interval around the estimated
+ Error bars correspond to the 95% confidence interval around the estimated
  coefficient.
  All variables were normalized before estimation.
-  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Should we keep the same ylimit, or have different limits for TEMP and SAL?
- As they are normalized, comparing them does make sense, but maybe that's
- less clear on the figure.
  
-\end_layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Abiotic_effects"
 
 \end_inset
 
@@ -1689,16 +1608,30 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Variance of the coefficient in the interaction matrix 
+
+\series bold
+Relation between mean and variance of the intra- and inter-group interaction
+ coefficients
+\series default
+.
+ Variance of the coefficient in the interaction matrix 
 \begin_inset Formula $(\mathbf{B}–\textbf{I})$
 \end_inset
 
-, as a function of their mean, for 10 sites in 4 regions, with a model allowing
- interactions only within clads (see above).
+ is a function of their mean, for 10 sites in 4 regions, with a model allowing
+ interactions only within clads (within centric or pennate diatoms, dinoflagella
+tes, or other taxa).
  The mean-variance relation was either computed with raw values of intergroup
  interactions (a) or absolute values of the intergroup coefficients (b).
  Intragroup coefficients were not modified.
  
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:MeanVar"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1724,7 +1657,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/comparaison_ratio_code_nolog_cleaner.pdf
+	filename graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf
 	width 80text%
 
 \end_inset
@@ -1736,9 +1669,37 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Ratio of intra-to-intergroup interaction strength, when taking into account
- only the significant values (left), as a function of the density of the
- interaction matrix B-I (right).
+
+\series bold
+Ratio of intra-to-intergroup interaction strength in MAR(1) studies.
+ 
+\series default
+Only significant values are taken into account and missing values in the
+ matrix are not considered (e.g., not replaced by 0 as they are in the main
+ text).
+ The color of each point is a function of the sparsity of the interaction
+ matrix B-I and the relation between the raio and the sparsity of the matrix
+ is given in the right panel.
+ Corresponding studies are described below in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:References_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ratio-of-intra-to-intergroup"
+
+\end_inset
+
+
+\shape italic
  
 \series bold
 [This graph is not the final one but I'm wondering if we keep it]
@@ -1839,7 +1800,9 @@ System
 \begin_inset Text
 
 \begin_layout Plain Layout
-Period covered/n points
+
+\size footnotesize
+Approximate size
 \end_layout
 
 \end_inset
@@ -1870,7 +1833,7 @@ literal "false"
 
 \end_inset
 
-, conditional least square estimate
+, CLS
 \end_layout
 
 \end_inset
@@ -1882,6 +1845,19 @@ literal "false"
 
 \size footnotesize
 9
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Wondering if we're taking into account the last row, which does not interact
+ with others, even itself
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1912,7 +1888,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-107 points, 9 species, every 2 weeks from May to September
+
+\size footnotesize
+100
 \end_layout
 
 \end_inset
@@ -1943,7 +1921,7 @@ literal "false"
 
 \end_inset
 
-, total least square estimate
+, TLS
 \end_layout
 
 \end_inset
@@ -1986,6 +1964,8 @@ Lake
 
 \begin_layout Plain Layout
 
+\size footnotesize
+100
 \end_layout
 
 \end_inset
@@ -2058,7 +2038,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-108 ? (6 weeks, 2 per weeks, 9 bags), 2 groups
+
+\size footnotesize
+100
 \end_layout
 
 \end_inset
@@ -2131,7 +2113,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-54 (6 weeks, 1 per week, 9 bags),1 group
+
+\size footnotesize
+50
 \end_layout
 
 \end_inset
@@ -2204,7 +2188,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-18 weeks per year, 8 years, 2 lakes : 288 points
+
+\size footnotesize
+300
 \end_layout
 
 \end_inset
@@ -2278,6 +2264,8 @@ Lake
 
 \begin_layout Plain Layout
 
+\size footnotesize
+300
 \end_layout
 
 \end_inset
@@ -2350,7 +2338,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-91 samples 
+
+\size footnotesize
+100 
 \end_layout
 
 \end_inset
@@ -2424,6 +2414,8 @@ Lake with high planktivory
 
 \begin_layout Plain Layout
 
+\size footnotesize
+100
 \end_layout
 
 \end_inset
@@ -2497,6 +2489,8 @@ Lake with low planktivory
 
 \begin_layout Plain Layout
 
+\size footnotesize
+100
 \end_layout
 
 \end_inset
@@ -2569,7 +2563,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-11 years, biweekly measures: 286 points
+
+\size footnotesize
+300
 \end_layout
 
 \end_inset
@@ -2642,7 +2638,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-187 points
+
+\size footnotesize
+200
 \end_layout
 
 \end_inset
@@ -2715,7 +2713,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-396 points
+
+\size footnotesize
+400
 \end_layout
 
 \end_inset
@@ -2789,6 +2789,8 @@ Lake
 
 \begin_layout Plain Layout
 
+\size footnotesize
+400
 \end_layout
 
 \end_inset
@@ -2861,7 +2863,9 @@ Lake
 \begin_inset Text
 
 \begin_layout Plain Layout
-11 years, 30 weeks : 330
+
+\size footnotesize
+300
 \end_layout
 
 \end_inset
@@ -2935,6 +2939,8 @@ Lake
 
 \begin_layout Plain Layout
 
+\size footnotesize
+300
 \end_layout
 
 \end_inset
@@ -3007,7 +3013,9 @@ Terrestrial
 \begin_inset Text
 
 \begin_layout Plain Layout
-50 points over 50 years
+
+\size footnotesize
+50
 \end_layout
 
 \end_inset
@@ -3080,7 +3088,9 @@ Terrestrial
 \begin_inset Text
 
 \begin_layout Plain Layout
-100 years, 1 point per year ?
+
+\size footnotesize
+100
 \end_layout
 
 \end_inset
@@ -3153,7 +3163,9 @@ Baltic Sea
 \begin_inset Text
 
 \begin_layout Plain Layout
-30 years, 1 point per year
+
+\size footnotesize
+30
 \end_layout
 
 \end_inset
@@ -3226,7 +3238,9 @@ Coastal site
 \begin_inset Text
 
 \begin_layout Plain Layout
-1064 points
+
+\size footnotesize
+1000
 \end_layout
 
 \end_inset
@@ -3299,7 +3313,9 @@ Offshore site
 \begin_inset Text
 
 \begin_layout Plain Layout
-684
+
+\size footnotesize
+700
 \end_layout
 
 \end_inset
@@ -3372,7 +3388,9 @@ Outside a bay
 \begin_inset Text
 
 \begin_layout Plain Layout
-335
+
+\size footnotesize
+300
 \end_layout
 
 \end_inset
@@ -3445,7 +3463,9 @@ Inside a bay
 \begin_inset Text
 
 \begin_layout Plain Layout
-494
+
+\size footnotesize
+500
 \end_layout
 
 \end_inset
@@ -3462,7 +3482,27 @@ Inside a bay
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-References used [TO COMPLETE]
+Studies used in Fig.
+ 4 in main text and Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ratio-of-intra-to-intergroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ in the Supplementary Information.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:References_ratio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

@@ -71,8 +71,8 @@ for (g in groupe){
 		}
 }
 
-pdf(paste("article/graphe/moy_vs_var_for_all_interactions_",option_model,"_SI.pdf",sep=""),width=12)
-par(mfrow=c(1,2),mar=c(4,4.5,3,.5))
+pdf(paste("article/graphe/moy_vs_var_for_all_interactions_",option_model,"_SI.pdf",sep=""),width=14)
+par(mfrow=c(1,2),mar=c(4,4.5,3,.25))
 x1=c(tab_value[,"intra_mean"],tab_value[,'inter_mean_raw'])
 x2=c(tab_value[,"intra_mean"],tab_value[,'inter_mean_abs'])
 y2=c(tab_value[,"intra_var"],tab_value[,'inter_var_abs'])
@@ -82,7 +82,7 @@ mtext("a)",side=3,cex=1.75,xpd=NA,font=2,line=.8,adj=0)
 text(mean(tab_value[,'intra_mean']),0.01,"Intra",xpd=NA,cex=1.5)
 legend("topright",c("Brittany","Oléron","Arcachon","Mediterranean"),col=c("green","darkblue","cyan","darkred"),bty="n",pch=16,cex=2.0)
 text(mean(tab_value[,'inter_mean_raw'])-0.025,0.006,"Inter raw",xpd=NA,cex=1.5)
-plot(x2,y2,col=colo,pch=16,xlab="Mean",ylab="",cex=2.5,cex.axis=2,cex.lab=2)
+plot(x2,y2,col=colo,pch=16,xlab="Mean",ylab="",cex=2.5,cex.axis=2,cex.lab=2,yaxt="n")
 mtext("b)",side=3,cex=1.75,xpd=NA,font=2,line=.8,adj=0)
 text(mean(tab_value[,'intra_mean']),0.01,"Intra",xpd=NA,cex=1.5)
 text(mean(tab_value[,'inter_mean_abs'])-0.025,min(tab_value[,"intra_var"]),"Inter abs",xpd=NA,cex=1.5)

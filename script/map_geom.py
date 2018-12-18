@@ -23,6 +23,7 @@ for r in reader:
 	lat_site.append(r[4])
 	region_site.append(r[6])
 f.close()
+name_site[0]="Men er."
 
 #BZ
 min_lat=47.5
@@ -37,8 +38,8 @@ m_BZ.drawcoastlines(color ='k', linewidth =0.2)
 m_BZ.fillcontinents(color='lightgrey')
 m_BZ.drawparallels(np.arange(floor(min_lat-1),ceil(min_lat+2),.5),labels=[1,0,0,0])
 m_BZ.drawmeridians(np.arange(floor(min_lon-1),ceil(min_lon+2),.5),labels=[0,0,1,0])
-xoffset=(-10,-16,-10)
-yoffset=(-10,-4,-10)
+xoffset=(-32.5,-19,-19)
+yoffset=(5,-3,-3)
 j=-1
 for i in range(0,len(name_site)):
 	if region_site[i]=="BZ":
@@ -59,8 +60,8 @@ m_MO.drawcoastlines(color ='k', linewidth =0.2)
 m_MO.fillcontinents(color='lightgrey')
 m_MO.drawparallels(np.arange(floor(min_lat-1),ceil(min_lat+2),.5),labels=[0,1,0,0])
 m_MO.drawmeridians(np.arange(floor(min_lon-1),ceil(min_lon+2),.5),labels=[0,0,1,0])
-xoffset=(-7,-10,-7)
-yoffset=(10,10,0)
+xoffset=(30,-4,-7)
+yoffset=(27,10,0)
 j=-1
 for i in range(0,len(name_site)):
 	if region_site[i]=="MO":
@@ -81,10 +82,14 @@ m_AR.drawcoastlines(color ='k', linewidth =0.2)
 m_AR.fillcontinents(color='lightgrey')
 m_AR.drawparallels(np.arange(floor(min_lat-1),ceil(min_lat+2),.5),labels=[1,0,0,0])
 m_AR.drawmeridians(np.arange(floor(min_lon-1),ceil(min_lon+2),.5),labels=[0,0,0,1])
+xoffset=(47.5,30)
+j=-1
 for i in range(0,len(name_site)):
-        xtmp,ytmp=m_AR(lon_site[i],lat_site[i])
-        m_AR.plot(xtmp,ytmp,'ko')
-        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',xytext=(-15,0),textcoords='offset points',horizontalalignment='right',verticalalignment='top')
+	if region_site[i]=="AR":
+		j=j+1
+	        xtmp,ytmp=m_AR(lon_site[i],lat_site[i])
+        	m_AR.plot(xtmp,ytmp,'ko')
+	        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',xytext=(xoffset[j],5),textcoords='offset points',horizontalalignment='left',verticalalignment='top')
 
 
 #SU
@@ -101,10 +106,15 @@ m_SU.drawcoastlines(color ='k', linewidth =0.2)
 m_SU.fillcontinents(color='lightgrey')
 m_SU.drawparallels(np.arange(floor(min_lat-1),ceil(min_lat+2),.5),labels=[0,1,0,0])
 m_SU.drawmeridians(np.arange(floor(min_lon-1),ceil(min_lon+2),.5),labels=[0,0,0,1])
+xoffset=(3,-7)
+yoffset=(-25,10)
+j=-1
 for i in range(0,len(name_site)):
-      	xtmp,ytmp=m_SU(lon_site[i],lat_site[i])
-        m_SU.plot(xtmp,ytmp,'ko')
-        plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',xytext=(2,15),textcoords='offset points',horizontalalignment='center',verticalalignment='bottom')
+	if region_site[i]=="SU":
+		j=j+1
+      		xtmp,ytmp=m_SU(lon_site[i],lat_site[i])
+       		m_SU.plot(xtmp,ytmp,'ko')
+        	plt.annotate(name_site[i],xy=(xtmp,ytmp), xycoords='data',xytext=(xoffset[j],yoffset[j]),textcoords='offset points',horizontalalignment='center',verticalalignment='bottom')
 #m_SU.llcrnrlon = min_lon
 #m_SU.urcrnrlon = max_lon
 #m_SU.llcrnrlat = min_lat
@@ -112,10 +122,10 @@ for i in range(0,len(name_site)):
 m_SU.ax = ax4
 #This code is not so nice, this is only a proxy
 #plt.annotate("10 km",xy=(min_lon+0.05,min_lat+0.05),xytext=(4.873935,42.985),arrowprops=dict(arrowstyle="-"))
-m_SU.drawmapscale(5.,42.9,min_lon,min_lat,length=10)#,barstyle='simple',units='km',fontsize=9,labelstyle='simple',fontcolor='k')
+m_SU.drawmapscale(4.9,42.9,min_lon,min_lat,length=10)#,barstyle='simple',units='km',fontsize=9,labelstyle='simple',fontcolor='k')
 
 
-plt.subplots_adjust(left=0.05,bottom=0.08,right=0.95,top=0.92,wspace=0, hspace=0.1)
+plt.subplots_adjust(left=0.075,bottom=0.08,right=0.925,top=0.92,wspace=0, hspace=0.1)
 #fig.tight_layout()
 
 axin = inset_axes(m_SU.ax, width="35%", height="35%", loc=1)
@@ -126,7 +136,7 @@ x1 = -5.0
 x2 = 12.
 y1 = 40.
 y2 = 54.
-inmap = Basemap(resolution='i',projection='gnom',lon_0=1.,lat_0=47.,height=1.1e6,width=1.25e6,ax=axin)
+inmap = Basemap(resolution='l',projection='gnom',lon_0=1.,lat_0=47.,height=1.1e6,width=1.25e6,ax=axin)
 #inmap.drawmapscale(1.0,47.,1.0,47,,barstyle='simple',units='km',fontsize=9,labelstyle='simple',fontcolor='k')
 #inmap.drawmapscale(lon=0.5, lat=45, lon0=1., lat0=47., length=1000)
 inmap.drawcountries(color='white')

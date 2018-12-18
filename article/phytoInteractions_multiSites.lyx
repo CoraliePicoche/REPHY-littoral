@@ -479,7 +479,7 @@ status open
 \begin_inset Graphics
 	filename graphe/biotic_interaction_matrices_MainFig_allin1_v3.pdf
 	lyxscale 75
-	width 99text%
+	width 90text%
 
 \end_inset
 
@@ -493,8 +493,14 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1545037189
-Interaction matrices estimated in Brittany (a) and in Marennes-Oléron (b).
+\change_inserted -2100369821 1545147252
+
+\series bold
+Interaction matrices estimated in 10 sites along the French coastline.
+
+\series default
+ Four regions are distinguished: Brittany (a), Marennes-Oléron (b), Arcachon
+ (d) and the Mediterranean Sea (e).
  Only interactions between clades (pennate and centric diatoms, dinoflagellates,
  other planktonic taxa) are allowed.
  The figure should be read as taxon 
@@ -510,23 +516,20 @@ Interaction matrices estimated in Brittany (a) and in Marennes-Oléron (b).
 \end_inset
 
 .
+ We present the community matrix minus the identity matrix (
+\begin_inset Formula $\mathbf{B}-\mathbf{I}$
+\end_inset
+
+) for comparability reasons between intra- and inter-group interaction strengths.
  The scale for the coefficient values is given at the bottom left of panel
  a).
  95% significance of coefficients was determined by bootstrapping and is
  marked by asterisks (*).
- Other estimates for the 4 sites in Arcachon and the Mediterranean Sea can
- be found in the Supplementary Information.
- The identity matrix was subtracted to the interaction matrix 
-\begin_inset Formula $(\mathbf{B}–\textbf{I})$
-\end_inset
-
- in order to make effects on growth rates comparable.
- Composition of planktonic groups is given in the Supplementary Information.
- The ratio of positive interaction in each matrix is given by points in
- c) while the dashed (respectively, dotted) line represents to ratio of
+ The composition of planktonic groups is given in the Supplementary Information.
+ The ratio of positive interactions in each matrix is given by points in
+ c) while the dashed (respectively, dotted) line represents the ratio of
  interactions remaining positive (respectively, negative) in all sites of
  a given region.
- TO REWRITE
 \change_unchanged
 
 \end_layout
@@ -592,14 +595,18 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544451506
-Stability (maximum eigenvalue of the community matrix 
-\begin_inset Formula $\mathbf{B}$
-\end_inset
+\change_inserted -2100369821 1545148681
 
-) as a function of network metrics in the 10 study sites.
- Each color corresponds to a given region.
- Metrics formula are given in the Methods.
+\series bold
+Relation between stability and complexity of the interaction networks.
+
+\series default
+ The maximum modulus of the community matrix eigenvalues approximates the
+ stability while complexity is indicated by different network metrics.
+ Each point color corresponds to a given region.
+ Metrics formula for weighted connectance and linkage density are given
+ in the Supplementary Information.
+ 
 \begin_inset Note Note
 status open
 
@@ -713,15 +720,23 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544028544
-Average vulnerability (a-b) and generality (c-d), computed on raw values
- (a-c) or absolute values (b-d) of the community matrix coefficients for
- 10 different sites, as a function of self-regulation, for a pennate-centric
- interaction matrix, ignoring the coefficients which were forced to 0 in
- the estimation process.
+\change_inserted -2100369821 1545148974
+
+\series bold
+Relation between vulnerability/generality and self-regulation.
+
+\series default
+ Average vulnerability (a-b) and generality (c-d), as well as self-regulation,
+ are computed on raw (a-c) or absolute (b-d) values of the coefficients
+ in the community matrix minus the identity matrix (
+\begin_inset Formula $\mathbf{B}-\mathbf{I}$
+\end_inset
+
+) for 10 different sites.
  Each color corresponds to a given region.
  The p-value of the Pearson correlation between vulnerability (respectively
- generality) and self-regulation is given in the top left of each panel.
+ generality) and self-regulation is given in the top left of each panel
+ and the corresponding slope is given by the black line across scatter plots.
 \end_layout
 
 \end_inset
@@ -794,14 +809,14 @@ Finally, we have sought to put these results in a broader context by compiling
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 
 \change_inserted -2100369821 1544704703
 \begin_inset Graphics
-	filename graphe/comparaison_ratio_code_log_cleaner_allwith0.pdf
+	filename graphe/comparaison_ratio_code_log_cleaner_allwith0_ONLY_SIGNIF.pdf
 	lyxscale 75
 	width 80text%
 
@@ -815,27 +830,38 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544705066
-Ratio, on the log scale, of i
-\change_deleted -2100369821 1544704968
-I
-\change_unchanged
-ntra
-\change_deleted -2100369821 1544704808
-/
-\change_inserted -2100369821 1544704809
- to 
-\change_unchanged
-intergroup interaction strengths for MAR(1) studies
-\change_inserted -2100369821 1544705001
- (corresponding articles are given in SI).
- The colour of each point corresponds to the number of species in the interactio
-n matrix and its shape corresponds to the proportion of significant interactions.
+\change_inserted -2100369821 1545149369
+
+\series bold
+Ratio of intra- and inter-group interaction strengths in Multivariate AutoRegres
+sive (MAR) models in the literature.
+
+\series default
+ Ratio is given on the log scale and the name of each studies is given in
+ the Supplementary Information
+\change_deleted -2100369821 1545149201
+Intra/intergroup interaction strengths for MAR(1) studie
+\change_inserted -2100369821 1545149209
+.
+ T
+\change_deleted -2100369821 1545149201
+s
+\change_inserted -2100369821 1545149319
+he shape of each point corresponds to the number of species in the interaction
+ matrix and its color corresponds to the sparsity of the community matrix
+ (e.g., the proportion of null interactions in the matrix).
  Intergroup interactions were set to 0 when they were not given in the studies
  (most of the time, because they were not deemed significant at the 95%
  threshold).
- Last column corresponds to the present study
+ Last column corresponds to the present study 
+\series bold
+\shape italic
+[Of course I'm not leaving it like that, I just want to make sure we're
+ on the same page]
 \change_unchanged
+
+\series default
+\shape default
 .
 \change_inserted -2100369821 1544451519
 
