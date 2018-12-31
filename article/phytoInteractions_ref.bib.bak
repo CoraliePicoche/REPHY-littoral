@@ -369,19 +369,6 @@
   Volume                   = {9}
 }
 
-@Article{vallina2014maximal,
-  Title                    = {Maximal feeding with active prey-switching: A kill-the-winner functional response and its effect on global diversity and biogeography},
-  Author                   = {Vallina, Sergio M and Ward, BA and Dutkiewicz, S and Follows, MJ},
-  Journal                  = {Progress in Oceanography},
-  Year                     = {2014},
-  Pages                    = {93--109},
-  Volume                   = {120},
-
-  Owner                    = {frederic},
-  Publisher                = {Elsevier},
-  Timestamp                = {2018.12.31}
-}
-
 @Article{volkov_patterns_2007,
   Title                    = {Patterns of relative species abundance in rainforests and coral reefs},
   Author                   = {Volkov, I. and Banavar, J.R. and Hubbell, S.P. and Maritan, A.},
