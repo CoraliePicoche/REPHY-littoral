@@ -86,6 +86,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author -2100369821 "cpicoche"
+\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -96,13 +97,7 @@ Strong self-regulation and widespread facilitative interactions between
 \end_layout
 
 \begin_layout Abstract
-
-\change_deleted -2100369821 1545408572
-XXX
-\change_inserted -2100369821 1545408592
 XXX(introductory paragraph: 150 words)
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -116,15 +111,7 @@ We haven't discussed this, but perhaps differences in composition between
  Tuck 2018 Ecology Letters for an appreciation of the ghost of competition
  past vs.
  present.
-
-\change_inserted -2100369821 1545408622
- 
-\change_deleted -2100369821 1545408565
- 
-\change_inserted -2100369821 1545408675
-Done below, maybe remove this note?
-\change_unchanged
-
+ Done below, maybe remove this note?
 \end_layout
 
 \end_inset
@@ -139,25 +126,67 @@ Introduction
 \begin_layout Standard
 How species or related genera can coexist together in spite of likely competitio
 n is still one of the main puzzles of community ecology, especially for
- primary producers that seemingly share the same basic resources [REFS].
- Many theoretical studies of competition models have shown that competitive
- exclusion is likely in those circumstances [REFs], unless some special
- mechanisms involving spatial or temporal variation are at play
-\change_inserted -2100369821 1543938970
+ primary producers that seemingly share the same basic resources 
+\change_deleted -666822487 1546242387
+[REFS]
+\change_inserted -666822487 1546242387
 
 \begin_inset CommandInset citation
 LatexCommand supercite
-key "chesson_roles_1997,huisman_biological_2001,li_effects_2016"
+key "hutchinson_paradox_1961"
 literal "false"
 
 \end_inset
 
- [More refs?]
+
+\change_unchanged
+.
+ Many theoretical studies of competition models have shown that competitive
+ exclusion is likely in those circumstances
+\change_deleted -666822487 1546242419
+ [REFs]
+\change_inserted -666822487 1546242419
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "armstrong1980competitive,chesson_updates_2018"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+, unless some special mechanisms involving spatial or temporal variation
+ are at play
+\change_inserted -2100369821 1543938970
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "armstrong1976coexistence,chesson_roles_1997,huisman_biological_2001,li_effects_2016"
+literal "false"
+
+\end_inset
+
+
 \change_unchanged
 .
  Neutral theory, that in its most basic formulation assumes equal competitive
- abilities [REFs] and non-equilibrium coexistence sustained by immigration
- from a larger pool (but see 
+ abilities 
+\change_deleted -666822487 1546242514
+[REFs]
+\change_inserted -666822487 1546242514
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hubbell_unified_2001"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+ and non-equilibrium coexistence sustained by immigration from a larger
+ pool (but see 
 \change_inserted -2100369821 1543939464
 ref.
  
@@ -175,11 +204,13 @@ literal "false"
 
 \begin_inset CommandInset citation
 LatexCommand supercite
-key "hubbell_unified_2001"
+key "hubbell_unified_2001,rosindell2011unified"
 literal "false"
 
 \end_inset
 
+
+\change_deleted -666822487 1546242659
  [More refs?]
 \change_unchanged
 .
@@ -212,18 +243,44 @@ literal "false"
 \change_inserted -2100369821 1545297172
 26
 \change_unchanged
-%) and reviews
+%
+\change_inserted -666822487 1546243712
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546243724
+why the change? It is written 30% I think?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+) and reviews
 \begin_inset CommandInset citation
 LatexCommand supercite
-key "brooker_facilitation_2008"
+key "brooker_facilitation_2008,mcintire2014facilitation"
 literal "false"
 
 \end_inset
 
- [More refs] have highlighted that in fact that facilitation may be much
- more widespread than ecologists usually tend to think.
+
+\change_deleted -666822487 1546242700
+ [More refs]
+\change_unchanged
+ have highlighted that in fact that facilitation may be much more widespread
+ than ecologists usually tend to think.
  Although some theoretical studies suggest that facilitative interactions
  can be destabilizing (sensu resilience) and therefore undermine coexistence
+\change_inserted -666822487 1546244300
+ in Lotka-Volterra models
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "coyte_ecology_2015"
@@ -231,7 +288,17 @@ literal "false"
 
 \end_inset
 
-, many modelling studies
+, 
+\change_deleted -666822487 1546245292
+many 
+\change_inserted -666822487 1546245319
+multiple other 
+\change_unchanged
+modelling 
+\change_deleted -666822487 1546244228
+studies
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "gross_positive_2008"
@@ -239,13 +306,71 @@ literal "false"
 
 \end_inset
 
- [More refs] have suggested that facilitative interactions can to a large
- degree benefit coexistence.
+ 
+\change_deleted -666822487 1546244222
+[More refs]
+\change_inserted -666822487 1546244243
+and empirical
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "brooker_facilitation_2008,cavieres2009facilitative"
+literal "false"
+
+\end_inset
+
+ studies
+\change_unchanged
+ have suggested that facilitative interactions can to a large degree benefit
+ coexistence
+\change_inserted -666822487 1546245231
+, especially when multiple interaction types are considered simultaneously
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "mougi2012diversity,garcia2018effect"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+.
+\change_inserted -666822487 1546245322
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546245359
+We may want to rework a bit eventually this paragraph but I wanted at least
+ to add more of the relevant refs there.
+ 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-Here, we analyse a large dataset of several long-term time series of phytoplankt
-on dynamics along the French coastline 
+Here, we analyse a large
+\change_inserted -666822487 1546245386
+, multi-species
+\change_unchanged
+ dataset 
+\change_inserted -666822487 1546245402
+consisting 
+\change_unchanged
+of several 
+\change_inserted -666822487 1546245423
+multivariate 
+\change_unchanged
+long-term time series of phytoplankton dynamics along the French coastline
+ 
 \begin_inset Note Note
 status open
 
@@ -256,8 +381,13 @@ it would be fantastic if we could make the coastline appear in the Fig.
 
 \end_inset
 
-, using statistical time series models allowing for interactions between
- groups.
+, 
+\change_deleted -666822487 1546245434
+using
+\change_inserted -666822487 1546245438
+which we then analyze using
+\change_unchanged
+ statistical time series models allowing for interactions between groups.
  
 \begin_inset Note Note
 status open
@@ -283,7 +413,7 @@ Results and discussion
 
 \begin_layout Standard
 Using MAR(1) autoregressive models, we have produced interaction matrices
- – Jacobian community matrices on the logarithmic scale
+ – i.e., Jacobian community matrices on the logarithmic scale
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -294,8 +424,6 @@ literal "false"
  – that have two main features.
  First, we observe a strong self-regulation for all sites (Fig.
  
-\change_inserted -2100369821 1545407667
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Interaction-matrices"
@@ -305,16 +433,9 @@ noprefix "false"
 
 \end_inset
 
-
-\change_deleted -2100369821 1545407648
-1
-\change_unchanged
-, diagonal elements of all matrices), a feat
-\change_inserted -2100369821 1545407677
-ure
-\change_unchanged
- that we have highlighted on a previous, more detailed analysis on one of
- the considered study sites only
+, diagonal elements of all matrices), a feature that we have highlighted
+ in a previous, more detailed analysis on one of the considered study sites
+ only
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -324,49 +445,105 @@ literal "false"
 
 .
  Second, although the percentage of facilitative interactions seem to vary
- among sites 
-\change_deleted -2100369821 1545407689
-[insert percentages here]
-\change_inserted -2100369821 1545407838
-(between 40% and 71%
+ among sites (between 40% and 71%
+\change_inserted -666822487 1546245572
+ of interactions in the selected models
+\change_unchanged
+
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1545408031
 This will be a recurring remark, but here, numbers correspond to the interaction
 s we actually estimate.
  Should we count the 0, lowering this %? -I'm thinking this numbers are
  so high they might trigger reviewers...
+
+\change_inserted -666822487 1546245593
+ No, it is OK, these are not even only significant numbers but the model
+ that are selected.
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
-)
+), we have found that 
+\change_inserted -666822487 1546245610
+the percentage of mutualism
+\change_deleted -666822487 1546245604
+it
 \change_unchanged
-, we have found that it is substantial for all sites: contrary to our initial
- expectations, commensalism (the interactions are rarely two-way mutualism
- [check]
+ is substantial for all sites: contrary to our initial expectations, commensalis
+m (the interactions are rarely two-way mutualism [check]
 \change_inserted -2100369821 1545407824
 [Will do]
+\change_inserted -666822487 1546245642
+[Please do ;)]
 \change_unchanged
 ) seems to be the rule rather than the exception.
 
 \change_inserted -2100369821 1545408144
- This high percentage of positive interactions remains present within a
- whole region: consensus on positive interactions varies between 30% and
- 53% and is higher than the percentage of negative interactions, except
- for sites in the Mediterranean Sea.
+ 
+\change_inserted -666822487 1546245757
+Our observational setup being nested, with sites within regions, we can
+ examine whether locally positive interactions remain positive in a regional
+ context
+\change_deleted -666822487 1546245699
+This high percentage of positive interactions remains present within a whole
+ region
+\change_inserted -2100369821 1545408144
+: 
+\change_deleted -666822487 1546245762
+consensus
+\change_inserted -666822487 1546245764
+the percentage of 
+\change_deleted -666822487 1546245766
+ on 
+\change_inserted -666822487 1546245773
+consistently 
+\change_inserted -2100369821 1545408144
+positive interactions 
+\change_inserted -666822487 1546245778
+at the regional level 
+\change_inserted -2100369821 1545408144
+varies between 30% and 53%
+\change_deleted -666822487 1546245788
+ and
+\change_inserted -666822487 1546245789
+, which
+\change_inserted -2100369821 1545408144
+ is 
+\change_inserted -666822487 1546245791
+always 
+\change_inserted -2100369821 1545408144
+higher than the percentage of 
+\change_inserted -666822487 1546245811
+similarly defined 
+\change_inserted -2100369821 1545408144
+negative interactions, except for sites in the Mediterranean Sea.
+\change_inserted -666822487 1546245821
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546245838
+On discutera ensemble si jamais j'ai altéré le sens de ce que tu voulais
+ dire.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1545036832
 \begin_inset Float figure
 wide false
 sideways false
@@ -374,8 +551,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\change_inserted -2100369821 1545037140
 \begin_inset Graphics
 	filename graphe/biotic_interaction_matrices_MainFig_allin1_v4.pdf
 	lyxscale 75
@@ -387,13 +562,9 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1545036832
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1545407659
 
 \series bold
 Interaction matrices estimated in 10 sites along the French coastline.
@@ -402,34 +573,104 @@ Interaction matrices estimated in 10 sites along the French coastline.
  Four regions are distinguished: Brittany (a), Marennes-Oléron (b), Arcachon
  (d) and the Mediterranean Sea (e).
  Only interactions between clades (pennate and centric diatoms, dinoflagellates,
- other planktonic taxa) are allowed.
- The figure should be read as taxon 
-\begin_inset Formula $i$
-\end_inset
-
- having effect 
-\begin_inset Formula $e_{ji}$
-\end_inset
-
- on taxon 
+ other planktonic taxa) are allowed
+\change_inserted -666822487 1546246176
+, as this is the best fitting model [ref to SI]
+\change_unchanged
+.
+ T
+\change_deleted -666822487 1546245927
+he figure should be read as t
+\change_unchanged
+axon 
 \begin_inset Formula $j$
 \end_inset
 
+ 
+\change_inserted -666822487 1546246030
+(in columns) 
+\change_deleted -666822487 1546245968
+having
+\change_inserted -666822487 1546245969
+has an
+\change_unchanged
+ effect
+\change_deleted -666822487 1546245998
+ 
+\begin_inset Formula $e_{ij}$
+\end_inset
+
+
+\change_inserted -666822487 1546246017
+ illustrated by the bar height
+\change_unchanged
+ on taxon 
+\begin_inset Formula $i$
+\end_inset
+
+
+\change_inserted -666822487 1546246048
+ (in rows)'s growth rate
+\change_unchanged
 .
- We present the community matrix minus the identity matrix (
+ We present the 
+\change_inserted -666822487 1546246064
+log-scale 
+\change_unchanged
+community matrix minus the identity matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
-) for comparability reasons between intra- and inter-group interaction strengths.
+) 
+\change_deleted -666822487 1546246108
+for comparability reasons
+\change_inserted -666822487 1546246121
+because this compares unambigously
+\change_unchanged
+ 
+\change_deleted -666822487 1546246128
+between
+\change_inserted -666822487 1546246131
+the effects of
+\change_unchanged
+ intra- and inter-group interaction
+\change_inserted -666822487 1546246147
+s on population growth rates
+\change_deleted -666822487 1546246138
+ strengths
+\change_unchanged
+.
  The scale for the coefficient values is given at the bottom left of panel
  a).
  95% significance of coefficients was determined by bootstrapping and is
  marked by asterisks (*).
  The composition of planktonic groups is given in the Supplementary Information.
- The ratio of positive interactions in each matrix is given by points in
- c) while the dashed (respectively, dotted) line represents the ratio of
- interactions remaining positive (respectively, negative) in all sites of
- a given region.
+ The 
+\change_deleted -666822487 1546246202
+ratio
+\change_inserted -666822487 1546246204
+fraction
+\change_unchanged
+ of positive interactions in each matrix is given by points in c) while
+ the dashed (resp
+\change_deleted -666822487 1546246221
+ectively,
+\change_inserted -666822487 1546246245
+.,
+\change_unchanged
+ dotted) line represents the ratio of interactions remaining positive (resp
+\change_deleted -666822487 1546246224
+ectively
+\change_inserted -666822487 1546246224
+.
+\change_unchanged
+, negative) 
+\change_inserted -666822487 1546246215
+for
+\change_deleted -666822487 1546246214
+in
+\change_unchanged
+ all sites of a given region.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Interaction-matrices"
@@ -437,14 +678,10 @@ name "fig:Interaction-matrices"
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -468,12 +705,19 @@ status open
 \change_inserted -2100369821 1545408217
 Do we agree on the fact that the system is more stable when the max eigen
  value is closer to 0?
+\change_inserted -666822487 1546246409
+Yes, although in this case it is really to 1 that the numbers should be
+ compared – the max eigen value above 1 in module means unstable.
+ So the lower, the more stable in the figures.
+ 
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
+
+\change_deleted -666822487 1546245851
  
 \change_deleted -2100369821 1545408170
  Neither the percentage of mutualistic interactions nor the complexity metrics
@@ -484,6 +728,39 @@ Do we agree on the fact that the system is more stable when the max eigen
 
 \change_unchanged
  
+\change_inserted -666822487 1546246323
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546246497
+Why did you remove this? You can just replace 
+\begin_inset Quotes eld
+\end_inset
+
+decline
+\begin_inset Quotes erd
+\end_inset
+
+ [of the eigenvalue] by 
+\begin_inset Quotes eld
+\end_inset
+
+increase in stability
+\begin_inset Quotes erd
+\end_inset
+
+ with the percentage of mutualisc interactions, if that's what is bothering
+ you? 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_inserted -2100369821 1544023008
 
 \end_layout
@@ -518,14 +795,25 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1545148681
-
 \series bold
 Relation between stability and complexity of the interaction networks.
 
 \series default
- The maximum modulus of the community matrix eigenvalues approximates the
- stability while complexity is indicated by different network metrics.
+ The maximum modulus of the community matrix eigenvalues 
+\change_deleted -666822487 1546246538
+approximates the stability
+\change_inserted -666822487 1546246550
+indicates stability 
+\emph on
+sensu
+\emph default
+ 
+\change_unchanged
+resilience
+\change_deleted -666822487 1546246600
+ while complexity is indicated by different network metrics
+\change_unchanged
+.
  Each point color corresponds to a given region.
  Metrics formula for weighted connectance and linkage density are given
  in the Supplementary Information.
@@ -534,11 +822,7 @@ Relation between stability and complexity of the interaction networks.
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1544448994
 Or are they? 'Cause they are pretty big, and already well described
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -550,8 +834,6 @@ name "fig:Stability-community"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -566,12 +848,6 @@ name "fig:Stability-community"
 
 
 \change_deleted -2100369821 1544023070
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -2100369821 1544023069
 
 \end_layout
 
@@ -592,24 +868,28 @@ literal "false"
  We defined two scores, vulnerability (summed effect of others on the focal
  species growth rate) and generality (summed effect of the focal species
  onto other species growth rates)
-\change_inserted -2100369821 1545408265
-
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1545408274
 Defined in Methods.
- Do we repeat it here?
+ Do we repeat it here? 
+\change_deleted -666822487 1546246658
+NO
+\change_inserted -666822487 1546246703
+Well we repeat it in just that sentence above - keep in mind that the reader
+ must be able to read through precisely 
+\emph on
+without 
+\emph default
+having to go to the Methods first.
+ 
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 .
  Species that were more self-regulating also had also a higher vulnerability
  score, and those two influences are likely to trade-off: a high degree
@@ -661,23 +941,88 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1545148974
-
 \series bold
 Relation between vulnerability/generality and self-regulation.
 
 \series default
- Average vulnerability (a-b) and generality (c-d), as well as self-regulation,
- are computed on raw (a-c) or absolute (b-d) values of the coefficients
- in the community matrix minus the identity matrix (
+ Average vulnerability (
+\change_inserted -666822487 1546246760
+effects of others onto the focal species growth rate, 
+\change_unchanged
+a-b) and generality (
+\change_inserted -666822487 1546246782
+effects of the focal species unto other's growth rates, 
+\change_unchanged
+c-d), as well as self-regulation, are computed 
+\change_deleted -666822487 1546246788
+on
+\change_inserted -666822487 1546246789
+for
+\change_unchanged
+ 
+\change_deleted -666822487 1546246792
+raw
+\change_inserted -666822487 1546246796
+untransformed
+\change_unchanged
+ (a-c) or absolute (b-d) values of the coefficients 
+\change_deleted -666822487 1546246813
+in the community matrix minus the identity
+\change_inserted -666822487 1546246820
+of the interaction
+\change_unchanged
+ matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
-) for 10 different sites.
- Each color corresponds to a given region.
+) for 
+\change_inserted -666822487 1546246837
+the 
+\change_unchanged
+10 
+\change_deleted -666822487 1546246843
+different
+\change_inserted -666822487 1546246843
+study
+\change_unchanged
+ sites.
+ Each color corresponds to a given region
+\change_inserted -666822487 1546246863
+ (see map in SI)
+\change_unchanged
+.
  The p-value of the Pearson correlation between vulnerability (respectively
  generality) and self-regulation is given in the top left of each panel
- and the corresponding slope is given by the black line across scatter plots.
+ and the 
+\change_deleted -666822487 1546246881
+corresponding 
+\change_unchanged
+slope
+\change_inserted -666822487 1546246887
+ of the linear regression
+\change_unchanged
+ is given by the black line across scatter plots.
+\change_inserted -666822487 1546246898
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546246953
+On pourra discuter ensemble de la formulation ici.
+ Dans tous les cas, la corrélation Pearso et la droite de régression ne
+ sont pas directement reliées.
+ 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -703,6 +1048,11 @@ Perhaps we have to dig a little more in the identity of those species there.
  the various sites?
 \change_inserted -2100369821 1545407539
  Noted, searching for a clever way to do this.
+
+\change_inserted -666822487 1546247044
+ -> Take the highest absolute effects, perhaps the species with the highest
+ generality score (which makes me think that perhaps we need a new name
+ for that one...)
 \change_unchanged
 
 \end_layout
@@ -718,13 +1068,47 @@ Aside from these trade-offs, some of which promote some stability (sensu
  matrix elements (other than a mean-variance scaling of interaction coefficients
 , see SI XXX Fig.
  XXX).
- The big finding of our study seems really to be the presence of very large
- niche differences between the species, translating into a much higher intragrou
-p competition, together with a high degree of facilitative net interactions
+ 
+\change_deleted -666822487 1546247115
+The
+\change_inserted -666822487 1546247115
+A
+\change_unchanged
+ 
+\change_deleted -666822487 1546247101
+big
+\change_inserted -666822487 1546247101
+main
+\change_unchanged
+ finding of our study seems 
+\change_deleted -666822487 1546247121
+really
+\change_inserted -666822487 1546247122
+therefore
+\change_unchanged
+ to be the presence of very large niche differences between the species
+\change_inserted -666822487 1546247170
+/genera
+\change_unchanged
+, translating into
+\change_deleted -666822487 1546247149
+ a
+\change_unchanged
+ much higher intragroup
+\change_inserted -666822487 1546247133
+ than intergroup
+\change_unchanged
+ 
+\change_deleted -666822487 1546247154
+competition
+\change_inserted -666822487 1546247157
+effects on growth rates
+\change_unchanged
+, together with a high degree of facilitative net interactions
 \change_inserted -2100369821 1545408427
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -741,6 +1125,8 @@ We may want to add, somewhere, that people tend to exclude these positive
 \change_unchanged
 .
  In our previous publication
+\change_inserted -666822487 1546247218
+ investigating in detail the Arcachon study site
 \change_inserted -2100369821 1545408465
 
 \begin_inset CommandInset citation
@@ -754,17 +1140,55 @@ literal "false"
 \change_deleted -2100369821 1545408460
  [REF]
 \change_unchanged
-, we have argued that those could arise from predation effects that could
- well create apparent mutualism between prey species and strong intragroup
- density-dependence [REFs].
- This is still very much likely here given our new study regions (Oléron,
- Bri
+, we have argued that those
+\change_inserted -666822487 1546247282
+ large niche differences, with strong intra-group density-dependence
+\change_unchanged
+ could arise from predation effects
+\change_inserted -666822487 1546247249
+.
+ 
+\change_deleted -666822487 1546247251
+ that
+\change_inserted -666822487 1546247253
+Predation effects
+\change_unchanged
+ could
+\change_inserted -666822487 1546247260
+ also
+\change_unchanged
+ 
+\change_inserted -666822487 1546247263
+very 
+\change_unchanged
+well create apparent mutualism between prey species
+\change_inserted -666822487 1546247378
+ [REFs - from previous paper]
+\change_deleted -666822487 1546247302
+ and strong intragroup density-dependence [REFs]
+\change_unchanged
+.
+ This is still very much likely here given 
+\change_deleted -666822487 1546247320
+our
+\change_inserted -666822487 1546247320
+the
+\change_unchanged
+ new study regions (Oléron, Bri
 \change_inserted -2100369821 1545408493
 t
 \change_unchanged
-tanny, Mediterranean) could have similar predators
+tanny, Mediterranean) 
+\change_inserted -666822487 1546247328
+added for this study 
+\change_unchanged
+could have similar predators
+\change_inserted -666822487 1546247365
+ (zooplankton [REFs])
 \change_inserted -2100369821 1545408504
  or parasites
+\change_inserted -666822487 1546247359
+ (viruses, fungi [REFs])
 \change_unchanged
 , though there are other possibilities
 \change_inserted -2100369821 1545408537
@@ -781,20 +1205,80 @@ tanny, Mediterranean) could have similar predators
 \begin_layout Standard
 Finally, we have sought to put these results in a broader context by compiling
  the intra vs.
- inter group estimates of previous MAR(1) studies (detailed in Appendix
- XXX).
+ inter group estimates of previous MAR(1) studies 
+\change_inserted -666822487 1546247500
+of long-term observational count data 
+\change_unchanged
+(
+\change_deleted -666822487 1546247406
+detailed
+\change_inserted -666822487 1546247406
+listed
+\change_unchanged
+ in 
+\change_deleted -666822487 1546247413
+Appendix
+\change_inserted -666822487 1546247413
+Table
+\change_unchanged
+ XXX
+\change_inserted -666822487 1546247431
+ in SI
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546247445
+Check how they want to refer to SI and homogeneize
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+).
  We have found that the order of magnitude of intra/inter interaction strengths
  considered here (
 \begin_inset Formula $\approx$
 \end_inset
 
- 10) not particularly below those found for most planktonic systems.
+ 10) 
+\change_inserted -666822487 1546247457
+is 
+\change_unchanged
+not particularly below those found for most planktonic systems
+\change_inserted -666822487 1546247515
+ to which MAR(1) models have been fitted
+\change_unchanged
+.
  We include in Fig.
  4 not only plankton studies but also a couple of vertebrate or insect studies
- on smaller (less diverse) communities were interactions are stronger.
+ on smaller (less diverse) communities
+\change_inserted -666822487 1546247523
+,
+\change_unchanged
+ w
+\change_inserted -666822487 1546247524
+h
+\change_unchanged
+ere interactions are stronger.
  The conclusion from this comparison seems to be that any diverse system
- of competitors and facilitators seem to have evolved large niche differences
- making intragroup competition much higher than intergroup interactions.
+ of competitors and facilitators 
+\change_deleted -666822487 1546247535
+seem to have evolved
+\change_inserted -666822487 1546247537
+has evolved
+\change_unchanged
+ large niche differences making intragroup competition much 
+\change_deleted -666822487 1546247555
+higher
+\change_inserted -666822487 1546247559
+larger in magnitude
+\change_unchanged
+ than intergroup interactions.
  
 \end_layout
 
@@ -823,29 +1307,87 @@ status open
 
 \begin_layout Plain Layout
 
+\series bold
+Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressi
+ve (MAR) models in the ecological literature.
+
 \change_inserted -2100369821 1545149369
 
-\series bold
-Ratio of intra- and inter-group interaction strengths in Multivariate AutoRegres
-sive (MAR) models in the literature.
-
 \series default
- Ratio is given on the log scale and the name of each studies is given in
- the Supplementary Information
+ 
+\change_deleted -666822487 1546247621
+Ratio is given on the log scale and t
+\change_inserted -666822487 1546247621
+T
+\change_inserted -2100369821 1545149369
+he name of each studies
+\change_inserted -666822487 1546247634
+, corresponding to each code,
+\change_inserted -2100369821 1545149369
+ is given in the Supplementary Information
 \change_deleted -2100369821 1545149201
 Intra/intergroup interaction strengths for MAR(1) studie
 \change_inserted -2100369821 1545149209
 .
- T
+ 
+\change_deleted -666822487 1546247703
+T
 \change_deleted -2100369821 1545149201
 s
+\change_deleted -666822487 1546247703
+he shape of each point
+\change_inserted -666822487 1546247714
+The symbol shape
 \change_inserted -2100369821 1545149319
-he shape of each point corresponds to the number of species in the interaction
- matrix and its color corresponds to the sparsity of the community matrix
- (e.g., the proportion of null interactions in the matrix).
- Intergroup interactions were set to 0 when they were not given in the studies
- (most of the time, because they were not deemed significant at the 95%
- threshold).
+ corresponds to the number of species in the interaction matrix
+\change_inserted -666822487 1546247692
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546247697
+Ca a disparu!!
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_deleted -666822487 1546247691
+ 
+\change_inserted -666822487 1546247687
+ 
+\change_inserted -2100369821 1545149319
+and 
+\change_inserted -666822487 1546247723
+the symbol
+\change_deleted -666822487 1546247719
+its
+\change_inserted -2100369821 1545149319
+ color corresponds to the sparsity of the community matrix (e.g., the proportion
+ of null interactions in the matrix).
+ Intergroup interactions were set to 0 when they were not 
+\change_deleted -666822487 1546247794
+given
+\change_inserted -666822487 1546247796
+specified
+\change_inserted -2100369821 1545149319
+ in the 
+\change_deleted -666822487 1546247808
+studies
+\change_inserted -666822487 1546247808
+articles
+\change_inserted -2100369821 1545149319
+ (
+\change_deleted -666822487 1546247774
+most of the time
+\change_inserted -666822487 1546247776
+in most cases
+\change_inserted -2100369821 1545149319
+, because they were not deemed significant at the 95% threshold).
  Last column corresponds to the present study
 \change_unchanged
 .
@@ -873,8 +1415,15 @@ name "fig:meta_ratio"
 \end_layout
 
 \begin_layout Standard
-This dominance of niche differentation is similar to what has been found
- in plant community studies
+This dominance of niche differentation
+\change_inserted -666822487 1546247837
+ in observational plankton studies
+\change_unchanged
+ is similar to what has been 
+\change_inserted -666822487 1546247852
+recently 
+\change_unchanged
+found in plant community studies
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "volkov_patterns_2007,adler_competition_2018"
@@ -882,17 +1431,86 @@ literal "false"
 
 \end_inset
 
-, and might be due to the ghost of the competition past, i.e., selection and
+
+\change_inserted -666822487 1546247861
+.
+\change_deleted -666822487 1546247860
+,
+\change_unchanged
+ 
+\change_deleted -666822487 1546247864
+and 
+\change_inserted -666822487 1546247870
+Large niche differences 
+\change_unchanged
+might be due to the ghost of the competition past, i.e., 
+\change_inserted -666822487 1546247893
+competition has occurred in the past, leading to strong 
+\change_unchanged
+selection and
+\change_inserted -666822487 1546247898
+ subsequent
+\change_unchanged
  evolution leading to progressive niche separation.
  Species have evolved niches that allow them not to compete or to interact
  only weakly (very strong facilitative effects might be likewise destabilizing
+\change_deleted -666822487 1546247937
  [je crois qu'il y a des refs sur les effets non-monotone des interactions
- +, je rechercherai]).
- The predator effects that we highlighted above can be comprised within
- such niche differentation sensu largo: specialized predators can make strong
- conspecific density-dependence emerge [REFs], while switching generalists
- can also promote diversity [REFs, same from Oikos].
- Both predators and resources have often symmetrical effects and can contribute
+ +, je rechercherai]
+\change_inserted -666822487 1546247946
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "coyte_ecology_2015"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+).
+ The 
+\change_inserted -666822487 1546247974
+likely 
+\change_unchanged
+predator effects that we highlighted above c
+\change_deleted -666822487 1546247986
+an
+\change_inserted -666822487 1546247986
+ould
+\change_unchanged
+ be comprised within such niche different
+\change_inserted -666822487 1546247992
+i
+\change_unchanged
+ation sensu largo: specialized predators can make strong conspecific density-dep
+endence emerge [
+\change_inserted -666822487 1546248013
+Janzen-Connell 
+\change_unchanged
+REFs], while switching generalists can also promote diversity
+\change_deleted -666822487 1546248026
+ [REFs, same from Oikos]
+\change_inserted -666822487 1546248076
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "vallina2014maximal"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+.
+ Both predators and resources have often symmetrical effects and can 
+\change_inserted -666822487 1546248091
+therefore 
+\change_unchanged
+contribute
+\change_inserted -666822487 1546248098
+ almost equally
+\change_unchanged
  to niche differentation
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1032,9 +1650,18 @@ Data collection
 
 \begin_layout Standard
 
+\change_deleted -666822487 1546248125
+Data
+\change_inserted -666822487 1546248130
+All phytoplankton counts
 \change_inserted -2100369821 1545403939
-Data were collected for the National Phytoplankton and Phycotoxin Monitoring
- Network (REPHY
+ were collected 
+\change_inserted -666822487 1546248134
+as part of
+\change_deleted -666822487 1546248133
+for
+\change_inserted -2100369821 1545403939
+ the National Phytoplankton and Phycotoxin Monitoring Network (REPHY
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "REPHY_db"
@@ -1047,21 +1674,98 @@ literal "false"
  coastline to be sampled every 2 weeks within 2 hours of high tide to determine
  both biotic (phytoplankton counts) and abiotic (water temperature, salinity)
  parameters.
- We chose to focus on sites which had been sampled at least 10 years after
- 1996, whan methods were standardized among sites.
+ We 
+\change_deleted -666822487 1546248152
+chose to focus
+\change_inserted -666822487 1546248153
+focused
+\change_inserted -2100369821 1545403939
+ on sites 
+\change_deleted -666822487 1546248158
+which
+\change_inserted -666822487 1546248159
+that
+\change_inserted -2100369821 1545403939
+ had been sampled at least 10 years after 1996, whan methods
+\change_inserted -666822487 1546248180
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546248181
+?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545403939
+ were standardized among sites.
  We also excluded time series which had missing data for over 6 months or
- more than 20 days, in average, between sampling dates.
- This reduced the number of sampling points to 10 sites in 4 regions (Brittany,
- Marennes-Oléron, Arcachon and the Mediterranean Sea; a map is shown in
- the Supplementary Information).
+ more than 20 days
+\change_inserted -666822487 1546248234
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546248297
+Not sure I get it here, if we remove everything that has no data >20 days
+ by definition we also remove 6 months, you mean 
+\begin_inset Quotes eld
+\end_inset
+
+20 consecutive days
+\begin_inset Quotes erd
+\end_inset
+
+? 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545403939
+, 
+\change_deleted -666822487 1546248229
+in
+\change_inserted -666822487 1546248230
+on
+\change_inserted -2100369821 1545403939
+ average, between sampling dates.
+ This reduced the number of 
+\change_deleted -666822487 1546248323
+sampling points
+\change_inserted -666822487 1546248325
+study sites
+\change_inserted -2100369821 1545403939
+ to 10 sites 
+\change_inserted -666822487 1546248332
+nested with
+\change_inserted -2100369821 1545403939
+in 4 regions (Brittany, Marennes-Oléron, Arcachon and the Mediterranean
+ Sea; a map is shown in the Supplementary Information).
 \end_layout
 
 \begin_layout Standard
 
 \change_inserted -2100369821 1545404010
-Abiotic parameters were measured directly from the boat during the sampling
- process while water samples for biotic analyses were fixed with a Lugol's
- solution and examined later.
+Abiotic 
+\change_deleted -666822487 1546248346
+parameters
+\change_inserted -666822487 1546248368
+variables (temperature, salinity)
+\change_inserted -2100369821 1545404010
+ were measured directly from the boat during the sampling process while
+ water samples for biotic analyses were fixed with a Lugol's solution and
+ examined later.
  Phytoplankton cells above 20 μm were identified at the lowest possible
  taxonomic level and counted with the Utermöhl method using an optical microscop
 e
@@ -1075,11 +1779,22 @@ literal "false"
 .
  Throughout the years and sites, more than 600 taxa were identified at different
  taxonomic levels.
- We aggregated them at the genus, or group of genera, level based on previous
- work
+ We aggregated them at the genus
+\change_deleted -666822487 1546248434
+,
+\change_inserted -2100369821 1545404010
+ 
+\change_inserted -666822487 1546248435
+(
+\change_inserted -2100369821 1545404010
+or group of genera
+\change_inserted -666822487 1546248438
+ when not possible)
+\change_inserted -2100369821 1545404010
+, level based on previous work
 \begin_inset CommandInset citation
 LatexCommand supercite
-key "hernandez_farinas_assessing_2015"
+key "hernandez_farinas_assessing_2015,barraquand_coastal_2018"
 literal "false"
 
 \end_inset
@@ -1089,12 +1804,34 @@ literal "false"
 
 \change_unchanged
  
+\change_inserted -666822487 1546248624
+Although the taxonomic resolution used here may seem coarse in comparison
+ to land plants, it is in fact more refined than XX% of the MAR(1) studies
+ of plankton listed in Table XX in the SI.
+ 
+\end_layout
+
+\begin_layout Standard
+
 \change_inserted -2100369821 1545404128
-For each region, we focused on the most abundant and most frequently observed
- genera to avoid most of the gaps in the time series.
+For each region, 
+\change_deleted -666822487 1546248642
+we focused
+\change_inserted -666822487 1546248653
+the MAR(1) analysis focused
+\change_inserted -2100369821 1545404128
+ on the most abundant and most frequently observed genera to avoid most
+ of the gaps in the time series.
  When gaps did not exceed a month, missing values were lineraly interpolated
- and remaining missing values were replaced by a random number between 0
- and half of the lowest observed abundance 
+\change_inserted -666822487 1546248686
+;
+\change_inserted -2100369821 1545404128
+ 
+\change_deleted -666822487 1546248690
+and 
+\change_inserted -2100369821 1545404128
+remaining missing values were replaced by a random number between 0 and
+ half of the lowest observed abundance 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hampton_coalescence_2006"
@@ -1103,19 +1840,30 @@ literal "false"
 \end_inset
 
 .
+
+\change_inserted -666822487 1546248751
+ We tested extensively this and other methods to deal with missing data
+ in a previous publication on a subset of this dataset 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection*
-
-\change_inserted -2100369821 1544370403
 MAR(1) model
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1544435454
-Multivariate autoregressive (MAR) models are often used to determine the
- interspecific interactions and abiotic parameters shaping a community
+Multivariate autoregressive (MAR) models are used to determine the interspecific
+ interactions and abiotic variables shaping a community's dynamics
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -1125,9 +1873,27 @@ literal "false"
 
 .
  They are based on a stochastic, discrete-time Gompertz model which relates
- log-abundance of S species at time t+1 to interactions with the rest of
- the community at time t, and effects of V abiotic variables at time t+1,
- following eq.
+ log-abundance of 
+\begin_inset Formula $S$
+\end_inset
+
+ species at time 
+\begin_inset Formula $t+1$
+\end_inset
+
+ to interactions with the rest of the community at time 
+\begin_inset Formula $t$
+\end_inset
+
+, and effects of 
+\begin_inset Formula $V$
+\end_inset
+
+ abiotic variables at time 
+\begin_inset Formula $t+1$
+\end_inset
+
+, following eq.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1143,8 +1909,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1544370829
 \begin_inset Formula 
 \begin{equation}
 \mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})\label{eq:MAR}
@@ -1156,8 +1920,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1545297384
 where 
 \begin_inset Formula $\mathbf{n}_{\ensuremath{t}}$
 \end_inset
@@ -1296,8 +2058,6 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1545404446
 We used the MARSS package
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1307,6 +2067,8 @@ literal "false"
 \end_inset
 
 , in R, to estimate parameters with a maximum likelihood procedure.
+\change_inserted -2100369821 1545404446
+
 \end_layout
 
 \begin_layout Standard
@@ -1377,8 +2139,90 @@ literal "false"
 .
  
 \change_inserted -2100369821 1545404777
-Furthermore, the use of a slightly less exhaustive data set in the current
- study led to similar results to the ones obtained previously in Arachon
+Furthermore, 
+\change_inserted -666822487 1546249065
+using two abiotic variables in this study rather than the full set of used
+ in Barraquand et al.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+ 
+\change_deleted -666822487 1546248927
+the use of a slightly less exhaustive data set
+\change_inserted -666822487 1546248931
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546248999
+the use of a slightly less exhaustive data set -> the reader cannot understand
+ what you mean by 
+\begin_inset Quotes eld
+\end_inset
+
+exhaustive
+\begin_inset Quotes erd
+\end_inset
+
+ and by 
+\begin_inset Quotes eld
+\end_inset
+
+data set
+\begin_inset Quotes erd
+\end_inset
+
+ here Coralie, you need to make it more explicit: simpler words!! I rephrased.
+ 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545404777
+ 
+\change_deleted -666822487 1546249058
+in the current study 
+\change_inserted -2100369821 1545404777
+led to 
+\change_deleted -666822487 1546249078
+similar
+\change_inserted -666822487 1546249084
+almost identical
+\change_inserted -2100369821 1545404777
+ 
+\change_deleted -666822487 1546249100
+results
+\change_inserted -666822487 1546249119
+estimates 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546249119
+[check]
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545404777
+ to the ones obtained previously in Ar
+\change_inserted -666822487 1546249098
+c
+\change_inserted -2100369821 1545404777
+achon
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -1390,7 +2234,11 @@ literal "false"
  
 \change_unchanged
 We are therefore confident that the MAR(1) models presented here are appropriate
- models
+ 
+\change_deleted -666822487 1546249134
+models
+\change_inserted -666822487 1546249135
+and robust
 \change_inserted -2100369821 1545404773
 .
  In general, MAR(1) models tend to be fairly robust to small deviations
@@ -1406,40 +2254,29 @@ literal "false"
 
 .
  
-\change_deleted -2100369821 1544435911
-;
-\change_inserted -2100369821 1545404773
-[
-\change_deleted -2100369821 1544435916
- 
-\change_unchanged
-for ease of interpretation we also present the connexion between MAR(1)
- model coefficients and a Beverton-Holt model in SI XX
-\change_inserted -2100369821 1545404773
+\change_inserted -666822487 1546249171
 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1544440007
-Will we really?
-\change_unchanged
+\change_inserted -666822487 1546249194
+[for ease of interpretation we also present the connexion between MAR(1)
+ model coefficients and a Beverton-Holt model in SI XX
+\begin_inset Note Note
+status open
 
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546249171
+Will we really?
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
- [see also 
-\change_inserted -2100369821 1545404773
-ref.
+ [see also ref.
  
-\change_deleted -2100369821 1543940331
-Certain et al.
-\change_inserted -2100369821 1545404773
-
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "certain_how_2018"
@@ -1447,52 +2284,158 @@ literal "false"
 
 \end_inset
 
-
+]] F: I put this as a note, we shall see.
+ 
 \change_unchanged
-]
+
+\end_layout
+
+\end_inset
+
+
 \change_inserted -2100369821 1545404773
-]
+
 \end_layout
 
 \begin_layout Standard
 
 \change_inserted -2100369821 1545406935
 In this study, the number of phytoplankton groups, S, varies between region
+\change_inserted -666822487 1546249202
+s
+\change_inserted -2100369821 1545406935
  but we keep the same 2 covariates, i.e.
- water temperature and salinity.
- Therefore, the dimension of the equation system only depends on the (square
- of the) number of phytoplankton groups we study, which ranges between 7
- (Mediterranean Sea) and 14 (Brittany).
+ water temperature and salinity
+\change_inserted -666822487 1546249223
+, that could be measured for all study sites
+\change_inserted -2100369821 1545406935
+.
+ Therefore, the dimension of the 
+\change_deleted -666822487 1546249231
+equation
+\change_inserted -666822487 1546249232
+dynamical
+\change_inserted -2100369821 1545406935
+ system only depends on the (square of the) number of phytoplankton groups
+ we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany).
  The smallest system still requires 70 parameters to be estimated if we
  consider all possible interactions between species.
- Before analyzing these parameters, we wondered if such parameterization
- was necessary and compared different 'interaction scenarios' based on BIC.
- Our null model assumed no interaction between groups of species (diagonal
- interaction matrix) and was compared to four other models.
+ 
+\change_deleted -666822487 1546249261
+Before analyzing these parameters, we wondered if such parameterization
+ was necessary and
+\change_inserted -666822487 1546249282
+To reduce this dimensionality and remove unnecessary parameters, we
+\change_inserted -2100369821 1545406935
+ compared different 
+\change_inserted -666822487 1546249288
+`
+\change_deleted -666822487 1546249286
+'
+\change_inserted -2100369821 1545406935
+interaction scenarios
+\change_inserted -666822487 1546249295
+' 
+\change_deleted -666822487 1546249291
+' 
+\change_inserted -2100369821 1545406935
+based on BIC.
+ 
+\change_deleted -666822487 1546249304
+Our
+\change_inserted -666822487 1546249304
+The
+\change_inserted -2100369821 1545406935
+ null model
+\change_inserted -666822487 1546249321
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546249356
+do we say model or do we say scenario? we have to stick to one wording,
+ correct accordingly
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545406935
+ 
+\change_unchanged
+assumed no interaction between groups of species (diagonal interaction matrix)
+ and was compared to four other models.
  The first model assumed that interactions could only occur between phylogenetic
 ally close organisms, i.e., within a class (namely, diatoms, dinoflagellates,
  and other phytoplanktonic organisms) while the second model further differentia
 ted pennate and centric diatoms.
- The third model considered the inverse hypothesis that only unrelated organisms
- could interact (i.e., a diatom could only interact with a dinoflagellate
- or a cryptophyte, but not with another diatom), and the last model did
- not constrain the interactions at all (full interaction matrix).
- Based on convergent results in all sites (see Supplementary Information),
- we further investigated the second model, hereafter called the pennate-centric
- model.
+ The third model considered the inverse hypothesis
+\change_inserted -666822487 1546249376
+,
+\change_unchanged
+ that only unrelated organisms could interact (i.e., a diatom could only interact
+ with a dinoflagellate or a cryptophyte, but not with another diatom), and
+ the last model did not constrain the interactions at all (full interaction
+ matrix).
+ Based on 
+\change_deleted -666822487 1546249387
+convergent
+\change_inserted -666822487 1546249425
+congruent
+\change_unchanged
+ results 
+\change_inserted -666822487 1546249486
+for
+\change_deleted -666822487 1546249485
+in
+\change_unchanged
+ all sites (see Supplementary Information), we further investigated the
+ second model, hereafter called the pennate-centric model.
+\change_inserted -666822487 1546249506
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546249565
+The sentence work, but why not say more simply that the second scenario/model
+ has lowest BIC for all sites, and was therefore clearly deemed the most
+ parsimonious / therefore had the most support ? 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545406935
+
 \end_layout
 
 \begin_layout Subsection*
 
-\change_inserted -2100369821 1544447707
+\change_deleted -666822487 1546249574
 Interaction matrix analysis
+\change_inserted -666822487 1546249585
+Analysis of interaction strengths
+\change_inserted -2100369821 1544447707
+
 \end_layout
 
 \begin_layout Standard
 
 \change_inserted -2100369821 1545406320
 The community matrix obtained from MAR(1) analyses can be used to determine
- the stability of a system
+ the stability of a 
+\change_inserted -666822487 1546249601
+discrete-time dynamical 
+\change_inserted -2100369821 1545406320
+system
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -1511,6 +2454,8 @@ status open
 \change_inserted -2100369821 1545405941
 We still need to discuss this: isn't it the inverse of stability, in our
  system?
+\change_inserted -666822487 1546249654
+ Relates to the position wrt unity, not zero
 \change_unchanged
 
 \end_layout
@@ -1541,10 +2486,11 @@ Add the formula in SI
 \end_inset
 
 .
- Weighted connectance is a measure of the proportion of realized links,
- taking into account the shape of the flux distribution,while link density
- measures the average proportion and strength of interactions for a given
- species.
+ 
+\change_unchanged
+Weighted connectance is a measure of the proportion of realized links, taking
+ into account the shape of the flux distribution,while link density measures
+ the average proportion and strength of interactions for a given species.
  These metrics are adapted to weighted interaction matrix but cannot accomodate
  for both positive and negative coefficients: we therefore chose to focus
  on the absolute values of these coefficients, which can be linked to their
@@ -1554,13 +2500,9 @@ Add the formula in SI
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1545406558
 Question to myself: are metrics with absolute values, only negative, only
  positive proportional? Related at least? Are the mean intensities related?
  Maybe plot this and add in SI
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -1569,8 +2511,6 @@ Question to myself: are metrics with absolute values, only negative, only
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1545405931
 In addition to these network-level metrics, we also computed the average
  vulnerability (average effect of other taxa on a focal taxon) and generality
  (average effect of a focal taxon on other taxa) and compared these to the
@@ -1579,8 +2519,6 @@ In addition to these network-level metrics, we also computed the average
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1545406256
 For now, this is the mean on non-zero values, which means that vulnerability/gen
 erality is only computed *within* the interaction modulus - within pennate
  diatoms, etc.
@@ -1588,19 +2526,17 @@ erality is only computed *within* the interaction modulus - within pennate
  all the 0 in our sparse matrix (in line with what we do with Fig.4, actually).
  Should we keep it this way, or should we use the whole interaction matrix
  every time? +I'll add the formula when we settle on the right one.
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
 .
  
+\change_inserted -2100369821 1545405931
+
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1545407428
 Finally, we compared our results on self regulation/intraspecific interactions
  v.
  interspecific interactions to other published studies based on the MAR
@@ -1627,15 +2563,44 @@ noprefix "false"
  matrices tended to be more complete (less sparse) than high-dimension matrices
  as these small community matrix were used to study known interaction phenomena
  (observed predation between organisms, for instance).
- There is therefore a positive correlation between sparsity and dimensionality(s
-ee SI).
+ There is therefore a positive correlation between sparsity and dimensionality
+ (see SI).
  The number of parameters to estimate increase as the square of the number
  of interacting groups, leading authors to reduce this set before the estimation
  process.
- While we based our model choice on phylogeny (see above), the typic way
- of reducing the number of estimated parameters is automated and usually
- based on the comaprison of 100 randomly chosen interaction matrices, optimizing
- BIC
+ 
+\change_inserted -2100369821 1545407428
+While we based our model choice on phylogeny (see above), the typic
+\change_inserted -666822487 1546249788
+al
+\change_inserted -2100369821 1545407428
+ 
+\change_deleted -666822487 1546249819
+way of reducing
+\change_inserted -666822487 1546249827
+method used by authors to reduce
+\change_inserted -2100369821 1545407428
+ the number of estimated parameters 
+\change_inserted -666822487 1546249833
+was
+\change_deleted -666822487 1546249833
+is
+\change_inserted -2100369821 1545407428
+ 
+\change_deleted -666822487 1546249801
+automated and
+\change_inserted -666822487 1546249838
+ an automated procedure,
+\change_inserted -2100369821 1545407428
+ usually based on the com
+\change_deleted -666822487 1546249841
+a
+\change_inserted -2100369821 1545407428
+p
+\change_inserted -666822487 1546249842
+a
+\change_inserted -2100369821 1545407428
+rison of 100 randomly chosen interaction matrices, optimizing BIC
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -1644,6 +2609,25 @@ literal "false"
 \end_inset
 
 .
+\change_inserted -666822487 1546249725
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1546249942
+J'ai édité ici parce que l'on veut dire que c'est comme ça que les gens
+ ont fait par le passé, mais pas comme ça que l'on doit faire dans l'idéal,
+ ce que suggérais un peu ta phrase au temps présent.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1545407428
  [This means that, even for high-dimension matrices, we are not comparing
  exactly the same interaction models.
 \begin_inset Note Note
