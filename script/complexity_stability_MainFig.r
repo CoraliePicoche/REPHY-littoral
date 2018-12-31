@@ -7,8 +7,8 @@ source("script/matrix_MAR_clean.r")
 groupe=c("BZ","MO","SU","AR")
 option_model=c("unconstrained","pencen")
 
-results=array(NA,dim=c(10,4,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density"),option_model)) #10 places, 4 indices (max eigen values, positive values, weighted connectance, linkage density), 2 models (pencen and unconstrained)
-
+results=array(NA,dim=c(10,7,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","mutualism","all_neg","predation"),option_model)) #10 places, 4 indices (max eigen values, positive values, weighted connectance, linkage density), 2 models (pencen and unconstrained)
+#There can be no commensalism, at least i we're looking at B[i,j]>0 and B[j,i]==0
 
 id_lieu=0
 id_g=0
@@ -40,6 +40,23 @@ for (g in groupe){
 		ll_abs=networklevel(web=abs(B),index=c("linkage density","weighted connectance"),empty.web=F) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
 		results[id_lieu,"linkage density",option_model[m]]=ll_abs["linkage density"]
 		results[id_lieu,"weighted connectance",option_model[m]]=ll_abs["weighted connectance"]
+		mm=0
+		nn=0
+		pp=0
+		for(j in 2:dim(B)[1]){
+			for(i in 1:(j-1)){
+				if(B[i,j]>0&B[j,i]>0){
+					mm=mm+1
+				}else if((B[i,j]<0&B[j,i]>0)||(B[i,j]>0&B[j,i]<0)){
+					pp=pp+1
+				}else if(B[i,j]<0&B[j,i]<0){
+					nn=nn+1
+				}
+			}
+		}
+		results[id_lieu,"mutualism",option_model[m]]=mm/(sum(B!=0)-dim(B)[1])
+		results[id_lieu,"all_neg",option_model[m]]=nn/(sum(B!=0)-dim(B)[1])
+		results[id_lieu,"predation",option_model[m]]=pp/(sum(B!=0)-dim(B)[1])
 	}
 	}
 }
