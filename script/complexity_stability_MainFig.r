@@ -46,11 +46,11 @@ for (g in groupe){
 		for(j in 2:dim(B)[1]){
 			for(i in 1:(j-1)){
 				if(B[i,j]>0&B[j,i]>0){
-					mm=mm+1
+					mm=mm+2
 				}else if((B[i,j]<0&B[j,i]>0)||(B[i,j]>0&B[j,i]<0)){
-					pp=pp+1
+					pp=pp+2
 				}else if(B[i,j]<0&B[j,i]<0){
-					nn=nn+1
+					nn=nn+2
 				}
 			}
 		}

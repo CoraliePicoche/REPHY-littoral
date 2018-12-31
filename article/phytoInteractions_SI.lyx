@@ -129,6 +129,14 @@ Location of each study site in their region
 \series default
 : Brittany (A), Oléron (B), Arcachon (C) and the Mediterranean Sea (D).
  The common scale of the panels in given in the left corner of D.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Map"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
