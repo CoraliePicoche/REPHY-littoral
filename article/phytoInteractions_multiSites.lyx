@@ -362,7 +362,12 @@ noprefix "false"
 \end_inset
 
 , diagonal elements of all matrices), a feature that we have highlighted
- in a previous, more detailed analysis on one of the considered study sites
+ in a previous, more detailed analysis on one of the considered study 
+\change_deleted -2100369821 1546418291
+sites
+\change_inserted -2100369821 1546418292
+regions
+\change_unchanged
  only
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -381,10 +386,10 @@ literal "false"
 [Will do]
 \change_inserted -666822487 1546245642
 [Please do ;)]
-\change_inserted -2100369821 1546272858
+\change_inserted -2100369821 1546418346
 [Ok, but how? We have on average 32% mutualistic (+/+) interactions, 12%
- detrimental (-/-) interactions and 56% +/- interactions that are rather
- competitive, predatory or parasitic, than commensalist.
+ detrimental (-/-) interactions and 56% +/- interactions that may be rather
+ predatory or parasitic, than commensalist.
  We can't have a +/0 interaction unless we only use significant values.
  It is still true that mutualism is not the rule, though
 \change_unchanged
@@ -427,7 +432,11 @@ Interaction matrices estimated in 10 sites along the French coastline.
  Four regions are distinguished: Brittany (a), Marennes-Oléron (b), Arcachon
  (d) and the Mediterranean Sea (e).
  Only interactions between clades (pennate and centric diatoms, dinoflagellates,
- other planktonic taxa) are allowed, as this is the best fitting model (Fig.
+ other planktonic taxa) are allowed, as this is the best fitting model (
+\change_inserted -2100369821 1546424391
+Supplementary 
+\change_unchanged
+Fig.
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Comparison-of-BIC"
@@ -437,7 +446,11 @@ noprefix "false"
 
 \end_inset
 
- in Supplementary Information).
+
+\change_deleted -2100369821 1546424399
+ in Supplementary Information
+\change_unchanged
+).
  Taxon 
 \begin_inset Formula $j$
 \end_inset
@@ -457,7 +470,27 @@ noprefix "false"
  a).
  95% significance of coefficients was determined by bootstrapping and is
  marked by asterisks (*).
- The composition of planktonic groups is given in the Supplementary Information.
+ The composition of planktonic groups is given in 
+\change_deleted -2100369821 1546424407
+the 
+\change_unchanged
+Supplementary 
+\change_deleted -2100369821 1546424413
+Information
+\change_inserted -2100369821 1546424451
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Group_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+.
  The fraction of positive interactions in each matrix is given by points
  in c) while the dashed (resp., dotted) line represents the ratio of interactions
  remaining positive (resp., negative) for all sites of a given region.
@@ -603,7 +636,17 @@ sensu
  resilience.
  Each point color corresponds to a given region.
  Metrics formula for weighted connectance and linkage density are given
- in the Supplementary Information.
+ in 
+\change_deleted -2100369821 1546424466
+the 
+\change_unchanged
+Supplementary 
+\change_deleted -2100369821 1546424468
+Information
+\change_inserted -2100369821 1546424471
+Section ???
+\change_unchanged
+.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -644,16 +687,23 @@ literal "false"
 .
  We defined two scores, vulnerability (summed effect of others on the focal
  species growth rate) and generality (summed effect of the focal species
- onto other species growth rates) Species that were more self-regulating
- also had also a higher vulnerability score, and those two influences are
- likely to trade-off: a high degree of self-regulation somehow buffers outside
- influences.
+ onto other species growth rates)
+\change_inserted -2100369821 1546418533
+.
+
+\change_unchanged
+ Species that were more self-regulating also had also a higher vulnerability
+ score, and those two influences are likely to trade-off: a high degree
+ of self-regulation somehow buffers outside influences.
  Species that were less self-regulating were also more likely to have a
  broad range of effects onto other species [to interpret this we may also
  need to check that they were more abundant, if so I would say that species
  varying broadly have a higher likelihood to generate effects in other species]
-\change_inserted -2100369821 1545408301
-[Will do]
+\change_inserted -2100369821 1546420330
+[Indeed, less self-regulated species have a higher average abundance; generality
+ also increased weakly with abundance; see abundance_vs_regulation.pdf in
+ 'SI of SI'.
+ Not sure I put it -with a better form- in the SI?]
 \change_unchanged
 .
  It is important to note, however, that these patterns are weak and there
@@ -763,7 +813,6 @@ Perhaps we have to dig a little more in the identity of those species there.
 \change_inserted -2100369821 1546274313
 .
  We'll talk about this, would be easier.
- s
 \change_unchanged
 
 \end_layout
@@ -777,7 +826,9 @@ Perhaps we have to dig a little more in the identity of those species there.
 Aside from these trade-offs, some of which promote some stability (sensu
  invariability), we found no remarkable patterns of covariation between
  matrix elements (other than a mean-variance scaling of interaction coefficients
-, see
+, 
+\change_deleted -2100369821 1546424640
+see
 \change_inserted -2100369821 1546274332
  Supplementary Fig.
  
@@ -813,6 +864,10 @@ We may want to add, somewhere, that people tend to exclude these positive
 .
  In our previous publication investigating in detail the Arcachon study
  site
+\change_inserted -2100369821 1546425908
+s
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -837,8 +892,18 @@ Predation effects
 very 
 \change_unchanged
 well create apparent mutualism between prey species
-\change_inserted -666822487 1546247378
+\change_deleted -2100369821 1546422409
  [REFs - from previous paper]
+\change_inserted -2100369821 1546422401
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "abrams_apparent_1998,barraquand_indirect_2015,de_ruiter_emergent_2017"
+literal "false"
+
+\end_inset
+
+
 \change_deleted -666822487 1546247302
  and strong intragroup density-dependence [REFs]
 \change_unchanged
@@ -864,10 +929,22 @@ could have similar predators
  or parasites
 \change_inserted -666822487 1546247359
  (viruses, fungi [REFs])
+\change_inserted -2100369821 1546425916
+ [one ref per region, for both parasites and predators? Seems weird to me
+ to justify 
+\begin_inset Quotes eld
+\end_inset
+
+there is zooplankton in region X,Y,Z
+\begin_inset Quotes erd
+\end_inset
+
+]
 \change_unchanged
 , though there are other possibilities
-\change_inserted -2100369821 1545408537
- [name them, will do]
+\change_inserted -2100369821 1546423561
+ [in previous paper, we mentioned allelopathy, hydrodynamics...
+ still on?]
 \change_unchanged
 .
 
@@ -995,8 +1072,27 @@ Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressi
 ve (MAR) models in the ecological literature.
 
 \series default
- The name of each studies, corresponding to each code, is given in the Supplemen
-tary Information.
+ The name of each studies, corresponding to each code, is given in 
+\change_deleted -2100369821 1546424487
+the 
+\change_unchanged
+Supplementary 
+\change_deleted -2100369821 1546424489
+Information
+\change_inserted -2100369821 1546424499
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:References_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+.
  The symbol color corresponds to the sparsity of the community matrix (e.g.,
  the proportion of null interactions in the matrix).
  Intergroup interactions were set to 0 when they were not specified in the
@@ -1052,13 +1148,21 @@ literal "false"
 ).
  The likely predator effects that we highlighted above could be comprised
  within such niche differentiation sensu largo: specialized predators can
- make strong conspecific density-dependence emerge [Janzen-Connell 
-\change_deleted -2100369821 1546274591
-REFs
-\change_inserted -2100369821 1546274596
-[add ref]
+ make strong conspecific density-dependence emerge
+\change_inserted -2100369821 1546423955
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "bagchi_pathogens_2014,comita_testing_2014"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1546423932
+ [Janzen-Connell REFs]
 \change_unchanged
-], while switching generalists can also promote diversity
+, while switching generalists can also promote diversity
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "vallina2014maximal"
@@ -1281,8 +1385,24 @@ Not sure I get it here, if we remove everything that has no data >20 days
 \change_unchanged
 .
  This reduced the number of study sites to 10 sites nested within 4 regions
- (Brittany, Marennes-Oléron, Arcachon and the Mediterranean Sea; a map is
- shown in the Supplementary Information).
+ (Brittany, Marennes-Oléron, Arcachon and the Mediterranean Sea; 
+\change_deleted -2100369821 1546424508
+a map is shown in the Supplementary Information
+\change_inserted -2100369821 1546424515
+Supplementary Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Map"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+).
 \end_layout
 
 \begin_layout Standard
@@ -1316,8 +1436,33 @@ literal "false"
  
 \change_inserted -666822487 1546248624
 Although the taxonomic resolution used here may seem coarse in comparison
- to land plants, it is in fact more refined than XX% of the MAR(1) studies
- of plankton listed in Table XX in the SI.
+ to land plants, it is in fact more refined than 
+\change_deleted -2100369821 1546425662
+XX
+\change_inserted -2100369821 1546425684
+75
+\change_inserted -666822487 1546248624
+% of the MAR(1) studies of 
+\change_inserted -2100369821 1546425520
+phyto
+\change_inserted -666822487 1546248624
+plankton listed in 
+\change_deleted -2100369821 1546425531
+Table XX in the SI
+\change_inserted -2100369821 1546425698
+Supplementary Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:References_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ [86% if not taking Barraquand 2018 into account]
+\change_inserted -666822487 1546248624
+.
 
 \change_deleted -2100369821 1546275295
  
@@ -1667,6 +1812,17 @@ status open
 
 \change_inserted -666822487 1546249119
 [check]
+\change_inserted -2100369821 1546420248
+ See table in 
+\begin_inset Quotes eld
+\end_inset
+
+SI of SI
+\begin_inset Quotes erd
+\end_inset
+
+; our conclusions on the ratio intra/inter and % of positive interactions
+ remain unchanged
 \change_unchanged
 
 \end_layout
@@ -1812,8 +1968,29 @@ for
 \change_deleted -666822487 1546249485
 in
 \change_unchanged
- all sites (see Supplementary Information), we further investigated the
- second model, hereafter called the pennate-centric model.
+ all sites (
+\change_deleted -2100369821 1546424527
+see 
+\change_unchanged
+Supplementary 
+\change_deleted -2100369821 1546424530
+Information
+\change_inserted -2100369821 1546424535
+Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparison-of-BIC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+), we further investigated the second model, hereafter called the pennate-centri
+c model.
 \change_inserted -666822487 1546249506
 
 \begin_inset Note Note
@@ -1943,13 +2120,49 @@ Finally, we compared our results on self regulation/intraspecific interactions
  v.
  interspecific interactions to other published studies based on the MAR
  model.
- A list of references is given in the Supplementary Information.
+ A list of references is given in 
+\change_deleted -2100369821 1546424548
+the Supplementary Information
+\change_inserted -2100369821 1546424561
+Supplementary Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:References_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+.
  Authors usually reported only coefficients that were significant at the
  95% threshold, ignoring weak effects.
  We therefore computed the mean interspecific interactions as either the
- mean value of significant coefficients only (see Supplementary Information),
- or the mean value of all coefficients outside of the matrix diagonal, replacing
- missing values by 0 (Fig.
+ mean value of significant coefficients only (
+\change_deleted -2100369821 1546424565
+see 
+\change_unchanged
+Supplementary 
+\change_deleted -2100369821 1546424568
+Information
+\change_inserted -2100369821 1546424582
+Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ratio-of-intra-to-intergroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+), or the mean value of all coefficients outside of the matrix diagonal,
+ replacing missing values by 0 (Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1966,7 +2179,25 @@ noprefix "false"
  as these small community matrix were used to study known interaction phenomena
  (observed predation between organisms, for instance).
  There is therefore a positive correlation between sparsity and dimensionality
- (see SI).
+ (
+\change_deleted -2100369821 1546424607
+see S
+\change_inserted -2100369821 1546424616
+Supplementary Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ratio_meta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1546424611
+I
+\change_unchanged
+).
  The number of parameters to estimate increase as the square of the number
  of interacting groups, leading authors to reduce this set before the estimation
  process.
