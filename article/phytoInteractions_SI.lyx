@@ -1515,9 +1515,9 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Comparison of the BIC of different interaction models
+Comparison of the BIC of different interaction scenarios
 \series default
-, compared to the null model (diagonal interaction matrix, allowing only
+, compared to the null scenario (diagonal interaction matrix, allowing only
  intragroup interactions), for 10 sites in 4 different regions, separated
  by dashed lines (Brittany, Oléron, Arcachon and the Mediterranean Sea).
  Different interaction matrices may allow interactions between all taxa
@@ -1659,8 +1659,60 @@ name "fig:MeanVar"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/abundance_vs_regulation.pdf
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Relation between abundance and self-regulation
+\series default
+ (intra-group interaction coefficients).
+ Mean abundance is computed for each species in each site in 4 regions and
+ intra-group interaction strenghts are the diagonal coefficients of the
+ interaction matrix 
+\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 References for the meta-analysis
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -2272,7 +2324,7 @@ Lake
 \begin_layout Plain Layout
 
 \size footnotesize
-100 
+100
 \end_layout
 
 \end_inset
@@ -3414,8 +3466,8 @@ Inside a bay
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Studies used in Fig.
- 4 in main text and Fig.
+Studies used when comparing |intra|/|inter| ratios in Fig.
+ 4 in main text and Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3426,12 +3478,12 @@ noprefix "false"
 
 \end_inset
 
- in the Supplementary Information.
+.
  T is the approximate number of sampling dates in each time series.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:References_ratio"
+name "tab:Studies"
 
 \end_inset
 
@@ -3440,6 +3492,10 @@ name "tab:References_ratio"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -3483,7 +3539,7 @@ Only significant values are taken into account and missing values in the
  Corresponding studies are described in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:References_ratio"
+reference "tab:Studies"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3545,7 +3601,7 @@ Relation between interaction sparsity and study design
  in studies described in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:References_ratio"
+reference "tab:Studies"
 plural "false"
 caps "false"
 noprefix "false"

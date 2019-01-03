@@ -99,14 +99,41 @@ Strong self-regulation and widespread facilitative interactions between
 \end_layout
 
 \begin_layout Abstract
+
+\change_deleted -2100369821 1546503408
 XXX(introductory paragraph: 150 words)
+\change_inserted -2100369821 1546534071
+Phytoplanktonic communities have long been model systems for coexistence
+ theory.
+ However, their richness, highly variable biomass and reactivity to environmenta
+l variables have hindered the understanding of their dynamics in their natural
+ setting.
+ We analyzed multiple 20-year long recordings of phytoplankton abundance
+ together with hydrodynamics parameters in 10 sites along the French coastline
+ to estimate quantitative interaction networks with multivariate autoregressive
+ models.
+ We showed that a strong self-regulation, at least one order of magnitude
+ higher than interspecific interaction strength, was the main feature of
+ phytoplanktonic community networks.
+ Furthermore, positive effects between phytoplanktonic taxa consituted at
+ least 40% of non-null interactions in all sites, contrary to the competition
+ which is usually expected.
+ These results suggest that strong self-regulation and facilitation should
+ remain a focus in coexistence theory.
+ [125 words/150]
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -2100369821 1546504841
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
+
+\change_deleted -2100369821 1546504833
 We haven't discussed this, but perhaps differences in composition between
  sites can say things about competition that long term time series cannot
  – cf.
@@ -114,10 +141,14 @@ We haven't discussed this, but perhaps differences in composition between
  past vs.
  present.
  Done below, maybe remove this note?
+\change_unchanged
+
 \end_layout
 
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -207,39 +238,7 @@ literal "false"
 
 \end_inset
 
- reported a large number of facilitative interactions (
-\change_deleted -2100369821 1545297172
-30
-\change_inserted -2100369821 1545297172
-26
-\change_unchanged
-%
-\change_inserted -666822487 1546243712
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1546243724
-why the change? It is written 30% I think?
-\change_inserted -2100369821 1546271775
- I used the proportion of facilitative interactions given in paragraph 1
- of Results but can't find it back in Table 2 (it should be 25% if taking
- the responses into account or 32% if taking the effects into account, and
- 28% if taking both); the 30% proportion corresponds to cases with positive
- interspecific interactions AND negative intraspecific interactions.
- But this is indeed a detail and we can as well round to 30%, would avoid
- pbs)
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-) and reviews
+ reported a large number of facilitative interactions (30%) and reviews
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "brooker_facilitation_2008,mcintire2014facilitation"
@@ -380,20 +379,18 @@ literal "false"
  Second, although the percentage of facilitative interactions seem to vary
  among sites (between 40% and 71% of interactions in the selected models),
  we have found that the percentage of mutualism is substantial for all sites:
- contrary to our initial expectations, commensalism (the interactions are
- rarely two-way mutualism [check]
-\change_inserted -2100369821 1545407824
-[Will do]
-\change_inserted -666822487 1546245642
-[Please do ;)]
-\change_inserted -2100369821 1546418346
-[Ok, but how? We have on average 32% mutualistic (+/+) interactions, 12%
- detrimental (-/-) interactions and 56% +/- interactions that may be rather
- predatory or parasitic, than commensalist.
- We can't have a +/0 interaction unless we only use significant values.
- It is still true that mutualism is not the rule, though
+ 
+\change_inserted -2100369821 1546536394
+there are on average 32% of all interactions which are beneficial for both
+ interacting groups, 12% which are detrimental.
+ Remaining interactions can either characterize competitive effects or commensal
+ism.
+\change_deleted -2100369821 1546536401
+contrary to our initial expectations, commensalism (the interactions are
+ rarely two-way mutualism [check][Please do ;)]) seems to be the rule rather
+ than the exception
 \change_unchanged
-) seems to be the rule rather than the exception.
+.
  Our observational setup being nested, with sites within regions, we can
  examine whether locally positive interactions remain positive in a regional
  context: the percentage of consistently positive interactions at the regional
@@ -432,7 +429,13 @@ Interaction matrices estimated in 10 sites along the French coastline.
  Four regions are distinguished: Brittany (a), Marennes-Oléron (b), Arcachon
  (d) and the Mediterranean Sea (e).
  Only interactions between clades (pennate and centric diatoms, dinoflagellates,
- other planktonic taxa) are allowed, as this is the best fitting model (
+ other planktonic taxa) are allowed, as this is the best fitting 
+\change_deleted -2100369821 1546533522
+model
+\change_inserted -2100369821 1546533524
+scenario
+\change_unchanged
+ (
 \change_inserted -2100369821 1546424391
 Supplementary 
 \change_unchanged
@@ -924,27 +927,79 @@ added for this study
 \change_unchanged
 could have similar predators
 \change_inserted -666822487 1546247365
- (zooplankton [REFs])
-\change_inserted -2100369821 1545408504
- or parasites
-\change_inserted -666822487 1546247359
- (viruses, fungi [REFs])
-\change_inserted -2100369821 1546425916
- [one ref per region, for both parasites and predators? Seems weird to me
- to justify 
-\begin_inset Quotes eld
-\end_inset
-
-there is zooplankton in region X,Y,Z
-\begin_inset Quotes erd
-\end_inset
-
-]
+ (zooplankton
 \change_unchanged
-, though there are other possibilities
-\change_inserted -2100369821 1546423561
- [in previous paper, we mentioned allelopathy, hydrodynamics...
- still on?]
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "jamet_zooplankton_2001,moderan_zooplankton_2010,tortajada_network_2012"
+literal "false"
+
+\end_inset
+
+
+\change_inserted -666822487 1546247365
+)
+\change_inserted -2100369821 1546536889
+, parasites
+\change_inserted -666822487 1546247359
+ (viruses
+\change_inserted -2100369821 1546529308
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ory_pelagic_2010"
+literal "false"
+
+\end_inset
+
+
+\change_inserted -666822487 1546247359
+, fungi
+\change_deleted -2100369821 1546529850
+ [REFs]
+\change_inserted -666822487 1546247359
+)
+\change_inserted -2100369821 1546537011
+, or even competitors
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "plus_phytoplankton_2015"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+, though there are other 
+\change_deleted -2100369821 1546537042
+possibilities
+\change_inserted -2100369821 1546537713
+possible drivers of phytoplankton dynamics such as allelopathy
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "felpeto_allelopathy_2018"
+literal "false"
+
+\end_inset
+
+, auxotrophy
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "tang_most_2010"
+literal "false"
+
+\end_inset
+
+ or hydrodynamics
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "levy_role_2018"
+literal "false"
+
+\end_inset
+
+
 \change_unchanged
 .
 
@@ -982,7 +1037,7 @@ XXX
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:References_ratio"
+reference "tab:Studies"
 plural "false"
 caps "false"
 noprefix "false"
@@ -990,24 +1045,8 @@ noprefix "false"
 \end_inset
 
 
-\change_deleted -2100369821 1546274407
+\change_deleted -2100369821 1546536446
  in SI
-\change_inserted -666822487 1546247431
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1546247445
-Check how they want to refer to SI and homogeneize
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_unchanged
 ).
  We have found that the order of magnitude of intra/inter interaction strengths
@@ -1083,7 +1122,7 @@ Information
 Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:References_ratio"
+reference "tab:Studies"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1094,7 +1133,11 @@ noprefix "false"
 \change_unchanged
 .
  The symbol color corresponds to the sparsity of the community matrix (e.g.,
- the proportion of null interactions in the matrix).
+ the proportion of null interactions in the matrix)
+\change_inserted -2100369821 1546533085
+ and the symbol shape corresponds to the number of species taken into account
+\change_unchanged
+.
  Intergroup interactions were set to 0 when they were not specified in the
  articles (in most cases, because they were not deemed significant at the
  95% threshold).
@@ -1453,7 +1496,7 @@ Table XX in the SI
 Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:References_ratio"
+reference "tab:Studies"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1921,8 +1964,12 @@ In this study, the number of phytoplankton groups, S, varies between regions
  consider all possible interactions between species.
  To reduce this dimensionality and remove unnecessary parameters, we compared
  different `interaction scenarios' based on BIC.
- The null model
-\change_inserted -666822487 1546249321
+ The null 
+\change_deleted -2100369821 1546533218
+model
+\change_inserted -2100369821 1546533220
+scenario
+\change_deleted -2100369821 1546533224
 
 \begin_inset Note Note
 status open
@@ -1943,19 +1990,47 @@ do we say model or do we say scenario? we have to stick to one wording,
  
 \change_unchanged
 assumed no interaction between groups of species (diagonal interaction matrix)
- and was compared to four other models.
- The first model assumed that interactions could only occur between phylogenetic
-ally close organisms, i.e., within a class (namely, diatoms, dinoflagellates,
- and other phytoplanktonic organisms) while the second model further differentia
-ted pennate and centric diatoms.
- The third model considered the inverse hypothesis
+ and was compared to four other 
+\change_deleted -2100369821 1546533302
+models
+\change_inserted -2100369821 1546533304
+scenarios
+\change_unchanged
+.
+ The first 
+\change_deleted -2100369821 1546533305
+model
+\change_inserted -2100369821 1546533307
+scenario
+\change_unchanged
+ assumed that interactions could only occur between phylogenetically close
+ organisms, i.e., within a class (namely, diatoms, dinoflagellates, and other
+ phytoplanktonic organisms) while the second 
+\change_deleted -2100369821 1546533311
+model
+\change_inserted -2100369821 1546533312
+scenario
+\change_unchanged
+ further differentiated pennate and centric diatoms.
+ The third 
+\change_deleted -2100369821 1546533314
+model
+\change_inserted -2100369821 1546533316
+scenario
+\change_unchanged
+ considered the inverse hypothesis
 \change_inserted -666822487 1546249376
 ,
 \change_unchanged
  that only unrelated organisms could interact (i.e., a diatom could only interact
  with a dinoflagellate or a cryptophyte, but not with another diatom), and
- the last model did not constrain the interactions at all (full interaction
- matrix).
+ the last 
+\change_deleted -2100369821 1546533320
+model
+\change_inserted -2100369821 1546533321
+scenario
+\change_unchanged
+ did not constrain the interactions at all (full interaction matrix).
  Based on 
 \change_deleted -666822487 1546249387
 convergent
@@ -1989,8 +2064,19 @@ noprefix "false"
 
 
 \change_unchanged
-), we further investigated the second model, hereafter called the pennate-centri
-c model.
+), we further investigated the second 
+\change_deleted -2100369821 1546533326
+model
+\change_inserted -2100369821 1546533327
+scenario
+\change_unchanged
+, hereafter called the pennate-centric 
+\change_deleted -2100369821 1546533328
+model
+\change_inserted -2100369821 1546533333
+scenario
+\change_unchanged
+.
 \change_inserted -666822487 1546249506
 
 \begin_inset Note Note
@@ -2127,7 +2213,7 @@ the Supplementary Information
 Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:References_ratio"
+reference "tab:Studies"
 plural "false"
 caps "false"
 noprefix "false"

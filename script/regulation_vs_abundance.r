@@ -14,7 +14,7 @@ name_species=c("AST","CHA","DIT","GUI","LEP","NIT","PLE","PSE","RHI","SKE","THP"
 
 id_lieu=0
 
-tab_tmp=array(NA,dim=c(10,length(name_species),3),dimnames=list(rep("",10),name_species,c("intra","abundance","mean_effect"))) #10 subsites, 21 species, 
+tab_tmp=array(NA,dim=c(10,length(name_species),4),dimnames=list(rep("",10),name_species,c("intra","abundance","mean_effect","mean_effect_V"))) #10 subsites, 21 species, 
 colo=c()
 for (g in groupe){
         if(g=="BZ"){
@@ -49,14 +49,38 @@ for (g in groupe){
 		for(i in 1:length(sp)){
 	        	tab_tmp[id_lieu,sp[i],"intra"]=B[i,i]
 	        	tab_tmp[id_lieu,sp[i],"mean_effect"]=mean(abs(B_nodiag[B_nodiag[,i]!=0,i]),na.rm=T)
+	        	tab_tmp[id_lieu,sp[i],"mean_effect_V"]=mean(abs(B_nodiag[i,B_nodiag[i,]!=0]),na.rm=T)
 	                tab_tmp[id_lieu,sp[i],"abundance"]=mean(tab[,sp[i]],na.rm=T)
 		}
 	}
 }
 
-pdf("article/graphe/abundance_vs_regulation.pdf")
-par(mfrow=c(2,1))
-plot(log10(tab_tmp[,,"abundance"]),tab_tmp[,,"mean_effect"],pch=16,xlab="",ylab="Mean abs generality",ylim=c(0,0.15))
-plot(log10(tab_tmp[,,"abundance"]),tab_tmp[,,"intra"],pch=16,ylab="Self regulation",xlab="Log10 abundance")
+pdf("article/graphe/abundance_vs_inter.pdf",height=10)
+par(mfrow=c(3,1),mar=c(4,4,1,1))
+plot(log10(tab_tmp[,,"abundance"]),tab_tmp[,,"mean_effect"],pch=16,xlab="",ylab="Mean abs generality",col=colo,xaxt="n")
+y1=c(tab_tmp[,,"mean_effect"])
+x1=c(log10(tab_tmp[,,"abundance"]))
+lm1=lm(y1~x1)
+sumlm1=summary(lm1)
+abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+
+plot(log10(tab_tmp[,,"abundance"]),tab_tmp[,,"mean_effect_V"],pch=16,xlab="",ylab="Mean abs vulnerability",col=colo,xaxt="n")
+y1=c(tab_tmp[,,"mean_effect_V"])
+lm1=lm(y1~x1)
+sumlm1=summary(lm1)
+abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+
+
+plot(log10(tab_tmp[,,"abundance"]),tab_tmp[,,"intra"],pch=16,ylab="Self regulation",xlab="Log10 abundance",col=colo)
+y1=c(tab_tmp[,,"intra"])
+lm1=lm(y1~x1)
+sumlm1=summary(lm1)
+abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
 dev.off()
 
+pdf("article/graphe/abundance_vs_regulation.pdf")
+par(mfrow=c(1,1),mar=c(4.5,4.5,1,1))
+plot(log10(tab_tmp[,,"abundance"]),tab_tmp[,,"intra"],pch=16,ylab="Self regulation",xlab="Log10 abundance",col=colo,cex=2,cex.lab=2,cex.axis=2)
+abline(a=lm1$coefficients[1],b=lm1$coefficients[2])
+legend("topleft",c("Brittany","Oléron","Arcachon","Mediterranean"),col=c("green","darkblue","cyan","darkred"),bty="n",pch=16,cex=1.5)
+dev.off()

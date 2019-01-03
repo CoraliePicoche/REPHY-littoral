@@ -2750,7 +2750,7 @@ Genus
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-References used [TO COMPLETE]
+References used
 \end_layout
 
 \end_inset
@@ -2772,7 +2772,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphe/abundance_vs_regulation.pdf
+	filename graphe/abundance_vs_inter.pdf
 	width 90text%
 
 \end_inset
