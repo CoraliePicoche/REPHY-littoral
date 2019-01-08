@@ -111,3 +111,24 @@ legend(pos,name_places[(j-site+1):(j)],col=colo,pch=16,bty="n",cex=2)
 }
 dev.off()
 
+#Count positive and significant parameters
+var="TEMP"
+signif_val=rep(0,10)
+posi_signif_val=rep(0,10) #POsitive AND significant values
+posi_val=rep(0,10) #Positive values, significant or not
+for(j in 1:10){
+	sp=which(!is.na(tab_value[j,,1]))
+        for(i in 1:length(sp)){
+		if(tab_value_min[j,sp[i],var]*tab_value_min[j,sp[i],var]>0){
+			signif_val[j]=signif_val[j]+1
+			if(tab_value[j,sp[i],var]>0){
+				posi_signif_val[j]=posi_signif_val[j]+1
+			}
+		}
+		if(tab_value[j,sp[i],var]>0){
+			posi_val[j]=posi_val[j]+1
+		}
+	}
+}
+posi_signif_val=posi_signif_val/signif_value
+signif_value=signif_value/10

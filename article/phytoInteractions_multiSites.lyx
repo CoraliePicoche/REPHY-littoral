@@ -102,25 +102,24 @@ Strong self-regulation and widespread facilitative interactions between
 
 \change_deleted -2100369821 1546503408
 XXX(introductory paragraph: 150 words)
-\change_inserted -2100369821 1546534071
-Phytoplanktonic communities have long been model systems for coexistence
- theory.
- However, their richness, highly variable biomass and reactivity to environmenta
-l variables have hindered the understanding of their dynamics in their natural
- setting.
- We analyzed multiple 20-year long recordings of phytoplankton abundance
- together with hydrodynamics parameters in 10 sites along the French coastline
- to estimate quantitative interaction networks with multivariate autoregressive
+\change_inserted -2100369821 1546610920
+The persistence of phytoplanktonic diversity in spite of competition for
+ basic resources has long been a source of wonder and inspiration to ecologists.
+ To sort out, among the many coexistence mechanisms suggested by theory
+ and experiments, which ones actually maintain diversity in natural ecosystems,
+ long-term field studies are paramount.
+ Here, we analyze a large dataset of phytoplankton abundance time series,
+ counted every two weeks over 20 years, at 10 sites along the French coastline.
+ We estimate biotic interactions using dynamic, multispecies autoregressive
  models.
- We showed that a strong self-regulation, at least one order of magnitude
- higher than interspecific interaction strength, was the main feature of
- phytoplanktonic community networks.
- Furthermore, positive effects between phytoplanktonic taxa consituted at
- least 40% of non-null interactions in all sites, contrary to the competition
- which is usually expected.
- These results suggest that strong self-regulation and facilitation should
- remain a focus in coexistence theory.
- [125 words/150]
+ We show that a strong self-regulation, with intraspecific competition strength
+ an order of magnitude higher than interspecific, was a key feature of phytoplan
+ktonic interaction networks.
+ Furthermore, positive net effects between phytoplanktonic taxa constituted
+ at least 40% of non-null interactions in all sites.
+ Both strong self-regulation and widespread net facilitation should therefore
+ be key features of coexistence mechanisms purporting to explain phytoplankton
+ diversity maintenance.
 \change_unchanged
 
 \end_layout

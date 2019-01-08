@@ -101,8 +101,47 @@ Strong self-regulation and widespread facilitative interactions between
  & Barraquand F.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 \start_of_appendix
+Data collection
+\end_layout
+
+\begin_layout Standard
+We analyzed phytoplankton time series from 10 sites, located in 4 regions
+ in France (Supplementary Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Map"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Distance between sites did not exceed 92 km in a region.
+ Phytoplankton dynamics in each site were determined by both interactions
+ within the planktonic communities and environmental parameters which could
+ be partly captured by temperature and salinity (Supplementary Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Site_description"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The mean temperature in each region mostly depended in its latitude while
+ salinity in one can site could be considered as a proxy for terrestrial
+ inputs from rivers, evaporation (mostly for the Mediterranean sea) and
+ variation of sea height due to the tidal regime (mostly for the Atlantic
+ ocean).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -141,666 +180,6 @@ name "fig:Map"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="19" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Code
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Taxa
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-AST
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Asterionella+Asterionellopsis+Asteroplanus
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-CHA
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Chaetoceros
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-CRY
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Cryptophytes
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-DIT
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Ditylum
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-EUG
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Euglenophytes
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-GUI
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Guinardia
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-GYM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Gymnodinium+Gyrodinium
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-LEP
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Leptocylindrus
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-NIT
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Nitzschia+Hantzschia
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PLE
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Pleurosigma+Gyrosigma
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PRO
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Prorocentrum
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PRP
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Protoperidinium+Archaeperidinium+Peridinium
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PSE
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Pseudo-nitzschia
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RHI
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Rhizosolenia+Neocalyptrella
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-SCR
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Scrippsiella+Ensiculifera+Pentapharsodinium+Bysmatrum
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-SKE
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Skeletonema
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-THL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Thalassionema+Lioloma
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-THP
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Thalassiosira+Porosira
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\series bold
-Name and composition of the phytoplanktonic groups used in the paper
-\series default
-, based on 
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "hernandez_farinas_assessing_2015"
-literal "false"
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Group_definition"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1470,7 +849,7 @@ Mediterranean Sea
 \series bold
 Summary of the study site characteristics
 \series default
-, including hhe mean and standard deviation of the two main environmental
+, including the mean and standard deviation of the two main environmental
  parameters (temperature and salinity).
  
 \begin_inset CommandInset label
@@ -1479,8 +858,700 @@ name "tab:Site_description"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Among the 600 taxa which were identified at several taxonomic levels, we
+ focused on the most frequent groups of species and gathered them in taxonomic
+ units previously defined on the REPHY dataset(Supplementary Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Group_definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, according to
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hernandez_farinas_assessing_2015"
+literal "false"
+
+\end_inset
+
+).
+ These taxonomic units, hereafter called 'groups', approximated genera or
+ groups of genera, except for two families in the Arcachon region the euglenophy
+tes and cryptophytes, which were considered abundant enough to be taken
+ into account but could not be identified at a lower taxonomic level with
+ optic microscopy.
+ The dynamics of each group can be see in Fig.
  
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Time-series"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="19" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Taxa
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AST
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Asterionella+Asterionellopsis+Asteroplanus
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CHA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Chaetoceros
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CRY
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Cryptophytes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Ditylum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EUG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Euglenophytes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Guinardia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GYM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Gymnodinium+Gyrodinium
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LEP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Leptocylindrus
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NIT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nitzschia+Hantzschia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PLE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Pleurosigma+Gyrosigma
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PRO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Prorocentrum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PRP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Protoperidinium+Archaeperidinium+Peridinium
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PSE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Pseudo-nitzschia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RHI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Rhizosolenia+Neocalyptrella
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SCR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Scrippsiella+Ensiculifera+Pentapharsodinium+Bysmatrum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SKE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Skeletonema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+THL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Thalassionema+Lioloma
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+THP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Thalassiosira+Porosira
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Name and composition of the phytoplanktonic groups used in the paper
+\series default
+, based on 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hernandez_farinas_assessing_2015"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Group_definition"
 
 \end_inset
 
@@ -1490,6 +1561,92 @@ name "tab:Site_description"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Time series of phytoplanktonic groups in each site
+\series default
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+MAR(1) models
+\end_layout
+
+\begin_layout Standard
+We focused on the most parsimonious community matrices in each site to avoid
+ over-parameterization.
+ Interactions scenarios were compared in each site, based on phylogenetic
+ proximity of each group (see Methods in main paper).
+ The ranking of scenario BIC was remarkably consistent between sites for
+ 3 scenarios among 5 (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparison-of-BIC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+): BIC was lowest for the null scenario, i.e.
+ with no interaction between groups, then minimized by the pennate-centric
+ model which implied interactions only within pennate diatom, centric diatoms
+ or dinoflagellates groups, and no interaction between them.
+ The highest BIC was always reached for the unconstrained scenario, which
+ estimated all interaction strengths.
+ The two other scenarios (diatom-dinoflagellate and inter-group scenarios)
+ differentiated between diatoms and dinoflagellates, to allow interactions
+ within (respectively between) those groups and forbid interactions between
+ (respectively within) them.
+ The diatom-dinoflagellate scenario had a lower BIC than the inter-group
+ scenario in Arcachon and the Mediterranean Sea, and a higher BIC in Brittany
+ and Oléron.
+\end_layout
+
+\begin_layout Standard
+Based on these results, we focused on the pennate-centric scenario to analyze
+ community matrix as they corresponded to the best fitted model which still
+ allowed interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1547,6 +1704,35 @@ name "fig:Comparison-of-BIC"
 \end_layout
 
 \begin_layout Standard
+In additon to the coefficients of the interaction matrix, MAR(1) models
+ allowed us to estimate the effect of environmental variables.
+ Even though these variables are not the focus of this paper, they enable
+ us to take into account the part of the phytoplankton dynamics which did
+ not depend on interactions, such as phenology (temperature, related to
+ insolation) or hydrological changes such as salinity variation (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Abiotic_effects"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Temperature always had a stronger impact than salinity on phytoplanktonic
+ dynamics (XXX proportion of significant).
+ The sign of significant temperature effects on a given species remained
+ the same between regions, except for SKE, which was negatively affected
+ by temperature in Brittany and Marennes-Oléron but positively affected
+ by temperature in the Mediterranean Sea.
+ Significant temperature effects were positive in XX % of the parameters.
+ On the other hand, salinity rarely had a significant effect at the 95%
+ threshold (XX) and it was negative in XX percent of the times in this case.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1600,6 +1786,87 @@ name "fig:Abiotic_effects"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection*
+Network analysis
+\end_layout
+
+\begin_layout Subsubsection*
+Metrics
+\end_layout
+
+\begin_layout Standard
+We characterized each interaction network with 4 quantitative descriptors:
+ the mean and variance of the intra- and intergroup coefficients (i.e., on
+ and off the matrix diagonal) 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+and the 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+linkage density and weighted connectance of 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mathbf{B}–\mathbf{I}$
+\end_inset
+
+.
+ Absolute values of intragroup coefficients were approximately XX times
+ higher than the absolute effects of intergroup interactions while the intragrou
+p interaction's deviation was about XX higher (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:MeanVar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), which is in line with previous results on theoretical matrices showing
+ that richness increased with a decrease in mean and variance of the off-diagona
+l coefficients
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "kokkoris_variability_2002"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1660,6 +1927,23 @@ name "fig:MeanVar"
 \end_layout
 
 \begin_layout Standard
+The intragroup interaction strength could be related to the mean abundance
+ of each species as the most self-regulated species were also the least
+ abundant (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:IntraVAbundance"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1686,36 +1970,416 @@ Relation between abundance and self-regulation
 \series default
  (intra-group interaction coefficients).
  Mean abundance is computed for each species in each site in 4 regions and
- intra-group interaction strenghts are the diagonal coefficients of the
+ intra-group interaction strengths are the diagonal coefficients of the
  interaction matrix 
+\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IntraVAbundance"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Linkage density and weighted connectance were described in ref
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "bersier_quantitative_2002"
+literal "false"
+
+\end_inset
+
+.
+ Linkage density can be defined as the average of vulnerability and generality
+ in the network.
+ More precisely, diversity measures of the interactions from (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $H_{P,k}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+) and to (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $H_{N,k}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+) the phytoplanktonic group 
+\begin_inset Formula $k$
+\end_inset
+
+ can be computed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{N,k}=-\sum_{i=1}^{S}\frac{b_{ik}}{b_{\centerdot k}}\log\left(\frac{b_{ik}}{b_{\centerdot k}}\right)\label{eq:DiversityIn}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{P,k}=-\sum_{i=1}^{S}\frac{b_{ki}}{b_{k\centerdot}}\log\left(\frac{b_{ki}}{b_{k\centerdot}}\right)\label{eq:DiversityOut}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $b_{ik}$
+\end_inset
+
+ is a coefficient of the interaction matrix 
+\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\end_inset
+
+, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $b_{k\centerdot}=\sum_{i=1}^{S}b_{ki}$
+\end_inset
+
+ is the sum of all coefficients over row 
+\begin_inset Formula $k$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+and 
+\begin_inset Formula $S$
+\end_inset
+
+ is the number of species in the network.
+ These indices are then averaged for the whole network as the linkage density
+ 
+\begin_inset Formula $LD$
+\end_inset
+
+ (eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:LD"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+LD=\frac{1}{2}\sum_{k=1}^{S}\frac{b_{\centerdot k}}{b_{\centerdot\centerdot}}H_{N,k}+\sum_{k=1}^{S}\frac{\sum_{l=1}^{S}b_{k\centerdot}}{b_{\centerdot\centerdot}}H_{P,k}\label{eq:LD}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $b_{\centerdot\centerdot}=\sum_{j=1}^{S}\sum_{i=1}^{S}b_{ji}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ is the sum of all coefficients of the interaction matrix 
 \begin_inset Formula $(\mathbf{B}–\textbf{I})$
 \end_inset
 
 .
 \end_layout
 
+\begin_layout Standard
+Weighted connectance 
+\begin_inset Formula $C$
+\end_inset
+
+ is then defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=\frac{LD}{S}\label{eq:Weighted_connectance}
+\end{equation}
+
 \end_inset
 
 
 \end_layout
+
+\begin_layout Standard
+Contrary to linkage density, weighted connectance accounts for the dimension
+ of the interaction matrix and can be used to compare network in different
+ regions, with different dimensions.
+\end_layout
+
+\begin_layout Standard
+In addition to these network-level metrics, we also considered metrics for
+ each phytoplanktonic group.
+ We measured both its vulnerability (mean strength of the interactions that
+ are applied to a group, eq.
+ X) and its impact (mean strength of the interactions the group applied
+ to other groups, eq.) in each network.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+v_{k}=\frac{1}{\sum_{i=1}^{S}(b_{ki}\neq0)}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+i_{k}=\frac{1}{\sum_{i=1}^{S}(b_{ik}\neq0)}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sum_{i=1}^{S}(b_{ki}\neq0)$
+\end_inset
+
+ is the number of interactions which are different from 0 in row k
+\begin_inset Foot
+status open
 
 \begin_layout Plain Layout
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+I'm sure there's a proper way to write it but I can't find it right now
 \end_layout
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsection*
-References for the meta-analysis
+MAR references and analysis
+\end_layout
+
+\begin_layout Standard
+We present here the MAR references we used to compare the effects of intra-
+ and intergroup interactions (Supplementary Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Studies"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, Supplementary Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ratio-of-intra-to-intergroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ We add information on the type of system and dataset used in the study
+ as they tend to be linked with the estimated parameters (Supplementary
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ratio_meta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Mean interaction strengths were computed as the mean absolute value of
+ the coefficients which were deemed significant at the 95% threshold in
+ the B-I matrix.
+ The average value was either computed over the whole matrix (missing values
+ in the matrix, or values which were not significant, were replaced by 0's,
+ see Fig.
+ 4 in the main text) or over the set of non-null coefficient only (Supplementary
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ratio-of-intra-to-intergroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
 wide false
-sideways false
+sideways true
 status open
 
 \begin_layout Plain Layout
@@ -1723,8 +2387,9 @@ status open
 
 \size footnotesize
 \begin_inset Tabular
-<lyxtabular version="3" rows="23" columns="6">
+<lyxtabular version="3" rows="23" columns="7">
 <features tabularvalignment="middle">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1739,7 +2404,7 @@ status open
 
 \series bold
 \size footnotesize
-Code on the plot
+Code
 \end_layout
 
 \end_inset
@@ -1776,6 +2441,18 @@ Dimension
 \series bold
 \size footnotesize
 Type of organisms
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Taxonomic level
 \end_layout
 
 \end_inset
@@ -1863,6 +2540,17 @@ Zooplankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Species and functional groups
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -1928,6 +2616,17 @@ literal "false"
 
 \size footnotesize
 Zooplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Species and functional groups
 \end_layout
 
 \end_inset
@@ -2013,6 +2712,17 @@ Phytoplankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Class
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -2078,6 +2788,17 @@ literal "false"
 
 \size footnotesize
 Zooplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Species
 \end_layout
 
 \end_inset
@@ -2163,6 +2884,17 @@ Functional groups of plankton
 \begin_layout Plain Layout
 
 \size footnotesize
+NA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -2228,6 +2960,17 @@ literal "false"
 
 \size footnotesize
 Taxonomic groups of plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Class
 \end_layout
 
 \end_inset
@@ -2313,6 +3056,18 @@ Plankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Zooplankton v.
+ phytoplankton, size classes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -2378,6 +3133,18 @@ literal "false"
 
 \size footnotesize
 Plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Zooplankton v.
+ phytoplankton, size classes
 \end_layout
 
 \end_inset
@@ -2463,6 +3230,18 @@ Plankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Zooplankton v.
+ phytoplankton, size classes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake with low planktivory
 \end_layout
 
@@ -2528,6 +3307,17 @@ literal "false"
 
 \size footnotesize
 Plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Class (phytoplankton), genus (zooplankton)
 \end_layout
 
 \end_inset
@@ -2613,6 +3403,17 @@ Plankton, growing season
 \begin_layout Plain Layout
 
 \size footnotesize
+Class (phytoplankton), genus (zooplankton)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -2678,6 +3479,17 @@ literal "false"
 
 \size footnotesize
 Plankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Class (phytoplankton), genus (zooplankton)
 \end_layout
 
 \end_inset
@@ -2763,6 +3575,17 @@ Simpler web, plankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Class (phytoplankton), genus (zooplankton)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -2828,6 +3651,17 @@ literal "false"
 
 \size footnotesize
 Ciliates
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Genus and species
 \end_layout
 
 \end_inset
@@ -2913,6 +3747,17 @@ Phytoplankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Genus and species
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Lake
 \end_layout
 
@@ -2978,6 +3823,17 @@ literal "false"
 
 \size footnotesize
 Insects
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Species
 \end_layout
 
 \end_inset
@@ -3063,6 +3919,17 @@ Lynx/Hare
 \begin_layout Plain Layout
 
 \size footnotesize
+Species
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Terrestrial
 \end_layout
 
@@ -3128,6 +3995,17 @@ literal "false"
 
 \size footnotesize
 Fish
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Species
 \end_layout
 
 \end_inset
@@ -3213,6 +4091,17 @@ Phytoplankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Class
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Coastal site
 \end_layout
 
@@ -3278,6 +4167,17 @@ literal "false"
 
 \size footnotesize
 Phytoplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Class
 \end_layout
 
 \end_inset
@@ -3363,6 +4263,17 @@ Phytoplankton
 \begin_layout Plain Layout
 
 \size footnotesize
+Genus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Outside a bay
 \end_layout
 
@@ -3428,6 +4339,17 @@ literal "false"
 
 \size footnotesize
 Phytoplankton
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Genus
 \end_layout
 
 \end_inset
@@ -3555,12 +4477,6 @@ name "fig:Ratio-of-intra-to-intergroup"
 \end_inset
 
 
-\shape italic
- 
-\series bold
-[This graph is not the final one but I'm wondering if we keep it]
-\series default
- 
 \end_layout
 
 \end_inset
