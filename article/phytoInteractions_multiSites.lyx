@@ -339,7 +339,11 @@ Results and discussion
 
 \begin_layout Standard
 Using MAR(1) autoregressive models, we have produced interaction matrices
- – i.e., Jacobian community matrices on the logarithmic scale
+ – i.e., Jacobian 
+\change_deleted -2100369821 1547048850
+community 
+\change_unchanged
+matrices on the logarithmic scale
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -462,7 +466,13 @@ noprefix "false"
 \end_inset
 
  (in rows)'s growth rate.
- We present the log-scale community matrix minus the identity matrix (
+ We present the log-scale 
+\change_deleted -2100369821 1547048856
+community
+\change_inserted -2100369821 1547048858
+interaction
+\change_unchanged
+ matrix minus the identity matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
@@ -630,8 +640,23 @@ status open
 Relation between stability and complexity of the interaction networks.
 
 \series default
- The maximum modulus of the community matrix eigenvalues indicates stability
+ The maximum modulus of the 
+\change_deleted -2100369821 1547048880
+community
+\change_inserted -2100369821 1547048881
+interaction
+\change_unchanged
+ matrix
+\change_inserted -2100369821 1547048888
  
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+
+\change_deleted -2100369821 1547048886
+ 
+\change_unchanged
+eigenvalues indicates stability 
 \emph on
 sensu
 \emph default
@@ -639,14 +664,10 @@ sensu
  Each point color corresponds to a given region.
  Metrics formula for weighted connectance and linkage density are given
  in 
-\change_deleted -2100369821 1546424466
-the 
-\change_unchanged
-Supplementary 
-\change_deleted -2100369821 1546424468
-Information
-\change_inserted -2100369821 1546424471
-Section ???
+\change_deleted -2100369821 1547048374
+the Supplementary Information
+\change_inserted -2100369821 1547048378
+Supplementary Information
 \change_unchanged
 .
  
@@ -688,8 +709,43 @@ literal "false"
 
 .
  We defined two scores, vulnerability (summed effect of others on the focal
- species growth rate) and generality (summed effect of the focal species
- onto other species growth rates)
+ species growth rate
+\change_inserted -2100369821 1547048413
+, Supplementary Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:vulnerability"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+) and 
+\change_deleted -2100369821 1547048393
+generality
+\change_inserted -2100369821 1547048394
+impact
+\change_unchanged
+ (summed effect of the focal species onto other species growth rates
+\change_inserted -2100369821 1547048432
+, Supplementary Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:impact"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+)
 \change_inserted -2100369821 1546418533
 .
 
@@ -748,14 +804,25 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Relation between vulnerability/generality and self-regulation.
+Relation between vulnerability/
+\change_deleted -2100369821 1547048605
+generality
+\change_inserted -2100369821 1547048606
+impact
+\change_unchanged
+ and self-regulation.
 
 \series default
  Average vulnerability (effects of others onto the focal species growth
- rate, a-b) and generality (effects of the focal species unto other's growth
- rates, c-d), as well as self-regulation, are computed for untransformed
- (a-c) or absolute (b-d) values of the coefficients of the interaction matrix
- (
+ rate, a-b) and 
+\change_deleted -2100369821 1547048611
+generality
+\change_inserted -2100369821 1547048611
+impact
+\change_unchanged
+ (effects of the focal species unto other's growth rates, c-d), as well
+ as self-regulation, are computed for untransformed (a-c) or absolute (b-d)
+ values of the coefficients of the interaction matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
@@ -779,9 +846,14 @@ see map in SI
 \change_unchanged
 ).
  The p-value of the Pearson correlation between vulnerability (respectively
- generality) and self-regulation is given in the top left of each panel
- and the slope of the linear regression is given by the black line across
- scatter plots.
+ 
+\change_deleted -2100369821 1547048624
+generality
+\change_inserted -2100369821 1547048625
+impact
+\change_unchanged
+) and self-regulation is given in the top left of each panel and the slope
+ of the linear regression is given by the black line across scatter plots.
 \end_layout
 
 \end_inset
@@ -1131,8 +1203,13 @@ noprefix "false"
 
 \change_unchanged
 .
- The symbol color corresponds to the sparsity of the community matrix (e.g.,
- the proportion of null interactions in the matrix)
+ The symbol color corresponds to the sparsity of the 
+\change_deleted -2100369821 1547048802
+community
+\change_inserted -2100369821 1547048805
+interaction
+\change_unchanged
+ matrix (e.g., the proportion of null interactions in the matrix)
 \change_inserted -2100369821 1546533085
  and the symbol shape corresponds to the number of species taken into account
 \change_unchanged
@@ -1537,6 +1614,9 @@ literal "false"
 
 .
 
+\change_inserted -2100369821 1547049230
+ All time series were scaled and centered before MAR analyses.
+ 
 \change_deleted -2100369821 1546275295
  
 \change_unchanged
@@ -2103,8 +2183,14 @@ Analysis of interaction strengths
 \end_layout
 
 \begin_layout Standard
-The community matrix obtained from MAR(1) analyses can be used to determine
- the stability of a discrete-time dynamical system
+The 
+\change_deleted -2100369821 1547048811
+community
+\change_inserted -2100369821 1547048812
+interaction
+\change_unchanged
+ matrix obtained from MAR(1) analyses can be used to determine the stability
+ of a discrete-time dynamical system
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -2176,9 +2262,43 @@ Question to myself: are metrics with absolute values, only negative, only
 
 \begin_layout Standard
 In addition to these network-level metrics, we also computed the average
- vulnerability (average effect of other taxa on a focal taxon) and generality
- (average effect of a focal taxon on other taxa) and compared these to the
- regulation a focal species exerted on itself
+ vulnerability (average effect of other taxa on a focal taxon
+\change_inserted -2100369821 1547048678
+, Supplementary Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:vulnerability"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+) and 
+\change_deleted -2100369821 1547048648
+generality
+\change_inserted -2100369821 1547048649
+impact
+\change_unchanged
+ (average effect of a focal taxon on other taxa
+\change_inserted -2100369821 1547048687
+, Supplementary Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:impact"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\change_unchanged
+) and compared these to the regulation a focal species exerted on itself
 \begin_inset Note Note
 status open
 
@@ -2261,8 +2381,20 @@ noprefix "false"
 ).
  We should nevertheless mention two biases in this comparison: low-dimension
  matrices tended to be more complete (less sparse) than high-dimension matrices
- as these small community matrix were used to study known interaction phenomena
- (observed predation between organisms, for instance).
+ as these small 
+\change_deleted -2100369821 1547048820
+community
+\change_inserted -2100369821 1547048823
+interaction
+\change_unchanged
+ matri
+\change_deleted -2100369821 1547048838
+x
+\change_inserted -2100369821 1547048838
+ces
+\change_unchanged
+ were used to study known interaction phenomena (observed predation between
+ organisms, for instance).
  There is therefore a positive correlation between sparsity and dimensionality
  (
 \change_deleted -2100369821 1546424607

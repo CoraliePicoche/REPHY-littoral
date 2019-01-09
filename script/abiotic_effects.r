@@ -12,9 +12,9 @@ option_sp="common" #Species are the same
 name_species=c("AST","CHA","DIT","GUI","LEP","NIT","PLE","PSE","RHI","SKE","THP","THL","GYM","PRO","PRP","SCR","CRY","EUG")
 covariate=c("TEMP","SAL")
 
-tab_value=array(NA,dim=c(10,length(name_species),length(covariate))) #10 sites, 18 species, 2 covariates (TEMP and SALI)
-tab_value_min=array(NA,dim=c(10,length(name_species),length(covariate))) #10 sites, 18 species, 2 covariates (TEMP and SALI)
-tab_value_max=array(NA,dim=c(10,length(name_species),length(covariate))) #10 sites, 18 species, 2 covariates (TEMP and SALI)
+tab_value=array(NA,dim=c(10,length(name_species),length(covariate)),dimnames=list(1:10,name_species,covariate)) #10 sites, 18 species, 2 covariates (TEMP and SALI)
+tab_value_min=array(NA,dim=c(10,length(name_species),length(covariate)),dimnames=list(1:10,name_species,covariate)) #10 sites, 18 species, 2 covariates (TEMP and SALI)
+tab_value_max=array(NA,dim=c(10,length(name_species),length(covariate)),dimnames=list(1:10,name_species,covariate)) #10 sites, 18 species, 2 covariates (TEMP and SALI)
 
 id_lieu=0
 colo=c()
@@ -58,7 +58,7 @@ for (g in groupe){
 	}
 }
 
-pdf("article/graphe/abiotic_first_try.pdf",width=15,height=10)
+#pdf("article/graphe/abiotic_first_try.pdf",width=15,height=10)
 for(var in 1:length(covariate)){
 mini=min(c(tab_value_min[,,var]),na.rm=T)
 maxi=max(c(tab_value_max[,,var]),na.rm=T)
@@ -73,9 +73,9 @@ for(i in 1:length(name_species)){
 abline(h=0,lty=2)
 abline(v=seq(0.5,18.5,by=1),lty=2)
 }
-dev.off()
+#dev.off()
 
-pdf("article/graphe/abiotic_second_try.pdf",width=13,height=16)
+#pdf("article/graphe/abiotic_second_try.pdf",width=13,height=16)
 par(mfcol=c(4,2),mar=c(6,5,4,2))
 colo=c("blue","black","red")
 pos="bottomright"
@@ -109,17 +109,18 @@ if(var==1){
 legend(pos,name_places[(j-site+1):(j)],col=colo,pch=16,bty="n",cex=2)
 }
 }
-dev.off()
+#dev.off()
 
 #Count positive and significant parameters
-var="TEMP"
+var="SAL"
 signif_val=rep(0,10)
 posi_signif_val=rep(0,10) #POsitive AND significant values
 posi_val=rep(0,10) #Positive values, significant or not
+val=rep(0,10)
 for(j in 1:10){
 	sp=which(!is.na(tab_value[j,,1]))
         for(i in 1:length(sp)){
-		if(tab_value_min[j,sp[i],var]*tab_value_min[j,sp[i],var]>0){
+		if(tab_value_min[j,sp[i],var]*tab_value_max[j,sp[i],var]>0){
 			signif_val[j]=signif_val[j]+1
 			if(tab_value[j,sp[i],var]>0){
 				posi_signif_val[j]=posi_signif_val[j]+1
@@ -129,6 +130,8 @@ for(j in 1:10){
 			posi_val[j]=posi_val[j]+1
 		}
 	}
+	val[j]=mean(abs(tab_value[j,,var]),na.rm=T)
+	posi_signif_val[j]=posi_signif_val[j]/signif_val[j]
+	signif_val[j]=signif_val[j]/(length(sp))
+	posi_val[j]=posi_val[j]/(length(sp))
 }
-posi_signif_val=posi_signif_val/signif_value
-signif_value=signif_value/10

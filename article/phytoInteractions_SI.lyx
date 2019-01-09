@@ -7,6 +7,7 @@
 \textclass article
 \begin_preamble
 \usepackage{ae,aecompl}
+\usepackage{subfig}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -103,12 +104,11 @@ Strong self-regulation and widespread facilitative interactions between
 
 \begin_layout Subsection*
 \start_of_appendix
-Data collection
+Sampling location
 \end_layout
 
 \begin_layout Standard
-We analyzed phytoplankton time series from 10 sites, located in 4 regions
- in France (Supplementary Fig.
+Study sites are shown on Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -119,26 +119,22 @@ noprefix "false"
 
 \end_inset
 
-).
- Distance between sites did not exceed 92 km in a region.
- Phytoplankton dynamics in each site were determined by both interactions
- within the planktonic communities and environmental parameters which could
- be partly captured by temperature and salinity (Supplementary Table 
+ and details on each site are given in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:Site_description"
+reference "fig:Map"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-).
+.
  The mean temperature in each region mostly depended in its latitude while
  salinity in one can site could be considered as a proxy for terrestrial
- inputs from rivers, evaporation (mostly for the Mediterranean sea) and
+ inputs from rivers, evaporation (mostly for the Mediterranean Sea) and
  variation of sea height due to the tidal regime (mostly for the Atlantic
- ocean).
+ Ocean).
 \end_layout
 
 \begin_layout Standard
@@ -871,45 +867,8 @@ name "tab:Site_description"
 
 \end_layout
 
-\begin_layout Standard
-Among the 600 taxa which were identified at several taxonomic levels, we
- focused on the most frequent groups of species and gathered them in taxonomic
- units previously defined on the REPHY dataset(Supplementary Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Group_definition"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, according to
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "hernandez_farinas_assessing_2015"
-literal "false"
-
-\end_inset
-
-).
- These taxonomic units, hereafter called 'groups', approximated genera or
- groups of genera, except for two families in the Arcachon region the euglenophy
-tes and cryptophytes, which were considered abundant enough to be taken
- into account but could not be identified at a lower taxonomic level with
- optic microscopy.
- The dynamics of each group can be see in Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Time-series"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+\begin_layout Subsection*
+Phytoplankton dynamics
 \end_layout
 
 \begin_layout Standard
@@ -1538,7 +1497,7 @@ Thalassiosira+Porosira
 \begin_layout Plain Layout
 
 \series bold
-Name and composition of the phytoplanktonic groups used in the paper
+Name and composition of the phytoplanktonic groups used in main text
 \series default
 , based on 
 \begin_inset CommandInset citation
@@ -1575,30 +1534,27 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphe/time_series_plankton_site_by_site_most_abundant.pdf
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
 \series bold
-Time series of phytoplanktonic groups in each site
-\series default
-.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Time-series"
-
-\end_inset
-
-
+Time series of the 5 most abundant phytoplanktonic groups in each site.
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1612,12 +1568,9 @@ MAR(1) models
 \end_layout
 
 \begin_layout Standard
-We focused on the most parsimonious community matrices in each site to avoid
- over-parameterization.
- Interactions scenarios were compared in each site, based on phylogenetic
- proximity of each group (see Methods in main paper).
- The ranking of scenario BIC was remarkably consistent between sites for
- 3 scenarios among 5 (Fig.
+We seflected the best model structure based on the BIC.
+ The ranking of scenario BIC was stable between sites for 3 scenarios among
+ 5 (Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1628,25 +1581,19 @@ noprefix "false"
 
 \end_inset
 
-): BIC was lowest for the null scenario, i.e.
- with no interaction between groups, then minimized by the pennate-centric
- model which implied interactions only within pennate diatom, centric diatoms
- or dinoflagellates groups, and no interaction between them.
+): BIC was lowest for the null scenario, then minimized by the pennate-centric
+ scenario.
  The highest BIC was always reached for the unconstrained scenario, which
- estimated all interaction strengths.
- The two other scenarios (diatom-dinoflagellate and inter-group scenarios)
- differentiated between diatoms and dinoflagellates, to allow interactions
- within (respectively between) those groups and forbid interactions between
- (respectively within) them.
- The diatom-dinoflagellate scenario had a lower BIC than the inter-group
+ estimated all interaction coefficients.
+ The diatom-dinoflagellate scenario led to a lower BIC than the inter-group
  scenario in Arcachon and the Mediterranean Sea, and a higher BIC in Brittany
  and Oléron.
 \end_layout
 
 \begin_layout Standard
 Based on these results, we focused on the pennate-centric scenario to analyze
- community matrix as they corresponded to the best fitted model which still
- allowed interactions between groups.
+ interaction matrices as this scenariocorresponded to the best fitted models
+ which still allowed interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1706,10 +1653,9 @@ name "fig:Comparison-of-BIC"
 \begin_layout Standard
 In additon to the coefficients of the interaction matrix, MAR(1) models
  allowed us to estimate the effect of environmental variables.
- Even though these variables are not the focus of this paper, they enable
- us to take into account the part of the phytoplankton dynamics which did
- not depend on interactions, such as phenology (temperature, related to
- insolation) or hydrological changes such as salinity variation (Fig.
+ The parameters associated with these variable reveal abiotic effects such
+ as phenology (temperature, related to insolation) or responses to hydrological
+ changes like salinity variation (Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1721,15 +1667,17 @@ noprefix "false"
 \end_inset
 
 ).
- Temperature always had a stronger impact than salinity on phytoplanktonic
- dynamics (XXX proportion of significant).
+ Overall, temperature tended to have more effect on phytoplankton dynamics
+ than salinity The absolute effect of temperature was on average 3.5 times
+ higher than salinity effects and temperature coefficients were significant
+ at the 95% threshold for 68% of all estimates, as opposed to 16% for salinity
+ effects.
+ Temperature had a positive effect in 80% of the cases while salinity had
+ a negative effect for 66% of all estimates.
  The sign of significant temperature effects on a given species remained
  the same between regions, except for SKE, which was negatively affected
  by temperature in Brittany and Marennes-Oléron but positively affected
  by temperature in the Mediterranean Sea.
- Significant temperature effects were positive in XX % of the parameters.
- On the other hand, salinity rarely had a significant effect at the 95%
- threshold (XX) and it was negative in XX percent of the times in this case.
 \end_layout
 
 \begin_layout Standard
@@ -1843,9 +1791,9 @@ linkage density and weighted connectance of
 \end_inset
 
 .
- Absolute values of intragroup coefficients were approximately XX times
- higher than the absolute effects of intergroup interactions while the intragrou
-p interaction's deviation was about XX higher (Fig.
+ Absolute values of intragroup coefficients were approximately 8 times higher
+ than the absolute effects of intergroup interactions while the intragroup
+ interaction's deviation was about 4 times higher (Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1856,17 +1804,7 @@ noprefix "false"
 
 \end_inset
 
-), which is in line with previous results on theoretical matrices showing
- that richness increased with a decrease in mean and variance of the off-diagona
-l coefficients
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "kokkoris_variability_2002"
-literal "false"
-
-\end_inset
-
-.
+).
 \end_layout
 
 \begin_layout Standard
@@ -1897,7 +1835,7 @@ Relation between mean and variance of the intra- and inter-group interaction
 \series default
 .
  Variance of the coefficient in the interaction matrix 
-\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
  is a function of their mean, for 10 sites in 4 regions, with a model allowing
@@ -1972,7 +1910,7 @@ Relation between abundance and self-regulation
  Mean abundance is computed for each species in each site in 4 regions and
  intra-group interaction strengths are the diagonal coefficients of the
  interaction matrix 
-\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
 .
@@ -2103,7 +2041,7 @@ where
 \end_inset
 
  is a coefficient of the interaction matrix 
-\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
 , 
@@ -2207,7 +2145,7 @@ where
 \noun default
 \color inherit
  is the sum of all coefficients of the interaction matrix 
-\begin_inset Formula $(\mathbf{B}–\textbf{I})$
+\begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
 .
@@ -2243,14 +2181,35 @@ In addition to these network-level metrics, we also considered metrics for
  each phytoplanktonic group.
  We measured both its vulnerability (mean strength of the interactions that
  are applied to a group, eq.
- X) and its impact (mean strength of the interactions the group applied
- to other groups, eq.) in each network.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:vulnerability"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) and its impact (mean strength of the interactions the group applied to
+ other groups, eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:impact"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) in each network.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-v_{k}=\frac{1}{\sum_{i=1}^{S}(b_{ki}\neq0)}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
+v_{k}=\mathnormal{\frac{1}{\mathnormal{\boldsymbol{1_{\mathnormal{b_{ki}\neq0}}}}}}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
 \end{equation}
 
 \end_inset
@@ -2261,7 +2220,7 @@ v_{k}=\frac{1}{\sum_{i=1}^{S}(b_{ki}\neq0)}\sum_{i=1}^{S}b_{ki}\label{eq:vulnera
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-i_{k}=\frac{1}{\sum_{i=1}^{S}(b_{ik}\neq0)}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
+i_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
 \end{equation}
 
 \end_inset
@@ -2287,27 +2246,8 @@ where
 \begin_inset Formula $\sum_{i=1}^{S}(b_{ki}\neq0)$
 \end_inset
 
- is the number of interactions which are different from 0 in row k
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-I'm sure there's a proper way to write it but I can't find it right now
-\end_layout
-
+ is the number of interactions which are different from 0 in row 
+\begin_inset Formula $k$
 \end_inset
 
 .
@@ -4456,8 +4396,38 @@ Only significant values are taken into account and missing values in the
  matrix are not considered (e.g., not replaced by 0 as they are in the main
  text).
  The color of each point is a function of the sparsity of the interaction
- matrix B-I and the relation between the raio and the sparsity of the matrix
- is given in the right panel.
+ matrix 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mathbf{B}–\mathbf{I}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ and the relation between the ratio and the sparsity of the matrix is given
+ in the right panel.
  Corresponding studies are described in Table 
 \begin_inset CommandInset ref
 LatexCommand ref

@@ -62,7 +62,7 @@ for (g in groupe){
 }
 
 
-pdf(paste("./article/graphe/complexity_stability_MainFig_compare_unconstrained_pencen_justB.pdf",sep=""),width=12,height=5)
+pdf(paste("./article/graphe/complexity_stability_MainFig_compare_unconstrained_pencen_justB_log2.pdf",sep=""),width=12,height=5)
 par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
 yli1=min(c(results[,"stability",]))
@@ -87,7 +87,7 @@ points(results[,"linkage density","pencen"],results[,"stability","pencen"],pch=1
 dev.off()
 
 for (m in 1:length(option_model)){
-	pdf(paste("./article/graphe/complexity_stability_MainFig_",option_model[m],"justB.pdf",sep=""),width=12,height=5)
+	pdf(paste("./article/graphe/complexity_stability_MainFig_",option_model[m],"justB_log2.pdf",sep=""),width=12,height=5)
 	par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
 yli1=min(c(results[,"stability",option_model[m]]))
@@ -112,4 +112,4 @@ mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 dev.off()
 }
 
-
+print(results[,'linkage density','pencen'])
