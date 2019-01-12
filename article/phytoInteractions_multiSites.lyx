@@ -99,15 +99,11 @@ Strong self-regulation and widespread facilitative interactions between
 \end_layout
 
 \begin_layout Abstract
-
-\change_deleted -2100369821 1546503408
-XXX(introductory paragraph: 150 words)
-\change_inserted -2100369821 1547136690
 The persistence of phytoplanktonic diversity in spite of competition for
  basic resources has long been a source of wonder and inspiration to ecologists.
- Many coexistence mechanisms have been suggested by theory and experiments
- but long-term field studies are paramount to determine which ones actually
- maintain diversity in natural ecosystems.
+ To sort out, among the many coexistence mechanisms suggested by theory
+ and experiments, which ones actually maintain diversity in natural ecosystems,
+ long-term field studies are paramount.
  Here, we analyze a large dataset of phytoplankton abundance time series,
  counted every two weeks over 20 years, at 10 sites along the French coastline.
  We estimate biotic interactions using dynamic, multispecies autoregressive
@@ -117,29 +113,43 @@ The persistence of phytoplanktonic diversity in spite of competition for
 ktonic interaction networks.
  Furthermore, positive net effects between phytoplanktonic taxa constituted
  at least 40% of non-null interactions in all sites.
- Emphasis should therefore be put on both strong self-regulation and widespread
- net facilitation to explain phytoplankton diversity maintenance.
- (143 words)
+ Both strong self-regulation and widespread net facilitation should therefore
+ be key features of coexistence mechanisms purporting to explain phytoplankton
+ diversity maintenance.
+
+\change_inserted -2100369821 1547310904
+ [New proposition, as we repeat 
+\begin_inset Quotes eld
+\end_inset
+
+key feature
+\begin_inset Quotes erd
+\end_inset
+
+ and likely misuse the verb purport: Both strong self-regulation and widespread
+ net facilitation are therefore necessary to maintain phytoplankton diversity.]
 \change_unchanged
 
 \end_layout
 
 \begin_layout Section*
 Introduction
+\change_inserted -2100369821 1547306552
+
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1547139461
-[Coexistence issue/phyto-specific issue - to emphasis the quality of our
- TS]
+\change_inserted -2100369821 1547306557
+[V1]
 \change_unchanged
+
+\end_layout
+
+\begin_layout Standard
 How species or related genera can coexist together in spite of likely competitio
 n is still one of the main puzzles of community ecology, especially for
- primary producers that seemingly share the same basic resources
-\change_inserted -2100369821 1547138993
- in an homogeneous environment.
- This is the premise of the 'paradox of the phytoplankton'
+ primary producers that seemingly share the same basic resources 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hutchinson_paradox_1961"
@@ -147,20 +157,6 @@ literal "false"
 
 \end_inset
 
-, which has elicited numerous coexistence studies on both marine and terrestrial
- competing organisms[Wilson 2011 /or/ Record 2014, Li&Chesson 2016].
- 
-\change_deleted -2100369821 1547137729
- 
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "hutchinson_paradox_1961"
-literal "false"
-
-\end_inset
-
-
-\change_unchanged
 .
  Many theoretical studies of competition models have shown that competitive
  exclusion is likely in those circumstances
@@ -181,11 +177,7 @@ literal "false"
 \end_inset
 
 .
- 
-\change_inserted -2100369821 1547137720
-[[
-\change_unchanged
-Neutral theory, that in its most basic formulation assumes equal competitive
+ Neutral theory, that in its most basic formulation assumes equal competitive
  abilities 
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -213,35 +205,14 @@ literal "false"
 \end_inset
 
 .
-\change_inserted -2100369821 1547137720
-]]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1547136355
-I'm not sure we need to mention neutral theory; we never write about it
- after, and it's not the point of ther paper.
- I would delete the previous sentence.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_deleted -2100369821 1547139197
- 
-\change_inserted -2100369821 1547139197
+\change_inserted -2100369821 1547306576
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1547139487
-[Structure of the interaction for coexistence, intra >> inter + facilitation
- - maybe in two paragraphs]
+\change_deleted -2100369821 1547139197
+ 
 \change_unchanged
 However, the evidence gathered from plant communities starts to suggest
  that, in fact, niche rather than neutral processes may be paramount, with
@@ -332,10 +303,6 @@ We may want to rework a bit eventually this paragraph but I wanted at least
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1547139226
-[Methods and data]
-\change_unchanged
 Here, we analyse a large, multi-species dataset consisting of several multivaria
 te long-term time series of phytoplankton dynamics along the French coastline
  , which we then analyze using statistical time series models allowing for
@@ -353,6 +320,270 @@ We can mention in the cover letter that we werent sure, after analyzing
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547306863
+[V2] 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1547308344
+Taking most of V1 and trying to expand.
+ Still below the 500-word limit, in case you're wondering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547308360
+How species or related genera can coexist together in spite of likely competitio
+n is still one of the main puzzles of community ecology, especially for
+ primary producers that seemingly share the same basic resources.
+ This is the premise of the well-known ‘paradox of the plankton’
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hutchinson_paradox_1961"
+literal "false"
+
+\end_inset
+
+, which has elicited numerous modeling and experimental studies on both
+ marine and terrestrial communities for nearly half a century
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "wilson_twelve_2011,record_paradox_2014,li_effects_2016"
+literal "false"
+
+\end_inset
+
+.
+ Many theoretical studies of competition models have shown that competitive
+ exclusion is likely in those circumstances
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hardin_competitive_1960,armstrong1980competitive,chesson_updates_2018"
+literal "false"
+
+\end_inset
+
+, unless some special mechanisms involving spatial or temporal variation
+ are at play
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "armstrong1976coexistence,chesson_roles_1997,huisman_biological_2001,li_effects_2016"
+literal "false"
+
+\end_inset
+
+.
+ Meanwhile, even in stable, controlled environment, experimental studies
+ on phytoplankton have led to contradictory results: while some systems
+ could be dominated by only one species
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "titman_ecological_1976,descamps-julien_stable_2005"
+literal "false"
+
+\end_inset
+
+, other communities were able to maintain a certain level of diversity
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "beninca_chaos_2008,burson_competition_2018"
+literal "false"
+
+\end_inset
+
+.
+ The level of competition between persisting species in these experiments
+ is still unclear.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547310798
+Neutral theory
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1547310798
+You've convinced me :)
+\end_layout
+
+\end_inset
+
+, that in its most basic formulation assumes equal competitive abilities
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hubbell_unified_2001"
+literal "false"
+
+\end_inset
+
+ and non-equilibrium coexistence sustained by immigration from a larger
+ pool (but see ref.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "volkov_neutral_2003,volkov_patterns_2007"
+literal "false"
+
+\end_inset
+
+) has been proposed as a solution to explain highly diverse communities
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "hubbell_unified_2001,rosindell2011unified"
+literal "false"
+
+\end_inset
+
+.
+ However, the evidence gathered from plant communities starts to suggest
+ that, in fact, niche rather than neutral processes may be paramount, with
+ intraspecific competition dwarfing interspecific competition in most cases
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_coexistence_2010,adler_competition_2018"
+literal "false"
+
+\end_inset
+
+.
+ To test such conclusions in other systems, the emphasis on self-regulation
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barabas_self-regulation_2017"
+literal "false"
+
+\end_inset
+
+ and on interspecific interactions independently
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "chamberlain_how_2014"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1547309687
+Not just dropping these ref out of the blue; I want to use them after
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ has to be broadened to the relations between interaction strengths.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547309150
+Nonetheless, the accurate quantification of interactions in field-based
+ or in-vitro data can be hindered by other niche-derived hypothesis.
+ One example of this is the frequency of positive interactions in competitive
+ networks.
+ On the one hand, some theoretical studies suggest that facilitative interaction
+s can be destabilizing (sensu resilience) and therefore undermine coexistence
+ in Lotka-Volterra models
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "coyte_ecology_2015"
+literal "false"
+
+\end_inset
+
+, and some field-based analyses may discard them 
+\shape italic
+a priori
+\shape default
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ives_estimating_2003,hampton_sixty_2008"
+literal "false"
+
+\end_inset
+
+.
+ On the other hand, multiple 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "gross_positive_2008"
+literal "false"
+
+\end_inset
+
+ and empirical
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "brooker_facilitation_2008,cavieres2009facilitative,mcintire2014facilitation"
+literal "false"
+
+\end_inset
+
+ studies have suggested that facilitative interactions can to a large degree
+ benefit coexistence, especially when multiple interaction types are considered
+ simultaneously
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "mougi2012diversity,garcia2018effect"
+literal "false"
+
+\end_inset
+
+.
+ This has recently been confirmed by a meta-analysis by Adler et al.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_competition_2018"
+literal "false"
+
+\end_inset
+
+, reporting about 30 % of facilitative interactions.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547308769
+Here, we analyze the structure of 10 different phytoplanktonic interaction
+ networks.
+ We exploit a long-term, multi-species dataset covering most of the French
+ coastline on which we apply multivariate auto-regressive (MAR) models.
+ These statistical methods allow us to take into account both environmental
+ variation and interaction between species and have already been thoroughly
+ tested on this type of data
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ives_estimating_2003,huber_role_2006,barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+.
+ We confirm that intraspecific interactions are much stronger than interspecific
+ interactions and generalize this hypothesis with other data from the same
+ type of system.
+ We also establish that facilitative interactions can dominate our networks.
+ Finally, we consider the characteristic network structure and relations
+ between interaction strengths to better inform coexistence theory.
 \end_layout
 
 \begin_layout Section*
@@ -408,9 +639,9 @@ literal "false"
 
 .
  
-\change_inserted -2100369821 1547118988
-The ratio of mean intragroup effects to intergroup effects varies from XX
- to XX, ignoring coefficients set to 0 in the estimation process.
+\change_inserted -2100369821 1547312084
+The ratio of mean intragroup effects to intergroup effects reaches 9, ignoring
+ coefficients set to 0 in the estimation process.
  
 \change_unchanged
 Second, although the percentage of facilitative interactions seem
@@ -424,20 +655,19 @@ s
 there are on average 32% of all interactions which are beneficial for both
  interacting groups and 12% which are detrimental.
  Remaining interactions can either characterize competitive effects or commensal
-ism.
-\change_deleted -2100369821 1546536401
-contrary to our initial expectations, commensalism (the interactions are
- rarely two-way mutualism [check][Please do ;)]) seems to be the rule rather
- than the exception
+ism
 \change_unchanged
 .
  Our observational setup being nested, with sites within regions, we can
  examine whether locally positive interactions remain positive in a regional
  context: the percentage of consistently positive interactions at the regional
- level varies between 30% and 53%, which is always higher than the percentage
- of similarly defined negative interactions
-\change_inserted -2100369821 1547116975
- (XX and XX)
+ level varies between 30% and 53%, which is 
+\change_deleted -2100369821 1547311556
+always 
+\change_unchanged
+higher than the percentage of similarly defined negative interactions
+\change_inserted -2100369821 1547311553
+ (between 15% and 40%)
 \change_unchanged
 , except for sites in the Mediterranean Sea.
 \end_layout
@@ -622,16 +852,16 @@ noprefix "false"
 )
 \change_deleted -2100369821 1547117136
 .
-\change_inserted -2100369821 1547118801
+\change_inserted -2100369821 1547311878
 , as the maximum modulus of the interaction matrix eigenvalues remained
- between XX and XX.
+ between 0.65 and 0.80.
  Stability seemed to decrease with an increase in positive interactions
  but this was only observed for Mediterranean sites, which were also characteriz
 ed by lower-dimension interaction matrices [and a different ecosystem functionin
 g].
  There was also a slight increase in stability with the increase of weighted
  connectance, with a drop in eigenvalue modulus for weighted connectances
- between XX and XX [add here ref to complexity/stability in literature).
+ between 0.09 and 0.1 [add here ref to complexity/stability in literature?].
  
 \change_deleted -666822487 1546245851
  
