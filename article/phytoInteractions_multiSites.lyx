@@ -11,6 +11,8 @@
 \usepackage{lineno} 
 \usepackage{xr}
 \externaldocument{phytoInteractions_SI}
+
+\linenumbers
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -117,7 +119,7 @@ ktonic interaction networks.
  be key features of coexistence mechanisms purporting to explain phytoplankton
  diversity maintenance.
 
-\change_inserted -2100369821 1547310904
+\change_inserted -2100369821 1547387182
  [New proposition, as we repeat 
 \begin_inset Quotes eld
 \end_inset
@@ -127,7 +129,8 @@ key feature
 \end_inset
 
  and likely misuse the verb purport: Both strong self-regulation and widespread
- net facilitation are therefore necessary to maintain phytoplankton diversity.]
+ net facilitation are therefore central coexistence mechanisms to maintain
+ phytoplankton diversity.]
 \change_unchanged
 
 \end_layout
@@ -333,7 +336,7 @@ status open
 
 \change_inserted -2100369821 1547308344
 Taking most of V1 and trying to expand.
- Still below the 500-word limit, in case you're wondering
+ Still below the 500-word limit
 \end_layout
 
 \end_inset
@@ -409,7 +412,7 @@ literal "false"
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1547310798
+\change_inserted -2100369821 1547376192
 Neutral theory
 \begin_inset Note Note
 status open
@@ -459,37 +462,8 @@ literal "false"
 \end_inset
 
 .
- To test such conclusions in other systems, the emphasis on self-regulation
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "barabas_self-regulation_2017"
-literal "false"
-
-\end_inset
-
- and on interspecific interactions independently
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "chamberlain_how_2014"
-literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1547309687
-Not just dropping these ref out of the blue; I want to use them after
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
- has to be broadened to the relations between interaction strengths.
+ The extant to which such conclusions can be generalized still needs to
+ be quantified on other systems.
 \end_layout
 
 \begin_layout Standard
@@ -588,6 +562,34 @@ literal "false"
 
 \begin_layout Section*
 Results and discussion
+\change_inserted -2100369821 1547386015
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547386017
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1547386545
+Note to myself/CP : we're never clear about what we're looking at.
+ Raw interaction coefficients b_{ij}? Absolute effects |b_{ij}|? Mean of
+ a whole column/row ; or mean of the non-zero coefficients? Why do we look
+ at these ones specifically? We need to define the wording and explain the
+ choice somewhere: beginning of the Results? (boring to begin with, but
+ necessary)
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subparagraph*
@@ -610,7 +612,26 @@ literal "false"
 
 \end_inset
 
- – that have two main features.
+
+\change_inserted -2100369821 1547387269
+, which correspond to a phylogenetic scenario that only allows interaction
+ between close groups (Supplementary Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparison-of-BIC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ This leads to sparse, modular matrices
+\change_deleted -2100369821 1547385844
+ –
+\change_unchanged
+ that have two main features.
  First, we observe a strong self-regulation for all sites (Fig.
  
 \begin_inset CommandInset ref
@@ -639,26 +660,31 @@ literal "false"
 
 .
  
-\change_inserted -2100369821 1547312084
-The ratio of mean intragroup effects to intergroup effects reaches 9, ignoring
- coefficients set to 0 in the estimation process.
- 
-\change_unchanged
+\change_inserted -2100369821 1547385679
+The ratio of mean intragroup effects to intergroup effects varies between
+ 6 and 10, ignoring coefficients set to 0 in the estimation process.
+ If we consider the whole interaction matrix, including coefficients set
+ to 0 in the calculation of the mean effects, this ratio varies between
+ 21 and 43.
+\end_layout
+
+\begin_layout Standard
 Second, although the percentage of facilitative interactions seem
-\change_inserted -2100369821 1547116411
+\change_inserted -2100369821 1547312084
 s
 \change_unchanged
  to vary among sites (between 40% and 71% of interactions in the selected
- models), we have found that the percentage of mutualism is substantial
- for all sites: 
-\change_inserted -2100369821 1547116530
-there are on average 32% of all interactions which are beneficial for both
- interacting groups and 12% which are detrimental.
- Remaining interactions can either characterize competitive effects or commensal
-ism
+ models),
+\change_inserted -2100369821 1547386861
+ facilitation remains predominant in 9 sites out of 10 (Lazaret, in the
+ Mediterranean Sea, has 60% negative interactions).
+
+\change_deleted -2100369821 1547384927
+ we have found that the percentage of mutualism is substantial for all sites:
+ .
+ 
 \change_unchanged
-.
- Our observational setup being nested, with sites within regions, we can
+Our observational setup being nested, with sites within regions, we can
  examine whether locally positive interactions remain positive in a regional
  context: the percentage of consistently positive interactions at the regional
  level varies between 30% and 53%, which is 
@@ -666,10 +692,55 @@ ism
 always 
 \change_unchanged
 higher than the percentage of similarly defined negative interactions
-\change_inserted -2100369821 1547311553
+\change_inserted -2100369821 1547385246
  (between 15% and 40%)
 \change_unchanged
 , except for sites in the Mediterranean Sea.
+\change_inserted -2100369821 1547387436
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547389367
+When interactions are facilitative on both sides, we consider that they
+ are mutualistic.
+ We have found that the percentage of mutualism is substantial for all sites:
+ there are on average 32% of all interactions which are beneficial for both
+ interacting groups while only 12% of them are detrimental.
+ Remaining interactions can either characterize competitive effects or commensal
+ism.
+ The sign correspondence is not maintained between regions: the only interaction
+ that is common to the 10 sites (CHA/SKE) is mutualistic in Men er Roue
+ only and mixed (+/-) in all other sites.
+ At the region scale, however, interaction tends to keep their sign between
+ sites.
+ Although the only consistency in negative interaction is the link between
+ PSE and PLE in both Mediterranean Sea sites, mutualistic interactions hold
+ in more sites.
+ In the 3 sites of Marennes-Oléron, for instance, there were 4 interactions
+ which remained positive on both sides (CHA/GUI, DIT/GUI, LEP/THP, SKE/THP),
+ 3 of them being also mutualistic in some of the Brittany sites.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1547389289
+I can add that CHA/RHI and GUI/RHI are mutualistic in all Brittany + Teychan;
+ CHA LEP is positive in both sites of Arcachon but isn't it tedious?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ Stable mutualistic interactions can only be found between centric diatoms.
+ Other groups either compete with each others or are commensalist.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1673,10 +1744,22 @@ An intriguing new possibility, dubbed the
 \end_inset
 
 ghost of competition
+\change_deleted -2100369821 1547386316
+
 \begin_inset Quotes erd
 \end_inset
 
+
+\change_unchanged
  present
+\change_inserted -2100369821 1547386319
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "tuck_strong_2018"
@@ -1776,7 +1859,34 @@ A final possibility relates to stage structure.
  This may greatly help coexistence by frequent recolonization in the coastal
  and therefore shallow marine habitats that are considered here, and may
  dampen or even hide the possible effects of competition.
+
+\change_deleted -2100369821 1547386272
  
+\change_inserted -2100369821 1547386272
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1547386353
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1547386793
+Note to myself (CP): We still need to develop this Discussion.
+ I didn't have time to do it but I'll be happy to take over.
+ On self-regulation, Barabas 2017 NEE and on different interactions in different
+ sites, Chamberlain 2014 EcoLet + don't forget results from Fox 2010 on
+ the plankton paradox.
+\change_unchanged
+
 \end_layout
 
 \end_inset

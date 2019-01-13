@@ -113,3 +113,4 @@ dev.off()
 }
 
 print(results[,'linkage density','pencen'])
+print(summary(results[,'stability','pencen']))
