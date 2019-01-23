@@ -7,7 +7,7 @@ source("script/matrix_MAR_clean.r")
 groupe=c("BZ","MO","SU","AR")
 option_model=c("unconstrained","pencen")
 
-results=array(NA,dim=c(10,7,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","mutualism","all_neg","predation"),option_model)) #10 places, 4 indices (max eigen values, positive values, weighted connectance, linkage density), 2 models (pencen and unconstrained)
+results=array(NA,dim=c(10,9,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","vulnerability.LL","generality.HL","mutualism","all_neg","predation"),option_model)) #10 places, 4 indices (max eigen values, positive values, weighted connectance, linkage density), 2 models (pencen and unconstrained)
 #There can be no commensalism, at least i we're looking at B[i,j]>0 and B[j,i]==0
 
 id_lieu=0
@@ -37,9 +37,11 @@ for (g in groupe){
 	        B=clean_matrix(cis,diag_bool=F)
 		results[id_lieu,"stability",option_model[m]]=max(Mod(eigen(B)$values))
 		results[id_lieu,"positive",option_model[m]]=(sum(B>0)-dim(B)[1])/(sum(B!=0)-dim(B)[1]) #We only take into account interspecific interactions
-		ll_abs=networklevel(web=abs(B),index=c("linkage density","weighted connectance"),empty.web=F) #At first, I wanted all but 'quantitative' takes a VERY long time to compute
+		ll_abs=networklevel(web=abs(B),index=c("linkage density","weighted connectance","generality"),empty.web=F,logbase='2',level="both") #At first, I wanted all but 'quantitative' takes a VERY long time to compute
 		results[id_lieu,"linkage density",option_model[m]]=ll_abs["linkage density"]
 		results[id_lieu,"weighted connectance",option_model[m]]=ll_abs["weighted connectance"]
+		results[id_lieu,"generality.HL",option_model[m]]=ll_abs["generality.HL"]
+		results[id_lieu,"vulnerability.LL",option_model[m]]=ll_abs["vulnerability.LL"]
 		mm=0
 		nn=0
 		pp=0
@@ -60,7 +62,6 @@ for (g in groupe){
 	}
 	}
 }
-
 
 pdf(paste("./article/graphe/complexity_stability_MainFig_compare_unconstrained_pencen_justB_log2.pdf",sep=""),width=12,height=5)
 par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
@@ -112,5 +113,29 @@ mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 dev.off()
 }
 
+for (m in 1:length(option_model)){
+        pdf(paste("./article/graphe/genvul_stability_FYI_",option_model[m],"justB_log2.pdf",sep=""),width=12,height=5)
+        par(mfrow=c(1,2),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
+
+yli1=min(c(results[,"stability",option_model[m]]))
+yli2=max(c(results[,"stability",option_model[m]]))
+
+xli1=min(c(results[,"generality.HL",option_model[m]]))
+xli2=max(c(results[,"generality.HL",option_model[m]]))
+plot(results[,"generality.HL",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="generality",ylab="",cex.axis=2,cex.lab=2,tck=-0.0075)
+mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+
+xli1=min(c(results[,"vulnerability.LL",option_model[m]]))
+xli2=max(c(results[,"vulnerability.LL",option_model[m]]))
+plot(results[,"vulnerability.LL",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="vulnerability",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+
+dev.off()
+}
+
+
+
 print(results[,'linkage density','pencen'])
 print(summary(results[,'stability','pencen']))
+print(results[,'vulnerability.LL','pencen'])
+print(results[,'generality.HL','pencen'])

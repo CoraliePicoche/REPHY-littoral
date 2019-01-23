@@ -1,0 +1,8 @@
+Things I'd like to check:
+- compute the 'real' generality and vulnerability for each matrix. Is there a link with stability?
+- compute mean N and P at different sites: are we limited?
+- have a look at networklevel in package bipartite: does not seem to take into account the change in log-base
+- compute CV=\frac{\sigma}{\mu} for each interaction
+- Taxonomic level in SI
+- % abundance we take into account at each site
+- is there a difference in the ratio intra/inter or mean(effect) in the different modulus (for example, do dinoflagellates interact more with each other than the diatoms? Do they have a stronger self-regulation?)
