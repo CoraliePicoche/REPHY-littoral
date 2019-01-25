@@ -14,7 +14,7 @@ option_sp="common" #Species are the same
 take0=FALSE
 only_signif=FALSE
 
-methods=c("intra_mean","intra_var","inter_mean_abs","inter_mean_raw","inter_var_raw","inter_var_abs")
+methods=c("intra_mean","intra_var","intra_cv","inter_mean_abs","inter_mean_raw","inter_var_raw","inter_var_abs","inter_cv_raw","inter_cv_abs")
 
 id_lieu=0
 
@@ -61,6 +61,7 @@ for (g in groupe){
 			
 			tab_value[id_lieu,"intra_mean"]=mean(diag(B))
 			tab_value[id_lieu,"intra_var"]=var(diag(B))
+			tab_value[id_lieu,"intra_cv"]=mean(diag(B),na.rm=T)/sd(diag(B),na.rm=T)
 			if(!take0){
 				B_nodiag[B_nodiag==0]=NA
 			}
@@ -68,6 +69,8 @@ for (g in groupe){
 			tab_value[id_lieu,"inter_mean_raw"]=mean(c(B_nodiag),na.rm=T)
 			tab_value[id_lieu,"inter_var_raw"]=var(c(B_nodiag),na.rm=T)
 			tab_value[id_lieu,"inter_var_abs"]=var(c(abs(B_nodiag)),na.rm=T)
+			tab_value[id_lieu,"inter_cv_abs"]=mean(c(abs(B_nodiag)),na.rm=T)/sd(c(abs(B_nodiag)),na.rm=T)
+			tab_value[id_lieu,"inter_cv_raw"]=mean(c(B_nodiag),na.rm=T)/sd(c(B_nodiag),na.rm=T)
 		}
 }
 

@@ -2016,7 +2016,7 @@ literal "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-H_{N,k}=-\sum_{i=1}^{S}\frac{b_{ik}}{b_{\centerdot k}}\log\left(\frac{b_{ik}}{b_{\centerdot k}}\right)\label{eq:DiversityIn}
+H_{N,k}=-\sum_{i=1}^{S}\frac{b_{ik}}{b_{\centerdot k}}\log_{2}\left(\frac{b_{ik}}{b_{\centerdot k}}\right)\label{eq:DiversityIn}
 \end{equation}
 
 \end_inset
@@ -2027,7 +2027,7 @@ H_{N,k}=-\sum_{i=1}^{S}\frac{b_{ik}}{b_{\centerdot k}}\log\left(\frac{b_{ik}}{b_
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-H_{P,k}=-\sum_{i=1}^{S}\frac{b_{ki}}{b_{k\centerdot}}\log\left(\frac{b_{ki}}{b_{k\centerdot}}\right)\label{eq:DiversityOut}
+H_{P,k}=-\sum_{i=1}^{S}\frac{b_{ki}}{b_{k\centerdot}}\log_{2}\left(\frac{b_{ki}}{b_{k\centerdot}}\right)\label{eq:DiversityOut}
 \end{equation}
 
 \end_inset
@@ -2105,7 +2105,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-LD=\frac{1}{2}\sum_{k=1}^{S}\frac{b_{\centerdot k}}{b_{\centerdot\centerdot}}H_{N,k}+\sum_{k=1}^{S}\frac{\sum_{l=1}^{S}b_{k\centerdot}}{b_{\centerdot\centerdot}}H_{P,k}\label{eq:LD}
+LD=\frac{1}{2}\sum_{k=1}^{S}\frac{b_{\centerdot k}}{b_{\centerdot\centerdot}}2^{H_{N,k}}+\sum_{k=1}^{S}\frac{\sum_{l=1}^{S}b_{k\centerdot}}{b_{\centerdot\centerdot}}2^{H_{P,k}}\label{eq:LD}
 \end{equation}
 
 \end_inset
