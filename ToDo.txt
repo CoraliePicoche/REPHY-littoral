@@ -1,3 +1,0 @@
-Things I'd like to check:
-- Taxonomic level in SI
-- % abundance we take into account at each site
