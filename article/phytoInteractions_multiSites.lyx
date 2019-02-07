@@ -346,7 +346,7 @@ Taking most of V1 and trying to expand.
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1547308360
+\change_inserted -2100369821 1549530720
 How species or related genera can coexist together in spite of likely competitio
 n is still one of the main puzzles of community ecology, especially for
  primary producers that seemingly share the same basic resources.
@@ -359,7 +359,7 @@ literal "false"
 \end_inset
 
 , which has elicited numerous modeling and experimental studies on both
- marine and terrestrial communities for nearly half a century
+ marine and terrestrial communities for half a century
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "wilson_twelve_2011,record_paradox_2014,li_effects_2016"
@@ -389,7 +389,7 @@ literal "false"
 .
  Meanwhile, even in stable, controlled environment, experimental studies
  on phytoplankton have led to contradictory results: while some systems
- could be dominated by only one species
+ are dominated by only one species
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "titman_ecological_1976,descamps-julien_stable_2005"
@@ -397,7 +397,7 @@ literal "false"
 
 \end_inset
 
-, other communities were able to maintain a certain level of diversity
+, other communities are able to maintain a certain level of diversity
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "beninca_chaos_2008,burson_competition_2018"
@@ -412,7 +412,7 @@ literal "false"
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1547376192
+\change_inserted -2100369821 1549532236
 Neutral theory
 \begin_inset Note Note
 status open
@@ -463,7 +463,7 @@ literal "false"
 
 .
  The extant to which such conclusions can be generalized still needs to
- be quantified on other systems.
+ be quantified in other systems.
 \end_layout
 
 \begin_layout Standard
@@ -563,32 +563,6 @@ literal "false"
 \begin_layout Section*
 Results and discussion
 \change_inserted -2100369821 1547386015
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -2100369821 1547386017
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1547386545
-Note to myself/CP : we're never clear about what we're looking at.
- Raw interaction coefficients b_{ij}? Absolute effects |b_{ij}|? Mean of
- a whole column/row ; or mean of the non-zero coefficients? Why do we look
- at these ones specifically? We need to define the wording and explain the
- choice somewhere: beginning of the Results? (boring to begin with, but
- necessary)
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 
@@ -702,7 +676,7 @@ higher than the percentage of similarly defined negative interactions
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1547389367
+\change_inserted -2100369821 1549539057
 When interactions are facilitative on both sides, we consider that they
  are mutualistic.
  We have found that the percentage of mutualism is substantial for all sites:
@@ -715,7 +689,7 @@ ism.
  only and mixed (+/-) in all other sites.
  At the region scale, however, interaction tends to keep their sign between
  sites.
- Although the only consistency in negative interaction is the link between
+ While the only consistency in negative interaction is the link between
  PSE and PLE in both Mediterranean Sea sites, mutualistic interactions hold
  in more sites.
  In the 3 sites of Marennes-Oléron, for instance, there were 4 interactions
@@ -736,9 +710,18 @@ I can add that CHA/RHI and GUI/RHI are mutualistic in all Brittany + Teychan;
 
 \end_inset
 
+ This contradicts previous observations that mutualistic interactions tend
+ to be more context-dependent than competitive interactions
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "chamberlain_how_2014"
+literal "false"
+
+\end_inset
+
+ but, remarkably, this only concern a specific phytoplankton group.
  Stable mutualistic interactions can only be found between centric diatoms.
  Other groups either compete with each others or are commensalist.
- 
 \change_unchanged
 
 \end_layout
@@ -923,13 +906,13 @@ noprefix "false"
 )
 \change_deleted -2100369821 1547117136
 .
-\change_inserted -2100369821 1547311878
+\change_inserted -2100369821 1549536548
 , as the maximum modulus of the interaction matrix eigenvalues remained
  between 0.65 and 0.80.
  Stability seemed to decrease with an increase in positive interactions
  but this was only observed for Mediterranean sites, which were also characteriz
-ed by lower-dimension interaction matrices [and a different ecosystem functionin
-g].
+ed by lower-dimension interaction matrices [and a different ecosystem, subjected
+ to other hydrodynamics features].
  There was also a slight increase in stability with the increase of weighted
  connectance, with a drop in eigenvalue modulus for weighted connectances
  between 0.09 and 0.1 [add here ref to complexity/stability in literature?].
@@ -1059,8 +1042,25 @@ literal "false"
 \end_inset
 
 .
- We defined two scores, vulnerability (summed effect of others on the focal
- species growth rate
+ We defined two scores, vulnerability
+\change_inserted -2100369821 1549536625
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1549536650
+Still wondering about the change to 'exposure'
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ (summed effect of others on the focal species growth rate
 \change_inserted -2100369821 1547048413
 , Supplementary Eq.
  
@@ -1298,7 +1298,7 @@ noprefix "false"
  higher intragroup than intergroup effects on growth rates, together with
  a high degree of facilitative net interactions
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 We may want to add, somewhere, that people tend to exclude these positive
@@ -1321,8 +1321,11 @@ literal "false"
 
 \end_inset
 
-, we have argued that those large niche differences, with strong intra-group
- density-dependence could arise from predation effects.
+, we have argued that those large niche differences, with strong intra
+\change_deleted -2100369821 1549536760
+-
+\change_unchanged
+group density-dependence could arise from predation effects.
  
 \change_deleted -666822487 1546247251
  that
@@ -1879,12 +1882,23 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted -2100369821 1547386793
-Note to myself (CP): We still need to develop this Discussion.
- I didn't have time to do it but I'll be happy to take over.
- On self-regulation, Barabas 2017 NEE and on different interactions in different
- sites, Chamberlain 2014 EcoLet + don't forget results from Fox 2010 on
- the plankton paradox.
+\change_inserted -2100369821 1549539460
+Fred, you suggested Fox et al.
+ 2010 Ecology: not sure how/where we can insert it?
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1549539972
++ For now, Results and Discussion are quite well separated, do you think
+ we should do two sections?
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1549540018
++ For now, both B and B-I can be called 'interaction matrices'.
+ Are there two already defined, separate ways of calling them?
 \change_unchanged
 
 \end_layout
@@ -1896,7 +1910,7 @@ Note to myself (CP): We still need to develop this Discussion.
 
 \begin_layout Section*
 Methods
-\change_inserted -2100369821 1545294306
+\change_inserted -2100369821 1549539961
 
 \end_layout
 
@@ -2579,6 +2593,8 @@ The sentence work, but why not say more simply that the second scenario/model
 
 \begin_layout Subsection*
 Analysis of interaction strengths
+\change_inserted -2100369821 1549539672
+
 \end_layout
 
 \begin_layout Standard
@@ -2611,20 +2627,6 @@ literal "false"
 
 
 \change_inserted -2100369821 1545406320
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1545406329
-Add the formula in SI
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
 .
  
 \change_unchanged
@@ -2697,7 +2699,15 @@ noprefix "false"
 
 
 \change_unchanged
-) and compared these to the regulation a focal species exerted on itself
+)
+\change_inserted -2100369821 1549539803
+ on both raw and absolute values of the coefficients,
+\change_deleted -2100369821 1549539794
+ 
+\change_unchanged
+and compared these to the regulation a focal species exerted on itself
+\change_deleted -2100369821 1549539659
+
 \begin_inset Note Note
 status open
 
@@ -2713,10 +2723,16 @@ erality is only computed *within* the interaction modulus - within pennate
 
 \end_inset
 
+
+\change_unchanged
 .
  
-\change_inserted -2100369821 1545405931
-
+\change_inserted -2100369821 1549540087
+Raw values indicate the average effect (i.e., is the effect mostly positive
+ or negative?) that can be expected on a species' growth rate from other
+ planktonic species while absolute effects characterize the strength of
+ all types of interactions on a species (i.e., is a species strongly affected
+ by the others?).
 \end_layout
 
 \begin_layout Standard
