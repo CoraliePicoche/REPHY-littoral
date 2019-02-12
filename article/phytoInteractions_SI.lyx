@@ -84,7 +84,6 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -133,24 +132,7 @@ noprefix "false"
 .
  The mean temperature in each region mostly depended in its latitude while
  salinity in one can site could be considered as a proxy for terrestrial
- inputs from rivers, evaporation (mostly for the Mediterranean Sea) and
- variation of sea height due to the tidal regime (mostly for the Atlantic
- Ocean).
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1549808667
-Not clear to me why salinity represents variation in the tidal regime and
- why it is important that salinity can represent this
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
+ inputs from rivers or evaporation.
 \end_layout
 
 \begin_layout Standard
@@ -1515,7 +1497,7 @@ Thalassiosira+Porosira
 \series bold
 Name and composition of the phytoplanktonic groups used in main text
 \series default
-, based on 
+, based on the work by Hernández-Fariñas et al.
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hernandez_farinas_assessing_2015"
@@ -1530,25 +1512,6 @@ name "tab:Group_definition"
 
 \end_inset
 
-
-\change_inserted -666822487 1549808690
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1549808725
-It is best to put the name of the first author just before the ref number
- when it is clear that's a key reference.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 
@@ -1586,6 +1549,13 @@ status open
 
 \series bold
 Time series of the 5 most abundant phytoplanktonic groups in each site.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Time-series"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1603,52 +1573,9 @@ MAR(1) models
 \end_layout
 
 \begin_layout Standard
-We se
-\change_deleted -666822487 1549808757
-fl
-\change_inserted -666822487 1549808757
-l
-\change_unchanged
-ected the 
-\change_deleted -666822487 1549808764
-best model structure
-\change_inserted -666822487 1549808774
-most parcimonious interaction matrices 
-\change_deleted -666822487 1549808778
- based on the
-\change_inserted -666822487 1549808783
-using
-\change_deleted -666822487 1549808783
- 
-\change_unchanged
-BIC.
- 
-\change_deleted -666822487 1549808925
-The
-\change_inserted -666822487 1549808935
-Not only the best-ranking model, but also our
-\change_deleted -666822487 1549808925
- 
-\change_inserted -666822487 1549808937
- 
-\change_unchanged
-ranking of 
-\change_inserted -666822487 1549808941
-interaction 
-\change_unchanged
-scenario
-\change_inserted -666822487 1549808943
-s
-\change_unchanged
- 
-\change_deleted -666822487 1549808964
-BIC was stable between sites for 3 scenarios among 5
-\change_inserted -666822487 1549808975
-was similar for most sites 
-\change_deleted -666822487 1549808965
- 
-\change_unchanged
-(Fig.
+We selected the most parcimonious interaction matrices usingBIC.
+ Not only the best-ranking model, but also our ranking of interaction scenarios
+ was similar for most sites (Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1659,49 +1586,10 @@ noprefix "false"
 
 \end_inset
 
-)
-\change_deleted -666822487 1549809061
-: BIC was lowest for the null scenario, then minimized by the pennate-centric
- scenario
-\change_unchanged
-.
- 
-\change_deleted -666822487 1549809023
-The highest BIC was always reached for the unconstrained scenario, which
- estimated all interaction coefficients.
- The diatom-dinoflagellate scenario led to a lower BIC than the inter-group
- scenario in Arcachon and the Mediterranean Sea, and a higher BIC in Brittany
- and Oléron.
-\change_inserted -666822487 1549809065
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1549809207
-If we want to talk about the null, we have to say more I think, but I would
- not go down that rabbit hole.
- The sentence below does a good job at moving to the interesting stuff
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-Based on these results, we focused on the pennate-centric scenario to analyze
- interaction matrices as this scenarioc
-\change_inserted -666822487 1549809187
- 
-\change_unchanged
-orresponded to the best fitted models which still allowed interactions between
- groups.
+).
+ Based on these results, we focused on the pennate-centric scenario to analyze
+ interaction matrices as this scenarioc orresponded to the best fitted models
+ which still allowed interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1759,23 +1647,11 @@ name "fig:Comparison-of-BIC"
 \end_layout
 
 \begin_layout Standard
-In addit
-\change_inserted -666822487 1549809229
-i
-\change_unchanged
-on to the coefficients of the interaction matrix, MAR(1) models allowed
- us to estimate the effect of environmental variables.
+In addition to the coefficients of the interaction matrix, MAR(1) models
+ allowed us to estimate the effect of environmental variables.
  The parameters associated with these variable reveal abiotic effects such
  as phenology (temperature, related to insolation) or responses to hydrological
- changes 
-\change_deleted -666822487 1549809258
-like
-\change_inserted -666822487 1549809259
-such as
-\change_deleted -666822487 1549809259
- 
-\change_unchanged
-salinity variation (Fig.
+ changes such assalinity variation (Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1788,17 +1664,11 @@ noprefix "false"
 
 ).
  Overall, temperature tended to have more effect on phytoplankton dynamics
- than salinity
-\change_inserted -666822487 1549809309
-, which was logical since it integrates seasonal variation in received solar
- energy.
- 
-\change_deleted -666822487 1549809271
- 
-\change_unchanged
-The absolute effect of temperature was on average 3.5 times higher than salinity
- effects and temperature coefficients were significant at the 95% threshold
- for 68% of all estimates, as opposed to 16% for salinity effects.
+ than salinity, which was logical since it integrates seasonal variation
+ in received solar energy.
+ The absolute effect of temperature was on average 3.5 times higher than
+ salinity effects and temperature coefficients were significant at the 95%
+ threshold for 68% of all estimates, as opposed to 16% for salinity effects.
  Temperature had a positive effect in 80% of the cases while salinity had
  a negative effect for 66% of all estimates.
  The sign of significant temperature effects on a given species remained
@@ -2237,23 +2107,6 @@ LD=\frac{1}{2}\sum_{k=1}^{S}\frac{b_{\centerdot k}}{b_{\centerdot\centerdot}}2^{
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -666822487 1549808844
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1549808857
-Looks like the logs have disappeared from that formula?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
 where
 \family roman
 \series medium
