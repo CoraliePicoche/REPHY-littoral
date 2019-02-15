@@ -98,6 +98,16 @@
 \begin_layout Title
 Strong self-regulation and widespread facilitative interactions between
  groups of phytoplankton
+\change_inserted -666822487 1550248866
+
+\end_layout
+
+\begin_layout Author
+
+\change_inserted -666822487 1550248882
+Coralie Picoche & Frédéric Barraquand
+\change_unchanged
+
 \end_layout
 
 \begin_layout Abstract
@@ -125,9 +135,16 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-How species or related genera can coexist together in spite of likely competitio
-n is still one of the main puzzles of community ecology, especially for
- primary producers that seemingly share the same basic resources 
+How species or related genera can coexist together in spite of 
+\change_deleted -666822487 1550248890
+likely 
+\change_unchanged
+competition is 
+\change_deleted -666822487 1550248901
+still 
+\change_unchanged
+one of the main puzzles of community ecology, especially for primary producers
+ that seemingly share the same basic resources 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hutchinson_paradox_1961"
@@ -145,8 +162,11 @@ literal "false"
 
 \end_inset
 
-, unless some special mechanisms involving spatial or temporal variation
- are at play
+, unless 
+\change_deleted -666822487 1550248920
+some special 
+\change_unchanged
+mechanisms involving spatial or temporal variation are at play
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "armstrong1976coexistence,chesson_roles_1997,huisman_biological_2001,li_effects_2016"
@@ -155,8 +175,21 @@ literal "false"
 \end_inset
 
 .
- Neutral theory, that in its most basic formulation assumes equal competitive
- abilities 
+ Neutral theory, that 
+\change_inserted -666822487 1550249061
+assumes a non-equilibrium coexistence maintained by dispersal 
+\change_deleted -666822487 1550249067
+in its most basic formulation assumes
+\change_inserted -666822487 1550249067
+and
+\change_unchanged
+ equal competitive abilities
+\change_inserted -666822487 1550249208
+ for all species
+\change_deleted -666822487 1550249204
+ 
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hubbell_unified_2001"
@@ -164,9 +197,9 @@ literal "false"
 
 \end_inset
 
- and non-equilibrium coexistence sustained by immigration from a larger
- pool (but see ref.
  
+\change_inserted -666822487 1550248990
+(though there are exceptions 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "volkov_neutral_2003,volkov_patterns_2007"
@@ -174,7 +207,32 @@ literal "false"
 
 \end_inset
 
-) has been proposed as a solution to explain highly diverse communities
+) 
+\change_deleted -666822487 1550249030
+and
+\change_unchanged
+ 
+\change_deleted -666822487 1550249027
+non-equilibrium coexistence
+\change_unchanged
+ 
+\change_deleted -666822487 1550249080
+sustained by immigration from a larger pool (but see ref.
+
+\change_unchanged
+ 
+\change_deleted -666822487 1550249086
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "volkov_neutral_2003,volkov_patterns_2007"
+literal "false"
+
+\end_inset
+
+) 
+\change_unchanged
+has been proposed as a solution to explain highly diverse communities
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hubbell_unified_2001,rosindell2011unified"
@@ -189,8 +247,11 @@ literal "false"
 
 \begin_layout Standard
 However, the evidence gathered from terrestrial plant communities starts
- to suggest that, in fact, niche rather than neutral processes may be paramount,
- with intraspecific competition dwarfing interspecific competition in most
+ to suggest that, in fact, niche rather than neutral processes may be paramount
+\change_inserted -666822487 1550249241
+ to explain coexistence
+\change_unchanged
+, with intraspecific competition dwarfing interspecific competition in most
  cases
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -200,8 +261,17 @@ literal "false"
 \end_inset
 
 .
- Whether these conclusions apply to other ecosystems and taxa is currently
- little known
+ Whether these conclusions
+\change_inserted -666822487 1550249290
+ drawn from studies of annual plants and forest trees 
+\change_deleted -666822487 1550249255
+ 
+\change_unchanged
+apply to other ecosystems and taxa is currently little known
+\change_inserted -666822487 1550249343
+ (but see
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "mutshinda_what_2009"
@@ -209,11 +279,38 @@ literal "false"
 
 \end_inset
 
+
+\change_inserted -666822487 1550249349
+)
+\change_unchanged
 .
+\change_inserted -666822487 1550249353
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550249375
+Another way to write this would be to add a sentence describing what Mutshinda
+ et al found.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-Moreover, the meta-analysis by Adler et al.
+Moreover, 
+\change_inserted -666822487 1550249429
+even within a single trophic level, competition may not be the rule: 
+\change_unchanged
+the meta-analysis by Adler et al.
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "adler_competition_2018"
@@ -269,45 +366,68 @@ literal "false"
 \end_inset
 
 .
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-We may want to rework a bit eventually this paragraph but I wanted at least
- to add more of the relevant refs there.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 Here, we analyse a large multi-species dataset consisting of several multivariat
 e long-term time series of phytoplankton dynamics along the French coastline,
- which we then analyze using multivariate autoregressive time series models,
- allowing for interactions between 
-\change_deleted -2100369821 1549961259
-species
-\change_inserted -2100369821 1549961260
-genera
+ which we then analyze using multivariate autoregressive 
+\change_inserted -666822487 1550249919
+(MAR) 
 \change_unchanged
-.
+time series models, allowing for interactions between genera.
+ Although many 
+\change_deleted -666822487 1550249942
+modelling studies, or studies on large organisms,
+\change_inserted -666822487 1550249946
+ecological studies 
+\change_deleted -666822487 1550249944
+ 
+\change_unchanged
+focus on interactions between species, 
+\change_deleted -666822487 1550249955
+intergenus interactions also influence phytoplanktonic coexistence
+\change_inserted -666822487 1550249989
+competition has been shown experimentally to occur between different genera
+ of phytolankton 
+\change_unchanged
 
-\change_inserted -2100369821 1549978445
- Although many modelling studies, or studies on large organisms, focus on
- interactions between species, intergenus interactions also influence phytoplank
-tonic coexistence
 \begin_inset CommandInset citation
 LatexCommand supercite
-key "titman_ecological_1976,descamps-julien_stable_2005,huber_role_2006"
+key "titman_ecological_1976,descamps-julien_stable_2005"
 literal "false"
 
 \end_inset
 
 .
- We therefore analyse time series at the genus level, which is still more
- precise than most phytoplankton studies stopping at the phylum level
+ 
+\change_inserted -666822487 1550250243
+Because competition should - according to theory and experiments - occur
+ between genera, and the genus level is for phytoplankton interaction studies
+ a rather fine taxonomic scale (
+\change_deleted -666822487 1550250071
+We therefore analyse time series at the genus level, which is still more
+ precise than 
+\change_unchanged
+most phytoplankton 
+\change_inserted -666822487 1550250121
+interaction 
+\change_unchanged
+studies 
+\change_deleted -666822487 1550250116
+stopping at the
+\change_inserted -666822487 1550250154
+are restricted to interaction between different classes or even 
+\change_deleted -666822487 1550250116
+ 
+\change_unchanged
+phyl
+\change_inserted -666822487 1550250136
+a
+\change_deleted -666822487 1550250255
+um level
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003,hampton_sixty_2008"
@@ -315,22 +435,48 @@ literal "false"
 
 \end_inset
 
-.
- 
-\change_deleted -2100369821 1549961260
- 
-\change_unchanged
-Our results are
-\change_inserted -2100369821 1549978454
- also
-\change_deleted -2100369821 1549978453
- then 
-\change_unchanged
-compared to published interaction networks produced using the same statistical
- framework.
- 
+
+\change_inserted -666822487 1550250367
+
 \begin_inset Note Note
 status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550250282
+we can add griffiths to have new refs
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+, we study here interactions between different genera of phytoplankton,
+ belong mostly to diatoms and dinoflagellates
+\change_unchanged
+.
+ 
+\change_inserted -666822487 1550250386
+To put our results into a more general context, 
+\change_deleted -666822487 1550250389
+Our results are alsocompared 
+\change_inserted -666822487 1550250429
+we then compare our interaction strengths estimates 
+\change_unchanged
+to 
+\change_inserted -666822487 1550250443
+previously 
+\change_unchanged
+published interaction networks produced 
+\change_deleted -666822487 1550250465
+using
+\change_inserted -666822487 1550250465
+under
+\change_unchanged
+ the same statistical framework.
+ 
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Plain Layout
 We can mention in the cover letter that we werent sure, after analyzing
@@ -344,7 +490,11 @@ We can mention in the cover letter that we werent sure, after analyzing
 \end_layout
 
 \begin_layout Section*
-Results and discussion
+Results
+\change_deleted -666822487 1550250478
+ and discussion
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subparagraph*
@@ -363,14 +513,11 @@ literal "false"
 
 .
  Best-fitting models corresponded to a phylogenetically-structured interaction
- scenario, where interaction only occurred betwen closely related taxonomic
- 
-\change_deleted -2100369821 1549961056
-groups
-\change_inserted -2100369821 1549961057
-genera
+ scenario, where interaction only occurred betwen closely related 
+\change_deleted -666822487 1550250513
+taxonomic 
 \change_unchanged
- (Supplementary Fig.
+genera (Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -395,11 +542,8 @@ noprefix "false"
 \end_inset
 
 , diagonal elements of all matrices), a feature that we have previously
- highlighted in a 
-\change_deleted -2100369821 1549960956
- 
-\change_unchanged
-more detailed analysis on one of the considered study regions
+ highlighted in a more detailed analysis on one of the considered study
+ regions
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -408,56 +552,35 @@ literal "false"
 \end_inset
 
 .
- The ratio of mean intrag
-\change_deleted -2100369821 1549961121
-roup
-\change_unchanged
- 
-\change_deleted -2100369821 1549960956
- 
-\change_unchanged
-to interg
-\change_deleted -2100369821 1549961124
-roup
-\change_inserted -2100369821 1549961125
-enus
-\change_unchanged
- interaction coefficients varied between 6 and 10, not counting coefficients
- set to 0 in the estimation process.
+ The ratio of mean intragenus to intergenus interaction coefficients varied
+ between 6 and 10, not counting coefficients set to 0 in the estimation
+ process.
  If we include the zeroes in the interaction matrix in the computation of
  the intra/inter mean interaction strength, the ratio rises to between 21
  and 43.
- Therefore, intrag
-\change_inserted -2100369821 1549961176
-enus
-\change_deleted -2100369821 1549961174
-roup
+ Therefore, intragenus interactions are on average much stronger than intergenus
+ interactions
+\change_inserted -666822487 1550250674
+, approximately 10 to 20 times stronger
 \change_unchanged
- interactions are on average much stronger than interg
-\change_inserted -2100369821 1549961180
-enus
-\change_deleted -2100369821 1549961178
-roup
-\change_unchanged
- interactions.
+.
  
-\change_inserted -666822487 1549803822
-
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1549803910
 We need to define where we mention what is a group, lets talk about that
  next time.
  I am not sure we should use that wording, we could also be upfront and
  say that we performed all analyses at the genus level and use genus/genera
  everywhere.
  Anyway, we need to decide this and stick to one wording.
-
-\change_inserted -2100369821 1549960949
  See Intro.
+
+\change_inserted -666822487 1550250648
+ F: Solved.
+ Perhaps let's keep this note so that we know why we changed in a few months
+ time...
 \change_unchanged
 
 \end_layout
@@ -504,10 +627,54 @@ literal "false"
 \end_inset
 
 .
- Remarkably, -consistent mutualistic interactions can only be found between
- genera of centric diatoms.
- Interactions that are consistent at the regional level, for pennate diatoms
- or dinoflagellates, are always either competition/amensalism or commensalism.
+ Remarkably, 
+\change_deleted -666822487 1550250902
+consistent 
+\change_unchanged
+mutualistic interactions 
+\change_inserted -666822487 1550250919
+that are consistent between sites 
+\change_unchanged
+can only be found between genera of centric diatoms
+\change_inserted -666822487 1550250966
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550251304
+I am wondering if we do not overinterpret a little here: how sure are we
+ about this? Because most of the interactions are between centric diatoms,
+ so could it be a sampling effect? Or, would this still be true if we took
+ a matrix with more entries and less zeroes? [Nothing necessarily to change
+ here, but something to discuss between us]
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+.
+ Interactions that are consistent at the regional level, for
+\change_inserted -666822487 1550250843
+ other phyla such as 
+\change_deleted -666822487 1550250822
+ 
+\change_unchanged
+pennate diatoms or dinoflagellates, are always either competition/amensalism
+\change_inserted -666822487 1550250754
+ (- or +/-) 
+\change_deleted -666822487 1550250738
+ 
+\change_unchanged
+or commensalism
+\change_inserted -666822487 1550250770
+ (0/+)
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -560,7 +727,15 @@ noprefix "false"
 \begin_inset Formula $i$
 \end_inset
 
- (in rows)'s growth rate.
+
+\change_deleted -666822487 1550251336
+ (in rows)
+\change_unchanged
+'s growth rate
+\change_inserted -666822487 1550251339
+ (in rows)
+\change_unchanged
+.
  We present the log-scale interaction matrix minus the identity matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
@@ -591,6 +766,24 @@ name "fig:Interaction-matrices"
 
 \end_inset
 
+
+\change_inserted -666822487 1550251411
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550251421
+Could perhaps be shortened [later, not now]
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -860,12 +1053,14 @@ noprefix "false"
 \end_inset
 
 ).
- A main finding of our study seems therefore to be the presence of very
- large niche differences between the species/genera, translating into much
- higher intragroup than intergroup effects on growth rates, together with
- a high degree of facilitative net interactions
+ 
+\change_deleted -666822487 1550251596
+A main finding of our study seems therefore to be the presence of very large
+ niche differences between the species/genera, translating into much higher
+ intragroup than intergroup effects on growth rates, together with a high
+ degree of facilitative net interactions
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 We may want to add, somewhere, that people tend to exclude these positive
@@ -876,11 +1071,7 @@ We may want to add, somewhere, that people tend to exclude these positive
 
 .
  In our previous publication investigating in detail the Arcachon study
- site
-\change_inserted -2100369821 1546425908
-s
-\change_unchanged
-
+ sites
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -960,13 +1151,7 @@ literal "false"
 \end_inset
 
 .
-
-\change_inserted -2100369821 1547125594
- 
-\change_deleted -2100369821 1545408509
- 
-\change_inserted -2100369821 1547126244
-The multidimensionality of the niche
+ The multidimensionality of the niche
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "kraft_plant_2015"
@@ -974,28 +1159,7 @@ literal "false"
 
 \end_inset
 
-
-\change_deleted -666822487 1549805495
-the fine partitioning of the same set of resources between species having
- slightly different needs
-\change_deleted -2100369821 1549967518
-a fine-scale resource partitioning
-\change_inserted -2100369821 1547126244
-c
-\change_deleted -666822487 1549805557
-an
-\change_inserted -666822487 1549805557
-ould
-\change_inserted -2100369821 1547126244
- also 
-\change_inserted -666822487 1549805575
-help 
-\change_inserted -2100369821 1547126244
-explain the 
-\change_inserted -666822487 1549805564
-large 
-\change_inserted -2100369821 1549978518
-niche differences leading to coexistence.
+could also help explain the large niche differences leading to coexistence.
  Finally, resources that are usually considered homogeneous can be partitioned
  by species having slightly different needs: the changes in phytoplankton
  absorption spectrum documented by Burson et al.
@@ -1007,24 +1171,6 @@ literal "false"
 \end_inset
 
  is an example of fine-scale differences in competition for light.
- 
-\change_deleted -2100369821 1549968003
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1549805956
-Pas trop sûr de cette dernière phrase, mais on peut en discuter pour reformuler
- au mieux en fonction du papier de Burson et al.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_unchanged
 
 \end_layout
@@ -1152,15 +1298,249 @@ name "fig:meta_ratio"
 
 \end_layout
 
+\begin_layout Section*
+
+\change_inserted -666822487 1550251663
+Discussion
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1550251857
+We found very large niche differences between genera, as measured by the
+ intra/interinteraction strength ratio
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550251912
+We could add refs by J Levine there, I think https://www.nature.com/articles/natur
+e08251
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+, translating into much higher intragenus than intergenus effects on growth
+ rates, together with a high degree of facilitative net interactions
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550251621
+We may want to add, somewhere, that people tend to exclude these positive
+ interactions.
+\end_layout
+
+\end_inset
+
+.
+ This in spite of competition being demonstrated in the lab and in experiments
+ between those genera
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "titman_ecological_1976,descamps-julien_stable_2005"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550251809
+We need to add the Tilman refs there.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1550251963
+In our previous publication investigating in detail the Arcachon study sites
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+, we have argued that those large niche differences, with strong intragroup
+ density-dependence could arise from predation effects
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "haydon_pivotal_1994,barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+.
+ Predation effects could also very well create apparent mutualism between
+ prey species
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "abrams_apparent_1998,barraquand_indirect_2015,de_ruiter_emergent_2017"
+literal "false"
+
+\end_inset
+
+.
+ This is still very much likely here given the new study regions (Oléron,
+ Brittanny, Mediterranean) added for this study could have similar predators
+ (zooplankton
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "jamet_zooplankton_2001,moderan_zooplankton_2010,tortajada_network_2012"
+literal "false"
+
+\end_inset
+
+), parasites (viruses
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ory_pelagic_2010"
+literal "false"
+
+\end_inset
+
+, fungi), or even competitors
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "plus_phytoplankton_2015"
+literal "false"
+
+\end_inset
+
+, though there are other possible drivers of phytoplankton dynamics such
+ as allelopathy
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "felpeto_allelopathy_2018"
+literal "false"
+
+\end_inset
+
+, auxotrophy
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "tang_most_2010"
+literal "false"
+
+\end_inset
+
+ or hydrodynamics
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "levy_role_2018"
+literal "false"
+
+\end_inset
+
+.
+ The multidimensionality of the niche
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "kraft_plant_2015"
+literal "false"
+
+\end_inset
+
+could also help explain the large niche differences leading to coexistence.
+ Finally, resources that are usually considered limiting for all species
+ might in fact not always be: the changes in phytoplankton absorption spectrum
+ documented by Burson et al.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "burson_competition_2018"
+literal "false"
+
+\end_inset
+
+ is an example of fine-scale resource partitioning.
+\end_layout
+
+\begin_layout Paragraph*
+
+\change_inserted -666822487 1550251983
+No complexity-stability relationship
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1550251987
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550252021
+Here we can relate to the papers by Pierre Legagneux, Claire Jacquet and
+ others who showed the absence of such relationship based on data.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subparagraph*
+
+\change_deleted -666822487 1550252058
 Niche differences
+\change_inserted -666822487 1550252108
+Ghosts of competition past and present
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1550252067
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1550252092
+We can change that header later on, but I thought this was nicer than 
+\begin_inset Quotes eld
+\end_inset
+
+Further explanation for niche differences
+\begin_inset Quotes erd
+\end_inset
+
+...
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_inserted -2100369821 1547139607
 
 \end_layout
 
 \begin_layout Standard
-This dominance of niche differentation in observational plankton studies
- is similar to what has been recently found in plant community studies
+Th
+\change_deleted -666822487 1550252046
+is 
+\change_inserted -666822487 1550252048
+e 
+\change_unchanged
+dominance of niche differentation in observational plankton studies is similar
+ to what has been recently found in plant community studies
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "volkov_patterns_2007,adler_competition_2018"
