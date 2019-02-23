@@ -1004,8 +1004,11 @@ Discussion
 \begin_layout Standard
 
 \change_inserted -666822487 1550251857
-We found very large niche differences between genera, as measured by the
- intra/inter
+We found very large niche differences between genera, 
+\change_inserted -2100369821 1550930141
+[[
+\change_inserted -666822487 1550251857
+as measured by the intra/inter
 \change_inserted -2100369821 1550847953
 genus 
 \change_inserted -666822487 1550251857
@@ -1030,10 +1033,11 @@ status open
 \change_inserted -666822487 1550251912
 We could add refs by J Levine there, I think https://www.nature.com/articles/natur
 e08251
-\change_inserted -2100369821 1550849688
+\change_inserted -2100369821 1550930423
 .
  Added the paper in .bib, but not sure why you want to mention them right
- here?
+ here? Or was it more of a general comment? + Isn't the part between brackets
+ redundant with the next one?
 \change_unchanged
 
 \end_layout
@@ -1041,6 +1045,8 @@ e08251
 \end_inset
 
 
+\change_inserted -2100369821 1550930155
+]]
 \change_inserted -666822487 1550251857
 , translating into much higher intragenus than intergenus effects on growth
  rates, together with a high degree of facilitative net interactions
@@ -1058,8 +1064,8 @@ We may want to add, somewhere, that people tend to exclude these positive
 
 .
  This
-\change_inserted -2100369821 1550849103
- is
+\change_inserted -2100369821 1550930380
+ is 
 \change_deleted -2100369821 1550849102
  
 \change_inserted -666822487 1550251857
@@ -1080,6 +1086,9 @@ status open
 
 \change_inserted -666822487 1550251809
 We need to add the Tilman refs there.
+
+\change_inserted -2100369821 1550930670
+ There's one more, are there other specific ones you're thinking of?
 \change_unchanged
 
 \end_layout
@@ -1087,7 +1096,7 @@ We need to add the Tilman refs there.
 \end_inset
 
 .
-\change_inserted -2100369821 1550849933
+\change_inserted -2100369821 1550930902
 
 \begin_inset Note Note
 status open
@@ -1102,12 +1111,19 @@ Missing a transition here?
 
 \end_inset
 
-
-\change_inserted -666822487 1550251857
+.
+\change_deleted -2100369821 1550930896
 
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -2100369821 1550931922
+Strong self-regulation such as the one found in our study can be explained
+ by many mechanisms which can act together to create high net effects of
+ density-dependence.
+ 
+\change_unchanged
 In our previous publication investigating in detail the Arcachon study sites
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1126,8 +1142,27 @@ literal "false"
 \end_inset
 
 .
- Predation effects could also very well create apparent mutualism between
- prey species
+ Predation effects
+\change_inserted -2100369821 1550931204
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1550932366
+Wouldn't it be better to use an umbrella term (antagonism?) for predation/parasi
+tism/etc.
+ here?Because all these mechanisms could create apparent mutualism
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ could also very well create apparent mutualism between prey species
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "abrams_apparent_1998,barraquand_indirect_2015,de_ruiter_emergent_2017"
@@ -1155,6 +1190,10 @@ literal "false"
 \end_inset
 
 , fungi), or even competitors
+\change_inserted -2100369821 1550928596
+ such as macrophytes 
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "plus_phytoplankton_2015"
@@ -1208,7 +1247,7 @@ literal "false"
 \end_inset
 
  is an example of fine-scale resource partitioning.
-\change_inserted -2100369821 1550849785
+\change_inserted -2100369821 1550931456
 
 \end_layout
 
@@ -1216,18 +1255,19 @@ literal "false"
 
 \change_inserted -666822487 1550251983
 No complexity-stability relationship
-\change_inserted -2100369821 1550849794
+\change_inserted -2100369821 1550929050
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1550855313
-There was no relation between the complexity of the community (measured
- as the connectance of the matrices) and its stability.
- It should first be mentioned that this may be due to the MAR(1) model,
- which provide a fixed point even in the presence of other types of attractors
- (e.g., limit cycles)
+\change_inserted -2100369821 1550932101
+There was no relation between the complexity of the communities (measured
+ as either the weighted connectance or linkage density of the interaction
+ matrices) and their stability.
+ Such result must be considered with caution as it may be partly explained
+ by the use of a MAR(1) model, which provides a fixed point even in the
+ presence of other types of attractors (e.g., limit cycles)
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "certain_how_2018"
@@ -1236,8 +1276,8 @@ literal "false"
 \end_inset
 
 .
- However, the absence of relation between complexity and stability has already
- been found in other empirical systems
+ However, the absence of direct link between complexity and stability could
+ be an actual feature of empirical systems
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "jacquet_no_2016"
@@ -1254,25 +1294,11 @@ literal "false"
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1550852591
-Wondering about DeAngelis 1975, but he focuses on food webs
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
 .
  In particular, the role of mutualistic interactions in stabilizing communities
  is still debated: while it does not strongly alter the stability of the
  communities we examined, an increase in the number of positive interactions
- can either increase the persistence of a network
+ can either maximize the persistence of a network
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "garcia2018effect"
@@ -1294,23 +1320,34 @@ literal "false"
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1550854962
-In addition to weighted connectance, the network-level vulnerability and
- generality, summarized in the linkage density index, and the species-level
- [vulnerability] and impact, can approximate the effects exerted and sustained
- by one species.
+\change_inserted -2100369821 1550933290
+In addition to weighted connectance, indices at the network-level (vulnerability
+ and generality, encapsulated in the linkage density) and at the species-level
+ ([vulnerability] and impact) approximate the average effects exerted and
+ sustained by any given species in the different study sites.
  While, at the network level, linkage density did not affect stability,
- a relation emerged between self-regulation and species-level indices.
+ a relation emerged between self-regulation, necessary for coexistence,
+ and species-level indices.
  The more a species is self-regulated, the more it tends to be vulnerable
  to other species and the less it impacts other species.
- The later proposition seems logical as self-regulation indicates large
- niche differences: a species whose needs strongly differ from the others
- do not impact the resources of the coexisting species.
- Furthermore, abundant species are also characterized by a low self-regulation:
- the more a species is abundant, the more it can impact the others.
+ Indeed, self-regulation indicates large niche differences: a species whose
+ needs strongly differ from the others only marginally impacts the resources
+ of the other coexisting species.
+ Furthermore, a low self-regulation is correlated with strong average abundance:
+ a species which dominate the community composition can have a major effect
+ on the others, just by a mechanistic increase in the propbability of direct
+ and indirect interactions.
  To our knowledge, relations between different types of interactions (competitiv
 e, commensalist and mutualistic), and frequency-dependence, has not been
- fully explored up to now.
+ fully explored up to now (but see
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "garcia-callejas_multiple_2018"
+literal "false"
+
+\end_inset
+
+).
  Usually, interactions are only competitive and the intensity of self-regulation
  may be fixed for all species in the community.
  In this case, stability in the community is ensured by a correlation between
@@ -1350,24 +1387,13 @@ Here we can relate to the papers by Pierre Legagneux, Claire Jacquet and
 \end_inset
 
 
+\change_deleted -2100369821 1550933347
+
 \end_layout
 
 \begin_layout Standard
 
 \change_inserted -2100369821 1550854435
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1550854447
-Should we add somewhere that matrices are highly asymmetric?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
