@@ -2,6 +2,16 @@
 % Encoding: UTF-8
 
 
+@article{abrams_apparent_1998,
+	title = {Apparent competition or apparent mutualism? {Shared} predation when populations cycle},
+	volume = {79},
+  	Journal = {Ecology},
+	number = {1},
+	author = {Abrams, P.A. and Holt, R.D. and Roth, J.D.},
+	year = {1998},
+	pages = {201--212},
+}
+
 @Article{adler_coexistence_2010,
   Title                    = {Coexistence of perennial plants: an embarrassment of niches},
   Author                   = {Adler, P.B. and Ellner, S.P. and Levine, J.M.},
@@ -32,10 +42,20 @@
   Volume                   = {21}
 }
 
+@article{allesina_stability_2012,
+	title = {Stability criteria for complex ecosystems},
+	volume = {483},
+	number = {7388},
+	journal = {Nature},
+	author = {Allesina, S. and Tang, S.},
+	year = {2012},
+	pages = {205--208},
+}
+
 @Article{armstrong1980competitive,
   Title                    = {Competitive exclusion},
-  Author                   = {Armstrong, Robert A and McGehee, Richard},
-  Journal                  = {The American Naturalist},
+  Author                   = {Armstrong, R.A. and McGehee, R.},
+  Journal                  = {The {A}merican {N}aturalist},
   Year                     = {1980},
   Number                   = {2},
   Pages                    = {151--170},
@@ -48,7 +68,7 @@
 
 @Article{armstrong1976coexistence,
   Title                    = {Coexistence of species competing for shared resources},
-  Author                   = {Armstrong, Robert A and McGehee, Richard},
+  Author                   = {Armstrong, R.A. and McGehee, R.},
   Journal                  = {Theoretical Population Biology},
   Year                     = {1976},
   Number                   = {3},
@@ -58,6 +78,46 @@
   Owner                    = {frederic},
   Publisher                = {Elsevier},
   Timestamp                = {2013.12.17}
+}
+
+
+
+@article{bagchi_pathogens_2014,
+	title = {Pathogens and insect herbivores drive rainforest plant diversity and composition},
+	volume = {506},
+	number = {7486},
+	journal = {Nature},
+	author = {Bagchi, R. and Gallery, R.E. and Gripenberg, S. and Gurr, S.J. and Narayan, L. and Addis, C.E. and Freckleton, R.P. and Lewis, O.T.},
+	year = {2014},
+	pages = {85--88},
+}
+
+@article{barabas_effect_2016,
+	title = {The {Effect} of {Intra}- and {Interspecific} {Competition} on {Coexistence} in {Multispecies} {Communities}},
+	journal = {The American {N}aturalist},
+	author = {Barab\'as, G. and Michalska-Smith, M.J. and Allesina, S.},
+	year = {2016},
+	volume={188},
+	number={1}
+}
+
+@article{barabas_self-regulation_2017,
+	title = {Self-regulation and the stability of large ecological networks},
+	volume = {1},
+	number = {12},
+	journal = {Nature Ecology \& Evolution},
+	author = {Barab\'as, G. and Michalska-Smith, M.J. and Allesina, S.},
+	year = {2017},
+	pages = {1870--1875},
+}
+
+@article{barraquand_indirect_2015,
+	title = {Indirect effects of primary prey population dynamics on alternative prey},
+	volume = {103},
+	journal = {Theoretical Population Biology},
+	author = {Barraquand, F. and New, L.F. and Redpath, S. and Matthiopoulos, J.},
+	year = {2015},
+	pages = {44--59},
 }
 
 @Article{barraquand_coastal_2018,
@@ -79,15 +139,34 @@
   Pages                    = {34--49},
   Volume                   = {4}
 }
+@article{beninca_chaos_2008,
+	title = {Chaos in a long-term experiment with a plankton community},
+	volume = {451},
+	number = {7180},
+	journal = {Nature},
+	author = {Beninc\`a, E. and Huisman, J. and Heerkloss, R/ and J\"{o}hnk, K.D. and Branco, P. and Van Nes, E.H. and Scheffer, M. and Ellner, S.P.},
+	year = {2008},
+	pages = {822--825},
+}
 
 @Article{bersier_quantitative_2002,
-  Title                    = {Quantitative {Descriptors} of {Food}-{Web} {Matrices}},
-  Author                   = {Bersier, Louis-Felix and Banasek-Richter, Carolin and Cattin, Marie-France},
+  Title                    = {Quantitative descriptors of food-web matrices},
+  Author                   = {Bersier, L.-F. and Banasek-Richter, C. and Cattin, M.-F.},
   Journal                  = {Ecology},
   Year                     = {2002},
   Number                   = {9},
   Pages                    = {2394},
   Volume                   = {83}
+}
+
+@article{bolker_spatial_1999,
+	title = {Spatial {Moment} {Equations} for {Plant} {Competition}: {Understanding} {Spatial} {Strategies} and the {Advantages} of {Short} {Dispersal}},
+	volume = {153},
+	number = {6},
+	journal = {The {A}merican {N}aturalist},
+	author = {Bolker, B.M. and Pacala, S.W.},
+	year = {1999},
+	pages = {575--602},
 }
 
 @Article{breier_emergence_2018,
@@ -110,9 +189,19 @@
   Volume                   = {96}
 }
 
+@article{burson_competition_2018,
+	title = {Competition for nutrients and light: testing advances in resource competition with a natural phytoplankton community},
+	volume = {99},
+	number = {5},
+	journal = {Ecology},
+	author = {Burson, A. and Stomp, M. and Greenwell, E. and Grosse, J. and Huisman, J.},
+	year = {2018},
+	pages = {1108--1118},
+}
+
 @Article{cavieres2009facilitative,
   Title                    = {Do facilitative interactions increase species richness at the entire community level?},
-  Author                   = {Cavieres, Lohengrin A and Badano, Ernesto I},
+  Author                   = {Cavieres, L.A. and Badano, E.I.},
   Journal                  = {Journal of Ecology},
   Year                     = {2009},
   Number                   = {6},
@@ -134,6 +223,17 @@
   Volume                   = {9}
 }
 
+@article{chamberlain_how_2014,
+	title = {How context dependent are species interactions?},
+	volume = {17},
+	number = {7},
+	journal = {Ecology Letters},
+	author = {Chamberlain, S.A. and Bronstein, J.L. and Rudgers, J.A.},
+	editor = {Etienne, Rampal},
+	year = {2014},
+	pages = {881--890},
+}
+
 @Article{chesson_updates_2018,
   Title                    = {Updates on mechanisms of maintenance of species diversity},
   Author                   = {Chesson, P.},
@@ -147,11 +247,20 @@
 @Article{chesson_roles_1997,
   Title                    = {The roles of harsh and fluctuating conditions in the dynamics of ecological communities},
   Author                   = {Chesson, P. and Huntly, N.},
-  Journal                  = {The American Naturalist},
+  Journal                  = {The {A}merican {N}aturalist},
   Year                     = {1997},
   Number                   = {5},
   Pages                    = {519--553},
   Volume                   = {150}
+}
+@article{comita_testing_2014,
+	title = {Testing predictions of the {Janzen}-{Connell} hypothesis: a meta-analysis of experimental evidence for distance- and density-dependent seed and seedling survival},
+	volume = {102},
+	number = {4},
+	journal = {Journal of Ecology},
+	author = {Comita, L.S. and Queenborough, S.A. and Murphy, S.J. and Eck, J.L. and Xu, K. and Krishnadas, M. and Beckman, N. and Zhu, Y.},
+	year = {2014},
+	pages = {845--856},
 }
 
 @Article{coyte_ecology_2015,
@@ -164,6 +273,25 @@
   Volume                   = {350}
 }
 
+@article{de_ruiter_emergent_2017,
+	title = {Emergent facilitation promotes biological diversity in pelagic food webs},
+	volume = {10},
+	journal = {Food Webs},
+	author = {de Ruiter, Peter C. and Gaedke, Ursula},
+	year = {2017},
+	pages = {15--21},
+}
+
+@article{descamps-julien_stable_2005,
+	title = {Stable coexistence in a fluctuating environment: an experimental demonstration},
+	volume = {86},
+	number = {10},
+	journal = {Ecology},
+	author = {Descamps-Julien, B. and Gonzalez, A.},
+	year = {2005},
+	pages = {2815--2824},
+}
+
 @Article{ellner_how_2016,
   Title                    = {How to quantify the temporal storage effect using simulations instead of math},
   Author                   = {Ellner, S.P. and Snyder, R.E. and Adler, P.B.},
@@ -174,9 +302,39 @@
   Volume                   = {19}
 }
 
+@article{felpeto_allelopathy_2018,
+	title = {Allelopathy prevents competitive exclusion and promotes phytoplankton biodiversity},
+	volume = {127},
+	number = {1},
+	journal = {Oikos},
+	author = {Felpeto, A.B. and Roy, S. and Vasconcelos, V.M.},
+	year = {2018},
+	pages = {85--98},
+}
+
+@article{fox_coexistence_2010,
+	title = {Coexistence mechanisms and the paradox of the plankton: quantifying selection from noisy data},
+	volume = {91},
+	number = {6},
+	journal = {Ecology},
+	author = {Fox, Jeremy W. and Nelson, William A. and McCauley, Edward},
+	year = {2010},
+	pages = {1774--1786},
+}
+
+@article{garcia-callejas_multiple_2018,
+	title = {Multiple interactions networks: towards more realistic descriptions of the web of life},
+	volume = {127},
+	number = {1},
+	journal = {Oikos},
+	author = {Garc\'ia-Callejas, D. and Molowny-Horas, R. and Ara\'ujo, M.B.},
+	year = {2018},
+	pages = {5--22},
+}
+
 @Article{garcia2018effect,
   Title                    = {The effect of multiple biotic interaction types on species persistence},
-  Author                   = {Garc{\'\i}a-Callejas, David and Molowny-Horas, Roberto and Ara{\'u}jo, Miguel B},
+  Author                   = {Garc{\'\i}a-Callejas, D. and Molowny-Horas, R. and Ara{\'u}jo, M.B.},
   Journal                  = {Ecology},
   Year                     = {2018},
   Number                   = {10},
@@ -187,6 +345,17 @@
   Publisher                = {Wiley Online Library},
   Timestamp                = {2018.12.31}
 }
+
+@article{griffiths_phytoplankton_2015,
+	title = {Phytoplankton community interactions and environmental sensitivity in coastal and offshore habitats},
+	journal = {Oikos},
+	volume = {125},
+	number = {8},
+	pages= {1134--1143},
+	author = {Griffiths, J.R. and Hajdu, S. and Downing, A.S. and Hjerne, O. and Larsson, U. and Winder, M.},
+	year = {2015},
+}
+
 
 @Article{gross_positive_2008,
   Title                    = {Positive interactions among competitors can produce species-rich communities},
@@ -206,6 +375,36 @@
   Number                   = {5},
   Pages                    = {2042--2051},
   Volume                   = {51}
+}
+
+@article{hampton_sixty_2008,
+	title = {Sixty years of environmental change in the world's largest freshwater lake - {Lake} {Baikal}, {Siberia}},
+	volume = {14},
+	number = {8},
+	journal = {Global Change Biology},
+	author = {Hampton, S.E. and Izmest'Eva, L.R. and Moore, M.V. and Katz, S.L. and Dennis, B. and Silow, E.A.},
+	year = {2008},
+	pages = {1947--1958},
+}
+
+@article{hardin_competitive_1960,
+	title = {The competitive exclusion principle},
+	volume = {131},
+	number = {3409},
+	journal = {Science},
+	author = {Hardin, G.},
+	year = {1960},
+	pages = {1292--1297},
+}
+
+@article{haydon_pivotal_1994,
+	title = {Pivotal assumptions determining the relationship between stability and complexity: an analytical synthesis of the stability-complexity debate},
+	volume = {144},
+	number = {1},
+	journal = {The {A}merican {N}aturalist},
+	author = {Haydon, D.},
+	year = {1994},
+	pages = {14--29},
 }
 
 @Article{hernandez_farinas_assessing_2015,
@@ -233,6 +432,16 @@
   ISBN                     = {978-0-691-02128-7}
 }
 
+@article{huber_role_2006,
+	title = {The role of predation for seasonal variability patterns among phytoplankton and ciliates},
+	volume = {114},
+	number = {2},
+	journal = {Oikos},
+	author = {Huber, V. and Gaedke, U.},
+	year = {2006},
+	pages = {265--276},
+}
+
 @Article{huisman_biological_2001,
   Title                    = {Biological conditions for oscillations and chaos generated by multispecies competition},
   Author                   = {Huisman, J. and Weissing, F.J.},
@@ -245,19 +454,12 @@
 
 @Article{hutchinson_paradox_1961,
   Title                    = {The paradox of the plankton},
-  Author                   = {Hutchinson, G. Evelyn},
-  Journal                  = {The American Naturalist},
+  Author                   = {Hutchinson, G.E.},
+  Journal                  = {The {A}merican {N}aturalist},
   Year                     = {1961},
   Number                   = {882},
   Pages                    = {137--145},
   Volume                   = {95},
-
-  File                     = {Hutchinson_1961.pdf:/home/cpicoche/.mozilla/firefox/atrsbomk.default/zotero/storage/F4W5JVV2/Hutchinson_1961.pdf:application/pdf},
-  Keywords                 = {Biodiversity, Fred, Plankton, Plankton paradox, Unknown},
-  Owner                    = {frederic},
-  Timestamp                = {2017.01.24},
-  Url                      = {http://www.jstor.org/stable/2458386},
-  Urldate                  = {2016-05-09}
 }
 
 @Article{ives_estimating_2003,
@@ -270,20 +472,78 @@
   Volume                   = {73}
 }
 
+@article{ives_stability_2007,
+	title = {Stability and diversity of ecosystems},
+	volume = {317},
+	number = {5834},
+	journal = {Science},
+	author = {Ives, A. R. and Carpenter, S. R.},
+	year = {2007},
+	pages = {58--62},
+}
+
+@article{jacquet_no_2016,
+	title = {No complexity-stability relationship in empirical ecosystems},
+	volume = {7},
+	number = {1},
+	journal = {Nature Communications},
+	author = {Jacquet, C. and Moritz, C. and Morissette, L. and Legagneux, P. and Massol, F. and Archambault, P. and Gravel, D.},
+	year = {2016},
+}
+
 @Article{james_constructing_2015,
-  Title                    = {Constructing {Random} {Matrices} to {Represent} {Real} {Ecosystems}},
+  Title                    = {Constructing random matrices to represent real ecosystems},
   Author                   = {James, A. and Plank, M.J. and Rossberg, A.G. and Beecham, J. and Emmerson, M. and Pitchford, J.W.},
-  Journal                  = {The American Naturalist},
+  Journal                  = {The {A}merican {N}aturalist},
   Year                     = {2015},
   Number                   = {5},
   Pages                    = {680--692},
   Volume                   = {185}
 }
 
+@article{jamet_zooplankton_2001,
+	title = {The zooplankton community in bays of {Toulon} area (northwest {Mediterranean} {Sea}, {France})},
+	volume = {557},
+	journal = {Hydrobiologia},
+	author = {Jamet, J.-L. and Boge, G. and Richard, S. and Geneys, C. and Jamet, D.},
+	year = {2001},
+	pages = {155--165},
+}
+
+@article{kraft_plant_2015,
+	title = {Plant functional traits and the multidimensional nature of species coexistence},
+	volume = {112},
+	number = {3},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Kraft, N.J.B. and Godoy, O. and Levine, J.M.},
+	year = {2015},
+	pages = {797--802},
+}
+
+@article{levine_importance_2009,
+	title = {The importance of niches for the maintenance of species diversity},
+	volume = {461},
+	number = {7261},
+	journal = {Nature},
+	author = {Levine, J.M. and HilleRisLambers, J.},
+	year = {2009},
+	pages = {254--257},
+}
+
+@article{levy_role_2018,
+	title = {The role of submesoscale currents in structuring marine ecosystems},
+	volume = {9},
+	number = {1},
+	journal = {Nature Communications},
+	author = {L\'evy, M. and Franks, P.J.S. and Smith, K.S.},
+	year = {2018},
+	pages = {4758},
+}
+
 @Article{li_effects_2016,
-  Title                    = {The {Effects} of {Dynamical} {Rates} on {Species} {Coexistence} in a {Variable} {Environment}: {The} {Paradox} of the {Plankton} {Revisited}},
+  Title                    = {The effects of dynamical rates on species coexistence in a variable environment: the paradox of the plankton revisited},
   Author                   = {Li, L. and Chesson, P.},
-  Journal                  = {The American Naturalist},
+  Journal                  = {The {A}merican {N}aturalist},
   Year                     = {2016},
   Number                   = {2},
   Pages                    = {E46--E58},
@@ -292,7 +552,7 @@
 
 @Article{mcintire2014facilitation,
   Title                    = {Facilitation as a ubiquitous driver of biodiversity},
-  Author                   = {McIntire, Eliot JB and Fajardo, Alex},
+  Author                   = {McIntire, E.J.B. and Fajardo, A.},
   Journal                  = {New Phytologist},
   Year                     = {2014},
   Number                   = {2},
@@ -302,6 +562,16 @@
   Owner                    = {frederic},
   Publisher                = {Wiley Online Library},
   Timestamp                = {2018.12.31}
+}
+
+@article{moderan_zooplankton_2010,
+	title = {Zooplankton community structure in a highly turbid environment ({Charente} estuary, {France}): {Spatio}-temporal patterns and environmental control},
+	volume = {88},
+	number = {2},
+	journal = {Estuarine, Coastal and Shelf Science},
+	author = {Mod\'eran, J. and Bouvais, P. and David, V. and Le Noc, S. and Simon-Bouhet, B. and Niquil, N. and Miramand, P. and Fichet, D.},
+	year = {2010},
+	pages = {219--232},
 }
 
 @Article{mougi2012diversity,
@@ -314,7 +584,6 @@
   Volume                   = {337},
 
   Owner                    = {frederic},
-  Publisher                = {American Association for the Advancement of Science},
   Timestamp                = {2016.12.01}
 }
 
@@ -327,6 +596,45 @@
   Pages                    = {48--59},
   Volume                   = {6}
 }
+
+@article{mutshinda_what_2009,
+	title = {What drives community dynamics?},
+	volume = {276},
+	number = {1669},
+	journal = {Proceedings of the Royal Society B: Biological Sciences},
+	author = {Mutshinda, C. M. and O'Hara, R. B. and Woiwod, I. P.},
+	year = {2009},
+	pages = {2923--2929},
+}
+
+
+@article{ory_pelagic_2010,
+	title = {Pelagic food web patterns: do they modulate virus and nanoflagellate effects on picoplankton during the phytoplankton spring bloom?: {Effects} of viruses and nanoflagellates on picoplankton},
+	journal = {Environmental Microbiology},
+	author = {Ory, P. and Hartmann, H.J. and Jude, F. and Dupuy, C. and Del Amo, Y. and Catala, P. and Mornet, F. and Huet, V. and Jan, B. and Vincent, D. and Sautour, B. and Montani\'e, H.},
+	year = {2010},
+	pages = {2755--2772},
+}
+
+@article{plus_phytoplankton_2015,
+	title = {Phytoplankton versus macrophyte contribution to primary production and biogeochemical cycles of a coastal mesotidal system. {A} modelling approach},
+	volume = {165},
+	journal = {Estuarine, Coastal and Shelf Science},
+	author = {Plus, M. and Auby, I. and Maurer, D. and Trut, G. and Del Amo, Y. and Dumas, F. and Thouvenin, B.},
+	year = {2015},
+	pages = {52--60},
+}
+
+@article{record_paradox_2014,
+	title = {The paradox of the "paradox of the plankton"},
+	volume = {71},
+	number = {2},
+	journal = {ICES Journal of Marine Science},
+	author = {Record, N. R. and Pershing, A. J. and Maps, F.},
+	year = {2014},
+	pages = {236--240},
+}
+
 
 @Misc{REPHY_db,
   Title                    = {REPHY dataset - French Observation and Monitoring program for Phytoplankton and Hydrology in coastal waters. 1987-2016 Metropolitan data.},
@@ -351,6 +659,44 @@
   Timestamp                = {2013.11.19}
 }
 
+@article{tang_most_2010,
+	title = {Most harmful algal bloom species are vitamin {B}1 and {B}12 auxotrophs},
+	volume = {107},
+	number = {48},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Tang, Y. Z. and Koch, F. and Gobler, C. J.},
+	year = {2010},
+	pages = {20756--20761},
+}
+
+@article{tilman_phytoplankton_1982,
+	title = {Phytoplankton community ecology: the role of limiting nutrients},
+	volume = {13},
+	journal = {Annual Review of Ecology and Systematics},
+	author = {Tilman, D. and Kilham, S.S. and Kilham, P.},
+	year = {1982},
+	pages = {349--372},
+}
+
+@article{titman_ecological_1976,
+	title = {Ecological competition between algae: experimental confirmation of resource-based competition theory},
+	volume = {192},
+	number = {4238},
+	journal = {Science},
+	author = {Titman, D.},
+	year = {1976},
+	pages = {463--465},
+}
+
+@article{tortajada_network_2012,
+	title = {Network analysis of the planktonic food web during the spring bloom in a semi enclosed lagoon ({Arcachon}, {SW} {France})},
+	volume = {40},
+	journal = {Acta Oecologica},
+	author = {Tortajada, S. and Niquil, N. and Blanchet, H. and Grami, B. and Montani\'e, H. and David, V. and Gl\'e, C. and Saint-B\'eat, B. and Johnson, G.A. and Marquis, E. and Del Amo, Y. and Dubois, S. and Vincent, D. and Dupuy, C. and Jude, F. and Hartmann, H.J. and Sautour, B.},
+	year = {2012},
+	pages = {40--50},
+}
+
 @Article{tuck_strong_2018,
   Title                    = {Strong responses from weakly interacting species},
   Author                   = {Tuck, S.L. and Porter, J. and Rees, M. and Turnbull, L.A.},
@@ -367,6 +713,26 @@
   Journal                  = {Mitt. int. Ver. theor. angew. Limnol.},
   Year                     = {1958},
   Volume                   = {9}
+}
+
+@Article{vallina2014maximal,
+  Title                    = {Maximal feeding with active prey-switching: A kill-the-winner functional response and its effect on global diversity and biogeography},
+  Author                   = {Vallina, Sergio M and Ward, BA and Dutkiewicz, S and Follows, MJ},
+  Journal                  = {Progress in Oceanography},
+  Year                     = {2014},
+  Pages                    = {93--109},
+  Volume                   = {120},
+
+  Owner                    = {frederic},
+  Publisher                = {Elsevier},
+  Timestamp                = {2018.12.31}
+}
+
+@article{venables_r_2013,
+	title = {the {R} {Core} {Team}},
+	journal = {An Introduction to R. Notes on R: A Programming Environment for Data Analysis and Graphics. URL: ran. r-project. org/doc/manuals/r-release/R-intro. pdf},
+	author = {Venables, W. N. and Smith, D. M.},
+	year = {2013},
 }
 
 @Article{volkov_patterns_2007,
@@ -388,3 +754,12 @@
   Volume                   = {424}
 }
 
+@article{wilson_twelve_2011,
+	title = {The twelve theories of co-existence in plant communities: the doubtful, the important and the unexplored: {The} twelve theories of co-existence in plant communities},
+	volume = {22},
+	number = {1},
+	journal = {Journal of Vegetation Science},
+	author = {Wilson, J. Bastow},
+	year = {2011},
+	pages = {184--195},
+}

@@ -97,7 +97,13 @@
 
 \begin_layout Title
 Strong self-regulation and widespread facilitative interactions between
- groups of phytoplankton
+ 
+\change_deleted -666822487 1551450133
+groups
+\change_inserted -666822487 1551450134
+genera
+\change_unchanged
+ of phytoplankton
 \end_layout
 
 \begin_layout Author
@@ -114,9 +120,23 @@ The persistence of phytoplanktonic diversity in spite of competition for
  counted every two weeks over 20 years, at 10 sites along the French coastline.
  We estimate biotic interactions using dynamic, multispecies autoregressive
  models.
- We show that a strong self-regulation, with intraspecific competition strength
- an order of magnitude higher than interspecific, was present in all phytoplankt
-onic interaction networks.
+ We show that a strong self-regulation, with 
+\change_deleted -666822487 1551450155
+intraspecific 
+\change_unchanged
+competition strength
+\change_inserted -666822487 1551450160
+ within a genus 
+\change_deleted -666822487 1551450156
+ 
+\change_unchanged
+an order of magnitude higher than 
+\change_deleted -666822487 1551450164
+interspecific
+\change_inserted -666822487 1551450166
+between genera
+\change_unchanged
+, was present in all phytoplanktonic interaction networks.
  Furthermore, positive net effects between phytoplanktonic taxa constituted
  at least 40% of non-null interactions in all sites.
  Both strong self-regulation and widespread net facilitation should therefore
@@ -129,9 +149,15 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-How species or related genera can coexist together in spite of competition
- is one of the main puzzles of community ecology, especially for primary
- producers that seemingly share the same basic resources 
+How species or 
+\change_deleted -666822487 1551450181
+related
+\change_inserted -666822487 1551450182
+close
+\change_unchanged
+ genera can coexist together in spite of competition is one of the main
+ puzzles of community ecology, especially for primary producers that seemingly
+ share the same basic resources 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "hutchinson_paradox_1961"
@@ -202,6 +228,10 @@ literal "false"
  Whether these conclusions drawn from studies of annual plants and forest
  trees apply to other ecosystems and taxa is currently little known (but
  see
+\change_inserted -666822487 1551450235
+ Mutshinda et al.
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "mutshinda_what_2009"
@@ -210,25 +240,6 @@ literal "false"
 \end_inset
 
 ).
-\change_inserted -666822487 1550249353
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1550249375
-Another way to write this would be to add a sentence describing what Mutshinda
- et al found.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -253,8 +264,11 @@ literal "false"
  have highlighted that facilitation may be much more widespread than ecologists
  usually tend to think.
  Although some theoretical studies suggest that facilitative interactions
- can be destabilizing (sensu resilience) and therefore undermine coexistence
- in Lotka-Volterra models
+ can be destabilizing (
+\emph on
+sensu
+\emph default
+ resilience) and therefore undermine coexistence in Lotka-Volterra models
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "coyte_ecology_2015"
@@ -308,9 +322,13 @@ literal "false"
 
 .
  Because competition should - according to theory and experiments - occur
- between genera, and the genus level is for phytoplankton interaction studies
- a rather fine taxonomic scale (most phytoplankton interaction studies are
- restricted to interaction between different classes or even phyla
+ between 
+\change_inserted -666822487 1551450333
+phytoplankton 
+\change_unchanged
+genera, and the genus level is for phytoplankton interaction studies a rather
+ fine taxonomic scale (most phytoplankton interaction studies are restricted
+ to interaction between different classes or even phyla
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003,hampton_sixty_2008,griffiths_phytoplankton_2015"
@@ -318,14 +336,22 @@ literal "false"
 
 \end_inset
 
+
+\change_inserted -666822487 1551450339
+)
+\change_unchanged
 , we study here interactions between different genera of phytoplankton,
  belong mostly to diatoms and dinoflagellates.
  To put our results into a more general context, we then compare our interaction
  strengths estimates to previously published interaction networks produced
- under the same statistical framework.
+ under the same statistical framework
+\change_inserted -666822487 1551450357
+, both in plankton and other empirical systems
+\change_unchanged
+.
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 We can mention in the cover letter that we werent sure, after analyzing
@@ -348,6 +374,17 @@ MAR(1) estimates
 
 \begin_layout Standard
 Using MAR(1) autoregressive models, we have produced interaction matrices
+\change_inserted -666822487 1551450374
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "ives_estimating_2003,hampton2013quantifying"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
  – i.e., Jacobian community matrices on the logarithmic scale
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -472,7 +509,7 @@ Remarkably, mutualistic interactions that are consistent between sites can
 \change_inserted -666822487 1550250966
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -763,13 +800,37 @@ noprefix "false"
 
 \end_inset
 
-): species that were more self-regulating also had also a higher vulnerability
- score and a lower impact score.
+): 
+\change_deleted -666822487 1551450550
+species
+\change_inserted -666822487 1551450550
+genera
+\change_unchanged
+ that were more self-regulating also had also a higher vulnerability score
+ and a lower impact score.
  Those two influences are likely to trade-off: a high degree of self-regulation
  somehow buffers outside influences.
- Species that were less self-regulating were also more likely to have a
- broad range of effects onto other species.
- As these species tended to be more abundant (Supplementary Fig.
+ 
+\change_deleted -666822487 1551450562
+Species
+\change_inserted -666822487 1551450599
+Taxa
+\change_unchanged
+ that were less self-regulating were also more likely to have a broad range
+ of effects onto other 
+\change_deleted -666822487 1551450567
+species
+\change_inserted -666822487 1551450608
+taxa
+\change_unchanged
+.
+ As these 
+\change_deleted -666822487 1551450569
+species
+\change_inserted -666822487 1551450573
+genera
+\change_unchanged
+ tended to be more abundant (Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -780,7 +841,13 @@ noprefix "false"
 
 \end_inset
 
-), they were more likely to affect other species.
+), they were more likely to affect other 
+\change_deleted -666822487 1551450576
+species
+\change_inserted -666822487 1551450576
+genera
+\change_unchanged
+.
  It is important to note, however, that these trends are weak and there
  is therefore a considerable amount of randomness dominating the interaction
  matrix: many scenarios of self-regulation vs limitation by others are therefore
@@ -813,11 +880,23 @@ status open
 Relation between vulnerability/impact and self-regulation.
 
 \series default
- Average vulnerability (effects of others onto the focal species growth
- rate, a-b) and impact (effects of the focal species unto other's growth
- rates, c-d), as well as self-regulation, are computed for untransformed
- (a-c) or absolute (b-d) values of the coefficients of the interaction matrix
- (
+ Average vulnerability (effects of others onto the focal 
+\change_deleted -666822487 1551450634
+species
+\change_inserted -666822487 1551450663
+taxon 
+\change_deleted -666822487 1551450636
+ 
+\change_unchanged
+growth rate, a-b) and impact (effects of the focal 
+\change_deleted -666822487 1551450642
+species
+\change_inserted -666822487 1551450668
+taxon
+\change_unchanged
+ unto other's growth rates, c-d), as well as self-regulation, are computed
+ for untransformed (a-c) or absolute (b-d) values of the coefficients of
+ the interaction matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
@@ -854,7 +933,10 @@ name "fig:Vulnerability_impact"
 
 \end_inset
 
-Aside from these trade-offs, some of which promote some stability (sensu
+Aside from these trade-offs, some of which promote some stability (
+\emph on
+sensu
+\emph default
  invariability), we found no remarkable patterns of covariation between
  matrix elements (other than a mean-variance scaling of interaction coefficients
 , Supplementary Fig.
@@ -994,13 +1076,20 @@ name "fig:meta_ratio"
 
 \begin_layout Section*
 Discussion
-\change_inserted -666822487 1550251663
+\change_inserted -666822487 1551450731
 
 \end_layout
 
+\begin_layout Paragraph*
+
+\change_inserted -666822487 1551450739
+Strong self-regulation and facilitation
+\end_layout
+
 \begin_layout Standard
-We found very large niche differences between genera, as measured by the
- intra/intergenus interaction strength ratio
+We found very large niche differences between genera
+\change_deleted -666822487 1551450827
+, as measured by the intra/intergenus interaction strength ratio
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "levine_importance_2009"
@@ -1028,35 +1117,51 @@ e08251.
 
 \end_inset
 
-
-\change_deleted -666822487 1551342017
 ]
 \change_unchanged
 , translating into much higher intragenus than intergenus effects on growth
  rates
-\change_inserted -666822487 1551342188
+\change_inserted -666822487 1551450981
  (i.e., strong self-regulation)
 \change_unchanged
 , together with a high degree of facilitative net interactions
-\change_inserted -666822487 1550251857
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1550251621
-We may want to add, somewhere, that people tend to exclude these positive
- interactions.
+\change_inserted -666822487 1551451065
+.
 \end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1551451886
+The rather high intra/intertaxon interaction strength ratio
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "levine_importance_2009"
+literal "false"
+
+\end_inset
+
+ that we found, from 5 to 20, depending on how one counts the interactions
+ set to zero in the estimation process, could appear extremely high in light
+ of previous intra/interspecific competition strength estimates of 4 to
+ 5 by Adler et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_competition_2018"
+literal "false"
 
 \end_inset
 
 .
- 
-\change_unchanged
-This is in spite of competition being demonstrated in the lab and in experiments
- between those genera
+ This requires some explanation.
+ First, one could argue that such high intra/inter ratio arises because
+ we consider the genus as our baseline taxonomic unit, rather than the species.
+ Although it is logical that niche differentiation increases as one gets
+ up the phylogenetic tree, and that getting down to the species level could
+ decrease slightly that ratio, there are two good arguments suggesting that
+ the niche differences found here extend to the species level.
+ First, species belonging to the various genera considered here are often
+ found to compete in experiments
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "titman_ecological_1976,tilman_phytoplankton_1982,descamps-julien_stable_2005"
@@ -1065,46 +1170,8 @@ literal "false"
 \end_inset
 
 .
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Missing a transition here?
-\end_layout
-
-\end_inset
-
- 
-\change_inserted -666822487 1551342120
-The s
-\change_deleted -666822487 1551342119
-S
-\change_unchanged
-trong self-regulation 
-\change_deleted -666822487 1551342125
-such as the one found in our study
-\change_inserted -666822487 1551342128
-that we found 
-\change_deleted -666822487 1551342126
- 
-\change_unchanged
-can be explained by 
-\change_deleted -666822487 1551342101
-many
-\change_inserted -666822487 1551342106
-multiple 
-\change_unchanged
-ecological
-\change_inserted -666822487 1551342206
- 
-\change_unchanged
-mechanisms
-\change_inserted -666822487 1551342109
-,
-\change_unchanged
- which can act together to create high net effects of density-dependence.
- In our previous publication investigating in detail the Arcachon study
- sites
+ There is therefore a massive difference between niches in the lab and in
+ the field
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -1112,8 +1179,129 @@ literal "false"
 
 \end_inset
 
-, we have argued that those large niche differences, with strong intragroup
- density-dependence could arise from effects of natural enemies
+.
+ Second
+\change_unchanged
+,the 
+\change_inserted -666822487 1551455017
+only other study that managed to provide MAR(1) estimates down to the species
+ level, that of Huber and Gaedke
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "huber_role_2006"
+literal "false"
+
+\end_inset
+
+, provides an intra/interspecific strength ratio similar to ours (point
+ 7a in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:meta_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1551453624
+NB: the difference in ration between us and Adler could also be related
+ to differences in the model, MAR vs.
+ Lotka-Volterra, although I really cannot see how this would bias the ratio
+ downwards
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+Strong self-regulation seems therefore a genuine feature of field phytoplanktoni
+c communities.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1551454842
+Another main finding of our study is the large frequency of facilitative
+ interactions, between 40 and 70%, with 30% truly mutualistic (+/+) interactions.
+ This again can be compared to the meta-analysis by Adler et al.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_competition_2018"
+literal "false"
+
+\end_inset
+
+ who found facilitative interactions, but with a flower faction (
+\begin_inset Formula $\approx$
+\end_inset
+
+30%).
+ However, Adler et al.
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "adler_competition_2018"
+literal "false"
+
+\end_inset
+
+'s review contain many experiments while the plant literature is replete
+ with field examples of facilitation 
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "brooker_facilitation_2008,mcintire2014facilitation"
+literal "false"
+
+\end_inset
+
+, so that facilitation could be much higher in the field.
+ We note that several authors using MAR(1) models previously forbade positive
+ interactions within the same trophic level, so that the fraction of facilitativ
+e interactions in phytoplankton cannot be computed from literature-derived
+ MAR(1) estimates.
+ At the moment, it is therefore unknown how the predominance of facilitative
+ interactions that we found in phytoplankton compares to facilitation in
+ terrestrial plants.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -666822487 1551452523
+The large niche differences and facilitative interactions that arise when
+ considering a single trophic level are an emergent property, arising from
+ hidden effects of resources or predator partitioning/sharing
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "chesson_updates_2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\change_unchanged
+In our previous publication investigating in detail the Arcachon study sites
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "barraquand_coastal_2018"
+literal "false"
+
+\end_inset
+
+, we have argued that for phytoplankton, the strong intragroup density-dependenc
+e could arise from effects of natural
+\change_deleted -666822487 1551452467
+ 
+\change_unchanged
+enemies
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "haydon_pivotal_1994,barraquand_coastal_2018"
@@ -1122,13 +1310,7 @@ literal "false"
 \end_inset
 
 .
- 
-\change_deleted -666822487 1551342270
-Predation effects
-\change_inserted -666822487 1551342275
-Natural enemies
-\change_unchanged
-
+ Natural enemies
 \begin_inset Note Note
 status collapsed
 
@@ -1150,35 +1332,9 @@ literal "false"
 \end_inset
 
 .
- 
-\change_deleted -666822487 1551342313
-This is still very much likely here
-\change_inserted -666822487 1551342326
-We believe this to be likely true for the present study as well, 
-\change_deleted -666822487 1551342313
- 
-\change_unchanged
-given 
-\change_inserted -666822487 1551342329
-that 
-\change_unchanged
-the new study regions (Oléron, Brittanny, Mediterranean)
-\change_inserted -666822487 1551342357
- 
-\change_deleted -666822487 1551342334
- added for this study
-\change_unchanged
- 
-\change_deleted -666822487 1551342351
-could 
-\change_unchanged
-have similar predators
-\change_inserted -666822487 1551342365
- to the Arcachon site 
-\change_deleted -666822487 1551342342
- 
-\change_unchanged
-(zooplankton
+ We believe this to be likely true for the present study as well, given
+ that the new study regions (Oléron, Brittanny, Mediterranean) have similar
+ predators to the Arcachon site (zooplankton
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "jamet_zooplankton_2001,moderan_zooplankton_2010,tortajada_network_2012"
@@ -1186,13 +1342,7 @@ literal "false"
 
 \end_inset
 
-)
-\change_inserted -666822487 1551342574
- and
-\change_deleted -666822487 1551342573
-,
-\change_unchanged
- parasites (viruses
+) and parasites (viruses
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ory_pelagic_2010"
@@ -1211,7 +1361,7 @@ literal "false"
 \end_inset
 
 
-\change_inserted -666822487 1551342663
+\change_inserted -666822487 1551451995
 
 \begin_inset Note Note
 status open
@@ -1235,7 +1385,7 @@ Let's not overcomplexify without a clear reason to
 other 
 \change_deleted -666822487 1551342399
 possible
-\change_inserted -666822487 1551342399
+\change_inserted -666822487 1551451995
 known
 \change_unchanged
  drivers of phytoplankton dynamics such as allelopathy
@@ -1263,28 +1413,16 @@ literal "false"
 \end_inset
 
 
-\change_inserted -666822487 1551345195
+\change_inserted -666822487 1551451995
  can all, in theory, help create different niches and an emerging facilitation
  (see last subsection of the Discussion).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1551342817
-Not sure about that sentence, perhaps we mix too much mechanisms that create
- niches with those creating facilitation
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
+\change_deleted -666822487 1551453668
 .
- The multidimensionality of the niche
+
+\change_unchanged
+ 
+\change_deleted -666822487 1551452406
+The multidimensionality of the niche
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "kraft_plant_2015"
@@ -1293,7 +1431,25 @@ literal "false"
 \end_inset
 
 could also help explain the large niche differences leading to coexistence.
- Finally, resources that are usually considered limiting for all species
+ 
+\change_inserted -666822487 1551452421
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1551452420
+True but we don't do anything with it
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+Finally, resources that are usually considered limiting for all species
  might in fact not always be: the changes in phytoplankton absorption spectrum
  documented by Burson et al.
 \begin_inset CommandInset citation
@@ -1303,8 +1459,22 @@ literal "false"
 
 \end_inset
 
- is an example of fine-scale resource partitioning
-\change_inserted -666822487 1551342516
+ 
+\change_deleted -666822487 1551453678
+is
+\change_inserted -666822487 1551453678
+are
+\change_unchanged
+ 
+\change_deleted -666822487 1551453688
+an 
+\change_unchanged
+example
+\change_inserted -666822487 1551453690
+s
+\change_unchanged
+ of fine-scale resource partitioning
+\change_inserted -666822487 1551451995
  of one resource, light, that is usually believed to be limiting for all
  species and genera
 \change_unchanged
@@ -1314,7 +1484,13 @@ literal "false"
 \end_layout
 
 \begin_layout Paragraph*
-No complexity-stability relationship but rarer species have buffered growth
+No complexity-stability relationship but 
+\change_deleted -666822487 1551453704
+rarer species have buffered growth
+\change_inserted -666822487 1551453733
+connections between self-regulation and intergroup interactions
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1359,7 +1535,7 @@ cette phrase nous envoie complètement une balle dans le pied, on peut dire
 
 \end_inset
 
- This results is conditional upon our model being a good approximate description
+ This result is conditional upon our model being a good approximate description
  of the system (i.e., no multiyear limit cycles or chaotic attractors as the
  mapping between eigenvalues and actual stability is distorted in that case
 \begin_inset CommandInset citation
@@ -1385,18 +1561,9 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -666822487 1551343376
-However, the
-\change_inserted -666822487 1551343376
-This
-\change_inserted -2100369821 1550932101
- absence of direct link between complexity and stability could be an actual
- feature of empirical systems
-\change_inserted -666822487 1551343389
-, as shown previously by Jacquet et al.
-\change_inserted -2100369821 1550932101
-
+This absence of direct link between complexity and stability could be an
+ actual feature of empirical systems, as shown previously by Jacquet et
+ al.
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "jacquet_no_2016"
@@ -1404,12 +1571,8 @@ literal "false"
 
 \end_inset
 
-
-\change_inserted -666822487 1551343399
- using a different technique
-\change_inserted -2100369821 1550932101
-, even though it does contradict previous results on random matrices, especially
- for competitive and/or mutualistic networks
+ using a different technique, even though it does contradict previous results
+ on random matrices, especially for competitive and/or mutualistic networks
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "allesina_stability_2012"
@@ -1419,54 +1582,26 @@ literal "false"
 
 .
 
-\change_deleted -666822487 1551343426
- 
-\change_inserted -666822487 1551343435
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1551343461
-I think May considered food web, why would this especially be true for competiti
-on/mutualistic?
-\change_unchanged
-
-\end_layout
+\change_inserted -666822487 1551454180
+ We also found that the percentage of mutualistic interactions, that is
+ thought to affect the stability of the network
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "mougi2012diversity,coyte_ecology_2015,garcia-callejas_multiple_2018"
+literal "false"
 
 \end_inset
 
-
+, does not have a major impact on the network's resilience.
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -666822487 1551343509
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1551343524
-Here this is a new paragraph, we discuss another plot of the results...
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_deleted -666822487 1551343487
-In particular, t
-\change_inserted -666822487 1551343487
-T
-\change_inserted -2100369821 1550932101
-he role of mutualistic interactions in stabilizing communities is still
- debated: 
-\change_inserted -666822487 1551343550
-an increase in the number of positive interactions can either maximize the
- persistence of a network
+\change_deleted -666822487 1551453785
+In particular, the role of mutualistic interactions in stabilizing communities
+ is still debated: while it does not strongly alter the stability of the
+ communities we examined, an increase in the number of positive interactions
+ can either maximize the persistence of a network
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "garcia2018effect"
@@ -1484,69 +1619,24 @@ literal "false"
 \end_inset
 
 .
-\change_deleted -666822487 1551343557
-while it does
-\change_inserted -666822487 1551343571
- Here, we found that such fraction of positive interactions does 
-\change_deleted -666822487 1551343557
- 
-\change_inserted -2100369821 1550932101
-not strongly alter the stability of the communities we examined
-\change_inserted -666822487 1551343576
-.
-\change_deleted -666822487 1551343575
-,
-\change_inserted -2100369821 1550932101
- 
-\change_deleted -666822487 1551343548
-an increase in the number of positive interactions can either maximize the
- persistence of a network
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "garcia2018effect"
-literal "false"
-
-\end_inset
-
- or narrow the range of richness and connectance values allowing for a stable
- community
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "allesina_stability_2012"
-literal "false"
-
-\end_inset
-
-.
-\change_inserted -666822487 1551343579
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1551343587
-We need another sentence or two.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -2100369821 1550932101
-
 \end_layout
 
 \begin_layout Standard
 
 \change_inserted -2100369821 1550933290
-In addition to weighted connectance, indices at the network-level (vulnerability
- and generality
-\change_inserted -666822487 1551343914
- [F: these were defined at the species level below??]
+In addition to weighted connectance, indices at the network-level (
+\change_deleted -666822487 1551453798
+vulnerability and generality, encapsulated in the 
+\change_inserted -666822487 1551453803
+e.g., 
 \change_inserted -2100369821 1550933290
-, encapsulated in the linkage density) and at the species-level (
+linkage density) and at the species
+\change_inserted -666822487 1551453829
+ or genus 
+\change_deleted -666822487 1551453831
+-
+\change_inserted -2100369821 1550933290
+level (
 \change_deleted -666822487 1551343867
 [
 \change_inserted -2100369821 1550933290
@@ -1555,7 +1645,13 @@ vulnerability
 ]
 \change_inserted -2100369821 1550933290
  and impact) approximate the average effects exerted and sustained by any
- given species in the different study sites.
+ given 
+\change_deleted -666822487 1551453839
+species
+\change_inserted -666822487 1551453839
+taxa
+\change_inserted -2100369821 1550933290
+ in the different study sites.
  While, at the network level, 
 \change_deleted -666822487 1551343955
 linkage density
@@ -1566,7 +1662,13 @@ network structure (either complexity measures or the percentage of mutualistic
  
 \change_inserted -2100369821 1550933290
 did not affect stability, a relation emerged between self-regulation, necessary
- for coexistence, and species-level indices.
+ for coexistence, and 
+\change_deleted -666822487 1551453851
+species
+\change_inserted -666822487 1551453851
+genus
+\change_inserted -2100369821 1550933290
+-level indices.
  
 \change_deleted -666822487 1551344340
 The
@@ -1575,12 +1677,29 @@ We found that the
 \change_deleted -666822487 1551344340
  
 \change_inserted -2100369821 1550933290
-more a species is self-regulated, the more it tends to be vulnerable to
- other species 
+more a 
+\change_deleted -666822487 1551453855
+species
+\change_inserted -666822487 1551453856
+genus
+\change_inserted -2100369821 1550933290
+ is self-regulated, the more it tends to be vulnerable to other 
+\change_deleted -666822487 1551453860
+species
+\change_inserted -666822487 1551453873
+genera
+\change_inserted -2100369821 1550933290
+ 
 \change_inserted -666822487 1551344363
 impacts 
 \change_inserted -2100369821 1550933290
-and the less it impacts other species.
+and the less it impacts other 
+\change_deleted -666822487 1551453866
+species
+\change_inserted -666822487 1551453868
+genera
+\change_inserted -2100369821 1550933290
+.
  
 \change_deleted -666822487 1551344080
 Indeed, s
@@ -1597,8 +1716,12 @@ indicates large niche differences
 \change_deleted -666822487 1551344086
 :
 \change_inserted -2100369821 1550933290
- a species whose needs strongly differ from the others only marginally impacts
- the resources of the other coexisting species.
+ a species
+\change_inserted -666822487 1551453881
+/genus
+\change_inserted -2100369821 1550933290
+ whose needs strongly differ from the others only marginally impacts the
+ resources of the other coexisting species.
  Furthermore, a low self-regulation 
 \change_inserted -666822487 1551344106
 was
@@ -1606,42 +1729,43 @@ was
 is
 \change_inserted -2100369821 1550933290
  correlated with strong average abundance
-\change_inserted -666822487 1551344515
+\change_inserted -666822487 1551454270
 , which echoes findings by Yenni et al.
- [REF] who found that rare species usually show stronger self-regulation
- (see also [Rovere and Fox] for mechanisms).
- This correlation could explain the lesser impact effect of high self-regulated
- species
+ [REF] who found that rare species usually show stronger self-regulation.
+ This correlation between rarity and self-regulation could explain the lesser
+ impact effect of high self-regulated species/genus
 \change_unchanged
 : a species which dominate the community composition can have a major effect
- on the others, just by a mechanistic increase in the pro
-\change_deleted -666822487 1551344529
-p
-\change_unchanged
-bability of direct and indirect interactions
-\change_inserted -666822487 1551344162
- while rarer species have usually less impact
+ on the others, 
+\change_deleted -666822487 1551454310
+just by a mechanistic increase in the propbability of direct and indirect
+ interactions
+\change_inserted -666822487 1551454340
+especially as they usually cover more space, while it is harder for rare,
+ localized species have large impacts
 \change_inserted -2100369821 1550933290
 .
 
+\change_inserted -666822487 1551454342
+ 
 \change_deleted -666822487 1551344169
  
-\change_inserted -666822487 1551345010
-However, it was more difficult to explain the reverse link: a species that
+\change_inserted -666822487 1551454361
+However, it was more difficult to explain the reverse link: a genus that
  is more self-regulated and rarer was found here to be on average more vulnerabl
-e to other species increases in densities.
- Such relation implies greater stability for the network, because the species
- the most vulnerable to other species impacts are also those that are the
- most self-regulated and whose dynamics are therefore less perturbed.
+e to other genera's increases in densities.
+ Such relation implies greater stability for the network as a whole, because
+ the taxon the most vulnerable to other taxa's impacts are also those that
+ are the most self-regulated and whose dynamics are therefore less perturbed.
  By which mechanisms this could happen is so far unclear and open to speculation.
-We caution, however, that the relationships between vulnerability, impact
+ We caution, however, that the relationships between vulnerability, impact
  and self-regulation that we evidenced are all relatively weak: considerable
  stochasticity dominates the distribution of interaction matrix coefficients.
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1550933290
+\change_deleted -666822487 1551454197
 To our knowledge, relations between different types of interactions (competitive
 , commensalist and mutualistic), and frequency-dependence, has not been
  fully explored up to now (but see
@@ -1668,10 +1792,6 @@ literal "false"
 .
  This relation still needs to be extended to asymmetric matrices with high
  abundance variation to be fully applied to empirical systems such as ours.
-
-\change_inserted -666822487 1551345091
- [F: I left the last paragraph because it was not completely clear to me
- in what direction exactly this was supposed to take the discussion].
 \change_inserted -2100369821 1550933290
 
 \end_layout
@@ -1683,8 +1803,16 @@ Ghosts of competition past and present
 \end_layout
 
 \begin_layout Standard
-The dominance of niche differentation in observational plankton studies
- is similar to what has been recently found in plant community studies
+
+\change_deleted -666822487 1551454401
+The
+\change_inserted -666822487 1551454405
+Overall, the 
+\change_deleted -666822487 1551454404
+ 
+\change_unchanged
+dominance of niche differentation in observational plankton studies is similar
+ to what has been recently found in plant community studies
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "volkov_patterns_2007,adler_competition_2018"
@@ -1692,7 +1820,13 @@ literal "false"
 
 \end_inset
 
- or empirical food webs including horizontal diversity
+
+\change_inserted -666822487 1551454421
+, if not more frequent, 
+\change_deleted -666822487 1551454415
+ 
+\change_unchanged
+or empirical food webs including horizontal diversity
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barabas_self-regulation_2017"
@@ -1704,7 +1838,13 @@ literal "false"
  Large niche differences might be due to the ghost of the competition past,
  i.e., competition has occurred in the past, leading to strong selection and
  subsequent evolution leading to progressive niche separation.
- Species have evolved niches that allow them not to compete or to interact
+ 
+\change_inserted -666822487 1551454465
+In this scenario, s
+\change_deleted -666822487 1551454457
+S
+\change_unchanged
+pecies have evolved niches that allow them not to compete or to interact
  only weakly (very strong facilitative effects might be likewise destabilizing
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1715,8 +1855,11 @@ literal "false"
 
 ).
  The likely predator effects that we highlighted above could be comprised
- within such niche differentiation sensu largo: specialized predators can
- make strong conspecific density-dependence emerge
+ within such niche differentiation 
+\emph on
+sensu largo
+\emph default
+: specialized predators can make strong conspecific density-dependence emerge
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "bagchi_pathogens_2014,comita_testing_2014"
@@ -1734,7 +1877,17 @@ literal "false"
 
 .
  Both predators and resources have often symmetrical effects and can therefore
- contribute almost equally to niche differentation
+ contribute almost equally to
+\change_inserted -666822487 1551454509
+ such past 
+\change_deleted -666822487 1551454507
+ 
+\change_unchanged
+niche different
+\change_inserted -666822487 1551455112
+i
+\change_unchanged
+ation
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "chesson_updates_2018"
@@ -1742,6 +1895,11 @@ literal "false"
 
 \end_inset
 
+
+\change_inserted -666822487 1551455114
+.
+ 
+\change_unchanged
 
 \end_layout
 
@@ -1763,8 +1921,20 @@ literal "false"
 
 \end_inset
 
-, suggests that spatial patterns in relation to abiotic factors might have
- a large impact on the patterns inferred from interaction models.
+, suggests 
+\change_inserted -666822487 1551454536
+by contrast 
+\change_unchanged
+that spatial patterns in relation to abiotic factors might have a large
+ impact on the patterns inferred from 
+\change_inserted -666822487 1551454547
+temporal 
+\change_unchanged
+interaction models
+\change_inserted -666822487 1551454552
+ such as ours
+\change_unchanged
+.
  Recent combinations of model fitting and removal experiments have shown
  that the model fitting usually underestimate the effect of competitors
  that are uncovered by removal experiments
@@ -2397,42 +2567,9 @@ n scenarios.
  with a dinoflagellate or a cryptophyte, but not with another diatom), and
  the last interaction scenario did not constrain the interactions at all
  (full interaction matrix).
- 
-\change_deleted -2100369821 1549968157
-Based on remarkably 
-\change_deleted -666822487 1546249387
-convergent
-\change_deleted -2100369821 1549968157
-congruent results for
-\change_deleted -666822487 1546249485
-in
-\change_deleted -2100369821 1549968157
- all sites (see Supplementary Information), we further investigated the
- second model, hereafter called the pennate-centric modelinteraction .
-
-\change_inserted -2100369821 1549978575
  The second interaction scenario, hereafter called the pennate-centric scenario,
  had the lowest BIC for all sites and was therefore the most accurate while
  still parsimonious: we chose to further investigate the corresponding networks.
- 
-\change_unchanged
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-The sentence work, but why not say more simply that the second scenario/model
- has lowest BIC for all sites, and was therefore clearly deemed the most
- parsimonious / therefore had the most support?
-\change_inserted -666822487 1549806693
- F: Have we discussed that already?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection*
@@ -2586,6 +2723,11 @@ al
  phenomena (observed predation between organisms, for instance).
  There is therefore a positive correlation between sparsity and dimensionality
  (Supplementary Fig.
+
+\change_inserted -666822487 1551454721
+ 
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:ratio_meta"
@@ -2657,28 +2799,6 @@ The latter choice may bias high non-zero interactions in the previous literature
 , which is why we decided to present in the main text interaction matrices
  including coefficients set to zero, which should be more robust to the
  model selection method.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1549808571
-I'm wondering if the last two caveats that we mention are not something
- for the SI.
- We can discuss this.
-
-\change_inserted -2100369821 1549968325
- If I remember well, you said we would decide this later, right?
-\change_inserted -666822487 1549808571
- 
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_inserted -2100369821 1545407428
 
 \end_layout
