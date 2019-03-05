@@ -84,6 +84,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -2100369821 "cpicoche"
 \end_header
 
 \begin_body
@@ -96,7 +97,13 @@ Supplementary Information
  for 
 \series bold
 Strong self-regulation and widespread facilitative interactions between
- groups of phytoplankton 
+ 
+\change_deleted -2100369821 1551798839
+groups
+\change_inserted -2100369821 1551798840
+genera
+\change_unchanged
+ of phytoplankton 
 \series default
 - Picoche, C.
  & Barraquand F.
@@ -119,7 +126,11 @@ noprefix "false"
 
 \end_inset
 
- and details on each site are given in Table 
+ and details on each site are given in 
+\change_inserted -2100369821 1551799601
+Supplementary 
+\change_unchanged
+Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Map"
@@ -131,8 +142,15 @@ noprefix "false"
 
 .
  The mean temperature in each region mostly depended in its latitude while
- salinity in one can site could be considered as a proxy for terrestrial
- inputs from rivers or evaporation.
+ salinity in one can site could be considered as a proxy for 
+\change_inserted -2100369821 1551798850
+evaporation and 
+\change_unchanged
+terrestrial inputs from rivers
+\change_deleted -2100369821 1551798854
+ or evaporation
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -921,17 +939,7 @@ AST
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Asterionella+Asterionellopsis+Asteroplanus
 \end_layout
 
@@ -953,17 +961,7 @@ CHA
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Chaetoceros
 \end_layout
 
@@ -984,18 +982,6 @@ CRY
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 Cryptophytes
 \end_layout
 
@@ -1017,17 +1003,7 @@ DIT
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Ditylum
 \end_layout
 
@@ -1048,18 +1024,6 @@ EUG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 Euglenophytes
 \end_layout
 
@@ -1081,17 +1045,7 @@ GUI
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Guinardia
 \end_layout
 
@@ -1113,17 +1067,7 @@ GYM
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Gymnodinium+Gyrodinium
 \end_layout
 
@@ -1145,17 +1089,7 @@ LEP
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Leptocylindrus
 \end_layout
 
@@ -1177,17 +1111,7 @@ NIT
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Nitzschia+Hantzschia
 \end_layout
 
@@ -1209,17 +1133,7 @@ PLE
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Pleurosigma+Gyrosigma
 \end_layout
 
@@ -1241,17 +1155,7 @@ PRO
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Prorocentrum
 \end_layout
 
@@ -1273,17 +1177,7 @@ PRP
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Protoperidinium+Archaeperidinium+Peridinium
 \end_layout
 
@@ -1305,17 +1199,7 @@ PSE
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Pseudo-nitzschia
 \end_layout
 
@@ -1337,17 +1221,7 @@ RHI
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Rhizosolenia+Neocalyptrella
 \end_layout
 
@@ -1369,17 +1243,7 @@ SCR
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Scrippsiella+Ensiculifera+Pentapharsodinium+Bysmatrum
 \end_layout
 
@@ -1401,17 +1265,7 @@ SKE
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Skeletonema
 \end_layout
 
@@ -1433,17 +1287,7 @@ THL
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Thalassionema+Lioloma
 \end_layout
 
@@ -1465,17 +1309,7 @@ THP
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\shape italic
 Thalassiosira+Porosira
 \end_layout
 
@@ -1548,7 +1382,13 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Time series of the 5 most abundant phytoplanktonic groups in each site.
+Time series of the 5 most abundant phytoplanktonic 
+\change_deleted -2100369821 1551799117
+groups
+\change_inserted -2100369821 1551799118
+genera
+\change_unchanged
+ in each site.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Time-series"
@@ -1573,9 +1413,17 @@ MAR(1) models
 \end_layout
 
 \begin_layout Standard
-We selected the most parcimonious interaction matrices usingBIC.
+We selected the most parcimonious interaction matrices using
+\change_inserted -2100369821 1551799432
+ 
+\change_unchanged
+BIC.
  Not only the best-ranking model, but also our ranking of interaction scenarios
- was similar for most sites (Fig.
+ was similar for most sites (
+\change_inserted -2100369821 1551799612
+Supplementary 
+\change_unchanged
+Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1588,8 +1436,16 @@ noprefix "false"
 
 ).
  Based on these results, we focused on the pennate-centric scenario to analyze
- interaction matrices as this scenarioc orresponded to the best fitted models
- which still allowed interactions between groups.
+ interaction matrices as this scenario
+\change_inserted -2100369821 1551799616
+ 
+\change_unchanged
+c
+\change_deleted -2100369821 1551799616
+ 
+\change_unchanged
+orresponded to the best fitted models which still allowed interactions between
+ groups.
 \end_layout
 
 \begin_layout Standard
@@ -1651,7 +1507,15 @@ In addition to the coefficients of the interaction matrix, MAR(1) models
  allowed us to estimate the effect of environmental variables.
  The parameters associated with these variable reveal abiotic effects such
  as phenology (temperature, related to insolation) or responses to hydrological
- changes such assalinity variation (Fig.
+ changes such as
+\change_inserted -2100369821 1551799437
+ 
+\change_unchanged
+salinity variation (
+\change_inserted -2100369821 1551799628
+Supplementary 
+\change_unchanged
+Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1701,7 +1565,13 @@ status open
 
 \series bold
 Effect of environmental variables (temperature, TEMP or salinity, SAL) on
- phytoplankton group
+ phytoplankton 
+\change_deleted -2100369821 1551799444
+group
+\change_inserted -2100369821 1551799444
+genera
+\change_unchanged
+
 \series default
  in Brittany (a, b), Oléron (c, d), Arcachon (e, f) and in the Mediterranean
  Sea (g, h).
@@ -1738,9 +1608,20 @@ Metrics
 \end_layout
 
 \begin_layout Standard
-We characterized each interaction network with 4 quantitative descriptors:
- the mean and variance of the intra- and intergroup coefficients (i.e., on
- and off the matrix diagonal) 
+We characteri
+\change_inserted -2100369821 1551799451
+s
+\change_deleted -2100369821 1551799451
+z
+\change_unchanged
+ed each interaction network with 4 quantitative descriptors: the mean and
+ variance of the intra- and interg
+\change_deleted -2100369821 1551799461
+roup
+\change_inserted -2100369821 1551799462
+enus
+\change_unchanged
+ coefficients (i.e., on and off the matrix diagonal) 
 \family roman
 \series medium
 \shape up
@@ -1784,9 +1665,30 @@ linkage density and weighted connectance of
 \end_inset
 
 .
- Absolute values of intragroup coefficients were approximately 8 times higher
- than the absolute effects of intergroup interactions while the intragroup
- interaction's deviation was about 4 times higher (Fig.
+ Absolute values of intrag
+\change_deleted -2100369821 1551799469
+roup
+\change_inserted -2100369821 1551799470
+e,is
+\change_unchanged
+ coefficients were approximately 8 times higher than the absolute effects
+ of interg
+\change_deleted -2100369821 1551799477
+roup
+\change_inserted -2100369821 1551799477
+enus
+\change_unchanged
+ interactions while the intrag
+\change_deleted -2100369821 1551799481
+roup
+\change_inserted -2100369821 1551799481
+e,is
+\change_unchanged
+ interaction's deviation was about 4 times higher (
+\change_inserted -2100369821 1551799637
+Supplementary 
+\change_unchanged
+Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1823,8 +1725,13 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Relation between mean and variance of the intra- and inter-group interaction
- coefficients
+Relation between mean and variance of the intra- and inter
+\change_deleted -2100369821 1551799490
+-group
+\change_inserted -2100369821 1551799490
+genus
+\change_unchanged
+ interaction coefficients
 \series default
 .
  Variance of the coefficient in the interaction matrix 
@@ -1860,7 +1767,11 @@ name "fig:MeanVar"
 \begin_layout Standard
 The intragroup interaction strength could be related to the mean abundance
  of each species as the most self-regulated species were also the least
- abundant (Fig.
+ abundant (
+\change_inserted -2100369821 1551799649
+Supplementary 
+\change_unchanged
+Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1899,10 +1810,27 @@ status open
 \series bold
 Relation between abundance and self-regulation
 \series default
- (intra-group interaction coefficients).
- Mean abundance is computed for each species in each site in 4 regions and
- intra-group interaction strengths are the diagonal coefficients of the
- interaction matrix 
+ (
+\change_deleted -2100369821 1551799497
+intra-group
+\change_inserted -2100369821 1551799499
+intragenus
+\change_unchanged
+ interaction coefficients).
+ Mean abundance is computed for each 
+\change_deleted -2100369821 1551799504
+species
+\change_inserted -2100369821 1551799504
+genus
+\change_unchanged
+ in each site in 4 regions and 
+\change_deleted -2100369821 1551799511
+intra-group
+\change_inserted -2100369821 1551799512
+intragenus
+\change_unchanged
+ interaction strengths are the diagonal coefficients of the interaction
+ matrix 
 \begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
@@ -1928,7 +1856,13 @@ name "fig:IntraVAbundance"
 \end_layout
 
 \begin_layout Standard
-Linkage density and weighted connectance were described in ref
+Linkage density and weighted connectance were described in 
+\change_deleted -2100369821 1551799547
+ref
+\change_inserted -2100369821 1551799549
+Bersier et al.
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "bersier_quantitative_2002"
@@ -2236,7 +2170,7 @@ where
 \noun off
 \color none
 
-\begin_inset Formula $\sum_{i=1}^{S}(b_{ki}\neq0)$
+\begin_inset Formula $\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}$
 \end_inset
 
  is the number of interactions which are different from 0 in row 
@@ -4504,6 +4438,551 @@ name "fig:ratio_meta"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716751
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\change_inserted -2100369821 1551716331
+Connection to Lotka-Volterra competition dynamics
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716375
+The Beverton-Holt competition model, widely used for modelling plant community
+ dynamics, is the closest discrete time equivalent to the continuous-time
+ Lotka-Volterra model
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "cushing_discrete_2004"
+literal "false"
+
+\end_inset
+
+, although the mapping is not perfect for 
+\begin_inset Formula $n\geq3$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "roeger_discrete_2004"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551774184
+The Beverton-Holt competition model writes
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+N_{i,t+1}=\frac{e^{r_{i}}N_{i,t}}{1+\sum_{j}\alpha_{ij}N_{j,t}}\label{eq:BevHolt}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551774057
+where 
+\begin_inset Formula $N_{i,t}$
+\end_inset
+
+ is the abundance of species i at time t, 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ is its growth rate and 
+\begin_inset Formula $\alpha_{ij}$
+\end_inset
+
+is the effect of species 
+\begin_inset Formula $j$
+\end_inset
+
+ on species 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551774258
+Using a 2 species model, we note the equilibrium values of species 1 and
+ 2 as 
+\begin_inset Formula $N_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ (without time subscript).
+ We re-write the model at equilibrium.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551773787
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+R_{1}= & \alpha_{11}N_{1}+\alpha_{12}N_{2}\\
+R_{2}= & \alpha_{21}N_{1}+\alpha_{22}N_{2}
+\end{cases},\textrm{with}\begin{cases}
+R_{1}= & e^{r_{1}}-1\\
+R_{2}= & e^{r_{2}}-1
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551773793
+\begin_inset Formula 
+\begin{equation}
+\Leftrightarrow\begin{cases}
+\alpha_{21}R_{1}= & \alpha_{21}\alpha_{11}N_{1}+\alpha_{21}\alpha_{12}N_{2}\\
+\alpha_{11}R_{2}= & \alpha_{11}\alpha_{21}N_{1}+\alpha_{11}\alpha_{22}N_{2}
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\Leftrightarrow\begin{cases}
+N_{1}= & \frac{\alpha_{12}R_{2}-\alpha_{22}R_{1}}{\alpha_{12}\alpha_{21}-\alpha_{22}\alpha_{11}}\\
+N_{2}= & \frac{\alpha_{21}R_{1}-\alpha_{11}R_{2}}{\alpha_{12}\alpha_{21}-\alpha_{22}\alpha_{11}}
+\end{cases}\label{eq:N1N2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551774318
+Setting 
+\begin_inset Formula $n=\log(N)$
+\end_inset
+
+, eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:BevHolt"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is equivalent to
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+n_{1,t+1}= & r_{1}+n_{1,t}-\ln(1+\alpha_{11}N_{1,t}+\alpha_{12}N_{2,t})\\
+n_{2,t+1}= & r_{2}+n_{2,t}-\ln(1+\alpha_{21}N_{1,t}+\alpha_{22}N_{2,t})
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+We want to compute 
+\begin_inset Formula $J$
+\end_inset
+
+, the log-scale jacobian matrix of the model.
+ Let us note 
+\begin_inset Formula $X=\ln(1+\alpha_{11}N_{1,t}+\alpha_{12}N_{2,t})$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $Y=\ln(1+\alpha_{12}N_{1,t}+\alpha_{22}N_{2,t})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+J=\left(\begin{array}{cc}
+1-\frac{\partial X}{\partial n_{1}} & -\frac{\partial X}{\partial n_{2}}\\
+-\frac{\partial Y}{\partial n_{1}} & 1-\frac{\partial Y}{\partial n_{2}}
+\end{array}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+We have
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $\frac{\partial X}{\partial n_{1}}=\frac{\partial X}{\partial N_{1}}\frac{\partial N}{\partial n_{1}}=\frac{\alpha_{11}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}e^{n_{1}}=\frac{\alpha_{11}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}N_{1}$
+\end_inset
+
+, which leads to
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+J-I=\left(\begin{array}{cc}
+-\frac{\alpha_{11}N_{1}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}} & -\frac{\alpha_{12}N_{2}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}\\
+-\frac{\alpha_{21}N_{1}}{1+\alpha_{21}N_{1}+\alpha_{22}N_{2}} & -\frac{\alpha_{22}N_{2}}{1+\alpha_{21}N_{1}+\alpha_{22}N_{2}}
+\end{array}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+For now, we consider diffuse competition, that is
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+\alpha_{ii}= & \alpha\\
+\alpha_{ij}= & k\alpha,\forall i\neq j
+\end{cases}\label{eq:diffuse_comp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+If we combine eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:N1N2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:diffuse_comp"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we have
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+N_{1}= & \frac{\alpha R_{2}-k\alpha R_{1}}{\alpha^{2}-k^{2}\alpha^{2}}\\
+N_{2}= & \frac{\alpha R_{1}-k\alpha R_{2}}{\alpha^{2}-k^{2}\alpha^{2}}
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+and
+\begin_inset Formula 
+\begin{equation}
+J-I=\left(\begin{array}{cc}
+-\frac{k\alpha N_{1}}{1+k\alpha N_{1}+\alpha N_{2}} & -\frac{\alpha N_{2}}{1+k\alpha N_{1}+\alpha N_{2}}\\
+-\frac{\alpha N_{1}}{1+\alpha N_{1}+k\alpha N_{2}} & -\frac{k\alpha N_{2}}{1+\alpha N_{1}+k\alpha N_{2}}
+\end{array}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\Rightarrow\begin{cases}
+(J-I)_{11}= & \frac{-\frac{k}{1-k^{2}}(R_{2}-kR_{1})}{1+\frac{k}{1-k^{2}}(R_{2}-kR_{1})+\frac{1}{1-k^{2}}(R_{1}-kR_{2})}\\
+(J-I)_{12}= & \frac{-\frac{1}{1-k^{2}}(R_{1}-kR_{2})}{1+\frac{k}{1-k^{2}}(R_{2}-kR_{1})+\frac{1}{1-k^{2}}(R_{1}-kR_{2})}
+\end{cases}\Rightarrow(J-I)_{11}=k\frac{R_{2}-kR_{1}}{R_{1}-kR_{2}}(J-I)_{12}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551774343
+By symmetry, we can also write
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+(J-I)_{22}=k\frac{R_{1}-kR_{2}}{R_{2}-kR_{1}}(J-I)_{21}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551799696
+Therefore, unless the growth rates and the resulting abundances differ over
+ several orders of magnitude, the strength of the competition ratio 
+\begin_inset Formula $k$
+\end_inset
+
+ should be roughly comparable between MAR(1) and Lotka-Volterra or Beverton-Holt
+ models.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+This reasoning can be applied with 
+\begin_inset Formula $n$
+\end_inset
+
+ species.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\begin{aligned}(J-I)_{ii} & = & \frac{-\alpha_{ii}N_{i}}{1+\sum_{j}\alpha_{ij}N_{j}}\\
+ & = & \frac{-k\alpha N_{i}}{1+k\alpha N_{i}+\sum_{j,j\neq i}\alpha N_{j}}
+\end{aligned}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+and
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\begin{equation}
+\begin{aligned}(J-I)_{ij} & = & \frac{-\alpha_{ij}N_{j}}{1+\sum_{l}\alpha_{il}N_{l}}\\
+ & = & \frac{-\alpha N_{j}}{1+k\alpha N_{i}+\sum_{l,l\neq i}\alpha N_{l}}\\
+ & = & (J-I)_{ii}\frac{\alpha N_{j}}{k\alpha N_{i}}\\
+ & = & \frac{1}{k}(J-I)_{ii}\frac{N_{j}}{N_{i}}
+\end{aligned}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551799730
+Therefore, as long as the growth rates and the resulting equilibrium abundances
+ do not differ too much, the order of magnitude of competition should be
+ the same in MAR(1), Lotka-Volterra and Beverton-Holt models.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1551716331
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1551716331
+We could go further by computing the equilibrium abundances.
+ For 
+\begin_inset Formula $n$
+\end_inset
+
+ species,
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\[
+\begin{cases}
+R_{1}= & k\alpha N_{1}+\alpha N_{2}+\ldots+\alpha N_{n}\\
+\cdots\\
+R_{n}= & \alpha N_{1}+\alpha N_{2}+\ldots+k\alpha N_{n}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1551716331
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{R}=(\alpha(k-1)\boldsymbol{I}+\boldsymbol{*1*})\boldsymbol{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1551716331
+where 
+\begin_inset Formula $\boldsymbol{I}$
+\end_inset
+
+ is the identity matrix and 
+\begin_inset Formula $\boldsymbol{*1*}$
+\end_inset
+
+ is a matrix of ones.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1551716331
+We could look for an analytical expression for 
+\begin_inset Formula $((k-1)\boldsymbol{I}+\boldsymbol{*1*})^{-1}$
+\end_inset
+
+, we may be able to find a closed form expression for 
+\begin_inset Formula $N=\frac{1}{\alpha}((k-1)\boldsymbol{I}+\boldsymbol{*1*})^{-1}\boldsymbol{R}$
+\end_inset
+
+ (have a look at Allesina)
 \end_layout
 
 \end_inset
