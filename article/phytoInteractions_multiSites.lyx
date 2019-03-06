@@ -110,14 +110,8 @@ The persistence of phytoplanktonic diversity in spite of competition for
  To sort out, among the many coexistence mechanisms suggested by theory
  and experiments, which ones actually maintain diversity in natural ecosystems,
  long-term field studies are paramount.
- Here, we analy
-\change_deleted -2100369821 1551797746
-z
-\change_inserted -2100369821 1551797746
-s
-\change_unchanged
-e a large dataset of phytoplankton abundance time series, counted every
- two weeks over 20 years, at 10 sites along the French coastline.
+ Here, we analyse a large dataset of phytoplankton abundance time series,
+ counted every two weeks over 20 years, at 10 sites along the French coastline.
  We estimate biotic interactions using dynamic, multispecies autoregressive
  models.
  We show that a strong self-regulation, with competition strength within
@@ -128,11 +122,7 @@ e a large dataset of phytoplankton abundance time series, counted every
  Both strong self-regulation and widespread net facilitation should therefore
  be key features of coexistence mechanisms intending to explain phytoplankton
  diversity maintenance.
-
-\change_inserted -2100369821 1551797036
  (148 words)
-\change_unchanged
-
 \end_layout
 
 \begin_layout Section*
@@ -287,22 +277,10 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Here, we 
-\change_deleted -2100369821 1551798092
-analyse
-\change_inserted -2100369821 1551798093
-study
-\change_unchanged
- a large multi-species dataset consisting of several multivariate long-term
- time series of phytoplankton dynamics along the French coastline, which
- we then analy
-\change_inserted -2100369821 1551798099
-s
-\change_deleted -2100369821 1551798098
-z
-\change_unchanged
-e using multivariate autoregressive (MAR) time series models, allowing for
- interactions between genera.
+Here, we study a large multi-species dataset consisting of several multivariate
+ long-term time series of phytoplankton dynamics along the French coastline,
+ which we then analyse using multivariate autoregressive (MAR) time series
+ models, allowing for interactions between genera.
  Although many ecological studies focus on interactions between species,
  competition has been shown experimentally to occur between different genera
  of phytoplankton 
@@ -315,21 +293,36 @@ literal "false"
 
 .
  
-\change_inserted -2100369821 1551798111
+\change_deleted -666822487 1551900296
 [[
 \change_unchanged
-Because competition should - according to theory and experiments - occur
- between phytoplankton genera
-\change_inserted -2100369821 1551798123
+Because competition 
+\change_deleted -666822487 1551900304
+should
+\change_inserted -666822487 1551900306
+does
+\change_unchanged
+ - according to 
+\change_inserted -666822487 1551900326
+both 
+\change_unchanged
+theory and experiments - occur between phytoplankton genera
+\change_deleted -666822487 1551900299
 ]]
+\change_inserted -2100369821 1551798123
+
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
 \change_inserted -2100369821 1551798166
 This repeats the previous sentence, I would remove it and only keep the
  next part
+\change_inserted -666822487 1551900419
+.
+ I think we should keep it to make it 100% clear - it's an important step
+ in the reasoning.
 \change_unchanged
 
 \end_layout
@@ -338,16 +331,13 @@ This repeats the previous sentence, I would remove it and only keep the
 
 
 \change_unchanged
-, and the genus level is 
-\change_deleted -2100369821 1551798177
-for phytoplankton interaction studies 
+, and the genus level is a rather fine taxonomic scale for phytoplankton
+ interaction studies (most
+\change_deleted -666822487 1551900353
+ phytoplankton interaction 
 \change_unchanged
-a rather fine taxonomic scale 
-\change_inserted -2100369821 1551798180
-for phytoplankton interaction studies 
-\change_unchanged
-(most phytoplankton interaction studies are restricted to interaction between
- different classes or even phyla
+studies are restricted to interaction between different classes or even
+ phyla
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003,hampton_sixty_2008,griffiths_phytoplankton_2015"
@@ -358,16 +348,37 @@ literal "false"
 ), we study here interactions between different genera of phytoplankton,
  
 \change_inserted -2100369821 1551798194
-which 
+which
+\change_inserted -666822487 1551900377
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1551900391
+j'aurais écris 
+\begin_inset Quotes eld
+\end_inset
+
+that
+\begin_inset Quotes erd
+\end_inset
+
+ mais je peux me gourrer ;)
 \change_unchanged
-belong mostly to diatoms and dinoflagellates.
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ belong mostly to diatoms and dinoflagellates.
  To put our results into a more general context, we then compare our interaction
- strength
-\change_deleted -2100369821 1551798203
-s
-\change_unchanged
- estimates to previously published interaction networks produced under the
- same statistical framework, both in plankton and other empirical systems.
+ strength estimates to previously published interaction networks produced
+ under the same statistical framework, both in plankton and other empirical
+ systems.
  
 \begin_inset Note Note
 status collapsed
@@ -446,33 +457,13 @@ literal "false"
 \end_inset
 
 .
- The ratio of mean intragenus to intergenus interaction coefficients varie
-\change_inserted -2100369821 1551798240
-s
-\change_deleted -2100369821 1551798240
-d
-\change_unchanged
+ The ratio of mean intragenus to intergenus interaction coefficients varies
  between 6 and 10, not counting coefficients set to 0 in the estimation
  process.
  If we include the zeroes in the interaction matrix in the computation of
- the intra/inter mean interaction strength, the ratio rises to 
-\change_deleted -2100369821 1551798248
-between 
-\change_unchanged
-21
-\change_inserted -2100369821 1551798254
--
-\change_deleted -2100369821 1551798253
- and 
-\change_unchanged
-43.
+ the intra/inter mean interaction strength, the ratio rises to 21-43.
  Therefore, intragenus interactions are on average much stronger than intergenus
  interactions, approximately 10 to 20 times stronger.
-
-\change_deleted -2100369821 1551786039
- 
-\change_unchanged
-
 \begin_inset Note Note
 status collapsed
 
@@ -484,13 +475,9 @@ We need to define where we mention what is a group, lets talk about that
  everywhere.
  Anyway, we need to decide this and stick to one wording.
  See Intro.
-
-\change_inserted -666822487 1550250648
  F: Solved.
  Perhaps let's keep this note so that we know why we changed in a few months
  time...
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -925,13 +912,8 @@ Literature comparison
 
 \begin_layout Standard
 Finally, we sought to put these results in a broader context by compiling
- the intra vs
-\change_deleted -2100369821 1551798301
-.
-
-\change_unchanged
- inter group estimates of previous MAR(1) studies of long-term observational
- count data (listed in Supplementary Table 
+ the intra vs inter group estimates of previous MAR(1) studies of long-term
+ observational count data (listed in Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Studies"
@@ -1075,17 +1057,45 @@ literal "false"
 \end_inset
 
 
-\change_deleted -2100369821 1551786117
+\change_deleted -666822487 1551900590
+ (e
+\change_inserted -666822487 1551900590
 .
-
+ E
 \change_inserted -2100369821 1551786165
- (even though their model is different, the intra/inter ratio should remain
- comparable, see SI).
+ven though their model is 
+\change_inserted -666822487 1551900578
+a different one, i.e., 
+\change_deleted -666822487 1551900513
+different
+\change_inserted -666822487 1551900584
+ Lotka-Volterra competition
+\change_inserted -2100369821 1551786165
+, 
+\change_inserted -666822487 1551900542
+we prove in the SI that 
+\change_inserted -2100369821 1551786165
+the intra/inter ratio should remain 
+\change_deleted -666822487 1551900555
+comparable
+\change_inserted -666822487 1551900559
+commensurate
+\change_deleted -666822487 1551900612
+, see SI)
+\change_inserted -2100369821 1551786165
+.
  
 \change_deleted -2100369821 1551786117
  
 \change_unchanged
-This requires some explanation.
+Th
+\change_inserted -666822487 1551900708
+e difference in the intra/inter ratio that we found should therefore lie
+ elsewhere, which
+\change_deleted -666822487 1551900640
+is
+\change_unchanged
+ requires some explanation.
  First, one could argue that such high intra/inter ratio arises because
  we consider the genus as our baseline taxonomic unit, rather than the species.
  Although it is logical that niche differentiation increases as one gets
@@ -1149,11 +1159,7 @@ literal "false"
 
 \end_inset
 
- who found facilitative interactions, but with a lower f
-\change_inserted -2100369821 1551798311
-r
-\change_unchanged
-action (
+ who found facilitative interactions, but with a lower fraction (
 \begin_inset Formula $\approx$
 \end_inset
 
@@ -1250,11 +1256,8 @@ literal "false"
 
 , fungi).
  Though natural enemies are good candidates to explain the observed niche
- differences and emerging facilitation, one must bear in mind that
-\change_inserted -2100369821 1551798327
- 
-\change_unchanged
-other known drivers of phytoplankton dynamics such as allelopathy
+ differences and emerging facilitation, one must bear in mind that other
+ known drivers of phytoplankton dynamics such as allelopathy
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "felpeto_allelopathy_2018"
@@ -1396,16 +1399,35 @@ literal "false"
  is more self-regulated and rarer was found here to be on average more vulnerabl
 e to other genera's increases in densities.
  Such relation implies greater stability for the network as a whole, because
- the 
-\change_deleted -2100369821 1551798415
-taxon
-\change_inserted -2100369821 1551798423
-taxa which are 
-\change_deleted -2100369821 1551798415
- 
+ the taxa which
+\change_inserted -666822487 1551900776
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1551900810
+je ne suis pas 100% certain de ce 
+\begin_inset Quotes eld
+\end_inset
+
+which
+\begin_inset Quotes erd
+\end_inset
+
+, avec le pluriel et tout...
+ [mais là encore attention je peux avoir tort!]
 \change_unchanged
-the most vulnerable to other taxa's impacts are also those that are the
- most self-regulated and whose dynamics are therefore less perturbed.
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ are the most vulnerable to other taxa's impacts are also those that are
+ the most self-regulated and whose dynamics are therefore less perturbed.
  By which mechanisms this could happen is so far unclear and open to speculation.
  We caution, however, that the relationships between vulnerability, impact
  and self-regulation that we evidenced are all relatively weak: considerable
@@ -1505,11 +1527,8 @@ literal "false"
  might have a large impact on the patterns inferred from temporal interaction
  models such as ours.
  Recent combinations of model fitting and removal experiments have shown
- that the model fitting usually underestimate
-\change_inserted -2100369821 1551798458
-s
-\change_unchanged
- the effect of competitors that are uncovered by removal experiments
+ that the model fitting usually underestimates the effect of competitors
+ that are uncovered by removal experiments
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "tuck_strong_2018,adler_weak_2018"
@@ -1567,14 +1586,12 @@ ghost of competition present
 \begin_inset Quotes erd
 \end_inset
 
- mechanism could work for plan
-\change_inserted -2100369821 1551798467
-k
-\change_deleted -2100369821 1551798466
-c
+ mechanism could work for plankton, because turbulence rather than organism
+ movement may somehow dictates where the 
+\change_inserted -666822487 1551900850
+phyto
 \change_unchanged
-ton, because turbulence rather than organism movement may somehow dictates
- where the plankton patches can or cannot appear.
+plankton patches can or cannot appear.
 \change_inserted -2100369821 1551798547
 
 \begin_inset Note Note
@@ -1584,6 +1601,8 @@ status open
 
 \change_inserted -2100369821 1551798563
 Did you switch from phytoplankton to plankton on purpose?
+\change_inserted -666822487 1551900860
+ No I did not, corrected, good point.
 \change_unchanged
 
 \end_layout
@@ -1755,16 +1774,26 @@ MAR(1) model
 \end_layout
 
 \begin_layout Standard
+Multivariate autoregressive (MAR) models
+\change_inserted -666822487 1551900887
 
-\change_deleted -2100369821 1551798598
-Multivariate autoregressive (
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1551900904
+Here I kept the full name because a little repetition helps the reader.
 \change_unchanged
-MAR
-\change_deleted -2100369821 1551798600
-)
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
- models are used to determine the interspecific interactions and abiotic
- variables shaping a community's dynamics
+ are used to determine the interspecific interactions and abiotic variables
+ shaping a community's dynamics
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -1806,7 +1835,6 @@ noprefix "false"
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -1897,19 +1925,12 @@ S community (interaction) matrix,
 \uwave default
 \noun default
 \color inherit
-V environment matrix describing the effects of V variables 
-\change_inserted -2100369821 1551798614
-(stacked in vector 
-\change_unchanged
-
+V environment matrix describing the effects of V variables (stacked in vector
+ 
 \begin_inset Formula $\mathbf{u}_{t+1}$
 \end_inset
 
-
-\change_inserted -2100369821 1551798616
-)
-\change_unchanged
- on species growth, and 
+) on species growth, and 
 \begin_inset Formula $\mathbf{e}_{t}$
 \end_inset
 
@@ -1963,11 +1984,6 @@ literal "false"
 \end_inset
 
 .
-
-\change_deleted -2100369821 1551716535
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2001,19 +2017,10 @@ literal "false"
 \end_inset
 
 .
- Covariables included nutrients and hydrodynamics variables
-\change_inserted -2100369821 1551798651
-.
- We found that hydrodynamics variables were
-\change_deleted -2100369821 1551798657
-, and the latter were found
-\change_unchanged
- more influential
-\change_inserted -2100369821 1551798666
- than nutrients
-\change_unchanged
-; nutrient dynamics contributed little to phytoplankton dynamics on the
- two-weeks timescale.
+ Covariables included nutrients and hydrodynamics variables.
+ We found that hydrodynamics variables were more influential than nutrients;
+ nutrient dynamics contributed little to phytoplankton dynamics on the two-weeks
+ timescale.
  Because temperature and salinity sum up seasonal changes in light as well
  as hydrology (salinity is inversely related to freshwater inflow), these
  represent the two key drivers needed to account for abiotic influences
@@ -2094,51 +2101,76 @@ literal "false"
 \end_inset
 
 , which is how these are models are used here
+\change_deleted -666822487 1551901017
+ (f
+\change_inserted -666822487 1551901017
+.
+ F
 \change_inserted -2100369821 1551785822
- (for ease of interpretation, we also present the connexion between MAR(1)
- model coefficients and a Beverton-Holt model in SI)
+or ease of interpretation
+\change_inserted -666822487 1551901024
+ of those coefficients
+\change_inserted -2100369821 1551785822
+, we also 
+\change_deleted -666822487 1551900947
+present
+\change_inserted -666822487 1551900948
+prove
+\change_inserted -2100369821 1551785822
+ the 
+\change_deleted -666822487 1551900971
+connexion
+\change_inserted -666822487 1551900973
+correspondance
+\change_deleted -666822487 1551900973
+ 
+\change_inserted -666822487 1551900975
+ 
+\change_inserted -2100369821 1551785822
+between 
+\change_inserted -666822487 1551901047
+the magnitude of intra/inter interaction strength in a 
+\change_inserted -2100369821 1551785822
+MAR(1) model 
+\change_deleted -666822487 1551900995
+coefficients 
+\change_inserted -2100369821 1551785822
+and a 
+\change_inserted -666822487 1551900945
+multispecies 
+\change_inserted -2100369821 1551785822
+Beverton-Holt model
+\change_inserted -666822487 1551901008
+, i.e., a discrete-time Lotka-Volterra model, 
+\change_deleted -666822487 1551901000
+ 
+\change_inserted -2100369821 1551785822
+in
+\change_inserted -666822487 1551901011
+ the
+\change_deleted -666822487 1551901011
+ 
+\change_inserted -2100369821 1551785822
+SI
+\change_inserted -666822487 1551901056
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1551901093
+Should we say where in the SI or have several SI? [This is a true question,
+ not rethorical, I have not looked up NEE's policies]
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 .
- 
-\change_deleted -2100369821 1551785825
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-[for ease of interpretation we also present the connexion between MAR(1)
- model coefficients and a Beverton-Holt model in SI XX
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Will we really?
-\end_layout
-
-\end_inset
-
- [see also ref.
- 
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "certain_how_2018"
-literal "false"
-
-\end_inset
-
-]] F: I put this as a note, we shall see.
-
-\change_deleted -2100369821 1549966640
- 
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -2100369821 1545404773
-
 \end_layout
 
 \begin_layout Standard
@@ -2236,25 +2268,15 @@ noprefix "false"
  to the regulation a focal species exerted on itself.
  Raw values indicate the average effect (i.e., is the effect mostly positive
  or negative?) that can be expected on a species' growth rate from other
- planktonic species while absolute effects characteri
-\change_deleted -2100369821 1551798684
-z
-\change_inserted -2100369821 1551798684
-s
-\change_unchanged
-e the strength of all types of interactions on a species (i.e., is a species
- strongly affected by the others?).
+ planktonic species while absolute effects characterise the strength of
+ all types of interactions on a species (i.e., is a species strongly affected
+ by the others?).
 \end_layout
 
 \begin_layout Standard
 Finally, we compared our results on self regulation/intraspecific interactions
- v
-\change_deleted -2100369821 1551798686
-.
-\change_inserted -2100369821 1551798686
-s
-\change_unchanged
- interspecific interactions to other published studies based on a MAR model.
+ vs interspecific interactions to other published studies based on a MAR
+ model.
  A list of references is given in Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref

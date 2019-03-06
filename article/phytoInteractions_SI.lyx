@@ -84,7 +84,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -2100369821 "cpicoche"
+\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -97,13 +97,7 @@ Supplementary Information
  for 
 \series bold
 Strong self-regulation and widespread facilitative interactions between
- 
-\change_deleted -2100369821 1551798839
-groups
-\change_inserted -2100369821 1551798840
-genera
-\change_unchanged
- of phytoplankton 
+ genera of phytoplankton 
 \series default
 - Picoche, C.
  & Barraquand F.
@@ -112,6 +106,10 @@ genera
 \begin_layout Subsection*
 \start_of_appendix
 Sampling location
+\change_inserted -666822487 1551901242
+s
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -126,11 +124,7 @@ noprefix "false"
 
 \end_inset
 
- and details on each site are given in 
-\change_inserted -2100369821 1551799601
-Supplementary 
-\change_unchanged
-Table 
+ and details on each site are given in Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Map"
@@ -142,15 +136,8 @@ noprefix "false"
 
 .
  The mean temperature in each region mostly depended in its latitude while
- salinity in one can site could be considered as a proxy for 
-\change_inserted -2100369821 1551798850
-evaporation and 
-\change_unchanged
-terrestrial inputs from rivers
-\change_deleted -2100369821 1551798854
- or evaporation
-\change_unchanged
-.
+ salinity in one can site could be considered as a proxy for evaporation
+ and terrestrial inputs from rivers.
 \end_layout
 
 \begin_layout Standard
@@ -1382,13 +1369,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Time series of the 5 most abundant phytoplanktonic 
-\change_deleted -2100369821 1551799117
-groups
-\change_inserted -2100369821 1551799118
-genera
-\change_unchanged
- in each site.
+Time series of the 5 most abundant phytoplanktonic genera in each site.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Time-series"
@@ -1413,17 +1394,9 @@ MAR(1) models
 \end_layout
 
 \begin_layout Standard
-We selected the most parcimonious interaction matrices using
-\change_inserted -2100369821 1551799432
- 
-\change_unchanged
-BIC.
+We selected the most parcimonious interaction matrices using BIC.
  Not only the best-ranking model, but also our ranking of interaction scenarios
- was similar for most sites (
-\change_inserted -2100369821 1551799612
-Supplementary 
-\change_unchanged
-Fig.
+ was similar for most sites (Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1436,16 +1409,17 @@ noprefix "false"
 
 ).
  Based on these results, we focused on the pennate-centric scenario to analyze
- interaction matrices as this scenario
-\change_inserted -2100369821 1551799616
- 
+ interaction matrices
+\change_inserted -666822487 1551901202
+,
 \change_unchanged
-c
-\change_deleted -2100369821 1551799616
- 
+ as this scenario corresponded to the best fitted models 
+\change_deleted -666822487 1551901207
+which
+\change_inserted -666822487 1551901207
+that
 \change_unchanged
-orresponded to the best fitted models which still allowed interactions between
- groups.
+ still allowed interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1507,15 +1481,7 @@ In addition to the coefficients of the interaction matrix, MAR(1) models
  allowed us to estimate the effect of environmental variables.
  The parameters associated with these variable reveal abiotic effects such
  as phenology (temperature, related to insolation) or responses to hydrological
- changes such as
-\change_inserted -2100369821 1551799437
- 
-\change_unchanged
-salinity variation (
-\change_inserted -2100369821 1551799628
-Supplementary 
-\change_unchanged
-Fig.
+ changes such as salinity variation (Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1565,13 +1531,7 @@ status open
 
 \series bold
 Effect of environmental variables (temperature, TEMP or salinity, SAL) on
- phytoplankton 
-\change_deleted -2100369821 1551799444
-group
-\change_inserted -2100369821 1551799444
-genera
-\change_unchanged
-
+ phytoplankton genera
 \series default
  in Brittany (a, b), Oléron (c, d), Arcachon (e, f) and in the Mediterranean
  Sea (g, h).
@@ -1608,20 +1568,9 @@ Metrics
 \end_layout
 
 \begin_layout Standard
-We characteri
-\change_inserted -2100369821 1551799451
-s
-\change_deleted -2100369821 1551799451
-z
-\change_unchanged
-ed each interaction network with 4 quantitative descriptors: the mean and
- variance of the intra- and interg
-\change_deleted -2100369821 1551799461
-roup
-\change_inserted -2100369821 1551799462
-enus
-\change_unchanged
- coefficients (i.e., on and off the matrix diagonal) 
+We characterised each interaction network with 4 quantitative descriptors:
+ the mean and variance of the intra- and intergenus coefficients (i.e., on
+ and off the matrix diagonal) 
 \family roman
 \series medium
 \shape up
@@ -1665,30 +1614,9 @@ linkage density and weighted connectance of
 \end_inset
 
 .
- Absolute values of intrag
-\change_deleted -2100369821 1551799469
-roup
-\change_inserted -2100369821 1551799470
-e,is
-\change_unchanged
- coefficients were approximately 8 times higher than the absolute effects
- of interg
-\change_deleted -2100369821 1551799477
-roup
-\change_inserted -2100369821 1551799477
-enus
-\change_unchanged
- interactions while the intrag
-\change_deleted -2100369821 1551799481
-roup
-\change_inserted -2100369821 1551799481
-e,is
-\change_unchanged
- interaction's deviation was about 4 times higher (
-\change_inserted -2100369821 1551799637
-Supplementary 
-\change_unchanged
-Fig.
+ Absolute values of intrage,is coefficients were approximately 8 times higher
+ than the absolute effects of intergenus interactions while the intrage,is
+ interaction's deviation was about 4 times higher (Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1725,13 +1653,8 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Relation between mean and variance of the intra- and inter
-\change_deleted -2100369821 1551799490
--group
-\change_inserted -2100369821 1551799490
-genus
-\change_unchanged
- interaction coefficients
+Relation between mean and variance of the intra- and intergenus interaction
+ coefficients
 \series default
 .
  Variance of the coefficient in the interaction matrix 
@@ -1767,11 +1690,7 @@ name "fig:MeanVar"
 \begin_layout Standard
 The intragroup interaction strength could be related to the mean abundance
  of each species as the most self-regulated species were also the least
- abundant (
-\change_inserted -2100369821 1551799649
-Supplementary 
-\change_unchanged
-Fig.
+ abundant (Supplementary Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1810,27 +1729,10 @@ status open
 \series bold
 Relation between abundance and self-regulation
 \series default
- (
-\change_deleted -2100369821 1551799497
-intra-group
-\change_inserted -2100369821 1551799499
-intragenus
-\change_unchanged
- interaction coefficients).
- Mean abundance is computed for each 
-\change_deleted -2100369821 1551799504
-species
-\change_inserted -2100369821 1551799504
-genus
-\change_unchanged
- in each site in 4 regions and 
-\change_deleted -2100369821 1551799511
-intra-group
-\change_inserted -2100369821 1551799512
-intragenus
-\change_unchanged
- interaction strengths are the diagonal coefficients of the interaction
- matrix 
+ (intragenus interaction coefficients).
+ Mean abundance is computed for each genus in each site in 4 regions and
+ intragenus interaction strengths are the diagonal coefficients of the interacti
+on matrix 
 \begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
@@ -1856,13 +1758,7 @@ name "fig:IntraVAbundance"
 \end_layout
 
 \begin_layout Standard
-Linkage density and weighted connectance were described in 
-\change_deleted -2100369821 1551799547
-ref
-\change_inserted -2100369821 1551799549
-Bersier et al.
-\change_unchanged
-
+Linkage density and weighted connectance were described in Bersier et al.
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "bersier_quantitative_2002"
@@ -4284,10 +4180,6 @@ name "tab:Studies"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -4446,8 +4338,6 @@ name "fig:ratio_meta"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716751
 \begin_inset Newpage newpage
 \end_inset
 
@@ -4455,17 +4345,32 @@ name "fig:ratio_meta"
 \end_layout
 
 \begin_layout Subsection*
-
-\change_inserted -2100369821 1551716331
 Connection to Lotka-Volterra competition dynamics
 \end_layout
 
 \begin_layout Standard
+The Beverton-Holt 
+\change_inserted -666822487 1551901317
+multispecies 
+\change_unchanged
+competition model, 
+\change_inserted -666822487 1551901471
+whose variants are 
+\change_unchanged
+widely used for modelling plant community dynamics
+\change_inserted -666822487 1551901344
 
-\change_inserted -2100369821 1551716375
-The Beverton-Holt competition model, widely used for modelling plant community
- dynamics, is the closest discrete time equivalent to the continuous-time
- Lotka-Volterra model
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "levine_importance_2009,kraft_plant_2015"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+, is the closest discrete time equivalent to the continuous-time Lotka-Volterra
+ model
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "cushing_discrete_2004"
@@ -4485,18 +4390,10 @@ literal "false"
 
 \end_inset
 
-.
+.The Beverton-Holt competition model writes
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551774184
-The Beverton-Holt competition model writes
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 N_{i,t+1}=\frac{e^{r_{i}}N_{i,t}}{1+\sum_{j}\alpha_{ij}N_{j,t}}\label{eq:BevHolt}
@@ -4508,8 +4405,6 @@ N_{i,t+1}=\frac{e^{r_{i}}N_{i,t}}{1+\sum_{j}\alpha_{ij}N_{j,t}}\label{eq:BevHolt
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551774057
 where 
 \begin_inset Formula $N_{i,t}$
 \end_inset
@@ -4531,13 +4426,32 @@ is the effect of species
 \end_inset
 
 .
+
+\change_inserted -666822487 1551901523
+ Here, we show how the interaction strengths in this model map to those
+ of the MAR(1) models used in the main text.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1551774258
-Using a 2 species model, we note the equilibrium values of species 1 and
- 2 as 
+\change_deleted -666822487 1551901536
+Using a
+\change_inserted -666822487 1551901538
+We start with a 
+\change_deleted -666822487 1551901536
+ 
+\change_unchanged
+2 species model
+\change_inserted -666822487 1551901544
+ for simplicity
+\change_unchanged
+, 
+\change_inserted -666822487 1551901547
+and 
+\change_unchanged
+we note the equilibrium values of species 1 and 2 as 
 \begin_inset Formula $N_{1}$
 \end_inset
 
@@ -4550,8 +4464,6 @@ Using a 2 species model, we note the equilibrium values of species 1 and
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551773787
 \begin_inset Formula 
 \begin{equation}
 \begin{cases}
@@ -4569,8 +4481,6 @@ R_{2}= & e^{r_{2}}-1
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551773793
 \begin_inset Formula 
 \begin{equation}
 \Leftrightarrow\begin{cases}
@@ -4585,8 +4495,6 @@ R_{2}= & e^{r_{2}}-1
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \Leftrightarrow\begin{cases}
@@ -4601,8 +4509,6 @@ N_{2}= & \frac{\alpha_{21}R_{1}-\alpha_{11}R_{2}}{\alpha_{12}\alpha_{21}-\alpha_
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551774318
 Setting 
 \begin_inset Formula $n=\log(N)$
 \end_inset
@@ -4622,8 +4528,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \begin{cases}
@@ -4638,13 +4542,17 @@ n_{2,t+1}= & r_{2}+n_{2,t}-\ln(1+\alpha_{21}N_{1,t}+\alpha_{22}N_{2,t})
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 We want to compute 
 \begin_inset Formula $J$
 \end_inset
 
-, the log-scale jacobian matrix of the model.
+, the log-scale 
+\change_inserted -666822487 1551901634
+J
+\change_deleted -666822487 1551901633
+j
+\change_unchanged
+acobian matrix of the model.
  Let us note 
 \begin_inset Formula $X=\ln(1+\alpha_{11}N_{1,t}+\alpha_{12}N_{2,t})$
 \end_inset
@@ -4670,8 +4578,6 @@ We want to compute
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 J=\left(\begin{array}{cc}
@@ -4686,8 +4592,6 @@ J=\left(\begin{array}{cc}
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 We have
 \family roman
 \series medium
@@ -4709,8 +4613,6 @@ We have
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 J-I=\left(\begin{array}{cc}
@@ -4725,14 +4627,10 @@ J-I=\left(\begin{array}{cc}
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 For now, we consider diffuse competition, that is
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \begin{cases}
@@ -4747,8 +4645,6 @@ For now, we consider diffuse competition, that is
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 If we combine eq.
  
 \begin_inset CommandInset ref
@@ -4775,8 +4671,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \begin{cases}
@@ -4791,8 +4685,6 @@ N_{2}= & \frac{\alpha R_{1}-k\alpha R_{2}}{\alpha^{2}-k^{2}\alpha^{2}}
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 and
 \begin_inset Formula 
 \begin{equation}
@@ -4808,8 +4700,6 @@ J-I=\left(\begin{array}{cc}
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \Rightarrow\begin{cases}
@@ -4824,14 +4714,10 @@ J-I=\left(\begin{array}{cc}
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551774343
 By symmetry, we can also write
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 (J-I)_{22}=k\frac{R_{1}-kR_{2}}{R_{2}-kR_{1}}(J-I)_{21}
@@ -4843,8 +4729,6 @@ By symmetry, we can also write
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551799696
 Therefore, unless the growth rates and the resulting abundances differ over
  several orders of magnitude, the strength of the competition ratio 
 \begin_inset Formula $k$
@@ -4855,18 +4739,26 @@ Therefore, unless the growth rates and the resulting abundances differ over
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
-This reasoning can be applied with 
+This 
+\change_inserted -666822487 1551901562
+same 
+\change_unchanged
+reasoning can 
+\change_inserted -666822487 1551901571
+actually 
+\change_unchanged
+be applied with 
 \begin_inset Formula $n$
 \end_inset
 
- species.
+ species
+\change_inserted -666822487 1551901593
+ as the Jacobian has a similar form
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \begin{aligned}(J-I)_{ii} & = & \frac{-\alpha_{ii}N_{i}}{1+\sum_{j}\alpha_{ij}N_{j}}\\
@@ -4880,14 +4772,10 @@ This reasoning can be applied with
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 and
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \begin{equation}
 \begin{aligned}(J-I)_{ij} & = & \frac{-\alpha_{ij}N_{j}}{1+\sum_{l}\alpha_{il}N_{l}}\\
@@ -4903,22 +4791,24 @@ and
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551799730
-Therefore, as long as the growth rates and the resulting equilibrium abundances
- do not differ too much, the order of magnitude of competition should be
- the same in MAR(1), Lotka-Volterra and Beverton-Holt models.
+Therefore, as long as the 
+\change_inserted -666822487 1551901601
+intrinsic 
+\change_unchanged
+growth rates and the resulting equilibrium abundances do not differ too
+ much, the order of magnitude of competition should be the same in MAR(1),
+ Lotka-Volterra and 
+\change_inserted -666822487 1551901611
+multispecies 
+\change_unchanged
+Beverton-Holt models.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1551716331
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1551716331
 We could go further by computing the equilibrium abundances.
  For 
 \begin_inset Formula $n$
@@ -4928,8 +4818,6 @@ We could go further by computing the equilibrium abundances.
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \[
 \begin{cases}
@@ -4945,8 +4833,6 @@ R_{n}= & \alpha N_{1}+\alpha N_{2}+\ldots+k\alpha N_{n}
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1551716331
 \begin_inset Formula 
 \[
 \Rightarrow\boldsymbol{R}=(\alpha(k-1)\boldsymbol{I}+\boldsymbol{*1*})\boldsymbol{N}
@@ -4958,8 +4844,6 @@ R_{n}= & \alpha N_{1}+\alpha N_{2}+\ldots+k\alpha N_{n}
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1551716331
 where 
 \begin_inset Formula $\boldsymbol{I}$
 \end_inset
@@ -4972,8 +4856,6 @@ where
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1551716331
 We could look for an analytical expression for 
 \begin_inset Formula $((k-1)\boldsymbol{I}+\boldsymbol{*1*})^{-1}$
 \end_inset
