@@ -84,7 +84,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -666822487 "frederic"
+\author -2100369821 "cpicoche"
 \end_header
 
 \begin_body
@@ -105,11 +105,7 @@ Strong self-regulation and widespread facilitative interactions between
 
 \begin_layout Subsection*
 \start_of_appendix
-Sampling location
-\change_inserted -666822487 1551901242
-s
-\change_unchanged
-
+Sampling locations
 \end_layout
 
 \begin_layout Standard
@@ -1397,7 +1393,17 @@ MAR(1) models
 We selected the most parcimonious interaction matrices using BIC.
  Not only the best-ranking model, but also our ranking of interaction scenarios
  was similar for most sites (Supplementary Fig.
+
+\change_deleted -2100369821 1552062036
  
+\change_inserted -2100369821 1552062036
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Comparison-of-BIC"
@@ -1409,17 +1415,8 @@ noprefix "false"
 
 ).
  Based on these results, we focused on the pennate-centric scenario to analyze
- interaction matrices
-\change_inserted -666822487 1551901202
-,
-\change_unchanged
- as this scenario corresponded to the best fitted models 
-\change_deleted -666822487 1551901207
-which
-\change_inserted -666822487 1551901207
-that
-\change_unchanged
- still allowed interactions between groups.
+ interaction matrices, as this scenario corresponded to the best fitted
+ models that still allowed interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1482,7 +1479,17 @@ In addition to the coefficients of the interaction matrix, MAR(1) models
  The parameters associated with these variable reveal abiotic effects such
  as phenology (temperature, related to insolation) or responses to hydrological
  changes such as salinity variation (Supplementary Fig.
+
+\change_deleted -2100369821 1552062043
  
+\change_inserted -2100369821 1552062043
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Abiotic_effects"
@@ -1614,10 +1621,31 @@ linkage density and weighted connectance of
 \end_inset
 
 .
- Absolute values of intrage,is coefficients were approximately 8 times higher
- than the absolute effects of intergenus interactions while the intrage,is
- interaction's deviation was about 4 times higher (Supplementary Fig.
+ Absolute values of intrage
+\change_inserted -2100369821 1552062063
+nu
+\change_deleted -2100369821 1552062065
+,i
+\change_unchanged
+s coefficients were approximately 8 times higher than the absolute effects
+ of intergenus interactions while the intrage
+\change_deleted -2100369821 1552062097
+,i
+\change_inserted -2100369821 1552062098
+nu
+\change_unchanged
+s interaction's deviation was about 4 times higher (Supplementary Fig.
+
+\change_deleted -2100369821 1552062051
  
+\change_inserted -2100369821 1552062051
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:MeanVar"
@@ -1688,10 +1716,36 @@ name "fig:MeanVar"
 \end_layout
 
 \begin_layout Standard
-The intragroup interaction strength could be related to the mean abundance
- of each species as the most self-regulated species were also the least
- abundant (Supplementary Fig.
+The intrag
+\change_deleted -2100369821 1552062110
+roup
+\change_inserted -2100369821 1552062110
+enus
+\change_unchanged
+ interaction strength could be related to the mean abundance of each 
+\change_deleted -2100369821 1552062114
+species
+\change_inserted -2100369821 1552062115
+genus
+\change_unchanged
+ as the most self-regulated 
+\change_deleted -2100369821 1552062117
+species
+\change_inserted -2100369821 1552062119
+genera
+\change_unchanged
+ were also the least abundant (Supplementary Fig.
+
+\change_deleted -2100369821 1552062106
  
+\change_inserted -2100369821 1552062106
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:IntraVAbundance"
@@ -2004,7 +2058,17 @@ In addition to these network-level metrics, we also considered metrics for
  each phytoplanktonic group.
  We measured both its vulnerability (mean strength of the interactions that
  are applied to a group, eq.
+
+\change_deleted -2100369821 1552062176
  
+\change_inserted -2100369821 1552062176
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:vulnerability"
@@ -2016,7 +2080,17 @@ noprefix "false"
 
 ) and its impact (mean strength of the interactions the group applied to
  other groups, eq.
+
+\change_deleted -2100369821 1552062178
  
+\change_inserted -2100369821 1552062178
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:impact"
@@ -2082,7 +2156,17 @@ MAR references and analysis
 
 \begin_layout Standard
 We present here the MAR references we used to compare the effects of intra-
- and intergroup interactions (Supplementary Table 
+ and intergroup interactions (Supplementary Table
+\change_deleted -2100369821 1552062180
+ 
+\change_inserted -2100369821 1552062180
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Studies"
@@ -2093,7 +2177,17 @@ noprefix "false"
 \end_inset
 
 , Supplementary Fig.
+
+\change_deleted -2100369821 1552062183
  
+\change_inserted -2100369821 1552062183
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Ratio-of-intra-to-intergroup"
@@ -2107,7 +2201,17 @@ noprefix "false"
  We add information on the type of system and dataset used in the study
  as they tend to be linked with the estimated parameters (Supplementary
  Fig.
+
+\change_deleted -2100369821 1552062186
  
+\change_inserted -2100369821 1552062186
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:ratio_meta"
@@ -2126,7 +2230,17 @@ noprefix "false"
  see Fig.
  4 in the main text) or over the set of non-null coefficient only (Supplementary
  Fig.
+
+\change_deleted -2100369821 1552062189
  
+\change_inserted -2100369821 1552062189
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Ratio-of-intra-to-intergroup"
@@ -4323,8 +4437,12 @@ name "fig:ratio_meta"
 \end_inset
 
 
+\change_deleted -2100369821 1552058431
+
 \shape italic
  
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -4349,17 +4467,8 @@ Connection to Lotka-Volterra competition dynamics
 \end_layout
 
 \begin_layout Standard
-The Beverton-Holt 
-\change_inserted -666822487 1551901317
-multispecies 
-\change_unchanged
-competition model, 
-\change_inserted -666822487 1551901471
-whose variants are 
-\change_unchanged
-widely used for modelling plant community dynamics
-\change_inserted -666822487 1551901344
-
+The Beverton-Holt multispecies competition model, whose variants are widely
+ used for modelling plant community dynamics
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "levine_importance_2009,kraft_plant_2015"
@@ -4367,8 +4476,6 @@ literal "false"
 
 \end_inset
 
-
-\change_unchanged
 , is the closest discrete time equivalent to the continuous-time Lotka-Volterra
  model
 \begin_inset CommandInset citation
@@ -4426,32 +4533,13 @@ is the effect of species
 \end_inset
 
 .
-
-\change_inserted -666822487 1551901523
  Here, we show how the interaction strengths in this model map to those
  of the MAR(1) models used in the main text.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -666822487 1551901536
-Using a
-\change_inserted -666822487 1551901538
-We start with a 
-\change_deleted -666822487 1551901536
- 
-\change_unchanged
-2 species model
-\change_inserted -666822487 1551901544
- for simplicity
-\change_unchanged
-, 
-\change_inserted -666822487 1551901547
-and 
-\change_unchanged
-we note the equilibrium values of species 1 and 2 as 
+We start with a 2 species model for simplicity, and we note the equilibrium
+ values of species 1 and 2 as 
 \begin_inset Formula $N_{1}$
 \end_inset
 
@@ -4546,13 +4634,7 @@ We want to compute
 \begin_inset Formula $J$
 \end_inset
 
-, the log-scale 
-\change_inserted -666822487 1551901634
-J
-\change_deleted -666822487 1551901633
-j
-\change_unchanged
-acobian matrix of the model.
+, the log-scale Jacobian matrix of the model.
  Let us note 
 \begin_inset Formula $X=\ln(1+\alpha_{11}N_{1,t}+\alpha_{12}N_{2,t})$
 \end_inset
@@ -4739,23 +4821,11 @@ Therefore, unless the growth rates and the resulting abundances differ over
 \end_layout
 
 \begin_layout Standard
-This 
-\change_inserted -666822487 1551901562
-same 
-\change_unchanged
-reasoning can 
-\change_inserted -666822487 1551901571
-actually 
-\change_unchanged
-be applied with 
+This same reasoning can actually be applied with 
 \begin_inset Formula $n$
 \end_inset
 
- species
-\change_inserted -666822487 1551901593
- as the Jacobian has a similar form
-\change_unchanged
-.
+ species as the Jacobian has a similar form.
 \end_layout
 
 \begin_layout Standard
@@ -4791,17 +4861,10 @@ and
 \end_layout
 
 \begin_layout Standard
-Therefore, as long as the 
-\change_inserted -666822487 1551901601
-intrinsic 
-\change_unchanged
-growth rates and the resulting equilibrium abundances do not differ too
- much, the order of magnitude of competition should be the same in MAR(1),
- Lotka-Volterra and 
-\change_inserted -666822487 1551901611
-multispecies 
-\change_unchanged
-Beverton-Holt models.
+Therefore, as long as the intrinsic growth rates and the resulting equilibrium
+ abundances do not differ too much, the order of magnitude of competition
+ should be the same in MAR(1), Lotka-Volterra and multispecies Beverton-Holt
+ models.
 \end_layout
 
 \begin_layout Standard
