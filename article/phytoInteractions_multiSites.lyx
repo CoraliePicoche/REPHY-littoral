@@ -96,7 +96,6 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -2100369821 "cpicoche"
 \author -666822487 "frederic"
 \end_header
 
@@ -314,12 +313,8 @@ This repeats the previous sentence, I would remove it and only keep the
 \end_inset
 
 , and the genus level is a rather fine taxonomic scale for phytoplankton
- interaction studies (most
-\change_inserted -2100369821 1552061532
- 
-\change_unchanged
-studies are restricted to interaction between different classes or even
- phyla
+ interaction studies (most studies are restricted to interaction between
+ different classes or even phyla
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003,hampton_sixty_2008,griffiths_phytoplankton_2015"
@@ -328,17 +323,11 @@ literal "false"
 \end_inset
 
 ), we study here interactions between different genera of phytoplankton,
- 
-\change_inserted -2100369821 1551798194
-which
-\change_inserted -666822487 1551900377
-
+ which
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1551900391
 j'aurais écris 
 \begin_inset Quotes eld
 \end_inset
@@ -347,9 +336,8 @@ that
 \begin_inset Quotes erd
 \end_inset
 
- mais je peux me gourrer ;)
-\change_inserted -2100369821 1552057380
- Alors, d'après la pote agrégée d'anglais (mais pas native, hein) : 
+ mais je peux me gourrer ;) Alors, d'après la pote agrégée d'anglais (mais
+ pas native, hein) : 
 \begin_inset Quotes eld
 \end_inset
 
@@ -364,18 +352,12 @@ Avec WHICH tu ajoutes une info.
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1552057414
 Mais pas de différence due au pluriel.
  Which me semble toujours convenir, mais on peut changer.
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  belong mostly to diatoms and dinoflagellates.
  To put our results into a more general context, we then compare our interaction
  strength estimates to previously published interaction networks produced
@@ -425,16 +407,9 @@ literal "false"
  Best-fitting models corresponded to a phylogenetically-structured interaction
  scenario, where interaction only occurred betwen closely related genera
  (Supplementary Fig.
-
-\change_deleted -2100369821 1552061608
- 
-\change_inserted -2100369821 1552061610
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -448,16 +423,9 @@ noprefix "false"
 ).
  This led to sparse, modular matrices that have two main features.
  First, we observe a strong self-regulation for all sites (Fig.
-
-\change_deleted -2100369821 1552061615
- 
-\change_inserted -2100369821 1552061615
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -593,13 +561,9 @@ Interaction matrices estimated in 10 sites along the French coastline.
  Only interactions between clades (pennate and centric diatoms, dinoflagellates,
  other planktonic taxa) are allowed, as this is the best fitting interaction
  scenario (Supplementary Fig.
-\change_inserted -2100369821 1552061726
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -620,51 +584,19 @@ noprefix "false"
 \end_inset
 
 's growth rate (in rows).
- We present the
-\change_deleted -2100369821 1552057699
- log-scale
-\change_unchanged
- interaction matrix minus the identity matrix (
+ We present the interaction matrix minus the identity matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
-) because this compares unambigously 
-\change_deleted -2100369821 1552057713
-the effects of 
-\change_unchanged
-intra- and inter
-\change_deleted -2100369821 1552057725
--group
-\change_inserted -2100369821 1552057725
-genera
-\change_unchanged
- interactions
-\change_deleted -2100369821 1552057733
- on population growth rates
-\change_unchanged
-.
+) because this compares unambigously intra- and intergenera interactions.
  The scale for the coefficient values is given at the bottom left of panel
  a).
  95% significance of coefficients was determined by bootstrapping and is
  marked by asterisks (*).
- The 
-\change_inserted -2100369821 1552057750
-community 
-\change_unchanged
-composition 
-\change_deleted -2100369821 1552057754
-of planktonic groups 
-\change_unchanged
-is given in Supplementary Table
-\change_deleted -2100369821 1552061721
- 
-\change_inserted -2100369821 1552061721
-
+ The community composition is given in Supplementary Table
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -727,16 +659,9 @@ literal "false"
 
 ) of all interaction matrices was not strongly affected by the percentage
  of positive interactions or their connectivity properties (Fig.
-
-\change_deleted -2100369821 1552061730
- 
-\change_inserted -2100369821 1552061730
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -834,16 +759,9 @@ Still wondering about the change to 'exposure'
 
  (summed effect of others on the focal species growth rate, Supplementary
  Eq.
-
-\change_deleted -2100369821 1552061772
- 
-\change_inserted -2100369821 1552061770
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -856,16 +774,9 @@ noprefix "false"
 
 ) and impact (summed effect of the focal species onto other species growth
  rates, Supplementary Eq.
-
-\change_deleted -2100369821 1552061810
- 
-\change_inserted -2100369821 1552061779
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -878,16 +789,9 @@ noprefix "false"
 
 ).
  Relations between inter- and intragroup interactions emerged (Fig.
-
-\change_deleted -2100369821 1552061785
- 
-\change_inserted -2100369821 1552061784
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -905,15 +809,9 @@ noprefix "false"
  Taxa that were less self-regulating were also more likely to have a broad
  range of effects onto other taxa.
  As these genera tended to be more abundant (Supplementary Fig.
-\change_inserted -2100369821 1552061792
-
 \begin_inset space ~
 \end_inset
 
-
-\change_deleted -2100369821 1552061790
- 
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -967,16 +865,9 @@ Relation between vulnerability/impact and self-regulation.
 
 ) for the 10 study sites.
  Each color corresponds to a given region (Supplementary Fig.
-
-\change_deleted -2100369821 1552061842
- 
-\change_inserted -2100369821 1552061842
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1015,16 +906,9 @@ sensu
  invariability), we found no remarkable patterns of covariation between
  matrix elements (other than a mean-variance scaling of interaction coefficients
 , Supplementary Fig.
-
-\change_deleted -2100369821 1552061824
- 
-\change_inserted -2100369821 1552061824
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1046,15 +930,9 @@ Literature comparison
 Finally, we sought to put these results in a broader context by compiling
  the intra vs inter group estimates of previous MAR(1) studies of long-term
  observational count data (listed in Supplementary Table
-\change_deleted -2100369821 1552061827
- 
-\change_inserted -2100369821 1552061827
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1080,16 +958,9 @@ literal "false"
 
 .
  We included in Fig.
-
-\change_deleted -2100369821 1552061830
- 
-\change_inserted -2100369821 1552061830
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1137,15 +1008,9 @@ ve (MAR) models in the ecological literature.
 \series default
  The name of each studies, corresponding to each code, is given in Supplementary
  Table
-\change_deleted -2100369821 1552061846
- 
-\change_inserted -2100369821 1552061846
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1260,16 +1125,9 @@ literal "false"
 
 , provides an intra/interspecific strength ratio similar to ours (point
  7a in Fig.
-
-\change_deleted -2100369821 1552061863
- 
-\change_inserted -2100369821 1552061863
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1532,19 +1390,11 @@ literal "false"
  is more self-regulated and rarer was found here to be on average more vulnerabl
 e to other genera's increases in densities.
  Such relation implies greater stability for the network as a whole, because
- the taxa 
-\change_deleted -2100369821 1552057928
-which
-\change_inserted -2100369821 1552057928
-that
-\change_inserted -666822487 1551900776
-
+ the taxa that
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1551900810
 je ne suis pas 100% certain de ce 
 \begin_inset Quotes eld
 \end_inset
@@ -1554,18 +1404,12 @@ which
 \end_inset
 
 , avec le pluriel et tout...
- [mais là encore attention je peux avoir tort!]
-\change_inserted -2100369821 1552057947
- Et là, si j'ai bien compris la règle, ça devrait effectivement être that
- parce que c'est spécifique
-\change_unchanged
-
+ [mais là encore attention je peux avoir tort!] Et là, si j'ai bien compris
+ la règle, ça devrait effectivement être that parce que c'est spécifique
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  are the most vulnerable to other taxa's impacts are also those that are
  the most self-regulated and whose dynamics are therefore less perturbed.
  By which mechanisms this could happen is so far unclear and open to speculation.
@@ -1663,9 +1507,21 @@ literal "false"
 
 \end_inset
 
-, suggests by contrast that spatial patterns in relation to abiotic factors
- might have a large impact on the patterns inferred from temporal interaction
- models such as ours.
+, suggests by contrast that spatial 
+\change_deleted -666822487 1552154273
+patterns
+\change_inserted -666822487 1552154276
+distributions
+\change_unchanged
+ in relation to abiotic factors might have a large impact on the 
+\change_deleted -666822487 1552154288
+patterns
+\change_inserted -666822487 1552154296
+interaction strengths 
+\change_deleted -666822487 1552154291
+ 
+\change_unchanged
+inferred from temporal interaction models such as ours.
  Recent combinations of model fitting and removal experiments have shown
  that the model fitting usually underestimates the effect of competitors
  that are uncovered by removal experiments
@@ -1811,16 +1667,9 @@ literal "false"
  This reduced the number of study sites to 10 sites nested within 4 regions
  (Brittany, Marennes-Oléron, Arcachon and the Mediterranean Sea; Supplementary
  Fig.
-
-\change_deleted -2100369821 1552061882
- 
-\change_inserted -2100369821 1552061882
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1865,15 +1714,9 @@ literal "false"
  Although the taxonomic resolution used here may seem coarse in comparison
  to land plants, it is in fact more refined than 86% of the MAR(1) studies
  of phytoplankton listed in Supplementary Table
-\change_deleted -2100369821 1552061885
- 
-\change_inserted -2100369821 1552061885
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2185,7 +2028,7 @@ Ref to this Hampton paper I don't understand, which one are you thinking
 
 \end_inset
 
-The analysis of real data in Barraquand et al.
+ The analysis of real data in Barraquand et al.
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -2324,16 +2167,9 @@ e for both positive and negative coefficients: we therefore chose to focus
 In addition to these network-level metrics, we also computed the average
  vulnerability (average effect of other taxa on a focal taxon, Supplementary
  Eq.
-
-\change_deleted -2100369821 1552061900
- 
-\change_inserted -2100369821 1552061903
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2346,16 +2182,9 @@ noprefix "false"
 
 ) and impact (average effect of a focal taxon on other taxa, Supplementary
  Eq.
-
-\change_deleted -2100369821 1552061909
- 
-\change_inserted -2100369821 1552061909
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2380,15 +2209,9 @@ Finally, we compared our results on self regulation/intraspecific interactions
  vs interspecific interactions to other published studies based on a MAR
  model.
  A list of references is given in Supplementary Table
-\change_deleted -2100369821 1552061915
- 
-\change_inserted -2100369821 1552061915
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2404,16 +2227,9 @@ noprefix "false"
  95% threshold, ignoring potentially many weak effects.
  We therefore computed both the mean value of all coefficients outside of
  the matrix diagonal, replacing missing values by 0 (Fig.
-
-\change_deleted -2100369821 1552061918
- 
-\change_inserted -2100369821 1552061918
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2426,16 +2242,9 @@ noprefix "false"
 
 , which decreases the mean intergroup interaction strength), and the mean
  value of statistically significant coefficients only (Supplementary Fig.
-
-\change_deleted -2100369821 1552061920
- 
-\change_inserted -2100369821 1552061920
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2453,16 +2262,9 @@ noprefix "false"
  phenomena (observed predation between organisms, for instance).
  There is therefore a positive correlation between sparsity and dimensionality
  (Supplementary Fig.
-
-\change_deleted -2100369821 1552061922
- 
-\change_inserted -2100369821 1552061922
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref

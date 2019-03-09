@@ -84,7 +84,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -2100369821 "cpicoche"
+\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -131,9 +131,24 @@ noprefix "false"
 \end_inset
 
 .
- The mean temperature in each region mostly depended in its latitude while
- salinity in one can site could be considered as a proxy for evaporation
- and terrestrial inputs from rivers.
+ The mean temperature in each region mostly depended 
+\change_deleted -666822487 1552154737
+in
+\change_inserted -666822487 1552154738
+on
+\change_unchanged
+ its latitude
+\change_inserted -666822487 1552154813
+, reflecting the climate of the region, 
+\change_deleted -666822487 1552154805
+ 
+\change_unchanged
+while salinity in one 
+\change_deleted -666822487 1552154782
+can 
+\change_unchanged
+site could be considered as a proxy for evaporation and terrestrial inputs
+ from rivers.
 \end_layout
 
 \begin_layout Standard
@@ -1390,19 +1405,26 @@ MAR(1) models
 \end_layout
 
 \begin_layout Standard
-We selected the most parcimonious interaction matrices using BIC.
- Not only the best-ranking model, but also our ranking of interaction scenarios
- was similar for most sites (Supplementary Fig.
-
-\change_deleted -2100369821 1552062036
+We selected the most par
+\change_inserted -666822487 1552154969
+s
+\change_deleted -666822487 1552154969
+c
+\change_unchanged
+imonious interaction matrices using BIC.
+ Not only the best-ranking model, but also 
+\change_deleted -666822487 1552154975
+our
+\change_inserted -666822487 1552154979
+the overall 
+\change_deleted -666822487 1552154976
  
-\change_inserted -2100369821 1552062036
-
+\change_unchanged
+ranking of interaction scenarios was similar for most sites (Supplementary
+ Fig.
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1414,9 +1436,13 @@ noprefix "false"
 \end_inset
 
 ).
- Based on these results, we focused on the pennate-centric scenario to analyze
- interaction matrices, as this scenario corresponded to the best fitted
- models that still allowed interactions between groups.
+ Based on these results, we 
+\change_inserted -666822487 1552155008
+considered the model selection to be quite robust, and 
+\change_unchanged
+focused on the pennate-centric scenario to analyze interaction matrices,
+ as this scenario corresponded to the best fitted models that still allowed
+ interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1479,16 +1505,9 @@ In addition to the coefficients of the interaction matrix, MAR(1) models
  The parameters associated with these variable reveal abiotic effects such
  as phenology (temperature, related to insolation) or responses to hydrological
  changes such as salinity variation (Supplementary Fig.
-
-\change_deleted -2100369821 1552062043
- 
-\change_inserted -2100369821 1552062043
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1621,30 +1640,12 @@ linkage density and weighted connectance of
 \end_inset
 
 .
- Absolute values of intrage
-\change_inserted -2100369821 1552062063
-nu
-\change_deleted -2100369821 1552062065
-,i
-\change_unchanged
-s coefficients were approximately 8 times higher than the absolute effects
- of intergenus interactions while the intrage
-\change_deleted -2100369821 1552062097
-,i
-\change_inserted -2100369821 1552062098
-nu
-\change_unchanged
-s interaction's deviation was about 4 times higher (Supplementary Fig.
-
-\change_deleted -2100369821 1552062051
- 
-\change_inserted -2100369821 1552062051
-
+ Absolute values of intragenus coefficients were approximately 8 times higher
+ than the absolute effects of intergenus interactions while the intragenus
+ interaction's deviation was about 4 times higher (Supplementary Fig.
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1716,35 +1717,12 @@ name "fig:MeanVar"
 \end_layout
 
 \begin_layout Standard
-The intrag
-\change_deleted -2100369821 1552062110
-roup
-\change_inserted -2100369821 1552062110
-enus
-\change_unchanged
- interaction strength could be related to the mean abundance of each 
-\change_deleted -2100369821 1552062114
-species
-\change_inserted -2100369821 1552062115
-genus
-\change_unchanged
- as the most self-regulated 
-\change_deleted -2100369821 1552062117
-species
-\change_inserted -2100369821 1552062119
-genera
-\change_unchanged
- were also the least abundant (Supplementary Fig.
-
-\change_deleted -2100369821 1552062106
- 
-\change_inserted -2100369821 1552062106
-
+The intragenus interaction strength could be related to the mean abundance
+ of each genus as the most self-regulated genera were also the least abundant
+ (Supplementary Fig.
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2058,16 +2036,9 @@ In addition to these network-level metrics, we also considered metrics for
  each phytoplanktonic group.
  We measured both its vulnerability (mean strength of the interactions that
  are applied to a group, eq.
-
-\change_deleted -2100369821 1552062176
- 
-\change_inserted -2100369821 1552062176
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2080,16 +2051,9 @@ noprefix "false"
 
 ) and its impact (mean strength of the interactions the group applied to
  other groups, eq.
-
-\change_deleted -2100369821 1552062178
- 
-\change_inserted -2100369821 1552062178
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2157,15 +2121,9 @@ MAR references and analysis
 \begin_layout Standard
 We present here the MAR references we used to compare the effects of intra-
  and intergroup interactions (Supplementary Table
-\change_deleted -2100369821 1552062180
- 
-\change_inserted -2100369821 1552062180
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2177,16 +2135,9 @@ noprefix "false"
 \end_inset
 
 , Supplementary Fig.
-
-\change_deleted -2100369821 1552062183
- 
-\change_inserted -2100369821 1552062183
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2201,16 +2152,9 @@ noprefix "false"
  We add information on the type of system and dataset used in the study
  as they tend to be linked with the estimated parameters (Supplementary
  Fig.
-
-\change_deleted -2100369821 1552062186
- 
-\change_inserted -2100369821 1552062186
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2230,16 +2174,9 @@ noprefix "false"
  see Fig.
  4 in the main text) or over the set of non-null coefficient only (Supplementary
  Fig.
-
-\change_deleted -2100369821 1552062189
- 
-\change_inserted -2100369821 1552062189
-
 \begin_inset space ~
 \end_inset
 
-
-\change_unchanged
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4309,7 +4246,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf
-	width 80text%
+	lyxscale 50
+	width 100text%
 
 \end_inset
 
@@ -4402,7 +4340,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename graphe/sparsity_vs_others.pdf
-	width 80text%
+	lyxscale 50
+	width 100text%
 
 \end_inset
 
@@ -4436,12 +4375,6 @@ name "fig:ratio_meta"
 
 \end_inset
 
-
-\change_deleted -2100369821 1552058431
-
-\shape italic
- 
-\change_unchanged
 
 \end_layout
 
@@ -4497,7 +4430,11 @@ literal "false"
 
 \end_inset
 
-.The Beverton-Holt competition model writes
+.The Beverton-Holt 
+\change_inserted -666822487 1552155138
+multispecies 
+\change_unchanged
+competition model writes
 \end_layout
 
 \begin_layout Standard
