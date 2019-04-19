@@ -3,6 +3,9 @@ library(corrplot)
 
 groupe=c("BZ","MO","SU","AR")
 #groupe=c("SU","AR")
+
+####################COMPUTE
+if(1==0){
 sink(paste("article/graphe/correlation_between_interaction.txt",sep=""))
 for (g in groupe){
         if(g=="BZ"){
@@ -60,4 +63,24 @@ corrplot(cc)
 dev.off()
 }
 }
-sink()
+sink()}
+
+#######################READ OUTPUT
+for (g in groupe){
+        if(g=="BZ"){
+                option_lieu=c("Men er Roue","Loscolo","Croisic")
+        }else if(g=="MO"){
+                option_lieu=c("LEperon","Cornard","Auger")
+        }else if(g=="SU"){
+                option_lieu=c("Antoine","Lazaret")
+        }else if(g=="AR"){
+                option_lieu=c("Teychan","B7")
+        }
+        for (ll in 1:length(option_lieu)){
+		print(option_lieu[ll])
+		cc=as.matrix(read.table(paste("article/graphe/",option_lieu[ll],"_corcoef.txt",sep=""),sep=";",header=T))
+		cc_tmp=cc
+		diag(cc_tmp)=NA
+		print(max(abs(cc_tmp),na.rm=T))
+	}
+}

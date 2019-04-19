@@ -80,10 +80,11 @@
 \papersides 1
 \paperpagestyle default
 \tracking_changes true
-\output_changes false
+\output_changes true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -2100369821 "cpicoche"
 \end_header
 
 \begin_body
@@ -104,7 +105,11 @@ Strong self-regulation and widespread facilitative interactions between
 
 \begin_layout Subsection*
 \start_of_appendix
-Sampling locations
+Sampling
+\change_deleted -2100369821 1555667018
+ locations
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -180,6 +185,39 @@ name "fig:Map"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1555675959
+At each site, water samples were collected between 0 and 1m depth in a Niskin
+ bottle, from which 10mL were taken for phytoplanktonic counts.
+ We focus on phytoplanktonic taxa between 20 and 200 
+\begin_inset Formula $\mu$
+\end_inset
+
+m, meaning that up to 1000 cells can line up along one single side.
+ We therefore consider samples to be representative of local competition.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1555676463
+Although coastal systems such as ours are open by definition, Scheef 
+\shape italic
+et al.
+\shape default
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "scheef_assessing_2012"
+literal "false"
+
+\end_inset
+
+ have shown that no systematic pattern emerged from changes in spatial scale,
+ leading us to assume that possible emigration and immigration did not systemati
+cally bias our estimates.
 \end_layout
 
 \begin_layout Standard
@@ -1464,6 +1502,16 @@ name "fig:Comparison-of-BIC"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1555672753
+We inspected the Hessian matrices for interaction parameters, which was
+ important to check that results presented in Fig.
+ 3 of the main text could not be due to statistical constraints.
+ The Hessian matrix showed that correlations between interaction parameters
+ were always below 0.5 in absolute values.
 \end_layout
 
 \begin_layout Standard
