@@ -189,23 +189,26 @@ name "fig:Map"
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1555675959
+\change_inserted -2100369821 1555771129
 At each site, water samples were collected between 0 and 1m depth in a Niskin
  bottle, from which 10mL were taken for phytoplanktonic counts.
  We focus on phytoplanktonic taxa between 20 and 200 
 \begin_inset Formula $\mu$
 \end_inset
 
-m, meaning that up to 1000 cells can line up along one single side.
- We therefore consider samples to be representative of local competition.
+m, meaning that up to 1000 cells can line up along one single side of the
+ sample.
+ We therefore consider samples to be representative of local community competiti
+on, if not of the spatial structure of the community.
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1555676463
-Although coastal systems such as ours are open by definition, Scheef 
+\change_inserted -2100369821 1555771280
+Although coastal systems such as ours are by definition open, Scheef et
+ al
 \shape italic
-et al.
+.
 \shape default
 
 \begin_inset CommandInset citation
@@ -215,9 +218,11 @@ literal "false"
 
 \end_inset
 
- have shown that no systematic pattern emerged from changes in spatial scale,
- leading us to assume that possible emigration and immigration did not systemati
-cally bias our estimates.
+ have shown that no systematic pattern emerged from changes in the size
+ of the area taken into account in MAR estimates, at least at the regional
+ scale, leading us to assume that possible emigration and immigration from
+ and to our site did not systematically bias our estimates of the community
+ overall dynamics.
 \end_layout
 
 \begin_layout Standard
@@ -1445,9 +1450,28 @@ noprefix "false"
 
 ).
  Based on these results, we considered the model selection to be quite robust,
- and focused on the pennate-centric scenario to analyze interaction matrices,
- as this scenario corresponded to the best fitted models that still allowed
- interactions between groups.
+ and focused on the pennate-centric scenario to analyze interaction matrices
+\change_deleted -2100369821 1555771342
+, as this scenario corresponded to the best fitted models that still allowed
+ interactions between groups
+\change_inserted -2100369821 1555771344
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1555771359
+Redundant
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -1482,7 +1506,11 @@ Comparison of the BIC of different interaction scenarios
  (unconstrained), only interactions within pennate diatoms, centric diatoms,
  dinoflagellates, or other phytoplanktonic taxa (pencen), only interactions
  within diatoms, dinoflagellates or other taxa (diatdin), or only interactions
- between taxa belonging to these different groups.
+ between taxa belonging to these different groups
+\change_inserted -2100369821 1555771369
+ (inter)
+\change_unchanged
+.
  As model structures (length of the times series taken into account) are
  different between sites and regions, groups of bars should not be compared.
 \begin_inset CommandInset label
@@ -1701,13 +1729,26 @@ Relation between mean and variance of the intra- and intergenus interaction
  coefficients
 \series default
 .
- Variance of the coefficient in the interaction matrix 
+ Variance of the coefficient
+\change_inserted -2100369821 1555771410
+s
+\change_unchanged
+ in the interaction matrix 
 \begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
- is a function of their mean, for 10 sites in 4 regions, with a model allowing
- interactions only within clads (within centric or pennate diatoms, dinoflagella
-tes, or other taxa).
+ 
+\change_deleted -2100369821 1555771398
+is a function of 
+\change_inserted -2100369821 1555771403
+increases with 
+\change_unchanged
+their mean
+\change_inserted -2100369821 1555771405
+ values
+\change_unchanged
+, for 10 sites in 4 regions, with a model allowing interactions only within
+ clads (within centric or pennate diatoms, dinoflagellates, or other taxa).
  The mean-variance relation was either computed with raw values of intergroup
  interactions (a) or absolute values of the intergroup coefficients (b).
  Intragroup coefficients were not modified.
@@ -1975,7 +2016,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-LD=\frac{1}{2}\sum_{k=1}^{S}\frac{b_{\centerdot k}}{b_{\centerdot\centerdot}}2^{H_{N,k}}+\sum_{k=1}^{S}\frac{\sum_{l=1}^{S}b_{k\centerdot}}{b_{\centerdot\centerdot}}2^{H_{P,k}}\label{eq:LD}
+LD=\frac{1}{2}\left(\sum_{k=1}^{S}\frac{b_{\centerdot k}}{b_{\centerdot\centerdot}}2^{H_{N,k}}+\sum_{k=1}^{S}\frac{b_{k\centerdot}}{b_{\centerdot\centerdot}}2^{H_{P,k}}\right)\label{eq:LD}
 \end{equation}
 
 \end_inset
@@ -2096,7 +2137,7 @@ v_{k}=\mathnormal{\frac{1}{\mathnormal{\boldsymbol{1_{\mathnormal{b_{ki}\neq0}}}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-i_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
+e_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
 \end{equation}
 
 \end_inset
@@ -2183,7 +2224,17 @@ noprefix "false"
 ).
  Mean interaction strengths were computed as the mean absolute value of
  the coefficients which were deemed significant at the 95% threshold in
- the B-I matrix.
+ the 
+\change_deleted -2100369821 1555771638
+B-I
+\change_inserted -2100369821 1555771638
+
+\begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
+\end_inset
+
+
+\change_unchanged
+ matrix.
  The average value was either computed over the whole matrix (missing values
  in the matrix, or values which were not significant, were replaced by 0's,
  see Fig.
@@ -4314,7 +4365,13 @@ Only significant values are taken into account and missing values in the
 \color inherit
  and the relation between the ratio and the sparsity of the matrix is given
  in the right panel.
- Corresponding studies are described in Table 
+ Corresponding studies are described in
+\change_inserted -2100369821 1555771666
+ Supplementary
+\change_deleted -2100369821 1555771663
+ 
+\change_unchanged
+Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Studies"
@@ -4445,7 +4502,12 @@ literal "false"
 
 \end_inset
 
-.The Beverton-Holt multispecies competition model writes
+.
+
+\change_inserted -2100369821 1555771675
+ 
+\change_unchanged
+The Beverton-Holt multispecies competition model writes
 \end_layout
 
 \begin_layout Standard
@@ -4664,8 +4726,8 @@ For now, we consider diffuse competition, that is
 \begin_inset Formula 
 \begin{equation}
 \begin{cases}
-\alpha_{ii}= & \alpha\\
-\alpha_{ij}= & k\alpha,\forall i\neq j
+\alpha_{ii}= & k\alpha\\
+\alpha_{ij}= & \alpha,\forall i\neq j
 \end{cases}\label{eq:diffuse_comp}
 \end{equation}
 
