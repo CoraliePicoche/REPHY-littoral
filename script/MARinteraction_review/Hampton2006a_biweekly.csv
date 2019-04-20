@@ -1,0 +1,15 @@
+BiWeekly;Oscillatoria;Cryptomonads;Unicells;Other algea;Diatoms;Green algae;NCR;Conochilus;Daphnia;Diaptomus;NDC;Cyclops;Espichura;Leptodora
+Oscillatoria;0.7;;;;;;;;;;;;;
+Cryptomonads;-0.04;0.49;;;-0.07;;;;;;;;;
+Unicells;;;0.39;;;;;;-0.11;-0.08;;;;
+Other algea;;;;0.42;;;;;;-0.07;;;;
+Diatoms;;;;;0.30;;;;;;;;;
+Green algae;;;;;;0.24;;;;;;;;
+NCR;;;0.10;0.08;;;0.48;;;;-0.06;;;
+Conochilus;;;0.03;;;;;0.46;;;;;;-0.05
+Daphnia;;0.07;0.09;;;;;;0.62;;;;;
+Diaptomus;;;;;0.11;;;;-0.15;0.53;;-0.05;;
+NDC;;;;0.13;0.07;;;;;;0.49;;;
+Cyclops;;;0.21;;;;;;-0.14;-0.05;-0.05;0.42;-0.15;
+Espichura;;;;;;;;;;;;;0.45;-0.09
+Leptodora;;;;;;;;;;;;0.27;;0.07

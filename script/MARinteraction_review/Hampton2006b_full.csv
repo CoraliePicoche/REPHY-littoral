@@ -1,0 +1,14 @@
+Complex;Crypto;Diatom;Green;Cyano;Pico;Conochilus;Cyclops;Daphnia;Diaptomus;Epischura;Leptodora;N-D clad;N-C rot
+Crypto;0.56;;;-0.36;;;;;;;;-0.2;
+Diatom;;0.53;;-0.16;;;;;;;;;
+Green;;;0.45;-0.22;;;;;;;;;
+Cyano;-0.12;;;0.46;;;;;;;;;
+Pico;;;-0.05;;0.64;;;;;;;;
+Conochilus;;;;-0.17;0.14;0.45;;-0.27;;;-0.14;-0.32;
+Cyclops;;;;;0.26;;0.62;-0.15;;;;-0.12;
+Daphnia;0.09;;;;0.29;;;0.62;;;;;
+Diaptomus;;;;;;-0.09;;-0.22;0.63;;;-0.11;
+Epischura;;;;;;;;;;0.38;;;0.09
+Leptodora;;;;;;;0.1;0.24;;0.24;0.13;0.17;
+N-D clad;;0.09;;;0.15;;;-0.26;;;-0.13;0.52;
+N-C rot;;;;;0.31;;;;;;;-0.09;0.52
