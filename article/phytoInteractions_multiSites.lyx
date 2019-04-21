@@ -101,6 +101,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author -2100369821 "cpicoche"
+\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -304,6 +305,8 @@ literal "false"
 .
  Because competition does - according to both theory and experiments - occur
  between phytoplankton genera
+\change_deleted -666822487 1555858138
+
 \begin_inset Note Note
 status collapsed
 
@@ -316,6 +319,8 @@ This repeats the previous sentence, I would remove it and only keep the
 
 \end_inset
 
+
+\change_unchanged
 , and the genus level is a rather fine taxonomic scale for phytoplankton
  interaction studies (most studies are restricted to interaction between
  different classes or even phyla
@@ -328,8 +333,10 @@ literal "false"
 
 ), we study here interactions between different genera of phytoplankton,
  which
+\change_deleted -666822487 1555858129
+
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 j'aurais écris 
@@ -362,6 +369,8 @@ Mais pas de différence due au pluriel.
 
 \end_inset
 
+
+\change_unchanged
  belong mostly to diatoms and dinoflagellates.
  To put our results into a more general context, we then compare our interaction
  strength estimates to previously published interaction networks produced
@@ -792,11 +801,15 @@ noprefix "false"
 \end_inset
 
 ).
- Relations between inter- and intragroup
+ Relations between inter- and intra
+\change_deleted -666822487 1555858216
+group
+\change_inserted -666822487 1555858217
+genus
 \change_inserted -2100369821 1555768968
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -880,28 +893,10 @@ status open
 Relation between vulnerability/impact and self-regulation.
 
 \series default
- Average vulnerability (effects of others on
-\change_deleted -2100369821 1555769279
-to
-\change_unchanged
- the focal taxon growth rate, a-b) and impact (effects of the focal taxon
- 
-\change_deleted -2100369821 1555769285
-unto
-\change_inserted -2100369821 1555769285
-on
-\change_unchanged
- other
-\change_inserted -2100369821 1555769287
-s
-\change_unchanged
-'
-\change_deleted -2100369821 1555769288
-s
-\change_unchanged
- growth rates, c-d), as well as self-regulation, are computed for untransformed
- (a-c) or absolute (b-d) values of the coefficients of the interaction matrix
- (
+ Average vulnerability (effects of others on the focal taxon growth rate,
+ a-b) and impact (effects of the focal taxon on others' growth rates, c-d),
+ as well as self-regulation, are computed for untransformed (a-c) or absolute
+ (b-d) values of the coefficients of the interaction matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
@@ -949,12 +944,19 @@ sensu
 \change_inserted -2100369821 1555769309
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
 \change_inserted -2100369821 1555769317
-Should we justify this ?
+Should we justify this
+\change_deleted -666822487 1555858241
+ 
+\change_inserted -2100369821 1555769317
+?
+\change_inserted -666822487 1555858276
+ I don't think we need to, but if you want to it is possible to just add
+ a reference within the parenthesis.
 \change_unchanged
 
 \end_layout
@@ -1063,11 +1065,8 @@ status open
 
 \series bold
 Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressi
-ve (MAR) models in the ecological literature
-\change_inserted -2100369821 1555675141
- as a function of the number of species they include
-\change_unchanged
-.
+ve (MAR) models in the ecological literature as a function of the number
+ of species they include.
 
 \series default
  The name of each studies, corresponding to each code, is given in Supplementary
@@ -1086,25 +1085,35 @@ noprefix "false"
 \end_inset
 
 .
- 
-\change_inserted -2100369821 1555675167
-Codes beginning with letters correspond to the present study.
- 
-\change_unchanged
-The symbol color corresponds to the sparsity of the interaction matrix (e.g.,
- the proportion of null interactions in the matrix)
+ Codes beginning with letters correspond to the present study.
+ The symbol color corresponds to the sparsity of the interaction matrix
+ (e.g., the proportion of null interactions in the matrix)
 \change_deleted -2100369821 1555769430
  and the symbol shape corresponds to the number of species taken into account
+\change_inserted -666822487 1555858364
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1555858409
+I think it could be nice to double colour with symbols, because people are
+ unlikely to print in colour.
+ We can talk about this to find what's the best solution.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 .
  Intergroup interactions were set to 0 when they were not specified in the
  articles (in most cases, articles removed non-significant interactions
  at the 95% threshold).
  
-\change_deleted -2100369821 1555675130
-Last column corresponds to the present study.
-\change_unchanged
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:meta_ratio"
@@ -1161,35 +1170,16 @@ literal "false"
 
 .
  Even though their model is a different one, i.e., Lotka-Volterra competition,
- we prove in the 
-\change_deleted -2100369821 1555769540
-SI
-\change_inserted -2100369821 1555769544
-Supplementary Information
-\change_deleted -2100369821 1555769542
- 
-\change_unchanged
-that the intra/inter ratio should remain commensurate.
+ we prove in the Supplementary Informationthat the intra/inter ratio should
+ remain commensurate.
  The difference in the intra/inter ratio that we found should therefore
  lie elsewhere, which requires some explanation.
  First, one could argue that such high intra/inter ratio arises because
  we consider the genus as our baseline taxonomic unit, rather than the species.
  Although it is logical that niche differentiation increases as one gets
  up the phylogenetic tree, and that getting down to the species level could
- 
-\change_inserted -2100369821 1555769556
-slightly 
-\change_unchanged
-decrease 
-\change_deleted -2100369821 1555769555
-slightly 
-\change_unchanged
-that ratio, there are two 
-\change_deleted -2100369821 1555769564
-good 
-\change_unchanged
-arguments suggesting that the niche differences found here extend to the
- species level.
+ slightly decrease that ratio, there are two arguments suggesting that the
+ niche differences found here extend to the species level.
  First, species belonging to the various genera considered here are often
  found to compete in experiments
 \begin_inset CommandInset citation
@@ -1240,25 +1230,9 @@ ic communities.
 \end_layout
 
 \begin_layout Standard
-Another main finding of our study is the large frequency of 
-\change_deleted -2100369821 1555769990
-facilitative
-\change_inserted -2100369821 1555769991
-positive
-\change_unchanged
- interactions, 
-\change_inserted -2100369821 1555769996
-with 30% truly mutualistic (+/+) interactions and 
-\change_unchanged
-between 40 and 70%
-\change_inserted -2100369821 1555770002
- facilitative interactions
-\change_unchanged
-, 
-\change_deleted -2100369821 1555769985
-with 30% truly mutualistic (+/+) interactions
-\change_unchanged
-.
+Another main finding of our study is the large frequency of positive interaction
+s, with 30% truly mutualistic (+/+) interactions and between 40 and 70%
+ facilitative interactions.
  This again can be compared to the meta-analysis by Adler et al.
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -1267,13 +1241,15 @@ literal "false"
 
 \end_inset
 
- who
-\change_inserted -2100369821 1555770014
- also
-\change_deleted -2100369821 1555770014
+ who also found facilitative interactions, but 
+\change_deleted -666822487 1555858558
+with a lower fraction
+\change_inserted -666822487 1555858563
+a little less than here
+\change_deleted -666822487 1555858558
  
 \change_unchanged
-found facilitative interactions, but with a lower fraction (
+(
 \begin_inset Formula $\approx$
 \end_inset
 
@@ -1286,12 +1262,8 @@ literal "false"
 
 \end_inset
 
-'s review contain
-\change_inserted -2100369821 1555770025
-s
-\change_unchanged
- many experiments while the plant literature is replete with field examples
- of facilitation 
+'s review contains many experiments while the plant literature is replete
+ with field examples of facilitation 
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "brooker_facilitation_2008,mcintire2014facilitation"
@@ -1407,20 +1379,8 @@ literal "false"
 
 \end_inset
 
- 
-\change_deleted -2100369821 1555770222
-are
-\change_inserted -2100369821 1555770226
-constitute an
-\change_deleted -2100369821 1555770225
- 
-\change_unchanged
-example
-\change_deleted -2100369821 1555770230
-s
-\change_unchanged
- of fine-scale resource partitioning of one resource, light, that is usually
- believed to be limiting for all species and genera.
+ constitute an example of fine-scale resource partitioning of one resource,
+ light, that is usually believed to be limiting for all species and genera.
 \end_layout
 
 \begin_layout Paragraph*
@@ -1517,24 +1477,10 @@ literal "false"
 
  who found that rare species usually show stronger self-regulation.
  This correlation between rarity and self-regulation could explain the lesser
- impact effect of high self-regulated species/genus: a species which dominate
-\change_inserted -2100369821 1555770434
-s
-\change_unchanged
+ impact effect of high self-regulated species/genus: a species which dominates
  the community composition can have a major effect on the others, especially
- as they usually cover more space, while it is harder for rare, locali
-\change_deleted -2100369821 1555770388
-z
-\change_inserted -2100369821 1555770388
-s
-\change_unchanged
-ed species
-\change_inserted -2100369821 1555770426
- to 
-\change_deleted -2100369821 1555770396
- 
-\change_unchanged
-have large impacts.
+ as they usually cover more space, while it is harder for rare, localised
+ species to have large impacts.
  However, it was more difficult to explain the reverse link: a genus that
  is more self-regulated and rarer was found here to be on average more vulnerabl
 e to other genera's increases in densities.
@@ -1672,9 +1618,7 @@ literal "false"
 .
  This could occur for instance if species are spatially segregated (at a
  small scale) because each species only exists within a domain where it
- is relatively competitive
-\change_inserted -2100369821 1555665755
- (Pacala's spatial segregation hypothesis
+ is relatively competitive (Pacala's spatial segregation hypothesis
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "pacala1997biologically"
@@ -1682,15 +1626,13 @@ literal "false"
 
 \end_inset
 
-)
-\change_unchanged
-, while a focal species could spread out if competitors were removed.
+), while a focal species could spread out if competitors were removed.
  This means that a species can be limited by competitors, but act so as
  to minimize competition (a little like avoidance behaviour in animals)
  so that competition is in effect hard to detect when all species are present.
  This would require 
-\change_deleted -2100369821 1555770461
-some fine-scale 
+\change_inserted -666822487 1555858632
+spatial 
 \change_unchanged
 segregation between phytoplankton species at the scale of interactions,
  i.e., at the microscale.
@@ -1809,19 +1751,27 @@ literal "false"
 \end_inset
 
 ).
- Since 1987, this monitoring program has required
-\change_inserted -2100369821 1555770475
- the sampling of
-\change_deleted -2100369821 1555770472
+ Since 1987, this monitoring program has required the sampling of 26 sites
+ along the French coastline every 2 weeks within 2 hours of high tide to
  
+\change_deleted -666822487 1555858695
+determine
+\change_inserted -666822487 1555858697
+document
 \change_unchanged
-26 sites along the French coastline
-\change_deleted -2100369821 1555770478
- to be sampled
+ both biotic (phytoplankton counts) and abiotic (water temperature, salinity)
+ 
+\change_deleted -666822487 1555858701
+parameters
+\change_inserted -666822487 1555858702
+variables
 \change_unchanged
- every 2 weeks within 2 hours of high tide to determine both biotic (phytoplankt
-on counts) and abiotic (water temperature, salinity) parameters.
- We focused on sites which had the longest and most recent time series.
+.
+ We focused on sites which had the longest 
+\change_deleted -666822487 1555858737
+and most recent 
+\change_unchanged
+time series.
  We also excluded time series which had missing data for over 6 months or
  an average delay between sampling dates above 20 days.
  This reduced the number of study sites to 10 sites nested within 4 regions
@@ -1915,10 +1865,10 @@ literal "false"
 
 .
  All time series were scaled and centered before MAR analyses.
-
-\change_inserted -2100369821 1555770582
  All scripts for MAR and network analyses are available online in a GitHub
  repository
+\change_inserted -2100369821 1555770582
+
 \begin_inset Foot
 status open
 
@@ -1926,8 +1876,30 @@ status open
 
 \change_inserted -2100369821 1555770661
 https://github.com/CoraliePicoche/REPHY-littoral This repository will be
- made public upon acceptance and can be shared with referees if they wish
- to have access to it.
+ made public upon acceptance
+\change_inserted -666822487 1555858848
+.
+
+\change_deleted -666822487 1555858848
+ and can be shared with referees if they wish to have access to it.
+\change_inserted -666822487 1555858760
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1555858904
+I'm not sure we can use that wording because it may suggest that we will
+ give them GitHub access, which then compromises their anonymity...
+ Let's talk about the best way to make the info accessible to referees.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
@@ -1954,12 +1926,7 @@ Here I kept the full name because a little repetition helps the reader.
 
 \end_inset
 
- are used to determine the interspecific interactions and abiotic 
-\change_deleted -2100369821 1555770683
-variables
-\change_inserted -2100369821 1555770684
-effects
-\change_unchanged
+ are used to determine the interspecific interactions and abiotic effects
  shaping a community's dynamics
 \begin_inset CommandInset citation
 LatexCommand supercite
@@ -2097,11 +2064,7 @@ V environment matrix describing the effects of V variables (stacked in vector
 \begin_inset Formula $\mathbf{u}_{t+1}$
 \end_inset
 
-) on species growth
-\change_inserted -2100369821 1555770690
- rates
-\change_unchanged
-, and 
+) on species growth rates, and 
 \begin_inset Formula $\mathbf{e}_{t}$
 \end_inset
 
@@ -2187,19 +2150,9 @@ literal "false"
 
 \end_inset
 
-
-\change_inserted -2100369821 1555770724
-, including 
-\change_deleted -2100369821 1555770729
-.
- Covariables included 
-\change_unchanged
-nutrients and hydrodynamics variables.
+, including nutrients and hydrodynamics variables.
  We found that hydrodynamics variables were more influential than nutrients;
  nutrient dynamics contributed little to phytoplankton dynamics on the two-week
-\change_deleted -2100369821 1555770795
-s
-\change_unchanged
  timescale.
  Because temperature and salinity sum up seasonal changes in light as well
  as hydrology (salinity is inversely related to freshwater inflow), these
@@ -2237,10 +2190,7 @@ literal "false"
 \end_inset
 
  was complemented by that of phytoplankton-like simulated data, which confirmed
- the ability of MAR(1) models to infer biotic interactions and abiotic forcing
-\change_inserted -2100369821 1555770927
-s
-\change_unchanged
+ the ability of MAR(1) models to infer biotic interactions and abiotic forcings
  (e.g., no need for extra non-linearities to model the storage effect, which
  was found to be nearly non-existent, as in previous analyses of plant data
  for which strong-self regulation was observed
@@ -2253,11 +2203,7 @@ literal "false"
 
 ).
  Furthermore, using two abiotic variables (temperature and salinity) in
- this study rather than the full set 
-\change_deleted -2100369821 1555770943
-of 
-\change_unchanged
-used in Barraquand et al.
+ this study rather than the full set used in Barraquand et al.
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -2287,23 +2233,11 @@ literal "false"
 
 \end_inset
 
-, which is how these 
-\change_deleted -2100369821 1555770954
-are 
-\change_unchanged
-models are used here.
+, which is how these models are used here.
  For ease of interpretation of those coefficients, we also prove the corresponda
 nce between the magnitude of intra/inter interaction strength in a MAR(1)
  model and a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterr
-a model, in the
-\change_inserted -2100369821 1555665783
- 
-\change_deleted -2100369821 1555770773
-SI
-\change_inserted -2100369821 1555770776
-Supplementary Information
-\change_unchanged
-
+a model, in the Supplementary Information
 \begin_inset Note Note
 status collapsed
 
@@ -2320,29 +2254,15 @@ Should we say where in the SI or have several SI? [This is a true question,
 \begin_layout Standard
 In this study, the number of phytoplankton groups, S, varies between regions
  but we keep the same 2 covariates, i.e.
- water temperature and salinity, that 
-\change_deleted -2100369821 1555770963
-could be 
-\change_inserted -2100369821 1555770964
-were 
-\change_unchanged
-measured 
-\change_deleted -2100369821 1555770966
-for
-\change_inserted -2100369821 1555770967
-at
-\change_unchanged
- all study sites.
+ water temperature and salinity, that were measured at all study sites.
  Therefore, the dimension of the dynamical system only depends on the (square
  of the) number of phytoplankton groups we study, which ranges between 7
  (Mediterranean Sea) and 14 (Brittany).
  The smallest system still requires 70 parameters to be estimated if we
  consider all possible interactions between species.
  To reduce this dimensionality and remove unnecessary parameters, we compared
- different `interaction scenarios' based on BIC
-\change_inserted -2100369821 1555665894
-, which proved to be satisfactory in our previous analyses of both real
- and similar simulated datasets
+ different `interaction scenarios' based on BIC, which proved to be satisfactory
+ in our previous analyses of both real data and similar simulated datasets
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "barraquand_coastal_2018"
@@ -2350,8 +2270,6 @@ literal "false"
 
 \end_inset
 
-
-\change_unchanged
 .
  The null interaction scenario assumed no interaction between groups of
  species (diagonal interaction matrix) and was compared to four other interactio
@@ -2449,8 +2367,6 @@ and compared these to the regulation a focal species exerted on itself.
  planktonic species while absolute effects characterise the strength of
  all types of interactions on a species (i.e., is a species strongly affected
  by the others?).
-
-\change_inserted -2100369821 1555770987
  We examined whether vulnerability and impact could be affected by phylogenetic
  correlations; they were not as on Fig.
 \begin_inset space ~
@@ -2467,8 +2383,6 @@ noprefix "false"
 \end_inset
 
  points were not clustered according to genus, family or phylum.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2562,24 +2476,58 @@ literal "false"
 e, which is why we decided to present in the main text interaction matrices
  including coefficients set to zero, which should be more robust to the
  model selection method.
-\change_inserted -2100369821 1555665992
-
 \end_layout
 
 \begin_layout Section*
-
-\change_inserted -2100369821 1555666003
 Acknowledgements
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1555770993
 This study was only made possible by the dedication of all members of the
- REPHY program on the field, providing invaluable data.
+ REPHY program
+\change_inserted -666822487 1555859075
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1555859086
+Can we add the REPHY ref again here?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_deleted -666822487 1555859039
+ on the field
+\change_unchanged
+, providing invaluable data
+\change_inserted -666822487 1555859058
+ through demanding fieldwork
+\change_unchanged
+.
  We are grateful to David Murrell for his careful reading and suggestions,
  and to Peter Adler for helpful exchanges.
  This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
+\change_inserted -666822487 1555859095
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1555859103
+Nice acknowledgements!
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
