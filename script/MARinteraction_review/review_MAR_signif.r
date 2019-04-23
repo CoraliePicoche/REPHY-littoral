@@ -143,12 +143,23 @@ symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
 
 ylab_try=as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanInter"])
 
-plot(xlab_try,ylab_try,t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="",ylab="|intra|/|inter|",cex.lab=2.0,xlim=c(0.85,max(xlab_try)+0.8),xaxt='n',cex.axis=1.5)
-mtext("Chronological order",side=1,line=2.5,cex=2.0)
+plot(tab_answer[,"Dimension"],ylab_try,t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="Number of taxa",ylab="|intra|/|inter|",cex.lab=2.0,cex.axis=1.5,xlim=c(1.5,14.5))
+#mtext("Chronological order",side=1,line=2.5,cex=2.0)
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
-idx=1:22
-text(xlab_try[idx],ylab_try[idx],names_1[idx],pos=c(4,2),cex=1.5)
+idx=c(1:3,5:21,24:32)
+text(tab_answer[idx,'Dimension'],ylab_try[idx],names_1[idx],pos=c(4,2),cex=1.5)
+#text(tab_answer[,'Dimension'],ylab_try,names_1,pos=c(4,2),cex=1.5)
 
+idx=4
+text(tab_answer[idx,'Dimension'],ylab_try[idx]+0.05,names_1[idx],pos=c(4),cex=1.5)
+
+idx=22
+text(tab_answer[idx,'Dimension'],ylab_try[idx],names_1[idx],pos=c(4),cex=1.5)
+idx=23
+text(tab_answer[idx,'Dimension'],ylab_try[idx]-0.15,names_1[idx],pos=c(4),cex=1.5)
+
+
+if(1==0){
 plou_id=order(ylab_try)
 plou_id=plou_id[plou_id>22]
 idx=plou_id[c(1:2,9:10)]
@@ -158,7 +169,8 @@ for(i in 8:3){
         text(xlab_try[plou_id[i]]+0.25,ylab_try[plou_id[i]]+(i-8)*0.25,names_1[plou_id[i]],pos=4,cex=1.5)
         arrows(xlab_try[plou_id[i]]+0.4,ylab_try[plou_id[i]]+(i-8)*0.25,xlab_try[plou_id[i]],ylab_try[plou_id[i]],length=0)
 }
-legend("topright",pch=c(21,22,23),leg=c('sparsity<0.65',expression('0.65'<='sparsity<0.75'),expression('sparsity'>='0.75')),pt.bg=c("cyan","blue","darkorchid"),bty='n',cex=1.5,pt.cex=3)
+}
+legend("bottomright",pch=c(21,22,23),leg=c('sparsity<0.65',expression('0.65'<='sparsity<0.75'),expression('sparsity'>='0.75')),pt.bg=c("cyan","blue","darkorchid"),bty='n',cex=1.5,pt.cex=3)
 
 #Second plot
 xx=as.numeric(tab_answer[,"Prop signif"])

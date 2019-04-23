@@ -1559,20 +1559,19 @@ We inspected the Hessian matrices (i.e., Hessians of the negative log-likelihood
  which is the observed Fisher Information Matrix) for interaction parameters,
  which was important to check that results presented in Fig.
  3 of the main text could not be due to statistical constraints.
- The Hessian matrix showed that correlations between 
-\change_inserted -2100369821 1556012614
-the mean absolute value of the correlation between interaction parameters
- never exceeded 0.02 and remained
-\change_deleted -2100369821 1556012506
-interaction parameters were always 
-\change_unchanged
-below 0.5 in absolute values
-\change_inserted -2100369821 1556012524
-.
+
+\change_deleted -2100369821 1556025188
  
-\change_deleted -2100369821 1556012605
-, even for the few correlations that existed, and most of the correlations
- were close to zero.
+\change_inserted -2100369821 1556025203
+ Correlation matrices (derived from the Hessian matrices) showed that the
+ mean absolute value of the correlation was 0.02 (hence on average there
+ were no correlations), few of those were noticeable (75% were below 0.1
+ in only 1 site, even lower in the 9 other sites) and even the very few
+ large ones were never above 0.5 in absolute value.
+\change_deleted -2100369821 1556025200
+The Hessian matrix showed that correlations between interaction parameters
+ were always below 0.5 in absolute values, even for the few correlations
+ that existed, and most of the correlations were close to zero.
 \begin_inset Note Note
 status open
 
