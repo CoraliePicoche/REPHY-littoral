@@ -185,106 +185,49 @@ name "fig:Map"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1555771129
 At each site, water samples were collected between 0 and 1m depth in a Niskin
  bottle, from which 10mL were taken for phytoplanktonic counts.
  We focus on phytoplanktonic taxa between 20 and 200 
 \begin_inset Formula $\mu$
 \end_inset
 
-m
-\change_inserted -666822487 1555859232
-, the so-called microphytoplankton fraction[REF Reynolds?].
-\change_deleted -666822487 1555859183
-,
-\change_inserted -666822487 1555859266
- The scaling between the volume sampled and the size of individual organisms
- 
-\change_deleted -666822487 1555859242
- 
-\change_inserted -2100369821 1555771129
-mean
-\change_deleted -666822487 1555859269
-ing
-\change_inserted -666822487 1555859269
-s
-\change_inserted -2100369821 1555771129
- that 
-\change_inserted -666822487 1555859282
-approximately 
-\change_inserted -2100369821 1555771129
-up to 1000 cells c
-\change_deleted -666822487 1555859302
-an
-\change_inserted -666822487 1555859303
-ould
-\change_inserted -2100369821 1555771129
- line
-\change_inserted -666822487 1555859304
-d
-\change_inserted -2100369821 1555771129
- up 
-\change_inserted -666822487 1555859314
-(in a thought experiment) 
-\change_inserted -2100369821 1555771129
-along one single 
-\change_deleted -666822487 1555859434
-side
-\change_inserted -666822487 1555859437
-dimension
-\change_inserted -2100369821 1555771129
- of 
-\change_deleted -666822487 1555859345
-the sample
-\change_inserted -666822487 1555859448
-an equivalent cubic sample
-\change_inserted -2100369821 1555771129
+m, the so-called microphytoplankton fraction
+\change_inserted -2100369821 1556004871
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "reynolds2006ecology"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1556004784
+[REF Reynolds?]
+\change_unchanged
 .
- 
-\change_inserted -666822487 1555859480
-Or in other words, the dimension of the volume sampled is approximately
+ The scaling between the volume sampled and the size of individual organisms
+ means that approximately up to 1000 cells could lined up (in a thought
+ experiment) along one single dimension of an equivalent cubic sample.
+ Or in other words, the dimension of the volume sampled is approximately
  (1000 body sizes)
 \begin_inset Formula $^{3}$
 \end_inset
 
 .
- 
+ We therefore consider samples to be representative of local community competiti
+on, if not of the spatial structure of the community.
 \change_inserted -2100369821 1555771129
-We therefore consider samples to be representative of local community competitio
-n, if not of the spatial structure of the community.
+
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -2100369821 1555771280
-Although coastal systems such as ours are by definition open, Scheef et
- al
-\shape italic
-.
-\shape default
-
-\begin_inset CommandInset citation
-LatexCommand supercite
-key "scheef_assessing_2012"
-literal "false"
-
-\end_inset
-
- have shown that no systematic pattern emerged from changes in the size
- of the area taken into account in MAR estimates
-\change_inserted -666822487 1555859527
- in similar model systems
-\change_inserted -2100369821 1555771280
-, at least at the regional scale, leading us to assume that possible emigration
- and immigration from and to our site did not systematically bias our estimates
- of the community overall dynamics.
-
-\change_inserted -666822487 1555859652
- It is also notable that from the high synchrony of nearby sites, we know
- that immigration and emigration rates are likely proportional to population
- sizes (and not constant immigration or emigration rates susceptible to
- bias population dynamics).
+\change_deleted -2100369821 1556004588
+ in similar model systems It is also notable that from the high synchrony
+ of nearby sites, we know that immigration and emigration rates are likely
+ proportional to population sizes (and not constant immigration or emigration
+ rates susceptible to bias population dynamics).
 \begin_inset Note Note
 status open
 
@@ -301,7 +244,56 @@ J'ai quelques doutes sur ce second paragraphe, je me demande si ça n'ouvre
 \end_inset
 
 
-\change_inserted -2100369821 1555771280
+\change_inserted -2100369821 1556004588
+
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1556004588
+Although coastal systems such as ours are by definition open, Scheef et
+ al
+\shape italic
+.
+\shape default
+
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "scheef_assessing_2012"
+literal "false"
+
+\end_inset
+
+ have shown that no systematic pattern emerged from changes in the size
+ of the area taken into account in MAR estimates in similar model systems,
+ at least at the regional scale, leading us to assume that possible emigration
+ and immigration from and to our site did not systematically bias our estimates
+ of the community overall dynamics.
+ It is also notable that from the high synchrony of nearby sites, we know
+ that immigration and emigration rates are likely proportional to population
+ sizes (and not constant immigration or emigration rates susceptible to
+ bias population dynamics).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1556004588
+J'ai quelques doutes sur ce second paragraphe, je me demande si ça n'ouvre
+ pas plus de questions que ça en résoud, même si David nous a demandé ces
+ explications...
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1530,31 +1522,9 @@ noprefix "false"
 
 ).
  Based on these results, we considered the model selection to be quite robust,
- and focused on the pennate-centric scenario to analyze interaction matrices
-\change_deleted -2100369821 1555771342
-, as this scenario corresponded to the best fitted models that still allowed
- interactions between groups
-\change_inserted -2100369821 1555771344
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1555771359
-Redundant
-\change_inserted -666822487 1555859752
- – not really I think because the null is (unfortunately) stricto sensu
- best?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-.
+ and focused on the pennate-centric scenario to analyze interaction matrices,
+ as this scenario corresponded to the best fitted models that still allowed
+ interactions between groups.
 \end_layout
 
 \begin_layout Standard
@@ -1589,11 +1559,7 @@ Comparison of the BIC of different interaction scenarios
  (unconstrained), only interactions within pennate diatoms, centric diatoms,
  dinoflagellates, or other phytoplanktonic taxa (pencen), only interactions
  within diatoms, dinoflagellates or other taxa (diatdin), or only interactions
- between taxa belonging to these different groups
-\change_inserted -2100369821 1555771369
- (inter)
-\change_unchanged
-.
+ between taxa belonging to these different groups (inter).
  As model structures (length of the times series taken into account) are
  different between sites and regions, groups of bars should not be compared.
 \begin_inset CommandInset label
@@ -1616,23 +1582,18 @@ name "fig:Comparison-of-BIC"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1555672753
-We inspected the Hessian matrices 
-\change_inserted -666822487 1555859815
-(i.e., Hessians of the negative log-likelihood which is the observed Fisher
- Information Matrix) 
-\change_inserted -2100369821 1555672753
-for interaction parameters, which was important to check that results presented
- in Fig.
+We inspected the Hessian matrices (i.e., Hessians of the negative log-likelihood
+ which is the observed Fisher Information Matrix) for interaction parameters,
+ which was important to check that results presented in Fig.
  3 of the main text could not be due to statistical constraints.
  The Hessian matrix showed that correlations between interaction parameters
- were always below 0.5 in absolute values
-\change_inserted -666822487 1555859887
-, even for the few correlations that existed, and most of the correlations
- were close to zero
-\change_inserted -2100369821 1555672753
-.
+ were always below 0.5 in absolute values, even for the few correlations
+ that existed, and most of the correlations were close to zero.
+
+\change_inserted -2100369821 1556004720
+ [[CP: Mean value is 0.02 at most, and the 75% percentile is 0.1 in only one
+ case - the rest being 0.
+ Do we add these details?]]
 \change_inserted -666822487 1555859890
 
 \begin_inset Note Note
@@ -1843,38 +1804,13 @@ Relation between mean and variance of the intra- and intergenus interaction
  coefficients
 \series default
 .
- 
-\change_deleted -666822487 1555859985
-V
-\change_inserted -666822487 1555859986
-The v
-\change_unchanged
-ariance of the coefficient
-\change_inserted -2100369821 1555771410
-s
-\change_unchanged
- in the interaction matrix 
+ The variance of the coefficients in the interaction matrix 
 \begin_inset Formula $(\mathbf{B}\text{–}\mathbf{I})$
 \end_inset
 
- 
-\change_deleted -2100369821 1555771398
-is a function of 
-\change_inserted -2100369821 1555771403
-increases with 
-\change_unchanged
-the
-\change_deleted -666822487 1555859993
-ir
-\change_unchanged
- mean
-\change_inserted -2100369821 1555771405
- 
-\change_deleted -666822487 1555860004
-values
-\change_unchanged
-, for 10 sites in 4 regions, with a model allowing interactions only within
- clads (within centric or pennate diatoms, dinoflagellates, or other taxa).
+ increases with the mean , for 10 sites in 4 regions, with a model allowing
+ interactions only within clads (within centric or pennate diatoms, dinoflagella
+tes, or other taxa).
  The mean-variance relation was either computed with raw values of intergroup
  interactions (a) or absolute values of the intergroup coefficients (b).
  Intragroup coefficients were not modified.

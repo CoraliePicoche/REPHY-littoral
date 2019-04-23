@@ -641,6 +641,11 @@ Could perhaps be shortened [later, not now]
 \end_inset
 
 
+\change_inserted -2100369821 1556005017
+ [[CP : Do we still try and shorten it? Max legend in NEE is 300 words,
+ we have 156 words here]]
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -801,31 +806,17 @@ noprefix "false"
 \end_inset
 
 ).
- Relations between inter- and intra
-\change_deleted -666822487 1555858216
-group
-\change_inserted -666822487 1555858217
-genus
-\change_inserted -2100369821 1555768968
-
+ Relations between inter- and intragenus
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1555769014
 Fred, I know you've thoroughly thought out every use of taxon/group/genus
  in the text but I'm wondering if we shouldn't use genus, here?
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_deleted -2100369821 1555768966
- 
-\change_unchanged
 interactions emerged (Fig.
 \begin_inset space ~
 \end_inset
@@ -1108,6 +1099,10 @@ I think it could be nice to double colour with symbols, because people are
 \end_inset
 
 
+\change_inserted -2100369821 1556005077
+ [[CP: Agree to double colour with symbols but in this case, we should as
+ well do it for Fig2,3,4 and the SI.
+ Won't take much time]]
 \change_unchanged
 .
  Intergroup interactions were set to 0 when they were not specified in the

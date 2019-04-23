@@ -81,6 +81,10 @@ for (g in groupe){
 		cc=as.matrix(read.table(paste("article/graphe/",option_lieu[ll],"_corcoef.txt",sep=""),sep=";",header=T))
 		cc_tmp=cc
 		diag(cc_tmp)=NA
+		cc_tmp_bis=c(cc_tmp)
+		cc_tmp_bis[cc_tmp_bis==0.0]=NA
 		print(max(abs(cc_tmp),na.rm=T))
+		print(quantile(c(abs(cc_tmp_bis)),na.rm=T))
+		
 	}
 }
