@@ -192,8 +192,6 @@ At each site, water samples were collected between 0 and 1m depth in a Niskin
 \end_inset
 
 m, the so-called microphytoplankton fraction
-\change_inserted -2100369821 1556004871
-
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "reynolds2006ecology"
@@ -201,10 +199,6 @@ literal "false"
 
 \end_inset
 
-
-\change_deleted -2100369821 1556004784
-[REF Reynolds?]
-\change_unchanged
 .
  The scaling between the volume sampled and the size of individual organisms
  means that approximately up to 1000 cells could lined up (in a thought
@@ -217,41 +211,17 @@ literal "false"
 .
  We therefore consider samples to be representative of local community competiti
 on, if not of the spatial structure of the community.
-\change_inserted -2100369821 1555771129
-
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -2100369821 1556004588
- in similar model systems It is also notable that from the high synchrony
- of nearby sites, we know that immigration and emigration rates are likely
- proportional to population sizes (and not constant immigration or emigration
- rates susceptible to bias population dynamics).
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1555859687
-J'ai quelques doutes sur ce second paragraphe, je me demande si ça n'ouvre
- pas plus de questions que ça en résoud, même si David nous a demandé ces
- explications...
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -2100369821 1556004588
-
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1556004588
 Although coastal systems such as ours are by definition open, Scheef et
  al
 \shape italic
@@ -278,8 +248,6 @@ literal "false"
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1556004588
 J'ai quelques doutes sur ce second paragraphe, je me demande si ça n'ouvre
  pas plus de questions que ça en résoud, même si David nous a demandé ces
  explications...
@@ -288,12 +256,17 @@ J'ai quelques doutes sur ce second paragraphe, je me demande si ça n'ouvre
 \end_inset
 
 
-\change_unchanged
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \end_inset
 
+
+\change_inserted -2100369821 1556012375
 
 \end_layout
 
@@ -1586,16 +1559,20 @@ We inspected the Hessian matrices (i.e., Hessians of the negative log-likelihood
  which is the observed Fisher Information Matrix) for interaction parameters,
  which was important to check that results presented in Fig.
  3 of the main text could not be due to statistical constraints.
- The Hessian matrix showed that correlations between interaction parameters
- were always below 0.5 in absolute values, even for the few correlations
- that existed, and most of the correlations were close to zero.
-
-\change_inserted -2100369821 1556004720
- [[CP: Mean value is 0.02 at most, and the 75% percentile is 0.1 in only one
- case - the rest being 0.
- Do we add these details?]]
-\change_inserted -666822487 1555859890
-
+ The Hessian matrix showed that correlations between 
+\change_inserted -2100369821 1556012614
+the mean absolute value of the correlation between interaction parameters
+ never exceeded 0.02 and remained
+\change_deleted -2100369821 1556012506
+interaction parameters were always 
+\change_unchanged
+below 0.5 in absolute values
+\change_inserted -2100369821 1556012524
+.
+ 
+\change_deleted -2100369821 1556012605
+, even for the few correlations that existed, and most of the correlations
+ were close to zero.
 \begin_inset Note Note
 status open
 
@@ -4388,8 +4365,19 @@ Ratio of intra-to-intergroup interaction strength in MAR(1) studies.
 Only significant values are taken into account and missing values in the
  matrix are not considered (e.g., not replaced by 0 as they are in the main
  text).
- The color of each point is a function of the sparsity of the interaction
- matrix 
+ The color
+\change_inserted -2100369821 1556013655
+ and shape
+\change_deleted -2100369821 1556013653
+ 
+\change_unchanged
+of each point 
+\change_deleted -2100369821 1556013657
+is
+\change_inserted -2100369821 1556013658
+are
+\change_unchanged
+ a function of the sparsity of the interaction matrix 
 \family roman
 \series medium
 \shape up
@@ -4489,7 +4477,13 @@ noprefix "false"
 \end_inset
 
 .
- Blue points correspond to the present study.
+ Blue 
+\change_deleted -2100369821 1556013673
+points
+\change_inserted -2100369821 1556013674
+triangles
+\change_unchanged
+ correspond to the present study.
  
 \begin_inset CommandInset label
 LatexCommand label

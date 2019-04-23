@@ -631,21 +631,6 @@ name "fig:Interaction-matrices"
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Could perhaps be shortened [later, not now]
-\end_layout
-
-\end_inset
-
-
-\change_inserted -2100369821 1556005017
- [[CP : Do we still try and shorten it? Max legend in NEE is 300 words,
- we have 156 words here]]
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -1077,34 +1062,18 @@ noprefix "false"
 
 .
  Codes beginning with letters correspond to the present study.
- The symbol color corresponds to the sparsity of the interaction matrix
- (e.g., the proportion of null interactions in the matrix)
-\change_deleted -2100369821 1555769430
- and the symbol shape corresponds to the number of species taken into account
-\change_inserted -666822487 1555858364
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1555858409
-I think it could be nice to double colour with symbols, because people are
- unlikely to print in colour.
- We can talk about this to find what's the best solution.
+ The symbol color
+\change_inserted -2100369821 1556012215
+ and shape
+\change_deleted -2100369821 1556012214
+ 
 \change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -2100369821 1556005077
- [[CP: Agree to double colour with symbols but in this case, we should as
- well do it for Fig2,3,4 and the SI.
- Won't take much time]]
+correspond
+\change_deleted -2100369821 1556012218
+s
 \change_unchanged
-.
+ to the sparsity of the interaction matrix (e.g., the proportion of null interacti
+ons in the matrix).
  Intergroup interactions were set to 0 when they were not specified in the
  articles (in most cases, articles removed non-significant interactions
  at the 95% threshold).
@@ -1236,15 +1205,7 @@ literal "false"
 
 \end_inset
 
- who also found facilitative interactions, but 
-\change_deleted -666822487 1555858558
-with a lower fraction
-\change_inserted -666822487 1555858563
-a little less than here
-\change_deleted -666822487 1555858558
- 
-\change_unchanged
-(
+ who also found facilitative interactions, but a little less than here(
 \begin_inset Formula $\approx$
 \end_inset
 
@@ -1625,12 +1586,8 @@ literal "false"
  This means that a species can be limited by competitors, but act so as
  to minimize competition (a little like avoidance behaviour in animals)
  so that competition is in effect hard to detect when all species are present.
- This would require 
-\change_inserted -666822487 1555858632
-spatial 
-\change_unchanged
-segregation between phytoplankton species at the scale of interactions,
- i.e., at the microscale.
+ This would require spatial segregation between phytoplankton species at
+ the scale of interactions, i.e., at the microscale.
  At the moment, it is known that turbulence generates inhomogeneities at
  the microscale
 \begin_inset CommandInset citation
@@ -1748,25 +1705,9 @@ literal "false"
 ).
  Since 1987, this monitoring program has required the sampling of 26 sites
  along the French coastline every 2 weeks within 2 hours of high tide to
- 
-\change_deleted -666822487 1555858695
-determine
-\change_inserted -666822487 1555858697
-document
-\change_unchanged
- both biotic (phytoplankton counts) and abiotic (water temperature, salinity)
- 
-\change_deleted -666822487 1555858701
-parameters
-\change_inserted -666822487 1555858702
-variables
-\change_unchanged
-.
- We focused on sites which had the longest 
-\change_deleted -666822487 1555858737
-and most recent 
-\change_unchanged
-time series.
+ document both biotic (phytoplankton counts) and abiotic (water temperature,
+ salinity) variables.
+ We focused on sites which had the longest time series.
  We also excluded time series which had missing data for over 6 months or
  an average delay between sampling dates above 20 days.
  This reduced the number of study sites to 10 sites nested within 4 regions
@@ -1862,46 +1803,24 @@ literal "false"
  All time series were scaled and centered before MAR analyses.
  All scripts for MAR and network analyses are available online in a GitHub
  repository
-\change_inserted -2100369821 1555770582
+\change_inserted -2100369821 1556010634
 
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1555770661
 https://github.com/CoraliePicoche/REPHY-littoral This repository will be
- made public upon acceptance
-\change_inserted -666822487 1555858848
+ made public upon acceptance and codes can be shared with referees should
+ they wish to access them
+\change_inserted -2100369821 1556010633
 .
-
-\change_deleted -666822487 1555858848
- and can be shared with referees if they wish to have access to it.
-\change_inserted -666822487 1555858760
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1555858904
-I'm not sure we can use that wording because it may suggest that we will
- give them GitHub access, which then compromises their anonymity...
- Let's talk about the best way to make the info accessible to referees.
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
+.
 \change_unchanged
 
 \end_layout
@@ -2352,11 +2271,8 @@ noprefix "false"
 
 \end_inset
 
-) on both raw and absolute values of the coefficients,
-\change_inserted -2100369821 1555665908
- 
-\change_unchanged
-and compared these to the regulation a focal species exerted on itself.
+) on both raw and absolute values of the coefficients, and compared these
+ to the regulation a focal species exerted on itself.
  Raw values indicate the average effect (i.e., is the effect mostly positive
  or negative?) that can be expected on a species' growth rate from other
  planktonic species while absolute effects characterise the strength of
@@ -2480,51 +2396,17 @@ Acknowledgements
 \begin_layout Standard
 This study was only made possible by the dedication of all members of the
  REPHY program
-\change_inserted -666822487 1555859075
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1555859086
-Can we add the REPHY ref again here?
-\change_unchanged
-
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand supercite
+key "REPHY_db"
+literal "false"
 
 \end_inset
 
-
-\change_deleted -666822487 1555859039
- on the field
-\change_unchanged
-, providing invaluable data
-\change_inserted -666822487 1555859058
- through demanding fieldwork
-\change_unchanged
-.
+, providing invaluable data through demanding fieldwork.
  We are grateful to David Murrell for his careful reading and suggestions,
  and to Peter Adler for helpful exchanges.
  This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
-\change_inserted -666822487 1555859095
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1555859103
-Nice acknowledgements!
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard

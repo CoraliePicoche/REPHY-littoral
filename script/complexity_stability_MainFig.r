@@ -13,19 +13,24 @@ results=array(NA,dim=c(10,9,length(option_model)),dimnames=list(1:10,c("stabilit
 id_lieu=0
 id_g=0
 colo=c()
+pch_sty=c()
 for (g in groupe){
         if(g=="BZ"){
                 option_lieu=c("Men er Roue","Loscolo","Croisic")
                 colo=c(colo,rep("green",length(option_lieu)))
+		pch_sty=c(pch_sty,rep(15,length(option_lieu)))
         }else if(g=="MO"){
                 option_lieu=c("LEperon","Cornard","Auger")
                 colo=c(colo,rep("darkblue",length(option_lieu)))
+		pch_sty=c(pch_sty,rep(16,length(option_lieu)))
         }else if(g=="SU"){
                 option_lieu=c("Antoine","Lazaret")
                 colo=c(colo,rep("darkred",length(option_lieu)))
+		pch_sty=c(pch_sty,rep(18,length(option_lieu)))
         }else if(g=="AR"){
                 option_lieu=c("Teychan","B7")
                 colo=c(colo,rep("cyan",length(option_lieu)))
+		pch_sty=c(pch_sty,rep(17,length(option_lieu)))
         }
         for (ll in 1:length(option_lieu)){
                 id_lieu=id_lieu+1
@@ -88,33 +93,33 @@ points(results[,"linkage density","pencen"],results[,"stability","pencen"],pch=1
 dev.off()
 
 for (m in 1:length(option_model)){
-	pdf(paste("./article/graphe/complexity_stability_MainFig_",option_model[m],"justB_log2.pdf",sep=""),width=12,height=5)
-	par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
+	pdf(paste("./article/graphe/complexity_stability_MainFig_",option_model[m],"justB_log2_differentsty.pdf",sep=""),width=12,height=5)
+	par(mfrow=c(1,3),mar=c(2,2,0.75,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
 yli1=min(c(results[,"stability",option_model[m]]))
 yli2=max(c(results[,"stability",option_model[m]]))
 
 xli1=min(c(results[,"positive",option_model[m]]))*100
 xli2=max(c(results[,"positive",option_model[m]]))*100
-plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
-legend('topleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=16,col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
+legend('topleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=c(15,16,17,18),col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
 
 xli1=min(c(results[,"weighted connectance",option_model[m]]))
 xli2=max(c(results[,"weighted connectance",option_model[m]]))
-plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="weighted connectance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="weighted connectance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 xli1=min(c(results[,"linkage density",option_model[m]]))
 xli2=max(c(results[,"linkage density",option_model[m]]))
-plot(results[,"linkage density",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="linkage density",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"linkage density",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="linkage density",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 dev.off()
 }
 
 for (m in 1:length(option_model)){
-        pdf(paste("./article/graphe/genvul_stability_FYI_",option_model[m],"justB_log2.pdf",sep=""),width=12,height=5)
+        pdf(paste("./article/graphe/genvul_stability_FYI_",option_model[m],"justB_log2_differentsty.pdf",sep=""),width=12,height=5)
         par(mfrow=c(1,2),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
 yli1=min(c(results[,"stability",option_model[m]]))
@@ -122,12 +127,12 @@ yli2=max(c(results[,"stability",option_model[m]]))
 
 xli1=min(c(results[,"generality.HL",option_model[m]]))
 xli2=max(c(results[,"generality.HL",option_model[m]]))
-plot(results[,"generality.HL",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="generality",ylab="",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"generality.HL",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="generality",ylab="",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 xli1=min(c(results[,"vulnerability.LL",option_model[m]]))
 xli2=max(c(results[,"vulnerability.LL",option_model[m]]))
-plot(results[,"vulnerability.LL",option_model[m]],results[,"stability",option_model[m]],t="p",pch=16,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="vulnerability",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"vulnerability.LL",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="vulnerability",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 dev.off()

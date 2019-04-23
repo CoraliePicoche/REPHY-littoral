@@ -138,6 +138,8 @@ cod_cod[as.numeric(tab_answer[,"Prop signif"])>=0.65]="blue"
 cod_cod[as.numeric(tab_answer[,"Prop signif"])>=0.75]="darkorchid"
 
 symbol=rep(21,dim(tab_answer)[1])
+symbol[as.numeric(tab_answer[,"Prop signif"])>=0.65]=22
+symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
 
 ylab_try=as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanInter"])
 
@@ -156,13 +158,13 @@ for(i in 8:3){
         text(xlab_try[plou_id[i]]+0.25,ylab_try[plou_id[i]]+(i-8)*0.25,names_1[plou_id[i]],pos=4,cex=1.5)
         arrows(xlab_try[plou_id[i]]+0.4,ylab_try[plou_id[i]]+(i-8)*0.25,xlab_try[plou_id[i]],ylab_try[plou_id[i]],length=0)
 }
+legend("topright",pch=c(21,22,23),leg=c('sparsity<0.65',expression('0.65'<='sparsity<0.75'),expression('sparsity'>='0.75')),pt.bg=c("cyan","blue","darkorchid"),bty='n',cex=1.5,pt.cex=3)
 
 #Second plot
 xx=as.numeric(tab_answer[,"Prop signif"])
 yy=as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanInter"])
 plot(xx,yy,pch=symbol,ylab="",xlab="",cex=2,cex.axis=1.5,xlim=c(-0.0,1),bg=cod_cod)
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
-legend("topleft",pch=c(16),leg=c('sparsity<0.65','sparsity<0.75','sparsity>=0.75'),col=c("cyan","blue","darkorchid"),bty='n',cex=1.5,inset=c(0.025,0.065),pt.cex=3)
 
 names_1_bis=names_1
 names_1_bis[c(2,8,19,28,24,25,31)]=""
@@ -193,8 +195,8 @@ dev.off()
 par(mfrow=c(1,1),xpd=NA,mar=c(3,4.5,1,1))
 
 symbol=rep(21,dim(tab_answer)[1])
-symbol[as.numeric(tab_answer[,"Dimension"])>=6]=22
-symbol[as.numeric(tab_answer[,"Dimension"])>=10]=23
+symbol[as.numeric(tab_answer[,"Prop signif"])>=0.65]=22
+symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
 
 
 plot(xlab_try,log10(as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanSignif"])),t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="",ylab="|intra|/|inter|",yaxt="n",ylim=c(-0.1,2),cex.lab=1.5,xaxt="n",xlim=c(0.8,max(xlab_try)+0.5))
@@ -223,24 +225,35 @@ for(i in 1:length(id)){
 	text(xlab_try[id[i]]-0.2,ylab_try-i*0.05,names_1[id[i]],pos=2,cex=1.5)
 	arrows(xlab_try[id[i]]-0.25,ylab_try-i*0.05,xlab_try[id[i]],ylab_try,length=0)
 }
-legend("bottomleft",pch=c(16,16,16,21,22,23),leg=c('sparsity<0.65','sparsity<0.75','sparsity>=0.75','Dimension<6','Dimension<10','Dimension>=10'),col=c("cyan","blue","darkblue",NA,NA,NA),bty='n',cex=1.5,lty=NA,lwd=2,pt.bg=c(NA,NA,NA,"black","black","black"))
-#dev.off()
+#legend("bottomleft",pch=c(16,16,16,21,22,23),leg=c('sparsity<0.65','sparsity<0.75','sparsity>=0.75','Dimension<6','Dimension<10','Dimension>=10'),col=c("cyan","blue","darkblue",NA,NA,NA),bty='n',cex=1.5,lty=NA,lwd=2,pt.bg=c(NA,NA,NA,"black","black","black"))
+#### WARNING: the legend will need to be updated
+dev.off()
 
-symbol=rep(21,dim(tab_answer)[1])
+#symbol=rep(21,dim(tab_answer)[1])
 
-#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others.pdf",width=18,height=8)
+pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others.pdf",width=18,height=8)
 par(mfrow=c(1,2),xpd=NA,mar=c(4,4.5,3,0.5))
+
 app_T=c(100,100,100,50,300,300,100,100,100,300,200,400,400,300,300,50,100,30,1000,700,300,500)
 col=rep('black',length(app_T))
+sy=rep(16,length(app_T))
 app_T=c(app_T,app_T_this_study)
 col=c(col,rep('blue',length(app_T_this_study)))
+sy=c(sy,rep(17,length(app_T_this_study)))
+
 par(mfrow=c(1,2))
-plot(app_T,tab_answer[,'Prop signif'],col=col,pch=16,cex=2,cex.lab=2.0,cex.axis=1.5,ylab="Sparsity",xlab="Length of the time series")
+plot(app_T,tab_answer[,'Prop signif'],col=col,pch=sy,cex=2,cex.lab=2.0,cex.axis=1.5,ylab="Sparsity",xlab="Length of the time series")
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
-plot(tab_answer[,'Dimension'],tab_answer[,'Prop signif'],col=col,pch=16,cex.lab=2.0,cex=2,cex.axis=1.5,ylab="",xlab="Number of species")
+plot(tab_answer[,'Dimension'],tab_answer[,'Prop signif'],col=col,pch=sy,cex.lab=2.0,cex=2,cex.axis=1.5,ylab="",xlab="Number of species")
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
-legend("bottomright",c("Other studies","This study"),pch=16,col=c("black","blue"),bty="n",cex=2)
-#dev.off()
+legend("bottomright",c("Other studies","This study"),pch=c(16,17),col=c("black","blue"),bty="n",cex=2)
+
+dev.off()
+
+symbol=rep(21,dim(tab_answer)[1])
+symbol[as.numeric(tab_answer[,"Prop signif"])>=0.65]=22
+symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
+
 
 pdf('~/Documents/Plankton/REPHY_littoral/article/graphe/Ratio_function_dim.pdf',,width=10,height=8)
 par(mfrow=c(1,1),mar=c(4,4.5,1,1))
@@ -253,5 +266,5 @@ names_1[18]=NA
 text(tab_answer[idx,'Dimension'],log10(as.numeric(tab_answer[idx,"MeanIntra"])/as.numeric(tab_answer[idx,"MeanSignif"])),names_1[idx],pos=c(4,2),cex=1.5)
 idx=18
 text(tab_answer[idx,'Dimension'],log10(as.numeric(tab_answer[idx,"MeanIntra"])/as.numeric(tab_answer[idx,"MeanSignif"])),tmp,pos=c(4),cex=1.5)
-legend("bottomright",pch=c(16),leg=c('sparsity<0.65','sparsity<0.75','sparsity>=0.75'),col=c("cyan","blue","darkorchid"),bty='n',cex=1.5,lty=NA,lwd=2)
+legend("bottomright",leg=c('sparsity<0.65',expression("0.65"<="sparsity<0.75"),expression('sparsity'>='0.75')),pt.bg=c("cyan","blue","darkorchid"),pch=c(21,22,23),bty='n',cex=1.5,lty=NA,lwd=1)
 dev.off()
