@@ -80,7 +80,7 @@
 \papersides 1
 \paperpagestyle default
 \tracking_changes true
-\output_changes true
+\output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -1681,6 +1681,104 @@ name "fig:Abiotic_effects"
 
 \begin_layout Subsection*
 Network analysis
+\change_inserted -2100369821 1556110020
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\change_inserted -2100369821 1556110289
+Interaction types
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1556109934
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\change_inserted -2100369821 1556109993
+\begin_inset Graphics
+	filename graphe/pair_coefficients.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1556109934
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1556111192
+
+\series bold
+Pairs of coefficients for each study site
+\series default
+.
+ The effect of species 
+\begin_inset Formula $i$
+\end_inset
+
+ on 
+\begin_inset Formula $j$
+\end_inset
+
+ is given as a function of the effect of species 
+\begin_inset Formula $j$
+\end_inset
+
+ on species 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ The black circle indicates the first quartile of the interaction values,
+ under which we can assume that the effect is weak or null.
+ Below this limit, (+/+), (+/-) or (-/+) interactions can translate into
+ commensalism.
+ Above, they can be respectively mutualist or mixed (predation, parasitism?)
+ links.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pairs-of-coefficients"
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*

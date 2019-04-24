@@ -11,7 +11,7 @@ groupe=c("BZ","MO","AR","SU")
 option_sp="common" #Species are the same 
 
 pdf("article/graphe/pair_coefficients.pdf")
-plot(0,0,xlim=c(-.23,.23),ylim=c(-.23,.23),t="n",xlab="",ylab="")
+plot(0,0,xlim=c(-.23,.23),ylim=c(-.23,.23),t="n",xlab=expression("b"["ij"]),ylab=expression('b'['ji']))
 abline(h=0)
 abline(v=0)
 for (g in groupe){
@@ -46,10 +46,12 @@ for (g in groupe){
 }
 
 text(0.2,0.2,"Mutualist")
-text(-0.2,-0.2,"Negative")
-text(-0.2,0.2,"Competition?")
-text(0.2,-0.2,"Competition?")
+text(-0.2,-0.1,"Competition")
+text(-0.2,0.2,"Mixed")
+#text(0.2,-0.2,"Mixed")
+text(0.2,-0.1,"Mixed")
+legend("bottomright",c("Brittany","Oléron","Arcachon","Mediterranean"),col=c("green","darkblue","cyan","darkred"),pch=16,bty="n")
 
-draw.arc(0,0,0.02,pi/2,pi,lwd=2)
-draw.arc(0,0,0.02,3*pi/2,2*pi,lwd=2)
+draw.arc(0,0,0.02,0,2*pi,lwd=2)
+#draw.arc(0,0,0.02,3*pi/2,2*pi,lwd=2)
 dev.off()
