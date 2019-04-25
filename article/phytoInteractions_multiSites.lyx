@@ -549,7 +549,7 @@ literal "false"
 
 .
  Studying interactions between different genera of phytoplankton therefore
- makes both empirical sense in light of competition experiments and allows
+ both makes empirical sense in light of competition experiments and allows
  to estimate better-resolved networks.
  We focus here on genera that belong mostly to diatoms and dinoflagellates.
  To put our results into a more general context, we then compare our interaction
@@ -2408,18 +2408,18 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Finally, we compared our results on self-regulation/intraspecific interactions
- vs interspecific interactions to other published studies based on a MAR(1)
- model.
+Finally, we compared our results on the ratio between mean self-regulation/intra
+specific interaction strength and mean interspecific interaction strength
+ to other published studies based on a MAR(1) model.
  A list of references is given in Supplementary Table
 \begin_inset space ~
 \end_inset
 
 3.
  Authors usually reported only coefficients that were significant at the
- 95% threshold, ignoring potentially many weak effects.
- We therefore computed both the mean value of all coefficients outside of
- the matrix diagonal, replacing missing values by 0 (Fig.
+ 95% significance threshold, thus ignoring potentially many weak effects.
+ For mean intergroup interactions, we therefore computed both the mean value
+ of all coefficients outside of the matrix diagonal, including zeroes (Fig.
 \begin_inset space ~
 \end_inset
 
@@ -2434,18 +2434,20 @@ noprefix "false"
 \end_inset
 
 , which decreases the mean intergroup interaction strength), and the mean
- value of statistically significant coefficients only (Supplementary Fig.
+ value of statistically significant intergroup coefficients only (Supplementary
+ Fig.
 \begin_inset space ~
 \end_inset
 
-8, which increases the mean intergroup interaction strength).We should mention
- two potential biases associated with this comparison: low-dimensional matrices
- tended to be more complete (less sparse) than high-dimensional matrices,
- as these small interaction matrices were used to study known interaction
- phenomena (observed predation between organisms, for instance).
+8, which increases the mean intergroup interaction strength).
+ We should mention two potential biases associated with this comparison
+ across the published literature: low-dimensional matrices tended to be
+ more complete (less sparse) than high-dimensional matrices, as these small
+ interaction matrices were used to study known interaction phenomena (observed
+ predation between organisms, for instance).
  Conversely, the number of parameters to estimate increases as the square
- of the number of interacting groups, leading authors to reduce this set
- before the estimation process for large interaction matrices.
+ of the number of interacting groups, leading most authors to reduce this
+ set before the estimation process for large interaction matrices.
  There is therefore a positive correlation between sparsity and dimensionality
  (Supplementary Fig.
 \begin_inset space ~
@@ -2455,7 +2457,7 @@ noprefix "false"
  A second caveat is that while we informed our model selection by phylogeny
  (see above), several authors have reduced the number of estimated parameters
  by an automated procedure, usually based on the comparison of 100 randomly
- chosen interaction matrices, optimizing BIC
+ chosen interaction matrices by BIC
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "ives_estimating_2003"
@@ -2464,10 +2466,11 @@ literal "false"
 \end_inset
 
 .
- The latter choice may bias high non-zero interactions in the previous literatur
-e, which is why we decided to present in the main text interaction matrices
- including coefficients set to zero, which should be more robust to the
- model selection method, making comparisons possible.
+ The latter choice may bias high non-zero interactions in the literature.
+ This is why we decided to present in the main text intra/inter ratios including
+ interspecific (or intergroup) coefficients set to zero, which should be
+ less sensitive to the model selection method and therefore make comparisons
+ across studies possible.
 \end_layout
 
 \begin_layout Section*
