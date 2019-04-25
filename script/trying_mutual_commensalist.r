@@ -45,8 +45,8 @@ for (g in groupe){
 	}
 }
 
-text(0.2,0.2,"Mutualist")
-text(-0.2,-0.1,"Competition")
+text(0.2,0.2,"Mutualistic")
+text(-0.2,-0.1,"Competitive")
 text(-0.2,0.2,"Mixed")
 #text(0.2,-0.2,"Mixed")
 text(0.2,-0.1,"Mixed")
