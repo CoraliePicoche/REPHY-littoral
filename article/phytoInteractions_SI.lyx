@@ -200,14 +200,10 @@ literal "false"
 
 .
  The scaling between the volume sampled and the size of individual organisms
- means that approximately up to 1000 cells could lined up (in a thought
+ means that approximately up to 1000 cells could be lined up (in a thought
  experiment) along one single dimension of an equivalent cubic sample.
- Or in other words, the dimension of the volume sampled is approximately
- (1000 body sizes)
-\begin_inset Formula $^{3}$
-\end_inset
-
-.
+ Or in other words, the volume sampled is approximately 1000 body sizes
+ to the power three.
  We therefore consider samples to be representative of local community competiti
 on, if not of the spatial structure of the community.
 \end_layout
@@ -1705,9 +1701,8 @@ Pairs of coefficients for each study site
  The black circle indicates the first quartile of the interaction values,
  under which we can assume that the effect is weak or null.
  Below this limit, (+/+), (+/-) or (-/+) interactions can translate into
- commensalism.
- Above, they can be respectively mutualist or mixed (predation, parasitism?)
- links.
+ commensalism or amensalism.
+ Above, they can be respectively mutualistic or mixed (+/-) links.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Pairs-of-coefficients"
@@ -2208,7 +2203,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-v_{k}=\mathnormal{\frac{1}{\mathnormal{\boldsymbol{1_{\mathnormal{b_{ki}\neq0}}}}}}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
+v_{k}=\mathnormal{\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
 \end{equation}
 
 \end_inset
@@ -2219,7 +2214,7 @@ v_{k}=\mathnormal{\frac{1}{\mathnormal{\boldsymbol{1_{\mathnormal{b_{ki}\neq0}}}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-e_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
+e_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ik}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
 \end{equation}
 
 \end_inset
@@ -4440,7 +4435,7 @@ Only significant values are taken into account and missing values in the
 \color inherit
  and the relation between the ratio and the sparsity of the matrix is given
  in the right panel.
- Corresponding studies are described in SupplementaryTable 
+ Corresponding studies are described in Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Studies"
@@ -4559,11 +4554,11 @@ literal "false"
 
 \end_inset
 
-, although the mapping is not perfect for 
+ (although the mapping is not perfect for 
 \begin_inset Formula $n\geq3$
 \end_inset
 
-
+)
 \begin_inset CommandInset citation
 LatexCommand supercite
 key "roeger_discrete_2004"

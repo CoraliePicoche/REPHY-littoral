@@ -576,7 +576,7 @@ Results
 \end_layout
 
 \begin_layout Subparagraph*
-MAR(1) interaction estimates
+Interaction estimates
 \end_layout
 
 \begin_layout Standard
@@ -603,17 +603,7 @@ literal "false"
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Comparison-of-BIC"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+3).
  This led to sparse, modular matrices that have two main features.
  First, we observe a strong self-regulation for all sites (Fig.
 \begin_inset space ~
@@ -685,17 +675,7 @@ Second, although the percentage of facilitative interactions seemed to vary
 We have found that the percentage of true mutualism (+/+) is substantial:
  averaged over all sites, 32% of all interactions are (+/+) while only 12%
  of them are (-/-), see also Supplementary Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Pairs-of-coefficients"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+ 5.
  The sign correspondence is not always maintained between French regions:
  the only interaction that is non-zero in the 10 sites (CHA/SKE) is mutualistic
  in Men er Roue only (Brittany) and mixed (+/-) at all other sites.
@@ -779,17 +759,7 @@ Interaction matrices estimated in 10 sites along the French coastline.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Comparison-of-BIC"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+3).
  Taxon 
 \begin_inset Formula $j$
 \end_inset
@@ -806,7 +776,7 @@ noprefix "false"
 ) because this compares unambigously intra- and intergenera interactions.
  The scale for the coefficient values is given at the bottom left of panel
  a).
- 95% significance of coefficients 
+ 95% significance of coefficients
 \begin_inset Note Note
 status open
 
@@ -828,17 +798,7 @@ status open
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Group_definition"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+2.
  The fraction of positive interactions in each matrix is given by points
  in c) while the dashed (resp., dotted) line represents the ratio of interactions
  remaining positive (resp., negative) for all sites of a given region.
@@ -983,32 +943,12 @@ Still wondering about the change to 'exposure'
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:vulnerability"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) and impact (summed effect of the focal species onto other species growth
+5) and impact (summed effect of the focal species onto other species growth
  rates, Supplementary Eq.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:impact"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+6).
  Relations between inter- and intra-genus interactions emerged (Fig.
 \begin_inset space ~
 \end_inset
@@ -1033,17 +973,7 @@ noprefix "false"
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:IntraVAbundance"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), they were more likely to affect other genera.
+7), they were more likely to affect other genera.
  It is important to note, however, that these trends are weak and there
  is therefore a considerable amount of randomness dominating the interaction
  matrix: many scenarios of self-regulation vs limitation by others are therefore
@@ -1088,17 +1018,7 @@ Relation between vulnerability/impact and self-regulation.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Map"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+1).
  The p-value of the Pearson correlation between vulnerability (respectively
  impact) and self-regulation is given in the top left of each panel and
  the slope of the linear regression is given by the black line across scatter
@@ -1137,17 +1057,7 @@ literal "false"
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:MeanVar"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+6).
 \end_layout
 
 \begin_layout Subparagraph*
@@ -1161,17 +1071,7 @@ Finally, we sought to put these results in a broader context by compiling
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Studies"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+3).
  We found that the order of magnitude of intra/inter interaction strengths
  considered here is not particularly above those found for most planktonic
  systems to which MAR(1) models have been fitted, considering that our systems
@@ -1241,17 +1141,7 @@ ve (MAR) models in the ecological literature as a function of the number
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Studies"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+3.
  Codes beginning with letters correspond to the present study.
  The symbol color and shape correspond to the sparsity of the interaction
  matrix (e.g., the proportion of null interactions in the matrix).
@@ -1929,17 +1819,7 @@ by Ifremer
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Map"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+1).
 \end_layout
 
 \begin_layout Standard
@@ -1976,17 +1856,7 @@ literal "false"
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Studies"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+3.
 \end_layout
 
 \begin_layout Standard
@@ -2425,17 +2295,7 @@ In this study, the number of phytoplankton groups, S, varies between regions
  consider all possible interactions between species.
  To reduce this dimensionality and remove unnecessary parameters, we compared
  different `interaction scenarios' based on BIC (Supplementary Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Comparison-of-BIC"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-)
+ 3)
 \begin_inset Note Note
 status collapsed
 
@@ -2517,32 +2377,12 @@ In addition to these network-level metrics, we also computed the average
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:vulnerability"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) and impact (average effect of a focal taxon on other taxa, Supplementary
+5) and impact (average effect of a focal taxon on other taxa, Supplementary
  Eq.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:impact"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) on both raw and absolute values of the coefficients, and compared these
+6) on both raw and absolute values of the coefficients, and compared these
  to the regulation a focal species exerted on itself.
  Raw values indicate the average effect (i.e., is the effect mostly positive
  or negative?) that can be expected on a species' growth rate from other
@@ -2575,17 +2415,7 @@ Finally, we compared our results on self-regulation/intraspecific interactions
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Studies"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+3.
  Authors usually reported only coefficients that were significant at the
  95% threshold, ignoring potentially many weak effects.
  We therefore computed both the mean value of all coefficients outside of
@@ -2608,17 +2438,7 @@ noprefix "false"
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Ratio-of-intra-to-intergroup"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, which increases the mean intergroup interaction strength).We should mention
+8, which increases the mean intergroup interaction strength).We should mention
  two potential biases associated with this comparison: low-dimensional matrices
  tended to be more complete (less sparse) than high-dimensional matrices,
  as these small interaction matrices were used to study known interaction
@@ -2631,17 +2451,7 @@ noprefix "false"
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:ratio_meta"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+9).
  A second caveat is that while we informed our model selection by phylogeny
  (see above), several authors have reduced the number of estimated parameters
  by an automated procedure, usually based on the comparison of 100 randomly
