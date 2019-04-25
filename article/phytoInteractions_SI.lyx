@@ -85,7 +85,6 @@
 \html_css_as_file 0
 \html_be_strict false
 \author -2100369821 "cpicoche"
-\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -121,7 +120,7 @@ noprefix "false"
 
 \end_inset
 
- and details on each site are given in Supplementary Table 
+ and the characteristics of each site are given in Supplementary Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Map"
@@ -1559,46 +1558,19 @@ We inspected the Hessian matrices (i.e., Hessians of the negative log-likelihood
  which is the observed Fisher Information Matrix) for interaction parameters,
  which was important to check that results presented in Fig.
  3 of the main text could not be due to statistical constraints.
-
-\change_deleted -2100369821 1556025188
- 
-\change_inserted -2100369821 1556025203
  Correlation matrices (derived from the Hessian matrices) showed that the
  mean absolute value of the correlation was 0.02 (hence on average there
  were no correlations), few of those were noticeable (75% were below 0.1
  in only 1 site, even lower in the 9 other sites) and even the very few
  large ones were never above 0.5 in absolute value.
-\change_deleted -2100369821 1556025200
-The Hessian matrix showed that correlations between interaction parameters
- were always below 0.5 in absolute values, even for the few correlations
- that existed, and most of the correlations were close to zero.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1555859959
-Je pense que c'est correct, au vu des matrices? Dire juste que c'est <0.5
- suggère que c'est très souvent 0.4...
- Je passerai ptet même la deuxième partie de la phrase avec les coeffs close
- to zero en premier...
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -2100369821 1555672753
-
 \end_layout
 
 \begin_layout Standard
 In addition to the coefficients of the interaction matrix, MAR(1) models
  allowed us to estimate the effect of environmental variables.
- The parameters associated with these variable reveal abiotic effects such
- as phenology (temperature, related to insolation) or responses to hydrological
- changes such as salinity variation (Supplementary Fig.
+ The regression coefficients reveal abiotic effects such as phenology (temperatu
+re, related to insolation) or responses to hydrological changes such as
+ salinity variation (Supplementary Fig.
 \begin_inset space ~
 \end_inset
 
@@ -1681,32 +1653,20 @@ name "fig:Abiotic_effects"
 
 \begin_layout Subsection*
 Network analysis
-\change_inserted -2100369821 1556110020
-
 \end_layout
 
 \begin_layout Subsubsection*
-
-\change_inserted -2100369821 1556110289
 Interaction types
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -2100369821 1556109934
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
-
-\change_inserted -2100369821 1556109993
 \begin_inset Graphics
 	filename graphe/pair_coefficients.pdf
 	width 95text%
@@ -1717,13 +1677,9 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1556109934
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\change_inserted -2100369821 1556111192
 
 \series bold
 Pairs of coefficients for each study site
@@ -1759,25 +1715,15 @@ name "fig:Pairs-of-coefficients"
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -2341,9 +2287,8 @@ noprefix "false"
 \end_inset
 
 ).
- We add information on the type of system and dataset used in the study
- as they tend to be linked with the estimated parameters (Supplementary
- Fig.
+ We add information on the biome and taxa used in the study as they tend
+ to be linked to the estimated parameters (Supplementary Fig.
 \begin_inset space ~
 \end_inset
 
@@ -4462,19 +4407,8 @@ Ratio of intra-to-intergroup interaction strength in MAR(1) studies.
 Only significant values are taken into account and missing values in the
  matrix are not considered (e.g., not replaced by 0 as they are in the main
  text).
- The color
-\change_inserted -2100369821 1556013655
- and shape
-\change_deleted -2100369821 1556013653
- 
-\change_unchanged
-of each point 
-\change_deleted -2100369821 1556013657
-is
-\change_inserted -2100369821 1556013658
-are
-\change_unchanged
- a function of the sparsity of the interaction matrix 
+ The color and shape of each point are a function of the sparsity of the
+ interaction matrix 
 \family roman
 \series medium
 \shape up
@@ -4574,13 +4508,7 @@ noprefix "false"
 \end_inset
 
 .
- Blue 
-\change_deleted -2100369821 1556013673
-points
-\change_inserted -2100369821 1556013674
-triangles
-\change_unchanged
- correspond to the present study.
+ Blue triangles correspond to the present study.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -4644,11 +4572,7 @@ literal "false"
 \end_inset
 
 .
-
-\change_inserted -2100369821 1555771675
- 
-\change_unchanged
-The Beverton-Holt multispecies competition model writes
+ The Beverton-Holt multispecies competition model writes
 \end_layout
 
 \begin_layout Standard
@@ -4667,7 +4591,15 @@ where
 \begin_inset Formula $N_{i,t}$
 \end_inset
 
- is the abundance of species i at time t, 
+ is the abundance of species 
+\begin_inset Formula $i$
+\end_inset
+
+ at time 
+\begin_inset Formula $t$
+\end_inset
+
+, 
 \begin_inset Formula $r_{i}$
 \end_inset
 
@@ -4675,7 +4607,7 @@ where
 \begin_inset Formula $\alpha_{ij}$
 \end_inset
 
-is the effect of species 
+ is the effect of species 
 \begin_inset Formula $j$
 \end_inset
 
@@ -4684,8 +4616,11 @@ is the effect of species
 \end_inset
 
 .
- Here, we show how the interaction strengths in this model map to those
- of the MAR(1) models used in the main text.
+ Here, we show how the interaction strengths 
+\begin_inset Formula $\alpha_{ij}$
+\end_inset
+
+ map to those of the MAR(1) models used in the main text.
 \end_layout
 
 \begin_layout Standard
@@ -4787,7 +4722,7 @@ We want to compute
 
 , the log-scale Jacobian matrix of the model.
  Let us note 
-\begin_inset Formula $X=\ln(1+\alpha_{11}N_{1,t}+\alpha_{12}N_{2,t})$
+\begin_inset Formula $X=\ln(1+\alpha_{11}N_{1}+\alpha_{12}N_{2})$
 \end_inset
 
  and 
@@ -4804,7 +4739,7 @@ We want to compute
 \noun off
 \color none
 
-\begin_inset Formula $Y=\ln(1+\alpha_{12}N_{1,t}+\alpha_{22}N_{2,t})$
+\begin_inset Formula $Y=\ln(1+\alpha_{12}N_{1}+\alpha_{22}N_{2})$
 \end_inset
 
 .
@@ -4860,7 +4795,7 @@ J-I=\left(\begin{array}{cc}
 \end_layout
 
 \begin_layout Standard
-For now, we consider diffuse competition, that is
+For this demonstration, we consider diffuse competition, that is
 \end_layout
 
 \begin_layout Standard
@@ -4969,10 +4904,7 @@ Therefore, unless the growth rates and the resulting abundances differ over
 
  should be roughly comparable between MAR(1) and Lotka-Volterra or Beverton-Holt
  models.
-\end_layout
-
-\begin_layout Standard
-This same reasoning can actually be applied with 
+ The same reasoning can actually be applied with 
 \begin_inset Formula $n$
 \end_inset
 
