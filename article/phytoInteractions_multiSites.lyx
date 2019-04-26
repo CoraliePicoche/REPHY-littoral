@@ -332,8 +332,11 @@ thefootnote
 \backslash
 relax
 \backslash
-footnote{{* Corresponding author.
- Email: coralie.picoche@u-bordeaux.fr}}}
+footnote{{* Correspondence: 
+\backslash
+texttt{coralie.picoche@u-bordeaux.fr} ; 
+\backslash
+texttt{frederic.barraquand@u-bordeaux.fr}}}}
 \end_layout
 
 \end_inset
