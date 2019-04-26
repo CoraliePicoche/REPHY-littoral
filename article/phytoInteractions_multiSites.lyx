@@ -102,7 +102,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -666822487 "frederic"
+\author -2100369821 "cpicoche"
 \end_header
 
 \begin_body
@@ -151,20 +151,9 @@ Coralie Picoche
 \begin_inset space ~
 \end_inset
 
-University of Bordeaux, Integrative and Theoretical Ecology, LabEx COTE
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\size large
-, Bât.
- B2 - Allée Geoffroy St-Hilaire, 33615 Pessac
-\end_layout
-
-\end_inset
-
-, Pessac, France
+University of Bordeaux, Integrative and Theoretical Ecology, LabEx COTE,
+ Bât.
+ B2 - Allée Geoffroy St-Hilaire, 33615 Pessac, France
 \end_layout
 
 \begin_layout Address
@@ -184,19 +173,8 @@ status open
 \begin_inset space ~
 \end_inset
 
-CNRS, Institute of Mathematics of Bordeaux
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\size large
-, 351 Cours de la Libération, 33405 Talence
-\end_layout
-
-\end_inset
-
-, Talence, France
+CNRS, Institute of Mathematics of Bordeaux, 351 Cours de la Libération,
+ 33405 Talence, France
 \end_layout
 
 \begin_layout Standard
@@ -271,16 +249,16 @@ status open
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-Keywords:
-\series default
- phytoplankton; coexistence; time series; niche theory; networks
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Not needed for nature eco evo it seems
+
+\series bold
+Keywords:
+\series default
+ phytoplankton; coexistence; time series; niche theory; networks Not needed
+ for nature eco evo it seems
 \end_layout
 
 \end_inset
@@ -365,6 +343,28 @@ footnote{{* Corresponding author.
 
 \begin_layout Standard
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1556268119
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1556268119
+
+
+\backslash
+linenumbers
+\change_unchanged
+
+\end_layout
+
 \end_inset
 
 
@@ -1890,52 +1890,29 @@ literal "false"
 status open
 
 \begin_layout Plain Layout
-
-\change_deleted -666822487 1556184732
-https://github.com/CoraliePicoche/REPHY-littoral
-\change_inserted -666822487 1556184732
-
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted -666822487 1556184732
-
 
 \backslash
 texttt{https://github.com/CoraliePicoche/REPHY-littoral}
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
- This repository will be made public upon acceptance
-\change_inserted -666822487 1556184686
-.
-
-\change_deleted -666822487 1556184691
- and codes can be shared with referees should they wish to access them.
-\change_inserted -666822487 1556184691
-
+ This repository will be made public upon acceptance and codes can be shared
+ with referees should they wish to access them.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1556184691
 and codes can be shared with referees should they wish to access them.
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -2491,6 +2468,22 @@ literal "false"
  We are grateful to David Murrell for his careful reading and suggestions,
  and to Peter Adler for helpful exchanges.
  This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
+\change_inserted -2100369821 1556272509
+
+\end_layout
+
+\begin_layout Section*
+
+\change_inserted -2100369821 1556272739
+Authors' contributions
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -2100369821 1556272694
+CP and FB contributed equally to the project design.
+ CP wrote the code for the analyses.
+ FB and CP interpreted the results and wrote the manuscript.
 \end_layout
 
 \begin_layout Standard
