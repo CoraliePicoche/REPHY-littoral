@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  16 MAY 2019 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  16 MAY 2019 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2283,26 +2283,6 @@ Package mdframed Info: mdframed inside a box
  mdframed uses option nobreak mdframed on input line 132.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 132.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 153.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1bch.fd
-File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-)
-LaTeX Font Info:    Font shape `T1/bch/bx/n' in size <85.35826> not available
-(Font)              Font shape `T1/bch/b/n' tried instead on input line 153.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-bch.cfg
-File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
-
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 153.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.64998pt on input line 153.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 Package epstopdf Info: Source file: <biotic_interaction_matrices_MainFig_allin1
 _v4.eps>
 (epstopdf)                    date: 2019-04-24 15:24:46
@@ -2314,7 +2294,7 @@ _v4-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=biotic_interaction_matrice
 s_MainFig_allin1_v4-eps-converted-to.pdf biotic_interaction_matrices_MainFig_al
 lin1_v4.eps>
-(epstopdf)             \includegraphics on input line 182.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2322,32 +2302,19 @@ pdfTeX warning: /usr/bin/pdflatex (file ./biotic_interaction_matrices_MainFig_a
 llin1_v4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 
-<biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf, id=85, 130
+<biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf, id=37, 130
 0.86pt x 1734.48pt>
 File: biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf>
 Package pdftex.def Info: biotic_interaction_matrices_MainFig_allin1_v4-eps-conv
-erted-to.pdf used on input line 182.
-(pdftex.def)             Requested size: 506.45914pt x 675.27998pt.
-
-Overfull \hbox (0.7654pt too wide) in paragraph at lines 182--198
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 63.34373pt on input line 200.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--212
-[] []\T1/phv/b/n/9 In-ter-ac-tion net-work anal-y-sis.[] \T1/lmr/m/n/9 (+20) Th
-e sta-bil-ity (\T1/lmr/m/it/9 (+20) sensu
- []
-
+erted-to.pdf used on input line 140.
+(pdftex.def)             Requested size: 449.55362pt x 599.40196pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 156.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.64998pt on input line 156.
 Package epstopdf Info: Source file: <complexity_stability_MainFig_pencenjustB.e
 ps>
 (epstopdf)                    date: 2019-04-24 15:24:46
@@ -2359,7 +2326,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=complexity_stability_MainF
 ig_pencenjustB-eps-converted-to.pdf complexity_stability_MainFig_pencenjustB.ep
 s>
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2367,27 +2334,56 @@ pdfTeX warning: /usr/bin/pdflatex (file ./complexity_stability_MainFig_pencenju
 stB-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
 
-<complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf, id=88, 867.24pt
+<complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf, id=38, 867.24pt
  x 361.35pt>
 File: complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf>
 Package pdftex.def Info: complexity_stability_MainFig_pencenjustB-eps-converted
--to.pdf used on input line 215.
+-to.pdf used on input line 162.
 (pdftex.def)             Requested size: 506.45914pt x 211.02774pt.
 
-Overfull \hbox (0.7654pt too wide) in paragraph at lines 215--220
+Overfull \hbox (0.7654pt too wide) in paragraph at lines 162--167
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 220.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 167.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 220.
+(Font)              scaled to size 6.64998pt on input line 167.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+LaTeX Font Info:    Try loading font information for T1+bch on input line 187.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1bch.fd
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+)
+LaTeX Font Info:    Font shape `T1/bch/bx/n' in size <85.35826> not available
+(Font)              Font shape `T1/bch/b/n' tried instead on input line 187.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-bch.cfg
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+
+LaTeX Warning: Text page 2 contains only floats.
+
+
+Overfull \vbox (14.46571pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 2 contains only floats.
+
+
+Overfull \vbox (14.46571pt too high) has occurred while \output is active []
+
+
+[2 <./biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pencen_generality_vs_vulnerability_MainFig
 .eps>
 (epstopdf)                    date: 2019-04-24 15:24:46
@@ -2407,8 +2403,8 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pencen_generality_vs_vulnerability_Ma
 inFig-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 
-<pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf, id=91, 505.89
-pt x 505.89pt>
+<pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf, id=110, 505.8
+9pt x 505.89pt>
 File: pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
@@ -2424,6 +2420,9 @@ Overfull \hbox (0.7654pt too wide) in paragraph at lines 245--256
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[3 <./complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package epstopdf Info: Source file: <Ratio_function_dim.eps>
 (epstopdf)                    date: 2019-04-24 15:24:46
 (epstopdf)                    size: 28636 bytes
@@ -2438,7 +2437,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Ratio_function_dim-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Ratio_function_dim-eps-converted-to.pdf, id=95, 722.7pt x 578.16pt>
+<Ratio_function_dim-eps-converted-to.pdf, id=139, 722.7pt x 578.16pt>
 File: Ratio_function_dim-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Ratio_function_dim-eps-converted-to.pdf>
@@ -2449,18 +2448,28 @@ line 286.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2]
+[4 <./pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./Ratio_function_dim-eps-converted-to.pdf>]
 Underfull \hbox (badness 2158) in paragraph at lines 378--398
 [] []\T1/phv/b/n/9 No com-plex-i-ty-sta-bil-ity re-la-tion-ship but con-nec-tio
 ns be-
  []
 
-[3]
+
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+ [6]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 697.
 LaTeX Font Info:    Try loading font information for LGR+lmr on input line 697.
 
- (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
 File: lgrlmr.fd 2013/09/01 v1.0 Greek Latin Modern Regular
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2481,11 +2490,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \vbox (badness 1178) has occurred while \output is active []
-
- [4]
-(./REPHY_multisites_PNAS_CPFB.bbl
+ [7] (./REPHY_multisites_PNAS_CPFB.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -2499,7 +2504,7 @@ Underfull \hbox (badness 1661) in paragraph at lines 8--10
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 347--351
 []\T1/phv/m/n/6 Holmes EE, Ward EJ, Scheuerell MD (2014) Anal-y-sis of mul-ti-v
 ari-ate time-
@@ -2513,12 +2518,9 @@ p://cran. r-project.
 
 ) 
 AED: lastpage setting LastPage
-[6
+[9
 
-] [7 <./biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf>]
-[8 <./complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf>] [9 <./pen
-cen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf>] [10 <./Ratio_fun
-ction_dim-eps-converted-to.pdf>]
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 807.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 807.
  (./REPHY_multisites_PNAS_CPFB.aux)
@@ -2530,20 +2532,20 @@ ged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 807.
  ) 
 Here is how much of TeX's memory you used:
- 33241 strings out of 494877
- 613095 string characters out of 6179314
- 717849 words of memory out of 5000000
- 35553 multiletter control sequences out of 15000+600000
- 143439 words of font info for 222 fonts, out of 8000000 for 9000
+ 33252 strings out of 494877
+ 613170 string characters out of 6179314
+ 716395 words of memory out of 5000000
+ 35558 multiletter control sequences out of 15000+600000
+ 143766 words of font info for 227 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  62i,12n,73p,10416b,1042s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{
-/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/t
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/
+texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-math
+it.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/t
 exlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/cbfonts/grmn0800.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmbx7.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/sh
@@ -2560,10 +2562,10 @@ ts/type1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on REPHY_multisites_PNAS_CPFB.pdf (10 pages, 394982 bytes).
+Output written on REPHY_multisites_PNAS_CPFB.pdf (9 pages, 395745 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
- 89 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  50729 words of extra memory for PDF output out of 51595 (max. 10000000)
 
