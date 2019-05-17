@@ -99,9 +99,9 @@
   \ifthenelse{\boolean{displaywatermark}}{%
   \RequirePackage{draftwatermark}
   \SetWatermarkAngle{45}
-  \SetWatermarkColor{gray!20}
-  \SetWatermarkFontSize{3cm}
-  \SetWatermarkText{{\fontfamily{bch}\bfseries DRAFT}}
+  \SetWatermarkColor{gray!15}
+  \SetWatermarkFontSize{2cm}
+  \SetWatermarkText{{\fontfamily{bch}\bfseries In review}}
 }{}
 }
 
