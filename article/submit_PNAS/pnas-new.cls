@@ -101,7 +101,8 @@
   \SetWatermarkAngle{45}
   \SetWatermarkColor{gray!15}
   \SetWatermarkFontSize{2cm}
-  \SetWatermarkText{{\fontfamily{bch}\bfseries In review}}
+  %\SetWatermarkText{{\fontfamily{bch}\bfseries In review}}
+  \SetWatermarkText{}
 }{}
 }
 
