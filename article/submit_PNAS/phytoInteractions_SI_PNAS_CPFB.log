@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.11)  17 MAY 2019 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.11)  18 MAY 2019 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,25 +565,25 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./phytoInteractions_SI_PNAS_CPFB.aux)
 \openout1 = `phytoInteractions_SI_PNAS_CPFB.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -692,22 +692,22 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'phytoInteractions_SI_PNAS_CPFB.bbl' found.
 
 (./phytoInteractions_SI_PNAS_CPFB.bbl)
-Package biblatex Info: Reference section=0 on input line 37.
-Package biblatex Info: Reference segment=0 on input line 37.
+Package biblatex Info: Reference section=0 on input line 38.
+Package biblatex Info: Reference segment=0 on input line 38.
 
 <../graphe/placing_points_gnom.pdf, id=1, 578.16pt x 578.16pt>
 File: ../graphe/placing_points_gnom.pdf Graphic file (type pdf)
 
 <use ../graphe/placing_points_gnom.pdf>
-Package pdftex.def Info: ../graphe/placing_points_gnom.pdf used on input line 5
-5.
+Package pdftex.def Info: ../graphe/placing_points_gnom.pdf used on input line 4
+9.
 (pdftex.def)             Requested size: 495.48189pt x 495.47879pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -715,17 +715,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../graphe/placing_points_g
 nom.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 78.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 72.
 
 (/usr/share/texmf/tex/latex/R/tex/latex/ts1aer.fd
 File: ts1aer.fd 
 )
 LaTeX Font Info:    Font shape `TS1/aer/bx/n' in size <10> not available
-(Font)              Font shape `TS1/cmr/bx/n' tried instead on input line 78.
+(Font)              Font shape `TS1/cmr/bx/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 80.
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 74.
 
-Overfull \hbox (14.82866pt too wide) in paragraph at lines 76--91
+Overfull \hbox (14.82866pt too wide) in paragraph at lines 70--85
  [][] 
  []
 
@@ -737,7 +737,7 @@ e (type pdf)
 
 <use ../graphe/time_series_plankton_site_by_site_most_abundant.pdf>
 Package pdftex.def Info: ../graphe/time_series_plankton_site_by_site_most_abund
-ant.pdf used on input line 132.
+ant.pdf used on input line 126.
 (pdftex.def)             Requested size: 495.48189pt x 619.35953pt.
  [2]
 [3 <../graphe/time_series_plankton_site_by_site_most_abundant.pdf>]
@@ -745,7 +745,7 @@ ant.pdf used on input line 132.
 File: ../graphe/comp_BIC_per_site.pdf Graphic file (type pdf)
 
 <use ../graphe/comp_BIC_per_site.pdf>
-Package pdftex.def Info: ../graphe/comp_BIC_per_site.pdf used on input line 151
+Package pdftex.def Info: ../graphe/comp_BIC_per_site.pdf used on input line 145
 .
 (pdftex.def)             Requested size: 495.48189pt x 204.01976pt.
 
@@ -754,14 +754,14 @@ File: ../graphe/abiotic_second_try.pdf Graphic file (type pdf)
 
 <use ../graphe/abiotic_second_try.pdf>
 Package pdftex.def Info: ../graphe/abiotic_second_try.pdf used on input line 19
-7.
+1.
 (pdftex.def)             Requested size: 495.48189pt x 609.81192pt.
  [4 <../graphe/comp_BIC_per_site.pdf>]
 <../graphe/pair_coefficients.pdf, id=92, 505.89pt x 505.89pt>
 File: ../graphe/pair_coefficients.pdf Graphic file (type pdf)
 
 <use ../graphe/pair_coefficients.pdf>
-Package pdftex.def Info: ../graphe/pair_coefficients.pdf used on input line 214
+Package pdftex.def Info: ../graphe/pair_coefficients.pdf used on input line 208
 .
 (pdftex.def)             Requested size: 475.45825pt x 475.46718pt.
  [5 <../graphe/abiotic_second_try.pdf>]
@@ -771,7 +771,7 @@ File: ../graphe/moy_vs_var_for_all_interactions_pencen_SI.pdf Graphic file (typ
 e pdf)
  <use ../graphe/moy_vs_var_for_all_interactions_pencen_SI.pdf>
 Package pdftex.def Info: ../graphe/moy_vs_var_for_all_interactions_pencen_SI.pd
-f used on input line 238.
+f used on input line 232.
 (pdftex.def)             Requested size: 495.48189pt x 247.7416pt.
  [6 <../graphe/pair_coefficients.pdf>]
 <../graphe/abundance_vs_regulation.pdf, id=113, 505.89pt x 505.89pt>
@@ -779,7 +779,7 @@ File: ../graphe/abundance_vs_regulation.pdf Graphic file (type pdf)
 
 <use ../graphe/abundance_vs_regulation.pdf>
 Package pdftex.def Info: ../graphe/abundance_vs_regulation.pdf used on input li
-ne 257.
+ne 251.
 (pdftex.def)             Requested size: 225.21626pt x 225.21683pt.
  [7 <../graphe/moy_vs_var_for_all_interactions_pencen_SI.pdf> <../graphe/abunda
 nce_vs_regulation.pdf>] [8]
@@ -790,7 +790,7 @@ le (type pdf)
 
 <use ../graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf>
 Package pdftex.def Info: ../graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SI
-GNIF.pdf used on input line 375.
+GNIF.pdf used on input line 369.
 (pdftex.def)             Requested size: 500.484pt x 222.4379pt.
  [9]
 <../graphe/sparsity_vs_others.pdf, id=147, 1300.86pt x 578.16pt>
@@ -798,7 +798,7 @@ File: ../graphe/sparsity_vs_others.pdf Graphic file (type pdf)
 
 <use ../graphe/sparsity_vs_others.pdf>
 Package pdftex.def Info: ../graphe/sparsity_vs_others.pdf used on input line 38
-9.
+3.
 (pdftex.def)             Requested size: 500.484pt x 222.4379pt.
  [10 <../graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf> <../graph
 e/sparsity_vs_others.pdf>] [11] [12]
@@ -808,11 +808,11 @@ l'.
 \openout1 = `phytoInteractions_SI_PNAS_CPFB.run.xml'.
 
  )
-(\end occurred when \iftrue on line 37 was incomplete) 
+(\end occurred when \iftrue on line 38 was incomplete) 
 Here is how much of TeX's memory you used:
  10407 strings out of 494278
  165738 string characters out of 6162324
- 321997 words of memory out of 5000000
+ 322007 words of memory out of 5000000
  13527 multiletter control sequences out of 15000+600000
  34519 words of font info for 70 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
@@ -835,7 +835,7 @@ ublic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msam7.pfb>
-Output written on phytoInteractions_SI_PNAS_CPFB.pdf (13 pages, 5642017 bytes).
+Output written on phytoInteractions_SI_PNAS_CPFB.pdf (13 pages, 5642028 bytes).
 
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
