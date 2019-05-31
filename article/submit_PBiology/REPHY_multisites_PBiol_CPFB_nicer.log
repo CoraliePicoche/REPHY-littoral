@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  31 MAY 2019 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  31 MAY 2019 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -534,28 +534,28 @@ e
 (./REPHY_multisites_PBiol_CPFB_nicer.aux)
 \openout1 = `REPHY_multisites_PBiol_CPFB_nicer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -595,17 +595,17 @@ LaTeX Font Info:    ... okay on input line 105.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 105.
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+Package hyperref Info: Link coloring OFF on input line 104.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 (./REPHY_multisites_PBiol_CPFB_nicer.out)
 (./REPHY_multisites_PBiol_CPFB_nicer.out)
 \@outlinefile=\write3
 \openout3 = `REPHY_multisites_PBiol_CPFB_nicer.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 105.
+LaTeX Info: Redefining \microtypecontext on input line 104.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -638,7 +638,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 105.
+(lastpage)             ! on input line 104.
 LaTeX Font Info:    Try loading font information for U+msa on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -675,7 +675,7 @@ _v4-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=biotic_interaction_matrice
 s_MainFig_allin1_v4-eps-converted-to.pdf biotic_interaction_matrices_MainFig_al
 lin1_v4.eps>
-(epstopdf)             \includegraphics on input line 239.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -683,14 +683,14 @@ pdfTeX warning: /usr/bin/pdflatex (file ./biotic_interaction_matrices_MainFig_a
 llin1_v4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 
-<biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf, id=79, 130
+<biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf, id=80, 130
 0.86pt x 1734.48pt>
 File: biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use biotic_interaction_matrices_MainFig_allin1_v4-eps-converted-to.pdf>
 Package pdftex.def Info: biotic_interaction_matrices_MainFig_allin1_v4-eps-conv
-erted-to.pdf used on input line 239.
+erted-to.pdf used on input line 240.
 (pdftex.def)             Requested size: 364.40155pt x 485.86282pt.
 
 [3]
@@ -713,7 +713,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=complexity_stability_MainF
 ig_pencenjustB-eps-converted-to.pdf complexity_stability_MainFig_pencenjustB.ep
 s>
-(epstopdf)             \includegraphics on input line 297.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -721,14 +721,14 @@ pdfTeX warning: /usr/bin/pdflatex (file ./complexity_stability_MainFig_pencenju
 stB-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
 
-<complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf, id=114, 867.24p
+<complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf, id=115, 867.24p
 t x 361.35pt>
 File: complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use complexity_stability_MainFig_pencenjustB-eps-converted-to.pdf>
 Package pdftex.def Info: complexity_stability_MainFig_pencenjustB-eps-converted
--to.pdf used on input line 297.
+-to.pdf used on input line 298.
 (pdftex.def)             Requested size: 449.87982pt x 187.45096pt.
 Package epstopdf Info: Source file: <pencen_generality_vs_vulnerability_MainFig
 .eps>
@@ -741,7 +741,7 @@ Package epstopdf Info: Source file: <pencen_generality_vs_vulnerability_MainFig
 (epstopdf)             Command: <repstopdf --outfile=pencen_generality_vs_vulne
 rability_MainFig-eps-converted-to.pdf pencen_generality_vs_vulnerability_MainFi
 g.eps>
-(epstopdf)             \includegraphics on input line 326.
+(epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -749,14 +749,14 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pencen_generality_vs_vulnerability_Ma
 inFig-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 
-<pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf, id=117, 505.8
+<pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf, id=118, 505.8
 9pt x 505.89pt>
 File: pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use pencen_generality_vs_vulnerability_MainFig-eps-converted-to.pdf>
 Package pdftex.def Info: pencen_generality_vs_vulnerability_MainFig-eps-convert
-ed-to.pdf used on input line 326.
+ed-to.pdf used on input line 327.
 (pdftex.def)             Requested size: 449.87982pt x 449.88559pt.
 
 
@@ -772,18 +772,18 @@ Package epstopdf Info: Source file: <Ratio_function_dim.eps>
 (epstopdf)                    size: 9746 bytes
 (epstopdf)             Command: <repstopdf --outfile=Ratio_function_dim-eps-con
 verted-to.pdf Ratio_function_dim.eps>
-(epstopdf)             \includegraphics on input line 366.
+(epstopdf)             \includegraphics on input line 367.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Ratio_function_dim-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Ratio_function_dim-eps-converted-to.pdf, id=169, 722.7pt x 578.16pt>
+<Ratio_function_dim-eps-converted-to.pdf, id=170, 722.7pt x 578.16pt>
 File: Ratio_function_dim-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Ratio_function_dim-eps-converted-to.pdf>
 Package pdftex.def Info: Ratio_function_dim-eps-converted-to.pdf used on input 
-line 366.
+line 367.
 (pdftex.def)             Requested size: 359.90523pt x 287.9236pt.
  [7 <./Ratio_function_dim-eps-converted-to.pdf>] [8] [9] [10] [11]
 Package microtype Info: Loading generic settings for font family
@@ -795,26 +795,30 @@ Package microtype Info: Loading generic settings for font family
 
 AED: lastpage setting LastPage
 [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 787.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 787.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 788.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 788.
  (./REPHY_multisites_PBiol_CPFB_nicer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 787.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 787.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 788.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 788.
 Package rerunfilecheck Info: File `REPHY_multisites_PBiol_CPFB_nicer.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 787.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 788.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 107 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 11773 strings out of 494877
- 177096 string characters out of 6179314
- 310484 words of memory out of 5000000
+ 11774 strings out of 494877
+ 177107 string characters out of 6179314
+ 310467 words of memory out of 5000000
  14653 multiletter control sequences out of 15000+600000
  14681 words of font info for 94 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 42i,11n,46p,1242b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
-st, replaced by a fixed one
+ 42i,11n,46p,1242b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced bu
+t does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
@@ -830,11 +834,11 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on REPHY_multisites_PBiol_CPFB_nicer.pdf (21 pages, 254596 bytes
+Output written on REPHY_multisites_PBiol_CPFB_nicer.pdf (21 pages, 255170 bytes
 ).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 117 named destinations out of 1000 (max. 500000)
  14869 words of extra memory for PDF output out of 17280 (max. 10000000)
 
