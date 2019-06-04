@@ -1,0 +1,5 @@
+A subset of this data (2 sites out of 10) has been published here https://onlinelibrary.wiley.com/doi/abs/10.1111/oik.05361 
+
+Aside from considering 5 times more data with a much broader geographic coverage, the present submitted article asks a broader question about coexistence and performs new analyses on estimated interaction matrices (that were not in the previous manuscript), and links those analyses to stability theory (which was not done in the Oikos article). 
+
+We also explain in the submitted manuscript how this work differs from our previous publication in several places.   
