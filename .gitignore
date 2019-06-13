@@ -1,2 +1,8 @@
 *~
 *.RData
+*.aux
+*.log
+*.bbl
+*.blg
+*.tex.backup
+*.out

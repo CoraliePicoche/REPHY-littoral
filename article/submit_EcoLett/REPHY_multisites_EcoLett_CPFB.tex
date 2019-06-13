@@ -114,7 +114,7 @@
 \newline
 \bigskip
 {\large
-\textbf\newline{Regulation and facilitation in phytoplankton} %should be 45 characters or less. Here, we have 44
+\textbf\newline{Coexistence and facilitation in phytoplankton} %should be 45 characters or less. Here, we have 44
 }
 %Niches and mutualism in phytoplankton (33 words)
 \newline
@@ -367,10 +367,7 @@ Raw values indicate the average effect (i.e., is the effect mostly
 positive or negative?) that can be expected on a species' growth rate
 from other planktonic species while absolute effects characterise
 the strength of all types of interactions on a species (i.e., is a
-species strongly affected by the others?). We examined whether vulnerability
-and impact could be affected by phylogenetic correlations; they were
-not as on Fig.~\ref{fig:Vulnerability_impact} points were not clustered
-according to genus, family or phylum.
+species strongly affected by the others?).
 
 Finally, we compared our results on the ratio between mean self-regulation/intraspecific
 interaction strength and mean interspecific interaction strength to
@@ -379,10 +376,9 @@ is given in Table~S3. Authors usually reported only
 coefficients that were significant at the 95\% significance threshold,
 thus ignoring potentially many weak effects. For mean intergroup interactions,
 we therefore computed both the mean value of all coefficients outside
-of the matrix diagonal, including zeroes (Fig.~\ref{fig:meta_ratio},
-which decreases the mean intergroup interaction strength), and the
+of the matrix diagonal, including zeroes (which decreases the mean intergroup interaction strength), and the
 mean value of statistically significant intergroup coefficients only
-(Fig~S8, which increases the mean intergroup interaction
+(which increases the mean intergroup interaction
 strength). We should mention two potential biases associated with
 this comparison across the published literature: low-dimensional matrices
 tended to be more complete (less sparse) than high-dimensional matrices,
@@ -556,14 +552,14 @@ much larger in magnitude than intergroup interactions.
 \includegraphics[width=0.8\linewidth]{Ratio_function_dim}
 \caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
 AutoRegressive (MAR) models in the ecological literature as a function
-of the number of species they include.}The name of each studies,
+of the number of species they include.} The name of each studies,
 corresponding to each code, is given in Table~S3. Codes
 beginning with letters correspond to the present study. The symbol
 color and shape correspond to the sparsity of the interaction matrix
 (e.g., the proportion of null interactions in the matrix). Intergroup
 interactions were set to 0 when they were not specified in the articles
 (in most cases, articles removed non-significant interactions at the
-95\% threshold).} 
+95\% threshold; Fig~S8 is the same figure taking into account only significant interactions)} 
 \label{fig:meta_ratio}
 \end{figure*}
 
@@ -674,7 +670,10 @@ of mutualistic interactions) did not affect stability, a relation
 emerged between self-regulation, necessary for coexistence, and genus-level
 indices. We found that the more a genus is self-regulated, the more
 it tends to be vulnerable to other genera impacts and the less it
-impacts other genera. High self-regulation usually indicates large
+impacts other genera. We examined whether vulnerability
+and impact could be affected by phylogenetic correlations; they were
+not as on Fig.~\ref{fig:Vulnerability_impact} points were not clustered
+according to genus, family or phylum. High self-regulation usually indicates large
 niche differences with the rest of the community, and it makes therefore
 sense that a species/genus whose needs strongly differ from the others
 only marginally impacts the resources of the other coexisting species.
@@ -771,7 +770,7 @@ cannot appear.
 \section*{Acknowledgments}
 
 This study was only made possible by the dedication of all members
-of the REPHY program\cite{REPHY_db} by Ifremer, providing invaluable
+of the REPHY program \citep{REPHY_db} by Ifremer, providing invaluable
 data through years of fieldwork. We are grateful to David Murrell
 for his careful reading and suggestions, and to Peter Adler for helpful
 exchanges. This study was supported by the French ANR through LabEx
@@ -783,7 +782,7 @@ This article contains supporting information.
 \nolinenumbers
 % \subsection*{Manuscript Length}
 %\bibliographystyle{ecology_no_url}
-\bibliographystyle{ecology}
+\bibliographystyle{ecol_let}
 \bibliography{phytoInteractions_ref}
 %\bibliography{bib_fig_review}
 \end{document}
