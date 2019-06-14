@@ -1,9 +1,9 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
+#LyX file created by tex2lyx 2.3
 \lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin unavailable
+\origin /home/cpicoche/Documents/Plankton/REPHY_littoral/article/submit_EcoLett/
 \textclass article
 \begin_preamble
 
@@ -116,6 +116,9 @@
 %   \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
 % \DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
 % \ProvideTextCommand{\~}{LGR}[1]{\char126#1}
+
+
+
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -143,15 +146,15 @@
 \paperfontsize 10
 \spacing single
 \use_hyperref true
-\pdf_bookmarks false
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
 \pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder false
-\pdf_colorlinks true
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 1
 \pdf_backref section
-\pdf_pdfusetitle false
+\pdf_pdfusetitle 0
 \pdf_quoted_options "allcolors=blue"
 \papersize default
 \use_geometry true
@@ -191,17 +194,17 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
-\output_changes true
+\tracking_changes false
+\output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author -2100369821 "cpicoche"
 \end_header
 
 \begin_body
 
 \begin_layout Standard
+
 \begin_inset VSpace 0.2in*
 \end_inset
 
@@ -209,11 +212,11 @@
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 % Title must be 250 characters or less.
 \end_layout
 
@@ -224,8 +227,10 @@ status collapsed
 
 \begin_layout Standard
 
-\series bold
 \size larger
+
+\series bold
+
 \begin_inset Newline newline
 \end_inset
 
@@ -236,19 +241,16 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 {
 \end_layout
 
 \end_inset
 
-Strong self-regulation and widespread facilitative interactions between
- genera of phytoplankton
+Strong self-regulation and widespread facilitative interactions between genera of phytoplankton
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 }
 \end_layout
 
@@ -259,10 +261,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-% Please use "sentence case" for title and headings (capitalize only the
- first word in a title (or heading), the first word in a subtitle (or subheading
-), and any proper nouns).
+% Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
 \end_layout
 
 \begin_layout Plain Layout
@@ -282,8 +281,9 @@ status collapsed
 \end_inset
 
 
-\series bold
 \size large
+
+\series bold
 
 \begin_inset Newline newline
 \end_inset
@@ -295,18 +295,16 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 {
 \end_layout
 
 \end_inset
 
-Regulation and facilitation in phytoplankton
+Coexistence and facilitation in phytoplankton
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 }
 \end_layout
 
@@ -317,9 +315,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-%should be 45 characters or less.
- Here, we have 44
+%should be 45 characters or less. Here, we have 44
 \end_layout
 
 \begin_layout Plain Layout
@@ -335,7 +331,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 %Niches and mutualism in phytoplankton (33 words)
 \end_layout
 
@@ -391,10 +386,7 @@ Coralie Picoche
 \series bold
 1
 \series default
- University of Bordeaux, Integrative and Theoretical Ecology, LabEx COTE,
- Bât.
- B2 - Allée Geoffroy St-Hilaire, 33615 Pessac, France; coralie.picoche@u-bordeaux.
-fr
+ University of Bordeaux, Integrative and Theoretical Ecology, LabEx COTE, Bât. B2 - Allée Geoffroy St-Hilaire, 33615 Pessac, France; coralie.picoche@u-bordeaux.fr
 \end_layout
 
 \begin_layout Standard
@@ -402,8 +394,7 @@ fr
 \series bold
 2
 \series default
- CNRS, Institute of Mathematics of Bordeaux, 351 Cours de la Libération,
- 33405 Talence, France; frederic.barraquand@u-bordeaux.fr 
+ CNRS, Institute of Mathematics of Bordeaux, 351 Cours de la Libération, 33405 Talence, France; frederic.barraquand@u-bordeaux.fr 
 \begin_inset Newline newline
 \end_inset
 
@@ -411,6 +402,7 @@ fr
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -426,6 +418,7 @@ Keywords
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -437,7 +430,7 @@ Number of words in the manuscript: XXX
 \end_layout
 
 \begin_layout Standard
-Number of references: 70 (?XXX?)
+Number of references: 71
 \end_layout
 
 \begin_layout Standard
@@ -453,9 +446,7 @@ Number of figures: 4
 \series bold
 Authors' contributions
 \series default
-: CP and FB contributed equally to the project design.
- CP wrote the code for the analyses.
- FB and CP interpreted the results and wrote the manuscript.
+: CP and FB contributed equally to the project design. CP wrote the code for the analyses. FB and CP interpreted the results and wrote the manuscript.
 \begin_inset Newline newline
 \end_inset
 
@@ -470,29 +461,28 @@ Data accessibility
 : The REPHY dataset has already been published 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "REPHY_db"
 literal "false"
 
 \end_inset
 
- and all scripts for MAR and subsequent network analyses are available online
- in a GitHub repository (
+ and all scripts for MAR and subsequent network analyses are available online in a GitHub repository (
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
-
 https://github.com/CoraliePicoche/REPHY-littoral
 \end_layout
 
 \end_inset
 
-).
- This repository will be made public upon acceptance and codes can be shared
- with referees should they wish to access them.
+). This repository will be made public upon acceptance and codes can be shared with referees should they wish to access them.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -505,9 +495,7 @@ https://github.com/CoraliePicoche/REPHY-littoral
 status collapsed
 
 \begin_layout Plain Layout
-
-% Use the asterisk to denote corresponding authorship and provide email
- address in note below.
+% Use the asterisk to denote corresponding authorship and provide email address in note below.
 \end_layout
 
 \begin_layout Plain Layout
@@ -520,6 +508,7 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset Newpage newpage
 \end_inset
 
@@ -528,7 +517,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 spacing
@@ -541,7 +529,6 @@ spacing
 status collapsed
 
 \begin_layout Plain Layout
-
 {
 \end_layout
 
@@ -552,7 +539,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 }
 \end_layout
 
@@ -566,29 +552,11 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-The persistence of phytoplanktonic diversity in spite of competition for
- basic resources has long been a source of wonder and inspiration to ecologists.
- To sort out, among the many coexistence mechanisms suggested by theory
- and experiments, which ones actually maintain diversity in natural ecosystems,
- long-term field studies are paramount.
- Here, we analyse a large dataset of phytoplankton abundance time series,
- counted every two weeks over 20 years, at 10 sites along the French coastline.
- We estimate biotic interactions using dynamic, multispecies autoregressive
- models.
- We show that a strong self-regulation, with competition strength within
- a genus an order of magnitude higher than between genera, was present in
- all phytoplanktonic interaction networks.
- Furthermore, positive net effects between phytoplanktonic taxa constituted
- at least 40% of non-null interactions in all sites.
- Both strong self-regulation and widespread net facilitation should therefore
- be key features of coexistence mechanisms intending to explain phytoplankton
- diversity maintenance.
- 
+The persistence of phytoplanktonic diversity in spite of competition for basic resources has long been a source of wonder and inspiration to ecologists. To sort out, among the many coexistence mechanisms suggested by theory and experiments, which ones actually maintain diversity in natural ecosystems, long-term field studies are paramount. Here, we analyse a large dataset of phytoplankton abundance time series, counted every two weeks over 20 years, at 10 sites along the French coastline. We estimate biotic interactions using dynamic, multispecies autoregressive models. We show that a strong self-regulation, with competition strength within a genus an order of magnitude higher than between genera, was present in all phytoplanktonic interaction networks. Furthermore, positive net effects between phytoplanktonic taxa constituted at least 40% of non-null interactions in all sites. Both strong self-regulation and widespread net facilitation should therefore be key features of coexistence mechanisms intending to explain phytoplankton diversity maintenance. 
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 %should be under 150 for EcoLet
 \end_layout
 
@@ -598,11 +566,11 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 linenumbers
@@ -614,11 +582,11 @@ linenumbers
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 doublespacing
@@ -638,17 +606,14 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
-% If your first paragraph (i.e.
- with the 
+% If your first paragraph (i.e. with the 
 \backslash
-dropcap) contains a list environment (quote, quotation, theorem, definition,
- enumerate, itemize...), the line after the list may have some extra indentation.
- If this is the case, add 
+dropcap) contains a list environment (quote, quotation, theorem, definition, enumerate, itemize...), the line after the list may have some extra indentation. If this is the case, add 
 \backslash
 parshape=0 to the end of the list environment.
 \end_layout
@@ -659,40 +624,41 @@ parshape=0 to the end of the list environment.
 
 \end_inset
 
-How species or close genera can coexist together in spite of competition
- is one of the main puzzles of community ecology, especially for primary
- producers that seemingly share the same basic resources 
+How species or close genera can coexist together in spite of competition is one of the main puzzles of community ecology, especially for primary producers that seemingly share the same basic resources 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "hutchinson_paradox_1961"
 literal "false"
 
 \end_inset
 
-.
- Many theoretical studies of competition models have shown that competitive
- exclusion is likely in those circumstances 
+. Many theoretical studies of competition models have shown that competitive exclusion is likely in those circumstances 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "armstrong1980competitive,chesson_updates_2018"
 literal "false"
 
 \end_inset
 
-, unless mechanisms involving spatial or temporal variation are at play
- 
+, unless mechanisms involving spatial or temporal variation are at play 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "armstrong1976coexistence,chesson_roles_1997,huisman_biological_2001,li_effects_2016"
 literal "false"
 
 \end_inset
 
-.
- Neutral theory, that assumes a non-equilibrium coexistence maintained by
- dispersal and equal competitive abilities for all species (
+. Neutral theory, that assumes a non-equilibrium coexistence maintained by dispersal and equal competitive abilities for all species (
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "hubbell_unified_2001"
 literal "false"
 
@@ -701,15 +667,18 @@ literal "false"
 , though there are exceptions, see 
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "volkov_neutral_2003,volkov_patterns_2007"
 literal "false"
 
 \end_inset
 
-) has been proposed as a solution to explain highly diverse communities
- 
+) has been proposed as a solution to explain highly diverse communities 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "hubbell_unified_2001,rosindell2011unified"
 literal "false"
 
@@ -719,23 +688,21 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-However, the evidence gathered from terrestrial plant communities starts
- to suggest that, in fact, niche rather than neutral processes may be paramount
- to explain coexistence, with intraspecific competition dwarfing interspecific
- competition in most cases 
+However, the evidence gathered from terrestrial plant communities starts to suggest that, in fact, niche rather than neutral processes may be paramount to explain coexistence, with intraspecific competition dwarfing interspecific competition in most cases 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "adler_coexistence_2010,adler_competition_2018"
 literal "false"
 
 \end_inset
 
-.
- Whether these conclusions drawn from studies of annual plants and forest
- trees apply to other ecosystems and taxa is currently little known (but
- see 
+. Whether these conclusions drawn from studies of annual plants and forest trees apply to other ecosystems and taxa is currently little known (but see 
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "mutshinda_what_2009"
 literal "false"
 
@@ -745,35 +712,35 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Moreover, even within a single trophic level, competition may not be the
- rule: the meta-analysis by 
+Moreover, even within a single trophic level, competition may not be the rule: the meta-analysis by 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "adler_competition_2018"
 literal "false"
 
 \end_inset
 
- reported a large number of facilitative interactions (30%) and several
- reviews 
+ reported a large number of facilitative interactions (30%) and several reviews 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "brooker_facilitation_2008,mcintire2014facilitation"
 literal "false"
 
 \end_inset
 
- have highlighted that facilitation may be much more widespread than ecologists
- usually tend to think.
- Although some theoretical studies suggest that facilitative interactions
- can be destabilizing (
+ have highlighted that facilitation may be much more widespread than ecologists usually tend to think. Although some theoretical studies suggest that facilitative interactions can be destabilizing (
 \emph on
 sensu
 \emph default
- resilience) and therefore undermine coexistence in Lotka-Volterra models
- 
+ resilience) and therefore undermine coexistence in Lotka-Volterra models 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "coyte_ecology_2015"
 literal "false"
 
@@ -782,6 +749,8 @@ literal "false"
 , multiple other modelling 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "gross_positive_2008"
 literal "false"
 
@@ -790,16 +759,18 @@ literal "false"
  and empirical 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "brooker_facilitation_2008,cavieres2009facilitative"
 literal "false"
 
 \end_inset
 
- studies have suggested that facilitative interactions can to a large degree
- benefit coexistence, especially when multiple interaction types are considered
- simultaneously 
+ studies have suggested that facilitative interactions can to a large degree benefit coexistence, especially when multiple interaction types are considered simultaneously 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "mougi2012diversity,garcia2018effect"
 literal "false"
 
@@ -809,40 +780,27 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Here, we study a large multi-species dataset consisting of several multivariate
- long-term time series of phytoplankton dynamics along the French coastline,
- which we then analyse using multivariate autoregressive (MAR) time series
- models, allowing for interactions between genera.
- Although many ecological studies focus on interactions between species,
- competition has been shown experimentally to occur between different genera
- of phytoplankton 
+Here, we study a large multi-species dataset consisting of several multivariate long-term time series of phytoplankton dynamics along the French coastline, which we then analyse using multivariate autoregressive (MAR) time series models, allowing for interactions between genera. Although many ecological studies focus on interactions between species, competition has been shown experimentally to occur between different genera of phytoplankton 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "titman_ecological_1976,descamps-julien_stable_2005"
 literal "false"
 
 \end_inset
 
-.
- The genus level is also a rather fine taxonomic scale for phytoplankton
- interaction studies, as most studies are restricted to interaction between
- different classes or even phyla 
+. The genus level is also a rather fine taxonomic scale for phytoplankton interaction studies, as most studies are restricted to interaction between different classes or even phyla 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "ives_estimating_2003,hampton_sixty_2008,griffiths_phytoplankton_2015"
 literal "false"
 
 \end_inset
 
-.
- Studying interactions between different genera of phytoplankton therefore
- both makes empirical sense in light of competition experiments and allows
- to estimate better-resolved networks.
- We focus here on genera that belong mostly to diatoms and dinoflagellates.
- To put our results into a more general context, we then compare our interaction
- strength estimates to previously published interaction networks produced
- under the same statistical framework, both in plankton and other empirical
- systems.
+. Studying interactions between different genera of phytoplankton therefore both makes empirical sense in light of competition experiments and allows to estimate better-resolved networks. We focus here on genera that belong mostly to diatoms and dinoflagellates. To put our results into a more general context, we then compare our interaction strength estimates to previously published interaction networks produced under the same statistical framework, both in plankton and other empirical systems.
 \end_layout
 
 \begin_layout Section*
@@ -854,97 +812,79 @@ Sampling methods
 \end_layout
 
 \begin_layout Standard
-All phytoplankton counts were collected by Ifremer coastal laboratories
- as part of the National Phytoplankton and Phycotoxin Monitoring Network
- 
+All phytoplankton counts were collected by Ifremer coastal laboratories as part of the National Phytoplankton and Phycotoxin Monitoring Network 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "REPHY_db"
 literal "false"
 
 \end_inset
 
-.
- Since 1987, this monitoring program has required the sampling of 26 sites
- along the French coastline every 2 weeks within 2 hours of high tide to
- document both biotic (phytoplankton counts) and abiotic (water temperature,
- salinity) variables.
- We focused on sites which had the longest time series.
- We also excluded time series which had missing data for over 6 months or
- an average delay between sampling dates above 20 days.
- This reduced the number of study sites to 10 sites nested within 4 regions
- (Brittany, Oléron, Arcachon and the Mediterranean Sea; Fig.
+. Since 1987, this monitoring program has required the sampling of 26 sites along the French coastline every 2 weeks within 2 hours of high tide to document both biotic (phytoplankton counts) and abiotic (water temperature, salinity) variables. We focused on sites which had the longest time series. We also excluded time series which had missing data for over 6 months or an average delay between sampling dates above 20 days. This reduced the number of study sites to 10 sites nested within 4 regions (Brittany, Oléron, Arcachon and the Mediterranean Sea; Fig.
 \begin_inset space ~
+
 \end_inset
 
 S1).
 \end_layout
 
 \begin_layout Standard
-Abiotic variables (temperature, salinity) were measured directly from the
- boat during the sampling process while water samples for biotic analyses
- were fixed with a Lugol's solution and examined later.
- Phytoplankton cells above 20 
+Abiotic variables (temperature, salinity) were measured directly from the boat during the sampling process while water samples for biotic analyses were fixed with a Lugol's solution and examined later. Phytoplankton cells above 20 
 \begin_inset Formula $\mu$
 \end_inset
 
-m were identified at the lowest possible taxonomic level and counted with
- the Utermöhl method using an optical microscope 
+m were identified at the lowest possible taxonomic level and counted with the Utermöhl method using an optical microscope 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "utermohl_zur_1958"
 literal "false"
 
 \end_inset
 
-.
- Throughout the years and sites, more than 600 taxa were identified at different
- taxonomic levels.
- We aggregated them at the genus (or group of genera when not possible)
- level based on previous work 
+. Throughout the years and sites, more than 600 taxa were identified at different taxonomic levels. We aggregated them at the genus (or group of genera when not possible) level based on previous work 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "hernandez_farinas_assessing_2015,barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-, except for cryptophytes and euglenophytes in Arcachon, which could not
- be identified below the family level.
- Although the taxonomic resolution used here may seem coarse in comparison
- to land plants, it is in fact more refined than 86% of the MAR(1) studies
- of phytoplankton listed in Table
+, except for cryptophytes and euglenophytes in Arcachon, which could not be identified below the family level. Although the taxonomic resolution used here may seem coarse in comparison to land plants, it is in fact more refined than 86% of the MAR(1) studies of phytoplankton listed in Table
 \begin_inset space ~
+
 \end_inset
 
 S3.
 \end_layout
 
 \begin_layout Standard
-For each region, the MAR(1) analysis focused on the most abundant and most
- frequently observed genera to avoid most of the gaps in the time series.
- When gaps did not exceed a month, missing values were linearly interpolated;
- remaining missing values were replaced by a random number between 0 and
- half of the lowest observed abundance 
+For each region, the MAR(1) analysis focused on the most abundant and most frequently observed genera to avoid most of the gaps in the time series. When gaps did not exceed a month, missing values were linearly interpolated; remaining missing values were replaced by a random number between 0 and half of the lowest observed abundance 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "hampton_coalescence_2006"
 literal "false"
 
 \end_inset
 
-.
- We tested extensively this and other methods to deal with missing data
- in a previous publication on a subset of this dataset 
+. We tested extensively this and other methods to deal with missing data in a previous publication on a subset of this dataset 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- All time series were scaled and centered before MAR analyses.
+. All time series were scaled and centered before MAR analyses.
 \end_layout
 
 \begin_layout Subsection*
@@ -952,18 +892,17 @@ MAR(1) model
 \end_layout
 
 \begin_layout Standard
-Multivariate autoregressive (MAR) models are used to determine the interspecific
- interactions and abiotic effects shaping a community's dynamics 
+Multivariate autoregressive (MAR) models are used to determine the interspecific interactions and abiotic effects shaping a community's dynamics 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "ives_estimating_2003"
 literal "false"
 
 \end_inset
 
-.
- MAR(1) models are based on a stochastic, discrete-time Gompertz model which
- relates log-abundance of 
+. MAR(1) models are based on a stochastic, discrete-time Gompertz model which relates log-abundance of 
 \begin_inset Formula $S$
 \end_inset
 
@@ -983,8 +922,7 @@ literal "false"
 \begin_inset Formula $t+1$
 \end_inset
 
-, following eq.
- 
+, following eq. 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:MAR"
@@ -998,11 +936,10 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
+
+\begin_inset Formula \begin{equation}
 \mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})\label{eq:MAR}
 \end{equation}
-
 \end_inset
 
 
@@ -1049,20 +986,19 @@ where
 \begin_inset Formula $1\times S$
 \end_inset
 
- noise vector which covers both process and observation error, following
- a multivariate normal distribution with a variance-covariance matrix 
+ noise vector which covers both process and observation error, following a multivariate normal distribution with a variance-covariance matrix 
 \begin_inset Formula $\mathbf{Q}$
 \end_inset
 
-.
- 
+. 
 \begin_inset Formula $\mathbf{Q}$
 \end_inset
 
- is diagonal and we have previously showed that this parsimonious choice
- did not affect qualitatively the results 
+ is diagonal and we have previously showed that this parsimonious choice did not affect qualitatively the results 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
@@ -1075,6 +1011,8 @@ literal "false"
 We used the MARSS package 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "holmes_analysis_2014"
 literal "false"
 
@@ -1083,6 +1021,8 @@ literal "false"
  v3.9, in R v3.3.2 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "venables_r_2013"
 literal "false"
 
@@ -1092,56 +1032,51 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-We have previously published a detailed analysis of one of the dataset (Arcachon
-) for which more covariables were available 
+We have previously published a detailed analysis of one of the dataset (Arcachon) for which more covariables were available 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-, including nutrients and hydrodynamics variables.
- We found that hydrodynamics variables were more influential than nutrients;
- nutrient dynamics contributed little to phytoplankton dynamics on the two-week
- timescale.
- Because temperature and salinity sum up seasonal changes in light as well
- as hydrology (salinity is inversely related to freshwater inflow), these
- represent the two key drivers needed to account for abiotic influences
- 
+, including nutrients and hydrodynamics variables. We found that hydrodynamics variables were more influential than nutrients; nutrient dynamics contributed little to phytoplankton dynamics on the two-week timescale. Because temperature and salinity sum up seasonal changes in light as well as hydrology (salinity is inversely related to freshwater inflow), these represent the two key drivers needed to account for abiotic influences 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "scheef_inferring_2013"
 literal "false"
 
 \end_inset
 
-.
- The analysis of real data in 
+. The analysis of real data in 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
- was complemented by that of phytoplankton-like simulated data, which confirmed
- the ability of MAR(1) models to infer biotic interactions and abiotic forcings
- (e.g., no need for extra non-linearities to model the storage effect, which
- was found to be nearly non-existent, as in previous analyses of plant data
- for which strong-self regulation was observed 
+ was complemented by that of phytoplankton-like simulated data, which confirmed the ability of MAR(1) models to infer biotic interactions and abiotic forcings (e.g., no need for extra non-linearities to model the storage effect, which was found to be nearly non-existent, as in previous analyses of plant data for which strong-self regulation was observed 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "adler_coexistence_2010,ellner_how_2016"
 literal "false"
 
 \end_inset
 
-.
- Furthermore, using two abiotic variables (temperature and salinity) in
- this study rather than the full set used in 
+. Furthermore, using two abiotic variables (temperature and salinity) in this study rather than the full set used in 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
@@ -1150,30 +1085,24 @@ literal "false"
  led to almost identical estimates to the ones obtained previously 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- We are therefore confident that the MAR(1) models presented here are robust
- to small changes in model specification.
- In general, MAR(1) models tend to be fairly robust to small deviations
- of the underlying (non-linear) data-generating model, provided that one
- asks mainly order of magnitude of coefficients values (rather than precise
- point estimates) and sign of interaction coefficients 
+. We are therefore confident that the MAR(1) models presented here are robust to small changes in model specification. In general, MAR(1) models tend to be fairly robust to small deviations of the underlying (non-linear) data-generating model, provided that one asks mainly order of magnitude of coefficients values (rather than precise point estimates) and sign of interaction coefficients 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "certain_how_2018"
 literal "false"
 
 \end_inset
 
-, which is how these models are used here.
- For ease of interpretation of those coefficients, we also prove the corresponda
-nce between the magnitude of intra/inter interaction strength in a MAR(1)
- model and a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterr
-a model, in the Supplementary Information.
+, which is how these models are used here. For ease of interpretation of those coefficients, we also prove the correspondance between the magnitude of intra/inter interaction strength in a MAR(1) model and a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterra model, in the Supplementary Information.
 \end_layout
 
 \begin_layout Standard
@@ -1181,44 +1110,22 @@ In this study, the number of phytoplankton groups,
 \begin_inset Formula $S$
 \end_inset
 
-, varies between regions but we keep the same 2 covariates, i.e.
- water temperature and salinity, that were measured at all study sites.
- Therefore, the dimension of the dynamical system only depends on the (square
- of the) number of phytoplankton groups we study, which ranges between 7
- (Mediterranean Sea) and 14 (Brittany).
- The smallest system still requires 70 parameters to be estimated if we
- consider all possible interactions between species.
- To reduce this dimensionality and remove unnecessary parameters, we compared
- different `interaction scenarios' based on BIC (Fig
+, varies between regions but we keep the same 2 covariates, i.e. water temperature and salinity, that were measured at all study sites. Therefore, the dimension of the dynamical system only depends on the (square of the) number of phytoplankton groups we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany). The smallest system still requires 70 parameters to be estimated if we consider all possible interactions between species. To reduce this dimensionality and remove unnecessary parameters, we compared different `interaction scenarios' based on BIC (Fig
 \begin_inset space ~
+
 \end_inset
 
-S3), which proved to be satisfactory in our previous analyses of both real
- data and similar simulated datasets 
+S3), which proved to be satisfactory in our previous analyses of both real data and similar simulated datasets 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- The null interaction scenario assumed no interaction between groups of
- species (diagonal interaction matrix) and was compared to four other interactio
-n scenarios.
- The first interaction scenario assumed that interactions could only occur
- between phylogenetically close organisms, i.e., within a class (groups were
- then diatoms, dinoflagellates, and other phytoplanktonic organisms) while
- the second interaction scenario further differentiated pennate and centric
- diatoms.
- The third interaction scenario considered the reverse hypothesis, that
- only unrelated organisms could interact (i.e., a diatom could only interact
- with a dinoflagellate or a cryptophyte, but not with another diatom), and
- the last interaction scenario did not constrain the interactions at all
- (full interaction matrix).
- The second interaction scenario, hereafter called the pennate-centric scenario,
- had the lowest BIC for all sites and was therefore the most parsimonious,
- and was chosen as the basis for further investigations of network structure.
+. The null interaction scenario assumed no interaction between groups of species (diagonal interaction matrix) and was compared to four other interaction scenarios. The first interaction scenario assumed that interactions could only occur between phylogenetically close organisms, i.e., within a class (groups were then diatoms, dinoflagellates, and other phytoplanktonic organisms) while the second interaction scenario further differentiated pennate and centric diatoms. The third interaction scenario considered the reverse hypothesis, that only unrelated organisms could interact (i.e., a diatom could only interact with a dinoflagellate or a cryptophyte, but not with another diatom), and the last interaction scenario did not constrain the interactions at all (full interaction matrix). The second interaction scenario, hereafter called the pennate-centric scenario, had the lowest BIC for all sites and was therefore the most parsimonious, and was chosen as the basis for further investigations of network structure.
 \end_layout
 
 \begin_layout Subsection*
@@ -1226,191 +1133,65 @@ Analysis of interaction strengths
 \end_layout
 
 \begin_layout Standard
-The interaction matrix obtained from MAR(1) analyses can be used to determine
- the stability of a discrete-time dynamical system 
+The interaction matrix obtained from MAR(1) analyses can be used to determine the stability of a discrete-time dynamical system 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "ives_estimating_2003"
 literal "false"
 
 \end_inset
 
-.
- We compared the maximum modulus of the eigenvalues of the pennate/centric
- matrices in each site, as a proxy of stability, to network metrics which
- could be related to complexity, such as weighted connectance and linkage
- density 
+. We compared the maximum modulus of the eigenvalues of the pennate/centric matrices in each site, as a proxy of stability, to network metrics which could be related to complexity, such as weighted connectance and linkage density 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "breier_emergence_2018"
 literal "false"
 
 \end_inset
 
-.
- Weighted connectance is a measure of the proportion of realized links,
- taking into account the shape of the flux distribution, while link density
- measures the average proportion and strength of interactions for a given
- species.
- These metrics are adapted to weighted interaction matrices but cannot accomodat
-e for both positive and negative coefficients: we therefore chose to focus
- on the absolute values of these coefficients, which can be linked to their
- strength, irrespective of interaction sign.
+. Weighted connectance is a measure of the proportion of realized links, taking into account the shape of the flux distribution, while link density measures the average proportion and strength of interactions for a given species. These metrics are adapted to weighted interaction matrices but cannot accomodate for both positive and negative coefficients: we therefore chose to focus on the absolute values of these coefficients, which can be linked to their strength, irrespective of interaction sign.
 \end_layout
 
 \begin_layout Standard
-In addition to these network-level metrics, we also computed the average
- vulnerability (average effect of other taxa on a focal taxon, Eq
+In addition to these network-level metrics, we also computed the average vulnerability (average effect of other taxa on a focal taxon, Eq
 \begin_inset space ~
+
 \end_inset
 
 S5) and impact (average effect of a focal taxon on other taxa, Eq
 \begin_inset space ~
-\end_inset
-
-S6) on both raw and absolute values of the coefficients, and compared these
- to the regulation a focal species exerted on itself.
- Raw values indicate the average effect (i.e., is the effect mostly positive
- or negative?) that can be expected on a species' growth rate from other
- planktonic species while absolute effects characterise the strength of
- all types of interactions on a species (i.e., is a species strongly affected
- by the others?).
- 
-\change_deleted -2100369821 1560412781
-We examined whether vulnerability and impact could be affected by phylogenetic
- correlations; they were not as on Fig.
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Vulnerability_impact"
-plural "false"
-caps "false"
-noprefix "false"
 
 \end_inset
 
- points were not clustered according to genus, family or phylum.
-\change_inserted -2100369821 1560412781
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1560412799
-We examined whether vulnerability and impact could be affected by phylogenetic
- correlations; they were not as on Fig.
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Vulnerability_impact"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- points were not clustered according to genus, family or phylum.
- [CP: Maybe add that in the discussion?]
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
+S6) on both raw and absolute values of the coefficients, and compared these to the regulation a focal species exerted on itself. Raw values indicate the average effect (i.e., is the effect mostly positive or negative?) that can be expected on a species' growth rate from other planktonic species while absolute effects characterise the strength of all types of interactions on a species (i.e., is a species strongly affected by the others?).
 \end_layout
 
 \begin_layout Standard
-Finally, we compared our results on the ratio between mean self-regulation/intra
-specific interaction strength and mean interspecific interaction strength
- to other published studies based on a MAR(1) model.
- A list of references is given in Table
+Finally, we compared our results on the ratio between mean self-regulation/intraspecific interaction strength and mean interspecific interaction strength to other published studies based on a MAR(1) model. A list of references is given in Table
 \begin_inset space ~
+
 \end_inset
 
-S3.
- Authors usually reported only coefficients that were significant at the
- 95% significance threshold, thus ignoring potentially many weak effects.
- For mean intergroup interactions, we therefore computed both the mean value
- of all coefficients outside of the matrix diagonal, including zeroes (Fig.
+S3. Authors usually reported only coefficients that were significant at the 95% significance threshold, thus ignoring potentially many weak effects. For mean intergroup interactions, we therefore computed both the mean value of all coefficients outside of the matrix diagonal, including zeroes (which decreases the mean intergroup interaction strength), and the mean value of statistically significant intergroup coefficients only (which increases the mean intergroup interaction strength). We should mention two potential biases associated with this comparison across the published literature: low-dimensional matrices tended to be more complete (less sparse) than high-dimensional matrices, as these small interaction matrices were used to study known interaction phenomena (observed predation between organisms, for instance). Conversely, the number of parameters to estimate increases as the square of the number of interacting groups, leading most authors to reduce this set before the estimation process for large interaction matrices. There is therefore a positive correlation between sparsity and dimensionality (Fig
 \begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:meta_ratio"
-plural "false"
-caps "false"
-noprefix "false"
 
 \end_inset
 
-, which decreases the mean intergroup interaction strength), and the mean
- value of statistically significant intergroup coefficients only (Fig
-\begin_inset space ~
-\end_inset
-
-S8, which increases the mean intergroup interaction strength)
-\change_inserted -2100369821 1560412830
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -2100369821 1560412882
-Here, I think we can just remove the references to both figures; and add
- a ref to S8 in the results
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-.
- We should mention two potential biases associated with this comparison
- across the published literature: low-dimensional matrices tended to be
- more complete (less sparse) than high-dimensional matrices, as these small
- interaction matrices were used to study known interaction phenomena (observed
- predation between organisms, for instance).
- Conversely, the number of parameters to estimate increases as the square
- of the number of interacting groups, leading most authors to reduce this
- set before the estimation process for large interaction matrices.
- There is therefore a positive correlation between sparsity and dimensionality
- (Fig
-\begin_inset space ~
-\end_inset
-
-S9).
- A second caveat is that while we informed our model selection by phylogeny
- (see above), several authors have reduced the number of estimated parameters
- by an automated procedure, usually based on the comparison of 100 randomly
- chosen interaction matrices by BIC 
+S9). A second caveat is that while we informed our model selection by phylogeny (see above), several authors have reduced the number of estimated parameters by an automated procedure, usually based on the comparison of 100 randomly chosen interaction matrices by BIC 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "ives_estimating_2003"
 literal "false"
 
 \end_inset
 
-.
- The latter choice may bias high non-zero interactions in the literature.
- This is why we decided to present in the main text intra/inter ratios including
- interspecific (or intergroup) coefficients set to zero, which should be
- less sensitive to the model selection method and therefore make comparisons
- across studies possible.
+. The latter choice may bias high non-zero interactions in the literature. This is why we decided to present in the main text intra/inter ratios including interspecific (or intergroup) coefficients set to zero, which should be less sensitive to the model selection method and therefore make comparisons across studies possible.
 \end_layout
 
 \begin_layout Section*
@@ -1422,10 +1203,11 @@ Interaction estimates
 \end_layout
 
 \begin_layout Standard
-Using MAR(1) autoregressive models, we have produced interaction matrices
- 
+Using MAR(1) autoregressive models, we have produced interaction matrices 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "ives_estimating_2003,hampton2013quantifying"
 literal "false"
 
@@ -1434,22 +1216,21 @@ literal "false"
  – i.e., Jacobian community matrices on the logarithmic scale 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "ives_estimating_2003"
 literal "false"
 
 \end_inset
 
-.
- Best-fitting models corresponded to a phylogenetically-structured interaction
- scenario, where interaction only occurred betwen closely related genera
- (Fig
+. Best-fitting models corresponded to a phylogenetically-structured interaction scenario, where interaction only occurred betwen closely related genera (Fig
 \begin_inset space ~
+
 \end_inset
 
-S3).
- This led to sparse, modular matrices that have two main features.
- First, we observe a strong self-regulation for all sites (Fig.
+S3). This led to sparse, modular matrices that have two main features. First, we observe a strong self-regulation for all sites (Fig.
 \begin_inset space ~
+
 \end_inset
 
 
@@ -1462,39 +1243,34 @@ noprefix "false"
 
 \end_inset
 
-, diagonal elements of all matrices), a feature that we have previously
- highlighted in a more detailed analysis on one of the considered study
- regions 
+, diagonal elements of all matrices), a feature that we have previously highlighted in a more detailed analysis on one of the considered study regions 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- The ratio of mean intragenus to intergenus interaction coefficients varies
- between 6 and 10, not counting coefficients set to 0 in the estimation
- process.
- If we include the zeroes in the interaction matrix in the computation of
- the intra/inter mean interaction strength, the ratio rises to 21-43.
- Therefore, intragenus interactions are on average much stronger than intergenus
- interactions, approximately 10 to 20 times stronger.
+. The ratio of mean intragenus to intergenus interaction coefficients varies between 6 and 10, not counting coefficients set to 0 in the estimation process. If we include the zeroes in the interaction matrix in the computation of the intra/inter mean interaction strength, the ratio rises to 21-43. Therefore, intragenus interactions are on average much stronger than intergenus interactions, approximately 10 to 20 times stronger.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset Float figure
 placement !ht
 wide true
 sideways false
 status open
 
-\begin_layout Plain Layout
+
+\begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 centering
@@ -1507,7 +1283,6 @@ centering
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 includegraphics[width=15.8cm]{biotic_interaction_matrices_MainFig_allin1_v4}
@@ -1520,7 +1295,7 @@ includegraphics[width=15.8cm]{biotic_interaction_matrices_MainFig_allin1_v4}
 \end_inset
 
  
-\begin_inset Graphics
+\begin_inset Graphics 
 	filename biotic_interaction_matrices_MainFig_allin1_v4.eps
 	width 81text%
 
@@ -1534,17 +1309,12 @@ includegraphics[width=15.8cm]{biotic_interaction_matrices_MainFig_allin1_v4}
 \series bold
 Interaction matrices estimated in 10 sites along the French coastline
 \series default
-.
- Four regions are distinguished: Brittany (a), Oléron (b), Arcachon (d)
- and the Mediterranean Sea (e).
- Only interactions between clades (pennate and centric diatoms, dinoflagellates,
- other planktonic taxa) are allowed, as this is the best fitting interaction
- scenario (Fig
+. Four regions are distinguished: Brittany (a), Oléron (b), Arcachon (d) and the Mediterranean Sea (e). Only interactions between clades (pennate and centric diatoms, dinoflagellates, other planktonic taxa) are allowed, as this is the best fitting interaction scenario (Fig
 \begin_inset space ~
+
 \end_inset
 
-S3).
- Taxon 
+S3). Taxon 
 \begin_inset Formula $j$
 \end_inset
 
@@ -1552,23 +1322,16 @@ S3).
 \begin_inset Formula $i$
 \end_inset
 
-'s growth rate (in rows).
- We present the interaction matrix minus the identity matrix (
+'s growth rate (in rows). We present the interaction matrix minus the identity matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
-) because this compares unambigously intra- and intergenera interactions.
- The scale for the coefficient values is given at the bottom left of panel
- a).
- 95% significance of coefficients is marked by asterisks (*).
- The community composition is given in Table
+) because this compares unambigously intra- and intergenera interactions. The scale for the coefficient values is given at the bottom left of panel a). 95% significance of coefficients is marked by asterisks (*). The community composition is given in Table
 \begin_inset space ~
+
 \end_inset
 
-S2.
- The fraction of positive interactions in each matrix is given by points
- in c) while the dashed (resp., dotted) line represents the ratio of interactions
- remaining positive (resp., negative) for all sites of a given region.
+S2. The fraction of positive interactions in each matrix is given by points in c) while the dashed (resp., dotted) line represents the ratio of interactions remaining positive (resp., negative) for all sites of a given region.
 \end_layout
 
 \end_inset
@@ -1589,38 +1352,20 @@ name "fig:Interaction-matrices"
 \end_layout
 
 \begin_layout Standard
-Second, although the percentage of facilitative interactions seemed to vary
- among sites (between 40% and 71% of interactions in the selected models),
- facilitation remained predominant in 9 sites out of 10 (only Lazaret, in
- the Mediterranean Sea, has 60% negative interactions).
- Our observational setup being nested, with sites within regions, we can
- examine whether locally positive interactions remain positive in a regional
- context: the percentage of consistently positive interactions at the regional
- level varies between 30% and 53%, higher than the percentage of similarly
- defined negative interactions (between 15% and 40%), except for sites in
- the Mediterranean Sea.
+Second, although the percentage of facilitative interactions seemed to vary among sites (between 40% and 71% of interactions in the selected models), facilitation remained predominant in 9 sites out of 10 (only Lazaret, in the Mediterranean Sea, has 60% negative interactions). Our observational setup being nested, with sites within regions, we can examine whether locally positive interactions remain positive in a regional context: the percentage of consistently positive interactions at the regional level varies between 30% and 53%, higher than the percentage of similarly defined negative interactions (between 15% and 40%), except for sites in the Mediterranean Sea.
 \end_layout
 
 \begin_layout Standard
-We have found that the percentage of true mutualism (+/+) is substantial:
- averaged over all sites, 32% of all interactions are (+/+) while only 12%
- of them are (-/-), see also Fig
+We have found that the percentage of true mutualism (+/+) is substantial: averaged over all sites, 32% of all interactions are (+/+) while only 12% of them are (-/-), see also Fig
 \begin_inset space ~
+
 \end_inset
 
-S5.
- The sign correspondence is not always maintained between French regions:
- the only interaction that is non-zero in the 10 sites (CHA/SKE) is mutualistic
- in Men er Roue only (Brittany) and mixed (+/-) at all other sites.
- Within the same region, however, interactions measured at different sites
- tend to keep the same sign.
- In the 3 sites of Oléron, for instance, there were 4 interactions which
- remained positive on both sides (CHA/GUI, DIT/GUI, LEP/THP, SKE/THP), 3
- of them being also mutualistic in some of the Brittany sites.
- This contradicts previous observations that mutualistic interactions tend
- to be more context-dependent than competitive interactions 
+S5. The sign correspondence is not always maintained between French regions: the only interaction that is non-zero in the 10 sites (CHA/SKE) is mutualistic in Men er Roue only (Brittany) and mixed (+/-) at all other sites. Within the same region, however, interactions measured at different sites tend to keep the same sign. In the 3 sites of Oléron, for instance, there were 4 interactions which remained positive on both sides (CHA/GUI, DIT/GUI, LEP/THP, SKE/THP), 3 of them being also mutualistic in some of the Brittany sites. This contradicts previous observations that mutualistic interactions tend to be more context-dependent than competitive interactions 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "chamberlain_how_2014"
 literal "false"
 
@@ -1641,14 +1386,16 @@ sensu
  resilience, 
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "ives_stability_2007"
 literal "false"
 
 \end_inset
 
-) of all interaction matrices was not strongly affected by the percentage
- of positive interactions or their connectivity properties (Fig.
+) of all interaction matrices was not strongly affected by the percentage of positive interactions or their connectivity properties (Fig.
 \begin_inset space ~
+
 \end_inset
 
 
@@ -1661,27 +1408,24 @@ noprefix "false"
 
 \end_inset
 
-).
- The maximum modulus of the interaction matrix eigenvalues remained between
- 0.65 and 0.80.
- There was also a slight increase in stability with weighted connectance,
- with a drop in eigenvalue modulus for weighted connectances between 0.09
- and 0.1.
+). The maximum modulus of the interaction matrix eigenvalues remained between 0.65 and 0.80. There was also a slight increase in stability with weighted connectance, with a drop in eigenvalue modulus for weighted connectances between 0.09 and 0.1.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset Float figure
 placement !h
 wide true
 sideways false
 status open
 
-\begin_layout Plain Layout
+
+\begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 centering
@@ -1690,7 +1434,7 @@ centering
 \end_inset
 
  
-\begin_inset Graphics
+\begin_inset Graphics 
 	filename complexity_stability_MainFig_pencenjustB.eps
 	width 100text%
 
@@ -1703,7 +1447,6 @@ centering
 
 \series bold
 Relation between stability and complexity of the interaction networks.
-
 \series default
  The maximum modulus of the interaction matrix 
 \begin_inset Formula $\mathbf{B}$
@@ -1713,10 +1456,7 @@ Relation between stability and complexity of the interaction networks.
 \emph on
 sensu
 \emph default
- resilience.
- Each point color corresponds to a given region.
- Metrics formula for weighted connectance and linkage density are given
- in the Supplementary Information.
+ resilience. Each point color corresponds to a given region. Metrics formula for weighted connectance and linkage density are given in the Supplementary Information.
 \end_layout
 
 \end_inset
@@ -1737,37 +1477,29 @@ name "fig:Stability-community"
 \end_layout
 
 \begin_layout Standard
-Given that a direct complexity-stability link was not obvious, we investigated
- whether the matrix coefficients had some particular structure that could
- help theoretical ecology to make better null models of joint community
- dynamics and interactions 
+Given that a direct complexity-stability link was not obvious, we investigated whether the matrix coefficients had some particular structure that could help theoretical ecology to make better null models of joint community dynamics and interactions 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "james_constructing_2015"
 literal "false"
 
 \end_inset
 
-.
- We defined two scores, vulnerability 
-\change_deleted -2100369821 1560413490
-(summed effect of others on the focal species growth rate, Eq
+. We defined two scores, vulnerability (summed effect of others on the focal species growth rate, Eq
 \begin_inset space ~
+
 \end_inset
 
-S5) 
-\change_unchanged
-and impact 
-\change_deleted -2100369821 1560413498
-(summed effect of the focal species onto other species growth rates, Eq
+S5) and impact (summed effect of the focal species onto other species growth rates, Eq
 \begin_inset space ~
+
 \end_inset
 
-S6)
-\change_unchanged
-.
- Relations between inter- and intra-genus interactions emerged (Fig.
+S6). Relations between inter- and intra-genus interactions emerged (Fig.
 \begin_inset space ~
+
 \end_inset
 
 
@@ -1780,36 +1512,29 @@ noprefix "false"
 
 \end_inset
 
-): genera that were more self-regulating also had also a higher vulnerability
- score and a lower impact score.
- Those two influences are likely to trade-off: a high degree of self-regulation
- somehow buffers outside influences.
- Taxa that were less self-regulating were also more likely to have a broad
- range of effects onto other taxa.
- As these genera tended to be more abundant (Fig
+): genera that were more self-regulating also had also a higher vulnerability score and a lower impact score. Those two influences are likely to trade-off: a high degree of self-regulation somehow buffers outside influences. Taxa that were less self-regulating were also more likely to have a broad range of effects onto other taxa. As these genera tended to be more abundant (Fig
 \begin_inset space ~
+
 \end_inset
 
-S7), they were more likely to affect other genera.
- It is important to note, however, that these trends are weak and there
- is therefore a considerable amount of randomness dominating the interaction
- matrix: many scenarios of self-regulation vs limitation by others are therefore
- possible.
+S7), they were more likely to affect other genera. It is important to note, however, that these trends are weak and there is therefore a considerable amount of randomness dominating the interaction matrix: many scenarios of self-regulation vs limitation by others are therefore possible.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset Float figure
 placement !h
 wide true
 sideways false
 status open
 
-\begin_layout Plain Layout
+
+\begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 centering
@@ -1818,7 +1543,7 @@ centering
 \end_inset
 
  
-\begin_inset Graphics
+\begin_inset Graphics 
 	filename pencen_generality_vs_vulnerability_MainFig.eps
 	width 100text%
 
@@ -1831,25 +1556,17 @@ centering
 
 \series bold
 Relation between vulnerability/impact and self-regulation.
-
 \series default
- Average vulnerability (effects of others on the focal taxon growth rate,
- a-b) and impact (effects of the focal taxon on others' growth rates, c-d),
- as well as self-regulation, are computed for untransformed (a-c) or absolute
- (b-d) values of the coefficients of the interaction matrix (
+ Average vulnerability (effects of others on the focal taxon growth rate, a-b) and impact (effects of the focal taxon on others' growth rates, c-d), as well as self-regulation, are computed for untransformed (a-c) or absolute (b-d) values of the coefficients of the interaction matrix (
 \begin_inset Formula $\mathbf{B}-\mathbf{I}$
 \end_inset
 
-) for the 10 study sites.
- Each color corresponds to a given region (Fig
+) for the 10 study sites. Each color corresponds to a given region (Fig
 \begin_inset space ~
+
 \end_inset
 
-S1).
- The p-value of the Pearson correlation between vulnerability (respectively
- impact) and self-regulation is given in the top left of each panel and
- the slope of the linear regression is given by the black line across scatter
- plots.
+S1). The p-value of the Pearson correlation between vulnerability (respectively impact) and self-regulation is given in the top left of each panel and the slope of the linear regression is given by the black line across scatter plots.
 \end_layout
 
 \end_inset
@@ -1877,14 +1594,16 @@ sensu
  invariability, 
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "Arnoldi431296"
 literal "false"
 
 \end_inset
 
-), we found no remarkable patterns of covariation between matrix elements
- (other than a mean-variance scaling of interaction coefficients, Fig
+), we found no remarkable patterns of covariation between matrix elements (other than a mean-variance scaling of interaction coefficients, Fig
 \begin_inset space ~
+
 \end_inset
 
 S6).
@@ -1895,46 +1614,24 @@ Literature comparison
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -2100369821 1560413526
-Finally, we sought to put these results in a broader context 
-\change_inserted -2100369821 1560413526
-B
-\change_deleted -2100369821 1560413528
-b
-\change_unchanged
-y compiling the intra vs inter group estimates of previous MAR(1) studies
- of long-term observational count data (listed in Table
+Finally, we sought to put these results in a broader context by compiling the intra vs inter group estimates of previous MAR(1) studies of long-term observational count data (listed in Table
 \begin_inset space ~
+
 \end_inset
 
-S3)
-\change_deleted -2100369821 1560413534
-.
-\change_inserted -2100369821 1560413534
-,
-\change_unchanged
- 
-\change_deleted -2100369821 1560413537
-W
-\change_inserted -2100369821 1560413537
-w
-\change_unchanged
-e found that the order of magnitude of intra/inter interaction strengths
- considered here is not particularly above those found for most planktonic
- systems to which MAR(1) models have been fitted, considering that our systems
- are relatively high-dimensional and that the higher the number of taxa,
- the larger the intraspecific regulation 
+S3). We found that the order of magnitude of intra/inter interaction strengths considered here is not particularly above those found for most planktonic systems to which MAR(1) models have been fitted, considering that our systems are relatively high-dimensional and that the higher the number of taxa, the larger the intraspecific regulation 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barabas_self-regulation_2017"
 literal "false"
 
 \end_inset
 
-.
- We included in Fig.
+. We included in Fig.
 \begin_inset space ~
+
 \end_inset
 
 
@@ -1947,27 +1644,24 @@ noprefix "false"
 
 \end_inset
 
- not only plankton studies but also a couple of vertebrate or insect studies
- on less diverse communities, where interactions are stronger.
- The conclusion from this comparison seems to be that, unlike small communities
- that can be tight-knit, any diverse system of competitors and facilitators
- has evolved large niche differences making intragroup competition much
- larger in magnitude than intergroup interactions.
+ not only plankton studies but also a couple of vertebrate or insect studies on less diverse communities, where interactions are stronger. The conclusion from this comparison seems to be that, unlike small communities that can be tight-knit, any diverse system of competitors and facilitators has evolved large niche differences making intragroup competition much larger in magnitude than intergroup interactions.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset Float figure
 placement !h
 wide true
 sideways false
 status open
 
-\begin_layout Plain Layout
+
+\begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 centering
@@ -1976,7 +1670,7 @@ centering
 \end_inset
 
  
-\begin_inset Graphics
+\begin_inset Graphics 
 	filename Ratio_function_dim.eps
 	width 80line%
 
@@ -1988,21 +1682,19 @@ centering
 \begin_layout Plain Layout
 
 \series bold
-Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressi
-ve (MAR) models in the ecological literature as a function of the number
- of species they include.
+Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressive (MAR) models in the ecological literature as a function of the number of species they include.
 \series default
-The name of each studies, corresponding to each code, is given in Table
+ The name of each studies, corresponding to each code, is given in Table
 \begin_inset space ~
+
 \end_inset
 
-S3.
- Codes beginning with letters correspond to the present study.
- The symbol color and shape correspond to the sparsity of the interaction
- matrix (e.g., the proportion of null interactions in the matrix).
- Intergroup interactions were set to 0 when they were not specified in the
- articles (in most cases, articles removed non-significant interactions
- at the 95% threshold).
+S3. Codes beginning with letters correspond to the present study. The symbol color and shape correspond to the sparsity of the interaction matrix (e.g., the proportion of null interactions in the matrix). Intergroup interactions were set to 0 when they were not specified in the articles (in most cases, articles removed non-significant interactions at the 95% threshold; Fig
+\begin_inset space ~
+
+\end_inset
+
+S8 is the same figure taking into account only significant interactions)
 \end_layout
 
 \end_inset
@@ -2031,75 +1723,63 @@ Strong self-regulation and facilitation
 \end_layout
 
 \begin_layout Standard
-We found very large niche differences between genera, translating into much
- higher intragenus than intergenus effects on growth rates (i.e., strong self-regu
-lation), together with a high degree of facilitative net interactions.
+We found very large niche differences between genera, translating into much higher intragenus than intergenus effects on growth rates (i.e., strong self-regulation), together with a high degree of facilitative net interactions.
 \end_layout
 
 \begin_layout Standard
 The rather high intra/intertaxon interaction strength ratio 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "levine_importance_2009"
 literal "false"
 
 \end_inset
 
- that we found, from 5 to 20, depending on how one counts the interactions
- set to zero in the estimation process, could appear extremely high in light
- of previous intra/interspecific competition strength estimates of 4 to
- 5 by 
+ that we found, from 5 to 20, depending on how one counts the interactions set to zero in the estimation process, could appear extremely high in light of previous intra/interspecific competition strength estimates of 4 to 5 by 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "adler_competition_2018"
 literal "false"
 
 \end_inset
 
-.
- Even though their model is a different one, i.e., Lotka-Volterra competition,
- we prove in the Supplementary Information that the intra/inter ratio should
- remain commensurate.
- The difference in the intra/inter ratio that we found should therefore
- lie elsewhere, which requires some explanation.
- First, one could argue that such high intra/inter ratio arises because
- we consider the genus as our baseline taxonomic unit, rather than the species.
- Although it is logical that niche differentiation increases as one gets
- up the phylogenetic tree, and that getting down to the species level could
- slightly decrease that ratio, there are two arguments suggesting that the
- niche differences found here extend to the species level.
- First, species belonging to the various genera considered here are often
- found to compete in experiments 
+. Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in the Supplementary Information that the intra/inter ratio should remain commensurate. The difference in the intra/inter ratio that we found should therefore lie elsewhere, which requires some explanation. First, one could argue that such high intra/inter ratio arises because we consider the genus as our baseline taxonomic unit, rather than the species. Although it is logical that niche differentiation increases as one gets up the phylogenetic tree, and that getting down to the species level could slightly decrease that ratio, there are two arguments suggesting that the niche differences found here extend to the species level. First, species belonging to the various genera considered here are often found to compete in experiments 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "titman_ecological_1976,tilman_phytoplankton_1982,descamps-julien_stable_2005"
 literal "false"
 
 \end_inset
 
-.
- There is therefore a massive difference between niches in the lab and in
- the field 
+. There is therefore a massive difference between niches in the lab and in the field 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- Second, the only other study that managed to provide MAR(1) estimates down
- to the species level for phytoplankton, that of 
+. Second, the only other study that managed to provide MAR(1) estimates down to the species level for phytoplankton, that of 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "huber_role_2006"
 literal "false"
 
 \end_inset
 
-, provides an intra/interspecific strength ratio similar to ours (point
- 7a in Fig.
+, provides an intra/interspecific strength ratio similar to ours (point 7a in Fig.
 \begin_inset space ~
+
 \end_inset
 
 
@@ -2112,18 +1792,15 @@ noprefix "false"
 
 \end_inset
 
-).
- Strong self-regulation seems therefore a genuine feature of field phytoplankton
-ic communities.
+). Strong self-regulation seems therefore a genuine feature of field phytoplanktonic communities.
 \end_layout
 
 \begin_layout Standard
-Another main finding of our study is the large frequency of positive interaction
-s, with 30% truly mutualistic (+/+) interactions and between 40 and 70%
- facilitative effects.
- This again can be compared to the meta-analysis by 
+Another main finding of our study is the large frequency of positive interactions, with 30% truly mutualistic (+/+) interactions and between 40 and 70% facilitative effects. This again can be compared to the meta-analysis by 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "adler_competition_2018"
 literal "false"
 
@@ -2133,81 +1810,75 @@ literal "false"
 \begin_inset Formula $\approx$
 \end_inset
 
-30%).
- However, 
+30%). However, 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "adler_competition_2018"
 literal "false"
 
 \end_inset
 
-'s review contains many experiments while the plant literature is replete
- with field examples of facilitation 
+'s review contains many experiments while the plant literature is replete with field examples of facilitation 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "brooker_facilitation_2008,mcintire2014facilitation"
 literal "false"
 
 \end_inset
 
-, so that plant facilitation could be higher in the field.
- At the moment, it is therefore unknown how the predominance of facilitative
- interactions that we found in phytoplankton compares to facilitation in
- terrestrial plants.
- We note that several authors using MAR(1) models previously forbade positive
- interactions within the same trophic level, so that the fraction of facilitativ
-e interactions in plankton cannot be computed from literature-derived MAR(1)
- estimates.
+, so that plant facilitation could be higher in the field. At the moment, it is therefore unknown how the predominance of facilitative interactions that we found in phytoplankton compares to facilitation in terrestrial plants. We note that several authors using MAR(1) models previously forbade positive interactions within the same trophic level, so that the fraction of facilitative interactions in plankton cannot be computed from literature-derived MAR(1) estimates.
 \end_layout
 
 \begin_layout Standard
-The large niche differences and facilitative interactions that arise when
- considering a single trophic level are an emergent property, arising from
- hidden effects of resources or predator partitioning/sharing 
+The large niche differences and facilitative interactions that arise when considering a single trophic level are an emergent property, arising from hidden effects of resources or predator partitioning/sharing 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "chesson_updates_2018"
 literal "false"
 
 \end_inset
 
-.
- In our previous publication investigating in detail the Arcachon study
- sites 
+. In our previous publication investigating in detail the Arcachon study sites 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-, we have argued that for phytoplankton, the strong intragroup density-dependenc
-e could arise from effects of natural enemies 
+, we have argued that for phytoplankton, the strong intragroup density-dependence could arise from effects of natural enemies 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "haydon_pivotal_1994,barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- Natural enemies could also very well create apparent mutualism between
- prey species 
+. Natural enemies could also very well create apparent mutualism between prey species 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "abrams_apparent_1998,barraquand_indirect_2015,de_ruiter_emergent_2017"
 literal "false"
 
 \end_inset
 
-.
- We believe this to be likely true for the present study as well, given
- that the new study regions (Oléron, Brittany, Mediterranean) have similar
- predators to the Arcachon site (zooplankton, 
+. We believe this to be likely true for the present study as well, given that the new study regions (Oléron, Brittany, Mediterranean) have similar predators to the Arcachon site (zooplankton, 
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "e.g."
+before ""
 key "jamet_zooplankton_2001,moderan_zooplankton_2010,tortajada_network_2012"
 literal "false"
 
@@ -2217,17 +1888,17 @@ literal "false"
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "e.g."
+before ""
 key "ory_pelagic_2010"
 literal "false"
 
 \end_inset
 
-, fungi).
- Though natural enemies are good candidates to explain the observed niche
- differences and emerging facilitation, one must bear in mind that other
- known drivers of phytoplankton dynamics such as allelopathy 
+, fungi). Though natural enemies are good candidates to explain the observed niche differences and emerging facilitation, one must bear in mind that other known drivers of phytoplankton dynamics such as allelopathy 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "felpeto_allelopathy_2018"
 literal "false"
 
@@ -2236,6 +1907,8 @@ literal "false"
 , auxotrophy 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "tang_most_2010"
 literal "false"
 
@@ -2244,85 +1917,76 @@ literal "false"
  or hydrodynamics 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "levy_role_2018"
 literal "false"
 
 \end_inset
 
- can all, in theory, help create different niches and an emerging facilitation
- (see last subsection of the Discussion).
- Finally, resources that are usually considered limiting for all species
- might in fact not always be: the changes in phytoplankton absorption spectrum
- documented by 
+ can all, in theory, help create different niches and an emerging facilitation (see last subsection of the Discussion). Finally, resources that are usually considered limiting for all species might in fact not always be: the changes in phytoplankton absorption spectrum documented by 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "burson_competition_2018"
 literal "false"
 
 \end_inset
 
- constitute an example of fine-scale resource partitioning of one resource,
- light, that is usually believed to be limiting for all species and genera.
+ constitute an example of fine-scale resource partitioning of one resource, light, that is usually believed to be limiting for all species and genera.
 \end_layout
 
 \begin_layout Subsection*
-No complexity-stability relationship but connections between self-regulation
- and intergroup interactions
+No complexity-stability relationship but connections between self-regulation and intergroup interactions
 \end_layout
 
 \begin_layout Standard
-There was no relation between the complexity of the communities (measured
- as either the weighted connectance or linkage density of the interaction
- matrices) and their stability, as measured by the dominant eigenvalue of
- the interaction matrix, which measures the return time to a point equilibrium.
- This result is conditional upon our model being a good approximate description
- of the system (i.e., no multiyear limit cycles or chaotic attractors as the
- mapping between eigenvalues and actual stability is distorted in that case
- 
+There was no relation between the complexity of the communities (measured as either the weighted connectance or linkage density of the interaction matrices) and their stability, as measured by the dominant eigenvalue of the interaction matrix, which measures the return time to a point equilibrium. This result is conditional upon our model being a good approximate description of the system (i.e., no multiyear limit cycles or chaotic attractors as the mapping between eigenvalues and actual stability is distorted in that case 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "certain_how_2018"
 literal "false"
 
 \end_inset
 
- but we showed on a subset of this data that a fixed point in a MAR(1) model,
- perturbed by seasonality and abiotic variables, is an accurate description
- of the system 
+ but we showed on a subset of this data that a fixed point in a MAR(1) model, perturbed by seasonality and abiotic variables, is an accurate description of the system 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barraquand_coastal_2018"
 literal "false"
 
 \end_inset
 
-.
- Therefore, we are confident that the absence of complexity-resilience found
- here is genuine.
- This absence of direct link between complexity and stability could be an
- actual feature of empirical systems, as shown previously by 
+. Therefore, we are confident that the absence of complexity-resilience found here is genuine. This absence of direct link between complexity and stability could be an actual feature of empirical systems, as shown previously by 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "jacquet_no_2016"
 literal "false"
 
 \end_inset
 
- using a different technique, even though it does contradict previous results
- on random matrices, especially for competitive and/or mutualistic networks
- 
+ using a different technique, even though it does contradict previous results on random matrices, especially for competitive and/or mutualistic networks 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "allesina_stability_2012"
 literal "false"
 
 \end_inset
 
-.
- We also found that the percentage of mutualistic interactions, that is
- thought to affect the stability of the network 
+. We also found that the percentage of mutualistic interactions, that is thought to affect the stability of the network 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "mougi2012diversity,coyte_ecology_2015,garcia-callejas_multiple_2018"
 literal "false"
 
@@ -2332,50 +1996,36 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In addition to weighted connectance, indices at the network-level (e.g., linkage
- density) and at the species or genus level (vulnerability and impact) approxima
-te the average effects exerted and sustained by any given taxa in the different
- study sites.
- While, at the network level, network structure (either complexity measures
- or the percentage of mutualistic interactions) did not affect stability,
- a relation emerged between self-regulation, necessary for coexistence,
- and genus-level indices.
- We found that the more a genus is self-regulated, the more it tends to
- be vulnerable to other genera impacts and the less it impacts other genera.
- High self-regulation usually indicates large niche differences with the
- rest of the community, and it makes therefore sense that a species/genus
- whose needs strongly differ from the others only marginally impacts the
- resources of the other coexisting species.
- Furthermore, a low self-regulation was correlated with high average abundance,
- which echoes findings by 
+In addition to weighted connectance, indices at the network-level (e.g., linkage density) and at the species or genus level (vulnerability and impact) approximate the average effects exerted and sustained by any given taxa in the different study sites. While, at the network level, network structure (either complexity measures or the percentage of mutualistic interactions) did not affect stability, a relation emerged between self-regulation, necessary for coexistence, and genus-level indices. We found that the more a genus is self-regulated, the more it tends to be vulnerable to other genera impacts and the less it impacts other genera. We examined whether vulnerability and impact could be affected by phylogenetic correlations; they were not as on Fig.
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Vulnerability_impact"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ points were not clustered according to genus, family or phylum. High self-regulation usually indicates large niche differences with the rest of the community, and it makes therefore sense that a species/genus whose needs strongly differ from the others only marginally impacts the resources of the other coexisting species. Furthermore, a low self-regulation was correlated with high average abundance, which echoes findings by 
 \begin_inset CommandInset citation
 LatexCommand citet
+after ""
+before ""
 key "yenni_persistent_2017"
 literal "false"
 
 \end_inset
 
- who found that rare species usually show stronger self-regulation.
- This correlation between rarity and self-regulation could explain the lesser
- impact effect of high self-regulated species/genus: a species which dominates
- the community composition can have a major effect on the others, especially
- as they usually cover more space, while it is harder for rare, localised
- species to have large impacts.
- However, it was more difficult to explain the relationship between self-regulat
-ion and vulnerability: a genus that is more self-regulated and rarer was
- found here to be on average more vulnerable to other genera's increases
- in densities.
- Such relation implies greater stability (
+ who found that rare species usually show stronger self-regulation. This correlation between rarity and self-regulation could explain the lesser impact effect of high self-regulated species/genus: a species which dominates the community composition can have a major effect on the others, especially as they usually cover more space, while it is harder for rare, localised species to have large impacts. However, it was more difficult to explain the relationship between self-regulation and vulnerability: a genus that is more self-regulated and rarer was found here to be on average more vulnerable to other genera's increases in densities. Such relation implies greater stability (
 \emph on
 sensu
 \emph default
- resilience) for the network as a whole, because the taxa that are the most
- vulnerable to other taxa's impacts are also those whose dynamics are intrinsica
-lly more buffered.
- By which mechanisms this could happen is so far unclear and open to speculation.
- We caution, however, that the relationships between vulnerability, impact
- and self-regulation that we evidenced are all relatively weak: considerable
- stochasticity dominates the distribution of interaction matrix coefficients.
+ resilience) for the network as a whole, because the taxa that are the most vulnerable to other taxa's impacts are also those whose dynamics are intrinsically more buffered. By which mechanisms this could happen is so far unclear and open to speculation. We caution, however, that the relationships between vulnerability, impact and self-regulation that we evidenced are all relatively weak: considerable stochasticity dominates the distribution of interaction matrix coefficients.
 \end_layout
 
 \begin_layout Subsection*
@@ -2383,12 +2033,11 @@ Ghosts of competition past and present
 \end_layout
 
 \begin_layout Standard
-Overall, the dominance of niche differentiation in observational plankton
- studies – based on our analysis of the REPHY dataset and re-analysis of
- the MAR(1) literature – is similar to what has been recently found in plant
- community studies 
+Overall, the dominance of niche differentiation in observational plankton studies – based on our analysis of the REPHY dataset and re-analysis of the MAR(1) literature – is similar to what has been recently found in plant community studies 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "volkov_patterns_2007,adler_competition_2018"
 literal "false"
 
@@ -2397,35 +2046,32 @@ literal "false"
  or empirical food webs including horizontal diversity 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barabas_self-regulation_2017"
 literal "false"
 
 \end_inset
 
-.
- Large niche differences might be due to the ghost of the competition past,
- i.e., competition has occurred in the past, leading to strong selection and
- subsequent evolution leading to progressive niche separation.
- In this scenario, species have evolved niches that allow them not to compete
- or to interact only weakly (very strong facilitative effects might be likewise
- destabilizing 
+. Large niche differences might be due to the ghost of the competition past, i.e., competition has occurred in the past, leading to strong selection and subsequent evolution leading to progressive niche separation. In this scenario, species have evolved niches that allow them not to compete or to interact only weakly (very strong facilitative effects might be likewise destabilizing 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "coyte_ecology_2015"
 literal "false"
 
 \end_inset
 
-.
- The likely predator effects that we highlighted above could be comprised
- within such niche differentiation 
+. The likely predator effects that we highlighted above could be comprised within such niche differentiation 
 \emph on
 sensu largo
 \emph default
-: specialized predators can make strong conspecific density-dependence emerge
- 
+: specialized predators can make strong conspecific density-dependence emerge 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "bagchi_pathogens_2014,comita_testing_2014"
 literal "false"
 
@@ -2434,16 +2080,18 @@ literal "false"
 , while switching generalists can also promote diversity 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "vallina2014maximal"
 literal "false"
 
 \end_inset
 
-.
- Both predators and resources have often symmetrical effects and can therefore
- contribute almost equally to such past niche differentiation 
+. Both predators and resources have often symmetrical effects and can therefore contribute almost equally to such past niche differentiation 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "chesson_updates_2018"
 literal "false"
 
@@ -2464,59 +2112,52 @@ ghost of competition present
  
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "tuck_strong_2018"
 literal "false"
 
 \end_inset
 
-, suggests by contrast that spatial distributions in relation to abiotic
- factors might have a large impact on the interaction strengths inferred
- from temporal interaction models such as ours.
- Recent combinations of model fitting and removal experiments have shown
- that the model fitting usually underestimates the effect of competitors
- that are uncovered by removal experiments 
+, suggests by contrast that spatial distributions in relation to abiotic factors might have a large impact on the interaction strengths inferred from temporal interaction models such as ours. Recent combinations of model fitting and removal experiments have shown that the model fitting usually underestimates the effect of competitors that are uncovered by removal experiments 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "tuck_strong_2018,adler_weak_2018"
 literal "false"
 
 \end_inset
 
-.
- This could occur for instance if species are spatially segregated (at a
- small scale) because each species only exists within a domain where it
- is relatively competitive (Pacala's spatial segregation hypothesis 
+. This could occur for instance if species are spatially segregated (at a small scale) because each species only exists within a domain where it is relatively competitive (Pacala's spatial segregation hypothesis 
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "pacala1997biologically"
 literal "false"
 
 \end_inset
 
-), while a focal species could spread out if competitors were removed.
- This means that a species can be limited by competitors, but act so as
- to minimize competition (a little like avoidance behaviour in animals),
- which implies that competition is in effect hard to detect when all species
- are present.
- This would require spatial segregation between phytoplankton species at
- the scale of interactions, i.e., at the microscale.
- At the moment, it is known that turbulence generates inhomogeneities at
- the microscale 
+), while a focal species could spread out if competitors were removed. This means that a species can be limited by competitors, but act so as to minimize competition (a little like avoidance behaviour in animals), which implies that competition is in effect hard to detect when all species are present. This would require spatial segregation between phytoplankton species at the scale of interactions, i.e., at the microscale. At the moment, it is known that turbulence generates inhomogeneities at the microscale 
 \begin_inset CommandInset citation
 LatexCommand citep
+after ""
+before ""
 key "barton_impact_2014,breier_emergence_2018"
 literal "false"
 
 \end_inset
 
- but it is quite unclear how this affects multivariate spatial patterns
- of species distributions (
+ but it is quite unclear how this affects multivariate spatial patterns of species distributions (
 \shape italic
 sensu
 \shape default
  
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "bolker_spatial_1999"
 literal "false"
 
@@ -2525,14 +2166,14 @@ literal "false"
 , or 
 \begin_inset CommandInset citation
 LatexCommand citealt
+after ""
+before ""
 key "murrell_heteromyopia_2003"
 literal "false"
 
 \end_inset
 
-).
- Moreover, even if turbulence generates spatial structure with segregation
- between species, it is not quite clear that the 
+). Moreover, even if turbulence generates spatial structure with segregation between species, it is not quite clear that the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2540,16 +2181,15 @@ ghost of competition present
 \begin_inset Quotes erd
 \end_inset
 
- mechanism could work for plankton, because turbulence rather than organism
- movement dictates where the phytoplankton patches can or cannot appear.
+ mechanism could work for plankton, because turbulence rather than organism movement dictates where the phytoplankton patches can or cannot appear.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 begin{SCfigure*}[
@@ -2568,7 +2208,6 @@ sidecaptionrelwidth][!h]
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 centering
@@ -2585,7 +2224,6 @@ centering
 status collapsed
 
 \begin_layout Plain Layout
-
 %  
 \backslash
 includegraphics[width=11.4cm]{biotic_interaction_matrices_MainFig_allin1_v4}
@@ -2602,7 +2240,6 @@ includegraphics[width=11.4cm]{biotic_interaction_matrices_MainFig_allin1_v4}
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 caption{Interaction matrices estimated in 10 sites along the French
@@ -2619,9 +2256,7 @@ caption{Interaction matrices estimated in 10 sites along the French
 status collapsed
 
 \begin_layout Plain Layout
-
-% coastline.
- Four regions are distinguished: Brittany (a), Oléron (b),
+% coastline. Four regions are distinguished: Brittany (a), Oléron (b),
 \end_layout
 
 \begin_layout Plain Layout
@@ -2635,9 +2270,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-% Arcachon (d) and the Mediterranean Sea (e).
- Only interactions between
+% Arcachon (d) and the Mediterranean Sea (e). Only interactions between
 \end_layout
 
 \begin_layout Plain Layout
@@ -2651,7 +2284,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % clades (pennate and centric diatoms, dinoflagellates, other planktonic
 \end_layout
 
@@ -2666,7 +2298,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % taxa) are allowed, as this is the best fitting interaction scenario
 \end_layout
 
@@ -2681,9 +2312,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-% (Supplementary Fig.~3).
- Taxon $j$ (in columns) has an effect illustrated
+% (Supplementary Fig.~3). Taxon $j$ (in columns) has an effect illustrated
 \end_layout
 
 \begin_layout Plain Layout
@@ -2697,9 +2326,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-% by the bar height on taxon $i$'s growth rate (in rows).
- We present
+% by the bar height on taxon $i$'s growth rate (in rows). We present
 \end_layout
 
 \begin_layout Plain Layout
@@ -2713,7 +2340,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % the interaction matrix minus the identity matrix ($
 \backslash
 mathbf{B}-
@@ -2732,7 +2358,6 @@ mathbf{I}$)
 status collapsed
 
 \begin_layout Plain Layout
-
 % because this compares unambigously intra- and intergenera interactions.
 \end_layout
 
@@ -2747,7 +2372,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % The scale for the coefficient values is given at the bottom left of
 \end_layout
 
@@ -2762,9 +2386,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-% panel a).
- 95
+% panel a). 95
 \backslash
 % significance of coefficients is marked by asterisks
 \end_layout
@@ -2780,9 +2402,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
-% ({*}).
- The community composition is given in Supplementary Table~2.
+% ({*}). The community composition is given in Supplementary Table~2.
 \end_layout
 
 \begin_layout Plain Layout
@@ -2796,7 +2416,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % The fraction of positive interactions in each matrix is given by points
 \end_layout
 
@@ -2811,7 +2430,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % in c) while the dashed (resp., dotted) line represents the ratio of
 \end_layout
 
@@ -2826,7 +2444,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % interactions remaining positive (resp., negative) for all sites of
 \end_layout
 
@@ -2841,7 +2458,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % a given region.}
 \end_layout
 
@@ -2856,7 +2472,6 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 label{fig:Interaction-matrices}
@@ -2873,7 +2488,6 @@ label{fig:Interaction-matrices}
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 end{SCfigure*}
@@ -2889,19 +2503,17 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
-This study was only made possible by the dedication of all members of the
- REPHY program
+This study was only made possible by the dedication of all members of the REPHY program 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
+after ""
+before ""
 key "REPHY_db"
 literal "false"
 
 \end_inset
 
- by Ifremer, providing invaluable data through years of fieldwork.
- We are grateful to David Murrell for his careful reading and suggestions,
- and to Peter Adler for helpful exchanges.
- This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
+ by Ifremer, providing invaluable data through years of fieldwork. We are grateful to David Murrell for his careful reading and suggestions, and to Peter Adler for helpful exchanges. This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
 \end_layout
 
 \begin_layout Section*
@@ -2913,11 +2525,11 @@ This article contains supporting information.
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 nolinenumbers
@@ -2930,7 +2542,6 @@ nolinenumbers
 status collapsed
 
 \begin_layout Plain Layout
-
 % 
 \backslash
 subsection*{Manuscript Length}
@@ -2947,7 +2558,6 @@ subsection*{Manuscript Length}
 status collapsed
 
 \begin_layout Plain Layout
-
 %
 \backslash
 bibliographystyle{ecology_no_url}
@@ -2963,7 +2573,7 @@ bibliographystyle{ecology_no_url}
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "phytoInteractions_ref"
-options "ecology"
+options "ecol_let"
 
 \end_inset
 
@@ -2972,7 +2582,6 @@ options "ecology"
 status collapsed
 
 \begin_layout Plain Layout
-
 %
 \backslash
 bibliography{bib_fig_review}
