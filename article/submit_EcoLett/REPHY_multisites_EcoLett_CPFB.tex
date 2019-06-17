@@ -21,7 +21,7 @@
 \usepackage{textcomp,marvosym}
 
 % cite package, to clean up citations in the main text. Do not remove.
-\usepackage{cite}
+%\usepackage{cite}
 
 % Use nameref to cite supporting information files (see Supporting Information section for more info)
 \usepackage{nameref}
@@ -57,6 +57,7 @@
 
 %\bibliographystyle{ecology_no_url}
 %\bibliographystyle{ecology}
+
 \usepackage[authoryear]{natbib}
 
 % Header and Footer with logo
@@ -120,7 +121,7 @@ Number of words in the abstract: 143
 
 Number of words in the manuscript: 4327
 
-Number of references: 71
+Number of references: 72
 
 Number of figures: 4
 \bigskip
@@ -244,8 +245,8 @@ Multivariate autoregressive (MAR) models are used to determine the
 interspecific interactions and abiotic effects shaping a community's
 dynamics \citep{ives_estimating_2003}. MAR(1) models are based
 on a stochastic, discrete-time Gompertz equation which relates log-abundance
-of $S$ species at time $t+1$ to log-abundances of the whole community at time $t$, with possible interaction, and effects of $V$ abiotic variables at time
-$t+1$. These assumptions are encapsulated in eq. \ref{eq:MAR}.
+of $S$ species at time $t+1$ to log-abundances of the whole community at time $t$, with possible interactions between species, and effects of $V$ abiotic variables at time
+$t+1$. These assumptions are encapsulated in eq. \ref{eq:MAR}:
 
 \begin{equation}
 \mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})\label{eq:MAR}
@@ -280,10 +281,10 @@ confirmed the ability of MAR(1) models to infer biotic interactions
 and abiotic forcings (e.g., no need for extra non-linearities to model
 the storage effect, which was found to be nearly non-existent, as
 in previous analyses of plant data for which strong-self regulation
-was observed \citep{adler_coexistence_2010,ellner_how_2016, adler_weak_2018}.
+was observed \citep{adler_coexistence_2010,ellner_how_2016, adler_competition_2018}.
 Furthermore, using two abiotic variables (temperature and salinity)
 in this study rather than the full set used in \citet{barraquand_coastal_2018}
-led to almost identical estimates for the Arcachon study site to the ones obtained previously \citep{barraquand_coastal_2018}.
+led to almost identical estimates for the Arcachon study site.
 We are therefore confident that the MAR(1) models presented here are
 robust to small changes in model specification. In general, MAR(1)
 models tend to be fairly robust to small deviations of the underlying
@@ -760,7 +761,8 @@ This article contains supporting information.
 \nolinenumbers
 % \subsection*{Manuscript Length}
 %\bibliographystyle{ecology_no_url}
-\bibliographystyle{ecol_let_sortbyyear}
+ %\bibliographystyle{ecol_let_sortbyyear_v2}
+\bibliographystyle{ecol_let}
 \bibliography{phytoInteractions_ref}
 %\bibliography{bib_fig_review}
 \end{document}
