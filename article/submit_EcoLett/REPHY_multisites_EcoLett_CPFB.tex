@@ -50,26 +50,6 @@
 % create "+" rule type for thick vertical lines
 \newcolumntype{+}{!{\vrule width 2pt}}
 
-% create \thickcline for thick horizontal lines of variable length
-\newlength\savedwidth
-\newcommand\thickcline[1]{%
-  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
-  \cline{#1}%
-  \noalign{\vskip\arrayrulewidth}%
-  \noalign{\global\arrayrulewidth\savedwidth}% 
-}
-
-% \thickhline command for thick horizontal lines that span the table
-\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
-\hline
-\noalign{\global\arrayrulewidth\savedwidth}}
-
-% Text layout
-% \raggedright
-% \setlength{\parindent}{0.5cm}
-% \textwidth 5.25in 
-% \textheight 8.75in
-
 % Bold the 'Figure #' in the caption and separate it from the title/caption with a period
 % Captions will be left justified
 \usepackage[labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
@@ -136,9 +116,9 @@ Frédéric Barraquand\textsuperscript{1,2*}
 \textbf{Keywords}: phytoplankton; coexistence; time series; niche theory; networks 
 
 \bigskip
-Number of words in the abstract: 148
+Number of words in the abstract: 143
 
-Number of words in the manuscript: 4317
+Number of words in the manuscript: 4327
 
 Number of references: 71
 
@@ -158,7 +138,7 @@ Number of figures: 4
 \spacing{1.5}
 
 \section*{Abstract}
-The persistence of phytoplanktonic diversity in spite of competition for basic resources has long been a source of wonder and inspiration to ecologists. To sort out, among the many coexistence mechanisms suggested by theory and experiments, which ones actually maintain diversity in natural ecosystems, long-term field studies are paramount. Here, we analyse a large dataset of phytoplankton abundance time series, counted every two weeks over 20 years, at 10 sites along the French coastline. We estimate biotic interactions using dynamic, multispecies autoregressive models. We show that a strong self-regulation, with competition strength within a genus an order of magnitude higher than between genera, was present in all phytoplanktonic interaction networks. Furthermore, positive net effects between phytoplanktonic taxa constituted at least 40\% of non-null interactions in all sites. Both strong self-regulation and widespread net facilitation should therefore be key features of coexistence mechanisms intending to explain phytoplankton diversity maintenance.
+The persistence of phytoplanktonic diversity in spite of potentially strong competition is a long-standing puzzle of ecology. Here, we analyse a large dataset of phytoplankton abundance time series, counted every two weeks over twenty years, at ten sites along the French coastline. We estimate biotic interaction strengths using dynamic, multispecies autoregressive models. We show that a strong self-regulation, with competition strength within a genus an order of magnitude higher than between genera, was present in all interaction networks. This much stronger intra-taxon competition suggests that niche differentiation - rather than neutrality - was commonplace. Facilitation was also widespread, being even more frequent that inter-taxa competition. While network stability was unrelated to complexity measures, we unveiled links between self-regulation, inter-taxa interaction strengths and abundance. Strong self-regulation, widespread facilitation and stabilizing covariances between interaction strengths seem to be common features of coexisting phytoplanktonic communities in the field.
 %should be under 150 for EcoLet
 
 \linenumbers
@@ -263,10 +243,9 @@ All time series were scaled and centered before MAR analyses.
 Multivariate autoregressive (MAR) models are used to determine the
 interspecific interactions and abiotic effects shaping a community's
 dynamics \citep{ives_estimating_2003}. MAR(1) models are based
-on a stochastic, discrete-time Gompertz model which relates log-abundance
-of $S$ species at time $t+1$ to interactions with the rest of the
-community at time $t$, and effects of $V$ abiotic variables at time
-$t+1$, following eq. \ref{eq:MAR}.
+on a stochastic, discrete-time Gompertz equation which relates log-abundance
+of $S$ species at time $t+1$ to log-abundances of the whole community at time $t$, with possible interaction, and effects of $V$ abiotic variables at time
+$t+1$. These assumptions are encapsulated in eq. \ref{eq:MAR}.
 
 \begin{equation}
 \mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})\label{eq:MAR}
@@ -301,10 +280,10 @@ confirmed the ability of MAR(1) models to infer biotic interactions
 and abiotic forcings (e.g., no need for extra non-linearities to model
 the storage effect, which was found to be nearly non-existent, as
 in previous analyses of plant data for which strong-self regulation
-was observed \citep{adler_coexistence_2010,ellner_how_2016}.
+was observed \citep{adler_coexistence_2010,ellner_how_2016, adler_weak_2018}.
 Furthermore, using two abiotic variables (temperature and salinity)
 in this study rather than the full set used in \citet{barraquand_coastal_2018}
-led to almost identical estimates to the ones obtained previously \citep{barraquand_coastal_2018}.
+led to almost identical estimates for the Arcachon study site to the ones obtained previously \citep{barraquand_coastal_2018}.
 We are therefore confident that the MAR(1) models presented here are
 robust to small changes in model specification. In general, MAR(1)
 models tend to be fairly robust to small deviations of the underlying
@@ -315,7 +294,7 @@ which is how these models are used here. For ease of interpretation
 of those coefficients, we also prove the correspondance between the
 magnitude of intra/inter interaction strength in a MAR(1) model and
 a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterra
-model, in the Supplementary Information.
+model \citep{cushing_discrete_2004} , in the Supplementary Information.
 
 In this study, the number of phytoplankton groups, $S$, varies between
 regions but we keep the same 2 covariates, i.e. water temperature
@@ -389,7 +368,7 @@ number of interacting groups, leading most authors to reduce this
 set before the estimation process for large interaction matrices.
 There is therefore a positive correlation between sparsity and dimensionality
 (Fig~S9). A second caveat is that while we informed
-our model selection by phylogeny (see above), several authors have
+our model selection by phylogeny (see above), several authors have instead
 reduced the number of estimated parameters by an automated procedure,
 usually based on the comparison of 100 randomly chosen interaction
 matrices by BIC \citep{ives_estimating_2003}. The latter choice
@@ -524,8 +503,7 @@ plots.}
 \label{fig:Vulnerability_impact}
 \end{figure*}
 
-Aside from these trade-offs, some of which promote some stability
-(\emph{sensu} invariability, \citealt{Arnoldi431296}), we found no
+Aside from these trade-offs, we found no
 remarkable patterns of covariation between matrix elements (other
 than a mean-variance scaling of interaction coefficients, Fig~S6).
 
@@ -587,10 +565,10 @@ rather than the species. Although it is logical that niche differentiation
 increases as one gets up the phylogenetic tree, and that getting down
 to the species level could slightly decrease that ratio, there are
 two arguments suggesting that the niche differences found here extend
-to the species level. First, species belonging to the various genera
-considered here are often found to compete in experiments \citep{titman_ecological_1976,tilman_phytoplankton_1982,descamps-julien_stable_2005}.
-There is therefore a massive difference between niches in the lab
-and in the field \citep{barraquand_coastal_2018}. Second, the
+to the species level. First, phytoplankton species belonging to different genera
+are often found to compete in experiments \citep{titman_ecological_1976,tilman_phytoplankton_1982,descamps-julien_stable_2005}.
+There is therefore a massive difference between niche differentiation in the lab (weak)
+and in the field (strong, \citealt{barraquand_coastal_2018}). Second, the
 only other study that managed to provide MAR(1) estimates down to
 the species level for phytoplankton, that of \citet{huber_role_2006},
 provides an intra/interspecific strength ratio similar to ours (point
@@ -644,7 +622,7 @@ There was no relation between the complexity of the communities (measured
 as either the weighted connectance or linkage density of the interaction
 matrices) and their stability, as measured by the dominant eigenvalue
 of the interaction matrix, which measures the return time to a point
-equilibrium. This result is conditional upon our model being a good
+equilibrium (i.e., resilience). This result is conditional upon our model being a good
 approximate description of the system (i.e., no multiyear limit cycles
 or chaotic attractors as the mapping between eigenvalues and actual
 stability is distorted in that case \citep{certain_how_2018}
@@ -689,7 +667,7 @@ it was more difficult to explain the relationship between self-regulation
 and vulnerability: a genus that is more self-regulated and rarer was
 found here to be on average more vulnerable to other genera's increases
 in densities. Such relation implies greater stability (\emph{sensu}
-resilience) for the network as a whole, because the taxa that are
+resilience, \citealt{ives_estimating_2003}, and also invariability, \citealt{Arnoldi431296}) for the network as a whole, because the taxa that are
 the most vulnerable to other taxa's impacts are also those whose dynamics
 are intrinsically more buffered. By which mechanisms this could happen
 is so far unclear and open to speculation. We caution, however, that
@@ -782,7 +760,7 @@ This article contains supporting information.
 \nolinenumbers
 % \subsection*{Manuscript Length}
 %\bibliographystyle{ecology_no_url}
-\bibliographystyle{ecol_let}
+\bibliographystyle{ecol_let_sortbyyear}
 \bibliography{phytoInteractions_ref}
 %\bibliography{bib_fig_review}
 \end{document}
