@@ -66,26 +66,6 @@
 % create "+" rule type for thick vertical lines
 \newcolumntype{+}{!{\vrule width 2pt}}
 
-% create \thickcline for thick horizontal lines of variable length
-\newlength\savedwidth
-\newcommand{\thickcline}[1]{%
-  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
-  \cline{#1}%
-  \noalign{\vskip\arrayrulewidth}%
-  \noalign{\global\arrayrulewidth\savedwidth}% 
-}
-
-% \thickhline command for thick horizontal lines that span the table
-\newcommand{\thickhline}{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
-\hline
-\noalign{\global\arrayrulewidth\savedwidth}}
-
-% Text layout
-% \raggedright
-% \setlength{\parindent}{0.5cm}
-% \textwidth 5.25in 
-% \textheight 8.75in
-
 % Bold the 'Figure #' in the caption and separate it from the title/caption with a period
 % Captions will be left justified
 \usepackage[labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
@@ -426,7 +406,7 @@ Number of words in the abstract: 148
 \end_layout
 
 \begin_layout Standard
-Number of words in the manuscript: XXX
+Number of words in the manuscript: 4317
 \end_layout
 
 \begin_layout Standard
@@ -504,7 +484,7 @@ status collapsed
 
 \end_inset
 
-* corresponding author (phone number?)
+* corresponding author
 \end_layout
 
 \begin_layout Standard
@@ -552,7 +532,7 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-The persistence of phytoplanktonic diversity in spite of competition for basic resources has long been a source of wonder and inspiration to ecologists. To sort out, among the many coexistence mechanisms suggested by theory and experiments, which ones actually maintain diversity in natural ecosystems, long-term field studies are paramount. Here, we analyse a large dataset of phytoplankton abundance time series, counted every two weeks over 20 years, at 10 sites along the French coastline. We estimate biotic interactions using dynamic, multispecies autoregressive models. We show that a strong self-regulation, with competition strength within a genus an order of magnitude higher than between genera, was present in all phytoplanktonic interaction networks. Furthermore, positive net effects between phytoplanktonic taxa constituted at least 40% of non-null interactions in all sites. Both strong self-regulation and widespread net facilitation should therefore be key features of coexistence mechanisms intending to explain phytoplankton diversity maintenance. 
+The persistence of phytoplanktonic diversity in spite of potentially strong competition is a long-standing puzzle of ecology. Here, we analyse a large dataset of phytoplankton abundance time series, counted every two weeks over twenty years, at ten sites along the French coastline. We estimate biotic interaction strengths using dynamic, multispecies autoregressive models. We show that a strong self-regulation, with competition strength within a genus an order of magnitude higher than between genera, was present in all interaction networks. This much stronger intra-taxon competition suggests that niche differentiation - rather than neutrality - was commonplace. Facilitation was also widespread, being even more frequent that inter-taxa competition. While network stability was unrelated to complexity measures, we unveiled links between self-regulation, inter-taxa interaction strengths and abundance. Strong self-regulation, widespread facilitation and stabilizing covariances between interaction strengths seem to be common features of coexisting phytoplanktonic communities in the field. 
 \begin_inset ERT
 status collapsed
 
@@ -902,7 +882,7 @@ literal "false"
 
 \end_inset
 
-. MAR(1) models are based on a stochastic, discrete-time Gompertz model which relates log-abundance of 
+. MAR(1) models are based on a stochastic, discrete-time Gompertz equation which relates log-abundance of 
 \begin_inset Formula $S$
 \end_inset
 
@@ -910,11 +890,11 @@ literal "false"
 \begin_inset Formula $t+1$
 \end_inset
 
- to interactions with the rest of the community at time 
+ to log-abundances of the whole community at time 
 \begin_inset Formula $t$
 \end_inset
 
-, and effects of 
+, with possible interaction, and effects of 
 \begin_inset Formula $V$
 \end_inset
 
@@ -922,7 +902,7 @@ literal "false"
 \begin_inset Formula $t+1$
 \end_inset
 
-, following eq. 
+. These assumptions are encapsulated in eq. 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:MAR"
@@ -1067,7 +1047,7 @@ literal "false"
 LatexCommand citep
 after ""
 before ""
-key "adler_coexistence_2010,ellner_how_2016"
+key "adler_coexistence_2010,ellner_how_2016, adler_weak_2018"
 literal "false"
 
 \end_inset
@@ -1082,7 +1062,7 @@ literal "false"
 
 \end_inset
 
- led to almost identical estimates to the ones obtained previously 
+ led to almost identical estimates for the Arcachon study site to the ones obtained previously 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -1102,7 +1082,17 @@ literal "false"
 
 \end_inset
 
-, which is how these models are used here. For ease of interpretation of those coefficients, we also prove the correspondance between the magnitude of intra/inter interaction strength in a MAR(1) model and a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterra model, in the Supplementary Information.
+, which is how these models are used here. For ease of interpretation of those coefficients, we also prove the correspondance between the magnitude of intra/inter interaction strength in a MAR(1) model and a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterra model 
+\begin_inset CommandInset citation
+LatexCommand citep
+after ""
+before ""
+key "cushing_discrete_2004"
+literal "false"
+
+\end_inset
+
+ , in the Supplementary Information.
 \end_layout
 
 \begin_layout Standard
@@ -1181,7 +1171,7 @@ S3. Authors usually reported only coefficients that were significant at the 95% 
 
 \end_inset
 
-S9). A second caveat is that while we informed our model selection by phylogeny (see above), several authors have reduced the number of estimated parameters by an automated procedure, usually based on the comparison of 100 randomly chosen interaction matrices by BIC 
+S9). A second caveat is that while we informed our model selection by phylogeny (see above), several authors have instead reduced the number of estimated parameters by an automated procedure, usually based on the comparison of 100 randomly chosen interaction matrices by BIC 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -1587,21 +1577,7 @@ name "fig:Vulnerability_impact"
 \end_layout
 
 \begin_layout Standard
-Aside from these trade-offs, some of which promote some stability (
-\emph on
-sensu
-\emph default
- invariability, 
-\begin_inset CommandInset citation
-LatexCommand citealt
-after ""
-before ""
-key "Arnoldi431296"
-literal "false"
-
-\end_inset
-
-), we found no remarkable patterns of covariation between matrix elements (other than a mean-variance scaling of interaction coefficients, Fig
+Aside from these trade-offs, we found no remarkable patterns of covariation between matrix elements (other than a mean-variance scaling of interaction coefficients, Fig
 \begin_inset space ~
 
 \end_inset
@@ -1747,7 +1723,7 @@ literal "false"
 
 \end_inset
 
-. Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in the Supplementary Information that the intra/inter ratio should remain commensurate. The difference in the intra/inter ratio that we found should therefore lie elsewhere, which requires some explanation. First, one could argue that such high intra/inter ratio arises because we consider the genus as our baseline taxonomic unit, rather than the species. Although it is logical that niche differentiation increases as one gets up the phylogenetic tree, and that getting down to the species level could slightly decrease that ratio, there are two arguments suggesting that the niche differences found here extend to the species level. First, species belonging to the various genera considered here are often found to compete in experiments 
+. Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in the Supplementary Information that the intra/inter ratio should remain commensurate. The difference in the intra/inter ratio that we found should therefore lie elsewhere, which requires some explanation. First, one could argue that such high intra/inter ratio arises because we consider the genus as our baseline taxonomic unit, rather than the species. Although it is logical that niche differentiation increases as one gets up the phylogenetic tree, and that getting down to the species level could slightly decrease that ratio, there are two arguments suggesting that the niche differences found here extend to the species level. First, phytoplankton species belonging to different genera are often found to compete in experiments 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -1757,9 +1733,9 @@ literal "false"
 
 \end_inset
 
-. There is therefore a massive difference between niches in the lab and in the field 
+. There is therefore a massive difference between niche differentiation in the lab (weak) and in the field (strong, 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citealt
 after ""
 before ""
 key "barraquand_coastal_2018"
@@ -1767,7 +1743,7 @@ literal "false"
 
 \end_inset
 
-. Second, the only other study that managed to provide MAR(1) estimates down to the species level for phytoplankton, that of 
+). Second, the only other study that managed to provide MAR(1) estimates down to the species level for phytoplankton, that of 
 \begin_inset CommandInset citation
 LatexCommand citet
 after ""
@@ -1942,7 +1918,7 @@ No complexity-stability relationship but connections between self-regulation and
 \end_layout
 
 \begin_layout Standard
-There was no relation between the complexity of the communities (measured as either the weighted connectance or linkage density of the interaction matrices) and their stability, as measured by the dominant eigenvalue of the interaction matrix, which measures the return time to a point equilibrium. This result is conditional upon our model being a good approximate description of the system (i.e., no multiyear limit cycles or chaotic attractors as the mapping between eigenvalues and actual stability is distorted in that case 
+There was no relation between the complexity of the communities (measured as either the weighted connectance or linkage density of the interaction matrices) and their stability, as measured by the dominant eigenvalue of the interaction matrix, which measures the return time to a point equilibrium (i.e., resilience). This result is conditional upon our model being a good approximate description of the system (i.e., no multiyear limit cycles or chaotic attractors as the mapping between eigenvalues and actual stability is distorted in that case 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -2025,7 +2001,27 @@ literal "false"
 \emph on
 sensu
 \emph default
- resilience) for the network as a whole, because the taxa that are the most vulnerable to other taxa's impacts are also those whose dynamics are intrinsically more buffered. By which mechanisms this could happen is so far unclear and open to speculation. We caution, however, that the relationships between vulnerability, impact and self-regulation that we evidenced are all relatively weak: considerable stochasticity dominates the distribution of interaction matrix coefficients.
+ resilience, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+after ""
+before ""
+key "ives_estimating_2003"
+literal "false"
+
+\end_inset
+
+, and also invariability, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+after ""
+before ""
+key "Arnoldi431296"
+literal "false"
+
+\end_inset
+
+) for the network as a whole, because the taxa that are the most vulnerable to other taxa's impacts are also those whose dynamics are intrinsically more buffered. By which mechanisms this could happen is so far unclear and open to speculation. We caution, however, that the relationships between vulnerability, impact and self-regulation that we evidenced are all relatively weak: considerable stochasticity dominates the distribution of interaction matrix coefficients.
 \end_layout
 
 \begin_layout Subsection*
@@ -2573,7 +2569,7 @@ bibliographystyle{ecology_no_url}
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "phytoInteractions_ref"
-options "ecol_let"
+options "ecol_let_sortbyyear"
 
 \end_inset
 
