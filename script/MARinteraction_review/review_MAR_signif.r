@@ -203,7 +203,7 @@ mtext("Sparsity",side=1,line=2.5,cex=2.0)
 dev.off()
 
 #Comparing
-#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_log_cleaner_allwith0_ONLY_SIGNIF.pdf",width=10,height=8)
+pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_log_cleaner_allwith0_ONLY_SIGNIF.pdf",width=10,height=8)
 par(mfrow=c(1,1),xpd=NA,mar=c(3,4.5,1,1))
 
 symbol=rep(21,dim(tab_answer)[1])
@@ -243,7 +243,7 @@ dev.off()
 
 #symbol=rep(21,dim(tab_answer)[1])
 
-pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others.pdf",width=18,height=8)
+pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others_species2taxa.pdf",width=18,height=8)
 par(mfrow=c(1,2),xpd=NA,mar=c(4,4.5,3,0.5))
 
 app_T=c(100,100,100,50,300,300,100,100,100,300,200,400,400,300,300,50,100,30,1000,700,300,500)
@@ -256,7 +256,7 @@ sy=c(sy,rep(17,length(app_T_this_study)))
 par(mfrow=c(1,2))
 plot(app_T,tab_answer[,'Prop signif'],col=col,pch=sy,cex=2,cex.lab=2.0,cex.axis=1.5,ylab="Sparsity",xlab="Length of the time series")
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
-plot(tab_answer[,'Dimension'],tab_answer[,'Prop signif'],col=col,pch=sy,cex.lab=2.0,cex=2,cex.axis=1.5,ylab="",xlab="Number of species")
+plot(tab_answer[,'Dimension'],tab_answer[,'Prop signif'],col=col,pch=sy,cex.lab=2.0,cex=2,cex.axis=1.5,ylab="",xlab="Number of taxa")
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
 legend("bottomright",c("Other studies","This study"),pch=c(16,17),col=c("black","blue"),bty="n",cex=2)
 
