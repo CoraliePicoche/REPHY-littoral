@@ -176,6 +176,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -2100369821 "cpicoche"
 \author -666822487 "frederic"
 \end_header
 
@@ -544,39 +545,17 @@ The persistence of phytoplanktonic diversity in spite of potentially strong
  Here, we analyse a large dataset of phytoplankton abundance time series,
  counted every two weeks over twenty years, at ten sites along the French
  coastline.
- We estimate biotic interaction strengths using dynamic, 
-\change_deleted -666822487 1561047239
-multispecies
-\change_inserted -666822487 1561047242
-multivariate
-\change_unchanged
- autoregressive models.
+ We estimate biotic interaction strengths using dynamic, multivariate autoregres
+sive models.
  We show that a strong self-regulation, with competition strength within
  a taxon (genus) an order of magnitude higher than between taxa, was present
  in all interaction networks.
- This much stronger intra-
-\change_deleted -666822487 1561047252
-taxon
-\change_inserted -666822487 1561047253
-genus
-\change_unchanged
- competition suggests that niche differentiation - rather than neutrality
- - was commonplace.
- Facilitation was also widespread, being even more frequent that inter-
-\change_deleted -666822487 1561047261
-taxa
-\change_inserted -666822487 1561047261
-genus
-\change_unchanged
+ This much stronger intra-genus competition suggests that niche differentiation
+ - rather than neutrality - was commonplace.
+ Facilitation was also widespread, being even more frequent that inter-genus
  competition.
  While network stability was unrelated to complexity measures, we unveiled
- links between self-regulation, inter-
-\change_deleted -666822487 1561047277
-taxa
-\change_inserted -666822487 1561047279
-genus
-\change_unchanged
- interaction strengths and abundance.
+ links between self-regulation, inter-genus interaction strengths and abundance.
  Strong self-regulation, widespread facilitation and stabilizing covariances
  between interaction strengths seem to be common features of coexisting
  phytoplanktonic communities in the field.
@@ -806,56 +785,11 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Here, we 
-\change_deleted -666822487 1561047620
-study
-\change_inserted -666822487 1561047622
-analyze
-\change_unchanged
- a 
-\change_deleted -666822487 1561047518
-large 
-\change_inserted -666822487 1561047567
-spatially replicated, 
-\change_deleted -666822487 1561047518
-multi-species 
-\change_inserted -666822487 1561047444
-long-term community-level 
-\change_unchanged
-dataset
-\change_inserted -666822487 1561047448
-,
-\change_unchanged
- consisting of 
-\change_deleted -666822487 1561047387
-several
-\change_inserted -666822487 1561047387
-ten
-\change_unchanged
- multivariate 
-\change_deleted -666822487 1561047581
-long-term 
-\change_unchanged
-time series of phytoplankton 
-\change_deleted -666822487 1561047591
-dynamics
-\change_inserted -666822487 1561047592
-abundance
-\change_unchanged
- along the French coastline
-\change_deleted -666822487 1561047645
-, which we then analyse
-\change_inserted -666822487 1561047655
-.
- The time series are modelled 
-\change_deleted -666822487 1561047646
- 
-\change_unchanged
-using multivariate autoregressive (MAR) 
-\change_deleted -666822487 1561047670
-time series 
-\change_unchanged
-models, allowing for interactions between genera.
+Here, we analyse a spatially replicated, long-term community-level dataset,
+ consisting of ten multivariate time series of phytoplankton abundance along
+ the French coastline.
+ The time series are modelled using multivariate autoregressive (MAR) models,
+ allowing for interactions between genera.
  Although many ecological studies focus on interactions between species,
  competition has been shown experimentally to occur between different genera
  of phytoplankton 
@@ -920,11 +854,7 @@ literal "false"
 \begin_inset space ~
 \end_inset
 
-S1
-\change_inserted -666822487 1561047808
- and Table S1
-\change_unchanged
-).
+S1 and Table S1).
 \end_layout
 
 \begin_layout Standard
@@ -948,11 +878,7 @@ literal "false"
  Throughout the years and sites, more than 600 taxa were identified at different
  taxonomic levels.
  We aggregated them at the genus (or group of genera when not possible)
- level based on previous work 
-\change_inserted -666822487 1561047826
-(Table S2; 
-\change_unchanged
-
+ level based on previous work (Table S2; 
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "hernandez_farinas_assessing_2015,barraquand_coastal_2018"
@@ -960,11 +886,7 @@ literal "false"
 
 \end_inset
 
-
-\change_inserted -666822487 1561047831
-)
-\change_unchanged
-, except for cryptophytes and euglenophytes in Arcachon, which could not
+), except for cryptophytes and euglenophytes in Arcachon, which could not
  be identified below the family level.
  Although the taxonomic resolution used here may seem coarse in comparison
  to land plants, it is in fact more refined than 86% of the MAR(1) studies
@@ -978,13 +900,9 @@ S3.
 \begin_layout Standard
 For each region, the MAR(1) analysis focused on the most abundant and most
  frequently observed genera to avoid most of the gaps in the time series.
- 
-\change_inserted -666822487 1561047863
-Time series are plotted in Fig.
+ Time series are plotted in Fig.
  S2.
- 
-\change_unchanged
-When gaps did not exceed a month, missing values were linearly interpolated;
+ When gaps did not exceed a month, missing values were linearly interpolated;
  remaining missing values were replaced by a random number between 0 and
  half of the lowest observed abundance 
 \begin_inset CommandInset citation
@@ -1024,27 +942,11 @@ literal "false"
 
 .
  MAR(1) models are based on a stochastic, discrete-time Gompertz equation
- which relates 
-\change_inserted -666822487 1561047886
-the 
-\change_unchanged
-log-abundance of
-\change_inserted -666822487 1561047892
- each of the 
-\change_deleted -666822487 1561047889
- 
-\change_unchanged
-
+ which relates the log-abundance of each of the 
 \begin_inset Formula $S$
 \end_inset
 
- 
-\change_deleted -666822487 1561047906
-species
-\change_inserted -666822487 1561047906
-taxa
-\change_unchanged
- at time 
+ taxa at time 
 \begin_inset Formula $t+1$
 \end_inset
 
@@ -1052,13 +954,7 @@ taxa
 \begin_inset Formula $t$
 \end_inset
 
-, with possible interactions between 
-\change_deleted -666822487 1561047915
-species
-\change_inserted -666822487 1561047916
-taxa
-\change_unchanged
-, and effects of 
+, with possible interactions between taxa, and effects of 
 \begin_inset Formula $V$
 \end_inset
 
@@ -1101,13 +997,7 @@ where
 \begin_inset Formula $1\times S$
 \end_inset
 
- vector of log-abundance of phytoplankton 
-\change_deleted -666822487 1561047921
-groups
-\change_inserted -666822487 1561047921
-taxa
-\change_unchanged
-, 
+ vector of log-abundance of phytoplankton taxa, 
 \begin_inset Formula $\mathbf{B}$
 \end_inset
 
@@ -1132,10 +1022,10 @@ taxa
 \end_inset
 
 ) on 
-\change_deleted -666822487 1561047928
-species
+\change_deleted -2100369821 1561102992
+ 
 \change_unchanged
- growth rates, and 
+growth rates, and 
 \begin_inset Formula $\mathbf{e}_{t}$
 \end_inset
 
@@ -1219,54 +1109,11 @@ literal "false"
 
 \end_inset
 
- was complemented by that of 
-\change_deleted -666822487 1561047967
-phytoplankton-like 
-\change_unchanged
-simulated data
-\change_inserted -666822487 1561047975
- mimicking the study design
-\change_unchanged
-, which confirmed the ability of MAR(1) models to infer biotic interactions
- and abiotic forcings
-\change_inserted -666822487 1561047953
-.
-
-\change_unchanged
- 
-\change_deleted -666822487 1561048006
-(e.g.,
-\change_inserted -666822487 1561048007
-There was 
-\change_deleted -666822487 1561048007
- 
-\change_unchanged
-no need 
-\change_inserted -666822487 1561048453
-to account 
-\change_unchanged
-for extra non-linearities to model 
-\change_deleted -666822487 1561048411
-the
-\change_inserted -666822487 1561048416
-relative nonlinearities or a 
-\change_deleted -666822487 1561048412
- 
-\change_unchanged
-storage effect, 
-\change_deleted -666822487 1561048436
-which was
-\change_inserted -666822487 1561048438
-as these were 
-\change_deleted -666822487 1561048436
- 
-\change_unchanged
-found to be 
-\change_deleted -666822487 1561048365
-nearly 
-\change_unchanged
-non-existent
-\change_inserted -666822487 1561048310
+ was complemented by that of simulated data mimicking the study design,
+ which confirmed the ability of MAR(1) models to infer biotic interactions
+ and abiotic forcings.
+ There was no need to account for extra non-linearities to model relative
+ nonlinearities or a storage effect, as these were found to be non-existent
  (through threshold autoregressive models, 
 \begin_inset CommandInset citation
 LatexCommand citealp
@@ -1276,25 +1123,10 @@ literal "false"
 \end_inset
 
 )
-\change_deleted -666822487 1561048395
-, as in previous analyses of plant data for which strong-self regulation
- was observed 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "adler_coexistence_2010,ellner_how_2016"
-literal "false"
-
-\end_inset
-
-
-\change_inserted -666822487 1561048395
-
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1561048395
 , as in previous analyses of plant data for which strong-self regulation
  was observed 
 \begin_inset CommandInset citation
@@ -1304,24 +1136,15 @@ literal "false"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 .
- 
-\change_inserted -666822487 1561048591
-Other aspects of the MAR(1) modelling are likewise quite robust: 
-\change_deleted -666822487 1561048595
-Furthermore, 
-\change_unchanged
-using two abiotic variables (temperature and salinity) in this study rather
- than the full set used in 
+ Other aspects of the MAR(1) modelling are likewise quite robust: using
+ two abiotic variables (temperature and salinity) in this study rather than
+ the full set used in 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "barraquand_coastal_2018"
@@ -1329,18 +1152,9 @@ literal "false"
 
 \end_inset
 
- led to almost identical 
-\change_inserted -666822487 1561048626
-covariate effects and interaction 
-\change_unchanged
-estimates for the Arcachon study site.
- 
-\change_deleted -666822487 1561048565
-We are therefore confident that the MAR(1) models presented here are robust
- to small changes in model specification.
- 
-\change_inserted -666822487 1561048883
-Even if some departures from the true data-generating model may not always
+ led to almost identical covariate effects and interaction estimates for
+ the Arcachon study site.
+ Even if some departures from the true data-generating model may not always
  be detectable through MAR(1) diagnostics (e.g., residuals), simulation work
  has showed that MAR(1) models are in general robust to nonlinearities 
 \begin_inset CommandInset citation
@@ -1353,38 +1167,13 @@ literal "false"
  if the inference focuses on interaction sign and order of magnitude of
  model coefficients, which how these models are used here.
  
-\change_deleted -666822487 1561048743
-In general, MAR(1) models tend to be fairly robust to small deviations of
- the underlying (non-linear) data-generating model, provided that one asks
- mainly order of magnitude of coefficients values (rather than precise point
- estimates) and sign of interaction coefficients 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "certain_how_2018"
-literal "false"
-
-\end_inset
-
-, which is how these models are used here.
-
-\change_unchanged
- For ease of interpretation of 
-\change_deleted -666822487 1561048837
-those
-\change_inserted -666822487 1561048842
-MAR(1) interaction 
-\change_deleted -666822487 1561048840
+\change_deleted -2100369821 1561103180
  
 \change_unchanged
-coefficients, we also prove the correspond
-\change_inserted -666822487 1561048847
-e
-\change_deleted -666822487 1561048847
-a
-\change_unchanged
-nce between the magnitude of intra/inter interaction strength in a MAR(1)
- model and a multispecies Beverton-Holt model, i.e., a discrete-time Lotka-Volterr
-a model 
+For ease of interpretation of MAR(1) interaction coefficients, we also prove
+ the correspondence between the magnitude of intra/inter interaction strength
+ in a MAR(1) model and a multispecies Beverton-Holt model, i.e., a discrete-time
+ Lotka-Volterra model 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cushing_discrete_2004"
@@ -1392,75 +1181,23 @@ literal "false"
 
 \end_inset
 
-
-\change_deleted -666822487 1561048906
- 
-\change_unchanged
 , in the Supplementary Information.
 \end_layout
 
 \begin_layout Standard
-In this study, the number of phytoplankton 
-\change_deleted -666822487 1561048914
-groups
-\change_inserted -666822487 1561048915
-taxa
-\change_unchanged
-, 
+In this study, the number of phytoplankton taxa, 
 \begin_inset Formula $S$
 \end_inset
 
-, 
-\change_inserted -666822487 1561048927
-and the community composition 
-\change_unchanged
-varies
-\change_inserted -666822487 1561049008
- slightly 
-\change_deleted -666822487 1561049006
- 
-\change_unchanged
-between regions
-\change_inserted -666822487 1561048993
- but most taxa are shared between all sites.
- 
-\change_deleted -666822487 1561049016
- but
-\change_inserted -666822487 1561049023
-In order to have comparable models, 
-\change_deleted -666822487 1561049018
- 
-\change_unchanged
-we 
-\change_inserted -666822487 1561049027
-also 
-\change_unchanged
-keep the same 2 covariates, i.e.
-\change_inserted -666822487 1561049033
-,
-\change_unchanged
- water temperature and salinity, that were measured at all study sites.
- Therefore, the dimension of the dynamical system 
-\change_deleted -666822487 1561049045
-only
-\change_inserted -666822487 1561049048
-mostly
-\change_unchanged
- depends on the (square of the) number of phytoplankton 
-\change_deleted -666822487 1561049059
-groups
-\change_inserted -666822487 1561049059
-taxa
-\change_unchanged
- we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany).
+, and the community composition varies slightly between regions but sites
+ share on average 67% of their taxa.
+ In order to have comparable models, we also keep the same 2 covariates,
+ i.e., water temperature and salinity, that were measured at all study sites.
+ Therefore, the dimension of the dynamical system mostly depends on the
+ (square of the) number of phytoplankton taxa we study, which ranges between
+ 7 (Mediterranean Sea) and 14 (Brittany).
  The smallest system still requires 70 parameters to be estimated if we
- consider all possible interactions between 
-\change_deleted -666822487 1561049078
-species
-\change_inserted -666822487 1561049079
-taxa
-\change_unchanged
-.
+ consider all possible interactions between taxa.
  To reduce this dimensionality and remove unnecessary parameters, we compared
  different `interaction scenarios' based on BIC (Fig
 \begin_inset space ~
@@ -1490,25 +1227,10 @@ n scenarios.
  the last interaction scenario did not constrain the interactions at all
  (full interaction matrix).
  The second interaction scenario, hereafter called the pennate-centric scenario,
- had the lowest BIC for all sites 
-\change_inserted -666822487 1561049116
-(Fig.
+ had the lowest BIC for all sites (Fig.
  S3).
- 
-\change_deleted -666822487 1561049132
-and was therefore the most parsimonious, and
-\change_inserted -666822487 1561049138
-This parsimonious scenario 
-\change_deleted -666822487 1561049133
- 
-\change_unchanged
-was
-\change_inserted -666822487 1561049141
- therefore 
-\change_deleted -666822487 1561049139
- 
-\change_unchanged
-chosen as the basis for further investigations of network structure.
+ This parsimonious scenario was therefore chosen as the basis for further
+ investigations of network structure.
 \end_layout
 
 \begin_layout Subsection*
@@ -1541,13 +1263,7 @@ literal "false"
  Weighted connectance is a measure of the proportion of realized links,
  taking into account the shape of the flux distribution, while link density
  measures the average proportion and strength of interactions for a given
- 
-\change_deleted -666822487 1561049212
-species
-\change_inserted -666822487 1561049204
-taxon
-\change_unchanged
-.
+ taxon.
  These metrics are adapted to weighted interaction matrices but cannot accomodat
 e for both positive and negative coefficients: we therefore chose to focus
  on the absolute values of these coefficients, which can be linked to their
@@ -1566,58 +1282,17 @@ S5) and impact (average effect of a focal taxon on other taxa, Eq
 
 S6) on both raw and absolute values of the coefficients, and compared these
  to the regulation a focal species exerted on itself.
- Raw values indicate the average effect (i.e., is the effect
-\change_inserted -666822487 1561049255
- of others 
-\change_deleted -666822487 1561049253
- 
-\change_unchanged
-mostly positive or negative?) that can be expected on a 
-\change_deleted -666822487 1561049269
-species
-\change_inserted -666822487 1561049271
-taxon
-\change_unchanged
-' growth rate from other planktonic species while absolute effects characterise
- the strength of all types of interactions on a 
-\change_deleted -666822487 1561049275
-species
-\change_inserted -666822487 1561049275
-taxon
-\change_unchanged
- (i.e., is a 
-\change_deleted -666822487 1561049281
-species
-\change_inserted -666822487 1561049281
-taxon
-\change_unchanged
- strongly affected by the others?).
+ Raw values indicate the average effect (i.e., is the effect of others mostly
+ positive or negative?) that can be expected on a taxon' growth rate from
+ other planktonic species while absolute effects characterise the strength
+ of all types of interactions on a taxon (i.e., is a taxon strongly affected
+ by the others?).
 \end_layout
 
 \begin_layout Standard
 Finally, we compared our results on the ratio between mean self-regulation
-\change_inserted -666822487 1561049324
- (
-\change_deleted -666822487 1561049323
-/
-\change_unchanged
-intra
-\change_deleted -666822487 1561049330
-specific
-\change_inserted -666822487 1561049330
-taxon
-\change_unchanged
- interaction strength
-\change_inserted -666822487 1561049335
-)
-\change_unchanged
- and mean inter
-\change_deleted -666822487 1561049340
-specific
-\change_inserted -666822487 1561049341
-taxa
-\change_unchanged
- interaction strength to other published studies based on a MAR(1) model.
+ (intrataxon interaction strength) and mean intertaxa interaction strength
+ to other published studies based on a MAR(1) model.
  A list of references is given in Table
 \begin_inset space ~
 \end_inset
@@ -1625,86 +1300,22 @@ taxa
 S3.
  Authors usually reported only coefficients that were significant at the
  95% significance threshold, thus ignoring potentially many weak effects.
- 
-\change_deleted -666822487 1561049759
-For
-\change_inserted -666822487 1561049770
-This implies that there are two ways of computing the 
-\change_deleted -666822487 1561049760
- 
-\change_unchanged
-mean inter
-\change_deleted -666822487 1561049352
-group
-\change_inserted -666822487 1561049352
-taxa
-\change_unchanged
- interactions, 
-\change_deleted -666822487 1561049788
-we therefore computed both
-\change_inserted -666822487 1561049791
-i.e., taking 
-\change_deleted -666822487 1561049790
- 
-\change_unchanged
-the mean value of all coefficients outside of the matrix diagonal, including
- zeroes (which decreases the 
-\change_inserted -666822487 1561049885
-estimated 
-\change_unchanged
-mean inter
-\change_deleted -666822487 1561049367
-group
-\change_inserted -666822487 1561049368
-taxa
-\change_unchanged
+ This implies that there are two ways of computing the mean intertaxa interactio
+ns, i.e., taking the mean value of all coefficients outside of the matrix
+ diagonal, including zeroes (which decreases the estimated mean intertaxa
  interaction strength), and the mean value of statistically significant
- inter
-\change_deleted -666822487 1561049372
-group
-\change_inserted -666822487 1561049372
-taxa
-\change_unchanged
- coefficients only (which increases the 
-\change_inserted -666822487 1561049892
-estimated 
-\change_unchanged
-mean inter
-\change_deleted -666822487 1561049380
-group
-\change_inserted -666822487 1561049380
-taxa
-\change_unchanged
- interaction strength
-\change_inserted -666822487 1561049715
-, Fig.
- S8
-\change_unchanged
-).
+ intertaxa coefficients only (which increases the estimated mean intertaxa
+ interaction strength, Fig.
+ S8).
  We should mention two potential biases associated with this comparison
- across the published literature
-\change_inserted -666822487 1561049990
-.
-\change_deleted -666822487 1561049990
-:
-\change_unchanged
- 
-\change_inserted -666822487 1561049994
-First, 
-\change_unchanged
-low-dimensional matrices tended to be more complete (less sparse) than high-dime
-nsional matrices, as these small interaction matrices were used to study
- known interaction phenomena (observed predation between organisms, for
- instance).
+ across the published literature.
+ First, low-dimensional matrices tended to be more complete (less sparse)
+ than high-dimensional matrices, as these small interaction matrices were
+ used to study known interaction phenomena (observed predation between organisms
+, for instance).
  Conversely, the number of parameters to estimate increases as the square
- of the number of interacting 
-\change_deleted -666822487 1561049397
-groups
-\change_inserted -666822487 1561049397
-taxa
-\change_unchanged
-, leading most authors to reduce this set before the estimation process
- for large interaction matrices.
+ of the number of interacting taxa, leading most authors to reduce this
+ set before the estimation process for large interaction matrices.
  There is therefore a positive correlation between sparsity and dimensionality
  (Fig
 \begin_inset space ~
@@ -1723,15 +1334,8 @@ literal "false"
 \end_inset
 
 .
- The latter choice 
-\change_deleted -666822487 1561050018
-may
-\change_inserted -666822487 1561050022
-is likely to 
-\change_deleted -666822487 1561050018
- 
-\change_unchanged
-bias high non-zero interactions in the literature.
+ The latter choice is likely to bias high non-zero interactions in the literatur
+e.
  This is why we decided to present in the main text intra/inter ratios including
  interspecific (or intergroup) coefficients set to zero, which should be
  less sensitive to the model selection method and therefore make comparisons
@@ -1756,11 +1360,7 @@ literal "false"
 
 \end_inset
 
- – i.e., Jacobian community matrices on the logarithmic 
-\change_inserted -666822487 1561050094
-abundance 
-\change_unchanged
-scale 
+ – i.e., Jacobian community matrices on the logarithmic abundance scale 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ives_estimating_2003"
@@ -1866,29 +1466,17 @@ Interaction matrices estimated in 10 sites along the French coastline
 .
  Four regions are distinguished: Brittany (a), Oléron (b), Arcachon (d)
  and the Mediterranean Sea (e).
- Only interactions 
-\change_deleted -666822487 1561050118
-between clades
-\change_inserted -666822487 1561050138
-within a clade
+ Only interactions within a clade
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1561050146
 NB should we really use clade here?
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
- 
-\change_deleted -666822487 1561050119
- 
-\change_unchanged
-(pennate and centric diatoms, dinoflagellates, other planktonic taxa) are
+ (pennate and centric diatoms, dinoflagellates, other planktonic taxa) are
  allowed, as this is the best fitting interaction scenario (Fig
 \begin_inset space ~
 \end_inset
@@ -2100,29 +1688,12 @@ literal "false"
 
 .
  We defined two scores, vulnerability (summed effect of others on the focal
- 
-\change_deleted -666822487 1561050167
-species
-\change_inserted -666822487 1561050168
-taxon
-\change_unchanged
- growth rate, Eq
+ taxon growth rate, Eq
 \begin_inset space ~
 \end_inset
 
-S5) and impact (summed effect of the focal 
-\change_deleted -666822487 1561050171
-species
-\change_inserted -666822487 1561050171
-taxon
-\change_unchanged
- onto other 
-\change_deleted -666822487 1561050174
-species
-\change_inserted -666822487 1561050179
-taxa's
-\change_unchanged
- growth rates, Eq
+S5) and impact (summed effect of the focal taxon onto other taxa's growth
+ rates, Eq
 \begin_inset space ~
 \end_inset
 
@@ -2207,41 +1778,7 @@ Relation between vulnerability/impact and self-regulation.
 \end_inset
 
 S1).
- 
-\change_deleted -666822487 1561050314
-The p-value of the Pearson correlation between vulnerability (respectively
- impact) and self-regulation is given in the top left of each panel and
- the slope of the l
-\change_inserted -666822487 1561050314
-L
-\change_unchanged
-inear regression
-\change_inserted -666822487 1561050317
-s
-\change_unchanged
- 
-\change_deleted -666822487 1561050326
-is
-\change_inserted -666822487 1561050326
-are
-\change_unchanged
- 
-\change_deleted -666822487 1561050334
-given by the
-\change_inserted -666822487 1561050336
-shown as 
-\change_deleted -666822487 1561050335
- 
-\change_unchanged
-black line
-\change_inserted -666822487 1561050339
-s
-\change_unchanged
- 
-\change_deleted -666822487 1561050361
-across scatter plots
-\change_unchanged
-.
+ Linear regressions are shown as black lines .
 \end_layout
 
 \end_inset
@@ -2262,13 +1799,7 @@ name "fig:Vulnerability_impact"
 \end_layout
 
 \begin_layout Standard
-Aside from the
-\change_deleted -666822487 1561050409
-se
-\change_unchanged
- trade-offs
-\change_inserted -666822487 1561050424
- of Fig.
+Aside from the trade-offs of Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2279,22 +1810,8 @@ noprefix "false"
 
 \end_inset
 
-
-\change_unchanged
 , we found no remarkable patterns of covariation between matrix elements
- 
-\change_deleted -666822487 1561050431
-(
-\change_unchanged
-other than a mean-variance scaling of interaction coefficients
-\change_deleted -666822487 1561050434
-,
-\change_unchanged
- 
-\change_inserted -666822487 1561050433
-(
-\change_unchanged
-Fig
+ other than a mean-variance scaling of interaction coefficients (Fig
 \begin_inset space ~
 \end_inset
 
@@ -2477,27 +1994,13 @@ literal "false"
 
 .
  
-\change_deleted -666822487 1561050484
-There is therefore a massive difference between niche differentiation in
- the lab (weak) and in the field (strong, 
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "barraquand_coastal_2018"
-literal "false"
-
-\end_inset
-
-).
-
-\change_unchanged
+\change_deleted -2100369821 1561104128
  
-\change_inserted -666822487 1561050593
+\change_unchanged
 In the field-based dataset studied here, the same genera that are considered
  in experiments are found not to compete (or only weakly), hence there must
  be some niche differentiation occurring in the field but not in the lab.
- 
-\change_unchanged
-Second, the only other study that managed to provide MAR(1) estimates down
+ Second, the only other study that managed to provide MAR(1) estimates down
  to the species level for phytoplankton, that of 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2538,11 +2041,7 @@ literal "false"
 
 \end_inset
 
- who also found facilitative interactions, but 
-\change_deleted -666822487 1561050612
-a little 
-\change_unchanged
-less than here (
+ who also found facilitative interactions, but less than here (
 \begin_inset Formula $\approx$
 \end_inset
 
@@ -2706,26 +2205,10 @@ literal "false"
 
 \end_inset
 
-
-\change_inserted -666822487 1561050766
 ).
-
-\change_unchanged
- 
-\change_deleted -666822487 1561050772
-but
-\change_inserted -666822487 1561050775
-However, 
-\change_deleted -666822487 1561050773
- 
-\change_unchanged
-we 
-\change_inserted -666822487 1561050779
-already 
-\change_unchanged
-showed on a subset of this data that a fixed point in a MAR(1) model, perturbed
- by seasonality and abiotic variables, is an accurate description of the
- system 
+ However, we already showed on a subset of this data that a fixed point
+ in a MAR(1) model, perturbed by seasonality and abiotic variables, is an
+ accurate description of the system 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "barraquand_coastal_2018"
@@ -2746,15 +2229,11 @@ literal "false"
 \end_inset
 
  using a different technique, even though it does contradict 
-\change_deleted -666822487 1561050806
-previous results
-\change_inserted -666822487 1561050809
- theory based 
-\change_deleted -666822487 1561050806
+\change_deleted -2100369821 1561104141
  
 \change_unchanged
-on random matrices, especially for competitive and/or mutualistic networks
- 
+theory based on random matrices, especially for competitive and/or mutualistic
+ networks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "allesina_stability_2012"
@@ -2806,12 +2285,8 @@ noprefix "false"
  rest of the community, and it makes therefore sense that a species/genus
  whose needs strongly differ from the others only marginally impacts the
  resources of the other coexisting species.
- 
-\change_inserted -666822487 1561050938
-This is what we expect under strong niche partitioning.
- 
-\change_unchanged
-Furthermore, a low self-regulation was correlated with high average abundance,
+ This is what we expect under strong niche partitioning.
+ Furthermore, a low self-regulation was correlated with high average abundance,
  which echoes findings by 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2821,26 +2296,11 @@ literal "false"
 \end_inset
 
  who found that rare species usually show stronger self-regulation.
- This correlation between rarity and self-regulation could 
-\change_inserted -666822487 1561050977
-also 
-\change_unchanged
-explain the lesser impact effect of high self-regulated species/genus: a
- 
-\change_deleted -666822487 1561050983
-species
-\change_inserted -666822487 1561050985
-taxon
-\change_unchanged
+ This correlation between rarity and self-regulation could also explain
+ the lesser impact effect of high self-regulated species/genus: a taxon
  which dominates the community composition can have a major effect on the
  others, especially as they usually cover more space, while it is harder
- for rare, localised 
-\change_deleted -666822487 1561051000
-species
-\change_inserted -666822487 1561051001
-taxa
-\change_unchanged
- to have large impacts.
+ for rare, localised taxa to have large impacts.
  However, it was more difficult to explain the relationship between self-regulat
 ion and vulnerability: a genus that is more self-regulated and rarer was
  found here to be on average more vulnerable to other genera's increases
@@ -2869,9 +2329,7 @@ literal "false"
  to other taxa's impacts are also those whose dynamics are intrinsically
  more buffered.
  By which mechanisms this could happen is so far unclear and open to speculation.
- 
-\change_inserted -666822487 1561051326
-It could be just a 
+ It could be just a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2882,15 +2340,10 @@ mass effect
 : common taxa are in high enough numbers to deplete resources or change
  the environment in ways that affects the rarer ones, but the reverse is
  not true.
- 
-\change_unchanged
-We caution, however, that the relationships between vulnerability, impact
+ We caution, however, that the relationships between vulnerability, impact
  and self-regulation that we evidenced are all relatively weak: considerable
- stochasticity 
-\change_inserted -666822487 1561051138
-still 
-\change_unchanged
-dominates the distribution of interaction matrix coefficients.
+ stochasticity still dominates the distribution of interaction matrix coefficien
+ts.
 \end_layout
 
 \begin_layout Subsection*
@@ -2909,13 +2362,7 @@ literal "false"
 
 \end_inset
 
- or empirical
-\change_inserted -666822487 1561051361
-ly parameterized 
-\change_deleted -666822487 1561051355
- 
-\change_unchanged
-food webs including horizontal diversity 
+ or empirically parameterized food webs including horizontal diversity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "barabas_self-regulation_2017"
