@@ -122,7 +122,7 @@ theory; networks
 \bigskip{}
 Number of words in the abstract: 144
 
-Number of words in the manuscript: 4364
+Number of words in the manuscript: 4745 %4364
 
 Number of references: 72
 
@@ -294,13 +294,12 @@ v3.3.2 \citep{venables_r_2013}, to estimate parameters with a maximum
 likelihood procedure.
 
 Our previous analysis of the Arcachon region, for which more covariables were available \citep{barraquand_coastal_2018},
-revealed that hydrodynamics and hydrology variables were more influential than nutrients. Nutrient dynamics
-contributed little to phytoplankton dynamics on the two-week timescale.
-Because temperature and salinity sum up seasonal changes in light
-as well as hydrology (salinity is inversely related to freshwater
-inflow), these represent the two key drivers needed to account for
-abiotic influences \citep{scheef_inferring_2013}. The analysis of
-real data in \citet{barraquand_coastal_2018} was complemented by
+revealed that hydrodynamics and hydrology had more influence on phytoplankton dynamics than nutrients on the two-week timescale.
+Because temperature and salinity sum up seasonal changes in light as well as hydrology (salinity is inversely related to freshwater
+inflow), these represent the two key drivers needed to account for abiotic influences \citep{scheef_inferring_2013}.
+They are therefore used to summarize the abiotic environment in the remainder of the article. 
+
+The analysis of real data in \citet{barraquand_coastal_2018} was complemented by
 that of simulated data mimicking the study design, which confirmed
 the ability of MAR(1) models to infer biotic interactions and abiotic
 forcings. There was no need to account for extra non-linearities to
@@ -310,7 +309,7 @@ Other aspects of the MAR(1) modelling are likewise quite robust: using
 two abiotic variables (temperature and salinity) in this study rather
 than the full set used in \citet{barraquand_coastal_2018} led to
 almost identical covariate effects and interaction estimates for the
-Arcachon study site. Even if some departures from the true data-generating
+Arcachon study sites. Even if some departures from the true data-generating
 model may not always be detectable through MAR(1) diagnostics (e.g.,
 residuals), simulation work has showed that MAR(1) models are in general
 robust to nonlinearities \citep{certain_how_2018} if the inference
@@ -329,12 +328,12 @@ the same 2 covariates, i.e., water temperature and salinity, that
 were measured at all study sites. Therefore, the dimension of the
 dynamical system depends on the (square of the) number of phytoplankton
 taxa we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany).
-The smallest system still requires 70 parameters to be estimated if
+The smallest system still requires 63 parameters to be estimated if
 we consider all possible interactions between taxa. To reduce this
 dimensionality and remove unnecessary parameters, we compared different
 `interaction scenarios' based on BIC (Fig~S3), which proved to be
 satisfactory in our previous analyses of both real data and similar
-simulated datasets \citep{barraquand_coastal_2018}. The null interaction
+simulated datasets (\citealp{barraquand_coastal_2018}, Appendix 2). The null interaction
 scenario assumed no interaction between groups of species (diagonal
 interaction matrix) and was compared to four other interaction scenarios.
 The first interaction scenario assumed that interactions could only
@@ -356,7 +355,7 @@ of network structure.
 The interaction matrix obtained from MAR(1) analyses can be used to
 determine the stability of a discrete-time dynamical system \citep{ives_estimating_2003}.
 We compared the maximum modulus of the eigenvalues of the pennate/centric
-matrices in each site, as a proxy of stability, to network metrics
+matrices in each site, as a measure of resilience, to network metrics
 which could be related to complexity, such as weighted connectance
 and linkage density \citep{bersier_quantitative_2002}. Weighted connectance
 is a measure of the proportion of realized links, taking into account
@@ -519,12 +518,12 @@ other than a mean-variance scaling of interaction coefficients (Fig~S6).
 \caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
 AutoRegressive (MAR) models.} The name of each study,
 corresponding to a code, is given in Table~S3. Codes beginning
-with letters correspond to the present study(Ar: Arcachon; Ol: Oléron; Br: Brittanny; Me: Mediterranean Sea). The symbol color and
+with letters correspond to the present study (Ar: Arcachon; Ol: Oléron; Br: Brittany; Me: Mediterranean Sea). The symbol color and
 shape correspond to the sparsity of the interaction matrix (e.g.,
 the proportion of null interactions in the matrix). Intergroup interactions
 were set to 0 when they were not specified in the articles (in most
-cases, articles removed non-significant interactions at the 95\% threshold;
-Fig~S8 is the same figure taking into account only significant interactions)}
+cases, authors removed non-significant interactions at the 95\% threshold;
+Fig.~S8 is the same figure taking into account only significant interactions)}
 \label{fig:meta_ratio} 
 \end{figure*}
 
@@ -600,7 +599,7 @@ arising from hidden effects of resource or predator partitioning/sharing
 \citep{chesson_updates_2018}. In our previous publication investigating
 in detail the Arcachon study sites \citep{barraquand_coastal_2018},
 we have argued that for phytoplankton, the strong intragroup density-dependence
-could arise from effects of natural enemies \citep{haydon_pivotal_1994,barraquand_coastal_2018}.
+could arise from effects of natural enemies \citep{haydon_pivotal_1994}.
 Natural enemies could also very well create apparent mutualism between
 prey species \citep{abrams_apparent_1998,barraquand_indirect_2015,de_ruiter_emergent_2017}.
 We believe this to be likely true for the present study as well, given
@@ -614,12 +613,10 @@ allelopathy \citep{felpeto_allelopathy_2018}, auxotrophy \citep{tang_most_2010}
 or hydrodynamics \citep{levy_role_2018} can all, in theory, help
 create different niches and an emerging facilitation (see last subsection
 of the Discussion). Finally, resources that are usually considered
-limiting for all species might in fact not always be. \citet{burson_competition_2018} show that phytoplanktonic species specialize on different components of the light spectrum. This constitutes an example of fine-scale resource partitioning of one resource,
-light, that is usually believed to be limiting for all species and
-genera.
+limiting for all species might in fact not always be: \citet{burson_competition_2018} show that phytoplanktonic taxa specialize on different components of the light spectrum. This constitutes an example of fine-scale resource partitioning of one resource,
+light, that all species and genera are usually thought to compete for.
 
-\subsection*{No complexity-stability relationship but connections between self-regulation
-and intergroup interactions}
+\subsection*{No complexity-stability relationship but connections between self-regulation and intergroup interactions}
 
 There was no relation between the complexity of the communities (measured
 as either the weighted connectance or linkage density of the interaction
@@ -692,7 +689,7 @@ found in plant community studies \citep{volkov_patterns_2007,adler_competition_2
 or empirically parameterized food webs including horizontal diversity
 \citep{barabas_self-regulation_2017}. Large niche differences might
 be due to the ghost of competition past, i.e., competition has
-occurred in the past, leading to strong selection and subsequent evolution, leading to progressive niche separation. In this scenario, species
+occurred in the past, leading to strong selection and subsequent evolution, and then to progressive niche separation. In this scenario, species
 have evolved niches that allow them not to compete or to interact
 only weakly (very strong facilitative effects might be likewise destabilizing
 \citep{coyte_ecology_2015}. The likely predator effects that we highlighted

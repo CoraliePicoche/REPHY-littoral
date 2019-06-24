@@ -3,7 +3,7 @@
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /home/cpicoche/Documents/Plankton/REPHY_littoral/article/submit_EcoLett/
+\origin /home/frederic/Documents/Plankton/REPHY-littoral/article/submit_EcoLett/
 \textclass article
 \begin_preamble
 
@@ -444,7 +444,7 @@ Keywords
 \end_layout
 
 \begin_layout Standard
-Number of words in the manuscript: 4447
+Number of words in the manuscript: 4364
 \end_layout
 
 \begin_layout Standard
@@ -1057,7 +1057,7 @@ literal "false"
 
 \end_inset
 
-, revealed that hydrodynamics and hydrology variables were more influential than nutrients. Nutrient dynamics contributed little to phytoplankton dynamics on the two-week timescale. Because temperature and salinity sum up seasonal changes in light as well as hydrology (salinity is inversely related to freshwater inflow), these represent the two key drivers needed to account for abiotic influences 
+, revealed that hydrodynamics and hydrology had more influence on phytoplankton dynamics than nutrients on the two-week timescale. Because temperature and salinity sum up seasonal changes in light as well as hydrology (salinity is inversely related to freshwater inflow), these represent the two key drivers needed to account for abiotic influences 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -1067,7 +1067,11 @@ literal "false"
 
 \end_inset
 
-. The analysis of real data in 
+. They are therefore used to summarize the abiotic environment in the remainder of the article.
+\end_layout
+
+\begin_layout Standard
+The analysis of real data in 
 \begin_inset CommandInset citation
 LatexCommand citet
 after ""
@@ -1097,7 +1101,7 @@ literal "false"
 
 \end_inset
 
- led to almost identical covariate effects and interaction estimates for the Arcachon study site. Even if some departures from the true data-generating model may not always be detectable through MAR(1) diagnostics (e.g., residuals), simulation work has showed that MAR(1) models are in general robust to nonlinearities 
+ led to almost identical covariate effects and interaction estimates for the Arcachon study sites. Even if some departures from the true data-generating model may not always be detectable through MAR(1) diagnostics (e.g., residuals), simulation work has showed that MAR(1) models are in general robust to nonlinearities 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -1125,14 +1129,14 @@ In this study, the number of phytoplankton taxa (
 \begin_inset Formula $S$
 \end_inset
 
-) and the community composition vary slightly between regions but sites share on average 67% of their taxa. In order to have comparable models, we also keep the same 2 covariates, i.e., water temperature and salinity, that were measured at all study sites. Therefore, the dimension of the dynamical system depends on the (square of the) number of phytoplankton taxa we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany). The smallest system still requires 70 parameters to be estimated if we consider all possible interactions between taxa. To reduce this dimensionality and remove unnecessary parameters, we compared different `interaction scenarios' based on BIC (Fig
+) and the community composition vary slightly between regions but sites share on average 67% of their taxa. In order to have comparable models, we also keep the same 2 covariates, i.e., water temperature and salinity, that were measured at all study sites. Therefore, the dimension of the dynamical system depends on the (square of the) number of phytoplankton taxa we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany). The smallest system still requires 63 parameters to be estimated if we consider all possible interactions between taxa. To reduce this dimensionality and remove unnecessary parameters, we compared different `interaction scenarios' based on BIC (Fig
 \begin_inset space ~
 
 \end_inset
 
-S3), which proved to be satisfactory in our previous analyses of both real data and similar simulated datasets 
+S3), which proved to be satisfactory in our previous analyses of both real data and similar simulated datasets (
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citealp
 after ""
 before ""
 key "barraquand_coastal_2018"
@@ -1140,7 +1144,7 @@ literal "false"
 
 \end_inset
 
-. The null interaction scenario assumed no interaction between groups of species (diagonal interaction matrix) and was compared to four other interaction scenarios. The first interaction scenario assumed that interactions could only occur between phylogenetically close organisms, i.e., within a class (groups were then diatoms, dinoflagellates, and other phytoplanktonic organisms) while the second interaction scenario further differentiated pennate and centric diatoms. The third interaction scenario considered the reverse hypothesis, that only unrelated organisms could interact (i.e., a diatom could only interact with a dinoflagellate or a cryptophyte, but not with another diatom), and the last interaction scenario did not constrain the interactions at all (full interaction matrix). The second interaction scenario, hereafter called the pennate-centric scenario, had the lowest BIC for all sites (Fig. S3). This parsimonious scenario was therefore chosen as the basis for further investigations of network structure.
+, Appendix 2). The null interaction scenario assumed no interaction between groups of species (diagonal interaction matrix) and was compared to four other interaction scenarios. The first interaction scenario assumed that interactions could only occur between phylogenetically close organisms, i.e., within a class (groups were then diatoms, dinoflagellates, and other phytoplanktonic organisms) while the second interaction scenario further differentiated pennate and centric diatoms. The third interaction scenario considered the reverse hypothesis, that only unrelated organisms could interact (i.e., a diatom could only interact with a dinoflagellate or a cryptophyte, but not with another diatom), and the last interaction scenario did not constrain the interactions at all (full interaction matrix). The second interaction scenario, hereafter called the pennate-centric scenario, had the lowest BIC for all sites (Fig. S3). This parsimonious scenario was therefore chosen as the basis for further investigations of network structure.
 \end_layout
 
 \begin_layout Subsection*
@@ -1158,7 +1162,7 @@ literal "false"
 
 \end_inset
 
-. We compared the maximum modulus of the eigenvalues of the pennate/centric matrices in each site, as a proxy of stability, to network metrics which could be related to complexity, such as weighted connectance and linkage density 
+. We compared the maximum modulus of the eigenvalues of the pennate/centric matrices in each site, as a measure of resilience, to network metrics which could be related to complexity, such as weighted connectance and linkage density 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
@@ -1651,7 +1655,7 @@ Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressi
 
 \end_inset
 
-S3. Codes beginning with letters correspond to the present study(Ar: Arcachon; Ol: Oléron; Br: Brittanny; Me: Mediterranean Sea). The symbol color and shape correspond to the sparsity of the interaction matrix (e.g., the proportion of null interactions in the matrix). Intergroup interactions were set to 0 when they were not specified in the articles (in most cases, articles removed non-significant interactions at the 95% threshold; Fig
+S3. Codes beginning with letters correspond to the present study (Ar: Arcachon; Ol: Oléron; Br: Brittany; Me: Mediterranean Sea). The symbol color and shape correspond to the sparsity of the interaction matrix (e.g., the proportion of null interactions in the matrix). Intergroup interactions were set to 0 when they were not specified in the articles (in most cases, authors removed non-significant interactions at the 95% threshold; Fig.
 \begin_inset space ~
 
 \end_inset
@@ -1858,7 +1862,7 @@ literal "false"
 LatexCommand citep
 after ""
 before ""
-key "haydon_pivotal_1994,barraquand_coastal_2018"
+key "haydon_pivotal_1994"
 literal "false"
 
 \end_inset
@@ -1923,7 +1927,7 @@ literal "false"
 
 \end_inset
 
- can all, in theory, help create different niches and an emerging facilitation (see last subsection of the Discussion). Finally, resources that are usually considered limiting for all species might in fact not always be. 
+ can all, in theory, help create different niches and an emerging facilitation (see last subsection of the Discussion). Finally, resources that are usually considered limiting for all species might in fact not always be: 
 \begin_inset CommandInset citation
 LatexCommand citet
 after ""
@@ -1933,7 +1937,7 @@ literal "false"
 
 \end_inset
 
- show that phytoplanktonic species specialize on different components of the light spectrum. This constitutes an example of fine-scale resource partitioning of one resource, light, that is usually believed to be limiting for all species and genera.
+ show that phytoplanktonic taxa specialize on different components of the light spectrum. This constitutes an example of fine-scale resource partitioning of one resource, light, that all species and genera are usually thought to compete for.
 \end_layout
 
 \begin_layout Subsection*
@@ -2080,7 +2084,7 @@ literal "false"
 
 \end_inset
 
-. Large niche differences might be due to the ghost of competition past, i.e., competition has occurred in the past, leading to strong selection and subsequent evolution, leading to progressive niche separation. In this scenario, species have evolved niches that allow them not to compete or to interact only weakly (very strong facilitative effects might be likewise destabilizing 
+. Large niche differences might be due to the ghost of competition past, i.e., competition has occurred in the past, leading to strong selection and subsequent evolution, and then to progressive niche separation. In this scenario, species have evolved niches that allow them not to compete or to interact only weakly (very strong facilitative effects might be likewise destabilizing 
 \begin_inset CommandInset citation
 LatexCommand citep
 after ""
