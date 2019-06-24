@@ -190,7 +190,7 @@ Whether these conclusions drawn from studies of annual plants and
 forest trees apply to other ecosystems and taxa is currently little
 known (but see \citealt{mutshinda_what_2009}).
 
-Moreover, even within a single trophic level, competition may not
+Moreover, competition may not
 be the rule: the meta-analysis by \citet{adler_competition_2018}
 reported a large number of facilitative interactions (30\%) and several
 reviews \citep{brooker_facilitation_2008,mcintire2014facilitation}
@@ -212,7 +212,7 @@ between genera. Although many ecological studies focus on interactions
 between species, competition has been shown experimentally to occur
 between different genera of phytoplankton \citep{titman_ecological_1976,descamps-julien_stable_2005}.
 The genus level is also a rather fine taxonomic scale for phytoplankton
-interaction studies, as most studies are restricted to interaction
+interaction studies, as most studies are restricted to interactions
 between different classes or even phyla \citep{ives_estimating_2003,hampton_sixty_2008,griffiths_phytoplankton_2015}.
 Studying interactions between different genera of phytoplankton therefore
 both makes empirical sense in light of competition experiments and
@@ -294,10 +294,8 @@ We used the MARSS package \citep{holmes_analysis_2014} v3.9, in R
 v3.3.2 \citep{venables_r_2013}, to estimate parameters with a maximum
 likelihood procedure.
 
-We have previously published a detailed analysis of one of the dataset
-(Arcachon) for which more covariables were available \citep{barraquand_coastal_2018},
-including nutrients and hydrodynamics variables. We found that hydrodynamics
-variables were more influential than nutrients; nutrient dynamics
+Our previous analysis of the Arcachon region, for which more covariables were available \citep{barraquand_coastal_2018},
+revealed that hydrodynamics and hydrology variables were more influential than nutrients. Nutrient dynamics
 contributed little to phytoplankton dynamics on the two-week timescale.
 Because temperature and salinity sum up seasonal changes in light
 as well as hydrology (salinity is inversely related to freshwater
@@ -318,19 +316,19 @@ model may not always be detectable through MAR(1) diagnostics (e.g.,
 residuals), simulation work has showed that MAR(1) models are in general
 robust to nonlinearities \citep{certain_how_2018} if the inference
 focuses on interaction sign and order of magnitude of model coefficients,
-which how these models are used here. For
+which is how these models are used here. For
 ease of interpretation of MAR(1) interaction coefficients, we also
 prove the correspondence between the magnitude of intra/inter interaction
 strength in a MAR(1) model and a multispecies Beverton-Holt model,
 i.e., a discrete-time Lotka-Volterra model \citep{cushing_discrete_2004},
 in the Supplementary Information.
 
-In this study, the number of phytoplankton taxa, $S$, and the community
-composition varies slightly between regions but sites share on average
+In this study, the number of phytoplankton taxa ($S$) and the community
+composition vary slightly between regions but sites share on average
 67\% of their taxa. In order to have comparable models, we also keep
 the same 2 covariates, i.e., water temperature and salinity, that
 were measured at all study sites. Therefore, the dimension of the
-dynamical system mostly depends on the (square of the) number of phytoplankton
+dynamical system depends on the (square of the) number of phytoplankton
 taxa we study, which ranges between 7 (Mediterranean Sea) and 14 (Brittany).
 The smallest system still requires 70 parameters to be estimated if
 we consider all possible interactions between taxa. To reduce this
@@ -366,7 +364,7 @@ is a measure of the proportion of realized links, taking into account
 the shape of the flux distribution, while link density measures the
 average proportion and strength of interactions for a given taxon.
 These metrics are adapted to weighted interaction matrices but cannot
-accomodate for both positive and negative coefficients: we therefore
+accommodate for both positive and negative coefficients: we therefore
 chose to focus on the absolute values of these coefficients, which
 can be linked to their strength, irrespective of interaction sign.
 
@@ -377,7 +375,7 @@ on both raw and absolute values of the coefficients, and compared
 these to the regulation a focal species exerted on itself. Raw values
 indicate the average effect (i.e., is the effect of others mostly
 positive or negative?) that can be expected on a taxon' growth rate
-from other planktonic species while absolute effects characterise
+from other planktonic taxa while absolute effects characterise
 the strength of all types of interactions on a taxon (i.e., is a taxon
 strongly affected by the others?).
 
@@ -392,25 +390,7 @@ value of all coefficients outside of the matrix diagonal, including
 zeroes (which decreases the estimated mean intertaxa interaction strength),
 and the mean value of statistically significant intertaxa coefficients
 only (which increases the estimated mean intertaxa interaction strength,
-Fig. S8). We should mention two potential biases associated with this
-comparison across the published literature. First, low-dimensional
-matrices tended to be more complete (less sparse) than high-dimensional
-matrices, as these small interaction matrices were used to study known
-interaction phenomena (observed predation between organisms, for instance).
-Conversely, the number of parameters to estimate increases as the
-square of the number of interacting taxa, leading most authors to
-reduce this set before the estimation process for large interaction
-matrices. There is therefore a positive correlation between sparsity
-and dimensionality (Fig~S9). A second caveat is that while we informed
-our model selection by phylogeny (see above), several authors have
-instead reduced the number of estimated parameters by an automated
-procedure, usually based on the comparison of 100 randomly chosen
-interaction matrices by BIC \citep{ives_estimating_2003}. The latter
-choice is likely to bias high non-zero interactions in the literature.
-This is why we decided to present in the main text intra/inter ratios
-including interspecific (or intergroup) coefficients set to zero,
-which should be less sensitive to the model selection method and therefore
-make comparisons across studies possible.
+Fig. S8). We considered both. 
 
 \section*{Results}
 
@@ -420,7 +400,7 @@ Using MAR(1) autoregressive models, we have produced interaction matrices
 \citep{ives_estimating_2003,hampton2013quantifying} -- i.e., Jacobian
 community matrices on the logarithmic abundance scale \citep{ives_estimating_2003}.
 Best-fitting models corresponded to a phylogenetically-structured
-interaction scenario, where interaction only occurred betwen closely
+interaction scenario, where interactions only occurred betwen closely
 related genera (Fig~S3). This led to sparse, modular matrices that
 have two main features. First, we observe a strong self-regulation
 for all sites (Fig.~\ref{fig:Interaction-matrices}, diagonal elements
@@ -442,10 +422,10 @@ coastline}. Four regions are distinguished: Brittany (a), Oléron (b),
 Arcachon (d) and the Mediterranean Sea (e). Only interactions within
 a clade (pennate and centric diatoms, dinoflagellates, other planktonic
 taxa) are allowed, as this is the best fitting interaction scenario
-(Fig~S3). Taxon $j$ (in columns) has an effect illustrated by the
-bar height on taxon $i$'s growth rate (in rows). We present the interaction
+(Fig~S3). Taxon $j$ (in columns) has an effect on taxon $i$'s growth rate (in rows) illustrated by the
+bar height. We present the interaction
 matrix minus the identity matrix ($\mathbf{B}-\mathbf{I}$) because
-this compares unambigously intra- and intergenera interactions. The
+this compares unambiguously intra- and intergenera interactions. The
 scale for the coefficient values is given at the bottom left of panel
 a). 95\% significance of coefficients is marked by asterisks ({*}).
 The community composition is given in Table~S2. The fraction of positive
@@ -494,8 +474,7 @@ connectances between 0.09 and 0.1.
 \centering \includegraphics[width=1\textwidth]{complexity_stability_MainFig_pencenjustB}
 \caption{\textbf{Relation between stability and complexity of the interaction
 networks.} The maximum modulus of the interaction matrix $\mathbf{B}$
-eigenvalues indicates stability \emph{sensu} resilience. Each point
-color corresponds to a given region. Metrics formula for weighted
+eigenvalues indicates stability \emph{sensu} resilience. Each color corresponds to a given region. Metrics formula for weighted
 connectance and linkage density are given in the Supplementary Information.}
 \label{fig:Stability-community} 
 \end{figure*}
@@ -512,9 +491,8 @@ genera that were more self-regulating also had also a higher vulnerability
 score and a lower impact score. Those two influences are likely to
 trade-off: a high degree of self-regulation somehow buffers outside
 influences. Taxa that were less self-regulating were also more likely
-to have a broad range of effects onto other taxa. As these genera
-tended to be more abundant (Fig~S7), they were more likely to affect
-other genera. It is important to note, however, that these trends
+to have a stronger effect onto other taxa. As these genera
+tended to be more abundant (Fig~S7), this could be mediated by the average density of a genus. It is important to note, however, that these trends
 are weak and there is therefore a considerable amount of randomness
 dominating the interaction matrix: many scenarios of self-regulation
 vs limitation by others are therefore possible.
@@ -548,19 +526,18 @@ are relatively high-dimensional and that the higher the number of
 taxa, the larger the intraspecific regulation \citep{barabas_self-regulation_2017}.
 We included in Fig.~\ref{fig:meta_ratio} not only plankton studies
 but also a couple of vertebrate or insect studies on less diverse
-communities, where interactions are stronger. The conclusion from
+communities, where interactions are stronger, in order to provide lower bounds for the intra/inter ratio. The conclusion from
 this comparison seems to be that, unlike small communities that can
-be tight-knit, any diverse system of competitors and facilitators
+be tight-knit, any diverse field system of competitors and facilitators
 has evolved large niche differences making intragroup competition
 much larger in magnitude than intergroup interactions.
 
 \begin{figure*}[!h]
 \centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim}
 \caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
-AutoRegressive (MAR) models in the ecological literature as a function
-of the number of species they include.} The name of each studies,
-corresponding to each code, is given in Table~S3. Codes beginning
-with letters correspond to the present study. The symbol color and
+AutoRegressive (MAR) models.} The name of each study,
+corresponding to a code, is given in Table~S3. Codes beginning
+with letters correspond to the present study(Ar: Arcachon; Ol: Oléron; Br: Brittanny; Me: Mediterranean Sea). The symbol color and
 shape correspond to the sparsity of the interaction matrix (e.g.,
 the proportion of null interactions in the matrix). Intergroup interactions
 were set to 0 when they were not specified in the articles (in most
@@ -586,7 +563,7 @@ in light of previous intra/interspecific competition strength estimates
 of 4 to 5 by \citet{adler_competition_2018}. Even though their model
 is a different one, i.e., Lotka-Volterra competition, we prove in
 the Supplementary Information that the intra/inter ratio should remain
-commensurate. The difference in the intra/inter ratio that we found
+commensurate in a MAR(1) model. The difference in the intra/inter ratio that we found
 should therefore lie elsewhere, which requires some explanation. First,
 one could argue that such high intra/inter ratio arises because we
 consider the genus as our baseline taxonomic unit, rather than the
@@ -622,7 +599,7 @@ from literature-derived MAR(1) estimates.
 
 The large niche differences and facilitative interactions that arise
 when considering a single trophic level are an emergent property,
-arising from hidden effects of resources or predator partitioning/sharing
+arising from hidden effects of resource or predator partitioning/sharing
 \citep{chesson_updates_2018}. In our previous publication investigating
 in detail the Arcachon study sites \citep{barraquand_coastal_2018},
 we have argued that for phytoplankton, the strong intragroup density-dependence
@@ -640,9 +617,7 @@ allelopathy \citep{felpeto_allelopathy_2018}, auxotrophy \citep{tang_most_2010}
 or hydrodynamics \citep{levy_role_2018} can all, in theory, help
 create different niches and an emerging facilitation (see last subsection
 of the Discussion). Finally, resources that are usually considered
-limiting for all species might in fact not always be: the changes
-in phytoplankton absorption spectrum documented by \citet{burson_competition_2018}
-constitute an example of fine-scale resource partitioning of one resource,
+limiting for all species might in fact not always be. \citet{burson_competition_2018} show that phytoplanktonic species specialize on different components of the light spectrum. This constitutes an example of fine-scale resource partitioning of one resource,
 light, that is usually believed to be limiting for all species and
 genera.
 
@@ -652,7 +627,7 @@ and intergroup interactions}
 There was no relation between the complexity of the communities (measured
 as either the weighted connectance or linkage density of the interaction
 matrices) and their stability, as measured by the dominant eigenvalue
-of the interaction matrix, which measures the return time to a point
+of the interaction matrix, which quantifies the return time to a point
 equilibrium (i.e., resilience). This result is conditional upon our
 model being a good approximate description of the system (i.e., no
 multiyear limit cycles or chaotic attractors as the mapping between
@@ -660,7 +635,7 @@ eigenvalues and actual stability is distorted in that case \citealp{certain_how_
 However, we already showed on a subset of this data that a fixed point
 in a MAR(1) model, perturbed by seasonality and abiotic variables,
 is an accurate description of the system \citep{barraquand_coastal_2018}.
-Therefore, we are confident that the absence of complexity-resilience
+Therefore, we are confident that the absence of complexity-resilience relationship
 found here is genuine. This absence of direct link between complexity
 and stability could be an actual feature of empirical systems, as
 shown previously by \citet{jacquet_no_2016} using a different technique,
@@ -668,8 +643,8 @@ even though it does contradict theory
 based on random matrices, especially for competitive and/or mutualistic
 networks \citep{allesina_stability_2012}. We also found that the
 percentage of mutualistic interactions, that is thought to affect
-the stability of the network \citep{mougi2012diversity,coyte_ecology_2015,garcia-callejas_multiple_2018},
-does not have a major impact on the network's resilience.
+the stability of a network \citep{mougi2012diversity,coyte_ecology_2015,garcia-callejas_multiple_2018},
+does not have a major impact on our networks' resilience.
 
 In addition to weighted connectance, indices at the network-level
 (e.g., linkage density) and at the species or genus level (vulnerability
@@ -689,10 +664,9 @@ therefore sense that a species/genus whose needs strongly differ from
 the others only marginally impacts the resources of the other coexisting
 species. This is what we expect under strong niche partitioning. Furthermore,
 a low self-regulation was correlated with high average abundance,
-which echoes findings by \citet{yenni_persistent_2017} who found
+which echoes findings by \citet{yenni_persistent_2017} who demonstrated
 that rare species usually show stronger self-regulation. This correlation
-between rarity and self-regulation could also explain the lesser impact
-effect of high self-regulated species/genus: a taxon which dominates
+between rarity and self-regulation could also explain the lesser impact of high self-regulated species/genus: a taxon which dominates
 the community composition can have a major effect on the others, especially
 as they usually cover more space, while it is harder for rare, localised
 taxa to have large impacts. However, it was more difficult to explain
@@ -720,9 +694,8 @@ of the MAR(1) literature -- is similar to what has been recently
 found in plant community studies \citep{volkov_patterns_2007,adler_competition_2018}
 or empirically parameterized food webs including horizontal diversity
 \citep{barabas_self-regulation_2017}. Large niche differences might
-be due to the ghost of the competition past, i.e., competition has
-occurred in the past, leading to strong selection and subsequent evolution
-leading to progressive niche separation. In this scenario, species
+be due to the ghost of competition past, i.e., competition has
+occurred in the past, leading to strong selection and subsequent evolution, leading to progressive niche separation. In this scenario, species
 have evolved niches that allow them not to compete or to interact
 only weakly (very strong facilitative effects might be likewise destabilizing
 \citep{coyte_ecology_2015}. The likely predator effects that we highlighted
