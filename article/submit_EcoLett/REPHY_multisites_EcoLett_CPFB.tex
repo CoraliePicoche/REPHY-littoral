@@ -9,7 +9,8 @@
 \usepackage{changepage}
 
 % Use Unicode characters when possible
-\usepackage[utf8x]{inputenc}
+%\usepackage[utf8x]{inputenc} %%utf8x does not work with quotation marks ̀̀ ` '' 
+\usepackage[utf8]{inputenc}
 
 \usepackage{float}
 \floatplacement{figure}{H}
@@ -273,7 +274,7 @@ a stochastic, discrete-time Gompertz equation which relates the log-abundance
 of each of the $S$ taxa at time $t+1$ to log-abundances of the whole
 community at time $t$, with possible interactions between taxa, and
 effects of $V$ abiotic variables at time $t+1$. These assumptions
-are encapsulated in eq. \ref{eq:MAR}:
+are encapsulated in eq.~\ref{eq:MAR}:
 
 \begin{equation}
 \mathbf{n}_{t+1}=\mathbf{B}\mathbf{n}_{t}+\textbf{C}\textbf{u}_{t+1}+\mathbf{e}_{t},\mathbf{e}_{t}\thicksim\mathcal{{N_{S}}}(0,\mathbf{Q})\label{eq:MAR}
@@ -288,9 +289,7 @@ rates, and $\mathbf{e}_{t}$ is a $1\times S$ noise vector which
 covers both process and observation error, following a multivariate
 normal distribution with a variance-covariance matrix $\mathbf{Q}$.
 $\mathbf{Q}$ is diagonal and we have previously showed that this
-parsimonious choice did not affect qualitatively the results \citep{barraquand_coastal_2018}.
-
-We used the MARSS package \citep{holmes_analysis_2014} v3.9, in R
+parsimonious choice did not affect qualitatively the results \citep{barraquand_coastal_2018}. We used the MARSS package \citep{holmes_analysis_2014} v3.9, in R
 v3.3.2 \citep{venables_r_2013}, to estimate parameters with a maximum
 likelihood procedure.
 
@@ -369,8 +368,8 @@ chose to focus on the absolute values of these coefficients, which
 can be linked to their strength, irrespective of interaction sign.
 
 In addition to these network-level metrics, we also computed the average
-vulnerability (average effect of other taxa on a focal taxon, Eq~S5)
-and impact (average effect of a focal taxon on other taxa, Eq~S6)
+vulnerability (average effect of other taxa on a focal taxon, eq.~S5)
+and impact (average effect of a focal taxon on other taxa, eq.~S6)
 on both raw and absolute values of the coefficients, and compared
 these to the regulation a focal species exerted on itself. Raw values
 indicate the average effect (i.e., is the effect of others mostly
@@ -396,24 +395,6 @@ Fig. S8). We considered both.
 
 \subsection*{Interaction estimates}
 
-Using MAR(1) autoregressive models, we have produced interaction matrices
-\citep{ives_estimating_2003,hampton2013quantifying} -- i.e., Jacobian
-community matrices on the logarithmic abundance scale \citep{ives_estimating_2003}.
-Best-fitting models corresponded to a phylogenetically-structured
-interaction scenario, where interactions only occurred betwen closely
-related genera (Fig~S3). This led to sparse, modular matrices that
-have two main features. First, we observe a strong self-regulation
-for all sites (Fig.~\ref{fig:Interaction-matrices}, diagonal elements
-of all matrices), a feature that we have previously highlighted in
-a more detailed analysis on one of the considered study regions \citep{barraquand_coastal_2018}.
-The ratio of mean intragenus to intergenus interaction coefficients
-varies between 6 and 10, not counting coefficients set to 0 in the
-estimation process. If we include the zeroes in the interaction matrix
-in the computation of the intra/inter mean interaction strength, the
-ratio rises to 21-43. Therefore, intragenus interactions are on average
-much stronger than intergenus interactions, approximately 10 to 20
-times stronger.
-
 \begin{figure*}[!ht]
 \centering % \includegraphics[width=15.8cm]{biotic_interaction_matrices_MainFig_allin1_v4}
  \includegraphics[width=0.81\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4}
@@ -434,6 +415,24 @@ interactions in each matrix is given by points in c) while the dashed
 positive (resp., negative) for all sites of a given region.}
 \label{fig:Interaction-matrices} 
 \end{figure*}
+
+Using MAR(1) autoregressive models, we have produced interaction matrices
+\citep{ives_estimating_2003,hampton2013quantifying} -- i.e., Jacobian
+community matrices on the logarithmic abundance scale \citep{ives_estimating_2003}.
+Best-fitting models corresponded to a phylogenetically-structured
+interaction scenario, where interactions only occurred betwen closely
+related genera (Fig~S3). This led to sparse, modular matrices that
+have two main features. First, we observe a strong self-regulation
+for all sites (Fig.~\ref{fig:Interaction-matrices}, diagonal elements
+of all matrices), a feature that we have previously highlighted in
+a more detailed analysis on one of the considered study regions \citep{barraquand_coastal_2018}.
+The ratio of mean intragenus to intergenus interaction coefficients
+varies between 6 and 10, not counting coefficients set to 0 in the
+estimation process. If we include the zeroes in the interaction matrix
+in the computation of the intra/inter mean interaction strength, the
+ratio rises to 21-43. Therefore, intragenus interactions are on average
+much stronger than intergenus interactions, approximately 10 to 20
+times stronger.
 
 Second, although the percentage of facilitative interactions seemed
 to vary among sites (between 40\% and 71\% of interactions in the
@@ -470,7 +469,7 @@ between 0.65 and 0.80. There was also a slight increase in stability
 with weighted connectance, with a drop in eigenvalue modulus for weighted
 connectances between 0.09 and 0.1.
 
-\begin{figure*}[!h]
+\begin{figure*}[!ht]
 \centering \includegraphics[width=1\textwidth]{complexity_stability_MainFig_pencenjustB}
 \caption{\textbf{Relation between stability and complexity of the interaction
 networks.} The maximum modulus of the interaction matrix $\mathbf{B}$
@@ -478,14 +477,26 @@ eigenvalues indicates stability \emph{sensu} resilience. Each color corresponds 
 connectance and linkage density are given in the Supplementary Information.}
 \label{fig:Stability-community} 
 \end{figure*}
+\begin{figure*}[!ht]
+\centering \includegraphics[width=1\textwidth]{pencen_generality_vs_vulnerability_MainFig}
+\caption{\textbf{Relation between vulnerability/impact and self-regulation.}
+Average vulnerability (effects of others on the focal taxon growth
+rate, a-b) and impact (effects of the focal taxon on others' growth
+rates, c-d), as well as self-regulation, are computed for untransformed
+(a-c) or absolute (b-d) values of the coefficients of the interaction
+matrix ($\mathbf{B}-\mathbf{I}$) for the 10 study sites. Each color
+corresponds to a given region (Fig~S1). Linear regressions are shown
+as black lines.}
+\label{fig:Vulnerability_impact}
+\end{figure*}
 
 Given that a direct complexity-stability link was not obvious, we
 investigated whether the matrix coefficients had some particular structure
 that could help theoretical ecology to make better null models of
 joint community dynamics and interactions \citep{james_constructing_2015}.
 We defined two scores, vulnerability (summed effect of others on the
-focal taxon growth rate, Eq~S5) and impact (summed effect of the
-focal taxon onto other taxa's growth rates, Eq~S6). Relations between
+focal taxon growth rate, eq.~S5) and impact (summed effect of the
+focal taxon onto other taxa's growth rates, eq.~S6). Relations between
 inter- and intra-genus interactions emerged (Fig.~\ref{fig:Vulnerability_impact}):
 genera that were more self-regulating also had also a higher vulnerability
 score and a lower impact score. Those two influences are likely to
@@ -497,24 +508,25 @@ are weak and there is therefore a considerable amount of randomness
 dominating the interaction matrix: many scenarios of self-regulation
 vs limitation by others are therefore possible.
 
-\begin{figure*}[!h]
-\centering \includegraphics[width=1\textwidth]{pencen_generality_vs_vulnerability_MainFig}
-\caption{\textbf{Relation between vulnerability/impact and self-regulation.}
-Average vulnerability (effects of others on the focal taxon growth
-rate, a-b) and impact (effects of the focal taxon on others' growth
-rates, c-d), as well as self-regulation, are computed for untransformed
-(a-c) or absolute (b-d) values of the coefficients of the interaction
-matrix ($\mathbf{B}-\mathbf{I}$) for the 10 study sites. Each color
-corresponds to a given region (Fig~S1). Linear regressions are shown
-as black lines .}
-\label{fig:Vulnerability_impact}
-\end{figure*}
-
 Aside from the trade-offs of Fig. \ref{fig:Vulnerability_impact},
 we found no remarkable patterns of covariation between matrix elements
 other than a mean-variance scaling of interaction coefficients (Fig~S6).
 
 \subsection*{Literature comparison}
+
+\begin{figure*}[!h]
+\centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim}
+\caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
+AutoRegressive (MAR) models.} The name of each study,
+corresponding to a code, is given in Table~S3. Codes beginning
+with letters correspond to the present study(Ar: Arcachon; Ol: Oléron; Br: Brittanny; Me: Mediterranean Sea). The symbol color and
+shape correspond to the sparsity of the interaction matrix (e.g.,
+the proportion of null interactions in the matrix). Intergroup interactions
+were set to 0 when they were not specified in the articles (in most
+cases, articles removed non-significant interactions at the 95\% threshold;
+Fig~S8 is the same figure taking into account only significant interactions)}
+\label{fig:meta_ratio} 
+\end{figure*}
 
 Finally, we sought to put these results in a broader context by compiling
 the intra vs inter group estimates of previous MAR(1) studies of long-term
@@ -531,21 +543,6 @@ this comparison seems to be that, unlike small communities that can
 be tight-knit, any diverse field system of competitors and facilitators
 has evolved large niche differences making intragroup competition
 much larger in magnitude than intergroup interactions.
-
-\begin{figure*}[!h]
-\centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim}
-\caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
-AutoRegressive (MAR) models.} The name of each study,
-corresponding to a code, is given in Table~S3. Codes beginning
-with letters correspond to the present study(Ar: Arcachon; Ol: Oléron; Br: Brittanny; Me: Mediterranean Sea). The symbol color and
-shape correspond to the sparsity of the interaction matrix (e.g.,
-the proportion of null interactions in the matrix). Intergroup interactions
-were set to 0 when they were not specified in the articles (in most
-cases, articles removed non-significant interactions at the 95\% threshold;
-Fig~S8 is the same figure taking into account only significant interactions)}
-\label{fig:meta_ratio} 
-\end{figure*}
-
 
 \section*{Discussion}
 
@@ -584,7 +581,7 @@ a genuine feature of field phytoplanktonic communities.
 
 Another main finding of our study is the large frequency of positive
 interactions, with 30\% truly mutualistic (+/+) interactions and between
-40 and 70\% facilitative effects. This again can be compared to the
+40 and 70\% facilitative effects. Although a seasonal environment can generate some positive covariation between taxa, those effects have already been ̀` `filtered out'' by the inclusion of our 2 abiotic covariates (Fig. S4). The facilitative effects shown here are therefore residual effects, once abiotic trends are accounted for. Between 40 and 70\% facilitation can be compared to the
 meta-analysis by \citet{adler_competition_2018} who also found facilitative
 interactions, but less than here ($\approx$30\%). However, \citet{adler_competition_2018}'s
 review contains many experiments while the plant literature is replete
@@ -758,7 +755,7 @@ dictates where the phytoplankton patches can or cannot appear.
 \section*{Acknowledgments}
 
 This study was only made possible by the dedication of all members
-of the REPHY program \citep{REPHY_db} by Ifremer, providing invaluable
+of the REPHY program by Ifremer \citep{REPHY_db}, providing invaluable
 data through years of fieldwork. We are grateful to David Murrell
 for his careful reading and suggestions, and to Peter Adler for helpful
 exchanges. This study was supported by the French ANR through LabEx
