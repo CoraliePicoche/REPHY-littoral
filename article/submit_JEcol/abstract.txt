@@ -1,0 +1,47 @@
+1. The persistence of phytoplanktonic diversity in spite of competition for basic resources has long been a source of wonder and inspiration to ecologists. To sort out, among the many coexistence mechanisms suggested by theory and experiments, which ones actually maintain diversity in natural ecosystems, long-term field studies are paramount.
+
+2. We analysed a large dataset of phytoplankton abundance time series using dynamic, multivariate autoregressive models. Phytoplankton was counted and identified down to the genus level, every two weeks over twenty years, at ten sites along the French coastline. Multivariate autoregressive models allowed to estimate biotic interaction networks, while also accounting for abiotic variables
+that may drive part of the phytoplankton fluctuations. We then analysed the ratio of intra- to inter-taxa interactions (measuring self-regulation, itself a measure of niche differentiation), the frequency of negative vs positive interactions, and how stability metrics (both at the network and genus level) relate to the network complexity and genus self-regulation or abundance.
+
+3. We showed that a strong self-regulation, with competition strength within a taxon (genus) an order of magnitude higher than between taxa, was present in all phytoplanktonic interaction networks. This much stronger intragenus competition suggests that niche differentiation - rather than neutrality - is commonplace in phytoplankton. Furthermore, interaction networks were dominated by positive net effects between phytoplanktonic taxa (above 50% of non-zero interactions on average). While network stability (sensu resilience) was unrelated to complexity measures, we unveiled links between self-regulation, intergenus interaction strengths and abundance. The less common taxa tend to be more strongly self-regulated and can therefore maintain in spite of competition with abundant ones.
+
+4. Synthesis: We prove that strong niche differentiation, widespread facilitation between phytoplanktonic taxa and stabilizing covariances between interactions strengths should be common features of coexisting phytoplankton communities in the field. These are structural properties that we can expect to emerge from plausible mechanistic models of phytoplankton communities. We discuss mechanisms, such as predation or restricted microscale movement, that are consistent with these findings, which paves the way for further research.
+
+---- 
+
+Keywords 
+phytoplankton; coexistence; facilitation; mutualism; niche theory; time series; networks; 
+
+
+
+
+Stefano Allesina, University of Chicago, sallesina@uchicago.edu
+* Expert in network theory, coexistence and community dynamics
+
+Kevin Gross, North Carolina State University, krgross@ncsu.edu
+* Expert in community dynamics, esp. mutualistic ones
+
+Stephanie Hampton, Washington State University, s.hampton@wsu.edu
+* Expert in MAR(1) modelling and marine ecology
+
+Claire Jacquet, University of Zurich, claire.jacquet@eawag.ch
+* Expert in stability - complexity relationships
+
+Alex James, University of Canterbury, alex.james@canterbury.ac.nz
+*Expert in community dynamics and network modelling
+
+Mark D Scheuerell, NOAA‘s Northwest Fisheries Science Center, mark.scheuerell@noaa.gov
+* Expert in marine ecology and time series modelling 
+
+Andrew Tredennick, University of Georgia, Odum School of Ecology, atredenn@gmail.com
+* Expert in plant dynamics and coexistence
+
+
+1884 words in references + 4745 = 6629
+
+* Please explain, in no more than 50 words, the key aspect of the study that justifies publication in Journal of Ecology. If your paper is a Biological Flora account or another commissioned article please state this here. 
+
+We show using a long-term, multi-site coastal phytoplankton survey (>20 years, every two weeks) that in microscopic algae, just as in land plants, niche differentiation rather than neutrality dominates. Furthermore, facilication is more frequent than competition and self-regulation covaries with rarity, two features that help coexistence. 
+
+
+Plant -- plant interactions (not Aquatic Plant Ecology)
