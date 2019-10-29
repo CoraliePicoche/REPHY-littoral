@@ -19,8 +19,8 @@ apc=2
 
 corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
-#option_model=c("pencen")
-option_model=c("unconstrained")
+option_model=c("pencen")
+#option_model=c("unconstrained")
 option_NEI=c("null")
 groupe=c("BZ","MO","AR","SU")
 llieux=c()
@@ -30,7 +30,7 @@ option_sp="common"
 max_sp=16
 
 #pdf("article/graphe/biotic_interaction_matrices_MainFig_allin1_v4.pdf",height=24,width=18)
-pdf("article/submit_JEcol/response/biotic_interaction_matrices_unconstrained.pdf",height=24,width=18)
+pdf("article/submit_JEcol/response/biotic_interaction_matrices_pencen.pdf",height=24,width=18)
 par(mar=c(7.5,6.,5,3),oma=c(0.1,2.5,.5,0.5))
 layout(matrix(c(1,1,2,2,1,1,2,2,5,5,5,5,3,3,4,4,3,3,4,4),5,4,byrow=TRUE))
 color=c("black","blue","red")
@@ -88,6 +88,7 @@ for (gg in 1:length(groupe)){
 
                         plot(0,0,t='n',xlim=c(0.95,(max_sp+0.25)),ylim=c(0.7,max_sp),yaxt="n",xaxt="n",xlab="",ylab="",main=groupe_nice[gg],cex.main=3.)
 			grad_sp=seq(1,max_sp,length.out=length(sp))
+        		if(option_model!="unconstrained"){
 			if(gg==1){
 			rect(1,1,1.+2*pm,1+fact,col="blue")
 			text(1+5*pm,1+fact,"1",cex=3.0)
@@ -113,8 +114,12 @@ for (gg in 1:length(groupe)){
 				}
 				}
                         }
-        		if(option_model!="unconstrained"){
 			legend(x=9.8,y=max_sp+1-0.75,option_lieu,fill=color[1:3],cex=3.5,border=NA,xpd=NA,bty="n")
+			}else{
+			mtext(let[gg],side=3,cex=2.0,xpd=NA,font=2,line=2.0,adj=0)
+                        for (i in 1:length(sp)){
+                                abline(h=grad_sp[i],lty=2)
+			}
 			}
         		#legend("topright",option_lieu,fill=color[1:3],cex=3.5,border=NA,bg="white")#xpd=NA)#bty="n")
                         }

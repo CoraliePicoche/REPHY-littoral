@@ -1,4 +1,5 @@
 #05/02/2019 Checking the proportion of cells we take into account per site
+#24/10/2019 Computing abundance of dinoflagellates vs abundance of diatoms
 
 library("lubridate")
 rm(list=ls())
@@ -10,6 +11,7 @@ tab_sp=read.table('data/lieu_sp_post_reconstruct_pour_MAR.csv',header=TRUE,na.st
 lieu=colnames(tab_sp)
 lieu=gsub('.',' ',lieu,fixed=TRUE) #useful for Men er Roue
 
+if(1==0){
 pdf("article/graphe/abundance.pdf",width=15)
 for (g in groupe){
         if(g=="BZ"){
@@ -44,3 +46,38 @@ for (g in groupe){
 	}
 }
 dev.off()
+}
+
+mm=c()
+for (g in groupe){
+        if(g=="BZ"){
+                option_lieu=c("Men er Roue","Loscolo","Croisic")
+        }else if(g=="MO"){
+                option_lieu=c("Cornard","Auger","LEperon")
+        }else if(g=="SU"){
+                option_lieu=c("Antoine","Lazaret")
+        }
+	list_diat=c("AST","CHA","DIT","GUI","LEP","RHI","SKE","THP","NIT","PLE","PSE","THL")
+	list_dino=c("GYM","PRO","PRP","SCR")
+	
+        a=table(as.matrix(tab_sp[,lieu %in% option_lieu]))
+        liste_sp=dimnames(a[a==length(option_lieu)])[[1]]
+        if("NEI"%in%liste_sp){
+                liste_sp=liste_sp[-which(liste_sp=="NEI")]
+        }
+
+        for (ll in 1:length(option_lieu)){
+                tab=read.table(paste("data/corres_hernandez_",option_lieu[ll],'.txt',sep=''),sep=";",na="NA",header=TRUE)
+                dd=as.Date(tab$Date)
+                tab=tab[year(dd)>=1996,]#Using data from 1996
+                dd=dd[year(dd)>=1996]
+
+                biom_diat=mean(apply(tab[,list_diat],1,mean,na.rm=T),na.rm=T)
+                biom_dino=mean(apply(tab[,list_dino],1,mean,na.rm=T),na.rm=T)
+		mm=c(mm,biom_diat/biom_dino)
+		print(option_lieu[ll])
+		print(biom_diat)
+		print(biom_dino)
+		print(biom_diat/biom_dino)
+	}
+}
