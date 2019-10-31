@@ -179,6 +179,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author -2100369821 "cpicoche"
+\author -666822487 "frederic"
 \end_header
 
 \begin_body
@@ -1209,12 +1210,20 @@ literal "false"
 .
 
 \change_inserted -2100369821 1572514769
- A different type
-\change_unchanged
  
+\change_deleted -666822487 1572521950
+A different type of model
+\change_inserted -666822487 1572521956
+Fitting a more sophisticated model
 \change_inserted -2100369821 1572514811
-of model (threshold autoregressive model) showed no sign of extra non-linearitie
-s or a storage effect on a subset of the present dataset 
+ (threshold autoregressive model) showed no sign of extra non-linearities
+ or a storage effect
+\change_inserted -666822487 1572522231
+ in this subset of the data
+\change_deleted -666822487 1572522013
+ on a subset of the present dataset
+\change_inserted -2100369821 1572514811
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "barraquand_coastal_2018"
@@ -1238,11 +1247,15 @@ literal "false"
  led to almost identical covariate effects and interaction estimates for
  the Arcachon study sites.
  Even if some departures from the true data-generating model may not always
- be detectable through MAR(1) diagnostics (e.g., residuals), simulation 
+ be detectable through MAR(1) diagnostics (e.g., residuals), 
+\change_deleted -666822487 1572522157
+simulation 
 \change_deleted -2100369821 1572514868
 work
-\change_inserted -2100369821 1572514869
+\change_deleted -666822487 1572522157
 analysis
+\change_inserted -666822487 1572522175
+the analysis of nonlinear simulations
 \change_unchanged
  has showed that MAR(1) models are in general robust to nonlinearities
 \change_deleted -2100369821 1572514875
@@ -1309,34 +1322,84 @@ compared
 built
 \change_unchanged
  different `interaction scenarios' 
+\change_deleted -666822487 1572522291
+with
+\change_inserted -666822487 1572522295
+based on
 \change_inserted -2100369821 1572515108
-with phylogenetic grounds 
+ 
+\change_inserted -666822487 1572522310
+known 
+\change_inserted -2100369821 1572515108
+phylogenetic 
+\change_deleted -666822487 1572522303
+grounds
+\change_inserted -666822487 1572522304
+information
+\change_inserted -2100369821 1572515108
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
+before "as in"
 key "violle_phylogenetic_2011,narwani_ecological_2017"
 literal "false"
 
 \end_inset
 
+
+\change_inserted -666822487 1572522343
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572522373
+J'ai rajouté 
+\begin_inset Quotes eld
+\end_inset
+
+as in
+\begin_inset Quotes erd
+\end_inset
+
+, pour que ce soit évident qu'on émule ce genre de papier et pas que l'info
+ phylogénétique sur les diatomées est dedans.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -2100369821 1572515108
 .
- The 
+ 
+\change_deleted -666822487 1572522394
+The
+\change_inserted -666822487 1572522440
+We chose a
+\change_inserted -2100369821 1572515108
+ 
 \change_deleted -2100369821 1572515110
 based on 
 \change_unchanged
 BIC
 \change_inserted -2100369821 1572515117
--based comparison
+-based 
+\change_inserted -666822487 1572522401
+model 
+\change_deleted -666822487 1572522403
+comparison
+\change_inserted -666822487 1572522423
+selection of these scenarios
 \change_unchanged
  (Fig
 \begin_inset space ~
 \end_inset
 
-S3)
-\change_deleted -2100369821 1572515122
-, which
-\change_unchanged
- proved to be satisfactory in our previous analyses of both real data and
- similar simulated datasets (
+S3), which proved to be satisfactory in our previous analyses of both real
+ data and similar simulated datasets (
 \begin_inset CommandInset citation
 LatexCommand citealp
 key "barraquand_coastal_2018"
@@ -1344,7 +1407,26 @@ literal "false"
 
 \end_inset
 
-, Appendix 2).
+, Appendix 2)
+\change_inserted -666822487 1572522463
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572522484
+J'ai laissé le which, la seconde partie de la phrase est là pour justifier
+ la première
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+.
  The null interaction scenario assumed no interaction between groups of
  species (diagonal interaction matrix) and was compared to four other interactio
 n scenarios.
@@ -1383,7 +1465,9 @@ literal "false"
  We compared the maximum modulus of the eigenvalues of the pennate/centric
  matrices in each site, as a measure of resilience
 \change_inserted -2100369821 1572515835
- (similar to the real part of the leading eigenvalue for continuous time
+ 
+\change_deleted -666822487 1572522529
+(similar to the real part of the leading eigenvalue for continuous time
  model)
 \change_unchanged
 , to network metrics which could be related to complexity, such as weighted
@@ -1396,6 +1480,27 @@ literal "false"
 \end_inset
 
 .
+
+\change_inserted -666822487 1572522547
+ The maximum modulus is analogous to the real part of the leading eigenvalue
+ for continuous time models
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572522573
+Bougé dans une seconde phrase, ça faisait trop long.
+ Fais moi penser à ce que je te donne le bouquin de Kot sur ce point.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+.
+
+\change_unchanged
  Weighted connectance is a measure of the proportion of realized links,
  taking into account the shape of the flux distribution, while link density
  measures the average proportion and strength of interactions for a given
@@ -1450,7 +1555,11 @@ literal "false"
 .
  We then
 \change_unchanged
- and compared these to the regulation a focal species exerted on itself.
+ 
+\change_deleted -666822487 1572522621
+and 
+\change_unchanged
+compared these to the regulation a focal species exerted on itself.
  Raw values indicate the average effect (i.e., is the effect of others mostly
  positive or negative?) that can be expected on a taxon' growth rate from
  other planktonic taxa while absolute effects characterise the strength
@@ -1475,8 +1584,18 @@ the observed
 S3.
  Authors usually reported only coefficients that were significant at the
  95% significance threshold, thus ignoring potentially many weak effects
+\change_inserted -666822487 1572522788
+,
 \change_inserted -2100369821 1572515340
- which were set to 0 by default
+ which we
+\change_inserted -666822487 1572522775
+ had to
+\change_deleted -666822487 1572522774
+re
+\change_inserted -2100369821 1572515340
+ set to 0
+\change_deleted -666822487 1572522781
+ by default
 \change_unchanged
 .
  
@@ -1694,6 +1813,23 @@ literal "false"
  interactions
 \change_deleted -2100369821 1572515751
 , approximately 10 to 20 times stronger
+\change_inserted -666822487 1572522839
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572522861
+Why did you remove this? referee comment? I thought it was good to give
+ an idea to the reader?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 .
 \end_layout
@@ -1825,15 +1961,37 @@ Relation between stability and complexity of the interaction networks.
 sensu
 \emph default
  resilience.
- Each color 
+ Each color
+\change_deleted -666822487 1572522929
+ and shape
 \change_inserted -2100369821 1572517872
-and shape 
+ 
 \change_unchanged
 correspond
+\change_inserted -666822487 1572522932
+s
 \change_deleted -2100369821 1572518224
 s
 \change_unchanged
- to a given region.
+ to a given region
+\change_inserted -666822487 1572522935
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572522952
+Color is region, the combination of color and shape gives a study site
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+.
  Metrics formula for weighted connectance 
 \change_deleted -2100369821 1572517877
 and linkage density are
@@ -1841,6 +1999,25 @@ and linkage density are
 is
 \change_unchanged
  given in the Supporting Information.
+\change_inserted -666822487 1572522962
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572523755
+Note: j'éviterai les abbréviations dans le x-axis, tu as la place pour écrire
+ in full je pense
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -2392,10 +2569,19 @@ No complexity-stability relationship but connections between self-regulation
 
 \begin_layout Standard
 There was no relation between the complexity of the communities (measured
- as either the weighted connectance or linkage density of the interaction
- matrices) and their stability, as measured by the dominant eigenvalue of
- the interaction matrix, which quantifies the return time to a point equilibrium
- (i.e., resilience).
+ 
+\change_deleted -666822487 1572523362
+as either 
+\change_unchanged
+the weighted connectance 
+\change_inserted -666822487 1572523401
+or the interaction coefficient variance
+\change_deleted -666822487 1572523368
+or linkage density
+\change_unchanged
+ of the interaction matrices) and their stability, as measured by the dominant
+ eigenvalue of the interaction matrix, which quantifies the return time
+ to a point equilibrium (i.e., resilience).
  This result is conditional upon our model being a good approximate description
  of the system (i.e., no multiyear limit cycles or chaotic attractors as the
  mapping between eigenvalues and actual stability is distorted in that case,
@@ -2440,9 +2626,33 @@ literal "false"
 
 \end_inset
 
+
+\change_inserted -666822487 1572523163
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1572523178
+We can keep that sentence I think, indeed we do not find the same thing...
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 .
- We also found that the percentage of mutualistic interactions, that is
- thought to affect the stability of a network 
+ 
+\change_inserted -666822487 1572523346
+But it could be that our networks are too small for relationships based
+ on random matrix theory to be apparent (Allesina and Tang 2015).
+ 
+\change_unchanged
+We also found that the percentage of mutualistic interactions, that is thought
+ to affect the stability of a network 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "mougi2012diversity,coyte_ecology_2015,garcia-callejas_multiple_2018"
