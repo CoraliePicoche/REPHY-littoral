@@ -1,4 +1,5 @@
 #2018/12/05 Link between stability (maximum eigen values) and complexity/metrics
+#2019/10/31 Added mean value and variance of coefficients outside of the diagonal to answer R2
 
 rm(list=ls())
 graphics.off()
@@ -7,7 +8,7 @@ source("script/matrix_MAR_clean.r")
 groupe=c("BZ","MO","SU","AR")
 option_model=c("unconstrained","pencen")
 
-results=array(NA,dim=c(10,9,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","vulnerability.LL","generality.HL","mutualism","all_neg","predation"),option_model)) #10 places, 4 indices (max eigen values, positive values, weighted connectance, linkage density), 2 models (pencen and unconstrained)
+results=array(NA,dim=c(10,11,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","vulnerability.LL","generality.HL","mutualism","all_neg","predation","E","V"),option_model)) #10 places, all indices, 2 models (pencen and unconstrained)
 #There can be no commensalism, at least i we're looking at B[i,j]>0 and B[j,i]==0
 
 id_lieu=0
@@ -61,6 +62,10 @@ for (g in groupe){
 				}
 			}
 		}
+		B_nodiag=B
+		diag(B_nodiag)=NA
+		results[id_lieu,"E",option_model[m]]=mean(c(B_nodiag),na.rm=T)
+		results[id_lieu,"V",option_model[m]]=var(c(B_nodiag),na.rm=T)
 		results[id_lieu,"mutualism",option_model[m]]=mm/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"all_neg",option_model[m]]=nn/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"predation",option_model[m]]=pp/(sum(B!=0)-dim(B)[1])
@@ -68,6 +73,7 @@ for (g in groupe){
 	}
 }
 
+if(1==0){
 pdf(paste("./article/graphe/complexity_stability_MainFig_compare_unconstrained_pencen_justB_log2.pdf",sep=""),width=12,height=5)
 par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
@@ -144,3 +150,41 @@ print(results[,'linkage density','pencen'])
 print(summary(results[,'stability','pencen']))
 print(results[,'vulnerability.LL','pencen'])
 print(results[,'generality.HL','pencen'])
+}
+#End 1==0
+
+
+for (m in 1:length(option_model)){
+	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_for_response.pdf",sep="")
+        pdf(paste("./article/graphe/",filename,sep=""),width=12,height=12)
+        #par(mfrow=c(1,3),mar=c(2,2,0.75,0.5),oma=c(3,3,2,0.5),xpd=NA)
+        par(mfrow=c(2,2),mar=c(4.5,2,1.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
+
+yli1=min(c(results[,"stability",option_model[m]]))
+yli2=max(c(results[,"stability",option_model[m]]))
+
+xli1=min(c(results[,"positive",option_model[m]]))*100
+xli2=max(c(results[,"positive",option_model[m]]))*100
+plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
+mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+legend('topleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=c(15,16,17,18),col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
+
+xli1=min(c(results[,"weighted connectance",option_model[m]]))
+xli2=max(c(results[,"weighted connectance",option_model[m]]))
+plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="weighted connectance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+
+xli1=min(c(results[,"E",option_model[m]]))
+xli2=max(c(results[,"E",option_model[m]]))
+plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="mean inter. strength",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
+mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+
+xli1=min(c(results[,"V",option_model[m]]))
+xli2=max(c(results[,"V",option_model[m]]))
+plot(results[,"V",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="inter. strength var.",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+mtext("d)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+
+dev.off()
+}
+system(paste("cp article/graphe/",filename," article/submit_JEcol/response/",filename,sep=""))
+
