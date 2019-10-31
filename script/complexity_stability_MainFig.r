@@ -6,7 +6,8 @@ graphics.off()
 library('bipartite')
 source("script/matrix_MAR_clean.r")
 groupe=c("BZ","MO","SU","AR")
-option_model=c("unconstrained","pencen")
+#option_model=c("unconstrained","pencen")
+option_model=c("pencen")
 
 results=array(NA,dim=c(10,11,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","vulnerability.LL","generality.HL","mutualism","all_neg","predation","E","V"),option_model)) #10 places, all indices, 2 models (pencen and unconstrained)
 #There can be no commensalism, at least i we're looking at B[i,j]>0 and B[j,i]==0
@@ -51,8 +52,14 @@ for (g in groupe){
 		mm=0
 		nn=0
 		pp=0
+		upp_vec=c()
+		low_vec=c()
 		for(j in 2:dim(B)[1]){
 			for(i in 1:(j-1)){
+				if(B[i,j]!=0&B[j,i]!=0){
+				upp_vec=c(upp_vec,B[i,j])
+				low_vec=c(low_vec,B[j,i])
+				}
 				if(B[i,j]>0&B[j,i]>0){
 					mm=mm+2
 				}else if((B[i,j]<0&B[j,i]>0)||(B[i,j]>0&B[j,i]<0)){
@@ -60,8 +67,10 @@ for (g in groupe){
 				}else if(B[i,j]<0&B[j,i]<0){
 					nn=nn+2
 				}
+			
 			}
 		}
+		rho=cor(upp_vec,low_vec)
 		B_nodiag=B
 		diag(B_nodiag)=NA
 		results[id_lieu,"E",option_model[m]]=mean(c(B_nodiag),na.rm=T)
@@ -69,6 +78,17 @@ for (g in groupe){
 		results[id_lieu,"mutualism",option_model[m]]=mm/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"all_neg",option_model[m]]=nn/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"predation",option_model[m]]=pp/(sum(B!=0)-dim(B)[1])
+
+		
+
+		S=dim(B)[1]
+		tmp=max(sqrt(S*results[id_lieu,"V",option_model[m]])*(1+rho)-results[id_lieu,"E",option_model[m]],(S-1)*results[id_lieu,"E",option_model[m]])
+		print(f1)
+		print(rho)
+		#print(cor.test(upp_vec,low_vec))
+		print(tmp)
+		print(mean(diag(B)))
+
 	}
 	}
 }
@@ -176,12 +196,12 @@ mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 xli1=min(c(results[,"E",option_model[m]]))
 xli2=max(c(results[,"E",option_model[m]]))
-plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="mean inter. strength",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="mean off-diagonal coefficients",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 xli1=min(c(results[,"V",option_model[m]]))
 xli2=max(c(results[,"V",option_model[m]]))
-plot(results[,"V",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="inter. strength var.",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"V",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="off-diagonal coefficient variance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("d)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 dev.off()

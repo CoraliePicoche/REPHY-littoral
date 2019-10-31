@@ -131,7 +131,7 @@ for (gg in 1:length(groupe)){
 tab_answer[,'Prop signif']=1-as.numeric(tab_answer[,'Prop signif']) #Sparsity index
 
 #Comparing
-pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf",width=18,height=8)
+#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf",width=18,height=8)
 par(mfrow=c(1,2),xpd=NA,mar=c(4,4.5,3,0.5))
 cod_cod=rep("cyan",dim(tab_answer)[1])
 cod_cod[as.numeric(tab_answer[,"Prop signif"])>=0.65]="blue"
@@ -200,10 +200,10 @@ arrows(xx[31]-0.05,yy[31]-0.025,xx[31],yy[31],length=0)
 
 mtext("Sparsity",side=1,line=2.5,cex=2.0)
 
-dev.off()
+#dev.off()
 
 #Comparing
-pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_log_cleaner_allwith0_ONLY_SIGNIF.pdf",width=10,height=8)
+#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_log_cleaner_allwith0_ONLY_SIGNIF.pdf",width=10,height=8)
 par(mfrow=c(1,1),xpd=NA,mar=c(3,4.5,1,1))
 
 symbol=rep(21,dim(tab_answer)[1])
@@ -239,11 +239,11 @@ for(i in 1:length(id)){
 }
 #legend("bottomleft",pch=c(16,16,16,21,22,23),leg=c('sparsity<0.65','sparsity<0.75','sparsity>=0.75','Dimension<6','Dimension<10','Dimension>=10'),col=c("cyan","blue","darkblue",NA,NA,NA),bty='n',cex=1.5,lty=NA,lwd=2,pt.bg=c(NA,NA,NA,"black","black","black"))
 #### WARNING: the legend will need to be updated
-dev.off()
+#dev.off()
 
 #symbol=rep(21,dim(tab_answer)[1])
 
-pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others_species2taxa.pdf",width=18,height=8)
+#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others_species2taxa.pdf",width=18,height=8)
 par(mfrow=c(1,2),xpd=NA,mar=c(4,4.5,3,0.5))
 
 app_T=c(100,100,100,50,300,300,100,100,100,300,200,400,400,300,300,50,100,30,1000,700,300,500)
@@ -260,17 +260,20 @@ plot(tab_answer[,'Dimension'],tab_answer[,'Prop signif'],col=col,pch=sy,cex.lab=
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
 legend("bottomright",c("Other studies","This study"),pch=c(16,17),col=c("black","blue"),bty="n",cex=2)
 
-dev.off()
+#dev.off()
 
 symbol=rep(21,dim(tab_answer)[1])
 symbol[as.numeric(tab_answer[,"Prop signif"])>=0.65]=22
 symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
 
 
-pdf('~/Documents/Plankton/REPHY_littoral/article/graphe/Ratio_function_dim.pdf',,width=10,height=8)
+pdf('Ratio_function_dim_tmp.pdf',,width=10,height=8)
 par(mfrow=c(1,1),mar=c(4,4.5,1,1))
 plot(tab_answer[,"Dimension"],log10(as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanSignif"])),t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="Number of taxa",ylab="|intra|/|inter|",yaxt="n",ylim=c(-0.1,2.1),cex.lab=1.5,xlim=c(1.9,14.5),cex.axis=1.5)
 axis(2,at=c(0,log10(5),1,log10(50),2),lab=c("1","5","10","50","100"),cex.axis=1.5)
+id_diff=16:18
+points(tab_answer[id_diff,"Dimension"],log10(as.numeric(tab_answer[id_diff,"MeanIntra"])/as.numeric(tab_answer[id_diff,"MeanSignif"])),col="red",lwd=2,cex=1,pch=symbol[id_diff],bg="red")
+
 
 idx=1:32
 tmp=names_1[18]

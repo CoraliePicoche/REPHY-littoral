@@ -1350,7 +1350,7 @@ literal "false"
 \change_inserted -666822487 1572522343
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1365,6 +1365,9 @@ as in
 
 , pour que ce soit évident qu'on émule ce genre de papier et pas que l'info
  phylogénétique sur les diatomées est dedans.
+
+\change_inserted -2100369821 1572532196
+ Ok.
 \change_unchanged
 
 \end_layout
@@ -1418,6 +1421,10 @@ status open
 \change_inserted -666822487 1572522484
 J'ai laissé le which, la seconde partie de la phrase est là pour justifier
  la première
+\change_inserted -2100369821 1572532199
+.
+ Ok.
+ 
 \change_unchanged
 
 \end_layout
@@ -1816,13 +1823,15 @@ literal "false"
 \change_inserted -666822487 1572522839
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \change_inserted -666822487 1572522861
 Why did you remove this? referee comment? I thought it was good to give
  an idea to the reader?
+\change_inserted -2100369821 1572532234
+ Because we already say it in the sentence before, with the required nuances.
 \change_unchanged
 
 \end_layout
@@ -1983,6 +1992,10 @@ status open
 
 \change_inserted -666822487 1572522952
 Color is region, the combination of color and shape gives a study site
+\change_inserted -2100369821 1572532166
+.
+ No.
+ 
 \change_unchanged
 
 \end_layout
@@ -2009,6 +2022,9 @@ status open
 \change_inserted -666822487 1572523755
 Note: j'éviterai les abbréviations dans le x-axis, tu as la place pour écrire
  in full je pense
+\change_inserted -2100369821 1572532279
+.
+ La façon dont je l'ai écrit cette fois te convient ?
 \change_unchanged
 
 \end_layout
@@ -2208,7 +2224,7 @@ centering
 
  
 \begin_inset Graphics
-	filename Ratio_function_dim.eps
+	filename Ratio_function_dim_tmp.pdf
 	width 80line%
 
 \end_inset
@@ -2238,6 +2254,12 @@ S3.
  Ol: Oléron; Br: Brittany; Me: Mediterranean Sea).
  The symbol color and shape correspond to the sparsity of the interaction
  matrix (e.g., the proportion of null interactions in the matrix).
+
+\change_inserted -2100369821 1572536408
+ Red dots correspond to terrestrial and/or low dimension, predator-prey
+ systems, giving a lower bound for the intra/inter ratio.
+
+\change_unchanged
  Intergroup interactions were set to 0 when they were not specified in the
  articles (in most cases, authors removed non-significant interactions at
  the 95% threshold; Fig.
@@ -2358,8 +2380,20 @@ ne could argue that such high intra/inter ratio arises because we consider
  the genus as our baseline taxonomic unit, rather than the species.
  Although it is logical that niche differentiation increases as one gets
  up the phylogenetic tree, and that getting down to the species level could
- slightly decrease that ratio, there are two arguments suggesting that the
- niche differences found here extend to the species level.
+ slightly decrease that ratio
+\change_inserted -2100369821 1572536570
+ (but see 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "narwani_ecological_2017"
+literal "false"
+
+\end_inset
+
+, in which phylogenetic closeness decreases competition strength)
+\change_unchanged
+, there are two arguments suggesting that the niche differences found here
+ extend to the species level.
  First, phytoplankton species belonging to different genera are often found
  to compete in experiments 
 \begin_inset CommandInset citation

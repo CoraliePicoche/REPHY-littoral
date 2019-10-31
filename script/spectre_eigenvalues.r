@@ -18,7 +18,7 @@ if(take0){
         extant="no0"
 }
 
-pdf(paste("Rapport/graphe/MAR_estimates/eigen_spectra_",option_model,"_",extant,".pdf",sep=""))
+pdf(paste("report/graphe/MAR_estimates/eigen_spectra_",option_model,"_",extant,"_diag_unchanged.pdf",sep=""))
 par(mfrow=c(2,2),mar=c(4,4,1.5,.25))
 #colo=c(rgb(0, 56, 168, maxColorValue = 255),rgb(115, 79, 150, maxColorValue = 255),rgb(215, 2, 112, maxColorValue = 255))
 colo=c("darkblue","lightblue","darkorchid")
@@ -40,11 +40,12 @@ for (g in groupe){
 		axlab="Re"
 		aylab="Im"
         }
-	plot(0,0,t="n",xlim=c(-0.65,-.15),ylim=c(-0.2,0.2),xlab=axlab,ylab=aylab,main=g)
+	#plot(0,0,t="n",xlim=c(-0.65,-.15),ylim=c(-0.2,0.2),xlab=axlab,ylab=aylab,main=g)
+	plot(0,0,t="n",xlim=c(-1,1),ylim=c(-1,1),xlab=axlab,ylab=aylab,main=g)
         for (ll in 1:length(option_lieu)){
                 f1=paste("data/analyse_MAR/",g,"/site_specific/",option_lieu[ll],"_",option_model,"_",option_NEI,"_regular_common_",g,".RData",sep="")
                 load(f1)
-                B=clean_matrix(cis)
+                B=clean_matrix(cis,diag_bool=F)
 		eig_B=eigen(B)$values
 		id=which(Mod(eig_B)==max(Mod(eig_B)))
 		points(Re(eig_B),Im(eig_B),col=colo[ll],pch=16,cex=2)
