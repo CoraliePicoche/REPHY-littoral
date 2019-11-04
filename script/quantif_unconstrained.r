@@ -5,7 +5,7 @@ rm(list=ls())
 library(xtable)
 source("script/matrix_MAR_clean.r")
 #results=array(NA,dim=c(10,7),dimnames=list(1:10,c("signif","signif outside","positive","mean abs(val)","mean abs(val) signif","mean absolute difference","transfo sign"))) 
-results=array(NA,dim=c(10,6),dimnames=list(1:10,c("signif outside","positive","ratio intra/inter","mean abs(val_u)/mean abs(val_p)","mean abs(val_u/val_p)","transfo sign"))) 
+results=array(NA,dim=c(10,7),dimnames=list(1:10,c("signif outside","positive","ratio intra/inter","unconstrained in/out block","mean abs(val_u)/mean abs(val_p)","mean abs(val_u/val_p)","transfo sign"))) 
 
 id_g=0
 id_l=0
@@ -47,11 +47,12 @@ for (g in groupe){
 		results[id_l,"signif outside"]=sum(B_unconstrained_s[struct==1]!=0)/length(B_unconstrained_s)
 #		results[id_l,"mean abs(val) signif"]=mean(abs(B_unconstrained_s[struct==1]))
 		results[id_l,"transfo sign"]=sum(sign(B_unconstrained_ns)==sign(B_pencen))/length(B_unconstrained_ns)
+		results[id_l,"unconstrained in/out block"]=mean(abs(B_unconstrained_ns[B_pencen!=0]))/mean(abs(B_unconstrained_ns[B_pencen==0]))
 #		results[id_l,"mean absolute difference"]=mean(abs((B_unconstrained_ns-B_pencen)*struct))
 
 	}
 }
 
 #print.xtable(xtable(results,digits=c(2),display=c(rep("f",6),"E","f")),"article/submit_JEcol/response/quantif_unconstrained.tex" ,type="latex")
-print.xtable(xtable(results,digits=c(2),display=c(rep("f",7))),"article/submit_JEcol/response/quantif_unconstrained_other_metrics.tex" ,type="latex")
+print.xtable(xtable(results,digits=c(2),display=c(rep("f",8))),"article/submit_JEcol/response/quantif_unconstrained_other_metrics.tex" ,type="latex")
 

@@ -73,8 +73,10 @@ for (g in groupe){
 		rho=mean(upp_vec*low_vec)
 		B_nodiag=B
 		diag(B_nodiag)=NA
-		results[id_lieu,"E",option_model[m]]=mean(c(B_nodiag),na.rm=T)
-		results[id_lieu,"V",option_model[m]]=var(c(B_nodiag),na.rm=T)
+		B_nodiag_no0=B_nodiag
+		B_nodiag_no0[B_nodiag==0]=NA
+		results[id_lieu,"E",option_model[m]]=mean(c(B_nodiag_no0),na.rm=T)
+		results[id_lieu,"V",option_model[m]]=var(c(B_nodiag_no0),na.rm=T)
 		results[id_lieu,"mutualism",option_model[m]]=mm/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"all_neg",option_model[m]]=nn/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"predation",option_model[m]]=pp/(sum(B!=0)-dim(B)[1])
@@ -85,6 +87,7 @@ for (g in groupe){
 		tmp=max(sqrt(S*results[id_lieu,"V",option_model[m]])*(1+rho)-results[id_lieu,"E",option_model[m]],(S-1)*results[id_lieu,"E",option_model[m]])
 		print(f1)
 		print(rho)
+		print(length(upp_vec))
 		#print(cor.test(upp_vec,low_vec))
 		print(tmp)
 		print(mean(diag(B)))
@@ -175,7 +178,7 @@ print(results[,'generality.HL','pencen'])
 
 
 for (m in 1:length(option_model)){
-	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_for_response.pdf",sep="")
+	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_with_E_and_V_without0.pdf",sep="")
         pdf(paste("./article/graphe/",filename,sep=""),width=12,height=12)
         #par(mfrow=c(1,3),mar=c(2,2,0.75,0.5),oma=c(3,3,2,0.5),xpd=NA)
         par(mfrow=c(2,2),mar=c(4.5,2,1.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
