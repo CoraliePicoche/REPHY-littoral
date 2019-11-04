@@ -70,7 +70,7 @@ for (g in groupe){
 			
 			}
 		}
-		rho=cor(upp_vec,low_vec)
+		rho=mean(upp_vec*low_vec)
 		B_nodiag=B
 		diag(B_nodiag)=NA
 		results[id_lieu,"E",option_model[m]]=mean(c(B_nodiag),na.rm=T)
