@@ -134,8 +134,8 @@ for (gg in 1:length(groupe)){
         }
         baseline=max_sp-grad_sp[i]+1 #Compute the position of the species on the y-axis
         if(i==j){ #For intragroup interactions, withdraw 1 to the value, to make them comparable to intergroup interactions
-                mini=cis$par.lowCI$B[n]*fact
-                maxi=cis$par.upCI$B[n]*fact
+                mini=(cis$par.lowCI$B[n]-1)*fact
+                maxi=(cis$par.upCI$B[n]-1)*fact
                 if(option_sp=="common"){
                         colo=color[ll]
                         xshift=(ll-1)*2.75*pm

@@ -1468,6 +1468,25 @@ literal "false"
 
 \end_inset
 
+
+\change_inserted -2100369821 1572960361
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -2100369821 1572960409
+Why don't we add Ives 1995, to show there is a real background to what we
+ do
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 .
  We compared the maximum modulus of the eigenvalues of the pennate/centric
  matrices in each site, as a measure of resilience
@@ -1477,8 +1496,27 @@ literal "false"
 (similar to the real part of the leading eigenvalue for continuous time
  model)
 \change_unchanged
-, to network metrics which could be related to complexity, such as weighted
- connectance and linkage density 
+, to network 
+\change_deleted -2100369821 1572960459
+metrics
+\change_inserted -2100369821 1572960496
+descriptors
+\change_unchanged
+ 
+\change_deleted -2100369821 1572960551
+which could be related to complexity,
+\change_unchanged
+ such as
+\change_inserted -2100369821 1572961385
+ interaction strength distribution (sign, mean and variance) and
+\change_unchanged
+ weighted connectance
+\change_inserted -2100369821 1572960546
+ (which can be related to complexity)
+\change_deleted -2100369821 1572960431
+ and linkage density
+\change_unchanged
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "bersier_quantitative_2002"
@@ -1499,29 +1537,76 @@ status open
 \change_inserted -666822487 1572522573
 Bougé dans une seconde phrase, ça faisait trop long.
  Fais moi penser à ce que je te donne le bouquin de Kot sur ce point.
+
+\change_inserted -2100369821 1572960354
+ Survolé, rien vu pour nous
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
+
+\change_inserted -2100369821 1572961073
+ and is related to both resilience and population variability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ives_stability_1999"
+literal "false"
+
+\end_inset
+
+
+\change_inserted -666822487 1572522547
 .
 
 \change_unchanged
- Weighted connectance is a measure of the proportion of realized links,
- taking into account the shape of the flux distribution, while link density
- measures the average proportion and strength of interactions for a given
- taxon.
- These metrics are adapted to weighted interaction matrices but cannot accommoda
-te for both positive and negative coefficients: we therefore chose to focus
+ Weighted connectance is a measure of the proportion of realized links
+\change_inserted -2100369821 1572961189
+ compared to all possible links
+\change_unchanged
+, taking into account the shape of the flux distribution
+\change_deleted -2100369821 1572960703
+, while link density measures the average proportion and strength of interaction
+s for a given taxon
+\change_unchanged
+.
  
+\change_deleted -2100369821 1572960708
+These
+\change_inserted -2100369821 1572960708
+This
+\change_unchanged
+ metrics 
+\change_deleted -2100369821 1572960712
+are
+\change_inserted -2100369821 1572960712
+is
+\change_unchanged
+ adapted to weighted interaction matrices but cannot accommodate for both
+ positive and negative coefficients: we therefore chose to focus 
 \change_deleted -2100369821 1572515204
 on the absolute values of these coefficients, which can be linked to their
  strength,
-\change_inserted -2100369821 1572515219
-on interaction strength (absolute values of the coefficients),
+\change_inserted -2100369821 1572961208
+on interaction strength only (absolute values of the coefficients),
 \change_unchanged
  irrespective of interaction sign.
+
+\change_inserted -2100369821 1572961504
+ On the contrary, mean and variance of the off-diagonal coefficients, which
+ can affect the stability of a community 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "allesina_stabilitycomplexity_2015"
+literal "false"
+
+\end_inset
+
+, are computed on raw values of the coefficients.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1902,7 +1987,13 @@ literal "false"
 \end_inset
 
 ) of all interaction matrices was not strongly affected by the percentage
- of positive interactions or their connectivity properties (Fig.
+ of positive interactions
+\change_inserted -2100369821 1572962127
+ or the mean and variance of the intergenus interactions
+\change_deleted -2100369821 1572962083
+ or their connectivity properties
+\change_unchanged
+ (Fig.
 \begin_inset space ~
 \end_inset
 
@@ -1916,12 +2007,27 @@ noprefix "false"
 
 \end_inset
 
-).
- The maximum modulus of the interaction matrix eigenvalues remained between
+)
+\change_inserted -2100369821 1572962091
+.
+ There was a slight increase in stability with weighted connectance, with
+ a drop in eigenvalue modulus for weighted connectances between 0.09 and
+ 0.1
+\change_unchanged
+.
+
+\change_deleted -2100369821 1572961946
+ 
+\change_unchanged
+The maximum modulus of the interaction matrix eigenvalues remained between
  0.65 and 0.80.
- There was also a slight increase in stability with weighted connectance,
+ 
+\change_deleted -2100369821 1572961984
+There was also a slight increase in stability with weighted connectance,
  with a drop in eigenvalue modulus for weighted connectances between 0.09
- and 0.1.
+ and 0.1
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -1934,7 +2040,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1947,7 +2053,7 @@ centering
 
  
 \begin_inset Graphics
-	filename complexity_stability_MainFig_pencenjustB_for_response.pdf
+	filename complexity_stability_MainFig_pencenjustB_with_E_and_V_with0.pdf
 	width 100text%
 
 \end_inset
@@ -1986,7 +2092,7 @@ s
 \change_inserted -666822487 1572522935
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2022,9 +2128,9 @@ status open
 \change_inserted -666822487 1572523755
 Note: j'éviterai les abbréviations dans le x-axis, tu as la place pour écrire
  in full je pense
-\change_inserted -2100369821 1572532279
+\change_inserted -2100369821 1572947660
 .
- La façon dont je l'ai écrit cette fois te convient ?
+ C'est mieux comme ça ?
 \change_unchanged
 
 \end_layout
@@ -2124,10 +2230,13 @@ name "fig:Vulnerability_impact"
 \end_layout
 
 \begin_layout Standard
-Given that a direct complexity-stability link was not obvious, we investigated
- whether the matrix coefficients had some particular structure that could
- help theoretical ecology to make better null models of joint community
- dynamics and interactions 
+Given that a direct complexity-stability
+\change_inserted -2100369821 1572962275
+ (sensu resilience)
+\change_unchanged
+ link was not obvious, we investigated whether the matrix coefficients had
+ some particular structure that could help theoretical ecology to make better
+ null models of joint community dynamics and interactions 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "james_constructing_2015"
@@ -2603,19 +2712,28 @@ No complexity-stability relationship but connections between self-regulation
 
 \begin_layout Standard
 There was no relation between the complexity of the communities (measured
- 
-\change_deleted -666822487 1572523362
-as either 
-\change_unchanged
-the weighted connectance 
+ as either the weighted connectance 
 \change_inserted -666822487 1572523401
 or the interaction coefficient variance
 \change_deleted -666822487 1572523368
 or linkage density
 \change_unchanged
- of the interaction matrices) and their stability, as measured by the dominant
- eigenvalue of the interaction matrix, which quantifies the return time
- to a point equilibrium (i.e., resilience).
+ of the interaction matrices) and their stability
+\change_deleted -2100369821 1572962506
+, 
+\change_inserted -2100369821 1572962508
+ (
+\change_deleted -2100369821 1572962673
+as 
+\change_unchanged
+measured by the dominant eigenvalue of the interaction matrix, which quantifies
+ the return time to a point equilibrium
+\change_inserted -2100369821 1572962519
+,
+\change_deleted -2100369821 1572962518
+ (
+\change_unchanged
+i.e., resilience).
  This result is conditional upon our model being a good approximate description
  of the system (i.e., no multiyear limit cycles or chaotic attractors as the
  mapping between eigenvalues and actual stability is distorted in that case,
@@ -2682,8 +2800,38 @@ We can keep that sentence I think, indeed we do not find the same thing...
  
 \change_inserted -666822487 1572523346
 But it could be that our networks are too small for relationships based
- on random matrix theory to be apparent (Allesina and Tang 2015).
+ on random matrix theory to be apparent
+\change_inserted -2100369821 1572963349
  
+\begin_inset CommandInset citation
+LatexCommand citep
+key "allesina_stabilitycomplexity_2015"
+literal "false"
+
+\end_inset
+
+
+\change_deleted -2100369821 1572963352
+ (Allesina and Tang 2015)
+\change_inserted -666822487 1572523346
+.
+ 
+\change_inserted -2100369821 1572965069
+[[Or rephrase, after 
+\begin_inset Quotes eld
+\end_inset
+
+using a different technique.
+ This result does contradict theory based on random matrices especially
+ for competitive and/or mutualistic networks (Allesina and Tang 2012) While
+ this might be linked to the limited size of our networks (Allesina and
+ Tang 2015), we should also mention that our interaction matrices (discrete-time
+ model) are not strictly analogous to the ones used in classical random
+ matrix theory (continuous-time model).
+\begin_inset Quotes erd
+\end_inset
+
+]] 
 \change_unchanged
 We also found that the percentage of mutualistic interactions, that is thought
  to affect the stability of a network 
