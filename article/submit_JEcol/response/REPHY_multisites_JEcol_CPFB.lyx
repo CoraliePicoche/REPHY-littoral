@@ -779,7 +779,13 @@ literal "false"
 \change_inserted -2100369821 1572517975
  mostly
 \change_unchanged
- from studies of annual plants
+ from studies of 
+\change_deleted -2100369821 1574085651
+annual
+\change_inserted -2100369821 1574085652
+terrestrial
+\change_unchanged
+ plants
 \change_deleted -2100369821 1572514504
  and forest trees
 \change_unchanged
@@ -1219,7 +1225,13 @@ Fitting a more sophisticated model
  (threshold autoregressive model) showed no sign of extra non-linearities
  or a storage effect
 \change_inserted -666822487 1572522231
- in this subset of the data
+ in 
+\change_deleted -2100369821 1574085718
+this
+\change_inserted -2100369821 1574085720
+the Arcachon
+\change_inserted -666822487 1572522231
+ subset of the data
 \change_deleted -666822487 1572522013
  on a subset of the present dataset
 \change_inserted -2100369821 1572514811
@@ -1489,9 +1501,9 @@ Why don't we add Ives 1995, to show there is a real background to what we
 \change_unchanged
 .
  We compared the maximum modulus of the eigenvalues of the pennate/centric
- matrices in each site, as a measure of resilience
-\change_inserted -2100369821 1572515835
- 
+ matrices in each site
+\change_deleted -2100369821 1574085761
+, as a measure of resilience
 \change_deleted -666822487 1572522529
 (similar to the real part of the leading eigenvalue for continuous time
  model)
@@ -1507,12 +1519,10 @@ descriptors
 which could be related to complexity,
 \change_unchanged
  such as
-\change_inserted -2100369821 1572961385
- interaction strength distribution (sign, mean and variance) and
+\change_inserted -2100369821 1574085768
+ the interaction strength distribution (sign, mean and variance) and
 \change_unchanged
  weighted connectance
-\change_inserted -2100369821 1572960546
- (which can be related to complexity)
 \change_deleted -2100369821 1572960431
  and linkage density
 \change_unchanged
@@ -1547,8 +1557,9 @@ Bougé dans une seconde phrase, ça faisait trop long.
 \end_inset
 
 
-\change_inserted -2100369821 1572961073
- and is related to both resilience and population variability 
+\change_inserted -2100369821 1574085874
+ and measures resilience while still accounting for some variability properties
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ives_stability_1999"
@@ -1577,7 +1588,11 @@ These
 \change_inserted -2100369821 1572960708
 This
 \change_unchanged
- metrics 
+ metric
+\change_deleted -2100369821 1574085878
+s
+\change_unchanged
+ 
 \change_deleted -2100369821 1572960712
 are
 \change_inserted -2100369821 1572960712
@@ -1593,8 +1608,8 @@ on interaction strength only (absolute values of the coefficients),
 \change_unchanged
  irrespective of interaction sign.
 
-\change_inserted -2100369821 1572961504
- On the contrary, mean and variance of the off-diagonal coefficients, which
+\change_inserted -2100369821 1574085886
+ In contrast, mean and variance of the off-diagonal coefficients, which
  can affect the stability of a community 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1611,39 +1626,34 @@ literal "false"
 
 \begin_layout Standard
 In addition to these network-level metrics, we also computed the average
- vulnerability
-\change_deleted -2100369821 1572515530
- (average effect of other taxa on a focal taxon, eq.
+ vulnerability (average effect of other taxa on a focal taxon, eq.
 \begin_inset space ~
 \end_inset
 
-S5)
-\change_unchanged
- and impact (
-\change_inserted -2100369821 1572515552
-respectively, average effect of other taxa on a focal taxon, eq.
- S5 and 
-\change_unchanged
-average effect of a focal taxon on other taxa, eq.
+S5) and impact (average effect of a focal taxon on other taxa, eq.
 \begin_inset space ~
 \end_inset
 
 S6
-\change_inserted -2100369821 1572515578
-, similar to in-strenght and out-strength in 
+\change_inserted -2100369821 1574085931
+)
+\change_deleted -2100369821 1574085927
+) 
+\change_unchanged
+on both raw and absolute values of the coefficients
+\change_deleted -2100369821 1572515232
+,
+\change_inserted -2100369821 1574086016
+.
+ Vulnerability and impact can be related to in-strength and out-strength
+ in the meta-analysis of 
 \begin_inset CommandInset citation
-LatexCommand citealp
+LatexCommand citet
 key "kinlock_meta-analysis_2019"
 literal "false"
 
 \end_inset
 
-
-\change_unchanged
-) on both raw and absolute values of the coefficients
-\change_deleted -2100369821 1572515232
-,
-\change_inserted -2100369821 1572515233
 .
  We then
 \change_unchanged
@@ -1901,14 +1911,19 @@ literal "false"
  process.
  If we include the zeroes in the interaction matrix in the computation of
  the intra/inter mean interaction strength, the ratio rises to 21-43.
- Therefore, intragenus interactions are on average much stronger than intergenus
- interactions
+ Therefore, intragenus interactions are on average 
+\change_deleted -2100369821 1574086040
+much stronger
+\change_inserted -2100369821 1574086052
+one order of magnitude stronger
+\change_unchanged
+ than intergenus interactions
 \change_deleted -2100369821 1572515751
 , approximately 10 to 20 times stronger
 \change_inserted -666822487 1572522839
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2487,9 +2502,15 @@ O
 \change_unchanged
 ne could argue that such high intra/inter ratio arises because we consider
  the genus as our baseline taxonomic unit, rather than the species.
- Although it is logical that niche differentiation increases as one gets
- up the phylogenetic tree, and that getting down to the species level could
- slightly decrease that ratio
+ 
+\change_deleted -2100369821 1574086086
+Although i
+\change_inserted -2100369821 1574086086
+I
+\change_unchanged
+t is logical that niche differentiation increases as one gets up the phylogeneti
+c tree, and that getting down to the species level could slightly decrease
+ that ratio
 \change_inserted -2100369821 1572536570
  (but see 
 \begin_inset CommandInset citation
@@ -2500,8 +2521,17 @@ literal "false"
 \end_inset
 
 , in which phylogenetic closeness decreases competition strength)
+\change_deleted -2100369821 1574086099
+,
+\change_inserted -2100369821 1574086099
+.
+
 \change_unchanged
-, there are two arguments suggesting that the niche differences found here
+ 
+\change_inserted -2100369821 1574086108
+However, 
+\change_unchanged
+there are two arguments suggesting that the niche differences found here
  extend to the species level.
  First, phytoplankton species belonging to different genera are often found
  to compete in experiments 
@@ -2846,10 +2876,13 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In addition to weighted connectance, indices at the network-level (e.g., linkage
- density) and at the species or genus level (vulnerability and impact) approxima
-te the average effects exerted and sustained by any given taxa in the different
- study sites.
+In addition to weighted connectance, indices at the 
+\change_deleted -2100369821 1574086135
+network-level (e.g., linkage density) and at the 
+\change_unchanged
+species or genus level (vulnerability and impact) approximate the average
+ effects exerted and sustained by any given taxa in the different study
+ sites.
  While, at the network level, network structure (either complexity measures
  or the percentage of mutualistic interactions) did not affect stability,
  a relation emerged between self-regulation, necessary for coexistence,
