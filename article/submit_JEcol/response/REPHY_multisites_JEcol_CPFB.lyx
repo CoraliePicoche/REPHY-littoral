@@ -1350,7 +1350,7 @@ literal "false"
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Why don't we add Ives 1995, to show there is a real background to what we
@@ -1729,17 +1729,8 @@ noprefix "false"
  There was a slight increase in stability with weighted connectance, with
  a drop in eigenvalue modulus for weighted connectances between 0.09 and
  0.1.
-
-\change_inserted -666822487 1574678986
- 
-\change_unchanged
-The maximum modulus of the interaction matrix eigenvalues remained between
+ The maximum modulus of the interaction matrix eigenvalues remained between
  0.65 and 0.80.
-
-\change_deleted -666822487 1574678982
- .
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -1788,34 +1779,19 @@ Relation between stability and complexity of the interaction networks.
 sensu
 \emph default
  resilience.
- Each color 
-\change_inserted -666822487 1574678950
-or shape 
-\change_unchanged
-corresponds to a given region
+ Each color or shape corresponds to a given region
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
 Color is region, the combination of color and shape gives a study site.
  No.
-
-\change_deleted -666822487 1574678928
- 
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
 .
- 
-\change_deleted -666822487 1574678960
-Metrics f
-\change_inserted -666822487 1574678965
-The f
-\change_unchanged
-ormula for weighted connectance is given in the Supporting Information.
+ The formula for weighted connectance is given in the Supporting Information.
 \begin_inset Note Note
 status collapsed
 
@@ -1961,25 +1937,12 @@ noprefix "false"
 ): genera that were more self-regulating also had also a higher vulnerability
  score and a lower impact score.
  Those two influences are likely to trade-off: a high degree of self-regulation
- somehow buffers 
-\change_inserted -666822487 1574680496
-the effect of 
-\change_unchanged
-outside influences
-\change_inserted -666822487 1574680504
- on population dynamics
-\change_unchanged
-.
-
-\change_inserted -2100369821 1574261746
+ somehow buffers the effect of outside influences on population dynamics.
  
-\change_deleted -666822487 1574680467
-[[Not sure about that! In the sentence before, we say that more selfregulation
- also means higher vulnerability]] 
 \change_inserted -666822487 1574680467
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2070,11 +2033,7 @@ Ratio of intra- to inter-group interaction strength in Multivariate AutoRegressi
 ve (MAR) models.
 
 \series default
- The reference for each study
-\change_deleted -666822487 1574680570
-, corresponding to a code,
-\change_unchanged
- is given in Table
+ The reference for each study is given in Table
 \begin_inset space ~
 \end_inset
 
@@ -2368,19 +2327,10 @@ literal "false"
 \end_inset
 
 ; fungi)
-\change_deleted -666822487 1574680692
-[[As we have not proven that there is apparent facilitation due to predation,
- even though we suspect it, in Barraquand et al.
- 2018, I don't think we can write the sentence this way.
- It suggested that we did find this mechanism in Arcachon.]]
-\change_inserted -666822487 1574680692
-
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1574680723
 [[As we have not proven that there is apparent facilitation due to predation,
  even though we suspect it, in Barraquand et al.
  2018, I don't think we can write the sentence this way.
@@ -2394,6 +2344,8 @@ we have argued that
 \end_inset
 
 .
+
+\change_deleted -2100369821 1574691198
  
 \change_unchanged
 
@@ -2401,8 +2353,6 @@ we have argued that
 
 \end_inset
 
-
-\change_unchanged
 .
  Though natural enemies are good candidates to explain the observed niche
  differences and emerging facilitation, one must bear in mind that other
@@ -2455,28 +2405,10 @@ No complexity-stability relationship but connections between self-regulation
 
 \begin_layout Standard
 There was no relation between the complexity of the communities (measured
- as either the weighted connectance 
-\change_inserted -666822487 1572523401
-or the interaction coefficient variance
-\change_deleted -666822487 1572523368
-or linkage density
-\change_unchanged
- of the interaction matrices) and their stability
-\change_deleted -2100369821 1572962506
-, 
-\change_inserted -2100369821 1572962508
- (
-\change_deleted -2100369821 1572962673
-as 
-\change_unchanged
-measured by the dominant eigenvalue of the interaction matrix, which quantifies
- the return time to a point equilibrium
-\change_inserted -2100369821 1572962519
-,
-\change_deleted -2100369821 1572962518
- (
-\change_unchanged
-i.e., resilience).
+ as either the weighted connectance or the interaction coefficient variance
+ of the interaction matrices) and their stability (measured by the dominant
+ eigenvalue of the interaction matrix, which quantifies the return time
+ to a point equilibrium,i.e., resilience).
  This result is conditional upon our model being a good approximate description
  of the system (i.e., no multiyear limit cycles or chaotic attractors as the
  mapping between eigenvalues and actual stability is distorted in that case,
@@ -2501,13 +2433,7 @@ literal "false"
 
 .
  Therefore, we are confident that the absence of complexity-resilience relations
-hip found here is 
-\change_deleted -666822487 1574680773
-genuine
-\change_inserted -666822487 1574680780
-not an artefact of a wrong model
-\change_unchanged
-.
+hip found here is not an artefact of a wrong model.
  This absence of direct link between complexity and stability could be an
  actual feature of empirical systems, as shown previously by 
 \begin_inset CommandInset citation
@@ -2518,17 +2444,8 @@ literal "false"
 \end_inset
 
  using a different technique.
- This result 
-\change_deleted -666822487 1574680825
-does
-\change_inserted -666822487 1574680826
-seems to
-\change_unchanged
- contradict theory based on random matrices 
-\change_inserted -666822487 1574680830
-,
-\change_unchanged
-especially for competitive and/or mutualistic networks 
+ This result seems to contradict theory based on random matrices ,especially
+ for competitive and/or mutualistic networks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "allesina_stability_2012"
@@ -2537,13 +2454,8 @@ literal "false"
 \end_inset
 
 .
+ However, this could also be linked to the limited size of our networks
  
-\change_deleted -666822487 1574680836
-While this might
-\change_inserted -666822487 1574680839
-However, this could also
-\change_unchanged
- be linked to the limited size of our networks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "allesina_stabilitycomplexity_2015"
@@ -2561,6 +2473,12 @@ status open
 
 \change_inserted -666822487 1574680860
 are you sure they talk about network size?
+\change_inserted -2100369821 1574696365
+ Most of the article assumes S going to infinity, or at least large ; and
+ relies on S=1000 in the figure.
+ But if it is not clear enough, maybe we can just drop the ref.
+ The argument still holds (smaller sample is always less conclusive).
+ 
 \change_unchanged
 
 \end_layout
@@ -2577,7 +2495,7 @@ we should also mention that our interaction matrices (discrete-time model)
  are not strictly analogous to the ones used in classical random matrix
  theory (continuous-time model).
 
-\change_inserted -666822487 1574680905
+\change_deleted -2100369821 1574696690
  Thus the jury is still out regarding the absence of complexity-resilience
  relation, though it might be genuine.
 
@@ -2606,68 +2524,40 @@ literal "false"
 in fact 
 \change_unchanged
 have a major impact on our networks' resilience.
+
+\change_inserted -2100369821 1574696694
+ Thus the jury is still out regarding the absence of complexity-resilience
+ relation, though it might be genuine.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-In addition to weighted connectance
-\change_inserted -666822487 1574680983
- and interaction variance
-\change_unchanged
-, indices at the 
-\change_deleted -2100369821 1574086135
-network-level (e.g., linkage density) and at the 
-\change_unchanged
-species or genus level (vulnerability and impact) approximate the average
+In addition to weighted connectance and interaction variance, indices at
+ the species or genus level (vulnerability and impact) approximate the average
  effects exerted and sustained by any given taxa in the different study
  sites.
  While, at the network level, network structure (either complexity measures
-\change_inserted -666822487 1574681011
-
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1574681015
 I prefer measures to proxy
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
- or the percentage of mutualistic interactions) did not affect 
-\change_deleted -666822487 1574681025
-stability
-\change_inserted -666822487 1574681027
-resilience
-\change_unchanged
-, a relation emerged between self-regulation, necessary for coexistence,
+ or the percentage of mutualistic interactions) did not affect resilience,
+ a relation emerged between self-regulation, necessary for coexistence,
  and genus-level indices.
  We found that the more a genus is self-regulated, the more it tends to
  be vulnerable to other genera impacts and the less it impacts other genera.
  We examined whether vulnerability and impact could be affected by phylogenetic
- correlations; the
-\change_deleted -2100369821 1574263055
-y
-\change_inserted -2100369821 1574263055
-re
-\change_unchanged
- were no
-\change_deleted -2100369821 1574263058
-t
-\change_inserted -2100369821 1574263059
-ne
-\change_inserted -666822487 1574681046
-
+ correlations; they were not
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1574681068
 A mon avis c'est 
 \begin_inset Quotes eld
 \end_inset
@@ -2677,17 +2567,11 @@ they were not
 \end_inset
 
 , parce que c'est le sujet de la phrase précédente
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_inserted -2100369821 1574263059
-,
-\change_unchanged
- as on Fig.
+, as on Fig.
 \begin_inset space ~
 \end_inset
 
@@ -2701,11 +2585,7 @@ noprefix "false"
 
 \end_inset
 
-
-\change_inserted -2100369821 1574263065
-,
-\change_unchanged
- points were not clustered according to genus, family or phylum.
+, points were not clustered according to genus, family or phylum.
  High self-regulation usually indicates large niche differences with the
  rest of the community, and it makes therefore sense that a species/genus
  whose needs strongly differ from the others only marginally impacts the
@@ -2893,17 +2773,8 @@ literal "false"
  competition is in effect hard to detect when all species are present.
  This would require spatial segregation between phytoplankton species at
  the scale of interactions, i.e., at the microscale.
- At the moment, it is known that 
-\change_deleted -666822487 1574681106
-turbulence
-\change_inserted -666822487 1574681138
-the fine-scale hydrodynamics
-\change_unchanged
- generate
-\change_deleted -666822487 1574681145
-s
-\change_unchanged
- inhomogeneities at the microscale 
+ At the moment, it is known that the fine-scale hydrodynamics generate inhomogen
+eities at the microscale 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "barton_impact_2014,breier_emergence_2018"
@@ -2933,22 +2804,8 @@ literal "false"
 \end_inset
 
 ).
- Moreover, even if 
-\change_deleted -666822487 1574681131
-turbulence
-\change_inserted -666822487 1574681131
-microscale hydrodynamics
-\change_unchanged
- generates spatial structure with segregation between species, it is not
- 
-\change_deleted -666822487 1574681166
-quite 
-\change_unchanged
-clear
-\change_inserted -666822487 1574681168
- either
-\change_unchanged
- that the 
+ Moreover, even if microscale hydrodynamics generates spatial structure
+ with segregation between species, it is not clear either that the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2957,23 +2814,15 @@ ghost of competition present
 \end_inset
 
  mechanism could work for phytoplankton, because turbulence
-\change_inserted -666822487 1574681199
-
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -666822487 1574681213
 ici turbulence c'est bon par contre
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  rather than organism movement dictates where the phytoplankton patches
  can or cannot appear.
 \end_layout
