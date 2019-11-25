@@ -2444,8 +2444,15 @@ literal "false"
 \end_inset
 
  using a different technique.
- This result seems to contradict theory based on random matrices ,especially
- for competitive and/or mutualistic networks 
+ This result seems to contradict theory based on random matrices
+\change_inserted -666822487 1574706190
+,
+\change_unchanged
+ 
+\change_deleted -666822487 1574706191
+,
+\change_unchanged
+especially for competitive and/or mutualistic networks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "allesina_stability_2012"
@@ -2455,6 +2462,9 @@ literal "false"
 
 .
  However, this could also be linked to the limited size of our networks
+\change_inserted -666822487 1574706206
+, as random matrix theory relies on asymptotics
+\change_unchanged
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2464,42 +2474,31 @@ literal "false"
 \end_inset
 
 
-\change_inserted -666822487 1574680847
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -666822487 1574680860
-are you sure they talk about network size?
-\change_inserted -2100369821 1574696365
- Most of the article assumes S going to infinity, or at least large ; and
- relies on S=1000 in the figure.
- But if it is not clear enough, maybe we can just drop the ref.
- The argument still holds (smaller sample is always less conclusive).
- 
+\change_deleted -666822487 1574706221
+, w
+\change_inserted -666822487 1574706221
+.
+ W
 \change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-, 
-\change_inserted -666822487 1574680868
-and 
-\change_unchanged
-we should also mention that our interaction matrices (discrete-time model)
+e should also mention that our interaction matrices (discrete-time model)
  are not strictly analogous to the ones used in classical random matrix
  theory (continuous-time model).
-
-\change_deleted -2100369821 1574696690
  Thus the jury is still out regarding the absence of complexity-resilience
- relation, though it might be genuine.
-
+ relation, though it 
+\change_deleted -666822487 1574706245
+might
+\change_inserted -666822487 1574706247
+may well
 \change_unchanged
+ be 
+\change_inserted -666822487 1574706240
+a 
+\change_unchanged
+genuine
+\change_inserted -666822487 1574706243
+ absence
+\change_unchanged
+.
  In addition to 
 \change_deleted -666822487 1574680925
 connectance
@@ -2524,10 +2523,33 @@ literal "false"
 in fact 
 \change_unchanged
 have a major impact on our networks' resilience.
+\change_inserted -666822487 1574706266
 
-\change_inserted -2100369821 1574696694
- Thus the jury is still out regarding the absence of complexity-resilience
- relation, though it might be genuine.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -666822487 1574706306
+I think that % positive is not stricto sensu complexity, hence no pb to
+ say 
+\begin_inset Quotes eld
+\end_inset
+
+the jury is still out
+\begin_inset Quotes erd
+\end_inset
+
+ a little above
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_deleted -666822487 1574706151
+ 
 \change_unchanged
 
 \end_layout
@@ -3303,7 +3325,7 @@ bibliographystyle{ecol_let_sortbyyear_v2}
 
 \end_inset
 
-  
+ 
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "phytoInteractions_ref"
