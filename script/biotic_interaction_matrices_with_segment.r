@@ -23,7 +23,7 @@ option_NEI=c("null")
 groupe=c("BZ","MO","AR","SU")
 llieux=c()
 groupe_nice=c("Brittany","Oléron","Arcachon","Mediterranean")
-let=c("a)","b)","d)","e)")
+let=c("a)","b)","c)","d)")
 option_sp="common"
 max_sp=16
 
