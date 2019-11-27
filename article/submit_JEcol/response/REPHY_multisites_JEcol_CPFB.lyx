@@ -174,7 +174,7 @@
 \papersides 1
 \paperpagestyle default
 \tracking_changes true
-\output_changes true
+\output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -414,6 +414,10 @@ Coralie Picoche
 
 \begin_layout Plain Layout
 1
+\change_inserted -2100369821 1574876442
+,2
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -633,9 +637,12 @@ sensu
 Synthesis
 \shape default
 : We prove that strong niche differentiation, widespread facilitation between
- phytoplanktonic taxa and stabilizing covariances between interactions strengths
- should be common features of coexisting phytoplankton communities in the
- field.
+ phytoplanktonic taxa and stabilizing covariances between interaction
+\change_deleted -2100369821 1574876460
+s
+\change_unchanged
+ strengths should be common features of coexisting phytoplankton communities
+ in the field.
  These are structural properties that we can expect to emerge from plausible
  mechanistic models of phytoplankton communities.
  We discuss mechanisms, such as predation or restricted microscale movement,
@@ -741,8 +748,11 @@ literal "false"
 
 \end_inset
 
-) has been proposed as a solution to explain highly diverse communities
- 
+)
+\change_inserted -2100369821 1574876472
+,
+\change_unchanged
+ has been proposed as a solution to explain highly diverse communities 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "hubbell_unified_2001,rosindell2011unified"
@@ -1172,8 +1182,12 @@ literal "false"
 
  was complemented by that of simulated data mimicking the study design,
  which confirmed the ability of MAR(1) models to infer biotic interactions
- and abiotic forcings.
- .
+ and abiotic forcings
+\change_deleted -2100369821 1574765668
+.
+ 
+\change_unchanged
+.
  Fitting a more sophisticated model (threshold autoregressive model) did
  not reveal extra non-linearities or a storage effect in the Arcachon subset
  of the data 
@@ -1426,11 +1440,23 @@ literal "false"
 
 .
  We then compared these to the regulation a focal species exerted on itself.
- Raw values indicate the average effect (i.e., is the effect of others mostly
- positive or negative?) that can be expected on the growth rate of a taxon
- growth rate from other planktonic taxa while absolute effects characterise
- the strength of all types of interactions on a taxon (i.e., is a taxon strongly
- affected by the others?).
+ Raw values indicate the average effect
+\change_deleted -2100369821 1574876559
+ (i.e., is the effect of others mostly positive or negative?)
+\change_unchanged
+ that can be expected on the growth rate of a taxon 
+\change_deleted -2100369821 1574876568
+growth rate 
+\change_unchanged
+from 
+\change_deleted -2100369821 1574876573
+other planktonic taxa
+\change_inserted -2100369821 1574876580
+the rest of the community (i.e., is the effect of others mostly positive or
+ negative?),
+\change_unchanged
+ while absolute effects characterise the strength of all types of interactions
+ on a taxon (i.e., is a taxon strongly affected by the others?).
 \end_layout
 
 \begin_layout Standard
@@ -1672,14 +1698,34 @@ We found that the percentage of true mutualism (+/+) was substantial: averaged
 \end_inset
 
 S5.
- The sign correspondence was not always maintained between French regions:
- the only interaction that was non-zero in the 10 sites (CHA/SKE) was mutualisti
-c in Men er Roue only (Brittany) and mixed (+/-) at all other sites.
- Within the same region, however, interactions measured at different sites
- tended to keep the same sign.
+ The sign correspondence was not always maintained between 
+\change_deleted -2100369821 1574876743
+French 
+\change_unchanged
+regions: the only interaction that was non-zero in the 10 sites (CHA/SKE)
+ was mutualistic in Men er Roue only (Brittany) and mixed (+/-) 
+\change_deleted -2100369821 1574876717
+at
+\change_inserted -2100369821 1574876717
+in
+\change_unchanged
+ all other sites.
+ Within the same region, however, interactions measured 
+\change_deleted -2100369821 1574876760
+at
+\change_inserted -2100369821 1574876760
+in
+\change_unchanged
+ different sites tended to keep the same sign.
  In the 3 sites of Oléron, for instance, there were 4 interactions which
- remained positive on both sides (CHA/GUI, DIT/GUI, LEP/THP, SKE/THP), 3
- of them being also mutualistic in some of the Brittany sites.
+ remained positive 
+\change_deleted -2100369821 1574876807
+on both sides
+\change_inserted -2100369821 1574876812
+for both taxa involved
+\change_unchanged
+ (CHA/GUI, DIT/GUI, LEP/THP, SKE/THP), 3 of them being also mutualistic
+ in some of the Brittany sites.
  This contradicts previous observations that mutualistic interactions tend
  to be more context-dependent than competitive interactions 
 \begin_inset CommandInset citation
@@ -1770,11 +1816,19 @@ centering
 Relation between stability and complexity of the interaction networks.
 
 \series default
- The maximum modulus of the interaction matrix 
+ The maximum modulus of the
+\change_inserted -2100369821 1574877216
+ eigenvalues of the
+\change_unchanged
+ interaction matrix 
 \begin_inset Formula $\mathbf{B}$
 \end_inset
 
- eigenvalues indicates stability 
+ 
+\change_deleted -2100369821 1574877219
+eigenvalues 
+\change_unchanged
+indicates stability 
 \emph on
 sensu
 \emph default
@@ -2408,7 +2462,11 @@ There was no relation between the complexity of the communities (measured
  as either the weighted connectance or the interaction coefficient variance
  of the interaction matrices) and their stability (measured by the dominant
  eigenvalue of the interaction matrix, which quantifies the return time
- to a point equilibrium,i.e., resilience).
+ to a point equilibrium,
+\change_inserted -2100369821 1574876855
+ 
+\change_unchanged
+i.e., resilience).
  This result is conditional upon our model being a good approximate description
  of the system (i.e., no multiyear limit cycles or chaotic attractors as the
  mapping between eigenvalues and actual stability is distorted in that case,
@@ -2510,9 +2568,12 @@ the jury is still out
 
 \begin_layout Standard
 In addition to weighted connectance and interaction variance, indices at
- the species or genus level (vulnerability and impact) approximate the average
- effects exerted and sustained by any given taxa in the different study
- sites.
+ the
+\change_deleted -2100369821 1574876901
+ species or
+\change_unchanged
+ genus level (vulnerability and impact) approximate the average effects
+ exerted and sustained by any given taxa in the different study sites.
  While, at the network level, network structure (either complexity measures
 \begin_inset Note Note
 status collapsed
@@ -2734,7 +2795,11 @@ literal "false"
 .
  This could occur for instance if species are spatially segregated (at a
  small scale) because each species only exists within a domain where it
- is relatively competitive (Pacala's spatial segregation hypothesis 
+ is relatively competitive (Pacala's spatial segregation hypothesis
+\change_inserted -2100369821 1574876927
+,
+\change_unchanged
+ 
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "pacala1997biologically"
@@ -3160,6 +3225,12 @@ literal "false"
 , providing invaluable data through years of fieldwork.
  We are grateful to David Murrell for his careful reading and suggestions,
  and to Peter Adler for helpful exchanges.
+
+\change_inserted -2100369821 1574877095
+ We also want to thank Gyuri Barabás and an anonymous referee for their
+ constructive comments.
+
+\change_unchanged
  This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
 \end_layout
 

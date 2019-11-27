@@ -259,9 +259,7 @@ the diagonal coefficients of the interaction matrix $(\mathbf{B}\text{\textendas
 \label{fig:IntraVAbundance}}
 \end{figure}
 
-Linkage density and weighted connectance were described in \citet{bersier_quantitative_2002}. Linkage density can
-be defined as the average of vulnerability and generality in the network.
-More precisely, diversity measures of the interactions from ($H_{P,k}$)
+Weighted connectance is described in \citet{bersier_quantitative_2002}. It is based on the average of vulnerability and generality in the network. More precisely, diversity measures of the interactions from ($H_{P,k}$)
 and to ($H_{N,k}$) the phytoplanktonic group $k$ can be computed
 as:
 
@@ -296,7 +294,7 @@ Contrary to linkage density, weighted connectance accounts for the
 dimension of the interaction matrix and can be used to compare network
 in different regions, with different dimensions.
 
-In addition to these network-level metrics, we also considered metrics
+In addition to this network-level metric, we also considered metrics
 for each phytoplanktonic group. We measured both its vulnerability
 (mean strength of the interactions that are applied to a group, eq.~\ref{eq:vulnerability})
 and its impact (mean strength of the interactions the group applies
@@ -334,7 +332,7 @@ and dimensionality (Fig~S9). A second caveat is that while we informed
 our model selection by phylogeny, several authors have
 instead reduced the number of estimated parameters by an automated
 procedure, usually based on the comparison of hundreds of randomly chosen
-interaction matrices by BIC \citep{ives_estimating_2003}. The latter
+interaction matrices by AIC \citep{ives_estimating_2003}. The latter
 choice is likely to bias high non-zero interactions in the literature.
 This is why we decided to present in the main text intra/inter ratios
 including interspecific (or intergroup) coefficients set to zero (see Fig. 4 in the main text),
@@ -375,7 +373,7 @@ in the $(\mathbf{B}\text{\textendash}\mathbf{I})$ matrix.
 \end{tabular}{\footnotesize\par}
 \par\end{centering}
 \caption{Studies used when comparing |intra|/|inter| ratios in Fig. 4 in main
-text and Fig. \ref{fig:Ratio-of-intra-to-intergroup}.
+text.
 T is the approximate number of sampling dates in each time series.
 \label{tab:Studies}}
 \end{sidewaystable}
