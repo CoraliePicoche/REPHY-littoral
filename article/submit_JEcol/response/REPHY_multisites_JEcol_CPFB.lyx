@@ -6,97 +6,19 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-% amsmath and amssymb packages, useful for mathematical formulas and symbols
-
-
-% Use Unicode characters when possible
-%\usepackage[utf8x]{inputenc} 
-
-
-\usepackage{float}
-\floatplacement{figure}{H}
-
-%Just trying CP
-%\usepackage[T1]{fontenc}
-
-% textcomp package and marvosym package for additional characters
-\usepackage{textcomp}
-\usepackage{marvosym}
-
-
-% cite package, to clean up citations in the main text. Do not remove.
-%\usepackage{cite}
-
-% Use nameref to cite supporting information files (see Supporting Information section for more info)
-\usepackage{nameref}
-
-
-%\usepackage[colorinlistoftodos]{todonotes}
-%% provides blue refs
-\usepackage[all]{hypcap}
-
-
-
 % line numbers
 \usepackage{lineno}
 
-
-% ligatures disabled
-\DisableLigatures[f]{encoding = *, family = * }
-
-% color can be used to apply background shading to table cells only
-%\usepackage[table]{xcolor}
-
-% array package and thick rules for tables
-\usepackage{array}
-
-
 %Spacing will be better
 \usepackage{setspace}
-
-
-% create "+" rule type for thick vertical lines
-\newcolumntype{+}{!{\vrule width 2pt}}
-
-% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
-% Captions will be left justified
-\usepackage[labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
-\renewcommand{\figurename}{Fig}
-
-%\bibliographystyle{ecology_no_url}
-%\bibliographystyle{ecology}
-
-
-
-% Header and Footer with logo
-\usepackage{epstopdf}
-%\pagestyle{myheadings}
-% \pagestyle{fancy}
-% \fancyhf{}
-%\setlength{\headheight}{27.023pt}
-%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
-%\rfoot{\thepage/\pageref{LastPage}}
-
-%\renewcommand{\headrulewidth}{0pt}
-% \renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
-% \fancyheadoffset[L]{2.25in}
-% \fancyfootoffset[L]{2.25in}
-% \lfoot{\today}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% to define \mu.
-% \DeclareRobustCommand{\greektext}{%
-%   \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
-% \DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
-% \ProvideTextCommand{\~}{LGR}[1]{\char126#1}
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
 \language english
 \language_package none
 \inputencoding utf8
-\fontencoding default
-\font_roman "default" "default"
+\fontencoding T1
+\font_roman "ae" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
@@ -170,6 +92,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -2100369821 "cpicoche"
 \author -666822487 "frederic"
 \end_header
 
@@ -251,6 +174,10 @@ fr
 *
 \series default
  corresponding author
+\change_inserted -2100369821 1574960040
+: Email: frederic.barraquand@u-bordeaux.fr 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -3051,7 +2978,8 @@ bibliographystyle{ecol_let_sortbyyear_v2}
  
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "phytoInteractions_ref"
+btprint "btPrintCited"
+bibfiles "phytoInteractions_ref_less6"
 options "ecol_let"
 
 \end_inset
