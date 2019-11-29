@@ -56,7 +56,7 @@ Oléron (B), Arcachon (C) and the Mediterranean Sea (D). The common
 scale of the panels is given in the left corner of D. \label{fig:Map}}
 \end{figure}
 
-At each site, water samples were collected between 0 and 1m depth
+At each site, water samples were collected below surface (between 0 and 1m depth)
 in a Niskin bottle, from which 10mL were taken for phytoplanktonic
 counts. We focus on phytoplanktonic taxa between 20 and 200 $\mu$m,
 the so-called microphytoplankton fraction \citep{reynolds2006ecology}.
@@ -224,10 +224,10 @@ respectively mutualistic or mixed (+/-) links.\label{fig:Pairs-of-coefficients}}
 We characterised each interaction network with 4 quantitative descriptors:
 the mean and variance of the intra- and intergenus coefficients (i.e.,
 on and off the matrix diagonal) and the linkage density and weighted
-connectance of $\mathbf{B}\lyxmathsym{\textendash}\mathbf{I}$. Absolute
-values of intragenus coefficients were approximately 8 times higher
-than the absolute effects of intergenus interactions while the intragenus
-interaction's variance was about 4 times higher (Fig.~\ref{fig:MeanVar}).
+connectance of $\mathbf{B}\lyxmathsym{\textendash}\mathbf{I}$. The mean of absolute
+values of intragenus coefficients was approximately 8 times higher
+than the mean of the absolute values of the effect of intergenus interactions. The intragenus
+interactions' variance was about 4 times higher than the variance of intergenus interactions (Fig.~\ref{fig:MeanVar}).
 
 \begin{figure}[H]
 \begin{centering}
@@ -240,7 +240,7 @@ with the mean, for 10 sites in 4 regions, with a model allowing interactions
 only within clads (within centric or pennate diatoms, dinoflagellates,
 or other taxa). The mean-variance relation was either computed with
 raw values of intergroup interactions (a) or absolute values of the
-intergroup coefficients (b). Intragroup coefficients were not modified.
+intergroup coefficients (b). We did not take the absolute value of intragroup coefficients since they were all negative.
 \label{fig:MeanVar}}
 \end{figure}
 
@@ -323,7 +323,7 @@ be linked to the estimated parameters (Fig.~\ref{fig:ratio_meta}). We should men
 comparison across the published literature. First, low-dimensional
 matrices tended to be more complete (less sparse) than high-dimensional
 matrices, as these small interaction matrices were used to study known
-interaction phenomena (observed predation between organisms, for instance).
+interaction phenomena (observed predation between organisms, for instance). In fact, we add pairs of predator and prey mainly to give a scale to the plot.
 Conversely, the number of parameters to estimate increases as the
 square of the number of interacting taxa, leading most authors to
 reduce this set before the estimation process for large interaction
@@ -408,7 +408,7 @@ to the present study. \label{fig:ratio_meta}}
 The Beverton-Holt multispecies competition model, whose variants are
 widely used for modelling plant community dynamics \citep{levine_importance_2009,kraft_plant_2015},
 is the closest discrete time equivalent to the continuous-time Lotka-Volterra
-model (see \citealt{cushing_discrete_2004} although the mapping is not
+model (see \citealt{cushing_discrete_2004}; although the mapping is not
 perfect for $n\geq3$, \citealt{roeger_discrete_2004}). The Beverton-Holt
 multispecies competition model writes
 
@@ -468,7 +468,7 @@ J=\left(\begin{array}{cc}
 \end{array}\right)
 \end{equation}
 
-We have $\frac{\partial X}{\partial n_{1}}=\frac{\partial X}{\partial N_{1}}\frac{\partial N}{\partial n_{1}}=\frac{\alpha_{11}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}e^{n_{1}}=\frac{\alpha_{11}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}N_{1}$,
+We have $\frac{\partial X}{\partial n_{1}}=\frac{\partial X}{\partial N_{1}}\frac{\partial N_{1}}{\partial n_{1}}=\frac{\alpha_{11}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}e^{n_{1}}=\frac{\alpha_{11}}{1+\alpha_{11}N_{1}+\alpha_{12}N_{2}}N_{1}$,
 which leads to
 
 \begin{equation}
@@ -545,6 +545,6 @@ equilibrium abundances do not differ too much, the order of magnitude
 of competition should be the same in MAR(1), Lotka-Volterra and multispecies
 Beverton-Holt models.
 
-\bibliography{phytoInteractions_ref_less6,bib_fig_review}
+\bibliography{phytoInteractions_ref,bib_fig_review}
 
 \end{document}
