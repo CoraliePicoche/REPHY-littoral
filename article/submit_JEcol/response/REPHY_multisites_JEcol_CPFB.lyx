@@ -105,7 +105,7 @@ Strong self-regulation and widespread facilitative interactions between
  genera of phytoplankton
 \end_layout
 
-\begin_layout Standard
+\begin_layout Author
 Coralie Picoche
 \begin_inset script superscript
 
@@ -125,9 +125,18 @@ Coralie Picoche
 \end_inset
 
  
+\change_inserted -2100369821 1575026175
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -2100369821 1575026175
 \begin_inset Newline newline
 \end_inset
 
+
+\change_unchanged
  
 \begin_inset ERT
 status open
@@ -148,7 +157,7 @@ doublespacing
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Address
 
 \series bold
 1
@@ -159,7 +168,7 @@ doublespacing
 fr
 \end_layout
 
-\begin_layout Standard
+\begin_layout Address
 
 \series bold
 2
@@ -2913,7 +2922,7 @@ https://github.com/CoraliePicoche/REPHY-littoral
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2925,62 +2934,15 @@ nolinenumbers
 \end_inset
 
  
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-% 
-\backslash
-subsection*{Manuscript Length}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-%
-\backslash
-bibliographystyle{ecology_no_url}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
+\change_deleted -2100369821 1575026860
  
-\begin_inset ERT
-status open
+\change_unchanged
 
-\begin_layout Plain Layout
-
-%
-\backslash
-bibliographystyle{ecol_let_sortbyyear_v2}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- 
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "phytoInteractions_ref_less6"
-options "ecol_let"
+bibfiles "phytoInteractions_ref"
+options "besjournals_2014"
 
 \end_inset
 
