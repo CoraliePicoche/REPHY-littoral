@@ -89,20 +89,20 @@ the phytoplankton fluctuations. We then analysed the ratio of intra-
 to inter-taxa interactions (measuring self-regulation, itself a measure
 of niche differentiation), the frequency of negative vs positive interactions,
 and how stability metrics (both at the network and genus level) relate
-to the network complexity and genus self-regulation or abundance. 
+to network complexity and genus self-regulation or abundance. 
 \item We showed that a strong self-regulation, with competition strength
 within a taxon (genus) an order of magnitude higher than between taxa,
 was present in all phytoplanktonic interaction networks. This much
 stronger intragenus competition suggests that niche differentiation
 - rather than neutrality - is commonplace in phytoplankton. Furthermore,
 interaction networks were dominated by positive net effects between
-phytoplanktonic taxa (above 50\% of non-zero interactions on average).
+phytoplanktonic taxa (on average, more than 50\% of interactions were positive).
 While network stability (\textit{sensu} resilience) was unrelated
 to complexity measures, we unveiled links between self-regulation,
 intergenus interaction strengths and abundance. The less common taxa
 tend to be more strongly self-regulated and can therefore maintain
-in spite of competition with abundant ones. 
-\item \textit{Synthesis}: We prove that strong niche differentiation, widespread
+in spite of competition with more abundant ones. 
+\item \textit{Synthesis}: We demonstrate that strong niche differentiation, widespread
 facilitation between phytoplanktonic taxa and stabilizing covariances
 between interaction strengths should be common features of coexisting
 phytoplankton communities in the field. These are structural properties
@@ -312,7 +312,7 @@ of network structure.
 The interaction matrix obtained from MAR(1) analyses can be used to
 determine the stability of a discrete-time dynamical system \citep{ives_stability_1999,ives_estimating_2003}.
 We compared the maximum modulus of the eigenvalues of the pennate/centric
-matrices in each site, to network descriptors such as the interaction
+matrices for each site to network descriptors, such as the interaction
 strength distribution (sign, mean and variance) and weighted connectance
 \citep{bersier_quantitative_2002}. The maximum modulus is analogous
 to the real part of the leading eigenvalue for continuous time models
@@ -394,7 +394,7 @@ The ratio of mean intragenus to intergenus interaction coefficients
 varied between 6 and 10, not counting coefficients set to 0 in the
 estimation process. When we included the zeroes in the interaction
 matrix in the computation of the intra/inter mean interaction strength,
-the ratio rised to 21-43. Therefore, intragenus interactions were
+the ratio rose to 21-43. Therefore, intragenus interactions were
 on average one order of magnitude stronger than intergenus interactions.
 
 Second, although the percentage of facilitative interactions varied
@@ -477,7 +477,7 @@ of randomness dominating the interaction matrix: many scenarios of
 self-regulation vs limitation by others are therefore possible.
 
 Aside from the trade-offs of Fig. \ref{fig:Vulnerability_impact},
-we found no remarkable patterns of covariation between matrix elements
+we found no remarkable patterns of covariation between matrix elements (Fig~S5)
 other than a mean-variance scaling of interaction coefficients (Fig~S6).
 
 \subsection*{Literature comparison}
@@ -525,15 +525,17 @@ into much higher intragenus than intergenus effects on growth rates
 (i.e., strong self-regulation), together with a high degree of facilitative
 net interactions.
 
-The rather high intra/intertaxa interaction strength ratio \citep{levine_importance_2009}
-that we found, from 5 to 20, depending on how one counts the interactions
-set to zero in the estimation process, could appear extremely high
+The intra/intertaxa interaction strength ratio \citep{levine_importance_2009}
+that we found, from 6--10 to above 20, depending on whether one includes interactions
+set to zero in the estimation process, could appear very high
 in light of previous intra/interspecific competition strength estimates
-of 4 to 5 by \citet{adler_competition_2018}. Even though their model
-is a different one, i.e., Lotka-Volterra competition, we prove in
-the Supporting Information that the intra/inter ratio should remain
-commensurate in a MAR(1) model. The difference in the intra/inter
-ratio that we found should therefore lie elsewhere, which requires
+of 4 to 5 by \citet{adler_competition_2018}. Additional estimates using the unconstrained interaction matrix 
+yielded ratios between 8 and 11 depending on the site (not shown), % see code repository? 
+but weak interspecific effects are likely to be inflated in the full model. Therefore, 
+a intra/inter ratio of 10 seems like a conservative estimate, twice that of \citet{adler_competition_2018}. 
+Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in
+the Supporting Information that the intra/inter ratio should remain commensurate in a MAR(1) model. 
+The difference in the intra/inter ratio that we found should therefore lie elsewhere, which requires
 some explanation. One could argue that such high intra/inter ratio
 arises because we consider the genus as our baseline taxonomic unit,
 rather than the species. It is logical that niche differentiation
@@ -581,7 +583,7 @@ in detail the Arcachon study sites \citep{barraquand_coastal_2018},
 we have argued that for phytoplankton, the strong intragroup density-dependence
 could arise from effects of natural enemies \citep{haydon_pivotal_1994}.
 Natural enemies could also very well create apparent mutualism between
-prey species \citep{abrams_apparent_1998,barraquand_indirect_2015,de_ruiter_emergent_2017}.
+prey species \citep{abrams_apparent_1998,de_ruiter_emergent_2017}.
 We believe this to be likely for the present study, given that the
 study regions (Arcachon, Oléron, Brittany, Mediterranean) have similar
 predators (zooplankton, \citealp[e.g.,][]{jamet_zooplankton_2001,moderan_zooplankton_2010,tortajada_network_2012})
@@ -604,8 +606,8 @@ and intergroup interactions}
 
 There was no relation between the complexity of the communities (measured
 as either the weighted connectance or the interaction coefficient
-variance of the interaction matrices) and their stability (measured
-by the dominant eigenvalue of the interaction matrix, which quantifies
+variance) and their stability (measured
+by the largest modulus of the eigenvalues, which quantifies
 the return time to a point equilibrium, i.e., resilience). This result
 is conditional upon our model being a good approximate description
 of the system (i.e., no multiyear limit cycles or chaotic attractors
@@ -615,17 +617,17 @@ on a subset of this data that a fixed point in a MAR(1) model, perturbed
 by seasonality and abiotic variables, is an accurate description of
 the system \citep{barraquand_coastal_2018}. Therefore, we are confident
 that the absence of complexity-resilience relationship found here
-is not an artefact of a wrong model. This absence of direct link between
+is not a mere artefact of an inadequate model. This absence of direct link between
 complexity and stability could be an actual feature of empirical systems,
 as shown previously by \citet{jacquet_no_2016} using a different
 technique. This result seems to contradict theory based on random
 matrices, especially for competitive and/or mutualistic networks \citep{allesina_stability_2012}.
-However, this could also be linked to the limited size of our networks,
+However, one must bear in mind that such result could also be generated by the limited size of our networks,
 as random matrix theory relies on asymptotics \citep{allesina_stabilitycomplexity_2015}.
 We should also mention that our interaction matrices (discrete-time
-model) are not strictly analogous to the ones used in classical random
-matrix theory (continuous-time model). Thus the jury is still out
-regarding the absence of complexity-resilience relation, though it
+model) are not strictly analogous to the ones used most frequently used in theoretical ecology (continuous-time model), 
+though the spectral radius (largest modulus) is usually tightly related to the real part of the lead eigenvalue. 
+Thus the jury is still out regarding the absence of complexity-resilience relation found here, though it
 may well be a genuine absence. In addition to complexity metrics,
 we also found that the percentage of mutualistic interactions, that
 is thought to affect the stability of a network, either positively
@@ -640,7 +642,7 @@ measures or the percentage of mutualistic interactions) did not affect
 resilience, a relation emerged between self-regulation, necessary
 for coexistence, and genus-level indices. We found that the more a
 genus is self-regulated, the more it tends to be vulnerable to other
-genera impacts and the less it impacts other genera. We examined whether
+genera's impacts and the less it impacts other genera. We examined whether
 vulnerability and impact could be affected by phylogenetic correlations;
 they were not, as on Fig.~\ref{fig:Vulnerability_impact}, points
 were not clustered according to genus, family or phylum. High self-regulation
@@ -648,15 +650,15 @@ usually indicates large niche differences with the rest of the community,
 and it makes therefore sense that a species/genus whose needs strongly
 differ from the others only marginally impacts the resources of the
 other coexisting species. This is what we expect under strong niche
-partitioning. Furthermore, a low self-regulation was correlated with
+partitioning. A low self-regulation was also correlated with
 high average abundance, which echoes findings by \citet{yenni_persistent_2017}
 who demonstrated that rare species usually show stronger self-regulation.
 This correlation between relative rarity and self-regulation could
-also explain the lesser impact of highly self-regulated species/genus:
+explain the lesser impact of highly self-regulated species/genus:
 a taxon which dominates the community composition can have a major
 effect on the others, especially as they usually cover more space,
-while it is harder for the least common taxa to have large impacts.
-However, it was more difficult to explain the relationship between
+while it is harder for the less common taxa to have large impacts.
+In contrast, it was more difficult to explain the relationship between
 self-regulation and vulnerability: a genus that is more self-regulated
 and less common was found here to be on average more vulnerable to
 other genera's increases in densities. Such relation implies greater
@@ -665,11 +667,11 @@ and also invariability, \citealt{arnoldi2019multidimensionality})
 for the network as a whole, because the taxa that are the more vulnerable
 to other taxa's impacts are also those whose dynamics are intrinsically
 more buffered. By which mechanisms this could happen is so far unclear
-and open to speculation. It could be just a ``mass effect'': common
+and open to speculation. It could just be a ``mass effect'': common
 taxa are in high enough numbers to deplete resources or change the
 environment in ways that affects the less common ones, but the reverse
-is not true. We caution, however, that the relationships between vulnerability,
-impact and self-regulation that we evidenced are all relatively weak:
+is not true. As a final note on relationships between interaction matrix coefficients, 
+we caution that the trends evidenced are all relatively weak:
 considerable stochasticity still dominates the distribution of interaction
 matrix coefficients.
 
@@ -700,7 +702,7 @@ present'' \citep{tuck_strong_2018}, suggests by contrast that spatial
 distributions in relation to abiotic factors might have a large impact
 on the interaction strengths inferred from temporal interaction models
 such as ours. Recent combinations of model fitting and removal experiments
-have shown that the model fitting usually underestimates the effect
+have shown that model fitting usually underestimates the effect
 of competitors that are uncovered by removal experiments \citep{tuck_strong_2018,adler_weak_2018}.
 This could occur for instance if species are spatially segregated
 (at a small scale) because each species only exists within a domain
@@ -710,18 +712,16 @@ out if competitors were removed. This means that a species can be
 limited by competitors, but act so as to minimize competition (a little
 like avoidance behaviour in animals) and maximize opportunities for
 positive interactions, which implies that competition is in effect
-hard to detect when all species are present. This would require spatial
+hard to detect when all species are present. This mechanism would require spatial
 segregation between phytoplankton species at the scale of interactions,
 i.e., at the microscale. At the moment, it is known that the fine-scale
 hydrodynamics generate inhomogeneities at the microscale \citep{barton_impact_2014,breier_emergence_2018}
-but it is quite unclear how this affects multivariate spatial patterns
+but it is quite unclear how microscale hydrodynamics affects multivariate spatial patterns
 of species distributions (\textit{sensu} \citealt{bolker_spatial_1999},
 or \citealt{murrell_heteromyopia_2003}). Moreover, even if microscale
 hydrodynamics generates spatial structure with segregation between
-species, it is not clear either that the ``ghost of competition present''
-mechanism could work for phytoplankton, because turbulence rather
-than organism movement dictates where the phytoplankton patches can
-or cannot appear.
+species, the ``ghost of competition present'' mechanism might not work for phytoplankton as in terrestrial plants, because turbulence rather
+than active organism movement dictates where the phytoplankton patches can or cannot appear.
 
 % \begin{SCfigure*}[\sidecaptionrelwidth][!h]
 % \centering
