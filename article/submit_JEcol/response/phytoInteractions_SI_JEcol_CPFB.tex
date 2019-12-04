@@ -7,6 +7,7 @@
 \geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
 \PassOptionsToPackage{natbib=true}{biblatex}
 \usepackage{float}
+\usepackage{adjustbox}
 \usepackage{rotfloat}
 \usepackage{textcomp}
 \usepackage{amsmath}
@@ -310,6 +311,43 @@ e_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ik}\neq0}}}\sum_{i=1}^{S}b_{ik}\la
 
 where $\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}$ is the number of
 interactions which are different from 0 in row $k$.
+
+\subsection*{Comparison with a full interaction matrix}
+
+We checked that, by choosing the model with the lowest BIC, we did not miss interactions which would have changed our conclusions. To do so, we examined the full (unconstrained) model results for all study sites. We present those results below (Fig. \ref{fig:unconstrained} and Table \ref{table:unconstrained}). 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\linewidth]{biotic_interaction_matrices_unconstrained.pdf}
+    \caption{Interaction matrices estimated in 10 sites along the French coastline. Four regions are distinguished: Brittany (a), Oléron (b), Arcachon (d) and the Mediterranean Sea (e). There is no constraint on the structure (modularity) of the interaction matrices. The fraction of positive interactions in each matrix is given by points in c) while the dashed (resp., dotted) line represents the ratio of interactions remaining positive (resp., negative) for all sites of a given region.}
+    \label{fig:unconstrained}
+\end{figure}
+
+\begin{table}[ht]
+\centering
+ \begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{ccccccccc}
+  \hline
+ & signif outside & positive & ratio intra/inter & ratio in/out block & transfo sign \\ 
+  \hline
+Men er Roue & 0.09 & 0.57 & 11.06 & 3.03 & 0.04 \\ 
+  Loscolo & 0.14 & 0.56 & 8.42 & 2.65 & 0.07 \\ 
+  Croisic & 0.13 & 0.52 & 10.15 & 2.89 & 0.09 \\ 
+  LEperon & 0.13 & 0.59 & 8.78 & 2.75 & 0.04 \\ 
+  Cornard & 0.08 & 0.51 & 10.32 & 3.64 & 0.06 \\ 
+  Auger & 0.07 & 0.55 & 9.66 & 3.10 & 0.06 \\ 
+  Antoine & 0.10 & 0.47 & 11.18 & 5.21 & 0.00 \\ 
+  Lazaret & 0.18 & 0.37 & 8.67 & 4.30 & 0.00 \\ 
+  Teychan & 0.11 & 0.55 & 10.46 & 3.68 & 0.14 \\ 
+  B7 & 0.11 & 0.50 & 8.29 & 3.59 & 0.14 \\ 
+   \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Descriptors of coefficients in unconstrained interaction matrices and comparison to best-fitting pennate-centric structures: ratio of coefficients significantly different from 0 outside of the pennate-centric blocks vs total number of coefficients in the unconstrained matrix, proportion of positive interactions in the unconstrained matrix, ratio of mean intragroup interaction strength and mean intergroup interaction strength in the unconstrained matrix, ratio of mean interaction strength inside the pennate-centric modules vs outside the pennate-centric modules in the unconstrained matrix and proportion of interactions changing sign between the two structures.}
+\label{table:unconstrained}
+\end{table}
+
+Thus, even if we chose to select the full interaction model, there would be no difference in our main conclusions: intragenus interactions are much stronger than intergenus interactions and positive interactions are still the rule. There is at most 18\% of interactions significantly different from zero outside of the pennate and centric blocks and those interactions are on average 3.5 times lower than the interactions inside the pennate and centric blocks (Table \ref{table:unconstrained}).
 
 \subsection*{MAR references and analysis}
 
