@@ -9,7 +9,7 @@ groupe=c("BZ","MO","SU","AR")
 #option_model=c("unconstrained","pencen")
 option_model=c("pencen")
 
-results=array(NA,dim=c(10,11,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","vulnerability.LL","generality.HL","mutualism","all_neg","predation","E","V"),option_model)) #10 places, all indices, 2 models (pencen and unconstrained)
+results=array(NA,dim=c(10,12,length(option_model)),dimnames=list(1:10,c("stability","positive","weighted connectance","linkage density","vulnerability.LL","generality.HL","mutualism","all_neg","predation","E","V","SV"),option_model)) #10 places, all indices, 2 models (pencen and unconstrained)
 #There can be no commensalism, at least i we're looking at B[i,j]>0 and B[j,i]==0
 
 id_lieu=0
@@ -74,9 +74,10 @@ for (g in groupe){
 		B_nodiag=B
 		diag(B_nodiag)=NA
 		B_nodiag_no0=B_nodiag
-		B_nodiag_no0[B_nodiag==0]=NA
+#		B_nodiag_no0[B_nodiag==0]=NA Add this line if you want the same numbers without the interactions set to 0
 		results[id_lieu,"E",option_model[m]]=mean(c(B_nodiag_no0),na.rm=T)
 		results[id_lieu,"V",option_model[m]]=var(c(B_nodiag_no0),na.rm=T)
+		results[id_lieu,"SV",option_model[m]]=var(c(B_nodiag_no0),na.rm=T)*dim(B)[1]
 		results[id_lieu,"mutualism",option_model[m]]=mm/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"all_neg",option_model[m]]=nn/(sum(B!=0)-dim(B)[1])
 		results[id_lieu,"predation",option_model[m]]=pp/(sum(B!=0)-dim(B)[1])
@@ -178,7 +179,7 @@ print(results[,'generality.HL','pencen'])
 
 
 for (m in 1:length(option_model)){
-	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_with_E_and_V_without0.pdf",sep="")
+	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_with_E_and_SV_with0.pdf",sep="")
         pdf(paste("./article/graphe/",filename,sep=""),width=12,height=12)
         #par(mfrow=c(1,3),mar=c(2,2,0.75,0.5),oma=c(3,3,2,0.5),xpd=NA)
         par(mfrow=c(2,2),mar=c(4.5,2,1.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
@@ -188,7 +189,7 @@ yli2=max(c(results[,"stability",option_model[m]]))
 
 xli1=min(c(results[,"positive",option_model[m]]))*100
 xli2=max(c(results[,"positive",option_model[m]]))*100
-plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab=expression(paste("max(|",lambda,"|)",sep="")),cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 legend('topleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=c(15,16,17,18),col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
 
@@ -199,12 +200,12 @@ mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 xli1=min(c(results[,"E",option_model[m]]))
 xli2=max(c(results[,"E",option_model[m]]))
-plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="mean off-diagonal coefficients",ylab="maximum eigenvalue",cex.axis=2,cex.lab=2,tck=-0.0075)
+plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="mean off-diagonal coefficients",ylab=expression(paste("max(|",lambda,"|)",sep="")),cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
-xli1=min(c(results[,"V",option_model[m]]))
-xli2=max(c(results[,"V",option_model[m]]))
-plot(results[,"V",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="off-diagonal coefficient variance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
+xli1=min(c(results[,"SV",option_model[m]]))
+xli2=max(c(results[,"SV",option_model[m]]))
+plot(results[,"SV",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="S x off-diagonal coefficient variance ",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
 mtext("d)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
 
 dev.off()
