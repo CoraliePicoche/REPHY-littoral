@@ -177,7 +177,7 @@ systems.
 
 \subsection*{Sampling methods}
 
-All phytoplankton counts were collected by Ifremer coastal laboratories
+All phytoplankton samples were collected by Ifremer coastal laboratories
 as part of the National Phytoplankton and Phycotoxin Monitoring Network
 \citep{REPHY_db}. Since 1987, this monitoring program has required
 the sampling of 26 sites along the French coastline every 2 weeks
@@ -202,7 +202,7 @@ except for cryptophytes and euglenophytes in Arcachon, which could
 not be identified below the family level. Although the taxonomic resolution
 used here may seem coarse in comparison to land plants, it is in fact
 more refined than 86\% of the MAR(1) studies of phytoplankton listed
-in Table~S3.
+in Table~S4.
 
 For each region, the MAR(1) analysis focused on the most abundant
 and most frequently observed genera to avoid most of the gaps in the
@@ -299,7 +299,7 @@ the reverse hypothesis, that only unrelated organisms could interact
 (i.e., a diatom could only interact with a dinoflagellate or a cryptophyte,
 but not with another diatom), and the last interaction scenario did
 not constrain the interactions at all (full interaction matrix). We
-selected the best scenario by comparing BIC (Fig~S3), which proved
+selected the best scenario by comparing BIC (Fig.~S3), which proved
 to be satisfactory in our previous analyses of both real data and
 similar simulated datasets (\citealp{barraquand_coastal_2018}, Appendix
 2). The second interaction scenario, hereafter called the pennate-centric
@@ -326,7 +326,7 @@ focus on interaction strength only (absolute values of the coefficients),
 irrespective of interaction sign. In contrast, mean and variance of
 the off-diagonal coefficients, which can affect the stability of a
 community \citep{allesina_stabilitycomplexity_2015}, are computed
-on raw values of the coefficients.
+on raw values of the coefficients. Interaction coefficient variance is multiplied by the number of taxa, according to theory \citep{allesina_stabilitycomplexity_2015}.
 
 In addition to these network-level metrics, we also computed the average
 vulnerability (average effect of other taxa on a focal taxon, eq.~S5)
@@ -344,7 +344,7 @@ affected by the others?).
 Finally, we compared the observed ratio between mean self-regulation
 (intrataxon interaction strength) and mean intertaxa interaction strength
 to other published studies based on a MAR(1) model. A list of references
-is given in Table~S3. Authors usually reported only coefficients
+is given in Table~S4. Authors usually reported only coefficients
 that were significant at the 95\% significance threshold, thus ignoring
 potentially many weak effects, which we had to set to 0. There are
 therefore two ways of computing the mean intertaxa interactions, i.e.,
@@ -352,7 +352,7 @@ taking the mean value of all coefficients outside of the matrix diagonal,
 including zeroes (which decreases the estimated mean intertaxa interaction
 strength, Fig. \ref{fig:meta_ratio}), or taking the mean value of
 statistically significant intertaxa coefficients only (which increases
-the estimated mean intertaxa interaction strength, Fig. S8). We considered
+the estimated mean intertaxa interaction strength, Fig. S9). We considered
 both.
 
 \section*{Results}
@@ -385,7 +385,7 @@ Using MAR(1) autoregressive models, we produced interaction matrices
 community matrices on the logarithmic abundance scale \citep{ives_estimating_2003}.
 Best-fitting models corresponded to a phylogenetically-structured
 interaction scenario, where interactions only occurred betwen closely
-related genera (Fig~S3). This led to sparse, modular matrices that
+related genera (Fig.~S3). This led to sparse, modular matrices that
 have two main features. First, we observed a strong self-regulation
 for all sites (Fig.~\ref{fig:Interaction-matrices}, diagonal elements
 of all matrices), a feature that we had previously highlighted in
@@ -410,7 +410,7 @@ and 40\%), except for sites in the Mediterranean Sea.
 
 We found that the percentage of true mutualism (+/+) was substantial:
 averaged over all sites, 32\% of all interactions were (+/+) while
-only 12\% of them were (-/-), see also Fig~S5. The sign correspondence
+only 12\% of them were (-/-), see also Fig.~S5. The sign correspondence
 was not always maintained between regions: the only interaction that
 was non-zero in the 10 sites (CHA/SKE) was mutualistic in Men er Roue
 only (Brittany) and mixed (+/-) in all other sites. Within the same
@@ -424,7 +424,7 @@ competitive interactions \citep{chamberlain_how_2014}.
 
 \subsection*{Interaction network analysis}
 
-The stability (\emph{sensu} resil	ience, \citealt{ives_stability_2007})
+The stability (\emph{sensu} resilience, \citealt{ives_stability_2007})
 of all interaction matrices was not strongly affected by the percentage
 of positive interactions or the mean and variance of the intergenus
 interactions (Fig.~\ref{fig:Stability-community}). There was a slight
@@ -470,15 +470,15 @@ a lower impact score. Those two influences are likely to trade-off:
 a high degree of self-regulation somehow buffers the effect of outside
 influences on population dynamics. Taxa that were less self-regulating
 were also more likely to have a stronger effect onto other taxa. As
-these genera tended to be more abundant (Fig~S7), this could be mediated
+these genera tended to be more abundant (Fig.~S7), this could be mediated
 by the average density of a genus. It is important to note, however,
 that these trends are weak and there is therefore a considerable amount
 of randomness dominating the interaction matrix: many scenarios of
 self-regulation vs limitation by others are therefore possible.
 
 Aside from the trade-offs of Fig. \ref{fig:Vulnerability_impact},
-we found no remarkable patterns of covariation between matrix elements (Fig~S5)
-other than a mean-variance scaling of interaction coefficients (Fig~S6).
+we found no remarkable patterns of covariation between matrix elements (Fig.~S5)
+other than a mean-variance scaling of interaction coefficients (Fig.~S6).
 
 \subsection*{Literature comparison}
 
@@ -486,7 +486,7 @@ other than a mean-variance scaling of interaction coefficients (Fig~S6).
 \centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim_tmp}
 \caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
 AutoRegressive (MAR) models.} The reference for each study is given
-in Table~S3. Codes beginning with letters correspond to the present
+in Table~S4. Codes beginning with letters correspond to the present
 study (Ar: Arcachon; Ol: Oléron; Br: Brittany; Me: Mediterranean Sea).
 The symbol color and shape correspond to the sparsity of the interaction
 matrix (e.g., the proportion of null interactions in the matrix).
@@ -494,14 +494,14 @@ Red dots correspond to terrestrial and/or low dimension predator-prey
 systems, giving a lower bound for the intra/inter ratio. Intergroup
 interactions were set to 0 when they were not specified in the articles
 (in most cases, authors removed non-significant interactions at the
-95\% threshold; Fig.~S8 is the same figure taking into account only
+95\% threshold; Fig.~S9 is the same figure taking into account only
 significant interactions)}
 \label{fig:meta_ratio} 
 \end{figure*}
 
 Finally, we sought to put these results in a broader context by compiling
 the intra vs inter group estimates of previous MAR(1) studies of long-term
-observational count data (listed in Table~S3). We found that the
+observational count data (listed in Table~S4). We found that the
 order of magnitude of intra/inter interaction strengths considered
 here is not particularly above those found for most planktonic systems
 to which MAR(1) models have been fitted, considering that our systems
@@ -530,7 +530,7 @@ that we found, from 6--10 to above 20, depending on whether one includes interac
 set to zero in the estimation process, could appear very high
 in light of previous intra/interspecific competition strength estimates
 of 4 to 5 by \citet{adler_competition_2018}. Additional estimates using the unconstrained interaction matrix 
-yielded ratios between 8 and 11 depending on the site (Table S3 and Figure S8 in the Supporting Information), % see code repository? 
+yielded ratios between 8 and 11 depending on the site (Table S3 and Fig. S8 in the Supporting Information), % see code repository? 
 but weak interspecific effects are likely to be inflated in the full model. Therefore, 
 a intra/inter ratio of 10 seems like a conservative estimate, twice that of \citet{adler_competition_2018}. 
 Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in
@@ -625,8 +625,8 @@ matrices, especially for competitive and/or mutualistic networks \citep{allesina
 However, one must bear in mind that such result could also be generated by the limited size of our networks,
 as random matrix theory relies on asymptotics \citep{allesina_stabilitycomplexity_2015}.
 We should also mention that our interaction matrices (discrete-time
-model) are not strictly analogous to the ones used most frequently used in theoretical ecology (continuous-time model), 
-though the spectral radius (largest modulus) is usually tightly related to the real part of the lead eigenvalue. 
+model) are not strictly analogous to the ones used most frequently in theoretical ecology (continuous-time model), 
+though the spectral radius (largest modulus) can be tightly related to the real part of the lead eigenvalue. 
 Thus the jury is still out regarding the absence of complexity-resilience relation found here, though it
 may well be a genuine absence. In addition to complexity metrics,
 we also found that the percentage of mutualistic interactions, that
