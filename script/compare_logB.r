@@ -4,13 +4,14 @@
 
 source("script/matrix_MAR_clean.r")
 library("expm")
-groupe=c("BZ","MO","AR","SU")
+groupe=c("BZ","MO","SU","AR")
 
 #name_species=c("AST","CHA","DIT","GUI","LEP","NIT","PLE","PSE","RHI","SKE","THP","THL","GYM","PRO","PRP","SCR","CRY","EUG")
 
 mat_Bprim=matrix(NA,10,2)
 mat_Blog=matrix(NA,10,2)
 mat_B=matrix(NA,10,2)
+SV=rep(NA,10)
 
 id_lieu=0
 
@@ -81,6 +82,12 @@ for (g in groupe){
 
 		legend("topleft",c("B-I","log(B)"),col=c("black","grey"),bty="n",pch=16,cex=2)
 
+	
+		B_nodiag=B
+		diag(B_nodiag)=NA
+		SV[id_lieu]=var(c(B_nodiag),na.rm=T)*dim(B)[1]
+
+
 	}
 }
 dev.off()
@@ -101,4 +108,20 @@ legend("topleft",c("B-I","log(B)"),col=c("black","grey"),bty="n",pch=16,cex=2)
 plot(0,0,xlim=c(0,1),ylim=c(0,1),t="n",xlab="B-I or Blog",ylab="B",main="Max Mod")
 points(mat_Bprim[,1],mat_B[,1],col="black",pch=16)
 points(mat_Blog[,1],mat_B[,1],col="grey",pch=16)
+dev.off()
+
+pdf("article/submit_JEcol/response_R2/modB_f_maxReA.pdf",width=8,height=4)
+par(mfrow=c(1,2),mar=c(4,4.5,2,1.5))
+plot(0,0,xlim=c(-0.5,-0.1),ylim=c(0.6,0.85),t="n",xlab=expression(paste("max(Re(",lambda[A],"))",sep="")),ylab=expression(paste("max(|",lambda[B],"|)",sep="")))
+points(mat_Bprim[,2],mat_B[,1],col="black",pch=16)
+points(mat_Blog[,2],mat_B[,1],col="black",pch=1,lwd=1.5)
+legend("bottomright",c("A=B-I","A=log(B)"),col=c("black","black"),bty="n",pch=c(16,1))
+mtext(" a)",side=3,line=-1,adj=0)
+
+plot(SV,mat_Bprim[,2],t="p",pch=pch_sty,col=colo,xlab="S x off-diagonal coefficient variance",ylab=expression(paste("max(Re(",lambda[A],"))",sep="")),ylim=range(c(mat_Bprim[,2],mat_Blog[,2])))
+pch_sty_2=pch_sty-15
+pch_sty_2[pch_sty_2==3]=5
+points(SV,mat_Blog[,2],col=colo,pch=pch_sty_2,lwd=1.5)
+mtext(" b)",side=3,line=-1,adj=0)
+
 dev.off()
