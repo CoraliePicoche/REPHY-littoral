@@ -439,20 +439,17 @@ studies described in Table \ref{tab:Studies}. Red dots correspond to terrestrial
 to the present study. \label{fig:ratio_meta}}
 \end{figure}
 
-\newpage{}
+\newpage{}	
 
 \subsection*{Connection to continuous-time models}
 
-{\color{blue} There are different ways to connect a discrete log-linear model with continuous-time dynamics. 
+{\color{blue} The relation between complexity and stability in community model has been a debate in coexistence studies for decades \citep{may_will_1972}. In the ecology field, the Random Matrix Theory to which we compare our data-based results has been mostly developed on continuous-time interaction models \citep{allesina_stabilitycomplexity_2015}. Here, we intend to connnect discrete- and continuous-time models. The discrete log-linear model writes $\mathbf{x}_{t+1} = \mathbf{B} \mathbf{x}_{t}$ in the main text. This model can only approximate continuous-time dynamics (the equation $\text{d}\mathbf{x}=\mathbf{A}\mathbf{x}\text{dt}$, where $\mathbf{A}$ is the continuous-time interaction matrix, would be closer) but there are at least two ways to relate these dynamics. 
 
-\begin{itemize}
- \item Make a linear continuous-time approximation, which is then integrated over time. In this case, the continuous-time equivalent of the community matrix $\mathbf{B}$ is $\mathbf{\log(B)}$. 
- \item Integrate a continuous-time model over a time period, and then linearize it. In this case, the equivalent of $\mathbf{B}$ is $\mathbf{B-I}$.
-\end{itemize}
+The first approach is to linearize continuous-time dynamics and integrate the system over time. In this case, the log-abundance evolution from one time-step to the other can be written $\mathbf{x}_{t+1} = \text{e}^{\mathbf{A}} \mathbf{x}_{t}$. In this case, the discrete-time equivalent of the community matrix $\mathbf{A}$ is $\mathbf{\log(B)}$ where $\mathbf{B}$ is the matrix we present in the main text. 
 
-In addition to different formulations, the measure of resilience is not the same in discrete- and continuous-time models. In discrete-time models, and therefore in this study, resilience is measured as the maximum modulus of the eigenvalues of the community matrix ($\max(|\lambda_B|)$), also called the dominant eigenvalue. In continuous-time models, resilience is measured as the maximum real part of the eigenvalues ($\max(\text{Re}(\lambda_A))$ where $\mathbf{A}$ is the continuous-time equivalent of the community matrix), also called the leading eigenvalue. There is therefore a link to be made between these metrics. 
+The second approach is to first integrate a continuous-time model over a time-step and then linearize the system. In this case, $\mathbf{A} \approx \mathbf{B}-\mathbf{I}$. \\
 
-We present here the relation between resilience metrics $\max(|\lambda_B|)$ = f($\max(\text{Re}(\lambda_A))$) (Fig. \ref{fig:comparison_fig}). 
+Moreover, the measure of resilience differs in discrete- and continuous-time models. In discrete-time models, and therefore in this study, resilience is measured as the maximum modulus of the eigenvalues of the community matrix ($\max(|\lambda_B|)$), also called the dominant eigenvalue. In continuous-time models, resilience is linked to the maximum real part of the eigenvalues ($\max(\text{Re}(\lambda_A))$), also called the leading eigenvalue. There is therefore a link to be made between these metrics. We present here the relation between resilience metrics $\max(|\lambda_B|)$ = f($\max(\text{Re}(\lambda_A))$) (Fig. \ref{fig:comparison_fig}) to make sure our results are robust to the approximations described above. 
 
 \begin{figure}[H]
     \centering
@@ -461,13 +458,13 @@ We present here the relation between resilience metrics $\max(|\lambda_B|)$ = f(
     \label{fig:comparison_fig}
 \end{figure}
 
-In our case, we see that:
+We see in Fig. \ref{fig:comparison_fig} that:
 \begin{itemize}
-\item leading eigenvalues of $\mathbf{A}s$ are similar  for $\mathbf{A} = \mathbf{B}-\mathbf{I}$ and $\mathbf{A} = \mathbf{\log(B)}$ (the difference is around 0.04 for values between -0.45 and -0.2, Fig. \ref{fig:comparison_fig}), as guessed by the referee. 
-\item the dominant eigenvalue of $\mathbf{B}$ is strongly correlated to the  leading eigenvalue of $\mathbf{A} =\mathbf{B}-\mathbf{I}$ and $\mathbf{A} = \mathbf{\log(B)}$ ($>0.99$ in both cases)
+\item leading eigenvalues of $\mathbf{A}s$ are similar  for $\mathbf{A} = \mathbf{B}-\mathbf{I}$ and $\mathbf{A} = \mathbf{\log(B)}$ (the difference is around 0.04 for values between -0.45 and -0.2
+\item the dominant eigenvalue of $\mathbf{B}$ is strongly correlated to the leading eigenvalue of $\mathbf{A} =\mathbf{B}-\mathbf{I}$ and $\mathbf{A} = \mathbf{\log(B)}$ ($>0.99$ in both cases)
 \end{itemize}
 
-We therefore consider our results to be robust to variations in model formulations.
+We therefore consider our results on the absence of relation between stability and complexity to be robust to variations in model formulations.
 }
 
 
