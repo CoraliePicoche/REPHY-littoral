@@ -148,8 +148,8 @@ are considered simultaneously \citep{mougi2012diversity,garcia2018effect}.
 
 Here, we analyse a spatially replicated, long-term community-level
 dataset, consisting of ten multivariate time series of phytoplankton
-abundance along the French coastline. The time series are modelled
-using multivariate autoregressive (MAR) models, allowing for interactions
+abundance along the French coastline. {\color{blue}The time series are modelled
+using multivariate autoregressive (MAR) models [[Is there a way to avoid repetitions?]}, allowing for interactions
 between genera. Although many ecological studies focus on interactions
 between species, competition has been shown experimentally to occur
 between different genera of phytoplankton \citep{titman_ecological_1976,descamps-julien_stable_2005}.
@@ -198,10 +198,10 @@ in Table~S4.
 
 For each region, the MAR(1) analysis focused on the most abundant
 and most frequently observed genera to avoid most of the gaps in the
-time series. Time series are plotted in Fig. S2. When gaps did not
+time series. When gaps did not
 exceed a month, missing values were linearly interpolated; remaining
 missing values were replaced by a random number between 0 and half
-of the lowest observed abundance \citep{hampton_coalescence_2006}.
+of the lowest observed abundance \citep{hampton_coalescence_2006}. {\color{blue}Time series are plotted in Fig. S2. }
 We tested extensively this and other methods to deal with missing
 data in a previous publication on a subset of this dataset \citep{barraquand_coastal_2018}.
 All time series were scaled and centered before MAR analyses.
@@ -526,16 +526,14 @@ yielded ratios between 8 and 11 depending on the site (Table S3 and Fig. S8 in t
 but weak interspecific effects are likely to be inflated in the full model. Therefore, 
 a intra/inter ratio of 10 seems like a conservative estimate, twice that of \citet{adler_competition_2018}. 
 Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in
-the Supporting Information that the intra/inter ratio should remain commensurate in a MAR(1) model. 
+the Supporting Information that the intra/inter ratio should remain commensurate in a MAR(1) model {\color{blue} provided abundances of all taxa are similar}. 
 The difference in the intra/inter ratio that we found should therefore lie elsewhere, which requires
 some explanation. One could argue that such high intra/inter ratio
 arises because we consider the genus as our baseline taxonomic unit,
 rather than the species. It is logical that niche differentiation
 increases as one gets up the phylogenetic tree, and that getting down
 to the species level could slightly decrease that ratio (but see \citealp{narwani_ecological_2017},
-in which phylogenetic closeness decreases competition strength). However,
-there are two arguments suggesting that the niche differences found
-here extend to the species level. First, phytoplankton species belonging
+in which phylogenetic closeness decreases competition strength). {\color{blue} However, taxonomic resolution is unlikely to be the sole explanation for the high intra/inter ratio interaction strength found here, for two reasons.} First, phytoplankton species belonging
 to different genera are often found to compete in experiments \citep{titman_ecological_1976,tilman_phytoplankton_1982,descamps-julien_stable_2005}.
 In the field-based dataset studied here, the same genera that are
 considered in experiments are found not to compete (or only weakly),
