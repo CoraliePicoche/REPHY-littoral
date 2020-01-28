@@ -623,8 +623,8 @@ According to eq. \ref{eq:JiivsJij}, $\overline{b_{ij}}=\frac{1}{k}\overline{b_{i
 \frac{1}{k}\overline{b_{ii}\frac{N_j}{N_i}}&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\sum_{j=1,j\neq i}^n b_{ii}\frac{N_j}{N_i}\\
 &=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\frac{b_{ii}}{N_i}\sum_{j=1}^n \left( N_j - N_i \right)\\
 &=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\frac{b_{ii}}{N_i}( N_T - N_i )\\
-&=&\frac{1}{k(n-1)}&(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \frac{1}{n}\sum_{i=1}^nb_{ii} )\\
-&=&\frac{1}{k(n-1)}&(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}})\\
+&=&\frac{1}{k(n-1)}&\left(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \frac{1}{n}\sum_{i=1}^nb_{ii} \right)\\
+&=&\frac{1}{k(n-1)}&\left(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right)\\
 \end{aligned}
 \label{eq:second_part_equation}
 \end{equation}
@@ -633,9 +633,9 @@ Coupling eq. \ref{eq:bbar} and \ref{eq:second_part_equation}, this leads to
 
 \begin{equation}
 \begin{aligned}
-& \overline{b_{ij}}&=&\frac{1}{k(n-1)}(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\\
-\Leftrightarrow & \frac{\overline{b_{ij}}}{\overline{b_{ij}}}&=&\frac{1}{k(n-1)}(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1)\\
-\Leftrightarrow & \frac{1}{\kappa}&=&\frac{1}{k(n-1)}(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1)
+& \overline{b_{ij}}&=&\frac{1}{k(n-1)}\left(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right)\\
+\Leftrightarrow & \frac{\overline{b_{ij}}}{\overline{b_{ii}}}&=&\frac{1}{k(n-1)}\left(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right)\\
+\Leftrightarrow & \frac{1}{\kappa}&=&\frac{1}{k(n-1)}\left(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right)
 \end{aligned}
 \end{equation}
 
