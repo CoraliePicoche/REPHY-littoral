@@ -602,12 +602,46 @@ and
  & = & (J-I)_{ii}\frac{\alpha N_{j}}{k\alpha N_{i}}\\
  & = & \frac{1}{k}(J-I)_{ii}\frac{N_{j}}{N_{i}}
 \end{aligned}
+\label{eq:JiivsJij}
 \end{equation}
 
-Therefore, unless the growth rates and the resulting abundances differ
-over several orders of magnitude, the strength of the competition
-ratio $k$ should be roughly comparable between MAR(1) and Lotka-Volterra
-or Beverton-Holt models. {\color{blue}  Unfortunately, in this paper, the mean and median ratio between pairs of abundances are respectively 6 and 23, with values between 1.01 and 439.5. Thus, the order of magnitude between interaction strengths might change, depending on the species in presence. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial, especially in highly uneven communities.}
+However, in the main text, we use the ratio $\kappa=\frac{\overline{|(J-I)_{ii}|}}{\overline{|(J-I)_{ij}|}}$. To build a relationship between $k$ and $\kappa$, we take $b_{ij}=(J-I)_{ij}$, $N_T=\sum_{i=1}^nN_i$ and start by assuming the simpler case in which all $b_{ij}$ have the same signe (in this case, negative as we assume only competition between species). Then,
+
+\begin{equation}
+\begin{aligned}
+&\kappa&=&\frac{\overline{b_{ii}}}{\overline{b_{ij}}}\\
+\text{where }&\overline{b_{ii}}&=&\frac{1}{n}\sum_{i=1}^n b_{ii}\\
+\text{and }&\overline{b_{ij}}&=&\frac{1}{n(n-1)}\sum_{i=1}^S\sum_{j=1,j\neq i}^n b_{ij}\\
+\end{aligned}
+\label{eq:bbar}
+\end{equation}
+
+According to eq. \ref{eq:JiivsJij}, $\overline{b_{ij}}=\frac{1}{k}\overline{b_{ii}\frac{N_j}{N_i}}$.
+
+\begin{equation}
+\begin{aligned}
+\frac{1}{k}\overline{b_{ii}\frac{N_j}{N_i}}&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\sum_{j=1,j\neq i}^n b_{ii}\frac{N_j}{N_i}\\
+&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\frac{b_{ii}}{N_i}\sum_{j=1}^n \left( N_j - N_i \right)\\
+&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\frac{b_{ii}}{N_i}( N_T - N_i )\\
+&=&\frac{1}{k(n-1)}&(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \frac{1}{n}\sum_{i=1}^nb_{ii} )\\
+&=&\frac{1}{k(n-1)}&(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}})\\
+\end{aligned}
+\label{eq:second_part_equation}
+\end{equation}
+
+Coupling eq. \ref{eq:bbar} and \ref{eq:second_part_equation}, this leads to
+
+\begin{equation}
+\begin{aligned}
+& \overline{b_{ij}}&=&\frac{1}{k(n-1)}(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\\
+\Leftrightarrow & \frac{\overline{b_{ij}}}{\overline{b_{ij}}}&=&\frac{1}{k(n-1)}(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1)\\
+\Leftrightarrow & \frac{1}{\kappa}&=&\frac{1}{k(n-1)}(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1)
+\end{aligned}
+\end{equation}
+
+{\color{blue} Thus, the order of magnitude between interaction strengths might change, depending on the species in presence and their relative contribution to the community. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial.}
+
+%Therefore, unless the growth rates and the resulting abundances differ over several orders of magnitude, the strength of the competition ratio $k$ should be roughly comparable between MAR(1) and Lotka-Volterra or Beverton-Holt models. {\color{blue}  Unfortunately, in this paper, the mean and median ratio between pairs of abundances are respectively 6 and 23, with values between 1.01 and 439.5. 
 
 \bibliography{phytoInteractions_ref,bib_fig_review}
 

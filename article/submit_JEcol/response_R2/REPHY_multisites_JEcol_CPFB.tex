@@ -24,6 +24,9 @@
  {hyperref}
 \hypersetup{
  allcolors=blue}
+ 
+ %Only to be able to strike text out, to make it more visible
+\usepackage{cancel}
 
 \makeatletter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
@@ -260,12 +263,11 @@ model may not always be detectable through MAR(1) diagnostics (e.g.,
 residuals), the analysis of nonlinear simulations has showed that
 MAR(1) models are in general robust to nonlinearities if the inference
 focuses on interaction sign and order of magnitude of model coefficients
-\citep{certain_how_2018}, which is how these models are used here.
-For ease of interpretation of MAR(1) interaction coefficients, we
+\citep{certain_how_2018}, which is how these models are used here. {\color{red} For ease of interpretation of MAR(1) interaction coefficients, we
 also prove the correspondence between the magnitude of intra/inter
 interaction strength in a MAR(1) model and a multispecies Beverton-Holt
-model, i.e., a discrete-time Lotka-Volterra model \citep{cushing_discrete_2004},
-in the Supporting Information.
+model, i.e., a discrete-time Lotka-Volterra model \cite{cushing_discrete_2004},
+in the Supporting Information.}
 
 In this study, the number of phytoplankton taxa ($S$) and the community
 composition vary slightly between regions but sites share on average
@@ -519,13 +521,12 @@ The intra/intertaxa interaction strength ratio \citep{levine_importance_2009}
 that we found, from 6--10 to above 20, depending on whether one includes interactions
 set to zero in the estimation process, could appear very high
 in light of previous intra/interspecific competition strength estimates
-of 4 to 5 by \citet{adler_competition_2018}. Additional estimates using the unconstrained interaction matrix 
+of 4 to 5 by \citet{adler_competition_2018}{\color{blue}, already debated by \cite{detto_bias_2019}}. Additional estimates using the unconstrained interaction matrix 
 yielded ratios between 8 and 11 depending on the site (Table S3 and Fig. S8 in the Supporting Information),  
 but weak interspecific effects are likely to be inflated in the full model. Therefore, 
-a intra/inter ratio of 10 seems like a conservative estimate, twice that of \citet{adler_competition_2018}. 
-Even though their model is a different one, i.e., Lotka-Volterra competition, we prove in
-the Supporting Information that the intra/inter ratio should remain commensurate in a MAR(1) model {\color{blue} for diffuse competition. Unfortunately, the skew in species abundances is such that the map between Lotka-Volterra and MAR(1) intra/inter ratios is limited for individual coefficients, but averaged over species pairs as we compute it, this ratio should be similar for both frameworks.} The difference in the intra/inter ratio that we found should therefore lie elsewhere, which requires some explanation. 
-One could argue that such high intra/inter ratio arises because we consider the genus as our baseline taxonomic unit,
+a intra/inter ratio of 10 seems like a conservative estimate, twice that of \citet{adler_competition_2018} 
+{\color{blue} who use a different model, i.e., a continuous-tim Lotka-Volterra with competition model. Even though we outline the comparison between MAR(1) models and a discrete-time Lotka-Volterra equivalent in the Supporting Information, the relationship between intra/inter ratios in these two models is not completely trivial, especially when abundances can differ by several orders of magnitude.} {\color{red} The difference in the intra/inter ratio that we found should therefore also lie elsewhere, which requires some explanation. }
+One could argue that such high intra/inter ratio {\color{blue} could also arise} because we consider the genus as our baseline taxonomic unit,
 rather than the species. It is logical that niche differentiation
 increases as one gets up the phylogenetic tree, and that getting down
 to the species level could slightly decrease that ratio (but see \citealp{narwani_ecological_2017},
