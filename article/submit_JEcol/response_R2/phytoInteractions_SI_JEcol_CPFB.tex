@@ -205,16 +205,17 @@ before estimation. \label{fig:Abiotic_effects}}
 \subsection*{Network analysis}
 
 {\color{blue}\subsubsection*{Computation of intra/inter-taxa interaction strength ratios from interaction coefficients}
-We present in the main text the ratio between intra and inter-taxa interaction strength, $\kappa=\frac{\text{mean}|b_{ii}|}{\text{mean}|b_{ij,j\neq i}|}$ in several places. These are computed from three sets of interspecific interaction coefficients:
+
+We present in the main text ratios between intra and inter-taxa interaction strength, $\kappa=\frac{\text{mean}|b_{ii}|}{\text{mean}|b_{ij,j\neq i}|}$, in several places. These are computed from three sets of interspecific interaction coefficients:
 \begin{itemize}
- \item $b_{ij}^*$, coefficients significantly different from 0
+ \item $b_{ij}^*$, coefficients significantly different from 0 at the 95\% level
  \item $b_{ij}^{\bar{*}}$, coefficients not significantly different from 0
  \item $b_{ij}^0$, coefficients set to 0 before the estimation process.
 \end{itemize}
-Some coefficients are set to 0 before the estimation process in order to reduce the dimensionality of the system (see section above). There are therefore different estimates of $\kappa$, depending on the set of $b_{ij}$ chosen for the denominator.
+Some coefficients are indeed set to 0 before the estimation process, in order to reduce the dimensionality of the system (see section above). There are therefore different estimates of $\kappa$, depending on the set of $b_{ij}$ chosen for the denominator.
 \begin{itemize}
- \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\}$, leading to an observed a ratio between 6 and 10 
- \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\} \cup \{b_{ij}^0\}$, leading to a ratio between 21 and 43
+ \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\}$, leading to an observed ratio $\kappa$ between 6 and 10. 
+ \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\} \cup \{b_{ij}^0\}$, leading to a ratio $\kappa$ between 21 and 43. 
  \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\} \cup \{b_{ij}^0\}$ where $b_{ij}^{\bar{*}}:=0$ for comparisons with literature-based MAR(1) coefficients, as results in the literature rarely differentiate between non-significant coefficients and coefficients that were set to 0 beforehand. This corresponds to Fig. 4 in the main text. 
  \item $\{b_{ij}\}=\{b_{ij}^*\}$, illustrated in Fig. S9. 
  \end{itemize}
