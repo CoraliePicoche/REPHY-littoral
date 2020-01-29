@@ -230,8 +230,7 @@ community (interaction) matrix, $\mathbf{C}$ is the $S\times V$
 environment matrix describing the effects of $V$ variables (stacked
 in vector $\mathbf{u}_{t+1}$) on growth rates, with $V=2$ in our
 case (temperature and salinity). The noise $\mathbf{e}_{t}$ is a
-$1\times S$ noise vector which covers both process and observation
-error, following a multivariate normal distribution with a variance-covariance
+$1\times S$ noise vector, following a multivariate normal distribution with a variance-covariance
 matrix $\mathbf{Q}$. $\mathbf{Q}$ is diagonal and we have previously
 showed that this parsimonious choice did not affect qualitatively
 the results \citep{barraquand_coastal_2018}. We used the MARSS package
@@ -383,7 +382,7 @@ The ratio of mean intragenus to intergenus interaction coefficients
 varied between 6 and 10, not counting coefficients set to 0 in the
 estimation process. When we included the zeroes in the interaction
 matrix in the computation of the intra/inter mean interaction strength,
-the ratio rose to 21-43. Therefore, intragenus interactions were
+the ratio rose to 21-43 (see the Supporting Information for more details on the way intra/inter ratios were computed). Therefore, intragenus interactions were
 on average one order of magnitude stronger than intergenus interactions.
 
 Second, although the percentage of facilitative interactions varied
@@ -472,7 +471,7 @@ other than a mean-variance scaling of interaction coefficients (Fig.~S6).
 \subsection*{Literature comparison}
 
 \begin{figure*}[!h]
-\centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim_tmp}
+\centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim_tmp_withoutBarraquand_et_al_2018}
 \caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
 AutoRegressive (MAR) models.} The reference for each study is given
 in Table~S4. Codes beginning with letters correspond to the present

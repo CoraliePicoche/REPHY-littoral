@@ -204,11 +204,29 @@ before estimation. \label{fig:Abiotic_effects}}
 
 \subsection*{Network analysis}
 
+{\color{blue}\subsubsection*{Intra/Inter ratios}
+We present in the main text the ratio between intra and inter-taxa interaction strength, $\kappa=\frac{\text{mean}|b_{ii}|}{\text{mean}|b_{ij,j\neq i}|}$
+  
+  There are three types of interspecific interaction coefficients:
+\begin{itemize}
+ \item $b_{ij}^*$, coefficients significantly different from 0
+ \item $b_{ij}^{\bar{*}}$, coefficients not significantly different from 0
+ \item $b_{ij}^0$, coefficients set to 0 before the estimation process.
+\end{itemize}
+Some coefficients are set to 0 before the estimation proces to reduce the dimensionality of the system (see section above). There are therefore different estimates of $\kappa$, depending on the set of $b_{ij}$ chosen for the denominator.
+\begin{itemize}
+ \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\}$, leading to an observed a ratio between 6 and 10 
+ \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\} \cup \{b_{ij}^0\}$, leading to a ratio between 21 and 43
+ \item $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\} \cup \{b_{ij}^0\}$ where $b_{ij}^{\bar{*}}=0$ as results in the literature rarely differentiate between non-significant coefficients and coefficients that were set to 0. This corresponds to Fig. 4 in the main text. 
+ \item $\{b_{ij}\}=\{b_{ij}^*\}$, illustrated in Fig. S9. 
+ \end{itemize}
+}
+
 \subsubsection*{Interaction types}
 
 \begin{figure}[H]
 \begin{centering}
-\includegraphics[width=0.95\textwidth]{pair_coefficients}
+\includegraphics[width=0.694\textwidth]{pair_coefficients}
 \par\end{centering}
 \caption{\textbf{Pairs of coefficients for each study site}. The effect of
 species $i$ on $j$ is given as a function of the effect of species
@@ -406,8 +424,8 @@ in the $(\mathbf{B}\text{\textendash}\mathbf{I})$ matrix.
 {\footnotesize{}10a} & {\footnotesize{}\citet{lindegren_preventing_2009}} & {\footnotesize{}3} & {\footnotesize{}Fish} & {\footnotesize{}Species} & {\footnotesize{}Baltic Sea} & {\footnotesize{}30}\tabularnewline
 {\footnotesize{}11a} & {\footnotesize{}\citet{griffiths_phytoplankton_2015}} & {\footnotesize{}7} & {\footnotesize{}Phytoplankton} & {\footnotesize{}Phylum} & {\footnotesize{}Coastal site} & {\footnotesize{}1000}\tabularnewline
 {\footnotesize{}11b} & {\footnotesize{}\citet{griffiths_phytoplankton_2015}} & {\footnotesize{}7} & {\footnotesize{}Phytoplankton} & {\footnotesize{}Phylum} & {\footnotesize{}Offshore site} & {\footnotesize{}700}\tabularnewline
-{\footnotesize{}12a} & {\footnotesize{}\citet{barraquand_coastal_2018}} & {\footnotesize{}12} & {\footnotesize{}Phytoplankton} & {\footnotesize{}Genus} & {\footnotesize{}Outside a bay} & {\footnotesize{}300}\tabularnewline
-{\footnotesize{}12b} & {\footnotesize{}\citet{barraquand_coastal_2018}} & {\footnotesize{}12} & {\footnotesize{}Phytoplankton} & {\footnotesize{}Genus} & {\footnotesize{}Inside a bay} & {\footnotesize{}500}\tabularnewline
+%{\footnotesize{}12a} & {\footnotesize{}\citet{barraquand_coastal_2018}} & {\footnotesize{}12} & {\footnotesize{}Phytoplankton} & {\footnotesize{}Genus} & {\footnotesize{}Outside a bay} & {\footnotesize{}300}\tabularnewline
+%{\footnotesize{}12b} & {\footnotesize{}\citet{barraquand_coastal_2018}} & {\footnotesize{}12} & {\footnotesize{}Phytoplankton} & {\footnotesize{}Genus} & {\footnotesize{}Inside a bay} & {\footnotesize{}500}\tabularnewline
 \end{tabular}{\footnotesize\par}
 \par\end{centering}
 \caption{Studies used when comparing |intra|/|inter| ratios in Fig. 4 in main
@@ -418,7 +436,7 @@ T is the approximate number of sampling dates in each time series.
 
 \begin{figure}[H]
 \begin{centering}
-\includegraphics[width=1\textwidth]{comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF}
+\includegraphics[width=1\textwidth]{comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF_withoutBarraquand_et_al_2018}
 \par\end{centering}
 \caption{\textbf{Ratio of intra-to-intergroup interaction strength in MAR(1)
 studies. }Only significant values are taken into account and missing
@@ -432,7 +450,7 @@ Table \ref{tab:Studies}. \label{fig:Ratio-of-intra-to-intergroup}}
 
 \begin{figure}[H]
 \begin{centering}
-\includegraphics[width=1\textwidth]{sparsity_vs_others_species2taxa}
+\includegraphics[width=1\textwidth]{sparsity_vs_others_species2taxa_withoutBarraquand_et_al_2018}
 \par\end{centering}
 \caption{\textbf{Relation between interaction sparsity and study design} in
 studies described in Table \ref{tab:Studies}. Red dots correspond to terrestrial and/or low dimension, predator-prey systems, giving a lower bound for the intra/inter ratio. Blue triangles correspond
@@ -465,7 +483,7 @@ We see in Fig. \ref{fig:comparison_fig} that:
 \item there is no apparent relationship between stability/resilience for a continuous-time equivalent of $\mathbf{B}$ and complexity (measured as number of species times the variance of the intergroup interaction coefficients) (Fig~\ref{fig:comparison_fig} b).
 \end{itemize}
 
-We therefore consider our results on the absence of relation between stability and complexity to be robust to variations in model framework.
+We therefore consider our results on the absence of relation between stability and complexity to be robust to variations in the model framework.
 }
 
 
@@ -476,7 +494,7 @@ The Beverton-Holt multispecies competition model, whose variants are
 widely used for modelling plant community dynamics \citep{levine_importance_2009,kraft_plant_2015},
 is the closest discrete time equivalent to the continuous-time Lotka-Volterra
 model (see \citealt{cushing_discrete_2004}; although the mapping is not
-perfect for $n\geq3$, \citealt{roeger_discrete_2004}). The Beverton-Holt
+perfect for $S\geq3$, \citealt{roeger_discrete_2004}). The Beverton-Holt
 multispecies competition model writes
 
 \begin{equation}
@@ -586,7 +604,7 @@ By symmetry, we can also write
 \end{equation}
 
 The same reasoning can actually be applied
-with $n$ species as the Jacobian has a similar form.
+with $S$ species as the Jacobian has a similar form.
 
 \begin{equation}
 \begin{aligned}(J-I)_{ii} & = & \frac{-\alpha_{ii}N_{i}}{1+\sum_{j}\alpha_{ij}N_{j}}\\
@@ -605,13 +623,13 @@ and
 \label{eq:JiivsJij}
 \end{equation}
 
-However, in the main text, we use the ratio $\kappa=\frac{\overline{|(J-I)_{ii}|}}{\overline{|(J-I)_{ij}|}}$. To build a relationship between $k$ and $\kappa$, we take $b_{ij}=(J-I)_{ij}$, $N_T=\sum_{i=1}^nN_i$ and start by assuming the simpler case in which all $b_{ij}$ have the same signe (in this case, negative as we assume only competition between species). Then,
+However, in the main text, we use the ratio $\kappa=\frac{\overline{|(J-I)_{ii}|}}{\overline{|(J-I)_{ij}|}}$, with average quantities in the numerator and the denominator. To build a relationship between $k$ and $\kappa$, we take $b_{ij}=(J-I)_{ij}$, $N_T=\sum_{i=1}^S N_i$ and start by assuming that all $b_{ij}$ have the same sign, negative for competition between species). Then,
 
 \begin{equation}
 \begin{aligned}
 &\kappa&=&\frac{\overline{b_{ii}}}{\overline{b_{ij}}}\\
-\text{where }&\overline{b_{ii}}&=&\frac{1}{n}\sum_{i=1}^n b_{ii}\\
-\text{and }&\overline{b_{ij}}&=&\frac{1}{n(n-1)}\sum_{i=1}^S\sum_{j=1,j\neq i}^n b_{ij}\\
+\text{where }&\overline{b_{ii}}&=&\frac{1}{n}\sum_{i=1}^S b_{ii}\\
+\text{and }&\overline{b_{ij}}&=&\frac{1}{n(n-1)}\sum_{i=1}^S\sum_{j=1,j\neq i}^S b_{ij}.\\
 \end{aligned}
 \label{eq:bbar}
 \end{equation}
@@ -620,11 +638,11 @@ According to eq. \ref{eq:JiivsJij}, $\overline{b_{ij}}=\frac{1}{k}\overline{b_{i
 
 \begin{equation}
 \begin{aligned}
-\frac{1}{k}\overline{b_{ii}\frac{N_j}{N_i}}&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\sum_{j=1,j\neq i}^n b_{ii}\frac{N_j}{N_i}\\
-&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\frac{b_{ii}}{N_i}\sum_{j=1}^n \left( N_j - N_i \right)\\
-&=&\frac{1}{kn(n-1)}&\sum_{i=1}^n\frac{b_{ii}}{N_i}( N_T - N_i )\\
-&=&\frac{1}{k(n-1)}&\left(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \frac{1}{n}\sum_{i=1}^nb_{ii} \right)\\
-&=&\frac{1}{k(n-1)}&\left(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right)\\
+\overline{b_{ij}}&=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\sum_{j=1,j\neq i}^S b_{ii}\frac{N_j}{N_i}\\
+&=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\frac{b_{ii}}{N_i}\sum_{j=1}^S \left( N_j\right) - N_i\\
+&=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\frac{b_{ii}}{N_i}( N_T - N_i )\\
+&=&\frac{1}{k(S-1)}&\left(\frac{1}{S}\sum_{i=1}^S b_{ii}\frac{N_T}{N_i} - \frac{1}{S}\sum_{i=1}^Sb_{ii} \right)\\
+&=&\frac{1}{k(S-1)}&\left(\frac{1}{S}\sum_{i=1}^S b_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right).\\
 \end{aligned}
 \label{eq:second_part_equation}
 \end{equation}
@@ -633,13 +651,13 @@ Coupling eq. \ref{eq:bbar} and \ref{eq:second_part_equation}, this leads to
 
 \begin{equation}
 \begin{aligned}
-& \overline{b_{ij}}&=&\frac{1}{k(n-1)}\left(\frac{1}{n}\sum_{i=1}^nb_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right)\\
-\Leftrightarrow & \frac{\overline{b_{ij}}}{\overline{b_{ii}}}&=&\frac{1}{k(n-1)}\left(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right)\\
-\Leftrightarrow & \frac{1}{\kappa}&=&\frac{1}{k(n-1)}\left(\frac{1}{n}\sum_{i=1}^n\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right)
+& \overline{b_{ij}}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S b_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right)\\
+\Leftrightarrow & \frac{\overline{b_{ij}}}{\overline{b_{ii}}}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right)\\
+\Leftrightarrow & \frac{1}{\kappa}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right).
 \end{aligned}
 \end{equation}
 
-{\color{blue} Thus, the order of magnitude between interaction strengths might change, depending on the species in presence and their relative contribution to the community. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial.}
+{\color{blue} Thus, the order of magnitude between interaction strengths might change between MAR(1) and BH competition, depending on the species in presence and their relative contribution to the community. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial in general.}
 
 %Therefore, unless the growth rates and the resulting abundances differ over several orders of magnitude, the strength of the competition ratio $k$ should be roughly comparable between MAR(1) and Lotka-Volterra or Beverton-Holt models. {\color{blue}  Unfortunately, in this paper, the mean and median ratio between pairs of abundances are respectively 6 and 23, with values between 1.01 and 439.5. 
 
