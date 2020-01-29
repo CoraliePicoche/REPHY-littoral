@@ -305,7 +305,7 @@ determine the stability of a discrete-time dynamical system \citep{ives_stabilit
 matrices for each site to network descriptors. The maximum modulus is analogous
 to the real part of the leading eigenvalue for continuous time models,
 and measures resilience while still accounting for some variability
-properties \citep{ives_stability_1999}. {\color{blue} However, because most theory on stability-complexity has been developed in continuous time \citep[e.g.][]{allesina_stabilitycomplexity_2015}, we numerically checked that the maximum modulus of the eigenvalues in a discrete-time interaction matrix and its continuous-time model counterpart yield similar information in the Supporting Information. We then compared this resilience measure to complexity metrics, such as the interaction strength distribution (sign, mean and variance) and weighted connectance \citep{bersier_quantitative_2002}.} Weighted connectance is a
+properties \citep{ives_stability_1999}. {\color{blue} However, because most theory on stability-complexity has been developed in continuous time \citep[e.g.,][]{allesina_stabilitycomplexity_2015}, we numerically checked that the maximum modulus of the eigenvalues in a discrete-time interaction matrix and its continuous-time model counterpart yield similar information in the Supporting Information. We then compared this resilience measure to complexity metrics, such as the interaction strength distribution (sign, mean and variance) and weighted connectance \citep{bersier_quantitative_2002}.} Weighted connectance is a
 measure of the proportion of realized links compared to all possible
 links, taking into account the shape of the flux distribution. This
 metric is adapted to weighted interaction matrices but cannot accommodate
@@ -517,10 +517,10 @@ The intra/intertaxa interaction strength ratio \citep{levine_importance_2009}
 that we found, from 6--10 to above 20, depending on whether one includes interactions
 set to zero in the estimation process, could appear very high
 in light of previous intra/interspecific competition strength estimates
-of 4 to 5 by \citet{adler_competition_2018}.  %{\color{blue}, already debated by \cite{detto_bias_2019}}
+of 4 to 5 by \citet{adler_competition_2018}.  
 Additional estimates using the unconstrained interaction matrix yielded ratios between 8 and 11 depending on the site (Table S3 and Fig. S8 in the Supporting Information), but weak interspecific effects are likely to be inflated in the full model. Therefore, 
 a intra/inter ratio of 10 seems like a conservative estimate, twice that of \citet{adler_competition_2018} 
-{\color{blue} who use a different model, i.e., a continuous-time Lotka-Volterra competition model. Even though we outline the comparison between MAR(1) models and a discrete-time Lotka-Volterra equivalent in the Supporting Information, the relationship between intra/inter ratios in these two models is not trivial, especially when abundances vary greatly between species. To some degree, different intra/inter ratios could be due to different models or different ways of measuring density-dependencies (e.g., high measurement errors due to using proxies of densities for plants can result in bias in interaction coefficient estimates \citealp{detto_bias_2019}).} %{\color{red} The difference in the intra/inter ratio that we found should therefore also lie elsewhere, which requires some explanation. }
+{\color{blue} who use a different model, i.e., a Lotka-Volterra competition model. We outline how to relate a MAR(1) model to a discrete-time Lotka-Volterra equivalent in the Supporting Information; even though there is a relationship between intra/inter ratios in both models, the relationship is not trivial when abundances vary greatly between species. Hence, to some degree, intra/inter ratios can differ between model frameworks or ways of measuring density-dependencies (e.g., a high measurement error due to using proxies of densities for plants can result in bias in interaction coefficient estimates, \citealp{detto_bias_2019}). However, a ratio intra/inter at least twice larger may call for other explanations.} 
 One could also argue that our high intra/inter ratio arises because we consider the genus as our baseline taxonomic unit, rather than the species. It is logical that niche differentiation increases as one gets up the phylogenetic tree, and that getting down
 to the species level could slightly decrease that ratio (but see \citealp{narwani_ecological_2017},
 in which phylogenetic closeness decreases competition strength). {\color{blue} However, taxonomic resolution is unlikely to be the sole explanation for the high intra/inter ratio interaction strength found here, for two reasons.} First, phytoplankton species belonging
@@ -532,7 +532,7 @@ MAR(1) estimates down to the species level for phytoplankton, that
 of \citet{huber_role_2006}, provides an intra/interspecific strength
 ratio similar to ours (point 7a in Fig.~\ref{fig:meta_ratio}). Strong
 self-regulation seems therefore a genuine feature of field phytoplanktonic
-communities.
+communities. {\color{blue} We discuss below possible mechanistic interpretations}. 
 
 Another main finding of our study is the large frequency of positive
 interactions, with 30\% truly mutualistic (+/+) interactions and between
@@ -603,10 +603,11 @@ technique. This result seems to contradict theory based on random
 matrices, especially for competitive and/or mutualistic networks \citep{allesina_stability_2012}.
 However, one must bear in mind that such result could also be generated by the limited size of our networks,
 as random matrix theory relies on asymptotics \citep{allesina_stabilitycomplexity_2015}.
-We should also mention that our interaction matrices (discrete-time
+We should also mention that our interaction matrices (based on a discrete-time
 model) are not strictly analogous to the ones used most frequently in theoretical ecology (continuous-time model), 
-though the spectral radius (largest modulus) can be tightly related to the real part of the lead eigenvalue. 
-Thus the jury is still out regarding the absence of complexity-resilience relation found here, though it
+though the spectral radius (largest modulus) {\color{blue}is here} tightly related to the real part of the lead eigenvalue 
+{\color{blue} in equivalent continuous-time models (see Supporting Information)}. 
+Thus while the jury is still out regarding the absence of complexity-resilience relation found here, it
 may well be a genuine absence. In addition to complexity metrics,
 we also found that the percentage of mutualistic interactions, that
 is thought to affect the stability of a network, either positively
@@ -709,15 +710,13 @@ This study was only made possible by the dedication of all members
 of the REPHY program by Ifremer \citep{REPHY_db}, providing invaluable
 data through years of fieldwork. We are grateful to David Murrell
 for his careful reading and suggestions, and to Peter Adler for helpful
-exchanges. We also want to thank Bérangère Péquin for her constructive comments and Gyuri Barabás for {\color{blue} several thoughtful suggestions to connect to continuous-time theory}. This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
+exchanges. We also want to thank Bérangère Péquin for her constructive comments and Gyuri Barabás for {\color{blue}thoughtful suggestions, especially regarding the connection to continuous-time stability theory}. This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
 
 \subsubsection*{Supporting Information}
-This article contains supporting
-information.
+This article contains supporting information.
 
 \subsubsection*{Authors' contributions}
-CP and FB contributed equally to
-the project design. CP wrote the code for the analyses. FB and CP
+CP and FB contributed equally to the project design. CP wrote the code for the analyses. FB and CP
 interpreted the results and wrote the manuscript.\\
 
 \subsubsection*{Data accessibility} The REPHY dataset has already been published
