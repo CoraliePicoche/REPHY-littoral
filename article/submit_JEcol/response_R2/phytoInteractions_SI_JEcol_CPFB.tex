@@ -142,7 +142,7 @@ scenarios were similar for most sites (Fig.~\ref{fig:Comparison-of-BIC}).
 Based on these results, we considered the model selection to be quite
 robust, and focused on the pennate-centric scenario to analyze interaction
 matrices, as this scenario corresponded to the best fitted models
-that still allowed interactions between groups. {\color{blue}However, in order to be as comprehensive as possible, we present results for the full/unconstrained matrix in a section below (``Comparison with a full interaction matrix'').}
+that still allowed interactions between groups. {\color{blue}However, in order to be as comprehensive as possible, we also present results for the full/unconstrained matrix in a section below (``Comparison with a full interaction matrix'').}
 
 \begin{figure}[H]
 \begin{centering}
@@ -370,8 +370,6 @@ Thus, even if we chose to select the full interaction model, there would be no d
 
 \subsection*{MAR references and analysis}
 
-%%%%%PUT THAT HERE : 
-
 We present here the MAR references we used to compare the effects
 of intra- and intergroup interactions (Table~\ref{tab:Studies},
 Fig.~\ref{fig:Ratio-of-intra-to-intergroup}). We add
@@ -380,12 +378,12 @@ be linked to the estimated parameters (Fig.~\ref{fig:ratio_meta}). We should men
 comparison across the published literature. First, low-dimensional
 matrices tended to be more complete (less sparse) than high-dimensional
 matrices, as these small interaction matrices were used to study known
-interaction phenomena (observed predation between organisms, for instance). In fact, we add pairs of predator and prey mainly to give a scale to the plot.
+interaction phenomena (observed predation between organisms, for instance). In fact, we add a handful of predator-prey systems (in red) mainly to give a scale to the plot.
 Conversely, the number of parameters to estimate increases as the
 square of the number of interacting taxa, leading most authors to
 reduce this set before the estimation process for large interaction
 matrices. There is therefore a positive correlation between sparsity
-and dimensionality (Fig.~\ref{fig:ratio_meta}). A second caveat is that while we informed
+and dimensionality (Fig.~\ref{fig:ratio_meta}). A second caveat is that, while we informed
 our model selection by phylogeny, several authors have
 instead reduced the number of estimated parameters by an automated
 procedure, usually based on the comparison of hundreds of randomly chosen
@@ -395,8 +393,7 @@ This is why we decided to present in the main text intra/inter ratios
 including interspecific (or intergroup) coefficients set to zero (see Fig. 4 in the main text),
 which should be less sensitive to the model selection method and therefore
 make comparisons across studies possible. In Fig.~\ref{fig:Ratio-of-intra-to-intergroup}, mean interaction strengths were computed as the mean absolute value
-of only the set of coefficients which were deemed significant at the 95\% threshold
-in the $(\mathbf{B}\text{\textendash}\mathbf{I})$ matrix.
+of the set of coefficients which were deemed significant at the 95\% threshold in the $\mathbf{B}\text{\textendash}\mathbf{I}$ matrix (see the ``Computation of intra/inter-taxa ratios'' section above for details).
 
 \begin{sidewaystable}[H]
 \begin{centering}

@@ -341,7 +341,7 @@ including zeroes (which decreases the estimated mean intertaxa interaction
 strength, Fig. \ref{fig:meta_ratio}), or taking the mean value of
 statistically significant intertaxa coefficients only (which increases
 the estimated mean intertaxa interaction strength, Fig. S9). We considered
-both. {\color{blue} Coefficients used to compute ratios of interaction strengths are detailed in the Supporting Information.}
+both; {\color{blue}a detailed description of these different ways to compare intra- and inter-taxa interactions can be found in the Supporting Information.}
 
 \section*{Results}
 
@@ -379,11 +379,10 @@ for all sites (Fig.~\ref{fig:Interaction-matrices}, diagonal elements
 of all matrices), a feature that we had previously highlighted in
 a more detailed analysis on one of the considered study regions \citep{barraquand_coastal_2018}.
 The ratio of mean intragenus to intergenus interaction coefficients
-varied between 6 and 10, not counting coefficients set to 0 in the
+varied between 6 and 10, not counting coefficients set to 0 before the
 estimation process. When we included the zeroes in the interaction
-matrix in the computation of the intra/inter mean interaction strength,
-the ratio rose to 21-43 (see the Supporting Information for more details on the way intra/inter ratios were computed). Therefore, intragenus interactions were
-on average one order of magnitude stronger than intergenus interactions.
+matrix in the computation of the intra/inter mean interaction strength (see the Supporting Information for details of that computation),
+the ratio rose to 21-43. Therefore, intragenus interactions were on average one order of magnitude stronger than intergenus interactions.
 
 Second, although the percentage of facilitative interactions varied
 among sites (between 40\% and 71\% of interactions in the selected
@@ -515,7 +514,7 @@ net interactions.
 
 The intra/intertaxa interaction strength ratio \citep{levine_importance_2009}
 that we found, from 6--10 to above 20, depending on whether one includes interactions
-set to zero in the estimation process, could appear very high
+set to zero before the estimation process, could appear very high
 in light of previous intra/interspecific competition strength estimates
 of 4 to 5 by \citet{adler_competition_2018}.  
 Additional estimates using the unconstrained interaction matrix yielded ratios between 8 and 11 depending on the site (Table S3 and Fig. S8 in the Supporting Information), but weak intertaxa effects are likely to be inflated in the full model. Therefore, 
@@ -523,7 +522,7 @@ a intra/inter ratio of 10 seems like a conservative estimate, twice that of \cit
 {\color{blue} who use a different model, i.e., a Lotka-Volterra competition model. We outline how to relate a MAR(1) model to a discrete-time Lotka-Volterra equivalent in the Supporting Information; even though there is a relationship between intra/inter ratios in both models, the relationship is not trivial when abundances vary greatly between species. Hence, to some degree, intra/inter ratios can differ between model frameworks or ways of measuring density-dependencies (e.g., a high measurement error due to using proxies of densities for plants can result in bias in interaction coefficient estimates, \citealp{detto_bias_2019}). However, a ratio intra/inter at least twice larger than the ones previously found may call for other explanations.} 
 One could also argue that our high intra/inter ratio arises because we consider the genus as our baseline taxonomic unit, rather than the species. It is logical that niche differentiation increases as one gets up the phylogenetic tree, and that getting down
 to the species level could slightly decrease that ratio (but see \citealp{narwani_ecological_2017},
-in which phylogenetic closeness decreases competition strength). {\color{blue} However, taxonomic resolution is unlikely to be the sole explanation for the high intra/inter ratio interaction strength found here, for two reasons.} First, phytoplankton species belonging
+in which phylogenetic closeness decreases competition strength). {\color{blue} However, taxonomic resolution is unlikely to be the sole explanation for the high intra/inter ratio of interaction strength found here, for two reasons.} First, phytoplankton species belonging
 to different genera are often found to compete in experiments \citep{titman_ecological_1976,tilman_phytoplankton_1982,descamps-julien_stable_2005}. In the field-based dataset studied here, the same genera that are
 considered in experiments are found not to compete (or only weakly),
 hence there must be some niche differentiation occurring in the field
@@ -686,23 +685,21 @@ have shown that model fitting usually underestimates the effect
 of competitors that are uncovered by removal experiments \citep{tuck_strong_2018,adler_weak_2018}.
 This could occur for instance if species are spatially segregated
 (at a small scale) because each species only exists within a domain
-where it is relatively competitive (Pacala's spatial segregation hypothesis,
+where it is relatively competitive (Pacala's spatial segregation hypothesis, chapter 15 in 
 \citealt{pacala1997biologically}), while a focal species could spread
 out if competitors were removed. This means that a species can be
 limited by competitors, but act so as to minimize competition (a little
 like avoidance behaviour in animals) and maximize opportunities for
 positive interactions, which implies that competition is in effect
-hard to detect when all species are present. This mechanism would require spatial
+hard to detect when all species are present. This mechanism would require some spatial
 segregation between phytoplankton species at the scale of interactions,
-i.e., at the microscale. At the moment, it is known that the fine-scale
+i.e., at the microscale. At the moment, while it is known that fine-scale
 hydrodynamics generate inhomogeneities at the microscale \citep{barton_impact_2014,breier_emergence_2018}
-but it is quite unclear how microscale hydrodynamics affects multivariate spatial patterns
-of species distributions (\textit{sensu} \citealt{bolker_spatial_1999},
-or \citealt{murrell_heteromyopia_2003}). Moreover, even if microscale
-hydrodynamics generates spatial structure with segregation between
-species, the ``ghost of competition present'' mechanism might not work for phytoplankton as in terrestrial plants, because turbulence rather
-than active organism movement dictates where the phytoplankton patches can or cannot appear.
-
+it is yet quite unclear how they might affect multivariate spatial patterns
+of species distributions (\textit{sensu} \citealt{bolker_spatial_1999}
+or \citealt{murrell_heteromyopia_2003}). {\color{blue}Moreover, even with some microscale spatial segregation between
+species, a ``ghost of competition present'' mechanism might not work in phytoplankton as in terrestrial plants, 
+because the turbulent, ever-changing aquatic environment imposes additional constraints on the spatial distribution of organisms.}
 
 \subsubsection*{Acknowledgements}
 
