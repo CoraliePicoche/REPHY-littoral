@@ -142,7 +142,7 @@ scenarios were similar for most sites (Fig.~\ref{fig:Comparison-of-BIC}).
 Based on these results, we considered the model selection to be quite
 robust, and focused on the pennate-centric scenario to analyze interaction
 matrices, as this scenario corresponded to the best fitted models
-that still allowed interactions between groups. {\color{blue}However, in order to be as comprehensive as possible, we also present results for the full/unconstrained matrix in a section below (``Comparison with a full interaction matrix'').}
+that still allowed interactions between groups. However, in order to be as comprehensive as possible, we also present results for the full/unconstrained matrix in a section below (``Comparison with a full interaction matrix'').
 
 \begin{figure}[H]
 \begin{centering}
@@ -178,10 +178,10 @@ The regression coefficients reveal abiotic effects such as phenology
 (temperature, related to insolation) or responses to hydrological
 changes such as salinity variation (Fig.~\ref{fig:Abiotic_effects}).
 Overall, temperature tended to have more effect on phytoplankton dynamics
-than salinity, which {\color{blue}is} logical since it integrates seasonal variation
+than salinity, which is logical since it integrates seasonal variation
 in received solar energy. The absolute effect of temperature was on
 average 3.5 times higher than salinity effects and temperature coefficients
-were significant at the 95\% threshold for 68\% of all estimates,
+were significant at the 5\% level for 68\% of all estimates,
 as opposed to 16\% for salinity effects. Temperature had a positive
 effect in 80\% of the cases while salinity had a negative effect for
 66\% of all estimates. The sign of significant temperature effects
@@ -204,11 +204,11 @@ before estimation. \label{fig:Abiotic_effects}}
 
 \subsection*{Network analysis}
 
-{\color{blue}\subsubsection*{Computation of intra/inter-taxa interaction strength ratios from interaction coefficients}
+\subsubsection*{Computation of intra/inter-taxa interaction strength ratios from interaction coefficients}
 
 We present in the main text ratios between intra and inter-taxa interaction strength, $\kappa=\frac{\text{mean}|b_{ii}|}{\text{mean}|b_{ij,j\neq i}|}$, in several places. These are computed from three sets of interspecific interaction coefficients:
 \begin{itemize}
- \item $b_{ij}^*$, coefficients significantly different from 0 at the 95\% level
+ \item $b_{ij}^*$, coefficients significantly different from 0 at the 5\% level
  \item $b_{ij}^{\bar{*}}$, coefficients not significantly different from 0
  \item $b_{ij}^0$, coefficients set to 0 before the estimation process.
 \end{itemize}
@@ -221,7 +221,6 @@ Some coefficients are indeed set to 0 before the estimation process, in order to
  \end{itemize}
 Unless otherwise stated, all analyses presented in the main text and below are based on $\{b_{ij}\}=\{b_{ij}^*\} \cup \{b_{ij}^{\bar{*}}\}$.
  
- }
 
 \subsubsection*{Interaction types}
 
@@ -393,7 +392,7 @@ This is why we decided to present in the main text intra/inter ratios
 including interspecific (or intergroup) coefficients set to zero (see Fig. 4 in the main text),
 which should be less sensitive to the model selection method and therefore
 make comparisons across studies possible. In Fig.~\ref{fig:Ratio-of-intra-to-intergroup}, mean interaction strengths were computed as the mean absolute value
-of the set of coefficients which were deemed significant at the 95\% threshold in the $\mathbf{B}\text{\textendash}\mathbf{I}$ matrix (see the ``Computation of intra/inter-taxa ratios'' section above for details).
+of the set of coefficients which were deemed significant at the 5\% level in the $\mathbf{B}\text{\textendash}\mathbf{I}$ matrix (see the ``Computation of intra/inter-taxa ratios'' section above for details).
 
 \begin{sidewaystable}[H]
 \begin{centering}
@@ -459,7 +458,7 @@ to the present study. \label{fig:ratio_meta}}
 
 \subsection*{Connection to continuous-time models}
 
-{\color{blue} The relation between complexity and stability in community models has been debated for decades in theoretical circles \citep{may_will_1972, allesina_stabilitycomplexity_2015}. In theoretical ecology, random matrix theory has been mostly applied to continuous-time interaction models (\citealt{allesina_stabilitycomplexity_2015}, but see \citealt{cohen_stability_1984}). Here, we intend to connect our statistical discrete-time models to the continuous-time models of stability theory. The discrete-time log-linear model writes $\mathbf{x}_{t+1} = \mathbf{B} \mathbf{x}_{t}$ in the main text. This model can only approximate continuous-time, possibly non-linear dynamics. There are at least two ways to relate discrete-time models to continuous-time dynamics. 
+The relation between complexity and stability in community models has been debated for decades in theoretical circles \citep{may_will_1972, allesina_stabilitycomplexity_2015}. In theoretical ecology, random matrix theory has been mostly applied to continuous-time interaction models (\citealt{allesina_stabilitycomplexity_2015}, but see \citealt{cohen_stability_1984}). Here, we intend to connect our statistical discrete-time models to the continuous-time models of stability theory. The discrete-time log-linear model writes $\mathbf{x}_{t+1} = \mathbf{B} \mathbf{x}_{t}$ in the main text. This model can only approximate continuous-time, possibly non-linear dynamics. There are at least two ways to relate discrete-time models to continuous-time dynamics. 
 
 The first approach is to linearize continuous-time dynamics ($\text{d}\mathbf{x}=\mathbf{A}\mathbf{x}\text{dt}$ where $\mathbf{A}$ is the continuous-time community matrix) and integrate the system over time. In this case, the map from one time-step to the other can be written $\mathbf{x}_{t+1} = \text{e}^{\mathbf{A}} \mathbf{x}_{t}$. The discrete-time equivalent of the community matrix $\mathbf{A}$ is then $\mathbf{\log(B)}$ where $\text{e}^{\mathbf{A}}$ is a matrix exponential and $\mathbf{\log(B)}$ the reciprocal of $\text{e}^{\mathbf{A}}$ with $\mathbf{B}$ defined as above. 
 
@@ -481,8 +480,6 @@ We see in Fig.~\ref{fig:comparison_fig} that:
 \item there is no apparent relationship between the continuous-time equivalent metric for stability/resilience and complexity (the latter being measured as the number of species times the variance of the intertaxa interaction coefficients) (Fig~\ref{fig:comparison_fig} b).
 \end{itemize}
 The link between stability and complexity that we study here is therefore of a similar nature to that studied in continuous-time stability theory, and the relation between stability and complexity was found to be non-existent using both discrete-time metrics and equivalent metrics mimicking continuous-time. The absence of relationship between complexity and stability \textit{sensu} resilience therefore appears to be genuine. 
-}
-
 
 
 \subsection*{Connection to Lotka-Volterra competition dynamics}
@@ -654,9 +651,7 @@ Coupling eq. \ref{eq:bbar} and \ref{eq:second_part_equation}, this leads to
 \end{aligned}
 \end{equation}
 
-{\color{blue} Thus, the order of magnitude between interaction strengths might change between MAR(1) and BH competition, depending on the species in presence and their relative contribution to the community. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial in general.}
-
-%Therefore, unless the growth rates and the resulting abundances differ over several orders of magnitude, the strength of the competition ratio $k$ should be roughly comparable between MAR(1) and Lotka-Volterra or Beverton-Holt models. {\color{blue}  Unfortunately, in this paper, the mean and median ratio between pairs of abundances are respectively 6 and 23, with values between 1.01 and 439.5. 
+Thus, the order of magnitude between interaction strengths might change between MAR(1) and BH competition, depending on the species in presence and their relative contribution to the community. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial in general.
 
 \bibliography{phytoInteractions_ref,bib_fig_review}
 
