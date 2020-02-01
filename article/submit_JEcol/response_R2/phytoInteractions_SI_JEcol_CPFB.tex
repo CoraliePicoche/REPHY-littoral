@@ -598,7 +598,7 @@ By symmetry, we can also write
 \end{equation}
 
 The same reasoning can actually be applied
-with $S$ species as the Jacobian has a similar form.
+with $S$ species as the Jacobian has a similar form:
 
 \begin{equation}
 \begin{aligned}(J-I)_{ii} & = & \frac{-\alpha_{ii}N_{i}}{1+\sum_{j}\alpha_{ij}N_{j}}\\
@@ -612,12 +612,12 @@ and
 \begin{aligned}(J-I)_{ij} & = & \frac{-\alpha_{ij}N_{j}}{1+\sum_{l}\alpha_{il}N_{l}}\\
  & = & \frac{-\alpha N_{j}}{1+k\alpha N_{i}+\sum_{l,l\neq i}\alpha N_{l}}\\
  & = & (J-I)_{ii}\frac{\alpha N_{j}}{k\alpha N_{i}}\\
- & = & \frac{1}{k}(J-I)_{ii}\frac{N_{j}}{N_{i}}
+ & = & \frac{1}{k}(J-I)_{ii}\frac{N_{j}}{N_{i}}.
 \end{aligned}
 \label{eq:JiivsJij}
 \end{equation}
 
-However, in the main text, we use the ratio $\kappa=\frac{\overline{|(J-I)_{ii}|}}{\overline{|(J-I)_{ij}|}}$, with average quantities in the numerator and the denominator. To build a relationship between $k$ and $\kappa$, we take $b_{ij}=(J-I)_{ij}$, $N_T=\sum_{i=1}^S N_i$ and start by assuming that all $b_{ij}$ have the same sign, negative for competition between species). Then,
+However, in the main text, we use the ratio $\kappa=\frac{\overline{|(J-I)_{ii}|}}{\overline{|(J-I)_{ij}|}}$, with average quantities in the numerator and the denominator. To build a relationship between $k$ and $\kappa$, we denote $b_{ij}=(J-I)_{ij}$, $N_T=\sum_{i=1}^S N_i$. In this simple diffuse competition case, all $b_{ij}$ have the same negative sign. Therefore,
 
 \begin{equation}
 \begin{aligned}
@@ -628,12 +628,12 @@ However, in the main text, we use the ratio $\kappa=\frac{\overline{|(J-I)_{ii}|
 \label{eq:bbar}
 \end{equation}
 
-According to eq. \ref{eq:JiivsJij}, $\overline{b_{ij}}=\frac{1}{k}\overline{b_{ii}\frac{N_j}{N_i}}$.
+Using eq.~\ref{eq:JiivsJij}, we obtain
 
 \begin{equation}
 \begin{aligned}
 \overline{b_{ij}}&=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\sum_{j=1,j\neq i}^S b_{ii}\frac{N_j}{N_i}\\
-&=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\frac{b_{ii}}{N_i}\sum_{j=1}^S \left( N_j\right) - N_i\\
+&=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\frac{b_{ii}}{N_i}\left( \left(\sum_{j=1}^S N_j\right) - N_i\right)\\
 &=&\frac{1}{kS(S-1)}&\sum_{i=1}^S\frac{b_{ii}}{N_i}( N_T - N_i )\\
 &=&\frac{1}{k(S-1)}&\left(\frac{1}{S}\sum_{i=1}^S b_{ii}\frac{N_T}{N_i} - \frac{1}{S}\sum_{i=1}^Sb_{ii} \right)\\
 &=&\frac{1}{k(S-1)}&\left(\frac{1}{S}\sum_{i=1}^S b_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right).\\
@@ -645,13 +645,11 @@ Coupling eq. \ref{eq:bbar} and \ref{eq:second_part_equation}, this leads to
 
 \begin{equation}
 \begin{aligned}
-& \overline{b_{ij}}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S b_{ii}\frac{N_T}{N_i} - \overline{b_{ii}}\right)\\
-\Leftrightarrow & \frac{\overline{b_{ij}}}{\overline{b_{ii}}}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right)\\
-\Leftrightarrow & \frac{1}{\kappa}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right).
+& \frac{\overline{b_{ij}}}{\overline{b_{ii}}} & = &\frac{1}{\kappa}&=&\frac{1}{k(S-1)}\left(\frac{1}{S}\sum_{i=1}^S\frac{b_{ii}}{\overline{b_{ii}}}\frac{N_T}{N_i} - 1\right).
 \end{aligned}
 \end{equation}
 
-Thus, the order of magnitude between interaction strengths might change between MAR(1) and BH competition, depending on the species in presence and their relative contribution to the community. The mapping between Lotka-Volterra and MAR interaction strength ratios is therefore non-trivial in general.
+Thus, even in the simple case of diffuse competition, the ratio intra/inter might change to some degree between MAR(1) and BH competition, as a function of relative abundances. For even communities, the mapping between Lotka-Volterra and MAR(1) interaction strength ratios is good; the combined effect of variance in self-regulation strength and realistic levels of community uneveness may change this. Also, diffuse competition is a simplification: mapping such interaction strength ratios in the general many-species case is a non-trivial endeavour, and further deviations between the two frameworks could be expected (see \citealp{certain_how_2018}, for the two-species case).
 
 \bibliography{phytoInteractions_ref,bib_fig_review}
 
