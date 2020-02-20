@@ -6,14 +6,18 @@ l.342: "Overall, the dominance of niche differentiation in observational plankto
 analysis of the REPHY dataset and re-analysis of the MAR(1) literature – is similar to what has been
 recently found in plant community studies (Volkov et al., 2007; Adler et al., 2018b) "
 
-We indeed cite Volkov 2003 as a tenant of the neutral model. They present a variation in the model that does not allow for interaction between species, same thing for 2007 which only show that models without competition (i.e., niche differentiation at equilibrium is strong enough for specis not to compete) can output population distributions that are coherent with data. IN 2007, the model is still cohrent with the neutral model as birth and death rates are th ame for all species. 
-We can maybe rephrase l.9 as "though some neutral models exclude interactions between species, see Volkov". 
-ANd for l.342, recently found in plant community studies (e.g., Volkov et al., 2007 removed interspecific interactions and still obtain relative species abundance distrbutions consistant with observations; Adler et al., 2018b, found a ratio intra/inter between 4 and 5)". 
+* Volkov et al. (2005,2007,2009) non-neutral; the ref. to the 2003 paper in the first paragraph was indeed confusing. 
+* Now we only cite (2007,2009) in the second paragraph. 
 
-F:confusion entre le neutral model de Hubbell et celui de Volkov, pas les mêmes... Volkov -> pas d'interaction inter... On peut lui dire que si il a doute il contacte Gyuri Barabas pour confirmation. On peut en profiter que c'est pour ça qu'on réfère à la théorie neutre de Hubbell 2001.
 
 2) Missing ref: did not find them in either main txt or SI (or even response to referees)
+* Actually we did not find any missing refs; we took this opportunity the check the appropriateness of citations throughout. 
 
-3)IN addition to: "On va essayer de dire diplomatiquement que "stochastic" process n'est pas suffisant. Et que si il parle des processus stochastiques de dispersion, oui ça peut expliquer un peu la structure des communautés mais pas nécessairement sur les espèces très communes (et encore, sur les rares, cf. Yenni et al.) Et qu'à notre connaissance si des fits de la théorie neutre sur des données statiques ont été réalisés ils n'existe pas de tels fits sur des données dynamiques (enfin je crois!)."
+3) "I would mention that many studies conclude that both niche differentiation and neutral theory are operating in community assembly and species coexistence in line 11-15, as stochastic process cannot be excluded in this study system as well."
 
-Is she also referring to emerging neutrality?
+Explaining that a model is truly neutral if there's no niche differentiation, i.e., equal competitive strengths within and between taxa. 
+Even if dispersal contribute to shaping the community, this is unlikely. 
+
+* Theoretical results from our Theor Ecol and other papers --> Hidden niches in the emergent neutrality models
+* Need of time series to evaluate neutrality vs competition; so far temporal evidence supports niche differentiation. 
+* Stochastic processes are not excluded here; in fact all our fitted models are stochastic.  
