@@ -70,7 +70,6 @@ for (g in groupe){
 	}
 }
 
-#5 most abundant
 xlimi=c(as.Date("1996-01-01"),as.Date("2017-06-01"))
 liste_sp=c("AST","CHA","DIT","GUI","LEP","NIT","PLE","PSE","RHI","SKE","THP","THL","GYM","PRO","PRP","SCR","CRY","EUG")
 list_centric=c("CHA","DIT","GUI","LEP","RHI","SKE","THP")
@@ -91,11 +90,14 @@ for(l in 1:10){
 			if((liste_sp_bis[s]%in%list_centric&liste_sp_bis[s_bis]%in%list_centric)|
 				(liste_sp_bis[s]%in%list_pennate&liste_sp_bis[s_bis]%in%list_pennate)|
 				(liste_sp_bis[s]%in%list_dino&liste_sp_bis[s_bis]%in%list_dino)){
-				val=c(val,max(plou[s_bis]/plou[s],plou[s]/plou[s_bis]))
+#				val=c(val,max(plou[s_bis]/plou[s],plou[s]/plou[s_bis])) #Previously, bad way to compute the mean
+				val=c(val,c(plou[s_bis]/plou[s],plou[s]/plou[s_bis]))
+				
 			}
 			}
 		}
         }
 }
 
-#pdf("article/submit_JEcol/response_R2/hist_ratio.pdf")
+line=apply(tab_tot["Auger",,],2,mean,na.rm=T)
+write.table("abundances_Auger.txt",line)

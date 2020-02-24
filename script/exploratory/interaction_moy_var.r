@@ -91,6 +91,7 @@ for (g in groupe){
 		}
 }
 
+if(1==0){
 pdf(paste("Rapport/graphe/MAR_estimates/moy_var_per_subsite_",option_model,"_",extant,"_",extant2,".pdf",sep=""))
 par(mfrow=c(3,1),mar=c(2,4,0.5,0.5))
 ylim1=min(tab_value[,"intra_mean"])-sqrt(max(tab_value[,"intra_var"]))/2
@@ -230,3 +231,5 @@ plot(x2,y2,col=colo,pch=16,xlab="Mean",ylab="",cex=2,cex.axis=2,cex.lab=2)
 text(mean(tab_value[,'intra_mean']),0.01,"Intra",xpd=NA,cex=1.5)
 text(mean(tab_value[,'inter_mean_abs']),min(tab_value[,"intra_var"]),"Inter abs",xpd=NA,cex=1.5)
 dev.off()
+
+}

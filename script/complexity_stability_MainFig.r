@@ -97,7 +97,6 @@ for (g in groupe){
 	}
 }
 
-if(1==0){
 pdf(paste("./article/graphe/complexity_stability_MainFig_compare_unconstrained_pencen_justB_log2.pdf",sep=""),width=12,height=5)
 par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
@@ -174,7 +173,6 @@ print(results[,'linkage density','pencen'])
 print(summary(results[,'stability','pencen']))
 print(results[,'vulnerability.LL','pencen'])
 print(results[,'generality.HL','pencen'])
-}
 #End 1==0
 
 

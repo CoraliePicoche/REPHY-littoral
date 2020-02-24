@@ -71,6 +71,7 @@ for (g in groupe){
 	}
 }
 
+
 #All sites, plankton species separately
 pdf("article/graphe/time_series_plankton_allsite.pdf",width=10)
 liste_sp=c("CHA","PSE","PRP")#,"SKE") #Wondering if we keep SKE; the first three are from different groups, the last one is another centric diatom
