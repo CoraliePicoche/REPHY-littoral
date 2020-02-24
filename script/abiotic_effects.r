@@ -58,7 +58,7 @@ for (g in groupe){
 	}
 }
 
-#pdf("article/graphe/abiotic_first_try.pdf",width=15,height=10)
+pdf("article/graphe/abiotic_first_try.pdf",width=15,height=10)
 for(var in 1:length(covariate)){
 mini=min(c(tab_value_min[,,var]),na.rm=T)
 maxi=max(c(tab_value_max[,,var]),na.rm=T)
@@ -73,9 +73,9 @@ for(i in 1:length(name_species)){
 abline(h=0,lty=2)
 abline(v=seq(0.5,18.5,by=1),lty=2)
 }
-#dev.off()
+dev.off()
 
-#pdf("article/graphe/abiotic_second_try.pdf",width=13,height=16)
+pdf("article/graphe/abiotic_second_try.pdf",width=13,height=16)
 par(mfcol=c(4,2),mar=c(6,5,4,2))
 colo=c("blue","black","red")
 pos="bottomright"
@@ -109,7 +109,7 @@ if(var==1){
 legend(pos,name_places[(j-site+1):(j)],col=colo,pch=16,bty="n",cex=2)
 }
 }
-#dev.off()
+dev.off()
 
 #Count positive and significant parameters
 var="SAL"

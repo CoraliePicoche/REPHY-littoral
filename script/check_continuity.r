@@ -4,13 +4,13 @@ graphics.off()
 rm(list=ls())
 library('lubridate')
 
-fil=list.files(path="data/",pattern="^[A-Z].*flortot_only.csv")
+fil=list.files(path="data/flortot_per_site/",pattern="^[A-Z].*flortot_only.csv")
 
 ccolfunc <- colorRampPalette(c("lightblue1", "darkblue"))
 colo=ccolfunc(736-210)
-pdf("graphe/boxplot_gap_all.pdf",width=20)
+pdf("report/graphe/exploration_raw/boxplot_gap_all.pdf",width=20)
 par(oma=c(5,2,1,1))
-pdf("graphe/gap_per_season.pdf")
+pdf("report/graphe/exploration_raw/gap_per_season.pdf")
 for (f in 1:length(fil)){
 	missing_month=0
 	no_missing_month=0
