@@ -5,6 +5,7 @@ The main analyses are as follows.
 #### Main text
 *  `check_continuity.r` computes the length of the gaps in the datasets of the different REPHY sites in order to choose the time series which have the less gaps (detailed in the Methods of the main text).
 *  `exploitation_FLORTOT.r` turns the raw datafile (directly extracted from the database of IFREMER, Quadrige) and turns into easier-to-use .txt files
+*  `times_series_par_classif.r` produces the time series for abundances that are used in all MAR analyses
 *  `hydro_times_series_par_classif.r` does the same for the hydrological variable  
 *  `MARSS_clean.r` is a function that automatizes and standardizes the MARSS analysis we perform on the datasets 
 *  `MAR_single.r and MAR_single_for_Arcachon.r` use the function `MARSS_clean.r` to actually analyse the datasets. Arcachon is treated separately because files were already treated in a slightly different way in a previous paper (Barraquand et al. 2018, Oikos)

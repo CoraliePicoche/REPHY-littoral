@@ -1,5 +1,5 @@
 #18/09/14 CP
-#Compare BIC and AIC from models with and without a polynomial form of the covariate (niche) + checks the shape of the curves
+#Compare BIC and AIC from models with and without a polynomial form of the covariate (niche) 
 
 rm(list=ls())
 graphics.off()

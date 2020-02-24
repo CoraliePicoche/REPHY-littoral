@@ -11,7 +11,6 @@ tab_sp=read.table('data/lieu_sp_post_reconstruct_pour_MAR.csv',header=TRUE,na.st
 lieu=colnames(tab_sp)
 lieu=gsub('.',' ',lieu,fixed=TRUE) #useful for Men er Roue
 
-if(1==0){
 pdf("article/graphe/abundance.pdf",width=15)
 for (g in groupe){
         if(g=="BZ"){
@@ -46,7 +45,6 @@ for (g in groupe){
 	}
 }
 dev.off()
-}
 
 mm=c()
 for (g in groupe){
