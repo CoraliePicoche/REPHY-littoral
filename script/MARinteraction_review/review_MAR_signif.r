@@ -1,12 +1,14 @@
 #CP 12/2017: this script extracts intra/inter ratios from other MAR analyses and other metrics on the matrices and compare them to our results on the REPHY dataset
 #CP 10/2019: identify terrestrial/predation food webs with a different color
 #CP 01/2020: removed Barraquand 2018 as it was redundant with our current data + changed paths to have figures in the response folder + added computation of the mean inter on the same number as intra
+#CP 02/2020: cleaned up the code
 
 graphics.off()
 rm(list=ls())
 
-source("~/Documents/Plankton/REPHY_littoral/script/matrix_MAR_clean.r")
+source("./script/matrix_MAR_clean.r")
 
+#This function extracts the ratios, absolute values and standard deviations of intraspecific and interspecific interaction strengths
 whatwewant=function(x_intra,x_inter){
 	dimension=length(x_intra)
 	x_inter=x_inter[x_inter!=0]
@@ -21,10 +23,9 @@ whatwewant=function(x_intra,x_inter){
 	val=c(mean(abs(x_intra)),sd(abs(x_intra)),mean(abs(x_inter)),sd(abs(x_inter)),mean(abs(val_signif)),sd(abs(val_signif)),dimension,prop_signif,mean_ratio_with_sample)
 }
 
-
+#We begin with the data from other papers
 tab_answer=matrix(NA,nrow=1,ncol=10)
 colnames(tab_answer)=c("Code","MeanIntra","SdIntra","MeanInter","SdInter","MeanSignif","SdSignif","Dimension","Prop signif","SampledRatio")
-#code_name=c('Hampton2006a_biweekly','Hampton2006a_growing','Hampton2006b_full','Hampton2006b_simple','Griffiths2015_Phyto1','Griffiths2015_Phyto2','Huber2006_Phyto_signif','Huber2006_Ciliate_signif','Ives1999_Zoo1','Ives1999_Zoo2','Ives2003_Plank1','Ives2003_Plank2_signif','Ives2003_Plank3_signif','Klug2000_Phyto','Klug2000_Zoo','Klug2001_TaxoAlgae','Klug2001_MorphoAlgae','Lindegren2009_Fish_signif','Vik2008_LynxHare','Yamamura2006_Insects_signif')
 code_name=c('Hampton2006a_biweekly','Hampton2006a_growing','Hampton2006b_full','Hampton2006b_simple','Griffiths2015_Phyto1','Griffiths2015_Phyto2','Huber2006_Phyto_signif','Huber2006_Ciliate_signif','Ives1999_Zoo1','Ives1999_Zoo2','Ives2003_Plank1','Ives2003_Plank2_signif','Ives2003_Plank3_signif','Klug2000_Phyto','Klug2000_Zoo','Klug2001_TaxoAlgae','Klug2001_MorphoAlgae','Lindegren2009_Fish_signif','Vik2008_LynxHare','Yamamura2006_Insects_signif')
 
 for(c in 1:length(code_name)){
@@ -42,32 +43,6 @@ x_inter=nodiag
 tab_answer=rbind(tab_answer,c(code_name[c],whatwewant(x_intra,x_inter)))
 }
 
-if(1==0){
-#Barraquand2018
-code_name=c(code_name,"Barraquand2018_Teychan","Barraquand2018_B7")
-c=c+1
-load("~/Documents/Plankton/script_propre/Fred_master/PhytoplanktonArcachon_MultivariateTimeSeriesAnalysis/MARSS_results/Teychan_physics_pencen.RData")
-plou=clean_matrix(cis,signif=TRUE)
-x_intra=diag(plou)
-nodiag=plou
-diag(nodiag)=NA
-nodiag=c(nodiag)
-nodiag=nodiag[!is.na(nodiag)]
-x_inter=nodiag
-tab_answer=rbind(tab_answer,c(code_name[c],whatwewant(x_intra,x_inter)))
-
-c=c+1
-load("~/Documents/Plankton/script_propre/Fred_master/PhytoplanktonArcachon_MultivariateTimeSeriesAnalysis/MARSS_results/B7_physics_pencen.RData")
-plou=clean_matrix(cis,signif=TRUE)
-x_intra=diag(plou)
-nodiag=plou
-diag(nodiag)=NA
-nodiag=c(nodiag)
-nodiag=nodiag[!is.na(nodiag)]
-x_inter=nodiag
-tab_answer=rbind(tab_answer,c(code_name[c],whatwewant(x_intra,x_inter)))
-} #Barraquand was index 21/22
-
 tab_answer=tab_answer[-which(is.na(tab_answer[,1])),]
 
 #Alphabetical order
@@ -81,8 +56,7 @@ id=order(years)
 tab_answer=tab_answer[id,]
 code_name=code_name[id]
 
-#names_1=paste('[',1:length(code_name),']',sep='')
-
+#This replaces names of the studies by their codes (1a, 2, etc.)
 xlab_try=rep(NA,length(code_name))
 names_1=rep(NA,length(code_name))
 aletter=c('a','b','c')
@@ -102,11 +76,9 @@ for(i in 2:length(code_name)){
 	names_1[i]=paste(as.character(xlab_try[i]),aletter[al],sep="")
 }
 
-#names_1=code_name
-
 xlab_try=c(xlab_try,rep(xlab_try[length(xlab_try)]+1,10))
 
-#This Study
+#This uses values from the present analysis on the REPHY Dataset
 groupe=c("BZ","MO","AR","SU")
 other=c('Br','Ol','Ar','Me')
 app_T_this_study=c()
@@ -123,7 +95,6 @@ for (gg in 1:length(groupe)){
         }
         for (ll in 1:length(option_lieu)){
 		c=c+1
-	#	names_1=c(names_1,paste(substr(g,1,1),as.character(ll),sep=""))
 		names_1=c(names_1,paste(other[gg],as.character(ll),sep=""))
 		code_name=c(code_name,paste('ThisStudy','_',option_lieu[ll],sep=""))
         	f1=paste("~/Documents/Plankton/REPHY_littoral/data/analyse_MAR/",g,"/site_specific/",option_lieu[ll],"_pencen_null_regular_common_",g,".RData",sep="")
@@ -143,9 +114,8 @@ for (gg in 1:length(groupe)){
 
 tab_answer[,'Prop signif']=1-as.numeric(tab_answer[,'Prop signif']) #Sparsity index
 
-#Comparing
-#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF.pdf",width=18,height=8)
-pdf("~/Documents/Plankton/REPHY_littoral/article/submit_JEcol/response_R2/comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF_withoutBarraquand_et_al_2018.pdf",width=18,height=8)
+#Comparing ratios when taking only the significant parameters. This produces Fig. S9 in the supplementary information
+pdf("./comparaison_ratio_code_nolog_cleaner_ONLY_SIGNIF_withoutBarraquand_et_al_2018.pdf",width=18,height=8)
 par(mfrow=c(1,2),xpd=NA,mar=c(4,4.5,3,0.5))
 cod_cod=rep("cyan",dim(tab_answer)[1])
 cod_cod[as.numeric(tab_answer[,"Prop signif"])>=0.65]="blue"
@@ -160,35 +130,19 @@ ylab_try=as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanInter"
 plot(tab_answer[,"Dimension"],ylab_try,t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="Number of taxa",ylab="|intra|/|inter|",cex.lab=2.0,cex.axis=1.5,xlim=c(1.5,14.5))
 id_diff=16:18
 points(tab_answer[id_diff,"Dimension"],ylab_try[id_diff],col="red",lwd=2,cex=1,pch=symbol[id_diff],bg="red")
-#mtext("Chronological order",side=1,line=2.5,cex=2.0)
 mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
-#idx=c(1:3,5:21,24:32) #w Barraquand
 idx=c(1:3,5:29,22:30)
 text(tab_answer[idx,'Dimension'],ylab_try[idx],names_1[idx],pos=c(4,2),cex=1.5)
-#text(tab_answer[,'Dimension'],ylab_try,names_1,pos=c(4,2),cex=1.5)
 
 idx=4
 text(tab_answer[idx,'Dimension'],ylab_try[idx]+0.05,names_1[idx],pos=c(4),cex=1.5)
 
-#idx=22 #w Barraquand
-idx=20 #wo Barraquand
+idx=20 
 text(tab_answer[idx,'Dimension'],ylab_try[idx],names_1[idx],pos=c(4),cex=1.5)
 #idx=23 #w Barraquand
 idx=21 #wo Barraquand
 text(tab_answer[idx,'Dimension'],ylab_try[idx]-0.15,names_1[idx],pos=c(4),cex=1.5)
 
-
-if(1==0){
-plou_id=order(ylab_try)
-plou_id=plou_id[plou_id>22]
-idx=plou_id[c(1:2,9:10)]
-text(xlab_try[idx],ylab_try[idx],names_1[idx],pos=2,cex=1.5)
-posi=c(2,4)
-for(i in 8:3){
-        text(xlab_try[plou_id[i]]+0.25,ylab_try[plou_id[i]]+(i-8)*0.25,names_1[plou_id[i]],pos=4,cex=1.5)
-        arrows(xlab_try[plou_id[i]]+0.4,ylab_try[plou_id[i]]+(i-8)*0.25,xlab_try[plou_id[i]],ylab_try[plou_id[i]],length=0)
-}
-}
 legend("bottomright",pch=c(21,22,23),leg=c('sparsity<0.65',expression('0.65'<='sparsity<0.75'),expression('sparsity'>='0.75')),pt.bg=c("cyan","blue","darkorchid"),bty='n',cex=1.5,pt.cex=3)
 
 #Second plot
@@ -200,7 +154,6 @@ points(xx[id_diff],yy[id_diff],col="red",lwd=2,cex=1,pch=symbol[id_diff],bg="red
 mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1.0,adj=0)
 
 names_1_bis=names_1
-#names_1_bis[c(2,8,19,28,24,25,31)]=""
 names_1_bis[c(2,8,19,26,22,23,29)]=""
 text(xx,yy,names_1_bis,pos=c(4,2),cex=1.5)
 idx=c(2,8)
@@ -224,8 +177,7 @@ mtext("Sparsity",side=1,line=2.5,cex=2.0)
 
 dev.off()
 
-#Comparing
-#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/comparaison_ratio_code_log_cleaner_allwith0_ONLY_SIGNIF.pdf",width=10,height=8)
+#Comparing ratios using only significant parameters but replacing missing values by 0. This is not used anymore.
 par(mfrow=c(1,1),xpd=NA,mar=c(3,4.5,1,1))
 
 symbol=rep(21,dim(tab_answer)[1])
@@ -237,9 +189,6 @@ plot(xlab_try,log10(as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,
 lines(c(0.7,max(xlab_try)+0.6),rep(1,2),col="black",lty=2,lwd=2)
 mtext("Chronological order",side=1,line=1.5,cex=1.5)
 axis(2,at=c(0,log10(5),1,log10(50),2),lab=c("1","5","10","50","100"),cex.axis=1.5)
-#names_1=tab_answer[,1]
-#text(1:dim(tab_answer)[1],log10(as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanSignif"]))-.05,names_1)
-#id=c(1,2,4:12,14:21)
 id=c(1,2,4:12,14:20)
 text(xlab_try[id],log10(as.numeric(tab_answer[id,"MeanIntra"])/as.numeric(tab_answer[id,"MeanSignif"])),names_1[id],pos=c(2,4),cex=1.5)
 id=3
@@ -247,9 +196,6 @@ text(xlab_try[id]-0.1,log10(as.numeric(tab_answer[id,"MeanIntra"])/as.numeric(ta
 id=13
 text(xlab_try[id],0.05+log10(as.numeric(tab_answer[id,"MeanIntra"])/as.numeric(tab_answer[id,"MeanSignif"])),names_1[id],pos=c(2,4),cex=1.5)
 
-
-#text(xlab_try[31:32],log10(as.numeric(tab_answer[31:32,"MeanIntra"])/as.numeric(tab_answer[31:32,"MeanSignif"])),names_1[31:32],pos=c(2,4),cex=1.5)
-#idx=c(22,23,29)
 text(xlab_try[29:30],log10(as.numeric(tab_answer[29:30,"MeanIntra"])/as.numeric(tab_answer[29:30,"MeanSignif"])),names_1[29:30],pos=c(2,4),cex=1.5)
 idx=c(25)
 text(xlab_try[idx],log10(as.numeric(tab_answer[idx,"MeanIntra"])/as.numeric(tab_answer[idx,"MeanSignif"])),names_1[idx],pos=c(2,4),cex=1.5)
@@ -262,14 +208,9 @@ for(i in 1:length(id)){
 	text(xlab_try[id[i]]-0.2,ylab_try-i*0.05,names_1[id[i]],pos=2,cex=1.5)
 	arrows(xlab_try[id[i]]-0.25,ylab_try-i*0.05,xlab_try[id[i]],ylab_try,length=0)
 }
-#legend("bottomleft",pch=c(16,16,16,21,22,23),leg=c('sparsity<0.65','sparsity<0.75','sparsity>=0.75','Dimension<6','Dimension<10','Dimension>=10'),col=c("cyan","blue","darkblue",NA,NA,NA),bty='n',cex=1.5,lty=NA,lwd=2,pt.bg=c(NA,NA,NA,"black","black","black"))
-#### WARNING: the legend will need to be updated
-#dev.off()
 
-#symbol=rep(21,dim(tab_answer)[1])
-
-#pdf("~/Documents/Plankton/REPHY_littoral/article/graphe/sparsity_vs_others_species2taxa.pdf",width=18,height=8)
-pdf("~/Documents/Plankton/REPHY_littoral/article/submit_JEcol/response_R2/sparsity_vs_others_species2taxa_withoutBarraquand_et_al_2018.pdf",width=18,height=8)
+#This compares the ratios of intra and inter against the sparsity and length of the time-series of each studies (Fig. S10 in the supporting information)
+pdf("./sparsity_vs_others_species2taxa_withoutBarraquand_et_al_2018.pdf",width=18,height=8)
 par(mfrow=c(1,2),xpd=NA,mar=c(4,4.5,3,0.5))
 
 app_T=c(100,100,100,50,300,300,100,100,100,300,200,400,400,300,300,50,100,30,1000,700)
@@ -295,7 +236,7 @@ symbol=rep(21,dim(tab_answer)[1])
 symbol[as.numeric(tab_answer[,"Prop signif"])>=0.65]=22
 symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
 
-
+#This shows the ratio intra to inter against the number of taxa in the study (Fig. 4 in the main text)
 pdf('~/Documents/Plankton/REPHY_littoral/article/submit_JEcol/response_R2/Ratio_function_dim_tmp_withoutBarraquand_et_al_2018.pdf',,width=10,height=8)
 par(mfrow=c(1,1),mar=c(4,4.5,1,1))
 plot(tab_answer[,"Dimension"],log10(as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanSignif"])),t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="Number of taxa",ylab="|intra|/|inter|",yaxt="n",ylim=c(-0.1,2.1),cex.lab=1.5,xlim=c(1.9,14.5),cex.axis=1.5)
@@ -313,7 +254,7 @@ text(tab_answer[idx,'Dimension'],log10(as.numeric(tab_answer[idx,"MeanIntra"])/a
 legend("bottomright",leg=c('sparsity<0.65',expression("0.65"<="sparsity<0.75"),expression('sparsity'>='0.75')),pt.bg=c("cyan","blue","darkorchid"),pch=c(21,22,23),bty='n',cex=1.5,lty=NA,lwd=1)
 dev.off()
 
-##Comparing mean b_ij with all coefficients and only the same number of coefficients as b_ii
+##Comparing mean b_ij with all coefficients and only the same number of coefficients as b_ii. This is not used anymore.
 pdf("Comparison_mean.pdf")
 par(mfrow=c(1,1))
 x=as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanInter"])
