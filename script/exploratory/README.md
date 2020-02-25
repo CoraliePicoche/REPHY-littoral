@@ -1,6 +1,5 @@
 This folder contains exploratory analyses which were not used in the final paper. 
 
-## To keep
 * `abundance_proportion.r` compares the proportion of diatoms and dinoflagellates, and computes the proportion of studied genera against the total population
 * `comparaison_REPHY_SRN.r` compares the data from the REPHY monitoring and the SRN monitoring
 * `compare_evt_interaction.r` shows the mean effect of the environment (using both temperature and salinity at the same time) against the mean strength of inter- and intra-group interaction strength in each site
