@@ -237,7 +237,7 @@ symbol[as.numeric(tab_answer[,"Prop signif"])>=0.65]=22
 symbol[as.numeric(tab_answer[,"Prop signif"])>=0.75]=23
 
 #This shows the ratio intra to inter against the number of taxa in the study (Fig. 4 in the main text)
-pdf('~/Documents/Plankton/REPHY_littoral/article/submit_JEcol/response_R2/Ratio_function_dim_tmp_withoutBarraquand_et_al_2018.pdf',,width=10,height=8)
+pdf('./Ratio_function_dim_tmp_withoutBarraquand_et_al_2018.pdf',,width=10,height=8)
 par(mfrow=c(1,1),mar=c(4,4.5,1,1))
 plot(tab_answer[,"Dimension"],log10(as.numeric(tab_answer[,"MeanIntra"])/as.numeric(tab_answer[,"MeanSignif"])),t="p",pch=symbol,bg=cod_cod,col="black",cex=2,xlab="Number of taxa",ylab="|intra|/|inter|",yaxt="n",ylim=c(-0.1,2.1),cex.lab=1.5,xlim=c(1.9,14.5),cex.axis=1.5)
 axis(2,at=c(0,log10(5),1,log10(50),2),lab=c("1","5","10","50","100"),cex.axis=1.5)
