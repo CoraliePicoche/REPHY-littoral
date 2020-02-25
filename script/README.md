@@ -24,7 +24,7 @@ The main analyses are as follows.
 *  `quantif_unconstrained.r` computes number of indicators on the unconstrained matrices and compares them to the more constrained pennate-centric interaction matrices used in the main paper. It produces the results for section *Comparison with a full interaction matrix* in the supporting information
 *  `regulation_vs_abundance.r` shows the self-regulation/intraspecific interaction strength against the abundances of each groups of species, producing Fig. S7 in the supporting information 
 *  `time_series_SI.r` shows the time series of the 5 most abundant groups of species at each site (Fig. S2)
-*  `compare_logB.r` compares log(B) and B-I where B is the interaction matrix obtained from MAR analyses. This is detailed in section *Connection to continuous-time models* in the supporting information
+*  `compare_logB.r` compares log(B) and B-I where B is the interaction matrix obtained from MAR analyses and produces Fig. S11. This is detailed in section *Connection to continuous-time models* in the supporting information
 *  `ratio_abundances_conversion_MARBH.r` computes the ratios of abundances at equilibrium to compare orders of magnitude of the interaction strengths between MAR and Beverton-Holt models (discussed in the section *Connection to Lotka-Volterra competition dynamics* in the supporting information'
 
 
