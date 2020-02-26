@@ -109,8 +109,8 @@ for (t in 1:length(total_taxa)){
 	}
 }
 
-write.table(final_pencen,"db_taxonomy_REPHY.csv",sep=";",row.names=FALSE,col.names=TRUE,append=FALSE)
-save(final_pencen,file="taxonomy_pencen.RData")
+write.table(final_pencen,"./data/taxonomy/db_taxonomy_REPHY.csv",sep=";",row.names=FALSE,col.names=TRUE,append=FALSE)
+save(final_pencen,file="./data/taxonomy/taxonomy_pencen.RData")
 
 plot(0,0,t="n",xlim=c(0,dim(final_pencen)[2]),ylim=c(0,dim(final_pencen)[1]))
 for (l in 2:dim(final_pencen)[2]){

@@ -9,7 +9,7 @@ rm(list=ls())
 
 matrix_classif=function(file_corres,which_taxo){
 	require("stringr")
-	load("taxonomy_pencen.RData") #final_pencen =c("Name_REPHY","Phylum","Subphylum","Infraphylum","Class","Subclass","Order","Family","Genus")
+	load("./data/taxonomy/taxonomy_pencen.RData") #final_pencen =c("Name_REPHY","Phylum","Subphylum","Infraphylum","Class","Subclass","Order","Family","Genus")
 	tab_corres=read.table(file_corres,header=TRUE,sep=";")
 	matrix_tmp=matrix(0,nrow=dim(final_pencen)[1],ncol=1+dim(tab_corres)[1]+1)
 	colnames(matrix_tmp)=c("Name_REPHY",as.character(tab_corres$Code),"NEI")
@@ -37,7 +37,7 @@ matrix_classif=function(file_corres,which_taxo){
 	return(matrix_tmp)
 }
 
-ff=c('corres_hernandez')
+ff=c('./data/taxonomy/corres_hernandez')
 #ff=c('corres_Arcachon','corres_hernandez')
 for (file_corres in ff){
 matrix_corres=matrix_classif(paste(file_corres,'.csv',sep=""),"Genus")

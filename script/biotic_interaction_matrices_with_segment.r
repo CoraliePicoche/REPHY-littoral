@@ -15,7 +15,7 @@ fac_axis=2.3
 alwd=2.5
 apc=2
 
-corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
+corres=read.table(paste("./data/taxonomy/corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
 option_model=c("pencen")
 #option_model=c("unconstrained")

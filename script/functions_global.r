@@ -303,7 +303,7 @@ return(abundance_bis)
 
 #On veut avoir toutes les espèces correspondant à un ensemble de critère, et pour une classification donnée. Par exemple, toutes les diatomées au niveau du genre ; ou encore toutes les diatomées formant des colonies au niveau des familles ; ou encore tous les dinoflagellés formant des familles, classées en régime alimentaire. On lui passera donc abundance raw, avec les sous-groupes que l'on retrouve dans atlas
 sous_groupe_advanced=function(critere,classification,tableau){
-	load("/home/cpicoche/Documents/Plankton/data/treated/atlas.RData")
+	load("./data/taxonomy/atlas.RData")
 #Vérification de cohérence entre les entrées et ce qui est disponible dans l'atlas
 	li_sp1=colnames(tableau)
 	li_sp2=atlas$ID
@@ -336,7 +336,7 @@ sous_groupe_advanced=function(critere,classification,tableau){
 #Maintenant, on classe au niveau demandé
 #Si la classification est taxonomique, on utilise les matrices déjà calculées (c'est plus pratique pour les regroupements au niveau du genre, par exemple)
 	if (sum(grepl(classification,c("class","order","family","genus")))>0){
-		load("/home/cpicoche/Documents/Plankton/data/treated/correspondance_taxonomy.RData")
+		load("./data/taxonomy/correspondance_taxonomy.RData")
 		eval(parse(text=paste("ab=tableau%*%Mcorres_",classification,sep="")))
 		TOTO=rowSums(ab)
 		co=order(colSums(ab,na.rm=TRUE)/sum(TOTO,na.rm=TRUE),decreasing=TRUE)

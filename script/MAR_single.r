@@ -21,7 +21,7 @@ which_timestep="regular" #for now, only regular is implemented, but I do think w
 which_sp="common" #can be single (species depend on each site) or "common" (species are the ones in all sites)
 cov_squared=TRUE #take into account T+T^2 and SALI+SALI^2 to have an idea of the niche
 
-corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
+corres=read.table(paste("./data/taxonomy/corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
 tab_sp=read.table('data/lieu_sp_post_reconstruct_pour_MAR.csv',header=TRUE,na.strings="",sep=";")
 lieu=colnames(tab_sp)

@@ -13,7 +13,7 @@ cov_squared=TRUE #take into account T+T^2 and SALI+SALI^2 to have an idea of the
 set.seed(42)
 model_option=c("unconstrained","null","pencen")
 #model_option=c("inter") #for now, can be "null", "unconstrained" and "pencen"
-corres=read.table(paste("corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
+corres=read.table(paste("./data/taxonomy/corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
 sp=c("AST","NIT","PSE","SKE","CHA","GUI","LEP","RHI","GYM","PRP","CRY","EUG")
 #sp=c("CHA","PSE","SKE","PRP")
