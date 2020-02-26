@@ -24,7 +24,7 @@ unique_element=function(x){
 	return(tmp)
 }
 
-load("taxonomy_pencen.RData") #final_pencen =c("Name_REPHY","Phylum","Subphylum","Infraphylum","Class","Subclass","Order","Family","Genus")
+load("./data/taxonomy/taxonomy_pencen.RData") #final_pencen =c("Name_REPHY","Phylum","Subphylum","Infraphylum","Class","Subclass","Order","Family","Genus")
 xi=2:dim(final_pencen)[2]-1
 xi_label=dimnames(final_pencen)[[2]][2:dim(final_pencen)[2]]
 
