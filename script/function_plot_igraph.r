@@ -162,12 +162,12 @@ function_plot_igraph=function (x, axes = FALSE, add = FALSE, xlim = c(-1, 1), yl
             if (arr == 1 || arr == 3) {
                 igraph:::igraph.Arrows(p[1, ncol(p) - 1], p[2, ncol(p) - 
                   1], p[1, ncol(p)], p[2, ncol(p)], sh.col = color, 
-                  h.col = color, size = arrow.size, sh.lwd = width, 
+                  h.col = color, size = arrow.size*0.01, sh.lwd = width, 
                   h.lwd = width, open = FALSE, code = 2, width = arr.w)
             }
             if (arr == 2 || arr == 3) {
                 igraph:::igraph.Arrows(p[1, 2], p[2, 2], p[1, 1], p[2, 
-                  1], sh.col = color, h.col = color, size = arrow.size, 
+                  1], sh.col = color, h.col = color, size = arrow.size*0.01, 
                   sh.lwd = width, h.lwd = width, open = FALSE, 
                   code = 2, width = arr.w)
             }
