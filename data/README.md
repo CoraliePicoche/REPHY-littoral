@@ -14,6 +14,8 @@ The *subsite_specific* folder contains MAR estimates for groups of species that 
 The *site_specific* folder contains MAR estimates for groups of species that are common to all subsites for the same location (for instance, species are the same for Auger, Cornard and LEperon because they are all in Marennes-Oléron). For the Mediterraen sites, in addition to boostrapping, confidence intervals were built with the Hessian matrix in order to assess the difference of intervals between boostraps and Hessian.
 The *common* folder contains two types of estimates, depending on the addition of Arcachon addition. The files with the word "reduced" in their name only use groups of species that are well resoled for each of the 4 locations (meaning that there are only 4 groups). The others did not take into account Arcachon and consider 6 groups of species, but they were only exploratory and coefficients were not tested for signifiance in this case. 
 
+The *taxonomy* folder contains the basic correspondance files between groups of species, their codes, and their guild (that is pennate or centric diatoms, dinoflagellates, or other).
+
 Finally, this folder also contains other files:
 - all the files beginning with "corres_hernandez" are the ones that are currently used in the MAR estimates, using groups from Tania Hernandez et al. (2015). Files from Arcachon are Teychan_base.csv and B7_base.csv
 - all the files ending with "hyro.txt" contain all covariate variables from REPHY monitoring, for the site we decided to study
