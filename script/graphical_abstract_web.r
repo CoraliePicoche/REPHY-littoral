@@ -52,7 +52,7 @@ for (i in 1:length(E(g)$weight)){
 #                essai_width[i]=sqrt(abs(E(g)$weight[i]))
         }
 }
-essai_width=essai_width*50
+essai_width=essai_width*60
 
 #The plot changes according to the algorithm output: I chose the seed
 set.seed(4) #I want to avoid the central positioning of one of the group in the vizualisation
@@ -81,12 +81,12 @@ val=seq(x[1],-(2*pi-x[1]-(2*pi)/length(id)),length.out=length(id))
 x[id]=val
 
 
-pdf("article/submit_JEcol/response_R3/comparison_graphical_abstract_prop.pdf",width=7.5,height=7.5)
-par(mar=c(0.5,0,0,0),mfrow=c(1,1))
-#function_plot_igraph(g,edge.curved=.2,edge.arrow.size=.5,layout=l,edge.width=essai_width,edge.loop.angle=x,vertex.size=20,edge.lty=ltype)
-#l=layout_with_dh(g,weight.edge.lengths=0.0001) #Tried all layouts, this one is the best in our case.
-#function_plot_igraph(g,edge.curved=.2,edge.arrow.size=.5,layout=l,edge.width=essai_width,vertex.size=20,edge.lty=ltype,label=sp)
+pdf("article/submit_JEcol/response_R3/comparison_graphical_abstract_prop.pdf",width=15,height=15)
+par(mar=c(2,2,2,2),mfrow=c(3,3))
 l=layout_in_circle(g) #I like this one
-function_plot_igraph(g,edge.curved=.2,edge.arrow.size=.5,layout=l,edge.width=essai_width,vertex.size=20,edge.lty=ltype,label=sp,edge.loop.angle=x,vertex.color=adjustcolor("seagreen1", alpha.f = 1))
-legend(x=-0.25,y=0.,c("+","-"),col=c("blue","red"),lty=c(2,1),cex=2,lwd=3,bty="n",text.col=c("blue","red"))
+col1=c("cyan3","coral3","blueviolet","darkorchid","chartreuse3","indianred3","lightsalmon","maroon4","orangered2")
+for (c in col1){
+function_plot_igraph(g,edge.curved=.2,edge.arrow.size=.5,layout=l,edge.width=essai_width,vertex.size=20,edge.lty=ltype,label=sp,edge.loop.angle=x,vertex.color=adjustcolor(c, alpha.f =.75),vertex.frame.color=NA)
+legend(x=-0.25,y=0.,c("+","-"),col=c("red","black"),lty=c(2,1),cex=2,lwd=3,bty="n",text.col=c("red","black"))
+}
 dev.off()

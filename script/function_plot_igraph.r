@@ -80,9 +80,12 @@ function_plot_igraph=function (x, axes = FALSE, add = FALSE, xlim = c(-1, 1), yl
         else {
             vs <- rep(vertex.size, length = vcount(graph))[v]
         }
-        igraph.polygon(layout[v, , drop = FALSE], vertex.size = vs, 
+        #igraph::igraph.polygon(layout[v, , drop = FALSE], vertex.size = vs, 
+        #    expand.by = mark.expand[g]/200, shape = mark.shape[g], 
+        #   col = mark.col[g], border = mark.border[g])
+        polygon(layout[v, , drop = FALSE], vertex.size = vs, 
             expand.by = mark.expand[g]/200, shape = mark.shape[g], 
-            col = mark.col[g], border = mark.border[g])
+            col = mark.col[g], border = "red")
     }
     el <- as_edgelist(graph, names = FALSE)
     loops.e <- which(el[, 1] == el[, 2])
@@ -157,7 +160,7 @@ function_plot_igraph=function (x, axes = FALSE, add = FALSE, xlim = c(-1, 1), yl
         plot.bezier <- function(cp, points, color, width, arr, 
             lty, arrow.size, arr.w) {
             p <- compute.bezier(cp, points)
-            polygon(p[1, ], p[2, ], border = color, lwd = width, 
+            polygon(p[1, ], p[2, ], border = ec, lwd = width, 
                 lty = lty)
             if (arr == 1 || arr == 3) {
                 igraph:::igraph.Arrows(p[1, ncol(p) - 1], p[2, ncol(p) - 
