@@ -11,12 +11,37 @@ library("stringr") #For string handling
 source("script/function_plot_igraph.r") #I had to change a bit the igraph plot in order to modify the self-loop
 source("script/matrix_MAR_clean.r")
 
+groupe=c("BZ","MO","AR","SU")
+col1=c("cyan3","coral3","blueviolet","darkorchid","chartreuse3","indianred3","lightsalmon","maroon4","orangered2")
+pdf("article/submit_JEcol/response_R3/comparison_graphical_abstract_prop_all_sites.pdf",width=15,height=15)
+par(mar=c(2,2,2,2),mfrow=c(3,3))
 
+id_lieu=0
+for (gr in groupe){
+        if(gr=="BZ"){
+                option_lieu=c("Men er Roue","Loscolo","Croisic")
+                #colo=c(colo,rep("green",length(option_lieu)))
+                #pch_sty=c(pch_sty,rep(15,length(option_lieu)))
+        }else if(gr=="MO"){
+                option_lieu=c("LEperon","Cornard","Auger")
+                #colo=c(colo,rep("darkblue",length(option_lieu)))
+                #pch_sty=c(pch_sty,rep(16,length(option_lieu)))
+        }else if(gr=="SU"){
+                option_lieu=c("Antoine","Lazaret")
+                #colo=c(colo,rep("darkred",length(option_lieu)))
+                #pch_sty=c(pch_sty,rep(17,length(option_lieu)))
+        }else if(gr=="AR"){
+ #               option_lieu=c("Teychan","B7")
+                option_lieu=c("Teychan")
+                #colo=c(colo,rep("cyan",length(option_lieu)))
+                #pch_sty=c(pch_sty,rep(18,length(option_lieu)))
+        }
+        for (ll in 1:length(option_lieu)){
+	id_lieu=id_lieu+1
 
-site="Auger"
-g="MO"
+site=option_lieu[ll]
 
-f1=paste("data/analyse_MAR/",g,"/site_specific/",site,"_pencen_null_regular_common_",g,".RData",sep="")
+f1=paste("data/analyse_MAR/",gr,"/site_specific/",site,"_pencen_null_regular_common_",gr,".RData",sep="")
 load(f1)
 sp=dimnames(cis$model$data)[[1]] #Studied species
 B=clean_matrix(cis)
@@ -44,7 +69,6 @@ for (i in 1:length(E(g)$weight)){
                 }
         if (E(g)$weight[i]>0) {
                 E(g)$color[i]='red'
-                E(g)$color[i]='royalblue'
                 ltype[i]=2
                 essai_width[i]=log10(1+abs(E(g)$weight[i]))
  #               essai_width[i]=sqrt(abs(E(g)$weight[i]))
@@ -62,7 +86,7 @@ set.seed(4) #I want to avoid the central positioning of one of the group in the 
 #l=layout_with_dh(g,weight.edge.lengths=0.0001) #Tried all layouts, this one is the best in our case.
 #l=layout_as_star(g) #Too much emphasis on only one species
 #l=layout_as_tree(g) #Does not work
-l=layout_in_circle(g) #I like this one
+#l=layout_in_circle(g) #I like this one
 #l=layout_nicely(g,dim=3) #UGLY
 #l=layout_on_grid(g) #Not nice
 #l=layout_on_sphere(g) #Not readable
@@ -84,21 +108,10 @@ val=seq(x[1],-(2*pi-x[1]-(2*pi)/length(id)),length.out=length(id))
 x[id]=val
 
 
-pdf("article/submit_JEcol/response_R3/comparison_graphical_abstract_prop_colors.pdf",width=15,height=15)
-par(mar=c(2,2,2,2),mfrow=c(3,3))
 l=layout_in_circle(g) #I like this one
-col1=c("cyan3","coral3","blueviolet","darkorchid","chartreuse3","indianred3","lightsalmon","maroon4","orangered2")
-for (c in col1){
+c=col1[id_lieu]
 function_plot_igraph(g,edge.curved=.2,edge.arrow.size=.5,layout=l,edge.width=essai_width,vertex.size=20,edge.lty=ltype,label=sp,edge.loop.angle=x,vertex.color=adjustcolor(c, alpha.f =.75),vertex.frame.color=NA)
 legend(x=-0.25,y=0.,c("+","-"),col=c("red","black"),lty=c(2,1),cex=2,lwd=3,bty="n",text.col=c("red","black"))
 }
-dev.off()
-
-pdf("article/submit_JEcol/response_R3/comparison_graphical_abstract_prop_one_color.pdf",width=7.5,height=7.5)
-par(mar=c(2,2,2,2),mfrow=c(1,1))
-c=c("cyan3")
-function_plot_igraph(g,edge.curved=.2,edge.arrow.size=.5,layout=l,edge.width=essai_width,vertex.size=20,edge.lty=ltype,label=sp,edge.loop.angle=x,vertex.color=adjustcolor(c, alpha.f =.75),vertex.frame.color=NA)
-legend(x=-0.25,y=0.,c("+","-"),col=c("royalblue","black"),lty=c(2,1),cex=2,lwd=3,bty="n",text.col=c("royalblue","black"))
-legend(x=-0.2,y=-0.35,c("0.5","0.05"),col=c("black","black"),lty=c(1),cex=1.5,lwd=60*c(log10(1+0.1),log10(1+0.01)),bty="n",text.col=c("black"))
-
+}
 dev.off()
