@@ -12,7 +12,8 @@ The main analyses are as follows.
 *  `matrix_MAR_clean.r` is a function that takes the MARSS object into an easier-to-treat matrix 
 *  `complexity_stability_MainFig.r` compares the resilience (measured by the dominant eigenvalue) to different network metrics and produces Fig. 2 in the main text
 *  `biotic_interaction_matrices_MainFig_v4.r` produces Fig. 1 in the main text and Fig. S8 in the supporting information (respectively pennate-centric and unconstrained interaction scenario), that is the interaction strengths for all sites in different regions, and shows the percentage of positive interactions among them.  
-*  `generality_vulnerability_MainFig.r` computes the impact and vulnerability of each species, compares them to their self-regulation and produces Fig. 3 in the main text 
+*  `generality_vulnerability_MainFig.r` computes the impact and vulnerability of each species, compares them to their self-regulation and produces Fig. 3 in the main text
+*  `graphical_abstract_*` provide another representation of interaction networks 
 
 #### Supporting Information
 *  `compute_BIC.r` computes the BIC of the MAR models associated to different interaction scenarios based on the phylogeny of all groups of species. It produces Fig. S3 in the suporting information
