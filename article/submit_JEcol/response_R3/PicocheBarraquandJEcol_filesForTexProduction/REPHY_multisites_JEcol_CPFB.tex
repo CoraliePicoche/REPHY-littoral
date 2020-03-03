@@ -5,7 +5,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
-\geometry{verbose,footskip=0.75in}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm} %biorxiv version
+%\geometry{verbose,footskip=0.75in}
 \usepackage{color}
 %\usepackage{float}
 \usepackage{url}
@@ -109,7 +110,8 @@ findings, which paves the way for further research.
 \textbf{Keywords}: phytoplankton; coexistence; facilitation; mutualism;
 niche theory; time series; networks
 
-\linenumbers
+%\linenumbers 
+% for biorxiv
 
 \newpage{}
 
@@ -345,7 +347,8 @@ both; a detailed description of these different ways to compare intra- and inter
 
 \begin{figure}[!ht]
 \centering 
- \includegraphics[width=0.767\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4}
+% \includegraphics[width=0.767\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4}
+\includegraphics[width=0.85\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4} %Biorxiv version
 \caption{\textbf{Interaction matrices estimated in 10 sites along the French
 coastline}. Taxon $j$ (in columns) has an effect on taxon $i$'s growth rate (in rows) proportional to the bar height, which corresponds to the $\mathbf{B}-\mathbf{I}$ matrix (community composition in Table~S2, most parsimonious interaction scenario presented). The scale for the coefficient values is given at the bottom left of panel
 a). Coefficients significantly different from 0 ($\alpha = 5\%$) are marked by asterisks ({*}). The fraction of positive interactions in each matrix is given by points in c) while the dashed (resp., dotted) line represents the ratio of interactions remaining positive (resp., negative) for all sites of a given region.}
@@ -414,7 +417,8 @@ modulus of the interaction matrix eigenvalues remained between 0.65
 and 0.80.
 
 \begin{figure}[!ht]
-\centering{}\centering \includegraphics[width=1\textwidth]{complexity_stability_MainFig_pencenjustB_with_E_and_SV_with0}
+%\centering \includegraphics[width=1\textwidth]{complexity_stability_MainFig_pencenjustB_with_E_and_SV_with0}
+\centering \includegraphics[width=0.8\textwidth]{complexity_stability_MainFig_pencenjustB_with_E_and_SV_with0} %biorxiv
 \caption{\textbf{Relation between stability and complexity of the interaction
 networks.} The maximum modulus of the eigenvalues of the interaction
 matrix $\mathbf{B}$ indicates stability \emph{sensu} resilience. Off-diagonal coefficient variance is multiplied by the dimension of the network, that is the number of species in the region.
@@ -463,7 +467,8 @@ other than a mean-variance scaling of interaction coefficients (Fig.~S6).
 \subsection*{Literature comparison}
 
 \begin{figure*}[!h]
-\centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim_tmp_withoutBarraquand_et_al_2018}
+%\centering \includegraphics[width=0.8\linewidth]{Ratio_function_dim_tmp_withoutBarraquand_et_al_2018}
+\centering \includegraphics[width=0.75\linewidth]{Ratio_function_dim_tmp_withoutBarraquand_et_al_2018} %biorxiv
 \caption{\textbf{Ratio of intra- to inter-group interaction strength in Multivariate
 AutoRegressive (MAR) models.} The reference for each study is given
 in Table~S4. Codes beginning with letters correspond to the present
@@ -696,16 +701,14 @@ because the turbulent, ever-changing aquatic environment imposes additional cons
 
 \subsubsection*{Acknowledgements}
 
-This study was only made possible by the dedication of the members
-of the REPHY program by Ifremer \citep{REPHY_db}, providing invaluable
-data through years of fieldwork. We are grateful to David Murrell
-for his careful reading and suggestions, and to Peter Adler for helpful exchanges. We also want to thank Bérangère Péquin for constructive comments, as well as Gyuri Barabás whose thoughtful suggestions improved the connection made to continuous-time stability theory. This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
+This study was only made possible by the dedication of the members of the REPHY program by Ifremer \citep{REPHY_db}, providing invaluable
+data through years of fieldwork. We are grateful to David Murrell for his careful reading and suggestions, and to Peter Adler for helpful exchanges. We also want to thank Bérangère Péquin for constructive comments, as well as Gyuri Barabás whose thoughtful suggestions improved the connection made to continuous-time stability theory. This study was supported by the French ANR through LabEx COTE (ANR-10-LABX-45).
 
 \subsubsection*{Supporting Information}
 This article contains supporting information.
 
 \subsubsection*{Authors' contributions}
-CP and FB contributed equally to the project design and the methodology. The computer code was written by CP. The authors jointly interpreted the results and co-wrote the manuscript after an early draft by FB.\\
+CP and FB contributed equally to the project design and the methodology. The computer code was written by CP. The authors jointly interpreted the results and co-wrote the manuscript after an early draft by FB.
 
 \subsubsection*{Data accessibility} The REPHY dataset has already been published
 \citep{REPHY_db}. All scripts for MAR models and subsequent network analyses
