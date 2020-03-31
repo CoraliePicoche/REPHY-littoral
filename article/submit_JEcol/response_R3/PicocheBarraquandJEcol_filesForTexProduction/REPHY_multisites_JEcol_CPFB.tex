@@ -130,7 +130,7 @@ producers that seemingly share the same basic resources \citep{hutchinson_parado
 Many theoretical studies of competition models have shown that competitive
 exclusion is likely in those circumstances, unless mechanisms involving
 spatial or temporal variation are at play \citep{armstrong1976coexistence,armstrong1980competitive,chesson_roles_1997,huisman_biological_2001,li_effects_2016,chesson_updates_2018}.
-Neutral theory, assuming that all individuals have equal birth and death rates and exert equal competitive pressure on conspecifics and heterospecifics alike, produces a non-equilibrium coexistence maintained by dispersal from a regional pool. It has been proposed as a solution to the puzzle presented by highly diverse communities \citep{hubbell_unified_2001,rosindell2011unified}. 
+Neutral theory models, assuming that all individuals have equal birth and death rates and exert equal competitive pressure on conspecifics and heterospecifics alike, produce instead a non-equilibrium coexistence maintained by dispersal from a regional pool. They have been proposed as a solution to the puzzle presented by highly diverse communities \citep{hubbell_unified_2001,rosindell2011unified}. 
 
 However, the evidence gathered from terrestrial plant communities
 starts to suggest that, in fact, niche rather than neutral processes
@@ -237,16 +237,16 @@ case (temperature and salinity). The noise $\mathbf{e}_{t}$ is a
 $1\times S$ noise vector, following a multivariate normal distribution with a variance-covariance
 matrix $\mathbf{Q}$. $\mathbf{Q}$ is diagonal and we have previously
 showed that this parsimonious choice did not affect qualitatively
-the results \citep{barraquand_coastal_2018}. We used the MARSS package
-\citep{holmes_analysis_2014} v3.9, in R v3.3.2 \citep{venables_r_2013},
+the results \citep{barraquand_coastal_2018}. We used the MARSS package v3.9
+\citep{holmes_marss_2012,holmes_analysis_2014}, in R v3.3.2 \citep{venables_r_2013},
 to estimate parameters with a maximum likelihood procedure.
 
 Our previous analysis of the Arcachon region, for which more covariables
 were available \citep{barraquand_coastal_2018}, revealed that hydrodynamics
 and hydrology had more influence on phytoplankton dynamics than nutrients
-on the two-week timescale. Because temperature and salinity sum up
-seasonal changes in light as well as hydrology (salinity is inversely
-related to freshwater inflow), these represent the two key drivers
+on the two-week timescale. Because temperature and salinity, in addition to their direct effects, sum up
+seasonal changes in light and hydrology (salinity is inversely
+related to freshwater inflow), they represent the two key drivers
 needed to account for abiotic influences \citep{scheef_inferring_2013}.
 They are therefore used to summarize the abiotic environment in the
 remainder of the article.
@@ -322,15 +322,14 @@ on raw values of the coefficients. Interaction coefficient variance is multiplie
 In addition to these network-level metrics, we also computed the average
 vulnerability (average effect of other taxa on a focal taxon, eq.~S5)
 and impact (average effect of a focal taxon on other taxa, eq.~S6)
-on both raw and absolute values of the coefficients. Vulnerability
+on both raw and absolute values of the interaction coefficients. Vulnerability
 and impact can be related to in-strength and out-strength in the meta-analysis
 of \citet{kinlock_meta-analysis_2019}. We then compared these to
-the regulation a focal species exerted on itself. Raw values indicate
+the regulation a focal species exerted on itself. Vulnerability computed on raw coefficient values indicate
 the average effect that can be expected on the growth rate of a taxon
 from the rest of the community (i.e., is the effect of others mostly
-positive or negative?), while absolute effects characterise the strength
-of all types of interactions on a taxon (i.e., is a taxon strongly
-affected by the others?).
+positive or negative?), while vulnerability computed on absolute coefficient values characterise the strength
+of all types of interactions on a taxon (i.e., is a taxon strongly affected by the others?).
 
 Finally, we compared the observed ratio between mean self-regulation
 (intrataxon interaction strength) and mean intertaxa interaction strength
@@ -484,7 +483,7 @@ systems, giving a lower bound for the intra/inter ratio. Intertaxa
 interactions were set to 0 when they were not specified in the articles
 (in most cases, authors removed non-significant interactions at the
 5\% level; Fig.~S9 is the same figure taking into account only
-significant interactions)}
+significant interactions).}
 \label{fig:meta_ratio} 
 \end{figure*}
 
