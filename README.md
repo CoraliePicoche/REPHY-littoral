@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/98662883.svg)](https://zenodo.org/badge/latestdoi/98662883)
+
+
 This repository contains all data, scripts and versions of *Strong self-regulation and widespread facilitative interactions in phytoplankton communities* (Picoche & Barraquand). We analyse the interaction matrices of phytoplankton communities, based on multivariate autoregressive (MAR) models and time series of phytoplankton counts. 
 
 **Overview**
