@@ -324,20 +324,20 @@ dimension of the interaction matrix and can be used to compare network
 in different regions, with different dimensions.
 
 In addition to this network-level metric, we also considered metrics
-for each phytoplanktonic taxa. We measured both its vulnerability
+for each phytoplanktonic taxa. We measured both its average vulnerability score
 (mean strength of the interactions that are applied to a taxon, eq.~\ref{eq:vulnerability})
-and its impact (mean strength of the interactions the taxon applies
+and its average impact score (mean strength of the interactions the taxon applies
 to other taxa, eq.~\ref{eq:impact}) in each network.
 
 \begin{equation}
-v_{k}=\mathnormal{\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
+v_{k}=\mathnormal{\frac{1}{\sum_{i=1}^{S} \boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}}}\sum_{i=1}^{S}b_{ki}\label{eq:vulnerability}
 \end{equation}
 
 \begin{equation}
-e_{k}=\frac{1}{\boldsymbol{1}_{\mathnormal{b_{ik}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
+e_{k}=\frac{1}{\sum_{i=1}^{S} \boldsymbol{1}_{\mathnormal{b_{ik}\neq0}}}\sum_{i=1}^{S}b_{ik}\label{eq:impact}
 \end{equation}
 
-where $\boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}$ is the number of
+where $\sum_{i=1}^{S} \boldsymbol{1}_{\mathnormal{b_{ki}\neq0}}$ is the number of
 interactions which are different from 0 in row $k$.
 
 \subsection*{Comparison with a full interaction matrix}
