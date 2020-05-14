@@ -97,6 +97,7 @@ for (g in groupe){
 	}
 }
 
+if(1==0){
 pdf(paste("./article/graphe/complexity_stability_MainFig_compare_unconstrained_pencen_justB_log2.pdf",sep=""),width=12,height=5)
 par(mfrow=c(1,3),mar=c(2,2,0.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
@@ -174,39 +175,38 @@ print(summary(results[,'stability','pencen']))
 print(results[,'vulnerability.LL','pencen'])
 print(results[,'generality.HL','pencen'])
 #End 1==0
-
-
+}
 for (m in 1:length(option_model)){
-	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_with_E_and_SV_with0.pdf",sep="")
+	filename=paste("complexity_stability_MainFig_",option_model[m],"justB_with_E_and_SV_with0_corrected_for_JEcol.pdf",sep="")
         pdf(paste("./article/graphe/",filename,sep=""),width=12,height=12)
         #par(mfrow=c(1,3),mar=c(2,2,0.75,0.5),oma=c(3,3,2,0.5),xpd=NA)
-        par(mfrow=c(2,2),mar=c(4.5,2,1.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
+        par(mfrow=c(2,2),mar=c(5,2.5,1.5,0.5),oma=c(3,3,2,0.5),xpd=NA)
 
 yli1=min(c(results[,"stability",option_model[m]]))
 yli2=max(c(results[,"stability",option_model[m]]))
 
 xli1=min(c(results[,"positive",option_model[m]]))*100
 xli2=max(c(results[,"positive",option_model[m]]))*100
-plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab=expression(paste("max(|",lambda,"|)",sep="")),cex.axis=2,cex.lab=2,tck=-0.0075)
-mtext("a)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+plot(results[,"positive",option_model[m]]*100,results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="% positive values",ylab=expression(paste("Max(|",lambda,"|)",sep="")),cex.axis=2*1.2,cex.lab=2*1.2,tck=-0.0075)
+mtext("(a)",side=3,cex=2*1.2,xpd=NA,font=1,line=1,adj=0)
 legend('topleft',c("Brittany","Oléron","Arcachon","Mediterranean"),pch=c(15,16,17,18),col=c("green","darkblue","cyan","darkred"),bty="n",cex=2)
 
 xli1=min(c(results[,"weighted connectance",option_model[m]]))
 xli2=max(c(results[,"weighted connectance",option_model[m]]))
-plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="weighted connectance",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
-mtext("b)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+plot(results[,"weighted connectance",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="Weighted connectance",ylab="",yaxt="n",cex.axis=2*1.2,cex.lab=2*1.2,tck=-0.0075)
+mtext("(b)",side=3,cex=2*1.2,xpd=NA,font=1,line=1,adj=0)
 
 xli1=min(c(results[,"E",option_model[m]]))
 xli2=max(c(results[,"E",option_model[m]]))
-plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="mean off-diagonal coefficients",ylab=expression(paste("max(|",lambda,"|)",sep="")),cex.axis=2,cex.lab=2,tck=-0.0075)
-mtext("c)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="Mean off-diagonal coefficients",ylab=expression(paste("Max(|",lambda,"|)",sep="")),cex.axis=2*1.2,cex.lab=2*1.2,tck=-0.0075)
+mtext("(c)",side=3,cex=2*1.2,xpd=NA,font=1,line=1,adj=0)
 
 xli1=min(c(results[,"SV",option_model[m]]))
 xli2=max(c(results[,"SV",option_model[m]]))
-plot(results[,"SV",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="S x off-diagonal coefficient variance ",ylab="",yaxt="n",cex.axis=2,cex.lab=2,tck=-0.0075)
-mtext("d)",side=3,cex=1.5,xpd=NA,font=2,line=1,adj=0)
+plot(results[,"SV",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="S x off-diagonal coefficient variance ",ylab="",yaxt="n",cex.axis=2*1.2,cex.lab=2*1.2,tck=-0.0075)
+mtext("(d)",side=3,cex=2*1.2,xpd=NA,font=1,line=1,adj=0)
 
 dev.off()
 }
-system(paste("cp article/graphe/",filename," article/submit_JEcol/response/",filename,sep=""))
+#system(paste("cp article/graphe/",filename," article/submit_JEcol/response/",filename,sep=""))
 

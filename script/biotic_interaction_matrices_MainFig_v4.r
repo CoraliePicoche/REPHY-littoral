@@ -19,18 +19,19 @@ apc=2
 
 corres=read.table(paste("./data/taxonomy/corres_hernandez.csv",sep=''),sep=";",na="NA",header=TRUE)
 
-#option_model=c("pencen")
-option_model=c("unconstrained")
+option_model=c("pencen")
+#option_model=c("unconstrained")
 option_NEI=c("null")
 groupe=c("BZ","MO","AR","SU")
 llieux=c()
 groupe_nice=c("Brittany","Oléron","Arcachon","Mediterranean")
-let=c("a)","b)","d)","e)")
+let=c("(a)","(b)","(d)","(e)")
 option_sp="common"
 max_sp=16
 
 #pdf("article/graphe/biotic_interaction_matrices_MainFig_allin1_v4.pdf",height=24,width=18)
-pdf("article/submit_JEcol/response/biotic_interaction_matrices_unconstrained.pdf",height=24,width=18)
+#pdf("article/submit_JEcol/response/biotic_interaction_matrices_unconstrained_corrected_for_JEcol.pdf",height=24,width=18)
+pdf("article/graphe/biotic_interaction_matrices_pencen_corrected_for_JEcol.pdf",height=24,width=18)
 par(mar=c(7.5,6.,5,3),oma=c(0.1,2.5,.5,0.5))
 layout(matrix(c(1,1,2,2,1,1,2,2,5,5,5,5,3,3,4,4,3,3,4,4),5,4,byrow=TRUE))
 color=c("black","blue","red")
@@ -96,7 +97,7 @@ for (gg in 1:length(groupe)){
 			text(1.+7*pm,1+fact*.5,"0.5",cex=3.0)
 			text(1.+17*pm,1+fact*.45,expression("b"["ij"]),cex=3.5)#,srt=90)
 			}
-			mtext(let[gg],side=3,cex=2.0,xpd=NA,font=2,line=2.0,adj=0)
+			mtext(let[gg],side=3,cex=2.0,xpd=NA,font=1,line=2.0,adj=0)
 	                axis(2,at=grad_sp,lab=rev(sp),cex.axis=fac_axis,las=2)
                         axis(1,at=grad_sp,lab=c(sp),cex.axis=fac_axis,las=2)
                         for (i in 1:length(sp)){
