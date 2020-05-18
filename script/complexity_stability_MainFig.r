@@ -198,7 +198,7 @@ mtext("(b)",side=3,cex=2*1.2,xpd=NA,font=1,line=1,adj=0)
 
 xli1=min(c(results[,"E",option_model[m]]))
 xli2=max(c(results[,"E",option_model[m]]))
-plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="Mean off-diagonal coefficients",ylab=expression(paste("Max(|",lambda,"|)",sep="")),cex.axis=2*1.2,cex.lab=2*1.2,tck=-0.0075)
+plot(results[,"E",option_model[m]],results[,"stability",option_model[m]],t="p",pch=pch_sty,cex=3,col=colo,ylim=c(yli1,yli2),xlim=c(xli1,xli2),xlab="Mean off-diagonal coefficient",ylab=expression(paste("Max(|",lambda,"|)",sep="")),cex.axis=2*1.2,cex.lab=2*1.2,tck=-0.0075)
 mtext("(c)",side=3,cex=2*1.2,xpd=NA,font=1,line=1,adj=0)
 
 xli1=min(c(results[,"SV",option_model[m]]))
