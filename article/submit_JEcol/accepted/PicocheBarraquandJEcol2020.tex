@@ -6,7 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{helvet}
 \usepackage{geometry}
-\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm} %biorxiv version
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2.3cm,rmargin=2.3cm} %biorxiv version
 %\geometry{verbose,footskip=0.75in}
 \usepackage{color}
 %\usepackage{float}
@@ -14,7 +14,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
-%\usepackage{authblk}
+\usepackage{authblk}
 \usepackage{natbib}
 \usepackage{microtype}
 \usepackage[unicode=true,
@@ -48,12 +48,12 @@
 
 %\renewcommand*{\Affilfont}{\normalsize}
 \title{Strong self-regulation and widespread facilitative interactions in phytoplankton communities}
-\author{Coralie Picoche\textsuperscript{1,2}, Frédéric Barraquand\textsuperscript{1,2{*}}}
-%\author[1,2]{Coralie Picoche}
-%\author[1,2,*]{Frédéric Barraquand}
-%\affil[1]{Integrative and Theoretical Ecology, LabEx COTE, University of Bordeaux, Pessac, France}
-%\affil[2]{Institute of Mathematics of Bordeaux, CNRS, University of Bordeaux, Talence, France}
-%\setlength{\affilsep}{2em}  
+%\author{Coralie Picoche\textsuperscript{1,2}, Frédéric Barraquand\textsuperscript{1,2{*}}}
+\author[1,2]{Coralie Picoche}
+\author[1,2,*]{Frédéric Barraquand}
+\affil[1]{Integrative and Theoretical Ecology, LabEx COTE, University of Bordeaux, Pessac, France}
+\affil[2]{Institute of Mathematics of Bordeaux, CNRS, University of Bordeaux, Talence, France}
+\setlength{\affilsep}{2em}  
 \date{}
 
 \begin{document}
@@ -63,8 +63,8 @@
 \thispagestyle{empty}
 %\doublespacing% for the article
 %\vspace{3em}
-\lyxaddress{1 -- Integrative and Theoretical Ecology, LabEx COTE, University of Bordeaux, Pessac, France}
-\lyxaddress{2 -- Institute of Mathematics of Bordeaux, CNRS, University of Bordeaux, Talence, France}
+%\lyxaddress{1 -- Integrative and Theoretical Ecology, LabEx COTE, University of Bordeaux, Pessac, France}
+%\lyxaddress{2 -- Institute of Mathematics of Bordeaux, CNRS, University of Bordeaux, Talence, France}
 %\vspace{3em}
 
 \section*{Abstract}
@@ -97,7 +97,7 @@ to complexity measures, we unveiled links between self-regulation,
 intergenera interaction strengths and abundance. The less common taxa
 tend to be more strongly self-regulated and can therefore maintain
 in spite of competition with more abundant ones. 
-\item \textit{Synthesis}: We demonstrate that strong niche differentiation, widespread
+\item We demonstrate that strong niche differentiation, widespread
 facilitation between phytoplanktonic taxa and stabilizing covariances
 between interaction strengths should be common features of coexisting
 phytoplankton communities in the field. These are structural properties
@@ -359,7 +359,7 @@ both; a detailed description of these different ways to compare intra- and inter
 \begin{figure}[!ht]
 \centering 
 %\includegraphics[width=0.767\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4}
-\includegraphics[width=0.8\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4} %biorxiv version
+\includegraphics[width=0.85\textwidth]{biotic_interaction_matrices_MainFig_allin1_v4} %biorxiv version
 \caption{\textbf{Interaction matrices estimated at 10 sites along the French
 coastline}. The sites are distributed in 4 regions: (a) Brittany, (b) Oléron, (d) Arcachon, from north to south on the Atlantic coast and (e) Mediterranean (see Supporting Information for a map). Taxon $j$ (in columns) has an effect on taxon $i$'s growth rate (in rows) proportional to the bar height, which corresponds to the $\mathbf{B}-\mathbf{I}$ matrix (community composition in Table~S2, most parsimonious interaction scenario presented). The scale for the coefficient values is given at the bottom left of panel (a). Coefficients significantly different from 0 ($\alpha = 5\%$) are marked by asterisks ({*}). The fraction of positive interactions in each matrix is given by points in (c) while the dashed (resp., dotted) line represents the ratio of interactions remaining positive (resp., negative) for all sites of a given region.}
 \label{fig:Interaction-matrices}
